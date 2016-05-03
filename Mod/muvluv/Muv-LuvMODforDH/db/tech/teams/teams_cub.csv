@@ -1,0 +1,12 @@
+CUB;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+6300;ペドロ・ コウリ研究所;T_CUB_PedroKouriInstitute;3;1960;2100;centralized_execution;chemistry;large_unit_tactics;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6301;アレチャラバ工業会社;T6301;5;1930;2100;general_equipment;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6302;トランスアトランティカ会社;T6302;3;1930;2100;naval_artillery;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6303;フィデル・カストロ;T6305;5;1959;2100;centralized_execution;individual_courage;infantry_focus;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6304;フルヘンシオ・バティスタ;T6303;3;1930;2100;centralized_execution;individual_courage;infantry_focus;large_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6305;革命軍事省;T6307;4;1959;2100;artillery;general_equipment;mechanics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6306;ペドロ・コウリ;T_CUB_Pedro_Kuori;2;1938;2100;centralized_execution;chemistry;large_unit_tactics;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6307;運輸省;T6306;3;1959;2100;general_equipment;industrial_engineering;management;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6308;ユナイテッド・フルーツ社;T5209;2;1930;2100;chemistry;management;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6309;連邦鉄道;T6300;4;1930;2100;general_equipment;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6310;ハバナ大学;T_CUB_UniversidaddeLaHabana;3;1930;2100;chemistry;electronics;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

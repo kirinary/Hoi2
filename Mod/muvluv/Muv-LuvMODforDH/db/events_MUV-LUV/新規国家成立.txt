@@ -1,0 +1,395 @@
+##############################################################
+##
+## 新規国家成立関連イベント(1601~1700)
+##
+##############################################################
+##
+## id = 1601	新国家成立の可否(中米連邦、南米連合)
+## id = 1602	南米統合政府の樹立
+## id = 1603	中米統合政府の樹立
+## id = 1604	南米連合成立
+## id = 1605	中米連邦成立
+## id = 1606	国際連合への加入(南米)
+## id = 1607	国際連合への加入(中米)
+## id = 1608	大東亜統合政府の樹立
+## id = 1609	大東亜連合の成立
+## id = 1610	国際連合への加入(大東亜)
+## id = 1611	アフリカ統合政府の樹立
+## id = 1612	アフリカ連合の成立
+## id = 1613	国際連合への加入(アフリカ)
+##
+##############################################################
+
+event = {
+	id = 1601
+	random = no
+	country = -1
+	trigger = {
+			ai = no
+	}
+
+	name = "新国家成立"
+	desc = "EVT_1601_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "必要"
+		ai_chance = 75
+		command = { type = trigger which = 1602 }
+		command = { type = trigger which = 1603 }
+		command = { type = trigger which = 1611 }
+	}
+	action_b = {
+		name = "必要ない"
+		ai_chance = 20
+		command = { } 
+	}
+}
+
+event = {
+	id = 1602
+	random = no
+	country = BRA
+	trigger = {
+	}
+
+	name = "南米連合統合政府の樹立"
+	desc = "EVT_1602_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 2900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = independence which = U08 value = 1 when = 1 }
+		command = { type = trigger which = 1604 }
+	}
+}
+
+event = {
+	id = 1603
+	random = no
+	country = PAN
+	trigger = {
+			event = 1601
+	}
+
+	name = "中米連邦統合政府の樹立"
+	desc = "EVT_1603_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 2900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = independence which = U09 value = 1 when = 1 }
+		command = { type = trigger which = 1605 }
+	}
+}
+
+event = {
+	id = 1604
+	random = no
+	country = U08
+	trigger = {
+			event = 1602
+	}
+
+	name = "南米連合成立"
+	desc = "EVT_1604_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = inherit which = CHL } # チリ
+		command = { type = inherit which = BRA } # ブラジル
+		command = { type = inherit which = ARG } # アルゼンチン
+		command = { type = inherit which = COL } # コロンビア
+                command = { type = inherit which = VEN } # ベネズエラ
+                command = { type = inherit which = PRU } # ペルー
+		command = { type = inherit which = ECU } # エクアドル
+		command = { type = inherit which = URU } # ウルグアイ
+		command = { type = inherit which = PAR } # パラグアイ
+		command = { type = inherit which = BOL } # ボリビア
+		command = { type = inherit which = TEX } # スリナム
+		command = { type = inherit which = GUY } # ガイアナ
+	}
+}
+
+event = {
+	id = 1605
+	random = no
+	country = U09
+	trigger = {
+			event = 1603
+	}
+
+	name = "中米連邦成立"
+	desc = "EVT_1605_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = inherit which = GUA } # グアテマラ
+		command = { type = inherit which = COS } # コスタリカ
+		command = { type = inherit which = NIC } # ニカラグア
+		command = { type = inherit which = HAI } # ハイチ
+                command = { type = inherit which = SAL } # エルサルバドル
+                command = { type = inherit which = HON } # ホンジュラス
+		command = { type = inherit which = CUB } # キューバ
+		command = { type = inherit which = DOM } # ドミニカ
+		command = { type = inherit which = PAN } # パナマ
+		command = { type = inherit which = MEX } # メキシコ
+	}
+}
+
+event = {
+	id = 1606
+	random = no
+	country = U08
+	trigger = {
+			event = 1604
+	}
+
+	name = "国際連合への加入"
+	desc = "EVT_1606_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = alliance which = U06 }
+		command = { type = war which = U12 }
+	}
+}
+
+event = {
+	id = 1607
+	random = no
+	country = U09
+	trigger = {
+			event = 1605
+	}
+
+	name = "国際連合への加入"
+	desc = "EVT_1607_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = alliance which = U06 }
+		command = { type = war which = U12 }
+	}
+}
+
+event = {
+	id = 1608
+	random = no
+	country = INO
+	trigger = {
+			event = 1601
+	}
+
+	name = "大東亜統合政府の樹立"
+	desc = "EVT_1608_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 2900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = independence which = U04 value = 1 when = 1 }
+		command = { type = trigger which = 1609 }
+	}
+}
+
+event = {
+	id = 1609
+	random = no
+	country = U04
+	trigger = {
+			event = 1608
+	}
+
+	name = "大東亜連合の成立"
+	desc = "EVT_1609_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = inherit which = IND } # インド
+		command = { type = inherit which = INO } # インドネシア
+		command = { type = inherit which = CMB } # カンボジア
+		command = { type = inherit which = SIA } # タイ
+                command = { type = inherit which = PHI } # フィリピン
+                command = { type = inherit which = BUR } # ビルマ
+		command = { type = inherit which = BHU } # ブータン
+		command = { type = inherit which = BRU } # ブルネイ
+		command = { type = inherit which = KOR } # 高麗連邦
+		command = { type = inherit which = MLY } # マレーシア
+		command = { type = inherit which = PAK } # パキスタン
+		command = { type = inherit which = LAO } # ラオス
+		command = { type = inherit which = VIE } # ベトナム
+	}
+}
+
+event = {
+	id = 1610
+	random = no
+	country = U04
+	trigger = {
+			event = 1609
+	}
+
+	name = "国際連合への加入"
+	desc = "EVT_1610_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = alliance which = U06 }
+		command = { type = war which = U12 }
+	}
+}
+
+event = {
+	id = 1611
+	random = no
+	country = EGY
+	trigger = {
+			event = 1601
+	}
+
+	name = "アフリカ統合政府の樹立"
+	desc = "EVT_1611_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 2900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = independence which = U01 value = 1 when = 1 }
+		command = { type = trigger which = 1612 }
+	}
+}
+
+event = {
+	id = 1612
+	random = no
+	country = U01
+	trigger = {
+			event = 1611
+	}
+
+	name = "アフリカ連合の成立"
+	desc = "EVT_1612_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = inherit which = VIC } # 赤道ギニア
+		command = { type = inherit which = WLL } # スワジランド
+		command = { type = inherit which = ALG } # アルジェリア
+		command = { type = inherit which = BEN } # ベナン
+                command = { type = inherit which = CAL } # ニジェール
+                command = { type = inherit which = CAM } # カメルーン
+		command = { type = inherit which = CGX } # ケニア
+		command = { type = inherit which = CON } # コンゴ
+		command = { type = inherit which = CSA } # ウガンダ
+		command = { type = inherit which = CSX } # ルワンダ
+		command = { type = inherit which = CXB } # ブルンジ
+		command = { type = inherit which = CYN } # タンザニア
+		command = { type = inherit which = CYP } # マラウィ
+		command = { type = inherit which = EAF } # ボツワナ
+		command = { type = inherit which = EGY } # エジプト
+		command = { type = inherit which = EQA } # コンゴ共和国
+		command = { type = inherit which = ETH } # エチオピア
+		command = { type = inherit which = EUS } # 中央アフリカ共和国
+		command = { type = inherit which = FLA } # チャド
+		command = { type = inherit which = GAB } # ガボン
+		command = { type = inherit which = GLD } # ガーナ
+		command = { type = inherit which = GUI } # ギニア
+		command = { type = inherit which = KUR } # コートジボワール
+		command = { type = inherit which = LBY } # リビア
+		command = { type = inherit which = LIB } # リベリア
+		command = { type = inherit which = MAD } # マダガスカル
+		command = { type = inherit which = MAL } # マリ連邦
+		command = { type = inherit which = MAN } # ザンビア
+		command = { type = inherit which = MEN } # オートボルタ共和国
+		command = { type = inherit which = MOR } # モロッコ
+		command = { type = inherit which = NIG } # ナイジェリア
+		command = { type = inherit which = QUE } # セネガル
+		command = { type = inherit which = RHO } # ローデシア共和国
+		command = { type = inherit which = RSI } # モーリタニア
+		command = { type = inherit which = SCO } # カーボベルデ
+		command = { type = inherit which = SIE } # シエラレオネ
+		command = { type = inherit which = SOM } # ソマリア
+		command = { type = inherit which = SUD } # スーダン
+		command = { type = inherit which = TRA } # レソト
+		command = { type = inherit which = TUN } # チュニジア
+		command = { type = inherit which = U93 } # トーゴ
+		command = { type = inherit which = U94 } # ガンビア
+	}
+}
+
+event = {
+	id = 1613
+	random = no
+	country = U01
+	trigger = {
+			event = 1612
+	}
+
+	name = "国際連合への加入"
+	desc = "EVT_1612_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = alliance which = U06 }
+		command = { type = war which = U12 }
+	}
+}

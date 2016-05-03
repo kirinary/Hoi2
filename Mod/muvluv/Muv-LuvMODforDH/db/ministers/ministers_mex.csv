@@ -1,0 +1,12 @@
+MEX;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+70001;Head of State;ルイス・エチェベリーア・アルバレス;70;SD;Die-hard Reformer;High;M70001;x
+70002;Head of Government;ルイス・エチェベリーア・アルバレス;70;SD;Industrial Prime;High;M70001;x
+70003;Foreign Minister;エミリオ・オスカル・ラバサ;70;SD;Great Compromiser;High;M70003;x
+70004;Minister of Armament;ウーゴ・マルガイン・グレアソン;70;SD;Resource Industrialist;High;M70004;x
+70005;Minister of Security;マリオ・モヨ・パレンシア;70;SD;Crime Fighter;High;M70005;x
+70006;Head of Military Intelligence;エルメネギルド・クエンカ・ディアス;70;SD;Logistics Specialist;High;M70006;x
+70007;Chief of Staff;参謀総長;70;SD;School of Defence;High;M70007;x
+70008;Chief of Army;エルメネギルド・クエンカ・ディアス;70;SD;Static Defence Doctrine;High;M70006;x
+70009;Chief of Navy;海軍司令官;70;SD;Open Seas Doctrine;High;M70009;x
+70010;Chief of Air Force;空軍司令官;70;SD;Air Superiority Doctrine;High;M70010;x

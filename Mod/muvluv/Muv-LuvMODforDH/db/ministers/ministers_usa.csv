@@ -1,0 +1,189 @@
+USA;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+6001;Head of State;リチャード・M・ニクソン;70;ML;Ruthless Powermonger;High;M6001;x
+6002;Head of Government;スピロ・アグニュー;70;ML;Naive Optimist;High;M6002;x
+6003;Foreign Minister;ウィリアム・P・ロジャーズ;70;ML;Biased Intellectual;High;M6003;x
+6004;Minister of Armament;ジョージ・シュルツ;70;ML;Economist Minister;High;M6004;x
+6005;Minister of Security;リチャード・クラインディーンスト;70;ML;Crime Fighter;Very High;M6005;x
+6006;Head of Military Intelligence;リチャード・ヘルムズ;70;ML;Dismal Enigma;Very High;M6006;x
+6007;Chief of Staff;トーマス・モーラー;70;ML;School of Fire Support;High;M6007;x
+6008;Chief of Army;クレイトン・エイブラムス Jr.;70;ML;Armoured Spearhead Doctrine;High;M6008;x
+6009;Chief of Navy;エルモ・ズムウォルト Jr.;70;ML;Decisive Naval Battle Doctrine;High;M6009;x
+6010;Chief of Air Force;ジョン・ライアン;70;ML;Carpet Bombing Doctrine;High;M6010;x
+6011;Head of State;ジェラルド・フォード;74;ML;Benevolent Gentleman;High;M6011;x
+6012;Head of State;ジェームズ・カーター;76;SL;Die-hard Reformer;High;M6012;x
+6013;Head of State;レスター・マドックス;76;PA;Stern Imperialist;High;M6013;x
+6014;Head of State;ガス・ホール;70;LE;Powerhungry Demagogue;High;M6014;x
+6015;Head of State;ロナルド・レーガン;80;ML;Die-hard Reformer;High;M6015;x
+6016;Head of State;ウォルター・モンデール;84;SL;Benevolent Gentleman;High;M6016;x
+6017;Head of State;ジョージ・H・W・ブッシュ;88;ML;Die-hard Reformer;High;M6017;x
+6018;Head of State;マイケル・デュカキス;88;SL;Irealist Leader;High;M6018;x
+6019;Head of State;ウィリアム・クリントン;88;SL;Barking Buffoon;High;M6019;x
+6020;Head of State;ロバート・ドール;96;ML;Popular Gentleman;High;M6020;x
+6021;Head of State;ジョージ・W・ブッシュ;2001;ML;Barking Buffoon;High;M6021;x
+6022;Head of State;アル・ゴア;2001;SL;Die-hard Reformer;High;M6022;x
+6023;Head of State;ジョン・マケイン;2008;ML;Stern Imperialist;High;M6023;x
+6024;Head of State;バラク・オバマ;2008;SL;Benevolent Gentleman;High;M6024;x
+6025;Head of State;サミュエル・ウェッブ;2000;LE;Pig-headed Isolationist;High;M6025;x
+6026;Head of State;ジョン・ラリック;80;PA;Die-hard Reformer;High;M6026;x
+6027;Head of State;ボブ・リチャーズ;84;PA;Popular Figurehead;High;M6027;x
+6028;Head of State;ハワード・フィリップス;92;PA;Pig-headed Isolationist;High;M6028;x
+6029;Head of State;ミハエル・ペルートカ;2004;PA;Benevolent Gentleman;High;M6029;x
+6030;Head of State;ミット・ロムニー;2012;ML;Benevolent Gentleman;High;M6030;x
+6031;Head of Government;不在;70;ML;Undistinguished Suit;High;M6031;x
+6032;Head of Government;ジェラルド・フォード;70;ML;Silent Workhorse;High;M6011;x
+6033;Head of Government;ネルソン・ロックフェラー;74;ML;Smiling Oilman;High;M6033;x
+6034;Head of Government;ウォルター・モンデール;77;SL;Silent Workhorse;High;M6016;x
+6035;Head of Government;ジョージ・H・W・ブッシュ;80;ML;Silent Workhorse;High;M6017;x
+6036;Head of Government;ダンフォード・クエール;88;ML;Naive Optimist;High;M6036;x
+6037;Head of Government;アル・ゴア;92;SL;Flamboyant Tough Guy;High;M6022;x
+6038;Head of Government;ディック・チェイニー;2000;ML;Party Coordinating;High;M6038;x
+6039;Head of Government;ジョセフ・バイデン;2008;SL;Party Coordinating;High;M6039;x
+6040;Head of Government;ロバート・ドール;76;ML;Silent Workhorse;High;M6020;x
+6041;Head of Government;ジェラルディン・フェラーロ;84;SL;Ambitious Union Boss;High;M6041;x
+6042;Head of Government;ロイド・ベンツェン;88;SL;Industrial Prime;High;M6042;x
+6043;Head of Government;ジャック・ケンプ;96;ML;Happy Amateur;High;M6043;x
+6044;Head of Government;ジョゼフ・リーバーマン;2000;SL;Silent Workhorse;High;M6044;x
+6045;Head of Government;ジョニー・エドワーズ;2004;SL;Happy Amateur;High;M6045;x
+6046;Head of Government;サラ・ペイリン;2008;ML;Flamboyant Tough Guy;High;M6046;x
+6047;Head of Government;ウィリアム・ダイク;76;PA;Silent Workhorse;High;M6047;x
+6048;Head of Government;マウリーン・サラマン;84;PA;Happy Amateur;High;M6048;x
+6049;Head of Government;ハーバート・タイタス;92;PA;Naive Optimist;High;M6049;x
+6050;Head of Government;チャールズ・ボールドウィン;2004;PA;Flamboyant Tough Guy;High;M6050;x
+6051;Head of Government;ジャーヴィス・タイナー;70;LE;Ambitious Union Boss;High;M6051;x
+6052;Head of Government;アンジェラ・デイヴィス;80;LE;Scientist Prime;High;M6052;x
+6053;Foreign Minister;ヘンリー・キッシンジャー;70;ML;The Cloak N Dagger Schemer;High;M6053;x
+6054;Foreign Minister;サイラス・ヴァンス;77;SL;Great Compromiser;High;M6054;x
+6055;Foreign Minister;エドマンド・マスキー;90;SL;Biased Intellectual;High;M6055;x
+6056;Foreign Minister;アレクサンダー・ヘイグ;80;ML;General Staffer;High;M6056;x
+6057;Foreign Minister;ジョージ・シュルツ;82;ML;Ideological Crusader;High;M6004;x
+6058;Foreign Minister;ジェイムズ・ベイカー;88;ML;Great Compromiser;High;M6058;x
+6059;Foreign Minister;ローレンス・イーグルバーガー;92;ML;Biased Intellectual;High;M6059;x
+6060;Foreign Minister;ウォーレン・クリストファー;92;SL;Ideological Crusader;Very High;M6060;x
+6061;Foreign Minister;マデレーン・オルブライト;97;SL;Great Compromiser;High;M6061;x
+6062;Foreign Minister;コリン・パウエル;2001;ML;General Staffer;High;M6062;x
+6063;Foreign Minister;コンドリーザ・ライス;2005;ML;Ideological Crusader;Very High;M6063;x
+6064;Foreign Minister;ヒラリー・クリントン;2009;SL;The Cloak N Dagger Schemer;High;M6064;x
+6066;Foreign Minister;ジョン・ケリー;2013;SL;Biased Intellectual;High;M6066;x
+6067;Foreign Minister;ギル・グリーン;70;LE;Ideological Crusader;High;M6067;x
+6068;Foreign Minister;ジャーヴィス・タイナー;70;LE;Biased Intellectual;High;M6051;x
+6069;Foreign Minister;ジャレッド・テイラー;70;PA;Biased Intellectual;High;M6069;x
+6070;Foreign Minister;ローレンス・オースター;70;PA;Ideological Crusader;High;M6070;x
+6071;Minister of Armament;ウィリアム・サイモン;74;ML;Resource Industrialist;High;M6071;x
+6072;Minister of Armament;マイケル・ブルーメンソール;76;SL;Economist Minister;High;M6072;x
+6073;Minister of Armament;ウィリアム・ミラー;79;SL;Business Person;Very High;M6073;x
+6074;Minister of Armament;ドナルド・リーガン;80;ML;Business Person;High;M6074;x
+6075;Minister of Armament;ジェイムズ・ベイカー;85;ML;Administrative Genius;Very High;M6058;x
+6076;Minister of Armament;ニコラス・ブレイディ;88;ML;Former Banker;Very High;M6076;x
+6077;Minister of Armament;ロイド・ベンツェン;92;SL;Strategic Air Proponent;High;M6073;x
+6078;Minister of Armament;ロバート・ルービン;95;SL;Administrative Genius;High;M6078;x
+6079;Minister of Armament;ローレンス・サマーズ;99;SL;Economist Minister;High;M6079;x
+6080;Minister of Armament;ポール・オニール;2000;ML;Resource Industrialist;Very High;M6080;x
+6081;Minister of Armament;ジョン・スノー;2003;ML;Economist Minister;Very High;M6081;x
+6082;Minister of Armament;ヘンリー・ポールソン;2006;ML;laissez-faire capitalist;Very High;M6082;x
+6083;Minister of Armament;ティモシー・フランツ・ガイトナー;2008;SL;Former Banker;High;M6083;x 
+6084;Minister of Armament;ジェイコブ・ルー;2012;SL;Administrative Genius;High;M6084;x 
+6085;Foreign Minister;サミュエル・T・フランシス;70;PA;The Cloak N Dagger Schemer;High;M6085;x
+6086;Minister of Armament;サミュエル・T・フランシス;70;PA;Resource Industrialist;Very High;M6085;x
+6087;Minister of Armament;バージニア・アベルネシ;70;PA;Theoretical Scientist;High;M6087;x
+6088;Minister of Armament;アンジェラ・デイヴィス;70;LE;Theoretical Scientist;High;M6052;x
+6089;Minister of Armament;カール・ヨネダ;70;LE;Military Entrepreneur;High;M6089;x
+6090;Minister of Armament;ドナルド・ニーヴン・ウィーラー;70;LE;laissez-faire capitalist;High;M6090;x
+6091;Minister of Security;エリオット・リチャードソン;73;ML;Crime Fighter;High;M6091;x
+6092;Minister of Security;ロバート・ボーク;73;ML;Silent Lawyer;High;M6092;x
+6093;Minister of Security;ウィリアム・サクスビー;73;ML;Compassionate Gentleman;Very High;M6093;x
+6094;Minister of Security;エドワード・レヴィ;75;ML;Prince of Terror;Very High;M6094;x
+6095;Minister of Security;グリフィン・ベル;77;SL;Silent Lawyer;Very High;M6095;x
+6096;Minister of Security;ベンジャミン・シヴィレッティ;79;SL;Crime Fighter;Very High;M6096;x
+6097;Minister of Security;ウィリアム・フレンチ・スミス;80;ML;Silent Lawyer;High;M6097;x 
+6098;Minister of Security;エドウィン・ミーズ;85;ML;Crime Fighter;High;M6098;x
+6099;Minister of Security;リチャード・L・ソーンバーグ;88;ML;Man of the People;High;M6099;x
+6100;Minister of Security;ウィリアム・P・バー;91;ML;Crime Fighter;High;M6100;x 
+6101;Minister of Security;スチュアート・ジェルソン;92;SL;Silent Lawyer;High;M6101;x
+6102;Minister of Security;ジャネット・レノ;92;SL;Compassionate Gentleman;High;M6102;x
+6103;Minister of Security;エリック・ハンプトン・ホルダー;2001;SL;Crime Fighter;High;M6103;x
+6104;Minister of Security;ジョン・アシュクロフト;2001;ML;Prince of Terror;High;M6104;x
+6105;Minister of Security;アルバート・ゴンザレス;2004;ML;Efficient Sociopath;High;M6105;x
+6106;Minister of Security;ポール・クレメント;2007;ML;Crime Fighter;High;M6106;x
+6107;Minister of Security;ピーター・キースラー;2007;ML;Man of the People;High;M6107;x
+6108;Minister of Security;マイケル・ミュケイジー;2007;ML;Silent Lawyer;High;M6108;x
+6109;Minister of Security;マーク・フィリップ;2008;SL;Compassionate Gentleman;High;M6109;x
+6110;Head of Military Intelligence;ジェームズ・R・シュレシンジャー;73;ML;Industrial Specialist;Very High;M6110;x
+6111;Head of Military Intelligence;ウィリアム・E・コルビー;73;ML;Dismal Enigma;High;M6111;x
+6112;Head of Military Intelligence;ジョージ・H・W・ブッシュ;76;ML;Political Specialist;High;M6017;x
+6113;Head of Military Intelligence;スタンズフィールド・ターナー;76;SL;Naval Intelligence Specialist;High;M6113;x
+6114;Head of Military Intelligence;ウィリアム・J・ケーシー;80;ML;Political Specialist;High;M6114;x
+6115;Head of Military Intelligence;ウィリアム・ウェブスター;87;ML;Dismal Enigma;High;M6115;x
+6116;Head of Military Intelligence;ロバート・ゲーツ;91;ML;Logistics Specialist;High;M6116;x
+6117;Head of Military Intelligence;R・ジェームズ・ウルジー Jr.;92;SL;Logistics Specialist;High;M6117;x
+6118;Head of Military Intelligence;ジョン・M・ドイッチ;95;SL;Technical Specialist;High;M6118;x
+6119;Head of Military Intelligence;ジョージ・J・テネット;97;SL;Political Specialist;High;M6119;x
+6120;Head of Military Intelligence;ジョン・E・マクラフリン;2004;ML;Dismal Enigma;High;M6120;x
+6121;Head of Military Intelligence;ポーター・ゴス;2004;ML;Dismal Enigma;High;M6121;x
+6122;Head of Military Intelligence;マイケル・ヘイデン;2006;ML;Logistics Specialist;High;M6122;x
+6123;Head of Military Intelligence;レオン・パネッタ;2008;SL;Logistics Specialist;High;M6123;x
+6124;Head of Military Intelligence;マイケル・モレル;2011;SL;Industrial Specialist;High;M6124;x
+6125;Head of Military Intelligence;デヴィッド・ペトレイアス;2011;SL;Logistics Specialist;High;M6125;x
+6126;Head of Military Intelligence;ジョン・O・ブレナン;2013;SL;Political Specialist;High;M6126;x
+6127;Chief of Staff;ジョージ・スクラッチリー・ブラウン;74;ML;School of Fire Support;High;M6127;x
+6128;Chief of Staff;デイヴィッド・C・ジョーンズ;78;SL;School of Defence;High;M6128;x
+6129;Chief of Staff;ジョン・ウィリアム・ヴェッシー Jr.;82;ML;School of Manoeuvre;High;M6129;x
+6130;Chief of Staff;ウィリアム・J・クロウ Jr.;85;ML;School of Fire Support;High;M6130;x
+6131;Chief of Staff;コリン・パウエル;89;ML;School of Psychology;High;M6131;x
+6132;Chief of Staff;デイヴィッド・E・ジェレマイア;93;SL;School of Defence;High;M6132;x
+6133;Chief of Staff;ジョン・シャリカシュヴィリ;93;SL;School of Mass Combat;High;M6133;x
+6134;Chief of Staff;ヘンリー・ヒュー・シェルトン;97;SL;School of Psychology;High;M6134;x
+6135;Chief of Staff;リチャード・マイヤーズ;2001;ML;School of Fire Support;High;M6135;x
+6136;Chief of Staff;ピーター・ペース;2005;ML;School of Mass Combat;High;M6136;x
+6137;Chief of Staff;マイケル・マレン;2007;ML;School of Defence;High;M6137;x
+6138;Chief of Staff;マーティン・デンプシー;2011;SL;School of Psychology;High;M6138;x
+6139;Chief of Army;フレデリック・C・ウェイヤンド;74;ML;Elastic Defence Doctrine;High;M6139;x
+6140;Chief of Army;バーナード・W・ロジャース;76;ML;Decisive Battle Doctrine;High;M6140;x
+6141;Chief of Army;エドワード・C・メイヤー;79;SL;Elastic Defence Doctrine;High;M6141;x
+6142;Chief of Army;ジョン・A・ウィッカム Jr.;83;ML;Guns and Butter Doctrine;High;M6142;x
+6143;Chief of Army;カール・E・ヴオノ;87;ML;Static Defence Doctrine;High;M6143;x
+6144;Chief of Army;ゴードン・R・サリヴァン;91;ML;Decisive Battle Doctrine;High;M6144;x
+6145;Chief of Army;デニス・ライマー;95;SL;Elastic Defence Doctrine;High;M6145;x
+6146;Chief of Army;エリック・シンセキ;99;SL;Decisive Battle Doctrine;High;M6146;x
+6147;Chief of Army;ピーター・シューメイカー;2003;ML;Elastic Defence Doctrine;High;M6147;x
+6148;Chief of Army;ジョージ・W・ケイシー Jr.;2007;ML;Armoured Spearhead Doctrine;High;M6148;x
+6149;Chief of Army;マーティン・デンプシー;2011;SL;Armoured Spearhead Doctrine;High;M6138;x
+6150;Chief of Army;レイモンド・T・オディエルノ;2011;SL;Guns and Butter Doctrine;High;M6150;x
+6151;Chief of Navy;ジェームズ・L・ホロウェイ3世;74;ML;Open Seas Doctrine;High;M6151;x
+6152;Chief of Navy;トーマス・B・ヘイワード;78;SL;Naval Aviation;High;M6152;x
+6153;Chief of Navy;ジェームズ・ワトキンス;82;ML;Power Projection Doctrine;High;M6153;x
+6154;Chief of Navy;カーライル・トロスト;86;ML;Indirect Approach Doctrine;High;M6154;x
+6155;Chief of Navy;フランク・ケルソー2世;90;ML;Indirect Approach Doctrine;High;M6155;x
+6156;Chief of Navy;ジェレミー・マイケル・ボーダ;94;SL;Open Seas Doctrine;High;M6156;x
+6157;Chief of Navy;ジェイ・L・ジョンソン;96;SL;Naval Aviation;High;M6157;x
+6158;Chief of Navy;ヴァーン・クラーク;2000;SL;Power Projection Doctrine;High;M6158;x
+6159;Chief of Navy;マイケル・マレン;2005;ML;Open Seas Doctrine;High;M6137;x
+6160;Chief of Navy;ゲイリー・ラフヘッド;2007;ML;Power Projection Doctrine;High;M6160;x
+6161;Chief of Navy;ジョナサン・グリーナート;2011;SL;Indirect Approach Doctrine;High;M6161;x
+6162;Chief of Air Force;デイヴィッド・C・ジョーンズ;74;SL;Army Aviation Doctrine;High;M6128;x
+6163;Chief of Air Force;ルー・アレン Jr.;78;SL;Carpet Bombing Doctrine;High;M6163;x
+6164;Chief of Air Force;チャールズ・A・ゲイブリエル;82;ML;Air Superiority Doctrine;High;M6164;x
+6165;Chief of Air Force;ラリー・D・ウェルチ;86;ML;Army Aviation Doctrine;Medium;M6165;x
+6166;Chief of Air Force;マイケル・デューガン;90;ML;Air Superiority Doctrine;Medium;M6166;x
+6167;Chief of Air Force;ジョン・M・ロー;90;ML;Air Superiority Doctrine;Medium;M6167;x
+6168;Chief of Air Force;メリル・マクピーク;90;ML;Air Superiority Doctrine;High;M6168;x
+6169;Chief of Air Force;ロナルド・フォグルマン;94;SL;Air Quartermaster;High;M6169;x
+6170;Chief of Air Force;ラルフ・エバーハート;97;SL;Air Superiority Doctrine;High;M6170;x
+6171;Chief of Air Force;マイケル・E・ライアン;97;SL;Air Superiority Doctrine;High;M6171;x
+6172;Chief of Air Force;ジョン・P・ジャンパー;2001;ML;Air Superiority Doctrine;High;M6172;x
+6173;Chief of Air Force;ティード・マイケル・モーズリー;2005;ML;Air Superiority Doctrine;High;M6173;x
+6174;Chief of Air Force;ダンカン・マクナブ;2008;ML;Air Quartermaster;High;M6174;x
+6175;Chief of Air Force;ノートン・A・シュワルツ;2008;SL;Air Quartermaster;High;M6175;x
+6176;Chief of Air Force;マーク・ウェルシュ;2012;SL;Army Aviation Doctrine;High;M6176;x
+6177;Chief of Navy;ロバート・E・クッシュマン Jr.;70;ML;Base Control Doctrine;High;M6177;x
+6178;Chief of Navy;ルイス・H・ウィルソン Jr.;75;ML;Base Control Doctrine;High;M6178;x
+6179;Chief of Navy;ロバート・H・バロウ;79;SL;Base Control Doctrine;High;M6179;x
+6180;Chief of Navy;ポール・X・ケリー;83;ML;Base Control Doctrine;High;M6180;x
+6181;Chief of Navy;アルフレッド・M・グレイ Jr.;87;ML;Base Control Doctrine;High;M6181;x
+6182;Chief of Navy;カール・エプティング・マンディ Jr.;91;ML;Base Control Doctrine;High;M6182;x
+6183;Chief of Navy;チャールズ・C・クルラク;95;SL;Base Control Doctrine;High;M6183;x
+6184;Chief of Navy;ジェームズ・L・ジョーンズ;99;SL;Base Control Doctrine;High;M6184;x
+6185;Chief of Navy;マイケル・ヘギー;2003;ML;Base Control Doctrine;High;M6185;x
+6186;Chief of Navy;ジェームズ・T・コンウェイ;2006;ML;Base Control Doctrine;High;M6186;x
+6187;Chief of Navy;ジェームズ・F・エイモス;2010;SL;Base Control Doctrine;High;M6187;x
+6188;Chief of Air Force;エドワード・C・メイヤー;70;SL;Vertical Envelopment Doctrine;High;M6141;x
+6189;Chief of Air Force;デヴィッド・ペトレイアス;90;SL;Vertical Envelopment Doctrine;High;M6125;x

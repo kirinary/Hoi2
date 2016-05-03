@@ -1,0 +1,25 @@
+ARG;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+400;リオ・サンティアーゴ造船所（AFNE）;T400;3;1930;2100;electronics;naval_artillery;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+401;アルフレッド・ベイシー;T419;6;1943;2100;artillery;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+402;アントニオ・パロディ;T408;4;1930;2100;aircraft_testing;fighter_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+403;アルゼンチン海軍;T410;5;1942;2100;centralized_execution;large_taskforce_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+404;アリアンサ造船株式会社;T401;3;1930;2100;electronics;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+405;アルゼンチン商工会議所;T403;4;1930;2100;aeronautics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+406;アルゼンチン原子力委員会;T418;4;1945;2100;chemistry;nuclear_engineering;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+407;海軍学校;T_ARG_NavalMilitar;3;1936;2100;large_taskforce_tactics;naval_training;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+408;陸軍大学;T_ARG_EscueladeGuerra;3;1930;2100;centralized_execution;infantry_focus;large_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+409;空軍学校;T412;4;1939;2100;aircraft_testing;bomber_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+410;エステバン・デ・ルカ;T404;5;1930;2100;artillery;general_equipment;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+411;国営軍事工場;T406;3;1930;2100;aeronautics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+412;造兵廠;T405;5;1941;2100;artillery;chemistry;general_equipment;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+413;フランチスコ・ベレス;T411;4;1930;2100;decentralized_execution;individual_courage;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+414;ビヤマリア造兵廠;T417;5;1937;2100;artillery;chemistry;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+415;ホセ・バビーニ;T_ARG_Jose_Babini;4;1936;2100;electronics;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+416;ファン・ペロン;T413;4;1941;2100;centralized_execution;combined_arms_focus;individual_courage;large_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+417;クルト・タンク;T420;6;1947;2100;aeronautics;electronics;rocketry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+418;ルイ・F・ルロワール;T415;7;1945;2100;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+419;ペドロ・カサル;T414;4;1930;2100;centralized_execution;large_taskforce_tactics;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+420;ソミサ製鉄所;T416;6;1947;2100;artillery;general_equipment;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+421;サイアム・ディ・テラ;T_ARG_SIAMdiTella;4;1930;2100;electronics;general_equipment;industrial_engineering;management;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+422;ブエノスアイレス大学;T_ARG_UniversitaddeBuenosAires;3;1930;2100;chemistry;electronics;management;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+423;レプソルYPF社;T407;5;1930;2100;chemistry;industrial_engineering;management;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

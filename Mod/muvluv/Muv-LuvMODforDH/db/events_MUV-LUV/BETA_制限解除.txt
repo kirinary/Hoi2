@@ -1,0 +1,870 @@
+##############################################################
+##
+## 制限解除イベント(44001~45000)_BETA
+##
+##############################################################
+##
+## id =	44001	カシュガルハイヴBETA出現(AI_EVENT)
+## id =	44002	マシュマハドハイヴBETA出現(AI_EVENT)
+## id =	44003	ウラリスクハイヴBETA出現(AI_EVENT)
+## id =	44004	ヴェリスクハイヴBETA出現(AI_EVENT)
+## id =	44005	ミンスクハイヴBETA出現(AI_EVENT)
+## id =	44006	エキストゥバスハイヴBETA出現(AI_EVENT)
+## id =	44007	スルグードハイヴBETA出現(AI_EVENT)
+## id =	44008	ロヴァニエミハイヴBETA出現(AI_EVENT)
+## id =	44009	アンバールハイヴBETA出現(AI_EVENT)
+## id =	44010	ノギンスクハイヴBETA出現(AI_EVENT)
+## id =	44011	ブタペストハイヴBETA出現(AI_EVENT)
+## id =	44012	リヨンハイヴBETA出現(AI_EVENT)
+## id =	44013	ボパールハイヴBETA出現(AI_EVENT)
+## id =	44014	敦煌ハイヴBETA出現(AI_EVENT)
+## id =	44015	クラスノヤルスクハイヴBETA出現(AI_EVENT)
+## id =	44016	重慶ハイヴBETA出現(AI_EVENT)
+## id =	44017	マンダレーハイヴBETA出現(AI_EVENT)
+## id =	44018	ウランバートルハイヴBETA出現(AI_EVENT)
+## id =	44019	ブラゴエスチェンスクハイヴBETA出現(AI_EVENT)
+## id =	44020	鉄原ハイヴBETA出現(AI_EVENT)
+## id =	44021	佐渡島ハイヴBETA出現(AI_EVENT)
+## id =	44022	横浜ハイヴBETA出現(AI_EVENT)
+## id =	44023	オリョクミンスクハイヴBETA出現(AI_EVENT)
+## id =	44024	ハタンガハイヴBETA出現(AI_EVENT)
+## id =	44025	ヴェルホヤンスクハイヴBETA出現(AI_EVENT)
+## id =	44026	エヴェンスクハイヴBETA出現(AI_EVENT)
+## id =	44027	ロンドンドハイヴBETA出現(AI_EVENT)
+## id =	44028	ダブリンハイヴBETA出現(AI_EVENT)
+## id =	44029	レイキャヴィハイヴBETA出現(AI_EVENT)
+## id =	44030	グリーンランドハイヴBETA出現(AI_EVENT)
+## id =	44031	バミューダハイヴBETA出現(AI_EVENT)
+## id =	44032	アゾレスハイヴBETA出現(AI_EVENT)
+## id =	44033	パレルモハイヴBETA出現(AI_EVENT)
+## id =	44034	カルタハイヴBETA出現(AI_EVENT)
+## id =	44035	アディスアベバハイヴBETA出現(AI_EVENT)
+## id =	44036	エリザベートヴィルハイヴBETA出現(AI_EVENT)
+## id =	44037	ヨハネスブルクハイヴBETA出現(AI_EVENT)
+## id =	44038	ガシャカハイヴBETA出現(AI_EVENT)
+## id =	44039	ダカールハイヴBETA出現(AI_EVENT)
+## id =	44040	トリポリハイヴBETA出現(AI_EVENT)
+## id =	44041	アルジェハイヴBETA出現(AI_EVENT)
+## id =	44042	タマタブハイヴBETA出現(AI_EVENT)
+## id =	44043	シンガポールハイヴBETA出現(AI_EVENT)
+## id =	44044	バコンハイヴBETA出現(AI_EVENT)
+## id =	44045	メンディハイヴBETA出現(AI_EVENT)
+## id =	44046	マニラハイヴBETA出現(AI_EVENT)
+## id =	44047	台北ハイヴBETA出現(AI_EVENT)
+## id =	44048	キャンベラハイヴBETA出現(AI_EVENT)
+## id =	44049	ダーウィンハイヴBETA出現(AI_EVENT)
+## id =	44050	ニュープリマスハイヴBETA出現(AI_EVENT)
+## id =	44051	グアムハイヴBETA出現(AI_EVENT)
+## id =	44052	ホノルルハイヴBETA出現(AI_EVENT)
+## id =	44053	コロンボハイヴBETA出現(AI_EVENT)
+## id =	44054	オハハイヴBETA出現(AI_EVENT)
+## id =	44055	秋田ハイヴBETA出現(AI_EVENT)
+## id =	44056	カムチャッカハイヴBETA出現(AI_EVENT)
+## id =	44057	ベセルハイヴBETA出現(AI_EVENT)
+## id =	44058	エドモントンハイヴBETA出現(AI_EVENT)
+## id =	44059	オタワハイヴBETA出現(AI_EVENT)
+## id =	44060	ソルトレイクハイヴBETA出現(AI_EVENT)
+## id =	44061	ダラスハイヴBETA出現(AI_EVENT)
+## id =	44062	シカゴハイヴBETA出現(AI_EVENT)
+## id =	44063	マコンハイヴBETA出現(AI_EVENT)
+## id =	44064	ワシントンハイヴBETA出現(AI_EVENT)
+## id =	44065	レオンハイヴBETA出現(AI_EVENT)
+## id =	44066	カマグエイハイヴBETA出現(AI_EVENT)
+## id =	44067	パナマハイヴBETA出現(AI_EVENT)
+## id =	44068	マナカブルハイヴBETA出現(AI_EVENT)
+## id =	44069	ゴイアスハイヴBETA出現(AI_EVENT)
+## id =	44070	メンドーサハイヴBETA出現(AI_EVENT)
+##
+##############################################################
+
+event = {
+	id = 44002
+	random = no
+        persistent = yes
+	country = U13
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44003
+	random = no
+        persistent = yes
+	country = U14
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44004
+	random = no
+        persistent = yes
+	country = U15
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44005
+	random = no
+        persistent = yes
+	country = U16
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 1000 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44006
+	random = no
+        persistent = yes
+	country = U17
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44007
+	random = no
+        persistent = yes
+	country = U18
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44008
+	random = no
+        persistent = yes
+	country = U19
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44009
+	random = no
+        persistent = yes
+	country = U20
+	trigger = {
+                NOT = {
+                       army = 200
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44011
+	random = no
+        persistent = yes
+	country = U22
+	trigger = {
+                NOT = {
+                       army = 200
+                       }
+		losses = { country = -1 value = 1000 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44012
+	random = no
+        persistent = yes
+	country = U23
+	trigger = {
+                NOT = {
+                       army = 200
+                       }
+		losses = { country = -1 value = 1000 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44013
+	random = no
+        persistent = yes
+	country = U24
+	trigger = {
+                NOT = {
+                       army = 200
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44014
+	random = no
+        persistent = yes
+	country = U25
+	trigger = {
+                NOT = {
+                       army = 150
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44015
+	random = no
+        persistent = yes
+	country = U26
+	trigger = {
+                NOT = {
+                       army = 150
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44016
+	random = no
+        persistent = yes
+	country = U27
+	trigger = {
+                NOT = {
+                       army = 160
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44017
+	random = no
+        persistent = yes
+	country = U28
+	trigger = {
+                NOT = {
+                       army = 160
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44018
+	random = no
+        persistent = yes
+	country = U29
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 500 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44019
+	random = no
+        persistent = yes
+	country = U30
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 2000 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 44020
+	random = no
+        persistent = yes
+	country = U31
+	trigger = {
+                NOT = {
+                       army = 180
+                       }
+		losses = { country = -1 value = 2000 }
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 0 month = 0 year = 2002 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "ok"
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}

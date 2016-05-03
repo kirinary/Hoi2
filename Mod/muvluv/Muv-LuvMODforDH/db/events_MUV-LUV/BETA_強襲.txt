@@ -1,0 +1,851 @@
+##############################################################
+##
+## BETA_強襲(41001~42000)
+##
+##############################################################
+## 
+## 日本帝国
+## id = 41001　鉄原ハイヴからの強襲	
+## id = 41002  台北ハイヴからの強襲
+## id = 41003  佐渡島ハイヴからの強襲
+## id = 41004  樺太ハイヴからの強襲
+## id = 41005  カムチャッカハイヴからの強襲
+## id = 41006　ブラゴエスチェンスクハイヴからの強襲
+## id = 41007　
+##
+## 統一中華戦線
+## id = 41008　重慶ハイヴからの強襲　
+## id = 41009　鉄原ハイヴからの強襲
+##
+## 欧州連合
+## id = 41010　リヨンハイヴからの強襲
+## id = 41011　ブタペストハイヴからの強襲
+## id = 41012  ミンスクハイヴからの強襲
+## id = 41013  グレートブリテン島からの強襲
+## id = 41014　アイルランドからの強襲
+## id = 41015　アイスランドからの強襲
+## id = 41016  バミューダへの強襲
+## id = 41017  アゾレスへの強襲
+## id = 41018
+##
+## アフリカ連合
+## id = 41019　シチリア島からの強襲
+## id = 41020　
+## id = 41021
+## id = 41022
+##
+## 大東亜連合
+## id = 41023　シンガポールハイヴからの強襲
+## id = 41024　サラクワハイヴからの強襲
+## id = 41025　ニューギニアハイヴからの強襲
+## id = 41026　マンダレーハイヴからの強襲
+## id = 41027　ボパールハイヴからの強襲
+## id = 41028　台北ハイヴからの強襲
+## id = 41029  重慶ハイヴからの強襲
+## id = 41030
+## id = 41031　
+##
+## オーストラリア
+## id = 41032　ニューギニアハイヴからの強襲
+## id = 41033
+## id = 41034　
+## id = 41035
+##
+## ニュージーランド
+## id = 41036　キャンベラハイヴからの強襲
+## id = 41037 
+## id = 41038
+## id = 41039
+##
+## アメリカ合衆国
+## id = 41040  カムチャッカハイヴからの強襲
+## id = 41041  カムチャッカからの強襲
+## id = 41042  グリーンランドからの強襲
+## id = 41043  バミューダからの強襲
+## id = 41044  アゾレスからの強襲
+## id = 41045
+## id = 41046
+## id = 41047
+## id = 41048
+## id = 41049
+## id = 41050
+##
+##############################################################
+
+
+event = {
+	id = 41001
+	random = no
+        persistent = yes
+        country = U31
+	trigger = {
+                    garrison = { country = U31 province = 1199 type = 鉄原ハイヴ size = 1 area = yes }
+                    random = 20
+                    event = 50004
+       }
+
+	name = "鉄原ハイヴからの強襲"
+	desc = "EVT_41001_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 2631 }#佐賀県
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+
+event = {
+	id = 41002
+	random = no
+        persistent = yes
+        country = U57
+	trigger = {
+                    garrison = { country = U57 province = 1323 type = 台北ハイヴ size = 1 area = yes }
+                    random = 20
+       }
+
+	name = "台北ハイヴからの強襲"
+	desc = "EVT_41002_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 2635 }#鹿児島県
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41003
+	random = no
+        persistent = yes
+        country = U32
+	trigger = {
+                    garrison = { country = U32 province = 1185 type = 佐渡島ハイヴ size = 1 area = yes }
+                    random = 20
+       }
+
+	name = "佐渡島ハイヴからの強襲"
+	desc = "EVT_41003_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 1184 }#新潟県
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41008
+	random = no
+        persistent = yes
+        country = U27
+	trigger = {
+                    garrison = { country = U27 province = 1199 type = 重慶ハイヴ size = 1 area = yes }
+                    random = 20
+       }
+
+	name = "重慶ハイヴからの強襲"
+	desc = "EVT_41008_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 1323 }#台北
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41009
+	random = no
+        persistent = yes
+        country = U31
+	trigger = {
+                    garrison = { country = U31 province = 1199 type = 鉄原ハイヴ size = 1 area = yes }
+                    random = 20
+       }
+
+	name = "鉄原ハイヴからの強襲"
+	desc = "EVT_41009_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 1323 }#台北
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41010
+	random = no
+        persistent = yes
+        country = U23
+	trigger = {
+                    garrison = { country = U23 province = 529 type = リヨンハイヴ size = 1 area = yes }
+                    random = 20
+       }
+
+	name = "リヨンハイヴからの強襲"
+	desc = "EVT_41010_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 15
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 20 }#ドーバー
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 21 }#ポーツマス
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+
+event = {
+	id = 41011
+	random = no
+        persistent = yes
+        country = U22
+	trigger = {
+                    garrison = { country = U22 province = 457 type = ブダペストハイヴ size = 1 area = yes }
+                    random = 20
+       }
+
+	name = "ブダペストハイヴからの強襲"
+	desc = "EVT_41011_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 526 }#メッシーナ
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+ }
+}
+
+
+event = {
+	id = 41012
+	random = no
+        persistent = yes
+        country = U16
+	trigger = {
+                    garrison = { country = U16 province = 212 type = ミンスクハイヴ size = 1 area = yes }
+                    random = 20
+       }
+
+	name = "ミンスクハイヴからの強襲"
+	desc = "EVT_41012_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 17 }#ノリッジ
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+
+event = {
+	id = 41013
+	random = no
+        persistent = yes
+        country = U23
+	trigger = {
+                    control = { province = 9 data = -3 }#ダンフリーズ
+                    random = 20
+       }
+
+	name = "グレートブリテン島からの強襲"
+	desc = "EVT_41013_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 28 }#ベルファスト
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41014
+	random = no
+        persistent = yes
+        country = U23
+	trigger = {
+                    control = { province = 28 data = -3 }#ベルファスト
+                    random = 20
+       }
+
+	name = "アイルランドからの強襲"
+	desc = "EVT_41014_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 1 }#レイキャビク
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41015
+	random = no
+        persistent = yes
+        country = U23
+	trigger = {
+                    control = { province = 1 data = -3 }#レイキャビク
+                    control = { province = 800 data = -2 }#グリーンランド
+                    random = 20
+       }
+
+	name = "アイスランドからの強襲"
+	desc = "EVT_41015_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 800 }#グリーンランド
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41016
+	random = no
+        persistent = yes
+        country = U23
+	trigger = {
+                    control = { province = 800 data = -3 }#グリーンランド
+                    control = { province = 538 data = -2 }#バミューダ
+                    random = 20
+       }
+
+	name = "バミューダへの強襲"
+	desc = "EVT_41016_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 538 }#バミューダ
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41017
+	random = no
+        persistent = yes
+        country = U23
+	trigger = {
+                    control = { province = 1 data = -3 }#アイスランド
+                    control = { province = 336 data = -3 }#リスボン
+                    control = { province = 1867 data = -2 }#アゾレス
+                    random = 20
+       }
+
+	name = "アゾレスへの強襲"
+	desc = "EVT_41017_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 1867 }#アゾレス
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+
+event = {
+	id = 41019
+	random = no
+        persistent = yes
+        country = U22
+	trigger = {
+                    control = { province = 939 data = -2 }#チュニス
+                    control = { province = 525 data = -3 }#パレルモ
+                    random = 30
+       }
+
+	name = "シチリア島からの強襲"
+	desc = "EVT_41019_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2000 }
+	offset = 16
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 939 }#チュニス
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+ }
+}
+
+event = {
+	id = 41026
+	random = no
+        persistent = yes
+        country = U28
+	trigger = {
+                    control = { province = 1338 data = -3 }#カントー
+                    control = { province = 1646 data = -3 }#バンダルスリブガワン
+                    random = 30
+       }
+
+	name = "マンダレーハイヴからの強襲"
+	desc = "EVT_41029_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 16
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 1646 }#バンダルスリブガワン
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41029
+	random = no
+        persistent = yes
+        country = U27
+	trigger = {
+                    control = { province = 1315 data = -3 }#香港
+                    control = { province = 1738 data = -2 }#オロンガポ
+                    random = 30
+       }
+
+	name = "重慶ハイヴからの強襲"
+	desc = "EVT_41029_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 16
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 1738 }#オロンガポ
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+ }
+}
+
+event = {
+	id = 41040
+	random = no
+        persistent = yes
+        country = U66
+	trigger = {
+                    control = { province = 1170 data = -1 }#ベリゴンスキー
+                    random = 30
+                    army = 100
+       }
+
+	name = "カムチャッカハイヴからの強襲"
+	desc = "EVT_41040_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 16
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 1399 }#ホライトマウンテン
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41041
+	random = no
+        persistent = yes
+        country = U30
+	trigger = {
+                    control = { province = 1172 data = -3 }#ペトロパヴロフスク･カムチャツカ
+                    #control = { province = 548 data = -2 }#ディバリングハム
+                    random = 30
+                    army = 200
+       }
+
+	name = "カムチャッカからの強襲"
+	desc = "EVT_41041_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 8
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 548 }#ディバリングハム
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41042
+	random = no
+        persistent = yes
+        country = U23
+	trigger = {
+                    control = { province = 800 data = -3 }#グリーンランド
+                    control = { province = 575 data = -2 }#ネーン
+                    random = 30
+       }
+
+	name = "グリーンランドからの強襲"
+	desc = "EVT_41042_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 575 }#ネーン(ニューファンドランド)
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41043
+	random = no
+        persistent = yes
+        country = U23
+	trigger = {
+                    control = { province = 538 data = -3 }#バミューダ
+                    random = 30
+       }
+
+	name = "バミューダからの強襲"
+	desc = "EVT_41043_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 632 }#ノーフォーク
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 41044
+	random = no
+        persistent = yes
+        country = U23
+	trigger = {
+                    control = { province = 538 data = -3 }#アゾレス
+                    random = 30
+       }
+
+	name = "アゾレスからの強襲"
+	desc = "EVT_41044_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "了解"
+		command = { type = add_corps value = land where = 875 }#カイエンヌ
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}

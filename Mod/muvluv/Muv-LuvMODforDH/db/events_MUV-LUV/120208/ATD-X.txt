@@ -1,0 +1,352 @@
+event = {
+	id = 41001
+	random = no
+	country = USA
+	trigger = {
+          technology = 2110
+          technology = 2310
+          technology = 2360 
+	}
+
+	name = "BlackWidowⅡ"
+	desc = "ATSF（先進戦術歩行戦闘機）計画でノースロック社がマクダエル・ドグラム社の協力を得て開発した試作戦術機。 
+遠・中距離砲戦能力を重視しているYF-22やそれ以前の米国製戦術機とは対照的に、近接機動性の重視、長刀・銃剣の標準装備など対BETA近接戦闘能力を、設計段階から考慮されているのが特徴だった。 
+YF-22との実機模擬戦闘試験では両機共に一歩も譲らない熾烈な戦闘を繰り広げ、対BETA近接格闘戦能力に於いてはYF-22を上回り、総合性能でもYF-23が優位とも囁かれていた。（模擬戦闘の結果は14対18、ドロー5、無効3でYF-23が勝利している）しかし、調達コストと性能維持に不可欠な整備性、何よりもその機体性能が、G弾運用を前提とした米軍の戦略ドクトリンと合致しないと判断された為、不採用となった。
+YF-22と同じく、搭載エンジンの違う2機が試作されており、「ジネラルエレクトロニクス・YF120」を積んだ1号機には「スパイダー(Spider)」、「プラッツ&ウィットニー・YF119」を積んだ2号機には「グレイゴースト(Gray Ghost)」の愛称が与えられている。計画終了後、機密保持のため、エドワーズ空軍基地に一定期間屋外係留されていたため、「世界一高価な鉄屑」などと揶揄された。最終的には1号機2号機共に、米国各地の航空博物館の展示機となった。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "何か使い道があれば良いのだが・・・"
+                command = { type = setflag which = BW }
+ }
+}
+
+event = {
+	id = 41002
+	random = no
+	country = JAP
+	trigger = {
+           and = {
+          flag = BW
+          event = 1502
+                 }
+	}
+
+	name = "先進技術実証機 (ATD-X)"
+	desc = "日本帝国国防省の技術研究本部（技本）が光菱重工を主契約企業として開発を進める実験機。 
+不知火をはじめとする第三世代戦術機の後継となる次世代戦術機の純国産開発を念頭に置き、これに使用する現時点における最も先進的な独自の軍事技術を実証するための機体。この機体の開発に、米国で博物館送りになっているYF-23 ブラックウィドウⅡを買い取り、開発に使用する案が出た。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "YF-23を買い取り、実証機の開発を開始する"
+                ai_chance = 100
+                command = { type = setflag which = BW }
+                command = { type = trigger which = 41003 value = 60 }
+                command = { type = money value = -130 }
+ }
+        action_b = {
+                name = "そんな資金の余裕はない"
+                ai_chance  0
+                command = { }
+ }
+}
+
+
+event = {
+	id = 41003
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "先進技術実証機開発計画 夜間戦闘"
+	desc = "ATD-Xの開発計画で、一つの選択が必要になった。夜間での戦闘能力を向上させる新型の光学処理装置および射撃補正装置、夜間移動用スラスター制御装置のいずれをATD-Xに採用するか否かの会議が行われた。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "夜間での移動能力を向上させるシステムを採用する"
+                ai_chance = 33
+                command = { type = night_move which = paratrooper value = 10 }
+                command = { type = trigger which = 41004 value = 60 }
+ }
+        action_b = {
+                name = "夜間での戦闘能力を向上させる射撃補正装置を採用する"
+                ai_chance = 33
+                command = { type = night_attack which = paratrooper value = 10 }
+                command = { type = trigger which = 41004 value = 60 }
+ }
+        action_c = {
+                name = "夜間での防御能力を向上させる光学処理装置を採用する"
+                ai_chance = 34 
+                command = { type = night_defense which = paratrooper value = 10 }
+                command = { type = trigger which = 41004 value = 60 }
+ }
+}
+
+
+
+event = {
+	id = 41004
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "先進技術実証機開発計画 地形適応能力"
+	desc = "ATD-Xの開発計画で、一つの選択が必要になった。砂漠での戦闘最適化システム、山岳地帯での戦闘最適化システム、河川部での戦闘最適化システムのいずれを採用するか否かの会議が行われた。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "砂漠での最適化システムを採用する"
+                ai_chance = 33
+                command = { type = desert_move which = paratrooper value = 10 }
+                command = { type = trigger which = 41005 value = 60 }
+ }
+        action_b = {
+                name = "山岳地での最適化システムを採用する"
+                ai_chance = 33
+                command = { type = mountain_move which = paratrooper value = 10 }
+                command = { type = trigger which = 41005 value = 60 }
+ }
+        action_c = {
+                name = "河川部での最適化システムを採用する"
+                ai_chance = 34
+                command = { type = river_crossing which = paratrooper value = 10 }
+                command = { type = trigger which = 41005 value = 60 }
+ }
+}
+
+
+event = {
+	id = 41005
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "先進技術実証機開発計画 寒冷地適応能力"
+	desc = "ATD-Xの開発計画で、一つの選択が必要になった。寒冷地での攻撃最適化システム、寒冷地での防御最適化システムのどちらを採用するか否かの会議が行われた。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "寒冷地での攻撃最適化システムを採用する"
+                ai_chance = 50
+                command = { type = frozen_attack which = paratrooper value = 10 }
+                command = { type = trigger which = 41006 value = 60 }
+ }
+        action_b = {
+                name = "寒冷地での防御最適化システムを採用する"
+                ai_chance = 50
+                command = { type = frozen_defense which = paratrooper value = 10 }
+                command = { type = trigger which = 41006 value = 60 }
+ }
+}
+
+
+event = {
+	id = 41006
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "先進技術実証機開発計画 戦域データリンクシステム"
+	desc = "ATD-Xの開発に伴い、司令部、機甲部隊、戦術機及び機械化歩兵、砲撃部隊、航空機部隊の動きをリアルタイムで管理し、指揮命令を効率化するシステムが開発された。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい！"
+                command = { type = max_organization which = paratrooper value = 20 }
+                command = { type = trigger which = 41008 value = 60 }
+ }
+}
+
+
+event = {
+	id = 41007
+	random = no
+	country = JAP
+	trigger = {
+               and = {
+                   technology = 7780
+                   event = 41006
+                      }
+	}
+
+	name = "先進技術実証機開発計画 XM3最適化機体"
+	desc = "ATD-Xの開発にXM3を開発段階から含み、最大限にその圧倒的な戦闘補助能力を生かす機体を開発することになるだろう。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 5
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい！"
+                command = { type = hard_attack = paratrooper value = 20 }
+ }
+}
+
+
+
+event = {
+	id = 41008
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "心神実験部隊配備"
+	desc = "先進技術実証機開発計画で開発された新型戦術機、心神が本日実験部隊へ配備された。これから実戦形式でのデータ収集が行われるだろう。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 5
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい！" 
+                command = { type = money value = -200 }
+                command = { type = supplies value = -1000 }
+                command = { type = trigger which = 41009 value = 60 }
+ }
+}
+
+
+event = {
+	id = 41009
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "対武御雷模擬戦"
+	desc = "実験部隊へ配備された心神と、斯衛軍であり非常に高性能な戦術機である武御雷との模擬戦が行われた。この模擬戦で心神は武御雷を圧倒し、15回行われた模擬戦で15回全てに勝利すると言う快挙を成し遂げた。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 5
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい！" 
+                command = { type = supplies value = -500 }
+                command = { type = trigger which = 41010 value = 30 }
+ }
+}
+
+
+event = {
+	id = 41010
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "対不知火模擬戦"
+	desc = "実験部隊へ配備された心神と、帝国軍の第3世代戦術機である不知火との模擬戦が行われた。この模擬戦で心神は不知火を圧倒し、15回行われた模擬戦で15回全てに勝利すると言う快挙を成し遂げた。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 5
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい！" 
+                command = { type = supplies value = -500 }
+                command = { type = trigger which = 41011 value = 20 }
+ }
+}
+
+
+
+event = {
+	id = 41011
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "対F22模擬戦"
+	desc = "実験部隊へ配備された心神と、米軍の第3世代戦術であり、圧倒的な対人戦闘能力を持つF22との模擬戦が行われた。この模擬戦で心神はF22を圧倒し、25回行われた模擬戦で25回全てに勝利すると言う快挙を成し遂げた。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 5
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい！" 
+                command = { type = supplies value = -500 }
+                command = { type = trigger which = 41012 value = 30 }
+ }
+}
+
+
+event = {
+	id = 41012
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "生産体制の準備"
+	desc = "実験部隊へ配備された心神が実験部隊で圧倒的な性能を見せ付けたことにより、正式な量産が決まった。これから生産体制の準備が始まるだろう。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 5
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい！" 
+                command = { type = supplies value = -1000 }
+                command = { type = trigger which = 41013 value = 30 }
+ }
+}
+
+
+event = {
+	id = 41013
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "量産体制確立"
+	desc = "先進技術実証機開発計画で開発された心神の量産体制が整った。量産性を向上した心神弐型は今後我が軍の強力な戦術機として活躍してくれるだろう。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 5
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "開発の成果が実った！" 
+		command = { type = new_model which = paratrooper value = 30 }
+ }
+}

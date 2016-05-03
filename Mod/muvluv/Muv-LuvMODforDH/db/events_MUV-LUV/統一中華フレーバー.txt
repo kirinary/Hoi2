@@ -1,0 +1,480 @@
+##############################################################
+##
+## 統一中華フレーバーイベント(25001~26000)
+##
+##############################################################
+## 
+## id = 25001	統一中華戦線との関係＋
+## id = 25002	欧州連合との関係＋
+## id = 25003	アメリカ合衆国との関係＋
+## id = 25004	国際連合との関係＋
+## id = 25005	ソビエト連邦との関係＋
+## id = 25006	大東亜連合との関係＋
+## id = 25007	オーストラリアとの関係＋
+## id = 25008	アフリカ連合との関係＋
+## id = 25009	中東連合との関係＋
+## id = 25010	統一中華戦線との関係－
+## id = 25011	欧州連合との関係－
+## id = 25012	アメリカ合衆国との関係－
+## id = 25013	国際連合との関係－
+## id = 25014	ソビエト連邦との関係－
+## id = 25015	大東亜連合との関係－
+## id = 25016	オーストラリアとの関係－
+## id = 25017	アフリカ連合との関係－
+## id = 25018	中東連合との関係－
+## id = 25019
+## id = 25020
+## id = 25021
+## id = 25022
+## id = 25023
+## id = 25024
+## id = 25025
+## id = 25026
+## id = 25027
+## id = 25028
+## id = 25029
+## id = 25030
+## id = 25031
+## id = 25032
+## id = 25033
+## id = 25034
+## id = 25035
+## id = 25036
+## id = 25037
+## id = 25038
+## id = 25039
+## id = 25040
+## id = 25041
+## id = 25042
+## id = 25043
+## id = 25044
+## id = 25045
+## id = 25046
+## id = 25047
+## id = 25048
+## id = 25049
+## id = 25050
+##
+##############################################################
+
+## 各国との融和
+event = {
+	id = 25001
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "日本帝国との関係"
+	desc = "EVT_25001_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = JAP value = 10 } 
+ 	}
+}
+
+event = {
+	id = 25002
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "欧州連合との関係"
+	desc = "EVT_25002_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U02 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 25003
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_25003_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = 10 } 
+ 	}
+}
+
+event = {
+	id = 25004
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_25004_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = 10 } 
+	}
+}
+
+event = {
+	id = 25005
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "ソビエト連邦との関係"
+	desc = "EVT_25005_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = 10 } 
+        }
+}
+
+event = {
+	id = 25006
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_25006_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U04 value = 10 } 
+        }
+}
+
+event = {
+	id = 25007
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "オーストラリアとの関係"
+	desc = "EVT_25007_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = AST value = 10 } 
+        }
+}
+
+event = {
+	id = 25008
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "アフリカ連合との関係"
+	desc = "EVT_25008_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U01 value = 10 } 
+        }
+}
+
+event = {
+	id = 25009
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_25009_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = 10 } 
+        }
+}
+
+event = {
+	id = 25010
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "日本帝国との関係"
+	desc = "EVT_25010_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = JAP value = -10 } 
+ 	}
+}
+
+event = {
+	id = 25011
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "欧州連合との関係"
+	desc = "EVT_25011_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U02 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 25012
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_25012_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = -10 } 
+ 	}
+}
+
+event = {
+	id = 25013
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_25013_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = -10 } 
+	}
+}
+
+event = {
+	id = 25014
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "ソビエト連邦との関係"
+	desc = "EVT_25014_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = -10 } 
+        }
+}
+
+event = {
+	id = 25015
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_25015_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U04 value = -10 } 
+        }
+}
+
+event = {
+	id = 25016
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "オーストラリアとの関係"
+	desc = "EVT_25016_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = AST value = -10 } 
+        }
+}
+
+event = {
+	id = 25017
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "アフリカ連合との関係"
+	desc = "EVT_25017_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U01 value = -10 } 
+        }
+}
+
+event = {
+	id = 25018
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_25018_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = -10 } 
+        }
+}
+
+event = {
+	id = 75008
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "米軍からの戦時支援船"
+	desc = "米軍からの戦時支援船が到着した。 "
+	style = 0
+
+	action_a = {
+		name = "全てのものを戦場へ！"
+		command = { type = transport_pool which = U05 value = 10 } 
+ }
+}
+
+event = {
+	id = 75010
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "国連からの技術提供"
+	desc = "国連からの技術提供が行われた。"
+	style = 0
+
+	action_a = {
+		name = "対BETA戦術に革新を！"
+		command = { type = gain_tech which = -1 } 
+ }
+}
+
+event = {
+	id = 75011
+	random = yes
+	country = U05
+	trigger = {
+	}
+
+	name = "美術品の保護"
+	desc = "北EVT_75011_DESC"
+	style = 0
+
+	action_a = {
+		name = "中国万歳！"
+		command = { type = dissent value = -5 } 
+ }
+}
+
+event = {
+	id = 75012
+	random = no
+	country = U05
+	trigger = {
+          control = { province = 1237 data = U12 } #上海
+          control = { province = 1315 data = U12 } #香港
+          control = { province = 2551 data = U12 } #重慶
+          control = { province = 1205 data = U12 } #北京
+          control = { province = 2529 data = U12 } #青島
+          control = { province = 1235 data = U12 } #南京
+          control = { province = 1225 data = U12 } #太原
+          control = { province = 2241 data = U12 } #新京
+          control = { province = 1379 data = U12 } #ハルビン
+          control = { province = 2340 data = U12 } #瀋陽
+          control = { province = 1322 data = U05 } #台湾
+          control = { province = 1323 data = U05 } #台湾
+          control = { province = 1324 data = U05 } #台湾
+          control = { province = 1923 data = U05 } #台湾
+          control = { province = 2638 data = U05 } #台湾
+	}
+
+	name = "大陸喪失"
+	desc = "EVT_75012_DESC" 
+	style = 0
+        
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+
+	action_a = {
+		name = "さらば我が故国よ"
+		command = { type = trigger which = 25013 } 
+ }
+}
+
+event = {
+	id = 75013
+	random = no
+	country = U05
+	trigger = {
+			event = 25012
+	}
+
+	name = "台湾への工場移設"
+	desc = "EVT_75013_DESC" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "さらば我が故国よ"
+		command = { type = free_ic value = 80 } 
+		command = { type = free_oil value = 10 } 
+		command = { type = free_metal value = 40 } 
+		command = { type = free_energy value = 50 } 
+		command = { type = free_rare_materials value = 30 } 
+		command = { type = free_manpower value = 0.5 } 
+ }
+}

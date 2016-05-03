@@ -1,0 +1,509 @@
+##############################################################
+##
+## アフリカ連合フレーバーイベント(22001~22000)
+##
+##############################################################
+## 
+## id = 22001	統一中華戦線との関係＋
+## id = 22002	欧州連合との関係＋
+## id = 22003	アメリカ合衆国との関係＋
+## id = 22004	国際連合との関係＋
+## id = 22005	ソビエト連邦との関係＋
+## id = 22006	大東亜連合との関係＋
+## id = 22007	オーストラリアとの関係＋
+## id = 22008	日本帝国との関係＋
+## id = 22009	中東連合との関係＋
+## id = 22010	統一中華戦線との関係－
+## id = 22011	欧州連合との関係－
+## id = 22012	アメリカ合衆国との関係－
+## id = 22013	国際連合との関係－
+## id = 22014	ソビエト連邦との関係－
+## id = 22015	大東亜連合との関係－
+## id = 22016	オーストラリアとの関係－
+## id = 22017	日本帝国との関係－
+## id = 22018	中東連合との関係－
+## id = 22019
+## id = 22020
+## id = 22021
+## id = 22022
+## id = 22023
+## id = 22024
+## id = 22025
+## id = 22026
+## id = 22027
+## id = 22028
+## id = 22029
+## id = 22030
+## id = 22031
+## id = 22032
+## id = 22033
+## id = 22034
+## id = 22035
+## id = 22036
+## id = 22037
+## id = 22038
+## id = 22039
+## id = 22040
+## id = 22041
+## id = 22042
+## id = 22043
+## id = 22044
+## id = 22045
+## id = 22046
+## id = 22047
+## id = 22048
+## id = 22049
+## id = 22050
+##
+##############################################################
+
+## 各国との融和
+event = {
+	id = 22001
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "統一中華戦線との関係"
+	desc = "EVT_22001_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U05 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 22002
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "欧州連合との関係"
+	desc = "EVT_22002_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U02 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 22003
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_22003_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = 10 } 
+ 	}
+}
+
+event = {
+	id = 22004
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_22004_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = 10 } 
+	}
+}
+
+event = {
+	id = 22005
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "ソビエト連邦との関係"
+	desc = "EVT_22005_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = 10 } 
+        }
+}
+
+event = {
+	id = 22006
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_22006_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U04 value = 10 } 
+        }
+}
+
+event = {
+	id = 22007
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "オーストラリアとの関係"
+	desc = "EVT_22007_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = AST value = 10 } 
+        }
+}
+
+event = {
+	id = 22008
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "アフリカ連合との関係"
+	desc = "EVT_22008_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U01 value = 10 } 
+        }
+}
+
+event = {
+	id = 22009
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_22009_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = 10 } 
+        }
+}
+
+event = {
+	id = 22010
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "統一中華戦線との関係"
+	desc = "EVT_22010_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U05 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 22011
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "欧州連合との関係"
+	desc = "EVT_22011_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U02 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 22012
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_22012_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = -10 } 
+ 	}
+}
+
+event = {
+	id = 22013
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_22013_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = -10 } 
+	}
+}
+
+event = {
+	id = 22014
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "ソビエト連邦との関係"
+	desc = "EVT_22014_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = -10 } 
+        }
+}
+
+event = {
+	id = 22015
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_22015_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U04 value = -10 } 
+        }
+}
+
+event = {
+	id = 22016
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "オーストラリアとの関係"
+	desc = "EVT_22016_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = AST value = -10 } 
+        }
+}
+
+event = {
+	id = 22017
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "日本帝国との関係"
+	desc = "EVT_22017_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = JAP value = -10 } 
+        }
+}
+
+event = {
+	id = 22018
+	random = yes
+	country = U01
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_22018_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = -10 } 
+        }
+}
+
+event = {
+	id = 555001
+	random = no
+	country = U01
+	trigger = {
+          control = { province = 901 data = U12 } #スエズ運河ID901
+	}
+
+	name = "スエズ運河陥落への対応"
+	desc = "EVT_555001_DESC" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すぐに対応を協議しなくては"
+		command = { type = trigger which = 15002 } 
+ }
+}
+
+event = {
+	id = 555002
+	random = no
+	country = U01
+	trigger = {
+		event = 555001
+	}
+
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	name = "スエズ運河陥落への対応"
+	desc = "EVT_555002_DESC" 
+	style = 0
+
+	action_a = {
+		name = "欧州連合軍及び国連軍にのみ援軍を要請する" #アレクサンドリアID907
+                ai_chance = 20
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = hq when = 3 where = sp_artillery } 
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = armor when = 3 where = sp_artillery }
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = armor when = 3 where = artillery }
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = armor when = 3 where = artillery }
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 5 where = sp_artillery }
+                command = { type = local_setflag which = EUSuez }
+ }
+        action_b = {
+                name = "第1案に加え、米軍の大規模な援軍を要請する"
+                ai_chance = 80
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = hq when = 3 where = sp_artillery } 
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = armor when = 3 where = sp_artillery }
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = armor when = 3 where = artillery }
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = armor when = 3 where = artillery }
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 5 where = sp_artillery }
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 5 where = artillery }
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 5 where = artillery }		
+		command = { type = add_corps value = land where = 907 } 
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 5 where = artillery }
+                command = { type = local_setflag which = USASuez }		
+   }
+}
+
+event = {
+	id = 555003
+	random = no
+	country = U01
+	trigger = {
+          local_flag = EUSuez
+          owned = { province = 907 data = -1 } 
+	}
+
+	name = "スエズ運河奪還"
+	desc = "BETAによって陥落したスエズ運河を奪還することに成功した。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "素晴らしい！"
+                command = { type = relation which = U02 value = 50 }
+ }
+}
+
+event = {
+	id = 555004
+	random = no
+	country = U01
+	trigger = {
+          local_flag = USASuez
+          owned = { province = 907 data = -1 } 
+	}
+
+	name = "スエズ運河奪還"
+	desc = "BETAによって陥落したスエズ運河を奪還することに成功した。しかし米軍に大規模な援軍を要請したため、米国に戦費の捻出を求められた。我が国にこれを拒むすべは無い。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "国が滅ばなかっただけマシと喜ぶべきか・・・"
+                command = { type = money value = -700 }
+                command = { type = trigger which = 15005 }
+ }
+}

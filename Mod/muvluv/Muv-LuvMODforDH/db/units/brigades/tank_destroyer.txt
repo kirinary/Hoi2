@@ -1,0 +1,72 @@
+# 0 - Early
+model          = { cost = 3 buildtime = 30 manpower = 2 defensiveness = 1 toughness = 1 softness = 0 hardattack = 2 supplyconsumption = 0.2 fuelconsumption = 0 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 1 - Basic
+model          = { cost = 3 buildtime = 30 manpower = 2 defensiveness = 2 toughness = 2 softness = 0 hardattack = 3 supplyconsumption = 0.24 fuelconsumption = 0 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 2 - Improved
+model          = { cost = 3 buildtime = 30 manpower = 2 defensiveness = 3 toughness = 3 softness = 0 hardattack = 3 supplyconsumption = 0.28 fuelconsumption = 0 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 softattack = 1 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 3 - Advanced
+model          = { cost = 3 buildtime = 30 manpower = 2 defensiveness = 4 toughness = 4 softness = 0 softattack = 2 hardattack = 4 supplyconsumption = 0.3 fuelconsumption = 0 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 4 - Semi-Modern
+model          = { cost = 3 manpower = 2 defensiveness = 5 toughness = 5 softness = 0 softattack = 3 hardattack = 5 supplyconsumption = 0.32 fuelconsumption = 0 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 buildtime = 35 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 5 - Modern
+model          = { cost = 3 buildtime = 30 manpower = 2 defensiveness = 6 toughness = 5 softness = 0 softattack = 4 hardattack = 6 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 0 - Early
+model          = { cost = 3 buildtime = 30 manpower = 2 defensiveness = 1 toughness = 5 softness = 0 supplyconsumption = 0.2 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 hardattack = 6 softattack = 5 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 1 - Basic
+model          = { cost = 3 buildtime = 30 manpower = 2 defensiveness = 2 toughness = 5 softness = 0 hardattack = 6 supplyconsumption = 0.24 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 softattack = 5 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 2 - Improved
+model          = { cost = 3 buildtime = 30 manpower = 2 defensiveness = 3 toughness = 5 softness = 0 hardattack = 6 supplyconsumption = 0.28 fuelconsumption = 0 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 softattack = 6 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 3 - Advanced
+model          = { cost = 3 buildtime = 30 manpower = 2 defensiveness = 4 toughness = 5 softness = 0 softattack = 6 hardattack = 7 supplyconsumption = 0.3 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 300 TRUCKS = 20 ARMORED_CAR = 30 } }
+# 4 - Semi-Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 5 toughness = 5 softness = -18 softattack = 1 hardattack = 7 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 5 - Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 6 toughness = 6 softness = -20 softattack = 1 hardattack = 8 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 0 - Early
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 1 toughness = 1 softness = -10 hardattack = 2 supplyconsumption = 0.2 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 1 - Basic
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 2 toughness = 2 softness = -11 hardattack = 3 supplyconsumption = 0.24 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 2 - Improved
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 3 toughness = 3 softness = -14 hardattack = 5 supplyconsumption = 0.28 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 3 - Advanced
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 4 toughness = 4 softness = -16 softattack = 1 hardattack = 6 supplyconsumption = 0.3 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 4 - Semi-Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 5 toughness = 5 softness = -18 softattack = 1 hardattack = 7 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 5 - Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 6 toughness = 6 softness = -20 softattack = 1 hardattack = 8 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 0 - Early
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 1 toughness = 1 softness = -10 hardattack = 2 supplyconsumption = 0.2 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 1 - Basic
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 2 toughness = 2 softness = -11 hardattack = 3 supplyconsumption = 0.24 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 2 - Improved
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 3 toughness = 3 softness = -14 hardattack = 5 supplyconsumption = 0.28 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 3 - Advanced
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 4 toughness = 4 softness = -16 softattack = 1 hardattack = 6 supplyconsumption = 0.3 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 4 - Semi-Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 5 toughness = 5 softness = -18 softattack = 1 hardattack = 7 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 5 - Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 6 toughness = 6 softness = -20 softattack = 1 hardattack = 8 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 0 - Early
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 1 toughness = 1 softness = -10 hardattack = 2 supplyconsumption = 0.2 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 1 - Basic
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 2 toughness = 2 softness = -11 hardattack = 3 supplyconsumption = 0.24 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 2 - Improved
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 3 toughness = 3 softness = -14 hardattack = 5 supplyconsumption = 0.28 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 3 - Advanced
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 4 toughness = 4 softness = -16 softattack = 1 hardattack = 6 supplyconsumption = 0.3 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 4 - Semi-Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 5 toughness = 5 softness = -18 softattack = 1 hardattack = 7 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 5 - Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 6 toughness = 6 softness = -20 softattack = 1 hardattack = 8 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 0 - Early
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 1 toughness = 1 softness = -10 hardattack = 2 supplyconsumption = 0.2 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 1 - Basic
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 2 toughness = 2 softness = -11 hardattack = 3 supplyconsumption = 0.24 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 2 - Improved
+model          = { cost = 7 buildtime = 70 manpower = 2 defensiveness = 3 toughness = 3 softness = -14 hardattack = 5 supplyconsumption = 0.28 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 3 - Advanced
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 4 toughness = 4 softness = -16 softattack = 1 hardattack = 6 supplyconsumption = 0.3 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 4 - Semi-Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 5 toughness = 5 softness = -18 softattack = 1 hardattack = 7 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 5 - Modern
+model          = { cost = 8 buildtime = 70 manpower = 2 defensiveness = 6 toughness = 6 softness = -20 softattack = 1 hardattack = 8 supplyconsumption = 0.32 fuelconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }

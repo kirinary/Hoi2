@@ -1,0 +1,829 @@
+##################################################################
+##	                                                        
+##  ランダムイベント:使用ID:1000~1200          　                  
+##                                                                                                       
+##################################################################
+##
+## id = 1000	偶然による発見、研究の奇跡的な大躍進
+## id = 1001	議会のスキャンダル				
+## id = 1002	クーデター未遂事件				
+## id = 1003	クーデター成功					
+## id = 1004	暴走する政治家				
+## id = 1005	
+## id = 1006	
+## id = 1007	
+## id = 1008	
+## id = 1009            
+## id = 1010	戦争避難民の大量流入
+## id = 1011	
+## id = 1012	
+## id = 1013	
+## id = 1014	
+## id = 1015	
+## id = 1016	
+## id = 1017	
+## id = 1018	
+## id = 1019	                           
+## id = 1020	英雄が軍の戦略を批判する
+## id = 1021	                       
+## id = 1030	何者かが研究を妨害                              
+## id = 1040	何者かが生産を妨害                              
+## id = 1050	何者かが陸上要塞を破壊                          
+## id = 1060	何者かが沿岸要塞を破壊                          
+## id = 1070	敵国から奪った技術                        
+## id = 1090	秘密警察の報告                            
+## id = 1110	大規模な反戦デモ                                
+## id = 1120	婦人団体が物資を軍に寄付                        
+## id = 1130	青年運動により志願兵が増える                    
+## id = 1131	一流の科学者が我が国へ亡命			
+## id = 1132	民間主導による生産拡大				
+## id = 1133	政府が民間企業を国有化				
+## id = 1140	首都での軍事パレード				
+## id = 1150	戦争支持の大規模デモ	
+##					
+################################################################
+#      ランダムイベント・フレーバーイベント
+################################################################
+#EVENT 1151 キリスト教系恭順派の拡大 
+#EVENT 1152 避難民の軍への志願       
+#EVENT 1153 洋上プラントの稼動       
+#EVENT 1153 戦場鉱山                 
+#EVENT 1154 水中からの金属回収       
+#EVENT 1155 前線で流行の小説         
+#EVENT 1156 地球環境の悪化           
+#EVENT 1157 大規模戦術機整備班の設立 
+#EVENT 1158 文化遺産の保護           
+#EVENT 1159 国連主導の実戦演習       
+#EVENT 1160 経済協定の締結           
+################################################################	
+
+event = {
+	id = 1000
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -5  
+		}
+	}
+	name = "EVT_1000R_NAME"
+	desc = "EVT_1000R_DESC"
+	picture = "reserch_sbotage"
+	style = 0
+
+	action_a = {
+			name = "ACTIONNAME1000A"
+			command = { type = research_sabotaged }
+	}
+}
+
+event = {
+	id = 1001
+	random = yes
+	trigger = {
+				atwar = yes
+	}
+	name = "EVT_1001R_NAME"
+	desc = "EVT_1001R_DESC"
+	picture = "news_paper"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1001A"
+		command = { type = dissent value = 3 }
+	}
+}
+
+event = {
+	id = 1002
+	random = yes
+	trigger = {
+				atwar = yes
+	}
+	name = "EVT_1002R_NAME"
+	desc = "EVT_1002R_DESC"
+	picture = "womens_organisation"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1002A"
+		command = { type = resource which = supplies value = 200 } # % of max daily income
+		command = { type = money value = -100 }
+	}
+}
+
+event = {
+	id = 1003
+	random = yes
+	trigger = {
+					atwar = yes
+					NOT = {
+							government = democratic
+							}
+	}
+	name = "EVT_1003R_NAME"
+	desc = "EVT_1003R_DESC"
+	picture = "youth_movment"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1003A"
+		command = { type = manpowerpool value = 100 }
+	}
+}
+
+event = {
+	id = 1004
+	random = yes
+	trigger = {
+				atwar = yes
+				government = democratic
+	}
+
+	name = "EVT_1004R_NAME"
+	desc = "EVT_1004R_DESC"
+	picture = "women_labour"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1004A"
+		command = { type = manpowerpool value = 100 }
+	}
+}
+
+event = {
+	id = 1005
+	random = yes
+	trigger = {
+
+	}
+	name = "EVT_1005R_NAME"
+	desc = "EVT_1005R_DESC"
+	picture = "military_parade"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1005A"
+		command = { type = resource which = supplies value = -100 } 
+		command = { type = dissent value = -5 }
+	}
+}
+
+event = {
+	id = 1006
+	random = yes
+	trigger = {
+				NOT = {
+							government = democratic
+							}
+	}
+	name = "EVT_1006R_NAME"
+	desc = "EVT_1006R_DESC"
+	picture = "private_sector"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1006A"
+		command = { type = industrial_modifier which = total value = 1 }
+		command = { type = dissent value = 1 }
+	}
+}
+
+event = {
+	id = 1007
+	random = yes
+	trigger = {
+				atwar = yes
+	}
+	name = "EVT_1007R_NAME"
+	desc = "EVT_1007R_DESC"
+	picture = "war_refugees"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1007A"
+		command = { type = manpowerpool value = 30 }
+	}
+}
+
+event = {
+	id = 1008
+	random = yes
+	trigger = {
+				NOT = {
+						ideology = nazi
+						ideology = fascist
+							}
+	}
+	name = "EVT_1008R_NAME"
+	desc = "EVT_1008R_DESC"
+	picture = "major_worker_strike"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1008A"
+		command = { type = dissent value = 2 }
+		command = { type = resource which = supplies value = -200 } # % of max daily income
+	}
+}
+
+event = {
+	id = 1009
+	random = yes
+	trigger = {
+					atwar = yes
+				}
+	name = "EVT_1009R_NAME"
+	desc = "EVT_1009R_DESC"
+	picture = "artist"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1009A"
+		command = { type = dissent value = -3 }
+	}
+}
+
+event = {
+	id = 1010
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -5
+		}
+	}
+	name = "EVT_1010R_NAME"
+	desc = "EVT_1010R_DESC"
+	picture = "industry_sabotaged"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1010A"
+		command = { type = construct which = ic where = -1 value = -1 }
+	}
+}
+
+event = {
+	id = 1011
+	random = yes
+	trigger = {
+
+	}
+	name = "EVT_1011R_NAME"
+	desc = "EVT_1011R_DESC"
+	picture = "scientist"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1011A"
+		command = { type = steal_tech which = -1 }
+	}
+}
+
+event = {
+	id = 1012
+	random = yes
+	trigger = {
+
+	}
+	name = "EVT_1012R_NAME"
+	desc = "EVT_1012R_DESC"
+	picture = "breaktroug_in_research"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1012A"
+		command = { type = gain_tech which = -2 }
+	}
+}
+
+event = {
+	id = 1013
+	random = yes
+	trigger = {
+				NOT = {
+							government = communist
+							}
+	}
+	name = "EVT_1013R_NAME"
+	desc = "EVT_1013R_DESC"
+        picture = "private_initiative2"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1013A"
+
+		command = { type = industrial_modifier which = total value = 1 }
+	}
+}
+
+event = {
+	id = 1014
+	random = yes
+	trigger = {
+							government = democratic
+	}
+	name = "EVT_1014R_NAME"
+	desc = "EVT_1014R_DESC"
+	picture = "politician"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1014A"
+		command = { type = domestic	which = democratic value = -2 }
+		command = { type = money value = -200 }
+	}
+	action_b = {
+		name = "ACTIONNAME1014B"
+		command = { type = domestic	which = democratic value = 2 }
+	}
+}
+
+event = {
+	id = 1015
+	random = yes
+	trigger = {
+				NOT = {
+							government = democratic
+							}
+	}
+	name = "EVT_1015R_NAME"
+	desc = "EVT_1015R_DESC"
+	picture = "politician"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1015A"
+		command = { type = dissent value = -1 }
+		command = { type = sleepminister which = -1 }
+		command = { type = money value = -200 }
+	}
+	action_b = {
+		name = "ACTIONNAME1015B"
+		command = { type = dissent value = 1 }
+	}
+}
+
+event = {
+	id = 1016
+	random = yes
+	trigger = {
+				government = democratic
+	}
+	name = "EVT_1016R_NAME"
+	desc = "EVT_1016R_DESC"
+	picture = "outlaw_communist_party"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1016A"
+		command = { type = domestic which = political_left value = 1 }
+	}
+	action_b = {
+		name = "ACTIONNAME1016B"
+		command = { type = domestic which = political_left value = -1 }
+	}
+}
+
+event = {
+	id = 1017
+	random = yes
+	trigger = {
+				government = democratic
+	}
+	name = "EVT_1017R_NAME"
+	desc = "EVT_1017R_DESC"
+	picture = "outlaw_fascist_parties"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1017A"
+		command = { type = domestic which = political_left value = -1 }
+	}
+	action_b = {
+		name = "ACTIONNAME1017B"
+		command = { type = domestic which = political_left value = 1 }
+	}
+}
+
+
+event = {
+	id = 1020
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -5  
+		}
+	}
+	name = "EVT_1020R_NAME"
+	desc = "EVT_1020R_DESC"
+	picture = "fort_sabotaged"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1020A"
+		command = { type = construct which = land_fort where = -1 value = -1 }
+	}
+}
+
+event = {
+	id = 1030
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -5  
+		}
+	}
+	name = "EVT_1030R_NAME"
+	desc = "EVT_1030R_DESC"
+	picture = "coastal_fort"
+	style = 0
+
+	action_a = {
+			name = "ACTIONNAME1030A"
+			command = { type = construct which = coastal_fort where = -1 value = -1 }
+	}
+}
+
+event = {
+	id = 1040
+	random = yes
+	trigger = {
+		intel_diff = 5  
+	}
+	name = "EVT_1040R_NAME"
+	desc = "EVT_1040R_DESC"
+	picture = "technology_stolen"
+	style = 0
+
+	action_a = {
+			name = "ACTIONNAME1040A"
+			command = { type = steal_tech which = -1 }  
+	}
+}
+
+event = {
+	id = 1050
+	random = yes
+	trigger = {
+		atwar = yes
+		NOT = {
+			intel_diff = -10
+		}
+	}
+	name = "EVT_1050R_NAME"
+	desc = "EVT_1050R_DESC"
+	picture = "comander_assasinated"
+	style = 0
+
+	action_a = {
+			name = "ACTIONNAME1050A"
+			command = { type = sleepleader which = -1 }
+	}
+}
+
+event = {
+	id = 1090
+	random = yes
+	trigger = {
+		government = democratic
+	}
+	name = "EVT_1090R_NAME"
+	desc = "EVT_1090R_DESC"
+	picture = "parliamentary_scandal"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1090A"
+		command = { type = dissent value = 3 }
+		command = { type = money value = -400 }
+	}
+}
+
+event = {
+	id = 1110
+	random = yes
+	trigger = {
+		atwar = no
+		government = democratic
+	}
+	name = "EVT_1110R_NAME"
+	desc = "EVT_1110R_DESC"
+	picture = "great_war_manifestion"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1110A"
+		command = { type = domestic which = interventionism value = 1 }
+		command = { type = money value = -200 }
+	}
+}
+
+event = {
+	id = 1120
+	random = yes
+	trigger = {
+		atwar = no
+		government = democratic
+	}
+	name = "EVT_1120R_NAME"
+	desc = "EVT_1120R_DESC"
+	picture = "peace_manifestation"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1120A"
+		command = { type = domestic which = interventionism value = -1 }
+	}
+}
+
+event = {
+	id = 1130
+	random = yes
+	trigger = {
+		NOT = {
+			government = democratic
+		}
+		dissent = 5
+	}
+	name = "EVT_1130R_NAME"
+	desc = "EVT_1130R_DESC"
+	picture = "partisan_revolt"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1130A"
+		command = { type = dissent which = 2 }
+	}
+}
+
+event = {
+	id = 1131
+	random = yes
+	trigger = {
+		NOT = {
+			government = democratic
+		}
+		dissent = 15
+	}
+	name = "EVT_1130R_NAME"
+	desc = "EVT_1130R_DESC"
+	picture = "partisan_revolt"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1131A"
+		command = { type = dissent which = 2 }
+	}
+}
+
+event = {
+	id = 1132
+	random = yes
+	trigger = {
+		NOT = {
+			government = democratic
+		}
+		dissent = 25
+	}
+	name = "EVT_1130R_NAME"
+	desc = "EVT_1130R_DESC"
+	picture = "partisan_revolt"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1132A"
+		command = { type = dissent which = 2 }
+	}
+}
+
+event = {
+	id = 1133
+	random = yes
+	trigger = {
+		NOT = {
+			government = democratic
+		}
+		dissent = 35
+	}
+	name = "EVT_1130R_NAME"
+	desc = "EVT_1130R_DESC"
+	picture = "partisan_revolt"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1133A"
+		command = { type = dissent which = 2 }
+	}
+}
+
+event = {
+	id = 1140
+	random = yes
+	trigger = {
+		dissent = 30 
+	}
+	name = "EVT_1140R_NAME"
+	desc = "EVT_1140R_DESC"
+	picture = "failed_coup"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1140A"
+		command = { type = sleepminister which = -2 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = dissent value = -10 }
+	}
+}
+
+event = {
+	id = 1150
+	random = yes
+	trigger = {
+		dissent = 60
+	}
+	name = "EVT_1150R_NAME"
+	desc = "EVT_1150R_DESC"
+	picture = "regime_falls"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1150A"
+		command = { type = regime_falls }
+		command = { type = dissent value = -100 }
+	}
+}
+
+event = {
+	id = 1151
+	random = yes
+	country = -1
+	trigger = {
+	}
+
+	name = "EVT_1151R_NAME"
+	desc = "EVT_1151R_DESC"
+	style = 0
+
+	action_a = {
+		name = "ACTIONNAME1151A"
+		command = { type = dissent value = 3 } 
+	}
+}
+
+event = {
+	id = 1152
+	random = yes
+	country = -1
+	trigger = {
+	}
+
+	name = "避難民の軍への志願"
+	desc = "祖国を失い難民化した者達が祖国奪還の為、軍に志願をしている。"
+	style = 0
+
+	action_a = {
+		name = "よかろう"
+		command = { type = manpowerpool value = 50 } 
+	}
+}
+
+event = {
+	id = 1154
+	random = yes
+	country = -1
+	trigger = {
+	}
+
+	name = "戦場鉱山"
+	desc = "BETA撃退に成功した戦場の各兵器の残骸を回収し、資源の再利用に成功した"
+	style = 0
+
+	action_a = {
+		name = "よし！"
+		command = { type = metalpool value = 1000 } 
+		command = { type = rarematerialspool value = 800 }
+	}
+}
+
+event = {
+	id = 1155
+	random = yes
+	country = -1
+	trigger = {
+	}
+
+	name = "水中からの金属回収"
+	desc = "AL弾による重金属雲発生後に落下した金属の内、川や海に流出した分の回収に成功した"
+	style = 0
+
+	action_a = {
+		name = "よし！"
+		command = { type = metalpool value = 1500 } 
+	}
+}
+
+event = {
+	id = 1157
+	random = yes
+	country = -1
+	trigger = {
+	}
+
+	name = "地球環境の悪化"
+	desc = "BETA大戦によりユーラシア大陸の環境は殆ど破壊されてしまった。1980年代からの欧州寒冷化やアジアの巨大台風などが例だ。"
+	style = 0
+
+	action_a = {
+		name = "どうしたものか･･････"
+		command = { type = attrition_mod value = 5 } 
+	}
+}
+
+event = {
+	id = 1159
+	random = yes
+	country = -1
+	trigger = {
+	}
+
+	name = "文化遺産の保護"
+	desc = "EVT_1159R_DESC"
+	style = 0
+
+	action_a = {
+		name = "保護すべきだろう"
+		command = { type = belligerence  value = -10  }
+	}
+}
+
+
+event = {
+	id = 1161
+	random = yes
+	country = -1
+	trigger = {
+	}
+
+	name = "経済協定の締結"
+	desc = "他国との経済的協力のための条約を締結した。"
+	style = 0
+
+	action_a = {
+		name = "よろしい"
+		command = { type = relation which = -1 value = 30 }
+	}
+}
+
+event = {
+	id = 1163
+	random = yes
+	trigger = {
+	}
+
+	name = "偉大な英雄の誕生"
+	desc = "戦場で動けなくなった味方の戦術機を庇い、生還すると言う快挙を成し遂げた英雄が誕生した！"
+	style = 0
+
+	action_a = {
+		name = "士気が上がるなら何でも構わん"
+		command = { type = dissent value = -5 } 
+ }
+}
+
+event = {
+	id = 1167
+	random = yes
+	trigger = {
+	}
+
+	name = "反戦運動"
+	desc = "先日反戦運動家たちが反戦行進を行った。"
+	style = 0
+
+	action_a = {
+		name = "こいつらを再突入型駆逐艦から武器を持たない戦術機でハイブ上空に落としてやれ！"
+		command = { type = dissent value = 3 } 
+ }
+}
+
+event = {
+	id = 1168
+	random = yes
+	trigger = {
+	}
+
+	name = "ある少女の懇願"
+	desc = "EVT_1168R_DESC"
+	style = 0
+
+	action_a = {
+		name = "この少女を雇って今後も有効活用させてもらおう"
+		command = { type = dissent value = -3 } 
+ }
+}

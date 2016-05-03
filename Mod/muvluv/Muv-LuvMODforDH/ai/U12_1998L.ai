@@ -1,0 +1,497 @@
+switch = no                                   
+flags = { }                                    
+claim_acceptance = 0                           
+demand_claims = { }                            
+liberate = { }                             
+resistance = {                                 
+				ARG = 10
+				AST = 10
+				BHU = 10
+				BOL = 10
+				BRA = 10
+				BRU = 10
+				BUR = 10
+				CAN = 10
+			    CHL = 10
+				CMB = 10
+				COL = 10
+				COS = 10
+				CUB = 10
+				DOM = 10
+				ECU = 10
+				GUA = 10
+				HAI = 10
+				HON = 10
+				IND = 10
+				INO = 10
+				JAP = 10
+				KOR = 10
+				LAO = 10
+				MEX = 10
+				MLY = 10
+				MON = 10
+				NEP = 10
+				NIC = 10
+				NZL = 10
+				PAK = 10
+				PAN = 10
+				PAR = 10
+				PHI = 10
+				PRU = 10
+				SAF = 10
+				SAL = 10
+				SIA = 10
+				SOV = 10
+				U01 = 10
+				U02 = 10
+				U03 = 10
+				U04 = 10
+				U05 = 10
+				U06 = 10
+				U07 = 10
+				U08 = 10
+				U09 = 10
+				U10 = 10
+				U11 = 10
+				URU = 10
+				USA = 10
+				VEN = 10
+				VIE = 10
+}                            
+combat = {                                     
+				ARG = 100
+				AST = 100
+				BHU = 100
+				BOL = 100
+				BRA = 100
+				BRU = 100
+				BUR = 100
+				CAN = 100
+			    CHL = 100
+				CMB = 100
+				COL = 100
+				COS = 100
+				CUB = 100
+				DOM = 100
+				ECU = 100
+				GUA = 100
+				HAI = 100
+				HON = 100
+				IND = 100
+				INO = 100
+				JAP = 100
+				KOR = 100
+				LAO = 100
+				MEX = 100
+				MLY = 100
+				MON = 100
+				NEP = 100
+				NIC = 100
+				NZL = 100
+				PAK = 100
+				PAN = 100
+				PAR = 100
+				PHI = 100
+				PRU = 100
+				SAF = 100
+				SAL = 100
+				SIA = 100
+				SOV = 100
+				U01 = 100
+				U02 = 100
+				U03 = 100
+				U04 = 100
+				U05 = 100
+				U06 = 100
+				U07 = 100
+				U08 = 100
+				U09 = 100
+				U10 = 100
+				U11 = 100
+				URU = 100
+				USA = 100
+				VEN = 100
+				VIE = 100
+}
+protect = { 
+}
+target = {       
+         1353 = 1000
+         907 = 1000
+         1170 = 2000
+         2619 = 3000 #•ºŒÉ
+         2615 = 3000 #‹“s
+         1192 = 3000 #“Œ‹
+         908 = 5000
+         549 = 5000
+         2661 = 5000
+         780 = 5000
+         765 = 5000
+         620 = 5000
+         616 = 5000
+         606 = 5000
+         651 = 5000
+}
+                          
+upgrading = 0.2                               
+reinforcement = 0.9                            
+desperation = 1.0                              
+strat_redeploy_threshold = 120                 
+max_redeploying = 0.25                     
+use_offensive_supply = no                     
+max_fuel_offensive = 100                    
+evac_islands = yes                             
+war = 99 
+neutrality = 0                                 
+max_front_ratio = 4.0                         
+                        
+max_garrison_prop = 0.3                       
+min_garrison_prop = 0.2
+
+construction = { 
+	max_factor = 0.100                         
+	AA_batteries  = not_atwar              
+	max_AA_level  = 10                     
+	AA_provs  = {                          
+	}                            
+	coastal_fort   = not_atwar            
+	max_coastal_level = 10                
+	coastal_fort_provs = {                
+	}                   
+	radar_station   = not_atwar            
+	max_radar  = 10                       
+	radar_provs  = {                       
+	}                         
+	air_base   = not_atwar                 
+	max_air_base  = 10                    
+	air_base_provs  = {                
+	}                     
+	naval_base   = not_atwar               
+	max_naval_base  = 10                
+	naval_base_provs = {                   
+	}                     
+	land_fort  = not_atwar                
+	max_land_level  = 10                   
+	fort_borders = {                       
+	}                        
+	fort_provs  = {                      
+	}                         
+	ic_at_war  = no                       
+	force_ic_until  = 1973                 
+	ic_end_year  = 1990                    
+	IC_provs  = {                          
+	}                                          
+	nuclear_reactor = no                 
+	nuclear_reactor_prov = 2615            
+	max_nuclear = 10                      
+	rocket_test = no                      
+	rocket_test_prov = 2615               
+	max_rocket = 10                       
+}
+
+garrison = { 
+	defend_overseas_beaches = yes          
+	home_multiplier  = 0.3333               
+	overseas_multiplier  = 0.5         
+	home_peace_cap  = 10                  
+	war_zone_odds   = 2.0                 
+	area_multiplier = {                   
+	}                      
+	beach    = 50                         
+	capital   = 100                    
+	human_border  = 210               
+	war_target  = 100                  
+	reserves  = 20                     
+	opposing_alliance = 100             
+	claim_threat  = 100                
+	unstable_border  = 50               
+	country_priorities = { }
+	province_priorities = { }
+	ignore = { }
+}
+front = {
+	river = 0.1                             
+	largefort  = 0.5                        
+	smallfort = 0.3                         
+	occupied = 0.1                          
+	owned  = 0.1                           
+	strength 	= 0.1
+	organisation 	= 0.1
+	soft_attack 	= 0.1
+	hard_attack 	= 0.1
+	ground_defense 	= 0.1
+	dig_in 	= 0.1                           
+
+	frozen_attack  = 0.50                   
+	snow_attack  = 0.50                     
+	blizzard_attack = 0.25                  
+	storm_attack  = 0.60                    
+	muddy_attack  = 0.75                    
+	jungle_attack  = 0.85                   
+	mountain_attack = 0.60                  
+	swamp_attack  = 0.60                   
+	forest_attack  = 0.85                  
+	hill_attack  = 0.75                    
+	urban_attack  = 0.40
+              
+	support_defense_prop = 0.333            
+	recklessness   =  3                    
+	distrib_vs_ai   = Offensive                 
+	distrib_vs_human  = Offensive               
+	enemy_handicap = { }                       
+	passivity = {                             
+				U12 = 0
+	}                             
+	province_priorities = { }
+	reserve_prop = 0.2                      
+	panic_ratio_vs_ai = 2.5                 
+	panic_ratio_vs_human = 2.5              
+
+	enemy_reinf_days = 2.5                  
+	base_attack_odds = 0.1                  
+	min_attack_odds = 0.1                  
+	max_attack_odds = 3.0                 
+	reinforce_odds = 0.1                   
+	withdraw_odds = 0.01                   
+}
+
+
+### ƒ†ƒjƒbƒg¶Y 
+#ƒƒ‚FAI‚Ì¶YŠúŠÔ‚ÍA‘¼‚Ì—v‘fA‚½‚Æ‚¦‚ÎIC—e—ÊAƒVƒiƒŠƒII—¹“úAâ–]‚È‚Ç‚É‚à¶‰E‚³‚ê‚Ü‚·B
+military = {
+	relative_build_scheme  = yes            # [yesn‚Éİ’è‚·‚é‚ÆAAI‚ÍŠù‘¶‚Ì•Û—Lƒ†ƒjƒbƒg‚ğl—¶‚µ‚ÄŒR‘S‘Ì‚Æ‚µ‚ÄˆÈ‰º‚Ì’l‚ğ•Û‚Â‚æ‚¤‚Éƒ†ƒjƒbƒg‚ğ¶Y‚µ‚Ü‚·
+	                                           # [no]‚Æİ’è‚µ‚½ê‡AŠù‘¶‚Ì•Û—Lƒ†ƒjƒbƒg‚ğl—¶‚¹‚¸¶Y’†ƒ†ƒjƒbƒg‚Ì”ä—¦‚ªˆÈ‰º‚ğ•Û‚Â‚æ‚¤‚É¶Y‚µ‚Ü‚·
+	                                           # í‘ˆ’†‚ÍŠe•ºíŠÔ‚Ì”’l‚ª•Ï“®‚µ‚Ä‚¢‚é‚¹‚¢‚©yes‚É‚·‚é‚Æãè‚­“®ì‚µ‚È‚¢‚±‚Æ‚à‚ ‚é‚æ‚¤‚Å‚·Bí‘ˆ’†‚ÍnoA•½˜a‚Íyes‚É‚·‚é‚±‚Æ‚ğ‚¨Š©‚ß‚µ‚Ü‚·
+	max_batch_peace =  1                       # •½˜a‚ÍA‚±‚Ì’l‚æ‚è“ú”‚Ì‚©‚©‚é¶Y‚Í‚µ‚Ü‚¹‚ñ
+	max_batch_war =  1                         # í‘ˆ‚ÍA‚±‚Ì’l‚æ‚è“ú”‚Ì‚©‚©‚é¶Y‚Í‚µ‚Ü‚¹‚ñ
+	max_batch_home_front = 1                   # ’†ŠjB‚Åí“¬‚ªs‚í‚ê‚Ä‚¢‚éê‡A‚±‚Ì’l‚æ‚è“ú”‚Ì‚©‚©‚é¶Y‚Í‚µ‚Ü‚¹‚ñ
+
+	## t’c‚Ì¶YŠ„‡
+	# ’ˆÓF—¤ŠC‹ó‚ ‚í‚¹‚Ä100%‚É‚È‚é‚æ‚¤‚Éİ’è‚µ‚Ä‚­‚¾‚³‚¢
+	# AI‚Ííp‹y‚Ñí—ª”šŒ‚‹@‚ğ¶Y‚·‚é‚Æ‚«A‚©‚È‚ç‚¸Œì‰qí“¬‹@‚à¶Y‚µ‚Ü‚·
+	# —¤ŒR
+	infantry = 100                             # •à•º         [ íp•àsí“¬‹@/‰üC‹@ ]           [ —vŒ‚‹‰ ]
+	cavalry = 0                                # ‹R•º         [ –³líp‹@ ]                      [  ]
+	motorized = 0                              # ©“®Ô‰»•à•º [ í—ªq‹ó‹@“®—vÇ ]                [ •êŠÍ‹‰ ]
+	mechanized = 0                             # ‹@ŠB‰»•à•º   [ ‹@ŠB‰»•à•º ]                      [  ]
+	light_armor = 0                            # ŒyíÔ       [ •à•ºíÔ ]                        [  ]
+	armor = 0                                  # íÔ         [ å—ÍíÔ ]                        [  ]
+	paratrooper = 0                            # ‹ó’ğ         [ íp•àsí“¬‹@ ]                  [ —vŒ‚‹‰ ]
+	marine = 0                                 # ŠC•º         [ ‹Ç’ní‹­PUŒ‚‹@ ]                [ “ËŒ‚‹‰ ]
+	bergsjaeger = 0                            # RŠx•º       [ íp•àsUŒ‚‹@ ]                  [ dŒõü‹‰ ]
+	garrison = 0                               # ç”õ‘à       [ ©‘–x‰‡’S•Û ]                    [ –å‹‰ ]
+	hq = 0                                     # i—ß•”       [ wŠöÔ—¼/wŠöŠ¯‹@ ]               [ —vÇ‹‰A“ª”]‹‰Ad“ª”]‹‰ ]
+	militia = 0                                # –¯•º         [ —ûK‹@/‚“™—ûK‹@ ]               [ —vŒ‚‹‰ ]
+    # 0
+
+	# ‹óŒR
+	escort = 0                                 # Œì‰q‹@       [ Œì‰qí“¬‹@ ]                      [  ]
+	multi_role = 0                             # í“¬‹@       [ ‘½—p“rí“¬‹@ ]                    [ §‹ó‹‰ ]
+	interceptor = 0                            # ‹Ç’ní“¬‹@   [ —vŒ‚í“¬‹@ ]                      [ Œ}Œ‚‹‰ ]
+	strategic_bomber = 0                       # í—ª”šŒ‚‹@   [ í—ª”šŒ‚‹@/íp—pí—ª”šŒ‚‹@ ]     [ d”šŒ‚‹‰ ]
+	tactical_bomber = 0                        # íp”šŒ‚‹@   [ íp”šŒ‚‹@/í“¬”šŒ‚‹@ ]           [ ”šŒ‚‹‰ ]
+	naval_bomber = 0                           # ŠÍ”š‹@       [ UŒ‚‹@/í“¬UŒ‚‹@ ]               [ UŒ‚‹‰ ]
+	cas = 0                                    # ‹ßÚUŒ‚‹@   [ í“¬ƒwƒŠ ]                        [  ]
+	transport_plane = 0                        # —A‘—‹@       [ —A‘—‹@/Ä“Ë“üŒ^‹ì’€ŠÍ ]           [ ‹ó—A‹‰ ]
+	flying_bomb = 0                            # V1           [ ípƒ~ƒTƒCƒ‹ ]                    [ ”òãÄ‹‰ ]
+	flying_rocket = 0                          # V2           [ í—ªƒ~ƒTƒCƒ‹/‹O“¹”šŒ‚ ]           [  ]
+    # 0
+
+	# ŠCŒR
+	battleship = 0                             # íŠÍ         [ íŠÍ/Œ´q—Í/ƒC[ƒWƒX ]            [ íŠÍ‹‰ ]
+	light_cruiser = 0                          # Œy„—mŠÍ     [ ƒ~ƒTƒCƒ‹’ø ]                      [  ]
+	heavy_cruiser = 0                          # d„—mŠÍ     [ „—mŠÍ/Œ´q—Í/ƒC[ƒWƒX ]          [ „—m‹‰ ]
+	battlecruiser = 0                          # „—míŠÍ     [ ƒƒPƒbƒg–CŠÍ ]                    [  ]
+	destroyer = 0                              # ‹ì’€ŠÍ       [ ‹ì’€ŠÍ/Œ´q—Í/ƒC[ƒWƒX ]          [ ‹ì’€‹‰ ]
+	carrier = 0                                # ‹ó•ê         [ ‹ó•ê/Œ´q—Í‹ó•ê ]                 [ ‹ó•ê‹‰ ]
+	escort_carrier = 0                         # Œy‹ó•ê       [ ƒwƒŠ‹ó•ê ]                        [ Œy‹ó•ê‹‰ ]
+	submarine = 0                              # ö…ŠÍ       [ „—m/UŒ‚ö…ŠÍ ]                 [ ö…‹‰ ]
+	nuclear_submarine = 0                      # Œ´q—Íö…ŠÍ [ Œ´q—Íö…ŠÍ ]                    [  ]
+	transport = 0                              # —A‘—‘D       [ —A‘—ŠÍ/—g—¤ŠÍ ]                   [ —A‘—‹‰ ]
+    # 0
+
+	# —·’c¶YŠ„‡ 
+	# ’ˆÓF100%ˆÈ‰º‚Éİ’è‚µ‚Ä‚­‚¾‚³‚¢
+	# —¤ŒR
+	artillery = 0                              # –C•º         [ ©‘–Ö’e–C ]                      [  ]
+	sp_artillery = 0                           # ©‘––@       [ ©‘–‰×“d—±q–C ]                  [  ]
+	rocket_artillery = 0                       # ƒƒPƒbƒg–C   [  ]                                [  ]
+	sp_rct_artillery = 0                    # ©‘–ƒƒPƒbƒg [ ©‘–ƒƒPƒbƒg–C ]                  [  ]
+	anti_tank = 0                              # ‘ÎíÔ–C     [ ©‘–“d¥“ŠË–C ]                  [  ]
+	tank_destroyer = 0                         # ‹ì’€íÔ     [ VBL‘•bÔ ]                       [  ]
+	light_armor_brigade = 0                    # ŒyíÔ—·’c   [  ]                                [ íÔ‹‰ ]
+	heavy_armor = 0                            # díÔ—·’c   [  ]                                [ •ºm‹‰ ]
+	super_heavy_armor = 0                      # ’´díÔ     [  ]                                [ Œõü‹‰ ]
+	armored_car = 0                            # ‘•bÔ       [ ‘½‹r‰^”ÀÔ—¼ ]                    [  ]
+	anti_air = 0                               # ‘Î‹ó—·’c     [ ©‘–‘Î‹ó–C ]                      [  ]
+	police = 0                                 # Œ›•º         [  ]                                [  ]
+	engineer = 0                               # H•º         [  ]                                [  ]
+}
+air_marshal = {
+	min_mission_strength_org = 0.5          
+	icxdayscostfactor = 10.0               
+	manpowercostfactor = 100.0              
+	destructionriskthreashold = 0.2         
+	airsuperioritydesirability = 10.0      
+	airsuperioritylosstolerance = 1.0        
+
+	groundattacklosstolerance = 1.0
+	groundattackdesirability = 1.0
+	interdictionlosstolerance = 1.5
+	inderdictiondesirability = 1.0
+	logisticalstrikelosstolerance = 4.5
+	logisticalstrikeefficency = 0.01 
+
+	logisticalstrikedesirability = 100000.0
+	runwaycrateringlosstolerance = 1.5
+	runwaycrateringefficency = 0.01
+	runwaycrateringdesirability = 20000.0
+	strategicstriketolerance = 4.5
+	strategicstrikeefficency = 0.01
+	strategicstrikedesirability = 1000000.0
+	installationstriketolerance = 1.5
+	installationstrikeefficency = 0.01
+	installationstrikedesirability = 10.0
+	navalstriketolerance = 1.0
+	navalstrikedesirability = 10.0
+	portstriketolerance = 1.0
+	portstrikedesirability = 9.0ª
+
+taskforcetype = { 
+	name = "Air Superiority"                 
+	desiredratio = 0.400                    
+	rangeweight = 10.000                    
+	airkillpowerweight = 2000.000 
+	hardkillpowerweight = 0.000 
+	softkillpowerweight = 0.000  
+	navalkillpowerweight = 0.000 
+	strategickillpowerweight = 0.000 		
+	transportcapacityweight = -1000000.000 
+	airvulnurabilityweight = -1.000  
+	surfacevulnurabilityweight = 0.000
+	idle = yes 
+	reorganize = yes 
+	air_superiority = yes 
+ 	#Others not supported by the "Air Superiority" default taskforce type
+ 	#interdiction
+ 	#ground_attack
+ 	#logistical_strike
+ 	#runway_cratering
+ 	#strategic_bombardment
+ 	#installation_strike
+ 	#naval_strike
+ 	#port_strike
+ 	#convoy_air_raiding
+ 	#airborne_assault
+ 	#air_supply 	
+	}
+	taskforcetype = { name = "Soft Bombing" desiredratio = 0.200 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = 0.000 softkillpowerweight = 2000.000 navalkillpowerweight = 0.000 strategickillpowerweight = 0.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = 0.000 surfacevulnurabilityweight = -1.000 idle = yes reorganize = yes interdiction = yes ground_attack = yes } 
+	taskforcetype = { name = "Hard Bombing" desiredratio = 0.100 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = 2000.000 softkillpowerweight = 0.000 navalkillpowerweight = 0.000 strategickillpowerweight = 0.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = 0.000 surfacevulnurabilityweight = -1.000 idle = yes reorganize = yes interdiction = yes ground_attack = yes } 
+	taskforcetype = { name = "Strategic Bombing" desiredratio = 0.100 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = 0.000 softkillpowerweight = 0.000 navalkillpowerweight = 0.000 strategickillpowerweight = 2000.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = -0.500 surfacevulnurabilityweight = -0.500 idle = yes reorganize = yes logistical_strike = yes runway_cratering = yes strategic_bombardment = yes installation_strike = yes } 
+	taskforcetype = { name = "Naval Bombing" desiredratio = 0.100 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = 0.000 softkillpowerweight = 0.000 navalkillpowerweight = 2000.000 strategickillpowerweight = 0.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = 0.000 surfacevulnurabilityweight = -1.000 idle = yes reorganize = yes naval_strike = yes port_strike = yes convoy_air_raiding = yes } 
+	taskforcetype = { name = "Airlift" desiredratio = 0.100 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = -2000.000 softkillpowerweight = -2000.000 navalkillpowerweight = 0.000 strategickillpowerweight = -2000.000 transportcapacityweight = 1000000.000 airvulnurabilityweight = -1.000 surfacevulnurabilityweight = 0.000 idle = yes reorganize = yes airborne_assault = yes air_supply = yes } 
+}
+
+leader_ratio = {
+	land_field_marshal = 0.02                  
+	land_general = 0.41                     
+	land_lt_general = 0.031                     
+		
+	sea_grand_admiral = 0.02                    
+	sea_admiral = 0.061                        
+	sea_vice_admiral = 0.401     
+              
+	air_marshal = 0.02                          
+	air_general = 0.091                          
+	air_lt_General = 0.11                        
+}
+
+invasion = {
+	base = 1.0                                 
+	random = 1.0                                  
+	coastal = 1.0                               
+	beach = 1.0                                  
+	distance = 1.0                              
+	max_distance = 20.0                          
+	pocket = 1.0                                 
+	island = 1.0                                
+	enemy = 1.0                                
+	adjacentenemy = 1.0                         
+	air_base = 0.1                               
+	naval_base = 0.1                              
+	air_support = 0.1                            
+	ignore = no	                          
+	redirect = priority/nearest/home
+	target = { }
+}
+
+admiral = {
+	target = { }
+	core = { }
+	base = { } 
+	ignore = {
+		"northern baltic"
+		"southern baltic"
+	}
+	min_org  = 1%                                 
+	min_dmg  = 1%                                  
+	return_org  = 1%                             
+	return_dmg  = 1%                             
+}
+
+technology = {
+	endgoal = { }                               
+	preference = { }                                    
+	ignore = { 
+		7010
+	}                                              
+	armor = 0                                       
+	infantry = 0                                    
+	industry = 0                                   
+	aircraft = 0                                 
+	naval = 0                                  
+	land_doctrines = 0                              
+	air_doctrines = 0                               
+	naval_doctrines = 0                           
+	secret_weapons = 0                              
+}
+
+trade = {
+	favored = { }                                                          
+	embargo = { }                                                        
+	cancel_deal_threshold = 4.0                     
+	rare_materials 	= -1
+	metal 		= -1 
+	oil 		= -1 
+	supplies 	= -1 
+	money 		= -1 
+
+	
+	
+	
+	
+	
+	
+}
+
+tech_sharing = {                                                   
+	                                                 
+	favored = { }                                        			           
+	embargo = { }                                                        		   
+	not = { }                                                     		   
+	prioritized = { }                                                              
+} 
+
+ferocity = yes
+
+spyprefs = {
+	percentage_on_spies = 0.2                        
+	percentage_foreign_mission = 0.7                
+	spyprefsdata = 
+	{
+		NumberOfSpies = 10                        
+		counter_espionage = 10                   
+		country = U12
+	}
+
+}

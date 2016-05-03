@@ -1,0 +1,128 @@
+########################################
+#####çƒìÀì¸å^ãÏíÄäÕ#####
+########################################
+# 0
+model =
+{ cost                       = 15
+  buildtime                  = 180
+  defaultorganisation        = 20
+  morale                     = 30
+  manpower                   = 5
+  surfacedetectioncapability = 3
+  airdetectioncapability     = 1
+  surfacedefence             = 30
+  airdefence                 = 30
+  airattack                  = 0
+  strategicattack            = 0
+  softattack                 = 0
+  hardattack                 = 0
+  navalattack                = 0
+  transportcapability        = 1
+  supplyconsumption          = 2.0
+  fuelconsumption            = 2.0
+  upgrade_time_factor        = 0.5
+  upgrade_cost_factor        = 1.0
+  maxspeed                   = 2000
+  range                      = 12000
+  #equipment = { manpower = 4000 HEAVY_FIGHTERS = 54 }
+}
+# 1
+model =
+{ cost                       = 15
+  buildtime                  = 180
+  defaultorganisation        = 20
+  morale                     = 30
+  manpower                   = 5
+  maxspeed                   = 2200
+  surfacedetectioncapability = 3
+  airdetectioncapability     = 1
+  surfacedefence             = 30
+  airdefence                 = 30
+  airattack                  = 0
+  strategicattack            = 0
+  softattack                 = 0
+  hardattack                 = 0
+  navalattack                = 0
+  transportcapability        = 1
+  range                      = 12000
+  supplyconsumption          = 2.0
+  upgrade_time_factor        = 0.5
+  upgrade_cost_factor        = 1.0
+  fuelconsumption            = 2.0
+  #equipment = { manpower = 4000 HEAVY_FIGHTERS = 54 }
+}
+# 2
+model =
+{ cost                       = 15
+  buildtime                  = 180
+  defaultorganisation        = 20
+  morale                     = 30
+  manpower                   = 5
+  maxspeed                   = 2400
+  surfacedetectioncapability = 3
+  airdetectioncapability     = 1
+  surfacedefence             = 30
+  airdefence                 = 30
+  airattack                  = 0
+  strategicattack            = 0
+  softattack                 = 0
+  hardattack                 = 0
+  navalattack                = 0
+  transportcapability        = 1
+  range                      = 12000
+  supplyconsumption          = 2.0
+  fuelconsumption            = 2.0
+  upgrade_time_factor        = 0.5
+  upgrade_cost_factor        = 1.0
+  #equipment = { manpower = 4000 HEAVY_FIGHTERS = 54 }
+}
+# 3
+model =
+{ cost                       = 15
+  buildtime                  = 180
+  defaultorganisation        = 20
+  morale                     = 30
+  manpower                   = 5
+  maxspeed                   = 2800
+  surfacedetectioncapability = 3
+  airdetectioncapability     = 1
+  surfacedefence             = 30
+  airdefence                 = 30
+  airattack                  = 0
+  strategicattack            = 0
+  softattack                 = 0
+  hardattack                 = 0
+  navalattack                = 0
+  transportcapability        = 1
+  range                      = 12000
+  supplyconsumption          = 0.6
+  fuelconsumption            = 1.2
+  upgrade_time_factor        = 0.5
+  upgrade_cost_factor        = 1.0
+  #equipment = { manpower = 4000 HEAVY_FIGHTERS = 54 }
+}
+# 4
+model =
+{ cost                       = 15
+  buildtime                  = 180
+  defaultorganisation        = 20
+  morale                     = 30
+  manpower                   = 5
+  maxspeed                   = 3500
+  surfacedetectioncapability = 3
+  airdetectioncapability     = 1
+  surfacedefence             = 30
+  airdefence                 = 30
+  airattack                  = 0
+  strategicattack            = 0
+  softattack                 = 0
+  hardattack                 = 0
+  navalattack                = 0
+  transportcapability        = 1
+  range                      = 12000
+  supplyconsumption          = 1
+  fuelconsumption            = 2
+  upgrade_time_factor        = 0.5
+  upgrade_cost_factor        = 1.0
+  #equipment = { manpower = 4000 HEAVY_FIGHTERS = 54 }
+}

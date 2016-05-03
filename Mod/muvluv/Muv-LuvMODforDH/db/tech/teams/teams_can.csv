@@ -1,0 +1,33 @@
+CAN;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+901;アンドリュー・マクノートン;T908;5;1939;2100;infantry_focus;large_unit_tactics;centralized_execution;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+902;アブロ・カナダ;T302;5;1945;2100;aeronautics;electronics;technical_efficiency;chemistry;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+903;A・A・L・カフ;T_CAN_AA_Cuffe;5;1930;2100;fighter_tactics;aircraft_testing;decentralized_execution;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+904;バラード乾船渠;T_CAN_BurrardDryDock;4;1930;2100;naval_artillery;naval_engineering;technical_efficiency;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+905;カナディア社;T_CAN_Canadair;6;1944;2100;aeronautics;artillery;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+906;カナディアン・カー＆ファンドリー社;T_CAN_CanadianCarFoundrt;5;1930;2100;aeronautics;technical_efficiency;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+907;カナディアン・ロコモティブ・カンパニー;T_CAN_CanadianLocomotiveCompany;5;1930;2100;mechanics;general_equipment;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+908;カナダ太平洋鉄道;T_CAN_CPR;5;1930;2100;mechanics;technical_efficiency;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+909;カナディアン・ヴィッカーズ社;T_CAN_CanadianVickers;6;1930;2100;naval_engineering;aeronautics;technical_efficiency;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+910;チョークリバー研究所;T917;4;1943;2100;mathematics;nuclear_physics;nuclear_engineering;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+911;カナダ太平洋鉄道アンガス工場;T_CAN_AngusShops;5;1930;2100;mechanics;technical_efficiency;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+912;デ・ハビランド・カナダ;T_CAN_deHavilland;5;1930;2100;aeronautics;chemistry;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+913;フランク＝ロバート・ミラー;T_CAN_Frank-Robert_Miller;5;1942;2100;bomber_tactics;fighter_tactics;aircraft_testing;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+914;ジョージ・クロイル;T911;4;1930;2100;bomber_tactics;aircraft_testing;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+915;ゲルハルト・ヘルツベルグ;T_CAN_Gerhard_Herzberg;6;1935;2100;chemistry;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+916;ハロルド・ベイリー＝グローマン;T912;4;1938;2100;naval_training;small_taskforce_tactics;centralized_execution;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+917;ハロルド・コクセター;T_CAN_Harold_Coxeter;5;1930;2100;mathematics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+918;ハリー・デウォルフ;T918;4;1947;2100;naval_training;small_taskforce_tactics;carrier_tactics;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+919;ヘンリー・クリーラー;T913;4;1940;2100;infantry_focus;large_unit_tactics;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+920;ジョン・イングリス社;T_CAN_JohnInglisCompany;4;1930;2100;artillery;general_equipment;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+921;ロング・ビーチ海軍工廠;T_CAN_LongBranchArsenal;5;1930;2100;artillery;general_equipment;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+922;モントリオール機関車製造所;T_CAN_MontrealLocomotiveWorks;5;1930;2100;mechanics;technical_efficiency;artillery;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+923;パーシー・ネルス;T_CAN_Percy_Nelles;5;1930;2100;naval_training;large_taskforce_tactics;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+924;ポリマー 社;T_CAN_Polycorp;5;1930;2100;chemistry;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+925;カナダ王立軍事大学;T_CAN_RoyalMilitaryCollege;4;1930;2100;infantry_focus;large_unit_tactics;centralized_execution;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+926;シャウィニガン造水発電所;T_CAN_ShawiniganWater;5;1930;2100;electronics;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+927;セントジョン造船所;T_CAN_StJohnShipbuilding;5;1930;2100;naval_artillery;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+928;ビクトリア機械廠;T_CAN_VictoriaMachineryDepot;5;1930;2100;naval_engineering;technical_efficiency;electronics;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+929;ビクトリー・エアクラフト社;T_CAN_VictoryAircraft;5;1930;2100;aeronautics;chemistry;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+926;ウォータールー工業社;T_CAN_WaterlooManufacturing;4;1930;2100;mechanics;artillery;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+930;ウィリアム・T・トゥッテ;T_CAN_William_Tutte;5;1930;2100;mathematics;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+931;トロント大学;T916;5;1930;2100;mathematics;mechanics;management;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

@@ -1,0 +1,42 @@
+event = {
+	id = 64001
+	random = no 
+	country = USA
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = USA_1998L.ai }
+	}
+}
+
+event = {
+	id = 64002
+	random = no 
+	country = USA
+	trigger = {
+		ai = yes
+                event = 64001
+            OR = {
+                   event = 70113
+                   event = 50113
+                  }
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = switch/USA_Counterattack.ai }
+	}
+}

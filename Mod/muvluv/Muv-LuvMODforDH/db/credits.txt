@@ -1,0 +1,227 @@
+#8劬The Arsenal of Democracy Team
+ 
+ 
+#6劬Programming and Planning
+#4即Lennart Berg.
+ 
+#6劬Game Concepts and Design
+#4即Philipp Elhaus.
+ 
+#6劬Historical Research, Calculations and Discussion
+#4即Andy Gibson.
+ 
+#6劬Manual and Editing
+#4即Clifford Andersen.
+ 
+#6劬Translation
+#4即German - Roland Madler.
+#4即Italian - Davide Benedetti.
+#4即Polish - Jacek Ogonowski.
+#4即Portuguese - Gianluca Debiasi Anders, Rafael Tressoldi Tedesco, & Ricardo Jose.
+#4即Russian - Cyril Andreichuk.
+#4即Spanish - Juanfra Valero.
+ 
+#6劬Beta Testing
+#4即Mathias R. (Lead Europe), Kyle Gordon (Lead USA), Jan Kozak, Christoph Meyer, 
+#4即Josip Tarle, Lars Buttner, Brandon Mills, Dominic WFreyberg, Lars Neumeier, 
+#4即Alexander Brunius, Dennis Stansert, Stefan Rumen, Pavel Jerzey, Stefan Nesinger, 
+#4即Robin Tuess, Marek Saemann, Konrad Hoerhold, Karsten Bertram, and Dennis Stansert.
+  
+#6劬Special thanks to
+#4即Maarten van Tintelen and the C.O.R.E. modding team. 
+#4即For more about C.O.R.E. for Arsenal of Democracy check out www.terranova.dk
+#4即or forum.paradoxplaza.com.
+
+#6劬Community Support.
+#4即Jamison Geibel, Ian Coccozza, Riko Jensen, Peter Simcic, Vladimir Pavlov, 
+#4即Manfred Tilgner, Adam Kun, William Ling, Glenn de Groot, Nicholas Broadbridge, 
+#4即Giuseppe Orlando, Matthias Bestian, Fernando Torres, and Lodovico Ariosto.
+
+#6劬Tech Teams
+#4即Adam Kun, William Ling, Glenn de Groot, Nicholas Broadbridge, Giuseppe Orlando,
+#4即Kristopher Strebe, Daniel Shannon, Sauli Lappalainen, Timo Klein, and Jan Kozak.
+
+#6劬Thanks to Lt. Hiltsdorf for his innovative work and Paradox Interactive
+#6劬for making this fan - project possible. A special thanks to all of the 
+#6劬active forum members, partners and supporters who helped us imagine!
+ 
+ 
+ 
+
+#8劬Original Hearts of Iron 2
+
+
+#6劬PRODUCER / LEAD PROGRAMMER
+#4即Johan Andersson
+ 
+#6劬GAME DESIGN
+#4即Joakim Bergqwist
+Henrik Fahraeus
+Johan Andersson
+ 
+#6劬PROGRAMMING
+#4即Henrik Fahraeus
+Johan Andersson
+ 
+#6劬ADDITIONAL PROGRAMMING
+#4即Jonas Bjering
+Thomas Johansson
+Pontus Aberg
+ 
+#6劬LEAD ARTIST
+#4即Marcus Edstrom
+ 
+#6劬ARTIST
+Dick Sjostrom
+ 
+#6劬MAP
+Stefan Thulin
+ 
+#6劬AI SCRIPTING
+#4即David Martinez
+ 
+#6劬CAMPAIGN DESIGN
+#4即Joakim Bergqwist
+Markus Herrmann
+Henrik Fahreaus
+Stefan Carlsson
+ 
+#6劬BATTLESCENARIO DESIGN
+#4即Markus Herrmann
+Joakim Bergqwist
+Wesley Ferris
+Simon Aistleitner
+Wojtek Waluk
+Fernando A. Turi
+Jose M. Aguirre
+Joshua Raup
+ 
+#6劬DATABASE RESEARCH
+#4即Maxime Penen
+Soren Birch-Jensen
+Birger Fjallman
+Wesley Ferris
+Lars Wetterling
+Markus Herrmann
+Simon Aistleitner
+Wojtek Waluk
+Kevin McCarthy
+ 
+#6劬HISTORICAL EVENTS DESIGN
+#4即Joakim Bergqwist
+Alf Melin
+Henrik Fahreaus
+ 
+#6劬ORIGINAL MUSIC
+#4即Andreas Waldetoft
+ 
+#6劬SOUND EFFECTS
+#4即Wave Generation
+ 
+#6劬BETA TESTERS
+#4即Alf Melin
+Andrew Davidson
+Andy Dunlap
+Artur Godlewski
+Birger Fjallman
+Brian Schulz
+Carsten 't Mannetje
+Chad Cutlip
+Charles Schmidt
+Chris Stone
+Christoph Hemmerle
+Dave Cheeney
+David Ballantyne
+David Smitmanis
+Dominik Adolf
+Drew Swinerd
+Fernando A. Turi
+Fernando J. Nebot
+Igor Lulic
+Inge Davidsen
+Jacob Michael Lundgren
+James L. Erwin.
+Jan Peter Dijkstra
+Jason Schaub
+Jason Snyder
+Jean-Alain Grunchec
+Jean-Philippe DUFLOT
+Jeff Barkhauer
+Jeff Bow
+Jens Juhl Eriksen
+Joakim Bergqwist
+Joe Gurney
+Joel Herrero Ensenat
+Jonathan Barcus
+Jonathan Gartshore-Baxter
+Jose Maria Aguirre
+Joshua Raup
+Juan Camilo Gomez
+Juha Ekholm
+Jussi Laaksonen
+Kalle Isotalo
+Kevin Byers
+Kevin McCarthy
+Kevyn Taylor
+Kristo Karvinen
+Lars Lindholm
+Lars Erling Neergard
+Lars Thomsen
+Lars Wetterling
+Michele Pollaci
+Marcus Olausson
+Mark Kvistgaard Thomsen
+Markus Herrmann
+Mathias Forsberg
+Matteo Polacchini
+Matthew Davies
+Maxime Penen
+Michael Kohler
+Nacho Zapata
+Neil Paradise
+Nicholas Malouin
+Nikolai Tuuri 
+Nikolaj Dybdal Vinther
+Oskar Bjornsson
+Panu Alku
+Patrick Daniel Wegerle
+Patrick Hendriks
+Patrick Murphy
+Paul Rae
+Pent Ploompuu
+Peter Hodosi
+Peteris Paikens
+Petter Trillkott
+Rand Pratt
+Rick McGregor
+Romuald Louvrier
+Ron Peterson 
+Sascha Cyrus
+Shawn Tse
+Simon Aistleitner
+Simon Jaeger
+Stefan Carlsson
+Steffen Behncke
+Steffen Potter
+Steven Brengard
+Soren Birch-Jensen
+Tamas Kiss
+Taras Wach
+Thomas Broman
+Thomas Corriol
+Tim Linden
+Tom Smiley
+Tony Lozina
+Wayne Jackson
+Wesley Ferris
+Ville Mallinen
+Wojtek Kubicki
+Wojtek Waluk
+Xavier Follebouckt
+Yacine Gouaref
+ 
+ 
+#6劬SPECIAL THANKS
+#4即All the people at our forum
+-END 
+

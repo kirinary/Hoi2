@@ -1,0 +1,179 @@
+#model0
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 2
+  softattack          = 2
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 2
+}
+
+#model1
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 3
+  softattack          = 3
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 3
+}
+
+#model2
+model =
+{ cost                = 4
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 3.5
+  softattack          = 4
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 4
+}
+
+#model3
+model =
+{ cost                = 4
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 4
+  softattack          = 4
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 5
+}
+
+#model4
+model =
+{ cost                = 5
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 5
+  softattack          = 5
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 5
+}
+
+#model5
+model =
+{ cost                = 5.4
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 6
+  softattack          = 5
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 6
+}
+
+#model6
+model =
+{ cost                = 6
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 6
+  softattack          = 6
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 7
+}
+
+#model7
+model =
+{ cost                = 6.5
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 7
+  softattack          = 7
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 7
+}
+
+#model8
+model =
+{ cost                = 7
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 8
+  softattack          = 8
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 8
+}
+
+#model9
+model =
+{ cost                = 7.5
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 10
+  softattack          = 10
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 10
+}

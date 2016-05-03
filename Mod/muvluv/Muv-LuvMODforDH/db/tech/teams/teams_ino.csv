@@ -1,0 +1,12 @@
+INO;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+24000;アブドゥル・ハリス・ナスティオン;T_INO_Abdul_Haris_Nasution;2;1950;2100;decentralized_execution;individual_courage;infantry_focus;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24001;インドネシア空軍;T_INO_AirForce;3;1945;2100;aircraft_testing;fighter_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24002;インドネシア海兵隊;T_INO_MarineCorps;3;1945;2100;general_equipment;mechanics;naval_engineering;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24003;インドネシア海軍訓練基地Grounds;T10402;2;1930;2100;centralized_execution;naval_training;seamanship;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24004;インドネシア国有鉄道;T11500;4;1930;2100;industrial_engineering;management;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24005;ジャカルタ工廠;T9800;4;1930;2100;artillery;general_equipment;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24006;ジャカルタ造船所;T11003;3;1930;2100;electronics;naval_artillery;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24007;インドネシア国立軍事大学;T10401;2;1930;2100;centralized_execution;decentralized_execution;large_unit_tactics;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24008;サウス・イースト・アジア・エアクラフト社;T11403;3;1930;2100;aeronautics;aircraft_testing;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24009;スダーマン;T_INO_Sudirman;3;1941;2100;decentralized_execution;individual_courage;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24010;インドネシア大学;T11504;3;1930;2100;chemistry;management;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

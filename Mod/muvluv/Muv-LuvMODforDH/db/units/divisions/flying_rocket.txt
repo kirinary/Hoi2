@@ -1,0 +1,668 @@
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 5
+  buildtime           = 120
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 4500
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 100
+  softattack          = 0
+  hardattack          = 0
+  range               = 1500
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 5
+  buildtime           = 120
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 120
+  softattack          = 0
+  hardattack          = 0
+  range               = 6000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 2#Inter Continental Ballistic Missile V2A10
+model =
+{ cost                = 5
+  buildtime           = 120
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 8000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 150
+  softattack          = 0
+  hardattack          = 0
+  range               = 9000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 5
+  buildtime           = 120
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 8000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 210
+  softattack          = 0
+  hardattack          = 0
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  range               = 12000
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 5
+  buildtime           = 120
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 9000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 250
+  softattack          = 0
+  hardattack          = 0
+  range               = 18000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 2#Inter Continental Ballistic Missile V2A10
+model =
+{ cost                = 6
+  buildtime           = 90
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 8000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 160
+  softattack          = 0
+  hardattack          = 0
+  range               = 8000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 50
+  buildtime           = 360
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0.5
+  maxspeed            = 10000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 3000
+  hardattack          = 2000
+  range               = 36000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 1000
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  navalattack         = 2000
+  softattack          = 2000
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 50
+  buildtime           = 360
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0.5
+  maxspeed            = 12000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 3000
+  softattack          = 3000
+  hardattack          = 3000
+  range               = 36000
+  supplyconsumption   = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  navalattack         = 3000
+  fuelconsumption     = 1000
+}
+# Model 2#Inter Continental Ballistic Missile V2A10
+model =
+{ cost                = 50
+  buildtime           = 360
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0.5
+  maxspeed            = 18000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 5000
+  softattack          = 5000
+  hardattack          = 5000
+  range               = 36000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 1000
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  navalattack         = 5000
+}
+# Model 2#Inter Continental Ballistic Missile V2A10
+model =
+{ cost                = 6
+  buildtime           = 90
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 8000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 160
+  softattack          = 0
+  hardattack          = 0
+  range               = 8000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 2#Inter Continental Ballistic Missile V2A10
+model =
+{ cost                = 6
+  buildtime           = 90
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 8000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 160
+  softattack          = 0
+  hardattack          = 0
+  range               = 8000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 2#Inter Continental Ballistic Missile V2A10
+model =
+{ cost                = 6
+  buildtime           = 90
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 8000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 160
+  softattack          = 0
+  hardattack          = 0
+  range               = 8000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 2#Inter Continental Ballistic Missile V2A10
+model =
+{ cost                = 6
+  buildtime           = 90
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 8000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 160
+  softattack          = 0
+  hardattack          = 0
+  range               = 8000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 2#Inter Continental Ballistic Missile V2A10
+model =
+{ cost                = 6
+  buildtime           = 90
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 8000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 160
+  softattack          = 0
+  hardattack          = 0
+  range               = 8000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 2#Inter Continental Ballistic Missile V2A10
+model =
+{ cost                = 6
+  buildtime           = 90
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 8000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 160
+  softattack          = 0
+  hardattack          = 0
+  range               = 8000
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 0#Flying Rocket V2A5
+model =
+{ cost                = 4
+  buildtime           = 60
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 5000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 70
+  softattack          = 0
+  hardattack          = 0
+  range               = 380
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# Model 1#Ballistic Missile V2A9
+model =
+{ cost                = 4
+  buildtime           = 70
+  defaultorganisation = 100
+  morale              = 100
+  manpower            = 0
+  maxspeed            = 6000
+  surfacedefence      = 100
+  airdefence          = 100
+  strategicattack     = 80
+  softattack          = 0
+  hardattack          = 0
+  range               = 2400
+  supplyconsumption   = 0.0
+  fuelconsumption     = 0.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}

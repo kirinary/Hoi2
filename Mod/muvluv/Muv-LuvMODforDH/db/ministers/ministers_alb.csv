@@ -1,0 +1,155 @@
+ALB;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+32001;Head of State;エンヴェル・ホッジャ;70;ST;Ruthless Powermonger;High;M32001;x
+32002;Head of Government;メフメット・シェフー;70;ST;Silent Workhorse;High;M32002;x
+32003;Foreign Minister;ネスティ・ナーセ;70;ST;Apologetic Clerk;High;M32003;x
+32004;Minister of Armament;アレクス・ヴェルリ;70;ST;laissez-faire capitalist;High;M32004;x
+32005;Minister of Security;カドリ・ハズビウ;70;ST;Back Stabber;Medium;M32005;x
+32006;Head of Military Intelligence;ファディル・パクラミ;70;ST;Political Specialist;Medium;M32006;x
+32007;Chief of Staff;ペトリト・デューメ;70;ST;School of Defence;Medium;M32007;x
+32008;Chief of Army;メフメット・シェフー;70;ST;Guns and Butter Doctrine;Medium;M32002;x
+32009;Chief of Navy;エンヴェル・ホッジャ;70;ST;Open Seas Doctrine;Medium;M32001;x
+32010;Chief of Air Force;エンヴェル・ホッジャ;70;ST;Carpet Bombing Doctrine;Medium;M32001;x
+32011;Head of State;ハジ・レシ;70;ST;Popular Figurehead;High;M32011;x
+32012;Head of State;ラミズ・アリア;80;ST;Benevolent Gentleman;High;M32012;x
+32013;Head of State;カストリオト・イスラミ;90;SD;Popular Figurehead;High;M32013;x
+32014;Head of State;ピェタル・アルブノリ;90;SC;Pig-headed Isolationist;High;M32014;x
+32015;Head of State;サリ・ベリシャ;90;SC;Autocratic Charmer;High;M32015;x
+32016;Head of State;スカンデル・ジヌシ;90;SD;Popular Figurehead;High;M32016;x
+32017;Head of State;レジェプ・メイダニ;90;SD;Benevolent Gentleman;High;M32017;x
+32018;Head of State;アルフレッド・モイシウ;2002;SC;Resigned Generalissimo;High;M32018;x
+32019;Head of State;バミル・トピ;2007;SC;Die-hard Reformer;High;M32019;x
+32020;Head of State;ブヤル・ニシャニ;2012;SC;Resigned Generalissimo;High;M32020;x
+32021;Head of State;レカ1世;70;PA;Stern Imperialist;High;M32021;x
+32022;Head of State;レカ2世;2011;PA;Pig-headed Isolationist;High;M32022;x
+32023;Head of Government;エケレム・スパヒア;90;PA;Naive Optimist;High;M32023;x
+32024;Head of Government;ムハーレム・バイラクタリ;70;PA;Old General;Medium;M32024;x
+32025;Head of Government;アディル・チャルチャニ;80;ST;Political Protege;High;M32025;x
+32026;Head of Government;ファトス・ナノ;90;SD;Ambitious Union Boss;High;M32026;x
+32027;Head of Government;ユリ・ブフィ;91;SD;Silent Workhorse;High;M32027;x
+32028;Head of Government;ヴィルソン・アフメティ;91;SD;Happy Amateur;High;M32028;x
+32029;Head of Government;アレクサンデル・メクシ;92;SC;Naive Optimist;High;M32029;x
+32030;Head of Government;バシュキム・フィノ;97;SD;Ambitious Union Boss;High;M32030;x
+32031;Head of Government;パンデリ・マイコ;98;SD;Scientist Prime;High;M32031;x
+32032;Head of Government;イリル・メタ;99;SD;Industrial Prime;High;M32032;x
+32033;Head of State;アルフレッド・モイシウ;2002;SD;Resigned Generalissimo;High;M32018;x
+32034;Head of Government;サリ・ベリシャ;2005;SC;Flamboyant Tough Guy;High;M32015;x
+32035;Foreign Minister;レイズ・マリレ;80;ST;Ideological Crusader;High;M32035;x
+32036;Foreign Minister;マハメット・カプラーニ;90;ST;Biased Intellectual;High;M32036;x
+32037;Foreign Minister;イリル・ボッカ;90;SD;Great Compromiser;High;M32037;x
+32038;Foreign Minister;アルフレッド・セレキ;90;SC;Great Compromiser;High;M32038;x
+32039;Foreign Minister;トリタン・シェフー;90;SC;Ideological Crusader;High;M32039;x
+32040;Foreign Minister;アルヤン・スタロヴァ;90;SC;Biased Intellectual;High;M32040;x
+32041;Foreign Minister;パスカル・ミロ;97;SD;Great Compromiser;High;M32041;x
+32042;Foreign Minister;アルタ・ダデ;2001;SD;Ideological Crusader;High;M32042;x
+32043;Foreign Minister;イリル・メタ;2002;SD;Great Compromiser;High;M32032;x
+32044;Foreign Minister;ルアン・ハジダラガ;2003;SD;Biased Intellectual;High;M32044;x
+32045;Foreign Minister;カストリオト・イスラミ;2003;SD;Ideological Crusader;High;M32013;x
+32046;Foreign Minister;ベスニク・ムスタファイ;2005;SC;Biased Intellectual;High;M32046;x
+32047;Foreign Minister;ルルジム・バシャ;2007;SC;Great Compromiser;High;M32047;x
+32048;Foreign Minister;イリル・メタ;2009;SC;Great Compromiser;High;M32032;x
+32049;Foreign Minister;エドモンド・ハジナスト;2010;SC;Biased Intellectual;High;M32049;x
+32050;Foreign Minister;エドモンド・パナリティ;2012;SC;Ideological Crusader;High;M32050;x
+32051;Foreign Minister;アルド・ブムチ;2013;SC;Biased Intellectual;High;M32051;x
+32052;Minister of Armament;レフテル・ゴガ;70;ST;Resource Industrialist;High;M32052;x
+32053;Minister of Armament;ハキ・トスカ;70;ST;Military Entrepreneur;High;M32053;x
+32054;Minister of Armament;キリジャコ・ミハリ;80;ST;Theoretical Scientist;High;M32054;x
+32055;Minister of Armament;ケマル・ディシャ;90;ST;Resource Industrialist;High;M32055;x
+32056;Minister of Armament;アナスタス・アングイェリ;90;SD;laissez-faire capitalist;High;M32056;x
+32057;Minister of Armament;ゲンク・ルリ;90;SD;Resource Industrialist;High;M32057;x
+32058;Minister of Armament;ロベルト・チェク;90;SD;Theoretical Scientist;High;M32058;x
+32059;Minister of Armament;ゲンク・ルリ;90;SC;Resource Industrialist;High;M32057;x
+32060;Minister of Armament;ディルベル・ヴリオーニ;90;SC;Administrative Genius;High;M32060;x
+32061;Minister of Armament;リドヴァン・ボデ;90;SC;laissez-faire capitalist;High;M32061;x
+32062;Minister of Armament;アルベン・マライ;97;SD;Resource Industrialist;High;M32062;x
+32063;Minister of Armament;カストリオト・イスラミ;2002;SD;laissez-faire capitalist;High;M32013;x
+32064;Minister of Security;フェチョル・シェフー;80;ST;Crime Fighter;Medium;M32064;x
+32065;Minister of Security;ヘクラン・イサイ;82;ST;Efficient Sociopath;Medium;M32065;x
+32066;Minister of Security;シモン・ステファニ;89;ST;Compassionate Gentleman;Medium;M32066;x
+32067;Minister of Security;グラモズ・ルチ;90;ST;Prince of Terror;Medium;M32067;x
+32068;Minister of Security;グラモズ・ルチ;90;SD;Prince of Terror;Medium;M32067;x
+32069;Minister of Security;バジラム・ユゼイリ;90;SD;Silent Lawyer;Medium;M32069;x
+32070;Minister of Security;ヴァシュキム・コプリク;90;SC;Man of the People;Medium;M32070;x
+32071;Minister of Security;ハリト・シャマタ;96;SC;Crime Fighter;Medium;M32071;x
+32072;Minister of Security;ネリタン・ツェカ;97;SD;Compassionate Gentleman;Medium;M32072;x
+32073;Minister of Security;ペトロ・コチ;98;SD;Silent Lawyer;Medium;M32073;x
+32074;Minister of Security;スパルタク・ポチ;99;SD;Efficient Sociopath;Medium;M32074;x
+32075;Minister of Security;イリル・ギオニ;2000;SD;Man of the People;Medium;M32075;x
+32076;Minister of Security;ステファン・チパ;2002;SD;Prince of Terror;Medium;M32076;x
+32077;Minister of Security;ルアン・ラマ;2002;SD;Compassionate Gentleman;Medium;M32077;x
+32078;Minister of Security;イグリ・トスカ;2003;SD;Crime Fighter;Medium;M32078;x
+32079;Minister of Security;ソコル・オルダシ;2005;SC;Man of the People;Medium;M32079;x
+32080;Minister of Security;ブヤル・ニシャニ;2006;SC;Silent Lawyer;High;M32020;x
+32081;Minister of Security;ルルジム・バシャ;2007;SC;Compassionate Gentleman;High;M32047;x
+32082;Minister of Security;フラムル・ノカ;2012;SC;Efficient Sociopath;High;M32082;x
+32083;Head of Military Intelligence;イリアズ・レカ;70;ST;Technical Specialist;Medium;M32083;x
+32084;Head of Military Intelligence;アリ・マナイ;76;ST;Industrial Specialist;Medium;M32084;x
+32085;Head of Military Intelligence;シモン・ステファニ;78;ST;Political Specialist;Medium;M32066;x
+32086;Head of Military Intelligence;パリ・ミスカ;82;ST;Dismal Enigma;Medium;M32086;x
+32087;Head of Military Intelligence;ペトロ・ドデ;87;ST;Political Specialist;Medium;M32087;x
+32088;Head of Military Intelligence;カストリオト・イスラミ;90;SD;Political Specialist;High;M32013;x
+32089;Head of Military Intelligence;ピェタル・アルブノリ;92;SC;Technical Specialist;High;M32014;x
+32090;Head of Military Intelligence;スカンデル・ジヌシ;97;SD;Logistics Specialist;High;M32016;x
+32091;Head of Military Intelligence;ナミク・ドクレ;2001;SD;Industrial Specialist;Medium;M32091;x
+32092;Head of Military Intelligence;セリヴェト・ペルムビ;2002;SD;Political Specialist;Medium;M32092;x
+32093;Head of Military Intelligence;ヨゼフィーナ・トパリ;2005;SC;Industrial Specialist;Medium;M32093;x
+32094;Chief of Staff;サミ・メチョラリ;70;ST;School of Fire Support;Medium;M32094;x
+32095;Chief of Staff;ヴェリ・ラカイ;75;ST;School of Psychology;Medium;M32095;x
+32096;Chief of Staff;キチョ・ムスタキ;82;ST;School of Mass Combat;Medium;M32096;x
+32097;Chief of Staff;ハリム・アバジ;90;ST;School of Defence;Medium;M32097;x
+32098;Chief of Staff;ハリム・アバジ;90;SD;School of Defence;Medium;M32097;x
+32099;Chief of Staff;コスタク・カロリ;90;SD;School of Fire Support;Medium;M32099;x
+32100;Chief of Staff;イリア・ヴァショ;92;SC;School of Manoeuvre;Medium;M32100;x
+32101;Chief of Staff;シェメ・コソヴォ;94;SC;School of Fire Support;Medium;M32101;x
+32102;Chief of Staff;アデム・チョパニ;97;SC;School of Mass Combat;Medium;M32102;x
+32103;Chief of Staff;アデム・チョパニ;97;SD;School of Mass Combat;Medium;M32102;x
+32104;Chief of Staff;アレクス・アンドーニ;97;SD;School of Defence;Medium;M32104;x
+32105;Chief of Staff;ペルムブ・カジミ;2000;SD;School of Psychology;Medium;M32105;x
+32106;Chief of Staff;ペルムブ・カジミ;2000;SC;School of Psychology;Medium;M32105;x
+32107;Chief of Staff;ルアン・ホッジャ;2006;SC;School of Defence;Medium;M32107;x
+32108;Chief of Staff;マクシム・マライ;2006;SC;School of Manoeuvre;Medium;M32108;x
+32109;Chief of Army;アディル・チャルチャニ;80;ST;Static Defence Doctrine;Medium;M32025;x
+32110;Chief of Army;ハリム・アバジ;90;SD;Elastic Defence Doctrine;Medium;M32097;x
+32111;Chief of Army;コスタク・カロリ;90;SD;Decisive Battle Doctrine;Medium;M32099;x
+32112;Chief of Army;イリア・ヴァショ;92;SC;Armoured Spearhead Doctrine;Medium;M32100;x
+32113;Chief of Army;シェメ・コソヴォ;94;SC;Static Defence Doctrine;Medium;M32101;x
+32114;Chief of Army;アデム・チョパニ;97;SC;Guns and Butter Doctrine;Medium;M32102;x
+32115;Chief of Army;アデム・チョパニ;97;SD;Guns and Butter Doctrine;Medium;M32102;x
+32116;Chief of Army;アレクス・アンドーニ;97;SD;Elastic Defence Doctrine;Medium;M32104;x
+32117;Chief of Army;ペルムブ・カジミ;2000;SD;Decisive Battle Doctrine;Medium;M32105;x
+32118;Chief of Army;ペルムブ・カジミ;2000;SC;Decisive Battle Doctrine;Medium;M32105;x
+32119;Chief of Army;ルアン・ホッジャ;2006;SC;Guns and Butter Doctrine;Medium;M32107;x
+32120;Chief of Army;マクシム・マライ;2006;SC;Armoured Spearhead Doctrine;Medium;M32108;x
+32121;Chief of Navy;プロコプ・ムラー;82;ST;Power Projection Doctrine;Medium;M32121;x
+32122;Chief of Navy;キチョ・ムスタキ;90;ST;Base Control Doctrine;Medium;M32096;x
+32123;Chief of Navy;ペリクリ・テタ;91;SD;Indirect Approach Doctrine;Medium;M32123;x
+32124;Chief of Navy;アルフレッド・モイシウ;91;SD;Open Seas Doctrine;High;M32018;x
+32125;Chief of Navy;サフェト・ジュラリ;92;SD;Decisive Naval Battle Doctrine;High;M32125;x
+32126;Chief of Navy;サビト・ブロカイ;97;SD;Indirect Approach Doctrine;High;M32126;x
+32127;Chief of Navy;ルアン・ハジダラガ;98;SD;Base Control Doctrine;High;M32044;x
+32128;Chief of Navy;イリル・ギオニ;2000;SD;Open Seas Doctrine;Medium;M32075;x
+32129;Chief of Navy;パンデリ・マイコ;2002;SD;Power Projection Doctrine;High;M32031;x
+32130;Chief of Navy;ルアン・ラマ;2005;SD;Base Control Doctrine;Medium;M32077;x
+32131;Chief of Navy;ファトミル・メディウ;2005;SC;Decisive Naval Battle Doctrine;Medium;M32131;x
+32132;Chief of Navy;ガズメンド・オケタ;2008;SC;Indirect Approach Doctrine;Medium;M32132;x
+32133;Chief of Navy;アルベン・イマミ;2009;SC;Open Seas Doctrine;Medium;M32133;x
+32134;Chief of Navy;ケマル・シクルティ;2012;SC;Indirect Approach Doctrine;Medium;M32134;x
+32135;Chief of Army;ジベル・ドゥシク;2009;SC;Static Defence Doctrine;Medium;M32135;x
+32136;Chief of Air Force;プロコプ・ムラー;82;ST;Carpet Bombing Doctrine;Medium;M32121;x
+32137;Chief of Air Force;キチョ・ムスタキ;90;ST;Army Aviation Doctrine;Medium;M32096;x
+32138;Chief of Air Force;ペリクリ・テタ;91;SD;Air Superiority Doctrine;Medium;M32123;x
+32139;Chief of Air Force;アルフレッド・モイシウ;91;SD;Naval Aviation Doctrine;High;M32018;x
+32140;Chief of Air Force;サフェト・ジュラリ;92;SD;Army Aviation Doctrine;High;M32125;x
+32141;Chief of Air Force;サビト・ブロカイ;97;SD;Air Superiority Doctrine;High;M32126;x
+32142;Chief of Air Force;ルアン・ハジダラガ;98;SD;Vertical Envelopment Doctrine;High;M32044;x
+32143;Chief of Air Force;イリル・ギオニ;2000;SD;Naval Aviation Doctrine;Medium;M32075;x
+32144;Chief of Air Force;パンデリ・マイコ;2002;SD;Carpet Bombing Doctrine;High;M32031;x
+32145;Chief of Air Force;ルアン・ラマ;2005;SD;Vertical Envelopment Doctrine;Medium;M32077;x
+32146;Chief of Air Force;ファトミル・メディウ;2005;SC;Army Aviation Doctrine;Medium;M32131;x
+32147;Chief of Air Force;ガズメンド・オケタ;2008;SC;Air Superiority Doctrine;Medium;M32132;x
+32148;Chief of Air Force;アルベン・イマミ;2009;SC;Naval Aviation Doctrine;Medium;M32133;x
+32149;Chief of Air Force;デョリ・スピロラリ;2010;SC;Air Superiority Doctrine;Medium;M32149;x
+32150;Chief of Staff;ジェマル・ジュンクシ;2011;SC;School of Fire Support;Medium;M32150;x
+32151;Chief of Air Force;フレデリック・ベルトイア;2013;SC;Air Superiority Doctrine;Medium;M32151;x
+32152;Minister of Armament;シュケルキム・カニ;2003;SC;Former Banker;High;M32152;x
+32153;Head of Military Intelligence;イリル・メタ;2013;SC;Industrial Specialist;Medium;M32032;x

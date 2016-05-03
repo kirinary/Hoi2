@@ -1,0 +1,1920 @@
+#####################################################################
+##
+## ライセンス生産(30001~30500)
+##
+#####################################################################
+##
+## id = 30001	アメリカ第1世戦術機開発  ##技術保有チェックAI_EVENT
+## id = 30002	アメリカ第2世戦術機開発
+## id = 30003	アメリカ第3世戦術機開発
+## id = 30004	アメリカ第4世戦術機開発
+## id = 30005	アメリカ第5世戦術機開発
+## id = 30006	アメリカ第6世戦術機開発
+## id = 30007	ソ連第1世戦術機開発
+## id = 30008	ソ連第2世戦術機開発
+## id = 30009	ソ連第3世戦術機開発
+## id = 30010	ソ連第4世戦術機開発
+## id = 30011	ソ連第5世戦術機開発
+## id = 30012	ソ連第6世戦術機開発
+## id = 30401	フランス第2世戦術機開発
+## id = 30402	フランス第3世戦術機開発
+## id = 30403	スウェーデン第1世戦術機開発
+## id = 30404	スウェーデン第2世戦術機開発
+## id = 30405	スウェーデン第3世戦術機開発
+## id = 30406	日本帝国第3世戦術機開発
+####################################################ここからアメリカ
+## id = 30013	アメリカへのライセンス生産打診(第1世代機) #F-5
+## id = 30014	ライセンス生産の交渉
+## id = 30015	ライセンス生産の開始
+## id = 30016	アメリカへのライセンス生産打診(第2世代機) #F-16
+## id = 30017	ライセンス生産の交渉
+## id = 30018	ライセンス生産の開始
+## id = 30019	アメリカへのライセンス生産打診(第3世代機) #F-35
+## id = 30020	ライセンス生産の交渉
+## id = 30021	ライセンス生産の開始
+## id = 30022	アメリカへのライセンス生産打診(第4世代機) #F-25
+## id = 30023	ライセンス生産の交渉
+## id = 30024	ライセンス生産の開始
+## id = 30025	アメリカへのライセンス生産打診(第5世代機) #F-27
+## id = 30026	ライセンス生産の交渉
+## id = 30027	ライセンス生産の開始
+## id = 30028	アメリカへのライセンス生産打診(第6世代機) #F-45
+## id = 30029	ライセンス生産の交渉
+## id = 30030	ライセンス生産の開始
+####################################################ここからソ連
+## id = 30031	ソ連へのライセンス生産打診(第1世代機) #MiG-21
+## id = 30032	ライセンス生産の交渉
+## id = 30033	ライセンス生産の開始
+## id = 30034	ソ連へのライセンス生産打診(第2世代機) #MiG-29
+## id = 30035	ライセンス生産の交渉
+## id = 30036	ライセンス生産の開始
+## id = 30037	ソ連へのライセンス生産打診(第3世代機) #Su-37
+## id = 30038	ライセンス生産の交渉
+## id = 30039	ライセンス生産の開始
+## id = 30040	ソ連へのライセンス生産打診(第4世代機) #T-50
+## id = 30041	ライセンス生産の交渉
+## id = 30042	ライセンス生産の開始
+## id = 30043	ソ連へのライセンス生産打診(第5世代機) #MiG-37
+## id = 30044	ライセンス生産の交渉
+## id = 30045	ライセンス生産の開始
+## id = 30046	ソ連へのライセンス生産打診(第6世代機) #MiG-50
+## id = 30047	ライセンス生産の交渉
+## id = 30048	ライセンス生産の開始
+####################################################ここからフランス
+## id = 30049	フランスへのライセンス生産打診(第2世代機) #Mirage-2000
+## id = 30050	ライセンス生産の交渉
+## id = 30051	ライセンス生産の開始
+## id = 30052	フランスへのライセンス生産打診(第3世代機) #Rafale
+## id = 30053	ライセンス生産の交渉
+## id = 30054	ライセンス生産の開始
+####################################################ここからスウェーデン
+## id = 30055	スウェーデンへのライセンス生産打診(第1世代機) #JA-35(山岳)
+## id = 30056	ライセンス生産の交渉
+## id = 30057	ライセンス生産の開始
+## id = 30058	スウェーデンへのライセンス生産打診(第2世代機) #JA-37(山岳)
+## id = 30059	ライセンス生産の交渉
+## id = 30060	ライセンス生産の開始
+## id = 30061	スウェーデンへのライセンス生産打診(第3世代機) #JAS-39(山岳)
+## id = 30062	ライセンス生産の交渉
+## id = 30063	ライセンス生産の開始
+####################################################ここから日本帝国
+## id = 30064	日本帝国へのライセンス生産打診(第3世代機) #武御雷(騎兵)
+## id = 30065	ライセンス生産の交渉
+## id = 30066	ライセンス生産の開始
+#####################################################################
+
+event = {
+	id = 30001
+	random = no
+	country = USA
+	trigger = {
+                    ai = yes
+                    technology = 2010
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = USA1stG }
+ }
+}
+
+event = {
+	id = 30002
+	random = no
+	country = USA
+	trigger = {
+                    ai = yes
+                    technology = 2060
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = USA2ndG }
+ }
+}
+
+event = {
+	id = 30003
+	random = no
+	country = USA
+	trigger = {
+                    ai = yes
+                    technology = 2110
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = USA3rdG }
+ }
+}
+
+event = {
+	id = 30004
+	random = no
+	country = USA
+	trigger = {
+                    ai = yes
+                    technology = 2160
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = USA4thG }
+ }
+}
+
+event = {
+	id = 30005
+	random = no
+	country = USA
+	trigger = {
+                    ai = yes
+                    technology = 21000
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = USA5thG }
+ }
+}
+
+event = {
+	id = 30006
+	random = no
+	country = USA
+	trigger = {
+                    ai = yes
+                    technology = 2260
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = USA6thG }
+ }
+}
+
+event = {
+	id = 30007
+	random = no
+	country = SOV
+	trigger = {
+                    ai = yes
+                    technology = 2010
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SOV1stG }
+ }
+}
+
+event = {
+	id = 30008
+	random = no
+	country = SOV
+	trigger = {
+                    ai = yes
+                    technology = 2060
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SOV2ndG }
+ }
+}
+
+event = {
+	id = 30009
+	random = no
+	country = SOV
+	trigger = {
+                    ai = yes
+                    technology = 2110
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SOV3rdG }
+ }
+}
+
+event = {
+	id = 30010
+	random = no
+	country = SOV
+	trigger = {
+                    ai = yes
+                    technology = 2160
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SOV4thG }
+ }
+}
+
+event = {
+	id = 30011
+	random = no
+	country = SOV
+	trigger = {
+                    ai = yes
+                    technology = 21000
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SOV5thG }
+ }
+}
+
+event = {
+	id = 30012
+	random = no
+	country = SOV
+	trigger = {
+                    ai = yes
+                    technology = 2260
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SOV6thG }
+ }
+}
+
+event = {
+	id = 30401
+	random = no
+	tag = { FRA U02 }
+	trigger = {
+                    ai = yes
+                    technology = 2060
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = FRA2ndG }
+ }
+}
+
+event = {
+	id = 30402
+	random = no
+	tag = { FRA U02 }
+	trigger = {
+                    ai = yes
+                    technology = 2110
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SOV3rdG }
+ }
+}
+
+event = {
+	id = 30403
+	random = no
+	tag = { SWE U02 }
+	trigger = {
+                    ai = yes
+                    technology = 2010
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SWE1stG }
+ }
+}
+
+event = {
+	id = 30404
+	random = no
+	tag = { SWE U02 }
+	trigger = {
+                    ai = yes
+                    technology = 2060
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SWE2ndG }
+ }
+}
+
+event = {
+	id = 30405
+	random = no
+	tag = { SWE U02 }
+	trigger = {
+                    ai = yes
+                    technology = 2110
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = SWE3rdG }
+ }
+}
+
+event = {
+	id = 30406
+	random = no
+	country = JAP
+	trigger = {
+                    ai = yes
+                    technology = 2130
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = setflag which = JAP3rdG }
+ }
+}
+
+event = {
+	id = 30013
+	random = no
+	country = -1
+	decision = { flag = USA1stG
+	             alliance = { country = -1 country = USA }
+	             not = { country = USA }
+	             relation = { which = USA value = 50 }
+	           } #ディシジョンウインドウに表示する条件
+	decision_trigger = { flag = USA1stG } #ディシジョンが選択可能になる条件
+	trigger = { ai = no } #イベントが発動するトリガー条件、ディシジョンの場合はAI用。
+	
+	name = "アメリカへのライセンス生産打診(第1世代機)"
+	desc = "EVT_30013_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30014 }
+                #command = { type = setflag which = LicensedUSA1 }
+                command = { type = local_setflag which = LoLicensedUSA1 }
+ }
+}
+
+event = {
+	id = 30014
+	random = no
+	country = USA
+	trigger = { exists = USA }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30014_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedUSA1 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30015
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedUSA1
+	            flag = PerLicensedUSA1 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30014_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedUSA1 }
+                command = { type = local_clrflag which = LoLicensedUSA1 }
+                command = { type = new_model which = paratrooper value = 31 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30016
+	random = no
+	country = -1
+	decision = { flag = USA2ndG
+	             alliance = { country = -1 country = USA }
+	             not = { country = USA }
+	             relation = { which = USA value = 50 }
+	           }
+	decision_trigger = { flag = USA2ndG }
+	trigger = { ai = no }
+	
+	name = "アメリカへのライセンス生産打診(第2世代機)"
+	desc = "EVT_30016_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30017 }
+                #command = { type = setflag which = LicensedUSA2 }
+                command = { type = local_setflag which = LoLicensedUSA2 }
+ }
+}
+
+event = {
+	id = 30017
+	random = no
+	country = USA
+	trigger = { exists = USA }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30017_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedUSA2 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30018
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedUSA2
+	            flag = PerLicensedUSA2 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30018_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedUSA2 }
+                command = { type = local_clrflag which = LoLicensedUSA2 }
+                command = { type = new_model which = paratrooper value = 32 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30019
+	random = no
+	country = -1
+	decision = { flag = USA3rdG
+	             alliance = { country = -1 country = USA }
+	             not = { country = USA }
+	             relation = { which = USA value = 50 }
+	           }
+	decision_trigger = { flag = USA3rdG }
+	trigger = { ai = no }
+	
+	name = "アメリカへのライセンス生産打診(第3世代機)"
+	desc = "EVT_30019_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30020 }
+                #command = { type = setflag which = LicensedUSA3 }
+                command = { type = local_setflag which = LoLicensedUSA3 }
+ }
+}
+
+event = {
+	id = 30020
+	random = no
+	country = USA
+	trigger = { exists = USA }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30020_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedUSA3 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30021
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedUSA3
+	            flag = PerLicensedUSA3 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30021_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedUSA3 }
+                command = { type = local_clrflag which = LoLicensedUSA3 }
+                command = { type = new_model which = paratrooper value = 33 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30022
+	random = no
+	country = -1
+	decision = { flag = USA4thG
+	             alliance = { country = -1 country = USA }
+	             not = { country = USA }
+	             relation = { which = USA value = 50 }
+	           }
+	decision_trigger = { flag = USA4thG }
+	trigger = { ai = no }
+	
+	name = "アメリカへのライセンス生産打診(第4世代機)"
+	desc = "EVT_30022_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30023 }
+                #command = { type = setflag which = LicensedUSA4 }
+                command = { type = local_setflag which = LoLicensedUSA4 }
+ }
+}
+
+event = {
+	id = 30023
+	random = no
+	country = USA
+	trigger = { exists = USA }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30023_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedUSA4 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30024
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedUSA4
+	            flag = PerLicensedUSA4 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30024_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedUSA4 }
+                command = { type = local_clrflag which = LoLicensedUSA4 }
+                command = { type = new_model which = paratrooper value = 34 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30025
+	random = no
+	country = -1
+	decision = { flag = USA5thG
+	             alliance = { country = -1 country = USA }
+	             not = { country = USA }
+	             relation = { which = USA value = 50 }
+	           }
+	decision_trigger = { flag = USA5thG }
+	trigger = { ai = no }
+	
+	name = "アメリカへのライセンス生産打診(第5世代機)"
+	desc = "EVT_30025_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30026 }
+                #command = { type = setflag which = LicensedUSA5 }
+                command = { type = local_setflag which = LoLicensedUSA5 }
+ }
+}
+
+event = {
+	id = 30026
+	random = no
+	country = USA
+	trigger = { exists = USA }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30026_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedUSA5 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30027
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedUSA5
+	            flag = PerLicensedUSA5 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30027_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedUSA5 }
+                command = { type = local_clrflag which = LoLicensedUSA5 }
+                command = { type = new_model which = paratrooper value = 35 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30028
+	random = no
+	country = -1
+	decision = { flag = USA6thG
+	             alliance = { country = -1 country = USA }
+	             not = { country = USA }
+	             relation = { which = USA value = 50 }
+	           }
+	decision_trigger = { flag = USA6thG }
+	trigger = { ai = no }
+	
+	name = "アメリカへのライセンス生産打診(第6世代機)"
+	desc = "EVT_30028_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30029 }
+                #command = { type = setflag which = LicensedUSA6 }
+                command = { type = local_setflag which = LoLicensedUSA6 }
+ }
+}
+
+event = {
+	id = 30029
+	random = no
+	country = USA
+	trigger = { exists = USA }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30029_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedUSA6 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30030
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedUSA6
+	            flag = PerLicensedUSA6 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30030_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedUSA6 }
+                command = { type = local_clrflag which = LoLicensedUSA6 }
+                command = { type = new_model which = paratrooper value = 36 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30031
+	random = no
+	country = -1
+	decision = { flag = SOV1stG
+	             alliance = { country = -1 country = SOV }
+	             not = { country = SOV }
+	             relation = { which = SOV value = 50 }
+	           }
+	decision_trigger = { flag = SOV1stG }
+	trigger = { ai = no }
+	
+	name = "ソ連へのライセンス生産打診(第1世代機)"
+	desc = "EVT_30031_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30032 }
+                #command = { type = setflag which = LicensedSOV1 }
+                command = { type = local_setflag which = LoLicensedSOV1 }
+ }
+}
+
+event = {
+	id = 30032
+	random = no
+	country = SOV
+	trigger = { exists = SOV }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30032_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedSOV1 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30033
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedSOV1
+	            flag = PerLicensedSOV1 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30033_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedSOV1 }
+                command = { type = local_clrflag which = LoLicensedSOV1 }
+                command = { type = new_model which = paratrooper value = 38 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30034
+	random = no
+	country = -1
+	decision = { flag = SOV2ndG
+	             alliance = { country = -1 country = SOV }
+	             not = { country = SOV }
+	             relation = { which = SOV value = 50 }
+	           }
+	decision_trigger = { flag = SOV2ndG }
+	trigger = { ai = no }
+	
+	name = "ソ連へのライセンス生産打診(第2世代機)"
+	desc = "EVT_30034_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30035 }
+                #command = { type = setflag which = LicensedSOV2 }
+                command = { type = local_setflag which = LoLicensedSOV2 }
+ }
+}
+
+event = {
+	id = 30035
+	random = no
+	country = SOV
+	trigger = { exists = SOV }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30035_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedSOV2 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30036
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedSOV2
+	            flag = PerLicensedSOV2 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30036_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedSOV2 }
+                command = { type = local_clrflag which = LoLicensedSOV2 }
+                command = { type = new_model which = paratrooper value = 39 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30037
+	random = no
+	country = -1
+	decision = { flag = SOV3rdG
+	             alliance = { country = -1 country = SOV }
+	             not = { country = SOV }
+	             relation = { which = SOV value = 50 }
+	           }
+	decision_trigger = { flag = SOV3rdG }
+	trigger = { ai = no }
+	
+	name = "ソ連へのライセンス生産打診(第3世代機)"
+	desc = "EVT_30037_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30038 }
+                #command = { type = setflag which = LicensedSOV3 }
+                command = { type = local_setflag which = LoLicensedSOV3 }
+ }
+}
+
+event = {
+	id = 30038
+	random = no
+	country = SOV
+	trigger = { exists = SOV }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30038_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedSOV3 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30039
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedSOV3
+	            flag = PerLicensedSOV3 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30039_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedSOV3 }
+                command = { type = local_clrflag which = LoLicensedSOV3 }
+                command = { type = new_model which = paratrooper value = 40 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30040
+	random = no
+	country = -1
+	decision = { flag = SOV4thG
+	             alliance = { country = -1 country = SOV }
+	             not = { country = SOV }
+	             relation = { which = SOV value = 50 }
+	           }
+	decision_trigger = { flag = SOV4thG }
+	trigger = { ai = no }
+	
+	name = "ソ連へのライセンス生産打診(第4世代機)"
+	desc = "EVT_30040_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30041 }
+                #command = { type = setflag which = LicensedSOV4 }
+                command = { type = local_setflag which = LoLicensedSOV4 }
+ }
+}
+
+event = {
+	id = 30041
+	random = no
+	country = SOV
+	trigger = { exists = SOV }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30041_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedSOV4 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30042
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedSOV4
+	            flag = PerLicensedSOV4 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30042_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedSOV4 }
+                command = { type = local_clrflag which = LoLicensedSOV4 }
+                command = { type = new_model which = paratrooper value = 41 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30043
+	random = no
+	country = -1
+	decision = { flag = SOV5thG
+	             alliance = { country = -1 country = SOV }
+	             not = { country = SOV }
+	             relation = { which = SOV value = 50 }
+	           }
+	decision_trigger = { flag = SOV5thG }
+	trigger = { ai = no }
+	
+	name = "ソ連へのライセンス生産打診(第5世代機)"
+	desc = "EVT_30043_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30044 }
+                #command = { type = setflag which = LicensedSOV5 }
+                command = { type = local_setflag which = LoLicensedSOV5 }
+ }
+}
+
+event = {
+	id = 30044
+	random = no
+	country = SOV
+	trigger = { exists = SOV }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30044_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedSOV5 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30045
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedSOV5
+	            flag = PerLicensedSOV5 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30045_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedSOV5 }
+                command = { type = local_clrflag which = LoLicensedSOV5 }
+                command = { type = new_model which = paratrooper value = 42 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30046
+	random = no
+	country = -1
+	decision = { flag = SOV6thG
+	             alliance = { country = -1 country = SOV }
+	             not = { country = SOV }
+	             relation = { which = SOV value = 50 }
+	           }
+	decision_trigger = { flag = SOV6thG }
+	trigger = { ai = no }
+	
+	name = "ソ連へのライセンス生産打診(第6世代機)"
+	desc = "EVT_30046_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30047 }
+                #command = { type = setflag which = LicensedSOV6 }
+                command = { type = local_setflag which = LoLicensedSOV6 }
+ }
+}
+
+event = {
+	id = 30047
+	random = no
+	country = SOV
+	trigger = { exists = SOV }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30047_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedSOV6 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30048
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedSOV6
+	            flag = PerLicensedSOV6 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30048_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedSOV6 }
+                command = { type = local_clrflag which = LoLicensedSOV6 }
+                command = { type = new_model which = paratrooper value = 43 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30049
+	random = no
+	country = -1
+	decision = { flag = FRA2ndG
+	             alliance = { country = -1 country = FRA }
+	             not = { country = FRA }
+	             relation = { which = FRA value = 50 }
+	           }
+	decision_trigger = { flag = FRA2ndG }
+	trigger = { ai = no }
+	
+	name = "フランスへのライセンス生産打診(第2世代機)"
+	desc = "EVT_30049_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30050 }
+                #command = { type = setflag which = LicensedFRA2 }
+                command = { type = local_setflag which = LoLicensedFRA2 }
+ }
+}
+
+event = {
+	id = 30050
+	random = no
+	country = FRA
+	trigger = { exists = FRA }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30050_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedFRA2 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30051
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedFRA2
+	            flag = PerLicensedFRA2 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30051_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedFRA2 }
+                command = { type = local_clrflag which = LoLicensedFRA2 }
+                command = { type = new_model which = paratrooper value = 45 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30052
+	random = no
+	country = -1
+	decision = { flag = FRA3rdG
+	             alliance = { country = -1 country = FRA }
+	             not = { country = FRA }
+	             relation = { which = FRA value = 50 }
+	           }
+	decision_trigger = { flag = FRA3rdG }
+	trigger = { ai = no }
+	
+	name = "フランスへのライセンス生産打診(第3世代機)"
+	desc = "EVT_30052_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30053 }
+                #command = { type = setflag which = LicensedFRA3 }
+                command = { type = local_setflag which = LoLicensedFRA3 }
+ }
+}
+
+event = {
+	id = 30053
+	random = no
+	country = FRA
+	trigger = { exists = FRA }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30053_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedFRA3 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30054
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedFRA3
+	            flag = PerLicensedFRA3 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30054_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedFRA3 }
+                command = { type = local_clrflag which = LoLicensedFRA3 }
+                command = { type = new_model which = paratrooper value = 46 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30055
+	random = no
+	country = -1
+	decision = { flag = SWE1stG
+	             alliance = { country = -1 country = SWE }
+	             not = { country = SWE }
+	             relation = { which = SWE value = 50 }
+	           }
+	decision_trigger = { flag = SWE1stG }
+	trigger = { ai = no }
+	
+	name = "スウェーデンへのライセンス生産打診(第1世代機)"
+	desc = "EVT_30055_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30056 }
+                #command = { type = setflag which = LicensedSWE1 }
+                command = { type = local_setflag which = LoLicensedSWE1 }
+ }
+}
+
+event = {
+	id = 30056
+	random = no
+	country = SWE
+	trigger = { exists = SWE }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30056_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedSWE1 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30057
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedSWE1
+	            flag = PerLicensedSWE1 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30057_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedSWE1 }
+                command = { type = local_clrflag which = LoLicensedSWE1 }
+                command = { type = new_model which = bergsjaeger value = 36 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30058
+	random = no
+	country = -1
+	decision = { flag = SWE2ndG
+	             alliance = { country = -1 country = SWE }
+	             not = { country = SWE }
+	             relation = { which = SWE value = 50 }
+	           }
+	decision_trigger = { flag = SWE2ndG }
+	trigger = { ai = no }
+	
+	name = "スウェーデンへのライセンス生産打診(第2世代機)"
+	desc = "EVT_30058_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30059 }
+                #command = { type = setflag which = LicensedSWE2 }
+                command = { type = local_setflag which = LoLicensedSWE2 }
+ }
+}
+
+event = {
+	id = 30059
+	random = no
+	country = SWE
+	trigger = { exists = SWE }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30059_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedSWE2 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30060
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedSWE2
+	            flag = PerLicensedSWE2 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30060_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedSWE2 }
+                command = { type = local_clrflag which = LoLicensedSWE2 }
+                command = { type = new_model which = bergsjaeger value = 37 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30061
+	random = no
+	country = -1
+	decision = { flag = SWE3rdG
+	             alliance = { country = -1 country = SWE }
+	             not = { country = SWE }
+	             relation = { which = SWE value = 50 }
+	           }
+	decision_trigger = { flag = SWE3rdG }
+	trigger = { ai = no }
+	
+	name = "スウェーデンへのライセンス生産打診(第3世代機)"
+	desc = "EVT_30061_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30062 }
+                #command = { type = setflag which = LicensedSWE3 }
+                command = { type = local_setflag which = LoLicensedSWE3 }
+ }
+}
+
+event = {
+	id = 30062
+	random = no
+	country = SWE
+	trigger = { exists = SWE }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30062_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedSWE3 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30063
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedSWE3
+	            flag = PerLicensedSWE3 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30063_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedSWE3 }
+                command = { type = local_clrflag which = LoLicensedSWE3 }
+                command = { type = new_model which = bergsjaeger value = 38 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 30064
+	random = no
+	country = -1
+	decision = { flag = JAP3rdG
+	             alliance = { country = -1 country = JAP }
+	             not = { country = JAP }
+	             relation = { which = JAP value = 50 }
+	           }
+	decision_trigger = { flag = JAP3rdG }
+	trigger = { ai = no }
+	
+	name = "日本帝国へのライセンス生産打診(第3世代機)"
+	desc = "EVT_30064_DESC"
+	style = 0
+	
+	decision_picture = "decision_licensed_unit"
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "打診する"
+                command = { type = trigger which = 30065 }
+                #command = { type = setflag which = LicensedJAP3 }
+                command = { type = local_setflag which = LoLicensedJAP3 }
+ }
+}
+
+event = {
+	id = 30065
+	random = no
+	country = JAP
+	trigger = { exists = JAP }
+	
+	name = "ライセンス生産の交渉"
+	desc = "EVT_30065_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 2099 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "許可する"
+        ai_chance = 100
+                command = { type = setflag which = PerLicensedJAP3 }
+                command = { type = money value = 500 }
+ }
+	action_b = {
+	name = "拒否する"
+        ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 30066
+	random = no
+	country = -1
+	trigger = { local_flag = LoLicensedJAP3
+	            flag = PerLicensedJAP3 }
+	
+	name = "ライセンス生産の開始"
+	desc = "EVT_30066_DESC"
+	style = 0
+	
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "ok"
+                command = { type = clrflag which = PerLicensedJAP3 }
+                command = { type = local_clrflag which = LoLicensedJAP3 }
+                command = { type = new_model which = cavalry value = 36 }
+                command = { type = money value = -500 }
+ }
+}

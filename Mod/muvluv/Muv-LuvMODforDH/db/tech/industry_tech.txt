@@ -1,0 +1,2788 @@
+# The Industry Technology Group
+technology =
+{ id          = 5
+  category    = industry
+  name        = TECH_INDUSTRY_NAME # Localized name
+  desc        = TECH_INDUSTRY_DESC # Localized description
+  label =
+  { tag      = TECH_CAT_INDUSTRY_1
+    position = { x = 7 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_2
+    position = { x = 93 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_3
+    position = { x = 179 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_4
+    position = { x = 265 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_5
+    position = { x = 351 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_6
+    position = { x = 437 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_7
+    position = { x = 523 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_8
+    position = { x = 523 y = 85 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_9
+    position = { x = 7 y = 158 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_10
+    position = { x = 179 y = 158 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_11
+    position = { x = 265 y = 158 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_12
+    position = { x = 351 y = 158 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_13
+    position = { x = 437 y = 158 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_14
+    position = { x = 523 y = 158 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_15
+    position = { x = 437 y = 311 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_16
+    position = { x = 523 y = 311 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_17
+    position = { x = 7 y = 392 }
+  }
+  label =
+  { tag      = TECH_CAT_INDUSTRY_18
+    position = { x = 351 y = 311 }
+  }
+  # çHçÏã@äBáT
+  application =
+  { id        = 5010
+    name      = TECH_APP_INDUSTRY_1_NAME
+    desc      = TECH_APP_INDUSTRY_1_DESC
+    position  = { x = 0 y = 21 }
+    year      = 1945
+    component = { id = 5011 name = TECH_CMP_INDUSTRY_1_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5012 name = TECH_CMP_INDUSTRY_1_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5013 name = TECH_CMP_INDUSTRY_1_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5014 name = TECH_CMP_INDUSTRY_1_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5015 name = TECH_CMP_INDUSTRY_1_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = industrial_modifier which = total value = 2 }
+      command = { type = industrial_modifier which = supplies value = 25 }
+    }
+  }
+  # çHçÏã@äBáU
+  application =
+  { id        = 5020
+    name      = TECH_APP_INDUSTRY_2_NAME
+    desc      = TECH_APP_INDUSTRY_2_DESC
+    position  = { x = 0 y = 37 }
+    year      = 1973
+    component = { id = 5021 name = TECH_CMP_INDUSTRY_2_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5022 name = TECH_CMP_INDUSTRY_2_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5023 name = TECH_CMP_INDUSTRY_2_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5024 name = TECH_CMP_INDUSTRY_2_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5025 name = TECH_CMP_INDUSTRY_2_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5010 }
+    effects =
+    { command = { type = industrial_modifier which = total value = 2 }
+      command = { type = industrial_modifier which = supplies value = 25 }
+    }
+  }
+  # çHçÏã@äBáV
+  application =
+  { id        = 5030
+    name      = TECH_APP_INDUSTRY_3_NAME
+    desc      = TECH_APP_INDUSTRY_3_DESC
+    position  = { x = 0 y = 53 }
+    year      = 1978
+    component = { id = 5031 name = TECH_CMP_INDUSTRY_3_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5032 name = TECH_CMP_INDUSTRY_3_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5033 name = TECH_CMP_INDUSTRY_3_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5034 name = TECH_CMP_INDUSTRY_3_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5035 name = TECH_CMP_INDUSTRY_3_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5020 }
+    effects =
+    { command = { type = industrial_modifier which = total value = 2 }
+      command = { type = industrial_modifier which = supplies value = 25 }
+    }
+  }
+  # çHçÏã@äBáW
+  application =
+  { id        = 5040
+    name      = TECH_APP_INDUSTRY_4_NAME
+    desc      = TECH_APP_INDUSTRY_4_DESC
+    position  = { x = 0 y = 69 }
+    year      = 1984
+    component = { id = 5041 name = TECH_CMP_INDUSTRY_4_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5042 name = TECH_CMP_INDUSTRY_4_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5043 name = TECH_CMP_INDUSTRY_4_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5044 name = TECH_CMP_INDUSTRY_4_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5045 name = TECH_CMP_INDUSTRY_4_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5030 }
+    effects =
+    { command = { type = industrial_modifier which = total value = 3 }
+      command = { type = industrial_modifier which = supplies value = 25 }
+    }
+  }
+  # çHçÏã@äBáX
+  application =
+  { id        = 5050
+    name      = TECH_APP_INDUSTRY_5_NAME
+    desc      = TECH_APP_INDUSTRY_5_DESC
+    position  = { x = 0 y = 85 }
+    year      = 1990
+    component = { id = 5051 name = TECH_CMP_INDUSTRY_5_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5052 name = TECH_CMP_INDUSTRY_5_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5053 name = TECH_CMP_INDUSTRY_5_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5054 name = TECH_CMP_INDUSTRY_5_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5055 name = TECH_CMP_INDUSTRY_5_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5040 }
+    effects =
+    { command = { type = industrial_modifier which = total value = 3 }
+      command = { type = industrial_modifier which = supplies value = 25 }
+    }
+  }
+  # çHçÏã@äBáY
+  application =
+  { id        = 5060
+    name      = TECH_APP_INDUSTRY_6_NAME
+    desc      = TECH_APP_INDUSTRY_6_DESC
+    position  = { x = 0 y = 101 }
+    year      = 1998
+    component = { id = 5061 name = TECH_CMP_INDUSTRY_6_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5062 name = TECH_CMP_INDUSTRY_6_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5063 name = TECH_CMP_INDUSTRY_6_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5064 name = TECH_CMP_INDUSTRY_6_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5065 name = TECH_CMP_INDUSTRY_6_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5050 }
+    effects =
+    { command = { type = industrial_modifier which = total value = 4 }
+      command = { type = industrial_modifier which = supplies value = 25 }
+    }
+  }
+  # çHçÏã@äBáZ
+  application =
+  { id        = 5070
+    name      = TECH_APP_INDUSTRY_7_NAME
+    desc      = TECH_APP_INDUSTRY_7_DESC
+    position  = { x = 0 y = 117 }
+    year      = 2005
+    component = { id = 5071 name = TECH_CMP_INDUSTRY_7_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5072 name = TECH_CMP_INDUSTRY_7_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5073 name = TECH_CMP_INDUSTRY_7_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5074 name = TECH_CMP_INDUSTRY_7_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5075 name = TECH_CMP_INDUSTRY_7_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5060 }
+    effects =
+    { command = { type = industrial_modifier which = total value = 4 }
+      command = { type = industrial_modifier which = supplies value = 25 }
+    }
+  }
+  # çHçÏã@äBá[
+  application =
+  { id        = 5080
+    name      = TECH_APP_INDUSTRY_8_NAME
+    desc      = TECH_APP_INDUSTRY_8_DESC
+    position  = { x = 0 y = 133 }
+    year      = 2012
+    component = { id = 5081 name = TECH_CMP_INDUSTRY_8_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5082 name = TECH_CMP_INDUSTRY_8_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5083 name = TECH_CMP_INDUSTRY_8_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5084 name = TECH_CMP_INDUSTRY_8_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5085 name = TECH_CMP_INDUSTRY_8_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5070 }
+    effects =
+    { command = { type = industrial_modifier which = total value = 5 }
+      command = { type = industrial_modifier which = supplies value = 25 }
+    }
+  }
+  # åöízã@äBáT
+  application =
+  { id        = 5090
+    name      = TECH_APP_INDUSTRY_9_NAME
+    desc      = TECH_APP_INDUSTRY_9_DESC
+    position  = { x = 86 y = 21 }
+    year      = 1945
+    component = { id = 5091 name = TECH_CMP_INDUSTRY_9_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5092 name = TECH_CMP_INDUSTRY_9_2_NAME type = management difficulty = 8 }
+    component = { id = 5093 name = TECH_CMP_INDUSTRY_9_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5094 name = TECH_CMP_INDUSTRY_9_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5095 name = TECH_CMP_INDUSTRY_9_5_NAME type = management difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = allow_dig_in }
+      command = { type = allow_building which = infrastructure }
+      command = { type = allow_building which = ic }
+      command = { type = allow_building which = land_fort }
+      command = { type = allow_building which = coastal_fort }
+      command = { type = allow_building which = air_base }
+      command = { type = allow_building which = naval_base }
+    }
+  }
+  # åöízã@äBáU
+  application =
+  { id        = 5100
+    name      = TECH_APP_INDUSTRY_10_NAME
+    desc      = TECH_APP_INDUSTRY_10_DESC
+    position  = { x = 86 y = 37 }
+    year      = 1973
+    component = { id = 5101 name = TECH_CMP_INDUSTRY_10_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5102 name = TECH_CMP_INDUSTRY_10_2_NAME type = management difficulty = 8 }
+    component = { id = 5103 name = TECH_CMP_INDUSTRY_10_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5104 name = TECH_CMP_INDUSTRY_10_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5105 name = TECH_CMP_INDUSTRY_10_5_NAME type = management difficulty = 8 }
+    required  = { 5090 }
+    effects =
+    { command = { type = building_prod_mod which = land_fort value = 50 }
+      command = { type = building_prod_mod which = coastal_fort value = 50 }
+      command = { type = building_prod_mod which = air_base value = 5 }
+      command = { type = building_prod_mod which = naval_base value = 5 }
+      command = { type = building_prod_mod which = flak value = 5 }
+      command = { type = building_prod_mod which = rocket_test value = 5 }
+      command = { type = building_prod_mod which = radar_station value = 5 }
+    }
+  }
+  # åöízã@äBáV
+  application =
+  { id        = 5110
+    name      = TECH_APP_INDUSTRY_11_NAME
+    desc      = TECH_APP_INDUSTRY_11_DESC
+    position  = { x = 86 y = 53 }
+    year      = 1978
+    component = { id = 5111 name = TECH_CMP_INDUSTRY_11_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5112 name = TECH_CMP_INDUSTRY_11_2_NAME type = management difficulty = 8 }
+    component = { id = 5113 name = TECH_CMP_INDUSTRY_11_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5114 name = TECH_CMP_INDUSTRY_11_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5115 name = TECH_CMP_INDUSTRY_11_5_NAME type = management difficulty = 8 }
+    required  = { 5100 }
+    effects =
+    { command = { type = building_prod_mod which = land_fort value = 50 }
+      command = { type = building_prod_mod which = coastal_fort value = 50 }
+      command = { type = building_prod_mod which = air_base value = 5 }
+      command = { type = building_prod_mod which = naval_base value = 5 }
+      command = { type = building_prod_mod which = flak value = 5 }
+      command = { type = building_prod_mod which = rocket_test value = 5 }
+      command = { type = building_prod_mod which = radar_station value = 5 }
+    }
+  }
+  # åöízã@äBáW
+  application =
+  { id        = 5120
+    name      = TECH_APP_INDUSTRY_12_NAME
+    desc      = TECH_APP_INDUSTRY_12_DESC
+    position  = { x = 86 y = 69 }
+    year      = 1984
+    component = { id = 5121 name = TECH_CMP_INDUSTRY_12_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5122 name = TECH_CMP_INDUSTRY_12_2_NAME type = management difficulty = 8 }
+    component = { id = 5123 name = TECH_CMP_INDUSTRY_12_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5124 name = TECH_CMP_INDUSTRY_12_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5125 name = TECH_CMP_INDUSTRY_12_5_NAME type = management difficulty = 8 }
+    required  = { 5110 }
+    effects =
+    { command = { type = building_prod_mod which = land_fort value = 10 }
+      command = { type = building_prod_mod which = coastal_fort value = 10 }
+      command = { type = building_prod_mod which = air_base value = 10 }
+      command = { type = building_prod_mod which = naval_base value = 10 }
+      command = { type = building_prod_mod which = flak value = 10 }
+      command = { type = building_prod_mod which = rocket_test value = 10 }
+      command = { type = building_prod_mod which = radar_station value = 10 }
+    }
+  }
+  # åöízã@äBáX
+  application =
+  { id        = 5130
+    name      = TECH_APP_INDUSTRY_13_NAME
+    desc      = TECH_APP_INDUSTRY_13_DESC
+    position  = { x = 86 y = 85 }
+    year      = 1990
+    component = { id = 5131 name = TECH_CMP_INDUSTRY_13_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5132 name = TECH_CMP_INDUSTRY_13_2_NAME type = management difficulty = 8 }
+    component = { id = 5133 name = TECH_CMP_INDUSTRY_13_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5134 name = TECH_CMP_INDUSTRY_13_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5135 name = TECH_CMP_INDUSTRY_13_5_NAME type = management difficulty = 8 }
+    required  = { 5120 }
+    effects =
+    { command = { type = building_prod_mod which = land_fort value = 10 }
+      command = { type = building_prod_mod which = coastal_fort value = 10 }
+      command = { type = building_prod_mod which = air_base value = 10 }
+      command = { type = building_prod_mod which = naval_base value = 10 }
+      command = { type = building_prod_mod which = flak value = 10 }
+      command = { type = building_prod_mod which = rocket_test value = 10 }
+      command = { type = building_prod_mod which = radar_station value = 10 }
+    }
+  }
+  # åöízã@äBáY
+  application =
+  { id        = 5140
+    name      = TECH_APP_INDUSTRY_14_NAME
+    desc      = TECH_APP_INDUSTRY_14_DESC
+    position  = { x = 86 y = 101 }
+    year      = 1998
+    component = { id = 5141 name = TECH_CMP_INDUSTRY_14_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5142 name = TECH_CMP_INDUSTRY_14_2_NAME type = management difficulty = 8 }
+    component = { id = 5143 name = TECH_CMP_INDUSTRY_14_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5144 name = TECH_CMP_INDUSTRY_14_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5145 name = TECH_CMP_INDUSTRY_14_5_NAME type = management difficulty = 8 }
+    required  = { 5130 }
+    effects =
+    { command = { type = building_prod_mod which = land_fort value = 10 }
+      command = { type = building_prod_mod which = coastal_fort value = 10 }
+      command = { type = building_prod_mod which = air_base value = 10 }
+      command = { type = building_prod_mod which = naval_base value = 10 }
+      command = { type = building_prod_mod which = flak value = 10 }
+      command = { type = building_prod_mod which = rocket_test value = 10 }
+      command = { type = building_prod_mod which = radar_station value = 10 }
+    }
+  }
+  # åöízã@äBáZ
+  application =
+  { id        = 5150
+    name      = TECH_APP_INDUSTRY_15_NAME
+    desc      = TECH_APP_INDUSTRY_15_DESC
+    position  = { x = 86 y = 117 }
+    year      = 2005
+    component = { id = 5151 name = TECH_CMP_INDUSTRY_15_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5152 name = TECH_CMP_INDUSTRY_15_2_NAME type = management difficulty = 8 }
+    component = { id = 5153 name = TECH_CMP_INDUSTRY_15_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5154 name = TECH_CMP_INDUSTRY_15_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5155 name = TECH_CMP_INDUSTRY_15_5_NAME type = management difficulty = 8 }
+    required  = { 5140 }
+    effects =
+    { command = { type = building_prod_mod which = land_fort value = 10 }
+      command = { type = building_prod_mod which = coastal_fort value = 10 }
+      command = { type = building_prod_mod which = air_base value = 10 }
+      command = { type = building_prod_mod which = naval_base value = 10 }
+      command = { type = building_prod_mod which = flak value = 10 }
+      command = { type = building_prod_mod which = rocket_test value = 10 }
+      command = { type = building_prod_mod which = radar_station value = 10 }
+    }
+  }
+  # åöízã@äBá[
+  application =
+  { id        = 5160
+    name      = TECH_APP_INDUSTRY_16_NAME
+    desc      = TECH_APP_INDUSTRY_16_DESC
+    position  = { x = 86 y = 133 }
+    year      = 2012
+    component = { id = 5161 name = TECH_CMP_INDUSTRY_16_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5162 name = TECH_CMP_INDUSTRY_16_2_NAME type = management difficulty = 8 }
+    component = { id = 5163 name = TECH_CMP_INDUSTRY_16_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5164 name = TECH_CMP_INDUSTRY_16_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5165 name = TECH_CMP_INDUSTRY_16_5_NAME type = management difficulty = 8 }
+    required  = { 5150 }
+    effects =
+    { command = { type = building_prod_mod which = land_fort value = 10 }
+      command = { type = building_prod_mod which = coastal_fort value = 10 }
+      command = { type = building_prod_mod which = air_base value = 10 }
+      command = { type = building_prod_mod which = naval_base value = 10 }
+      command = { type = building_prod_mod which = flak value = 10 }
+      command = { type = building_prod_mod which = rocket_test value = 10 }
+      command = { type = building_prod_mod which = radar_station value = 10 }
+    }
+  }
+  # çëìyäJî≠áT
+  application =
+  { id        = 5170
+    name      = TECH_APP_INDUSTRY_17_NAME
+    desc      = TECH_APP_INDUSTRY_17_DESC
+    position  = { x = 172 y = 21 }
+    year      = 1945
+    component = { id = 5171 name = TECH_CMP_INDUSTRY_17_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5172 name = TECH_CMP_INDUSTRY_17_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5173 name = TECH_CMP_INDUSTRY_17_3_NAME type = management difficulty = 8 }
+    component = { id = 5174 name = TECH_CMP_INDUSTRY_17_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5175 name = TECH_CMP_INDUSTRY_17_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = building_prod_mod which = ic value = 5 }
+      command = { type = building_prod_mod which = infrastructure value = 5 }
+      command = { type = building_prod_mod which = nuclear_reactor value = 5 }
+    }
+  }
+  # çëìyäJî≠áU
+  application =
+  { id        = 5180
+    name      = TECH_APP_INDUSTRY_18_NAME
+    desc      = TECH_APP_INDUSTRY_18_DESC
+    position  = { x = 172 y = 37 }
+    year      = 1973
+    component = { id = 5181 name = TECH_CMP_INDUSTRY_18_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5182 name = TECH_CMP_INDUSTRY_18_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5183 name = TECH_CMP_INDUSTRY_18_3_NAME type = management difficulty = 8 }
+    component = { id = 5184 name = TECH_CMP_INDUSTRY_18_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5185 name = TECH_CMP_INDUSTRY_18_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5170 }
+    effects =
+    { command = { type = building_prod_mod which = ic value = 5 }
+      command = { type = building_prod_mod which = infrastructure value = 5 }
+      command = { type = building_prod_mod which = nuclear_reactor value = 5 }
+    }
+  }
+  # çëìyäJî≠áV
+  application =
+  { id        = 5190
+    name      = TECH_APP_INDUSTRY_19_NAME
+    desc      = TECH_APP_INDUSTRY_19_DESC
+    position  = { x = 172 y = 53 }
+    year      = 1978
+    component = { id = 5191 name = TECH_CMP_INDUSTRY_19_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5192 name = TECH_CMP_INDUSTRY_19_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5193 name = TECH_CMP_INDUSTRY_19_3_NAME type = management difficulty = 8 }
+    component = { id = 5194 name = TECH_CMP_INDUSTRY_19_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5195 name = TECH_CMP_INDUSTRY_19_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5180 }
+    effects =
+    { command = { type = building_prod_mod which = ic value = 5 }
+      command = { type = building_prod_mod which = infrastructure value = 5 }
+      command = { type = building_prod_mod which = nuclear_reactor value = 5 }
+    }
+  }
+  # çëìyäJî≠áW
+  application =
+  { id        = 5200
+    name      = TECH_APP_INDUSTRY_20_NAME
+    desc      = TECH_APP_INDUSTRY_20_DESC
+    position  = { x = 172 y = 69 }
+    year      = 1984
+    component = { id = 5201 name = TECH_CMP_INDUSTRY_20_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5202 name = TECH_CMP_INDUSTRY_20_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5203 name = TECH_CMP_INDUSTRY_20_3_NAME type = management difficulty = 8 }
+    component = { id = 5204 name = TECH_CMP_INDUSTRY_20_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5205 name = TECH_CMP_INDUSTRY_20_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5190 }
+    effects =
+    { command = { type = building_prod_mod which = ic value = 5 }
+      command = { type = building_prod_mod which = infrastructure value = 5 }
+      command = { type = building_prod_mod which = nuclear_reactor value = 5 }
+    }
+  }
+  # çëìyäJî≠áX
+  application =
+  { id        = 5210
+    name      = TECH_APP_INDUSTRY_21_NAME
+    desc      = TECH_APP_INDUSTRY_21_DESC
+    position  = { x = 172 y = 85 }
+    year      = 1990
+    component = { id = 5211 name = TECH_CMP_INDUSTRY_21_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5212 name = TECH_CMP_INDUSTRY_21_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5213 name = TECH_CMP_INDUSTRY_21_3_NAME type = management difficulty = 8 }
+    component = { id = 5214 name = TECH_CMP_INDUSTRY_21_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5215 name = TECH_CMP_INDUSTRY_21_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5200 }
+    effects =
+    { command = { type = building_prod_mod which = ic value = 5 }
+      command = { type = building_prod_mod which = infrastructure value = 5 }
+      command = { type = building_prod_mod which = nuclear_reactor value = 5 }
+    }
+  }
+  # çëìyäJî≠áY
+  application =
+  { id        = 5220
+    name      = TECH_APP_INDUSTRY_22_NAME
+    desc      = TECH_APP_INDUSTRY_22_DESC
+    position  = { x = 172 y = 101 }
+    year      = 1998
+    component = { id = 5221 name = TECH_CMP_INDUSTRY_22_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5222 name = TECH_CMP_INDUSTRY_22_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5223 name = TECH_CMP_INDUSTRY_22_3_NAME type = management difficulty = 8 }
+    component = { id = 5224 name = TECH_CMP_INDUSTRY_22_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5225 name = TECH_CMP_INDUSTRY_22_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5210 }
+    effects =
+    { command = { type = building_prod_mod which = ic value = 5 }
+      command = { type = building_prod_mod which = infrastructure value = 5 }
+      command = { type = building_prod_mod which = nuclear_reactor value = 5 }
+    }
+  }
+  # çëìyäJî≠áZ
+  application =
+  { id        = 5230
+    name      = TECH_APP_INDUSTRY_23_NAME
+    desc      = TECH_APP_INDUSTRY_23_DESC
+    position  = { x = 172 y = 117 }
+    year      = 2005
+    component = { id = 5231 name = TECH_CMP_INDUSTRY_23_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5232 name = TECH_CMP_INDUSTRY_23_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5233 name = TECH_CMP_INDUSTRY_23_3_NAME type = management difficulty = 8 }
+    component = { id = 5234 name = TECH_CMP_INDUSTRY_23_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5235 name = TECH_CMP_INDUSTRY_23_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5220 }
+    effects =
+    { command = { type = building_prod_mod which = ic value = 5 }
+      command = { type = building_prod_mod which = infrastructure value = 5 }
+      command = { type = building_prod_mod which = nuclear_reactor value = 5 }
+    }
+  }
+  # çëìyäJî≠á[
+  application =
+  { id        = 5240
+    name      = TECH_APP_INDUSTRY_24_NAME
+    desc      = TECH_APP_INDUSTRY_24_DESC
+    position  = { x = 172 y = 133 }
+    year      = 2012
+    component = { id = 5241 name = TECH_CMP_INDUSTRY_24_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5242 name = TECH_CMP_INDUSTRY_24_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5243 name = TECH_CMP_INDUSTRY_24_3_NAME type = management difficulty = 8 }
+    component = { id = 5244 name = TECH_CMP_INDUSTRY_24_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5245 name = TECH_CMP_INDUSTRY_24_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5230 }
+    effects =
+    { command = { type = building_prod_mod which = ic value = 5 }
+      command = { type = building_prod_mod which = infrastructure value = 5 }
+      command = { type = building_prod_mod which = nuclear_reactor value = 5 }
+    }
+  }
+  # ÉåÅ[É_Å[ãZèpáT
+  application =
+  { id        = 5250
+    name      = TECH_APP_INDUSTRY_25_NAME
+    desc      = TECH_APP_INDUSTRY_25_DESC
+    position  = { x = 258 y = 21 }
+    year      = 1945
+    component = { id = 5251 name = TECH_CMP_INDUSTRY_25_1_NAME type = mechanics difficulty = 8 }
+    component = { id = 5252 name = TECH_CMP_INDUSTRY_25_2_NAME type = electronics difficulty = 8 }
+    component = { id = 5253 name = TECH_CMP_INDUSTRY_25_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5254 name = TECH_CMP_INDUSTRY_25_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5255 name = TECH_CMP_INDUSTRY_25_5_NAME type = management difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = allow_building which = radar_station }
+      command = { type = radar_eff value = 5 }
+    }
+  }
+  # ÉåÅ[É_Å[ãZèpáU
+  application =
+  { id        = 5260
+    name      = TECH_APP_INDUSTRY_26_NAME
+    desc      = TECH_APP_INDUSTRY_26_DESC
+    position  = { x = 258 y = 37 }
+    year      = 1973
+    component = { id = 5261 name = TECH_CMP_INDUSTRY_26_1_NAME type = management difficulty = 8 }
+    component = { id = 5262 name = TECH_CMP_INDUSTRY_26_2_NAME type = electronics difficulty = 8 }
+    component = { id = 5263 name = TECH_CMP_INDUSTRY_26_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5264 name = TECH_CMP_INDUSTRY_26_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5265 name = TECH_CMP_INDUSTRY_26_5_NAME type = management difficulty = 8 }
+    required  = { 5250 }
+    effects =
+    { command = { type = radar_eff value = 5 }
+    }
+  }
+  # ÉåÅ[É_Å[ãZèpáV
+  application =
+  { id        = 5270
+    name      = TECH_APP_INDUSTRY_27_NAME
+    desc      = TECH_APP_INDUSTRY_27_DESC
+    position  = { x = 258 y = 53 }
+    year      = 1978
+    component = { id = 5271 name = TECH_CMP_INDUSTRY_27_1_NAME type = management difficulty = 8 }
+    component = { id = 5272 name = TECH_CMP_INDUSTRY_27_2_NAME type = electronics difficulty = 8 }
+    component = { id = 5273 name = TECH_CMP_INDUSTRY_27_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5274 name = TECH_CMP_INDUSTRY_27_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5275 name = TECH_CMP_INDUSTRY_27_5_NAME type = management difficulty = 8 }
+    required  = { 5260 }
+    effects =
+    { command = { type = radar_eff value = 5 }
+    }
+  }
+  # ÉåÅ[É_Å[ãZèpáW
+  application =
+  { id        = 5280
+    name      = TECH_APP_INDUSTRY_28_NAME
+    desc      = TECH_APP_INDUSTRY_28_DESC
+    position  = { x = 258 y = 69 }
+    year      = 1984
+    component = { id = 5281 name = TECH_CMP_INDUSTRY_28_1_NAME type = management difficulty = 8 }
+    component = { id = 5282 name = TECH_CMP_INDUSTRY_28_2_NAME type = electronics difficulty = 8 }
+    component = { id = 5283 name = TECH_CMP_INDUSTRY_28_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5284 name = TECH_CMP_INDUSTRY_28_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5285 name = TECH_CMP_INDUSTRY_28_5_NAME type = management difficulty = 8 }
+    required  = { 5270 }
+    effects =
+    { command = { type = radar_eff value = 5 }
+    }
+  }
+  # ÉåÅ[É_Å[ãZèpáX
+  application =
+  { id        = 5290
+    name      = TECH_APP_INDUSTRY_29_NAME
+    desc      = TECH_APP_INDUSTRY_29_DESC
+    position  = { x = 258 y = 85 }
+    year      = 1990
+    component = { id = 5291 name = TECH_CMP_INDUSTRY_29_1_NAME type = management difficulty = 8 }
+    component = { id = 5292 name = TECH_CMP_INDUSTRY_29_2_NAME type = electronics difficulty = 8 }
+    component = { id = 5293 name = TECH_CMP_INDUSTRY_29_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5294 name = TECH_CMP_INDUSTRY_29_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5295 name = TECH_CMP_INDUSTRY_29_5_NAME type = management difficulty = 8 }
+    required  = { 5280 }
+    effects =
+    { command = { type = radar_eff value = 5 }
+    }
+  }
+  # ÉåÅ[É_Å[ãZèpáY
+  application =
+  { id        = 5300
+    name      = TECH_APP_INDUSTRY_30_NAME
+    desc      = TECH_APP_INDUSTRY_30_DESC
+    position  = { x = 258 y = 101 }
+    year      = 1998
+    component = { id = 5301 name = TECH_CMP_INDUSTRY_30_1_NAME type = management difficulty = 8 }
+    component = { id = 5302 name = TECH_CMP_INDUSTRY_30_2_NAME type = electronics difficulty = 8 }
+    component = { id = 5303 name = TECH_CMP_INDUSTRY_30_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5304 name = TECH_CMP_INDUSTRY_30_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5305 name = TECH_CMP_INDUSTRY_30_5_NAME type = management difficulty = 8 }
+    required  = { 5290 }
+    effects =
+    { command = { type = radar_eff value = 5 }
+    }
+  }
+  # ÉåÅ[É_Å[ãZèpáZ
+  application =
+  { id        = 5310
+    name      = TECH_APP_INDUSTRY_31_NAME
+    desc      = TECH_APP_INDUSTRY_31_DESC
+    position  = { x = 258 y = 117 }
+    year      = 2005
+    component = { id = 5311 name = TECH_CMP_INDUSTRY_31_1_NAME type = management difficulty = 8 }
+    component = { id = 5312 name = TECH_CMP_INDUSTRY_31_2_NAME type = electronics difficulty = 8 }
+    component = { id = 5313 name = TECH_CMP_INDUSTRY_31_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5314 name = TECH_CMP_INDUSTRY_31_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5315 name = TECH_CMP_INDUSTRY_31_5_NAME type = management difficulty = 8 }
+    required  = { 5300 }
+    effects =
+    { command = { type = radar_eff value = 5 }
+    }
+  }
+  # ÉåÅ[É_Å[ãZèpá[
+  application =
+  { id        = 5320
+    name      = TECH_APP_INDUSTRY_32_NAME
+    desc      = TECH_APP_INDUSTRY_32_DESC
+    position  = { x = 258 y = 133 }
+    year      = 2012
+    component = { id = 5321 name = TECH_CMP_INDUSTRY_32_1_NAME type = management difficulty = 8 }
+    component = { id = 5322 name = TECH_CMP_INDUSTRY_32_2_NAME type = electronics difficulty = 8 }
+    component = { id = 5323 name = TECH_CMP_INDUSTRY_32_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5324 name = TECH_CMP_INDUSTRY_32_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5325 name = TECH_CMP_INDUSTRY_32_5_NAME type = management difficulty = 8 }
+    required  = { 5310 }
+    effects =
+    { command = { type = radar_eff value = 5 }
+    }
+  }
+  # éëåπê∂ê¨ãZèpáT
+  application =
+  { id        = 5330
+    name      = TECH_APP_INDUSTRY_33_NAME
+    desc      = TECH_APP_INDUSTRY_33_DESC
+    position  = { x = 344 y = 21 }
+    year      = 1945
+    component = { id = 5331 name = TECH_CMP_INDUSTRY_33_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5332 name = TECH_CMP_INDUSTRY_33_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5333 name = TECH_CMP_INDUSTRY_33_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5334 name = TECH_CMP_INDUSTRY_33_4_NAME type = management difficulty = 8 }
+    component = { id = 5335 name = TECH_CMP_INDUSTRY_33_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 7010 }
+    effects = {
+      command = { type = industrial_multiplier which = energy_to_oil value = 0.11 }
+      command = { type = industrial_multiplier which = oil_to_rare_materials value = 0.11 }
+    }
+  }
+  # éëåπê∂ê¨ãZèpáU
+  application =
+  { id        = 5340
+    name      = TECH_APP_INDUSTRY_34_NAME
+    desc      = TECH_APP_INDUSTRY_34_DESC
+    position  = { x = 344 y = 37 }
+    year      = 1973
+    component = { id = 5341 name = TECH_CMP_INDUSTRY_34_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5342 name = TECH_CMP_INDUSTRY_34_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5343 name = TECH_CMP_INDUSTRY_34_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5344 name = TECH_CMP_INDUSTRY_34_4_NAME type = management difficulty = 8 }
+    component = { id = 5345 name = TECH_CMP_INDUSTRY_34_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5330 }
+    effects =
+    { command = { type = industrial_multiplier which = energy_to_oil value = 0.12 }
+      command = { type = industrial_multiplier which = oil_to_rare_materials value = 0.12 }
+    }
+  }
+  # éëåπê∂ê¨ãZèpáV
+  application =
+  { id        = 5350
+    name      = TECH_APP_INDUSTRY_35_NAME
+    desc      = TECH_APP_INDUSTRY_35_DESC
+    position  = { x = 344 y = 53 }
+    year      = 1978
+    component = { id = 5351 name = TECH_CMP_INDUSTRY_35_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5352 name = TECH_CMP_INDUSTRY_35_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5353 name = TECH_CMP_INDUSTRY_35_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5354 name = TECH_CMP_INDUSTRY_35_4_NAME type = management difficulty = 8 }
+    component = { id = 5355 name = TECH_CMP_INDUSTRY_35_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5340 }
+    effects =
+    { command = { type = industrial_multiplier which = energy_to_oil value = 0.13 }
+      command = { type = industrial_multiplier which = oil_to_rare_materials value = 0.13 }
+    }
+  }
+  # éëåπê∂ê¨ãZèpáW
+  application =
+  { id        = 5360
+    name      = TECH_APP_INDUSTRY_36_NAME
+    desc      = TECH_APP_INDUSTRY_36_DESC
+    position  = { x = 344 y = 69 }
+    year      = 1984
+    component = { id = 5361 name = TECH_CMP_INDUSTRY_36_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5362 name = TECH_CMP_INDUSTRY_36_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5363 name = TECH_CMP_INDUSTRY_36_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5364 name = TECH_CMP_INDUSTRY_36_4_NAME type = management difficulty = 8 }
+    component = { id = 5365 name = TECH_CMP_INDUSTRY_36_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5350 }
+    effects =
+    { command = { type = industrial_multiplier which = energy_to_oil value = 0.14 }
+      command = { type = industrial_multiplier which = oil_to_rare_materials value = 0.14 }
+    }
+  }
+  # éëåπê∂ê¨ãZèpáX
+  application =
+  { id        = 5370
+    name      = TECH_APP_INDUSTRY_37_NAME
+    desc      = TECH_APP_INDUSTRY_37_DESC
+    position  = { x = 344 y = 85 }
+    year      = 1990
+    component = { id = 5371 name = TECH_CMP_INDUSTRY_37_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5372 name = TECH_CMP_INDUSTRY_37_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5373 name = TECH_CMP_INDUSTRY_37_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5374 name = TECH_CMP_INDUSTRY_37_4_NAME type = management difficulty = 8 }
+    component = { id = 5375 name = TECH_CMP_INDUSTRY_37_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5360 }
+    effects =
+    { command = { type = industrial_multiplier which = energy_to_oil value = 0.15 }
+      command = { type = industrial_multiplier which = oil_to_rare_materials value = 0.15 }
+    }
+  }
+  # éëåπê∂ê¨ãZèpáY
+  application =
+  { id        = 5380
+    name      = TECH_APP_INDUSTRY_38_NAME
+    desc      = TECH_APP_INDUSTRY_38_DESC
+    position  = { x = 344 y = 101 }
+    year      = 1998
+    component = { id = 5381 name = TECH_CMP_INDUSTRY_38_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5382 name = TECH_CMP_INDUSTRY_38_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5383 name = TECH_CMP_INDUSTRY_38_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5384 name = TECH_CMP_INDUSTRY_38_4_NAME type = management difficulty = 8 }
+    component = { id = 5385 name = TECH_CMP_INDUSTRY_38_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5370 }
+    effects =
+    { command = { type = industrial_multiplier which = energy_to_oil value = 0.16 }
+      command = { type = industrial_multiplier which = oil_to_rare_materials value = 0.16 }
+    }
+  }
+  # éëåπê∂ê¨ãZèpáZ
+  application =
+  { id        = 5390
+    name      = TECH_APP_INDUSTRY_39_NAME
+    desc      = TECH_APP_INDUSTRY_39_DESC
+    position  = { x = 344 y = 117 }
+    year      = 2005
+    component = { id = 5391 name = TECH_CMP_INDUSTRY_39_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5392 name = TECH_CMP_INDUSTRY_39_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5393 name = TECH_CMP_INDUSTRY_39_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5394 name = TECH_CMP_INDUSTRY_39_4_NAME type = management difficulty = 8 }
+    component = { id = 5395 name = TECH_CMP_INDUSTRY_39_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5380 }
+    effects =
+    { command = { type = industrial_multiplier which = energy_to_oil value = 0.18 }
+      command = { type = industrial_multiplier which = oil_to_rare_materials value = 0.18 }
+    }
+  }
+  # éëåπê∂ê¨ãZèpá[
+  application =
+  { id        = 5400
+    name      = TECH_APP_INDUSTRY_40_NAME
+    desc      = TECH_APP_INDUSTRY_40_DESC
+    position  = { x = 344 y = 133 }
+    year      = 2012
+    component = { id = 5401 name = TECH_CMP_INDUSTRY_40_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5402 name = TECH_CMP_INDUSTRY_40_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5403 name = TECH_CMP_INDUSTRY_40_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5404 name = TECH_CMP_INDUSTRY_40_4_NAME type = management difficulty = 8 }
+    component = { id = 5405 name = TECH_CMP_INDUSTRY_40_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5390 }
+    effects =
+    { command = { type = industrial_multiplier which = energy_to_oil value = 0.2 }
+      command = { type = industrial_multiplier which = oil_to_rare_materials value = 0.2 }
+    }
+  }
+  # î_ã∆ãZèpáT
+  application =
+  { id        = 5410
+    name      = TECH_APP_INDUSTRY_41_NAME
+    desc      = TECH_APP_INDUSTRY_41_DESC
+    position  = { x = 430 y = 21 }
+    year      = 1945
+    component = { id = 5411 name = TECH_CMP_INDUSTRY_41_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5412 name = TECH_CMP_INDUSTRY_41_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5413 name = TECH_CMP_INDUSTRY_41_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5414 name = TECH_CMP_INDUSTRY_41_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5415 name = TECH_CMP_INDUSTRY_41_5_NAME type = management difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = relative_manpower value = 5 }
+    }
+  }
+  # î_ã∆ãZèpáU
+  application =
+  { id        = 5420
+    name      = TECH_APP_INDUSTRY_42_NAME
+    desc      = TECH_APP_INDUSTRY_42_DESC
+    position  = { x = 430 y = 37 }
+    year      = 1973
+    component = { id = 5421 name = TECH_CMP_INDUSTRY_42_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5422 name = TECH_CMP_INDUSTRY_42_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5423 name = TECH_CMP_INDUSTRY_42_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5424 name = TECH_CMP_INDUSTRY_42_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5425 name = TECH_CMP_INDUSTRY_42_5_NAME type = management difficulty = 8 }
+    required  = { 5410 }
+    effects =
+    { command = { type = relative_manpower value = 5 }
+    }
+  }
+  # î_ã∆ãZèpáV
+  application =
+  { id        = 5430
+    name      = TECH_APP_INDUSTRY_43_NAME
+    desc      = TECH_APP_INDUSTRY_43_DESC
+    position  = { x = 430 y = 53 }
+    year      = 1980
+    component = { id = 5431 name = TECH_CMP_INDUSTRY_43_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5432 name = TECH_CMP_INDUSTRY_43_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5433 name = TECH_CMP_INDUSTRY_43_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5434 name = TECH_CMP_INDUSTRY_43_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5435 name = TECH_CMP_INDUSTRY_43_5_NAME type = management difficulty = 8 }
+    required  = { 5420 }
+    effects =
+    { command = { type = relative_manpower value = 5 }
+    }
+  }
+  # î_ã∆ãZèpáW
+  application =
+  { id        = 5440
+    name      = TECH_APP_INDUSTRY_44_NAME
+    desc      = TECH_APP_INDUSTRY_44_DESC
+    position  = { x = 430 y = 69 }
+    year      = 1990
+    component = { id = 5441 name = TECH_CMP_INDUSTRY_44_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5442 name = TECH_CMP_INDUSTRY_44_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5443 name = TECH_CMP_INDUSTRY_44_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5444 name = TECH_CMP_INDUSTRY_44_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5445 name = TECH_CMP_INDUSTRY_44_5_NAME type = management difficulty = 8 }
+    required  = { 5430 }
+    effects =
+    { command = { type = relative_manpower value = 5 }
+    }
+  }
+  # î_ã∆ãZèpáX
+  application =
+  { id        = 5450
+    name      = TECH_APP_INDUSTRY_45_NAME
+    desc      = TECH_APP_INDUSTRY_45_DESC
+    position  = { x = 430 y = 85 }
+    year      = 1998
+    component = { id = 5451 name = TECH_CMP_INDUSTRY_45_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5452 name = TECH_CMP_INDUSTRY_45_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5453 name = TECH_CMP_INDUSTRY_45_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5454 name = TECH_CMP_INDUSTRY_45_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5455 name = TECH_CMP_INDUSTRY_45_5_NAME type = management difficulty = 8 }
+    required  = { 5440 }
+    effects =
+    { command = { type = relative_manpower value = 5 }
+    }
+  }
+  # çáê¨êHóøãZèpáT
+  application =
+  { id        = 5460
+    name      = TECH_APP_INDUSTRY_46_NAME
+    desc      = TECH_APP_INDUSTRY_46_DESC
+    position  = { x = 516 y = 21 }
+    year      = 1986
+    component = { id = 5461 name = TECH_CMP_INDUSTRY_46_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5462 name = TECH_CMP_INDUSTRY_46_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5463 name = TECH_CMP_INDUSTRY_46_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5464 name = TECH_CMP_INDUSTRY_46_4_NAME type = management difficulty = 8 }
+    component = { id = 5465 name = TECH_CMP_INDUSTRY_46_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5430 }
+    effects =
+    { command = { type = relative_manpower value = 2 }
+    }
+  }
+  # çáê¨êHóøãZèpáU
+  application =
+  { id        = 5470
+    name      = TECH_APP_INDUSTRY_47_NAME
+    desc      = TECH_APP_INDUSTRY_47_DESC
+    position  = { x = 516 y = 37 }
+    year      = 1996
+    component = { id = 5471 name = TECH_CMP_INDUSTRY_47_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5472 name = TECH_CMP_INDUSTRY_47_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5473 name = TECH_CMP_INDUSTRY_47_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5474 name = TECH_CMP_INDUSTRY_47_4_NAME type = management difficulty = 8 }
+    component = { id = 5475 name = TECH_CMP_INDUSTRY_47_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5460 }
+    effects =
+    { command = { type = relative_manpower value = 3 }
+    }
+  }
+  # çáê¨êHóøãZèpáV
+  application =
+  { id        = 5480
+    name      = TECH_APP_INDUSTRY_48_NAME
+    desc      = TECH_APP_INDUSTRY_48_DESC
+    position  = { x = 516 y = 53 }
+    year      = 2002
+    component = { id = 5481 name = TECH_CMP_INDUSTRY_48_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 5482 name = TECH_CMP_INDUSTRY_48_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5483 name = TECH_CMP_INDUSTRY_48_3_NAME type = electronics difficulty = 8 }
+    component = { id = 5484 name = TECH_CMP_INDUSTRY_48_4_NAME type = management difficulty = 8 }
+    component = { id = 5485 name = TECH_CMP_INDUSTRY_48_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5470 }
+    effects =
+    { command = { type = relative_manpower value = 5 }
+    }
+  }
+  # êÌì¨ó∆êHáT
+  application =
+  { id        = 5490
+    name      = TECH_APP_INDUSTRY_49_NAME
+    desc      = TECH_APP_INDUSTRY_49_DESC
+    position  = { x = 516 y = 101 }
+    year      = 1945
+    component = { id = 5491 name = TECH_CMP_INDUSTRY_49_1_NAME type = mechanics difficulty = 8 }
+    component = { id = 5492 name = TECH_CMP_INDUSTRY_49_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5493 name = TECH_CMP_INDUSTRY_49_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5494 name = TECH_CMP_INDUSTRY_49_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5495 name = TECH_CMP_INDUSTRY_49_5_NAME type = management difficulty = 8 }
+    required  = { 5410 }
+    effects =
+    { command = { type = morale which = land value = 5 }
+      command = { type = morale which = naval value = 5 }
+      command = { type = morale which = air value = 5 }
+    }
+  }
+  # êÌì¨ó∆êHáU
+  application =
+  { id        = 5500
+    name      = TECH_APP_INDUSTRY_50_NAME
+    desc      = TECH_APP_INDUSTRY_50_DESC
+    position  = { x = 516 y = 117 }
+    year      = 1973
+    component = { id = 5501 name = TECH_CMP_INDUSTRY_50_1_NAME type = mechanics difficulty = 8 }
+    component = { id = 5502 name = TECH_CMP_INDUSTRY_50_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5503 name = TECH_CMP_INDUSTRY_50_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5504 name = TECH_CMP_INDUSTRY_50_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5505 name = TECH_CMP_INDUSTRY_50_5_NAME type = management difficulty = 8 }
+    required  = { 5490 }
+    effects =
+    { command = { type = morale which = land value = 5 }
+      command = { type = morale which = naval value = 5 }
+      command = { type = morale which = air value = 5 }
+    }
+  }
+  # êÌì¨ó∆êHáV
+  application =
+  { id        = 5510
+    name      = TECH_APP_INDUSTRY_51_NAME
+    desc      = TECH_APP_INDUSTRY_51_DESC
+    position  = { x = 516 y = 133 }
+    year      = 1982
+    component = { id = 5511 name = TECH_CMP_INDUSTRY_51_1_NAME type = mechanics difficulty = 8 }
+    component = { id = 5512 name = TECH_CMP_INDUSTRY_51_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5513 name = TECH_CMP_INDUSTRY_51_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5514 name = TECH_CMP_INDUSTRY_51_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5515 name = TECH_CMP_INDUSTRY_51_5_NAME type = management difficulty = 8 }
+    required  = { 5500 }
+    effects =
+    { command = { type = morale which = land value = 5 }
+      command = { type = morale which = naval value = 5 }
+      command = { type = morale which = air value = 5 }
+    }
+  }
+  # ó éqìdé•óÕäwáT
+  application =
+  { id        = 5520
+    name      = TECH_APP_INDUSTRY_52_NAME
+    desc      = TECH_APP_INDUSTRY_52_DESC
+    position  = { x = 344 y = 174 }
+    year      = 1968
+    component = { id = 5521 name = TECH_CMP_INDUSTRY_52_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5522 name = TECH_CMP_INDUSTRY_52_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5523 name = TECH_CMP_INDUSTRY_52_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5524 name = TECH_CMP_INDUSTRY_52_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5525 name = TECH_CMP_INDUSTRY_52_5_NAME type = mathematics difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { }
+    }
+  }
+  # ó éqìdé•óÕäwáU
+  application =
+  { id        = 5530
+    name      = TECH_APP_INDUSTRY_53_NAME
+    desc      = TECH_APP_INDUSTRY_53_DESC
+    position  = { x = 344 y = 190 }
+    year      = 1974
+    component = { id = 5531 name = TECH_CMP_INDUSTRY_53_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5532 name = TECH_CMP_INDUSTRY_53_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5533 name = TECH_CMP_INDUSTRY_53_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5534 name = TECH_CMP_INDUSTRY_53_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5535 name = TECH_CMP_INDUSTRY_53_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5520 }
+    effects =
+    { command = { }
+    }
+  }
+  # ó éqìdé•óÕäwáV
+  application =
+  { id        = 5540
+    name      = TECH_APP_INDUSTRY_54_NAME
+    desc      = TECH_APP_INDUSTRY_54_DESC
+    position  = { x = 344 y = 206 }
+    year      = 1980
+    component = { id = 5541 name = TECH_CMP_INDUSTRY_54_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5542 name = TECH_CMP_INDUSTRY_54_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5543 name = TECH_CMP_INDUSTRY_54_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5544 name = TECH_CMP_INDUSTRY_54_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5545 name = TECH_CMP_INDUSTRY_54_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5530 }
+    effects =
+    { command = { }
+    }
+  }
+  # ó éqìdé•óÕäwáW
+  application =
+  { id        = 5550
+    name      = TECH_APP_INDUSTRY_55_NAME
+    desc      = TECH_APP_INDUSTRY_55_DESC
+    position  = { x = 344 y = 222 }
+    year      = 1988
+    component = { id = 5551 name = TECH_CMP_INDUSTRY_55_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5552 name = TECH_CMP_INDUSTRY_55_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5553 name = TECH_CMP_INDUSTRY_55_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5554 name = TECH_CMP_INDUSTRY_55_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5555 name = TECH_CMP_INDUSTRY_55_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5540 }
+    effects =
+    { command = { }
+    }
+  }
+  # ó éqìdé•óÕäwáX
+  application =
+  { id        = 5560
+    name      = TECH_APP_INDUSTRY_56_NAME
+    desc      = TECH_APP_INDUSTRY_56_DESC
+    position  = { x = 344 y = 238 }
+    year      = 1996
+    component = { id = 5561 name = TECH_CMP_INDUSTRY_56_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5562 name = TECH_CMP_INDUSTRY_56_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5563 name = TECH_CMP_INDUSTRY_56_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5564 name = TECH_CMP_INDUSTRY_56_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5565 name = TECH_CMP_INDUSTRY_56_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5550 }
+    effects =
+    { command = { }
+    }
+  }
+  # ó éqìdé•óÕäwáY
+  application =
+  { id        = 5570
+    name      = TECH_APP_INDUSTRY_57_NAME
+    desc      = TECH_APP_INDUSTRY_57_DESC
+    position  = { x = 344 y = 254 }
+    year      = 2001
+    component = { id = 5571 name = TECH_CMP_INDUSTRY_57_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5572 name = TECH_CMP_INDUSTRY_57_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5573 name = TECH_CMP_INDUSTRY_57_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5574 name = TECH_CMP_INDUSTRY_57_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5575 name = TECH_CMP_INDUSTRY_57_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5560 }
+    effects =
+    { command = { }
+    }
+  }
+  # ó éqìdé•óÕäwáZ
+  application =
+  { id        = 5580
+    name      = TECH_APP_INDUSTRY_58_NAME
+    desc      = TECH_APP_INDUSTRY_58_DESC
+    position  = { x = 344 y = 270 }
+    year      = 2006
+    component = { id = 5581 name = TECH_CMP_INDUSTRY_58_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5582 name = TECH_CMP_INDUSTRY_58_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5583 name = TECH_CMP_INDUSTRY_58_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5584 name = TECH_CMP_INDUSTRY_58_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5585 name = TECH_CMP_INDUSTRY_58_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5570 }
+    effects =
+    { command = { }
+    }
+  }
+  # ó éqìdé•óÕäwá[
+  application =
+  { id        = 5590
+    name      = TECH_APP_INDUSTRY_59_NAME
+    desc      = TECH_APP_INDUSTRY_59_DESC
+    position  = { x = 344 y = 286 }
+    year      = 2010
+    component = { id = 5591 name = TECH_CMP_INDUSTRY_59_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5592 name = TECH_CMP_INDUSTRY_59_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5593 name = TECH_CMP_INDUSTRY_59_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 5594 name = TECH_CMP_INDUSTRY_59_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5595 name = TECH_CMP_INDUSTRY_59_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5580 }
+    effects =
+    { command = { }
+    }
+  }
+  # ìdéqçHäwáT
+  application =
+  { id        = 5600
+    name      = TECH_APP_INDUSTRY_60_NAME
+    desc      = TECH_APP_INDUSTRY_60_DESC
+    position  = { x = 430 y = 174 }
+    year      = 1945
+    component = { id = 5601 name = TECH_CMP_INDUSTRY_60_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5602 name = TECH_CMP_INDUSTRY_60_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5603 name = TECH_CMP_INDUSTRY_60_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 5604 name = TECH_CMP_INDUSTRY_60_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5605 name = TECH_CMP_INDUSTRY_60_5_NAME type = electronics difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { }
+    }
+  }
+  # ìdéqçHäwáU
+  application =
+  { id        = 5610
+    name      = TECH_APP_INDUSTRY_61_NAME
+    desc      = TECH_APP_INDUSTRY_61_DESC
+    position  = { x = 430 y = 190 }
+    year      = 1970
+    component = { id = 5611 name = TECH_CMP_INDUSTRY_61_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5612 name = TECH_CMP_INDUSTRY_61_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5613 name = TECH_CMP_INDUSTRY_61_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 5614 name = TECH_CMP_INDUSTRY_61_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5615 name = TECH_CMP_INDUSTRY_61_5_NAME type = electronics difficulty = 8 }
+    required  = { 5600 }
+    effects =
+    { command = { }
+    }
+  }
+  # ìdéqçHäwáV
+  application =
+  { id        = 5620
+    name      = TECH_APP_INDUSTRY_62_NAME
+    desc      = TECH_APP_INDUSTRY_62_DESC
+    position  = { x = 430 y = 206 }
+    year      = 1980
+    component = { id = 5621 name = TECH_CMP_INDUSTRY_62_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5622 name = TECH_CMP_INDUSTRY_62_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5623 name = TECH_CMP_INDUSTRY_62_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 5624 name = TECH_CMP_INDUSTRY_62_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5625 name = TECH_CMP_INDUSTRY_62_5_NAME type = electronics difficulty = 8 }
+    required  = { 5610 }
+    effects =
+    { command = { }
+    }
+  }
+  # ìdéqçHäwáW
+  application =
+  { id        = 5630
+    name      = TECH_APP_INDUSTRY_63_NAME
+    desc      = TECH_APP_INDUSTRY_63_DESC
+    position  = { x = 430 y = 222 }
+    year      = 1988
+    component = { id = 5631 name = TECH_CMP_INDUSTRY_63_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5632 name = TECH_CMP_INDUSTRY_63_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5633 name = TECH_CMP_INDUSTRY_63_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 5634 name = TECH_CMP_INDUSTRY_63_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5635 name = TECH_CMP_INDUSTRY_63_5_NAME type = electronics difficulty = 8 }
+    required  = { 5620 }
+    effects =
+    { command = { }
+    }
+  }
+  # ìdéqçHäwáX
+  application =
+  { id        = 5640
+    name      = TECH_APP_INDUSTRY_64_NAME
+    desc      = TECH_APP_INDUSTRY_64_DESC
+    position  = { x = 430 y = 238 }
+    year      = 1996
+    component = { id = 5641 name = TECH_CMP_INDUSTRY_64_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5642 name = TECH_CMP_INDUSTRY_64_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5643 name = TECH_CMP_INDUSTRY_64_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 5644 name = TECH_CMP_INDUSTRY_64_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5645 name = TECH_CMP_INDUSTRY_64_5_NAME type = electronics difficulty = 8 }
+    required  = { 5630 }
+    effects =
+    { command = { }
+    }
+  }
+  # ìdéqçHäwáY
+  application =
+  { id        = 5650
+    name      = TECH_APP_INDUSTRY_65_NAME
+    desc      = TECH_APP_INDUSTRY_65_DESC
+    position  = { x = 430 y = 254 }
+    year      = 2001
+    component = { id = 5651 name = TECH_CMP_INDUSTRY_65_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5652 name = TECH_CMP_INDUSTRY_65_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5653 name = TECH_CMP_INDUSTRY_65_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 5654 name = TECH_CMP_INDUSTRY_65_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5655 name = TECH_CMP_INDUSTRY_65_5_NAME type = electronics difficulty = 8 }
+    required  = { 5640 }
+    effects =
+    { command = { }
+    }
+  }
+  # ìdéqçHäwáZ
+  application =
+  { id        = 5660
+    name      = TECH_APP_INDUSTRY_66_NAME
+    desc      = TECH_APP_INDUSTRY_66_DESC
+    position  = { x = 430 y = 270 }
+    year      = 2006
+    component = { id = 5661 name = TECH_CMP_INDUSTRY_66_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5662 name = TECH_CMP_INDUSTRY_66_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5663 name = TECH_CMP_INDUSTRY_66_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 5664 name = TECH_CMP_INDUSTRY_66_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5665 name = TECH_CMP_INDUSTRY_66_5_NAME type = electronics difficulty = 8 }
+    required  = { 5650 }
+    effects =
+    { command = { }
+    }
+  }
+  # ìdéqçHäwá[
+  application =
+  { id        = 5670
+    name      = TECH_APP_INDUSTRY_67_NAME
+    desc      = TECH_APP_INDUSTRY_67_DESC
+    position  = { x = 430 y = 286 }
+    year      = 2010
+    component = { id = 5671 name = TECH_CMP_INDUSTRY_67_1_NAME type = electronics difficulty = 8 }
+    component = { id = 5672 name = TECH_CMP_INDUSTRY_67_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 5673 name = TECH_CMP_INDUSTRY_67_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 5674 name = TECH_CMP_INDUSTRY_67_4_NAME type = electronics difficulty = 8 }
+    component = { id = 5675 name = TECH_CMP_INDUSTRY_67_5_NAME type = electronics difficulty = 8 }
+    required  = { 5660 }
+    effects =
+    { command = { }
+    }
+  }
+  # çqãÛâFíàçHäwáT
+  application =
+  { id        = 5680
+    name      = TECH_APP_INDUSTRY_68_NAME
+    desc      = TECH_APP_INDUSTRY_68_DESC
+    position  = { x = 516 y = 174 }
+    year      = 1945
+    component = { id = 5681 name = TECH_CMP_INDUSTRY_68_1_NAME type = rocketry difficulty = 8 }
+    component = { id = 5682 name = TECH_CMP_INDUSTRY_68_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 5683 name = TECH_CMP_INDUSTRY_68_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 5684 name = TECH_CMP_INDUSTRY_68_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5685 name = TECH_CMP_INDUSTRY_68_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { }
+    }
+  }
+  # çqãÛâFíàçHäwáU
+  application =
+  { id        = 5690
+    name      = TECH_APP_INDUSTRY_69_NAME
+    desc      = TECH_APP_INDUSTRY_69_DESC
+    position  = { x = 516 y = 190 }
+    year      = 1970
+    component = { id = 5691 name = TECH_CMP_INDUSTRY_68_1_NAME type = rocketry difficulty = 8 }
+    component = { id = 5692 name = TECH_CMP_INDUSTRY_68_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 5693 name = TECH_CMP_INDUSTRY_68_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 5694 name = TECH_CMP_INDUSTRY_68_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5695 name = TECH_CMP_INDUSTRY_68_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 5680 }
+    effects =
+    { command = { }
+    }
+  }
+  # çqãÛâFíàçHäwáV
+  application =
+  { id        = 5700
+    name      = TECH_APP_INDUSTRY_70_NAME
+    desc      = TECH_APP_INDUSTRY_70_DESC
+    position  = { x = 516 y = 206 }
+    year      = 1980
+    component = { id = 5701 name = TECH_CMP_INDUSTRY_68_1_NAME type = rocketry difficulty = 8 }
+    component = { id = 5702 name = TECH_CMP_INDUSTRY_68_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 5703 name = TECH_CMP_INDUSTRY_68_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 5704 name = TECH_CMP_INDUSTRY_68_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5705 name = TECH_CMP_INDUSTRY_68_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 5690 }
+    effects =
+    { command = { }
+    }
+  }
+  # çqãÛâFíàçHäwáW
+  application =
+  { id        = 5710
+    name      = TECH_APP_INDUSTRY_71_NAME
+    desc      = TECH_APP_INDUSTRY_71_DESC
+    position  = { x = 516 y = 222 }
+    year      = 1988
+    component = { id = 5711 name = TECH_CMP_INDUSTRY_68_1_NAME type = rocketry difficulty = 8 }
+    component = { id = 5712 name = TECH_CMP_INDUSTRY_68_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 5713 name = TECH_CMP_INDUSTRY_68_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 5714 name = TECH_CMP_INDUSTRY_68_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5715 name = TECH_CMP_INDUSTRY_68_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 5700 }
+    effects =
+    { command = { }
+    }
+  }
+  # çqãÛâFíàçHäwáX
+  application =
+  { id        = 5720
+    name      = TECH_APP_INDUSTRY_72_NAME
+    desc      = TECH_APP_INDUSTRY_72_DESC
+    position  = { x = 516 y = 238 }
+    year      = 1996
+    component = { id = 5721 name = TECH_CMP_INDUSTRY_68_1_NAME type = rocketry difficulty = 8 }
+    component = { id = 5722 name = TECH_CMP_INDUSTRY_68_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 5723 name = TECH_CMP_INDUSTRY_68_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 5724 name = TECH_CMP_INDUSTRY_68_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5725 name = TECH_CMP_INDUSTRY_68_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 5710 }
+    effects =
+    { command = { }
+    }
+  }
+  # çqãÛâFíàçHäwáY
+  application =
+  { id        = 5730
+    name      = TECH_APP_INDUSTRY_73_NAME
+    desc      = TECH_APP_INDUSTRY_73_DESC
+    position  = { x = 516 y = 254 }
+    year      = 2001
+    component = { id = 5731 name = TECH_CMP_INDUSTRY_68_1_NAME type = rocketry difficulty = 8 }
+    component = { id = 5732 name = TECH_CMP_INDUSTRY_68_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 5733 name = TECH_CMP_INDUSTRY_68_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 5734 name = TECH_CMP_INDUSTRY_68_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5735 name = TECH_CMP_INDUSTRY_68_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 5720 }
+    effects =
+    { command = { }
+    }
+  }
+  # çqãÛâFíàçHäwáZ
+  application =
+  { id        = 5740
+    name      = TECH_APP_INDUSTRY_74_NAME
+    desc      = TECH_APP_INDUSTRY_74_DESC
+    position  = { x = 516 y = 270 }
+    year      = 2006
+    component = { id = 5741 name = TECH_CMP_INDUSTRY_68_1_NAME type = rocketry difficulty = 8 }
+    component = { id = 5742 name = TECH_CMP_INDUSTRY_68_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 5743 name = TECH_CMP_INDUSTRY_68_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 5744 name = TECH_CMP_INDUSTRY_68_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5745 name = TECH_CMP_INDUSTRY_68_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 5730 }
+    effects =
+    { command = { }
+    }
+  }
+  # çqãÛâFíàçHäwá[
+  application =
+  { id        = 5750
+    name      = TECH_APP_INDUSTRY_75_NAME
+    desc      = TECH_APP_INDUSTRY_75_DESC
+    position  = { x = 516 y = 286 }
+    year      = 2010
+    component = { id = 5751 name = TECH_CMP_INDUSTRY_68_1_NAME type = rocketry difficulty = 8 }
+    component = { id = 5752 name = TECH_CMP_INDUSTRY_68_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 5753 name = TECH_CMP_INDUSTRY_68_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 5754 name = TECH_CMP_INDUSTRY_68_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 5755 name = TECH_CMP_INDUSTRY_68_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 5740 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwáT
+  application =
+  { id        = 5760
+    name      = TECH_APP_INDUSTRY_76_NAME
+    desc      = TECH_APP_INDUSTRY_76_DESC
+    position  = { x = 430 y = 327 }
+    year      = 1941
+    component = { id = 5761 name = TECH_CMP_INDUSTRY_76_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5762 name = TECH_CMP_INDUSTRY_76_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5763 name = TECH_CMP_INDUSTRY_76_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5764 name = TECH_CMP_INDUSTRY_76_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5765 name = TECH_CMP_INDUSTRY_76_5_NAME type = mathematics difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwáU
+  application =
+  { id        = 5770
+    name      = TECH_APP_INDUSTRY_77_NAME
+    desc      = TECH_APP_INDUSTRY_77_DESC
+    position  = { x = 430 y = 343 }
+    year      = 1943
+    component = { id = 5771 name = TECH_CMP_INDUSTRY_77_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5772 name = TECH_CMP_INDUSTRY_77_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5773 name = TECH_CMP_INDUSTRY_77_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5774 name = TECH_CMP_INDUSTRY_77_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5775 name = TECH_CMP_INDUSTRY_77_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5760 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwáV
+  application =
+  { id        = 5780
+    name      = TECH_APP_INDUSTRY_78_NAME
+    desc      = TECH_APP_INDUSTRY_78_DESC
+    position  = { x = 430 y = 359 }
+    year      = 1944
+    component = { id = 5781 name = TECH_CMP_INDUSTRY_78_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5782 name = TECH_CMP_INDUSTRY_78_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5783 name = TECH_CMP_INDUSTRY_78_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5784 name = TECH_CMP_INDUSTRY_78_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5785 name = TECH_CMP_INDUSTRY_78_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5770 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwáW
+  application =
+  { id        = 5790
+    name      = TECH_APP_INDUSTRY_79_NAME
+    desc      = TECH_APP_INDUSTRY_79_DESC
+    position  = { x = 430 y = 375 }
+    year      = 1953
+    component = { id = 5791 name = TECH_CMP_INDUSTRY_79_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5792 name = TECH_CMP_INDUSTRY_79_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5793 name = TECH_CMP_INDUSTRY_79_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5794 name = TECH_CMP_INDUSTRY_79_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5795 name = TECH_CMP_INDUSTRY_79_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5780 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwáX
+  application =
+  { id        = 5800
+    name      = TECH_APP_INDUSTRY_80_NAME
+    desc      = TECH_APP_INDUSTRY_80_DESC
+    position  = { x = 430 y = 391 }
+    year      = 1960
+    component = { id = 5801 name = TECH_CMP_INDUSTRY_80_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5802 name = TECH_CMP_INDUSTRY_80_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5803 name = TECH_CMP_INDUSTRY_80_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5804 name = TECH_CMP_INDUSTRY_80_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5805 name = TECH_CMP_INDUSTRY_80_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5790 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwáY
+  application =
+  { id        = 5810
+    name      = TECH_APP_INDUSTRY_81_NAME
+    desc      = TECH_APP_INDUSTRY_81_DESC
+    position  = { x = 430 y = 407 }
+    year      = 1968
+    component = { id = 5811 name = TECH_CMP_INDUSTRY_81_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5812 name = TECH_CMP_INDUSTRY_81_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5813 name = TECH_CMP_INDUSTRY_81_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5814 name = TECH_CMP_INDUSTRY_81_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5815 name = TECH_CMP_INDUSTRY_81_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5800 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwáZ
+  application =
+  { id        = 5820
+    name      = TECH_APP_INDUSTRY_82_NAME
+    desc      = TECH_APP_INDUSTRY_82_DESC
+    position  = { x = 430 y = 423 }
+    year      = 1978
+    component = { id = 5821 name = TECH_CMP_INDUSTRY_82_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5822 name = TECH_CMP_INDUSTRY_82_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5823 name = TECH_CMP_INDUSTRY_82_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5824 name = TECH_CMP_INDUSTRY_82_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5825 name = TECH_CMP_INDUSTRY_82_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5810 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwá[
+  application =
+  { id        = 5830
+    name      = TECH_APP_INDUSTRY_83_NAME
+    desc      = TECH_APP_INDUSTRY_83_DESC
+    position  = { x = 430 y = 439 }
+    year      = 1986
+    component = { id = 5831 name = TECH_CMP_INDUSTRY_83_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5832 name = TECH_CMP_INDUSTRY_83_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5833 name = TECH_CMP_INDUSTRY_83_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5834 name = TECH_CMP_INDUSTRY_83_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5835 name = TECH_CMP_INDUSTRY_83_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5820 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwá\
+  application =
+  { id        = 5840
+    name      = TECH_APP_INDUSTRY_84_NAME
+    desc      = TECH_APP_INDUSTRY_84_DESC
+    position  = { x = 430 y = 455 }
+    year      = 1994
+    component = { id = 5841 name = TECH_CMP_INDUSTRY_84_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5842 name = TECH_CMP_INDUSTRY_84_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5843 name = TECH_CMP_INDUSTRY_84_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5844 name = TECH_CMP_INDUSTRY_84_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5845 name = TECH_CMP_INDUSTRY_84_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5830 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqäjï®óùäwá]
+  application =
+  { id        = 5850
+    name      = TECH_APP_INDUSTRY_85_NAME
+    desc      = TECH_APP_INDUSTRY_85_DESC
+    position  = { x = 430 y = 471 }
+    year      = 2001
+    component = { id = 5851 name = TECH_CMP_INDUSTRY_85_1_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5852 name = TECH_CMP_INDUSTRY_85_2_NAME type = nuclear_physics difficulty = 8 }
+    component = { id = 5853 name = TECH_CMP_INDUSTRY_85_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5854 name = TECH_CMP_INDUSTRY_85_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 5855 name = TECH_CMP_INDUSTRY_85_5_NAME type = mathematics difficulty = 8 }
+    required  = { 5840 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqóÕî≠ìdèäáT
+  application =
+  { id        = 5860
+    name      = TECH_APP_INDUSTRY_86_NAME
+    desc      = TECH_APP_INDUSTRY_86_DESC
+    position  = { x = 516 y = 327 }
+    year      = 1986
+    component = { id = 5861 name = TECH_CMP_INDUSTRY_86_1_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5862 name = TECH_CMP_INDUSTRY_86_2_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5863 name = TECH_CMP_INDUSTRY_86_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5864 name = TECH_CMP_INDUSTRY_86_4_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5865 name = TECH_CMP_INDUSTRY_86_5_NAME type = management difficulty = 8 }
+    required  = { 5830 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqóÕî≠ìdèäáU
+  application =
+  { id        = 5870
+    name      = TECH_APP_INDUSTRY_87_NAME
+    desc      = TECH_APP_INDUSTRY_87_DESC
+    position  = { x = 516 y = 343 }
+    year      = 1992
+    component = { id = 5871 name = TECH_CMP_INDUSTRY_87_1_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5872 name = TECH_CMP_INDUSTRY_87_2_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5873 name = TECH_CMP_INDUSTRY_87_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5874 name = TECH_CMP_INDUSTRY_87_4_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5875 name = TECH_CMP_INDUSTRY_87_5_NAME type = management difficulty = 8 }
+    required  = { 5860 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqóÕî≠ìdèäáV
+  application =
+  { id        = 5880
+    name      = TECH_APP_INDUSTRY_88_NAME
+    desc      = TECH_APP_INDUSTRY_88_DESC
+    position  = { x = 516 y = 359 }
+    year      = 1998
+    component = { id = 5881 name = TECH_CMP_INDUSTRY_88_1_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5882 name = TECH_CMP_INDUSTRY_88_2_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5883 name = TECH_CMP_INDUSTRY_88_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5884 name = TECH_CMP_INDUSTRY_88_4_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5885 name = TECH_CMP_INDUSTRY_88_5_NAME type = management difficulty = 8 }
+    required  = { 5870 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqóÕî≠ìdèäáW
+  application =
+  { id        = 5890
+    name      = TECH_APP_INDUSTRY_89_NAME
+    desc      = TECH_APP_INDUSTRY_89_DESC
+    position  = { x = 516 y = 375 }
+    year      = 2004
+    component = { id = 5891 name = TECH_CMP_INDUSTRY_89_1_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5892 name = TECH_CMP_INDUSTRY_89_2_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5893 name = TECH_CMP_INDUSTRY_89_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5894 name = TECH_CMP_INDUSTRY_89_4_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5895 name = TECH_CMP_INDUSTRY_89_5_NAME type = management difficulty = 8 }
+    required  = { 5880 }
+    effects =
+    { command = { }
+    }
+  }
+  # å¥éqóÕî≠ìdèäáX
+  application =
+  { id        = 5900
+    name      = TECH_APP_INDUSTRY_90_NAME
+    desc      = TECH_APP_INDUSTRY_90_DESC
+    position  = { x = 516 y = 391 }
+    year      = 2012
+    component = { id = 5901 name = TECH_CMP_INDUSTRY_90_1_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5902 name = TECH_CMP_INDUSTRY_90_2_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5903 name = TECH_CMP_INDUSTRY_90_3_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5904 name = TECH_CMP_INDUSTRY_90_4_NAME type = nuclear_engineering difficulty = 8 }
+    component = { id = 5905 name = TECH_CMP_INDUSTRY_90_5_NAME type = management difficulty = 8 }
+    required  = { 5890 }
+    effects =
+    { command = { }
+    }
+  }
+  # ê∂éYÉâÉCÉìáT
+  application =
+  { id        = 5910
+    name      = TECH_APP_INDUSTRY_91_NAME
+    desc      = TECH_APP_INDUSTRY_91_DESC
+    position  = { x = 0 y = 174 }
+    year      = 1945
+    component = { id = 5911 name = TECH_CMP_INDUSTRY_91_1_NAME type = management difficulty = 8 }
+    component = { id = 5912 name = TECH_CMP_INDUSTRY_91_2_NAME type = management difficulty = 8 }
+    component = { id = 5913 name = TECH_CMP_INDUSTRY_91_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5914 name = TECH_CMP_INDUSTRY_91_4_NAME type = management difficulty = 8 }
+    component = { id = 5915 name = TECH_CMP_INDUSTRY_91_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = build_time which = infantry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cavalry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = motorized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = mechanized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = paratrooper when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = marine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = bergsjaeger when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = garrison when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = hq when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = militia when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battleship when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battlecruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = escort_carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = nuclear_submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = multi_role when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = interceptor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = strategic_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tactical_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = naval_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cas when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport_plane when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_bomb when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_rocket when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = rocket_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_rct_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_tank when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tank_destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor_brigade when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = super_heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armored_car when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_air when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = police when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = engineer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cag when = on_upgrade value = -3 where = relative }
+    }
+  }
+  # ê∂éYÉâÉCÉìáU
+  application =
+  { id        = 5920
+    name      = TECH_APP_INDUSTRY_92_NAME
+    desc      = TECH_APP_INDUSTRY_92_DESC
+    position  = { x = 0 y = 190 }
+    year      = 1973
+    component = { id = 5921 name = TECH_CMP_INDUSTRY_92_1_NAME type = management difficulty = 8 }
+    component = { id = 5922 name = TECH_CMP_INDUSTRY_92_2_NAME type = management difficulty = 8 }
+    component = { id = 5923 name = TECH_CMP_INDUSTRY_92_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5924 name = TECH_CMP_INDUSTRY_92_4_NAME type = management difficulty = 8 }
+    component = { id = 5925 name = TECH_CMP_INDUSTRY_92_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5910 }
+    effects =
+    { command = { type = build_time which = infantry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cavalry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = motorized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = mechanized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = paratrooper when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = marine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = bergsjaeger when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = garrison when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = hq when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = militia when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battleship when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battlecruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = escort_carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = nuclear_submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = multi_role when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = interceptor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = strategic_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tactical_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = naval_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cas when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport_plane when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_bomb when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_rocket when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = rocket_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_rct_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_tank when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tank_destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor_brigade when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = super_heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armored_car when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_air when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = police when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = engineer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cag when = on_upgrade value = -3 where = relative }
+    }
+  }
+  # ê∂éYÉâÉCÉìáV
+  application =
+  { id        = 5930
+    name      = TECH_APP_INDUSTRY_93_NAME
+    desc      = TECH_APP_INDUSTRY_93_DESC
+    position  = { x = 0 y = 206 }
+    year      = 1978
+    component = { id = 5931 name = TECH_CMP_INDUSTRY_93_1_NAME type = management difficulty = 8 }
+    component = { id = 5932 name = TECH_CMP_INDUSTRY_93_2_NAME type = management difficulty = 8 }
+    component = { id = 5933 name = TECH_CMP_INDUSTRY_93_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5934 name = TECH_CMP_INDUSTRY_93_4_NAME type = management difficulty = 8 }
+    component = { id = 5935 name = TECH_CMP_INDUSTRY_93_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5920 }
+    effects =
+    { command = { type = build_time which = infantry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cavalry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = motorized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = mechanized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = paratrooper when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = marine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = bergsjaeger when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = garrison when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = hq when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = militia when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battleship when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battlecruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = escort_carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = nuclear_submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = multi_role when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = interceptor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = strategic_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tactical_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = naval_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cas when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport_plane when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_bomb when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_rocket when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = rocket_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_rct_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_tank when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tank_destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor_brigade when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = super_heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armored_car when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_air when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = police when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = engineer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cag when = on_upgrade value = -3 where = relative }
+    }
+  }
+  # ê∂éYÉâÉCÉìáW
+  application =
+  { id        = 5940
+    name      = TECH_APP_INDUSTRY_94_NAME
+    desc      = TECH_APP_INDUSTRY_94_DESC
+    position  = { x = 0 y = 222 }
+    year      = 1984
+    component = { id = 5941 name = TECH_CMP_INDUSTRY_94_1_NAME type = management difficulty = 8 }
+    component = { id = 5942 name = TECH_CMP_INDUSTRY_94_2_NAME type = management difficulty = 8 }
+    component = { id = 5943 name = TECH_CMP_INDUSTRY_94_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5944 name = TECH_CMP_INDUSTRY_94_4_NAME type = management difficulty = 8 }
+    component = { id = 5945 name = TECH_CMP_INDUSTRY_94_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5930 }
+    effects =
+    { command = { type = build_time which = infantry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cavalry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = motorized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = mechanized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = paratrooper when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = marine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = bergsjaeger when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = garrison when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = hq when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = militia when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battleship when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battlecruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = escort_carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = nuclear_submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = multi_role when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = interceptor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = strategic_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tactical_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = naval_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cas when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport_plane when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_bomb when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_rocket when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = rocket_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_rct_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_tank when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tank_destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor_brigade when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = super_heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armored_car when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_air when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = police when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = engineer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cag when = on_upgrade value = -3 where = relative }
+    }
+  }
+  # ê∂éYÉâÉCÉìáX
+  application =
+  { id        = 5950
+    name      = TECH_APP_INDUSTRY_95_NAME
+    desc      = TECH_APP_INDUSTRY_95_DESC
+    position  = { x = 0 y = 238 }
+    year      = 1990
+    component = { id = 5951 name = TECH_CMP_INDUSTRY_95_1_NAME type = management difficulty = 8 }
+    component = { id = 5952 name = TECH_CMP_INDUSTRY_95_2_NAME type = management difficulty = 8 }
+    component = { id = 5953 name = TECH_CMP_INDUSTRY_95_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5954 name = TECH_CMP_INDUSTRY_95_4_NAME type = management difficulty = 8 }
+    component = { id = 5955 name = TECH_CMP_INDUSTRY_95_5_NAME type = industrial_engineering difficulty = 8 }
+    required  = { 5940 }
+    effects =
+    { command = { type = build_time which = infantry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cavalry when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = motorized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = mechanized when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = paratrooper when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = marine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = bergsjaeger when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = garrison when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = hq when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = militia when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battleship when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_cruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = battlecruiser when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = escort_carrier when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = nuclear_submarine when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = multi_role when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = interceptor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = strategic_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tactical_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = naval_bomber when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cas when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = transport_plane when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_bomb when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = flying_rocket when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = rocket_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = sp_rct_artillery when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_tank when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = tank_destroyer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = light_armor_brigade when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = super_heavy_armor when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = armored_car when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = anti_air when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = police when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = engineer when = on_upgrade value = -3 where = relative }
+      command = { type = build_time which = cag when = on_upgrade value = -3 where = relative }
+    }
+  }
+  # ó§è„ï∫äÌèdéãáT
+  application =
+  { id        = 5960
+    name      = TECH_APP_INDUSTRY_96_NAME
+    desc      = TECH_APP_INDUSTRY_96_DESC
+    position  = { x = 43 y = 265 }
+    year      = 1990
+    component = { id = 5961 name = TECH_CMP_INDUSTRY_96_1_NAME type = general_equipment difficulty = 8 }
+    component = { id = 5962 name = TECH_CMP_INDUSTRY_96_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5963 name = TECH_CMP_INDUSTRY_96_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5964 name = TECH_CMP_INDUSTRY_96_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5965 name = TECH_CMP_INDUSTRY_96_5_NAME type = management difficulty = 8 }
+    required  = { 5940 }
+    effects =
+    { command = { type = build_time which = infantry when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = cavalry when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = motorized when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = mechanized when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = light_armor when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = armor when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = paratrooper when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = marine when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = bergsjaeger when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = garrison when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = hq when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = militia when = on_upgrade value = -5 where = relative }
+      command = { type = deactivate which = 5980 }
+      command = { type = deactivate which = 50000 }
+    }
+  }
+  # ó§è„ï∫äÌèdéãáU
+  application =
+  { id        = 5970
+    name      = TECH_APP_INDUSTRY_97_NAME
+    desc      = TECH_APP_INDUSTRY_97_DESC
+    position  = { x = 43 y = 281 }
+    year      = 2001
+    component = { id = 5971 name = TECH_CMP_INDUSTRY_97_1_NAME type = general_equipment difficulty = 8 }
+    component = { id = 5972 name = TECH_CMP_INDUSTRY_97_2_NAME type = mechanics difficulty = 8 }
+    component = { id = 5973 name = TECH_CMP_INDUSTRY_97_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5974 name = TECH_CMP_INDUSTRY_97_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5975 name = TECH_CMP_INDUSTRY_97_5_NAME type = management difficulty = 8 }
+    required  = { 5950 5960 }
+    effects =
+    { command = { type = build_time which = infantry when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = cavalry when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = motorized when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = mechanized when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = light_armor when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = armor when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = paratrooper when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = marine when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = bergsjaeger when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = garrison when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = hq when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = militia when = on_upgrade value = -5 where = relative }
+    }
+  }
+  # äCè„ï∫äÌèdéãáT
+  application =
+  { id        = 5980
+    name      = TECH_APP_INDUSTRY_98_NAME
+    desc      = TECH_APP_INDUSTRY_98_DESC
+    position  = { x = 43 y = 308 }
+    year      = 1990
+    component = { id = 5981 name = TECH_CMP_INDUSTRY_98_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 5982 name = TECH_CMP_INDUSTRY_98_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5983 name = TECH_CMP_INDUSTRY_98_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5984 name = TECH_CMP_INDUSTRY_98_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5985 name = TECH_CMP_INDUSTRY_98_5_NAME type = management difficulty = 8 }
+    required  = { 5940 }
+    effects =
+    { command = { type = build_time which = battleship when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = light_cruiser when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = heavy_cruiser when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = battlecruiser when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = destroyer when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = carrier when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = escort_carrier when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = submarine when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = nuclear_submarine when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = transport when = on_upgrade value = -5 where = relative }
+      command = { type = deactivate which = 5960 }
+      command = { type = deactivate which = 50000 }
+    }
+  }
+  # äCè„ï∫äÌèdéãáU
+  application =
+  { id        = 5990
+    name      = TECH_APP_INDUSTRY_99_NAME
+    desc      = TECH_APP_INDUSTRY_99_DESC
+    position  = { x = 43 y = 324 }
+    year      = 2001
+    component = { id = 5991 name = TECH_CMP_INDUSTRY_99_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 5992 name = TECH_CMP_INDUSTRY_99_2_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5993 name = TECH_CMP_INDUSTRY_99_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5994 name = TECH_CMP_INDUSTRY_99_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 5995 name = TECH_CMP_INDUSTRY_99_5_NAME type = management difficulty = 8 }
+    required  = { 5950 5980 }
+    effects =
+    { command = { type = build_time which = battleship when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = light_cruiser when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = heavy_cruiser when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = battlecruiser when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = destroyer when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = carrier when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = escort_carrier when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = submarine when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = nuclear_submarine when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = transport when = on_upgrade value = -5 where = relative }
+    }
+  }
+  # çqãÛï∫äÌèdéãáT
+  application =
+  { id        = 50000
+    name      = TECH_APP_INDUSTRY_500_NAME
+    desc      = TECH_APP_INDUSTRY_500_DESC
+    position  = { x = 43 y = 351 }
+    year      = 1990
+    component = { id = 50001 name = TECH_CMP_INDUSTRY_500_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50002 name = TECH_CMP_INDUSTRY_500_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50003 name = TECH_CMP_INDUSTRY_500_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 50004 name = TECH_CMP_INDUSTRY_500_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 50005 name = TECH_CMP_INDUSTRY_500_5_NAME type = management difficulty = 8 }
+    required  = { 5940 }
+    effects =
+    { command = { type = build_time which = multi_role when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = interceptor when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = strategic_bomber when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = tactical_bomber when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = naval_bomber when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = cas when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = transport_plane when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = flying_bomb when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = flying_rocket when = on_upgrade value = -5 where = relative }
+      command = { type = deactivate which = 5960 }
+      command = { type = deactivate which = 5980 }
+    }
+  }
+  # çqãÛï∫äÌèdéãáU
+  application =
+  { id        = 50010
+    name      = TECH_APP_INDUSTRY_501_NAME
+    desc      = TECH_APP_INDUSTRY_501_DESC
+    position  = { x = 43 y = 367 }
+    year      = 2001
+    component = { id = 50011 name = TECH_CMP_INDUSTRY_501_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50012 name = TECH_CMP_INDUSTRY_501_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50013 name = TECH_CMP_INDUSTRY_501_3_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 50014 name = TECH_CMP_INDUSTRY_501_4_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 50015 name = TECH_CMP_INDUSTRY_501_5_NAME type = management difficulty = 8 }
+    required  = { 50000 5950 }
+    effects =
+    { command = { type = build_time which = multi_role when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = interceptor when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = strategic_bomber when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = tactical_bomber when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = naval_bomber when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = cas when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = transport_plane when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = flying_bomb when = on_upgrade value = -5 where = relative }
+      command = { type = build_time which = flying_rocket when = on_upgrade value = -5 where = relative }
+    }
+  }
+  # ìdéqåvéZã@áT
+  application =
+  { id        = 50020
+    name      = TECH_APP_INDUSTRY_502_NAME
+    desc      = TECH_APP_INDUSTRY_502_DESC
+    position  = { x = 172 y = 174 }
+    year      = 1945
+    component = { id = 50021 name = TECH_CMP_INDUSTRY_502_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50022 name = TECH_CMP_INDUSTRY_502_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50023 name = TECH_CMP_INDUSTRY_502_3_NAME type = mechanics difficulty = 8 }
+    component = { id = 50024 name = TECH_CMP_INDUSTRY_502_4_NAME type = electronics difficulty = 8 }
+    component = { id = 50025 name = TECH_CMP_INDUSTRY_502_5_NAME type = management difficulty = 8 }
+    required  = { 5600 7010 }
+    effects =
+    { command = { type = research_mod value = 5 }
+    }
+  }
+  # ìdéqåvéZã@áU
+  application =
+  { id        = 50030
+    name      = TECH_APP_INDUSTRY_503_NAME
+    desc      = TECH_APP_INDUSTRY_503_DESC
+    position  = { x = 172 y = 206 }
+    year      = 1973
+    component = { id = 50031 name = TECH_CMP_INDUSTRY_503_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50032 name = TECH_CMP_INDUSTRY_503_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50033 name = TECH_CMP_INDUSTRY_503_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50034 name = TECH_CMP_INDUSTRY_503_4_NAME type = electronics difficulty = 8 }
+    component = { id = 50035 name = TECH_CMP_INDUSTRY_503_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50020 5610 }
+    effects =
+    { command = { type = research_mod value = 5 }
+    }
+  }
+  # ìdéqåvéZã@áV
+  application =
+  { id        = 50040
+    name      = TECH_APP_INDUSTRY_504_NAME
+    desc      = TECH_APP_INDUSTRY_504_DESC
+    position  = { x = 172 y = 238 }
+    year      = 1982
+    component = { id = 50041 name = TECH_CMP_INDUSTRY_504_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50042 name = TECH_CMP_INDUSTRY_504_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50043 name = TECH_CMP_INDUSTRY_504_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50044 name = TECH_CMP_INDUSTRY_504_4_NAME type = electronics difficulty = 8 }
+    component = { id = 50045 name = TECH_CMP_INDUSTRY_504_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50030 5620 }
+    effects =
+    { command = { type = research_mod value = 5 }
+    }
+  }
+  # ìdéqåvéZã@áW
+  application =
+  { id        = 50050
+    name      = TECH_APP_INDUSTRY_505_NAME
+    desc      = TECH_APP_INDUSTRY_505_DESC
+    position  = { x = 172 y = 270 }
+    year      = 1990
+    component = { id = 50051 name = TECH_CMP_INDUSTRY_505_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50052 name = TECH_CMP_INDUSTRY_505_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50053 name = TECH_CMP_INDUSTRY_505_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50054 name = TECH_CMP_INDUSTRY_505_4_NAME type = electronics difficulty = 8 }
+    component = { id = 50055 name = TECH_CMP_INDUSTRY_505_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50040 5630 }
+    effects =
+    { command = { type = research_mod value = 5 }
+    }
+  }
+  # ìdéqåvéZã@áX
+  application =
+  { id        = 50060
+    name      = TECH_APP_INDUSTRY_506_NAME
+    desc      = TECH_APP_INDUSTRY_506_DESC
+    position  = { x = 172 y = 302 }
+    year      = 1998
+    component = { id = 50061 name = TECH_CMP_INDUSTRY_506_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50062 name = TECH_CMP_INDUSTRY_506_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50063 name = TECH_CMP_INDUSTRY_506_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50064 name = TECH_CMP_INDUSTRY_506_4_NAME type = electronics difficulty = 8 }
+    component = { id = 50065 name = TECH_CMP_INDUSTRY_506_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50050 5640 }
+    effects =
+    { command = { type = research_mod value = 5 }
+    }
+  }
+  # ìdéqêÌáT
+  application =
+  { id        = 50070
+    name      = TECH_APP_INDUSTRY_507_NAME
+    desc      = TECH_APP_INDUSTRY_507_DESC
+    position  = { x = 258 y = 174 }
+    year      = 1945
+    component = { id = 50071 name = TECH_CMP_INDUSTRY_507_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50072 name = TECH_CMP_INDUSTRY_507_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 50073 name = TECH_CMP_INDUSTRY_507_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50074 name = TECH_CMP_INDUSTRY_507_4_NAME type = training difficulty = 8 }
+    component = { id = 50075 name = TECH_CMP_INDUSTRY_507_5_NAME type = mechanics difficulty = 8 }
+    required  = { 50020 7010 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  # ìdéqêÌáU
+  application =
+  { id        = 50080
+    name      = TECH_APP_INDUSTRY_508_NAME
+    desc      = TECH_APP_INDUSTRY_508_DESC
+    position  = { x = 258 y = 190 }
+    year      = 1953
+    component = { id = 50081 name = TECH_CMP_INDUSTRY_508_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50082 name = TECH_CMP_INDUSTRY_508_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50083 name = TECH_CMP_INDUSTRY_508_3_NAME type = mechanics difficulty = 8 }
+    component = { id = 50084 name = TECH_CMP_INDUSTRY_508_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50085 name = TECH_CMP_INDUSTRY_508_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50070 }
+    effects =
+    { command = { type = intelligence which = us value = 25 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  # ìdéqêÌáV
+  application =
+  { id        = 50090
+    name      = TECH_APP_INDUSTRY_509_NAME
+    desc      = TECH_APP_INDUSTRY_509_DESC
+    position  = { x = 258 y = 206 }
+    year      = 1973
+    component = { id = 50091 name = TECH_CMP_INDUSTRY_509_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50092 name = TECH_CMP_INDUSTRY_509_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 50093 name = TECH_CMP_INDUSTRY_509_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50094 name = TECH_CMP_INDUSTRY_509_4_NAME type = training difficulty = 8 }
+    component = { id = 50095 name = TECH_CMP_INDUSTRY_509_5_NAME type = mechanics difficulty = 8 }
+    required  = { 50030 50080 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  # ìdéqêÌáW
+  application =
+  { id        = 50100
+    name      = TECH_APP_INDUSTRY_510_NAME
+    desc      = TECH_APP_INDUSTRY_510_DESC
+    position  = { x = 258 y = 222 }
+    year      = 1977
+    component = { id = 50101 name = TECH_CMP_INDUSTRY_510_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50102 name = TECH_CMP_INDUSTRY_510_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50103 name = TECH_CMP_INDUSTRY_510_3_NAME type = mechanics difficulty = 8 }
+    component = { id = 50104 name = TECH_CMP_INDUSTRY_510_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50105 name = TECH_CMP_INDUSTRY_510_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50090 }
+    effects =
+    { command = { type = intelligence which = us value = 25 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  # ìdéqêÌáX
+  application =
+  { id        = 50110
+    name      = TECH_APP_INDUSTRY_511_NAME
+    desc      = TECH_APP_INDUSTRY_511_DESC
+    position  = { x = 258 y = 238 }
+    year      = 1982
+    component = { id = 50111 name = TECH_CMP_INDUSTRY_511_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50112 name = TECH_CMP_INDUSTRY_511_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 50113 name = TECH_CMP_INDUSTRY_511_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50114 name = TECH_CMP_INDUSTRY_511_4_NAME type = training difficulty = 8 }
+    component = { id = 50115 name = TECH_CMP_INDUSTRY_511_5_NAME type = mechanics difficulty = 8 }
+    required  = { 50040 50100 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  # ìdéqêÌáY
+  application =
+  { id        = 50120
+    name      = TECH_APP_INDUSTRY_512_NAME
+    desc      = TECH_APP_INDUSTRY_512_DESC
+    position  = { x = 258 y = 254 }
+    year      = 1985
+    component = { id = 50121 name = TECH_CMP_INDUSTRY_512_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50122 name = TECH_CMP_INDUSTRY_512_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50123 name = TECH_CMP_INDUSTRY_512_3_NAME type = mechanics difficulty = 8 }
+    component = { id = 50124 name = TECH_CMP_INDUSTRY_512_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50125 name = TECH_CMP_INDUSTRY_512_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50110 }
+    effects =
+    { command = { type = intelligence which = us value = 25 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  # ìdéqêÌáZ
+  application =
+  { id        = 50130
+    name      = TECH_APP_INDUSTRY_513_NAME
+    desc      = TECH_APP_INDUSTRY_513_DESC
+    position  = { x = 258 y = 270 }
+    year      = 1991
+    component = { id = 50131 name = TECH_CMP_INDUSTRY_513_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50132 name = TECH_CMP_INDUSTRY_513_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 50133 name = TECH_CMP_INDUSTRY_513_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50134 name = TECH_CMP_INDUSTRY_513_4_NAME type = training difficulty = 8 }
+    component = { id = 50135 name = TECH_CMP_INDUSTRY_513_5_NAME type = mechanics difficulty = 8 }
+    required  = { 50050 50120 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  # ìdéqêÌá[
+  application =
+  { id        = 50140
+    name      = TECH_APP_INDUSTRY_514_NAME
+    desc      = TECH_APP_INDUSTRY_514_DESC
+    position  = { x = 258 y = 286 }
+    year      = 1995
+    component = { id = 50141 name = TECH_CMP_INDUSTRY_514_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50142 name = TECH_CMP_INDUSTRY_514_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50143 name = TECH_CMP_INDUSTRY_514_3_NAME type = mechanics difficulty = 8 }
+    component = { id = 50144 name = TECH_CMP_INDUSTRY_514_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50145 name = TECH_CMP_INDUSTRY_514_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50130 }
+    effects =
+    { command = { type = intelligence which = us value = 25 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  # ìdéqêÌá\
+  application =
+  { id        = 50150
+    name      = TECH_APP_INDUSTRY_515_NAME
+    desc      = TECH_APP_INDUSTRY_515_DESC
+    position  = { x = 258 y = 302 }
+    year      = 2001
+    component = { id = 50151 name = TECH_CMP_INDUSTRY_515_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50152 name = TECH_CMP_INDUSTRY_515_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 50153 name = TECH_CMP_INDUSTRY_515_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50154 name = TECH_CMP_INDUSTRY_515_4_NAME type = training difficulty = 8 }
+    component = { id = 50155 name = TECH_CMP_INDUSTRY_515_5_NAME type = mechanics difficulty = 8 }
+    required  = { 50060 50140 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  # ìdéqêÌá]
+  application =
+  { id        = 50160
+    name      = TECH_APP_INDUSTRY_516_NAME
+    desc      = TECH_APP_INDUSTRY_516_DESC
+    position  = { x = 258 y = 318 }
+    year      = 2004
+    component = { id = 50161 name = TECH_CMP_INDUSTRY_516_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50162 name = TECH_CMP_INDUSTRY_516_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50163 name = TECH_CMP_INDUSTRY_516_3_NAME type = mechanics difficulty = 8 }
+    component = { id = 50164 name = TECH_CMP_INDUSTRY_516_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50165 name = TECH_CMP_INDUSTRY_516_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50150 }
+    effects =
+    { command = { type = intelligence which = us value = 25 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  # ìdéqêÌá]áT
+  application =
+  { id        = 50170
+    name      = TECH_APP_INDUSTRY_517_NAME
+    desc      = TECH_APP_INDUSTRY_517_DESC
+    position  = { x = 258 y = 334 }
+    year      = 2010
+    component = { id = 50171 name = TECH_CMP_INDUSTRY_517_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50172 name = TECH_CMP_INDUSTRY_517_2_NAME type = mathematics difficulty = 8 }
+    component = { id = 50173 name = TECH_CMP_INDUSTRY_517_3_NAME type = mathematics difficulty = 8 }
+    component = { id = 50174 name = TECH_CMP_INDUSTRY_517_4_NAME type = training difficulty = 8 }
+    component = { id = 50175 name = TECH_CMP_INDUSTRY_517_5_NAME type = mechanics difficulty = 8 }
+    required  = { 50160 }
+    effects =
+    { command = { type = intelligence which = them value = -15 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = them value = -15 }
+    }
+  }
+  # ìdéqêÌá]áU
+  application =
+  { id        = 50180
+    name      = TECH_APP_INDUSTRY_518_NAME
+    desc      = TECH_APP_INDUSTRY_518_DESC
+    position  = { x = 258 y = 350 }
+    year      = 2021
+    component = { id = 50181 name = TECH_CMP_INDUSTRY_518_1_NAME type = mathematics difficulty = 8 }
+    component = { id = 50182 name = TECH_CMP_INDUSTRY_518_2_NAME type = electronics difficulty = 8 }
+    component = { id = 50183 name = TECH_CMP_INDUSTRY_518_3_NAME type = mechanics difficulty = 8 }
+    component = { id = 50184 name = TECH_CMP_INDUSTRY_518_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50185 name = TECH_CMP_INDUSTRY_518_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50170 }
+    effects =
+    { command = { type = intelligence which = us value = 25 }
+      command = { type = surprise which = naval value = 15 }
+      command = { type = surprise which = land value = 15 }
+      command = { type = surprise which = air value = 15 }
+      command = { type = army_detection which = us value = 15 }
+    }
+  }
+  # éëåπå¯ó¶óòópáT
+  application =
+  { id        = 50190
+    name      = TECH_APP_INDUSTRY_519_NAME
+    desc      = TECH_APP_INDUSTRY_519_DESC
+    position  = { x = 0 y = 408 }
+    year      = 1973
+    component = { id = 50191 name = TECH_CMP_INDUSTRY_519_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 50192 name = TECH_CMP_INDUSTRY_519_2_NAME type = management difficulty = 8 }
+    component = { id = 50193 name = TECH_CMP_INDUSTRY_519_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50194 name = TECH_CMP_INDUSTRY_519_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50195 name = TECH_CMP_INDUSTRY_519_5_NAME type = mathematics difficulty = 8 }
+    required  = { }
+    effects   = { }
+  }
+  # éëåπå¯ó¶óòópáU
+  application =
+  { id        = 50200
+    name      = TECH_APP_INDUSTRY_520_NAME
+    desc      = TECH_APP_INDUSTRY_520_DESC
+    position  = { x = 0 y = 424 }
+    year      = 1990
+    component = { id = 50201 name = TECH_CMP_INDUSTRY_520_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 50202 name = TECH_CMP_INDUSTRY_520_2_NAME type = management difficulty = 8 }
+    component = { id = 50203 name = TECH_CMP_INDUSTRY_520_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50204 name = TECH_CMP_INDUSTRY_520_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50205 name = TECH_CMP_INDUSTRY_520_5_NAME type = mathematics difficulty = 8 }
+    required  = { 50190 }
+    effects   = { }
+  }
+  # ÉGÉlÉãÉMÅ[áT
+  application =
+  { id        = 50210
+    name      = TECH_APP_INDUSTRY_521_NAME
+    desc      = TECH_APP_INDUSTRY_521_DESC
+    position  = { x = 86 y = 408 }
+    year      = 1973
+    component = { id = 50211 name = TECH_CMP_INDUSTRY_521_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 50212 name = TECH_CMP_INDUSTRY_521_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 50213 name = TECH_CMP_INDUSTRY_521_3_NAME type = management difficulty = 8 }
+    component = { id = 50214 name = TECH_CMP_INDUSTRY_521_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50215 name = TECH_CMP_INDUSTRY_521_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 50190 }
+    effects   = { }
+  }
+  # ÉGÉlÉãÉMÅ[áU
+  application =
+  { id        = 50220
+    name      = TECH_APP_INDUSTRY_522_NAME
+    desc      = TECH_APP_INDUSTRY_522_DESC
+    position  = { x = 86 y = 424 }
+    year      = 1990
+    component = { id = 50221 name = TECH_CMP_INDUSTRY_522_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 50222 name = TECH_CMP_INDUSTRY_522_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 50223 name = TECH_CMP_INDUSTRY_522_3_NAME type = management difficulty = 8 }
+    component = { id = 50224 name = TECH_CMP_INDUSTRY_522_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50225 name = TECH_CMP_INDUSTRY_522_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 50200 50210 }
+    effects   = { }
+  }
+  # ç|ìSáT
+  application =
+  { id        = 50230
+    name      = TECH_APP_INDUSTRY_523_NAME
+    desc      = TECH_APP_INDUSTRY_523_DESC
+    position  = { x = 86 y = 451 }
+    year      = 1973
+    component = { id = 50231 name = TECH_CMP_INDUSTRY_523_1_NAME type = mechanics difficulty = 8 }
+    component = { id = 50232 name = TECH_CMP_INDUSTRY_523_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 50233 name = TECH_CMP_INDUSTRY_523_3_NAME type = management difficulty = 8 }
+    component = { id = 50234 name = TECH_CMP_INDUSTRY_523_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50235 name = TECH_CMP_INDUSTRY_523_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 50190 }
+    effects   = { }
+  }
+  # ç|ìSáU
+  application =
+  { id        = 50240
+    name      = TECH_APP_INDUSTRY_524_NAME
+    desc      = TECH_APP_INDUSTRY_524_DESC
+    position  = { x = 86 y = 467 }
+    year      = 1990
+    component = { id = 50241 name = TECH_CMP_INDUSTRY_524_1_NAME type = mechanics difficulty = 8 }
+    component = { id = 50242 name = TECH_CMP_INDUSTRY_524_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 50243 name = TECH_CMP_INDUSTRY_524_3_NAME type = management difficulty = 8 }
+    component = { id = 50244 name = TECH_CMP_INDUSTRY_524_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50245 name = TECH_CMP_INDUSTRY_524_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 50200 50230 }
+    effects   = { }
+  }
+  # äÛè≠éëåπáT
+  application =
+  { id        = 50250
+    name      = TECH_APP_INDUSTRY_525_NAME
+    desc      = TECH_APP_INDUSTRY_525_DESC
+    position  = { x = 172 y = 408 }
+    year      = 1973
+    component = { id = 50251 name = TECH_CMP_INDUSTRY_525_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 50252 name = TECH_CMP_INDUSTRY_525_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 50253 name = TECH_CMP_INDUSTRY_525_3_NAME type = management difficulty = 8 }
+    component = { id = 50254 name = TECH_CMP_INDUSTRY_525_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50255 name = TECH_CMP_INDUSTRY_525_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 50190 }
+    effects   = { }
+  }
+  # äÛè≠éëåπáU
+  application =
+  { id        = 50260
+    name      = TECH_APP_INDUSTRY_526_NAME
+    desc      = TECH_APP_INDUSTRY_526_DESC
+    position  = { x = 172 y = 424 }
+    year      = 1990
+    component = { id = 50261 name = TECH_CMP_INDUSTRY_526_1_NAME type = chemistry difficulty = 8 }
+    component = { id = 50262 name = TECH_CMP_INDUSTRY_526_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 50263 name = TECH_CMP_INDUSTRY_526_3_NAME type = management difficulty = 8 }
+    component = { id = 50264 name = TECH_CMP_INDUSTRY_526_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50265 name = TECH_CMP_INDUSTRY_526_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 50200 50250 }
+    effects   = { }
+  }
+  # êŒñ˚áT
+  application =
+  { id        = 50270
+    name      = TECH_APP_INDUSTRY_527_NAME
+    desc      = TECH_APP_INDUSTRY_527_DESC
+    position  = { x = 172 y = 451 }
+    year      = 1973
+    component = { id = 50271 name = TECH_CMP_INDUSTRY_527_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 50272 name = TECH_CMP_INDUSTRY_527_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 50273 name = TECH_CMP_INDUSTRY_527_3_NAME type = management difficulty = 8 }
+    component = { id = 50274 name = TECH_CMP_INDUSTRY_527_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50275 name = TECH_CMP_INDUSTRY_527_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 50190 }
+    effects   = { }
+  }
+  # êŒñ˚áU
+  application =
+  { id        = 50280
+    name      = TECH_APP_INDUSTRY_528_NAME
+    desc      = TECH_APP_INDUSTRY_528_DESC
+    position  = { x = 172 y = 467 }
+    year      = 1990
+    component = { id = 50281 name = TECH_CMP_INDUSTRY_528_1_NAME type = industrial_engineering difficulty = 8 }
+    component = { id = 50282 name = TECH_CMP_INDUSTRY_528_2_NAME type = chemistry difficulty = 8 }
+    component = { id = 50283 name = TECH_CMP_INDUSTRY_528_3_NAME type = management difficulty = 8 }
+    component = { id = 50284 name = TECH_CMP_INDUSTRY_528_4_NAME type = mathematics difficulty = 8 }
+    component = { id = 50285 name = TECH_CMP_INDUSTRY_528_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 50200 50270 }
+    effects   = { }
+  }
+  # ÉçÉPÉbÉgçHäwáTå^
+  application =
+  { id        = 50290
+    name      = TECH_APP_INDUSTRY_529_NAME
+    desc      = TECH_APP_INDUSTRY_529_DESC
+    position  = { x = 344 y = 327 }
+    year      = 1945
+    component = { id = 50291 name = TECH_CMP_INDUSTRY_529_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50292 name = TECH_CMP_INDUSTRY_529_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50293 name = TECH_CMP_INDUSTRY_529_3_NAME type = electronics difficulty = 8 }
+    component = { id = 50294 name = TECH_CMP_INDUSTRY_529_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50295 name = TECH_CMP_INDUSTRY_529_5_NAME type = management difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { }
+    }
+  }
+  # ÉçÉPÉbÉgçHäwáU
+  application =
+  { id        = 50300
+    name      = TECH_APP_INDUSTRY_550_NAME
+    desc      = TECH_APP_INDUSTRY_550_DESC
+    position  = { x = 344 y = 343 }
+    year      = 1970
+    component = { id = 50501 name = TECH_CMP_INDUSTRY_550_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50502 name = TECH_CMP_INDUSTRY_550_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50503 name = TECH_CMP_INDUSTRY_550_3_NAME type = electronics difficulty = 8 }
+    component = { id = 50504 name = TECH_CMP_INDUSTRY_550_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50505 name = TECH_CMP_INDUSTRY_550_5_NAME type = management difficulty = 8 }
+    required  = { 50290 }
+    effects =
+    { command = { }
+    }
+  }
+  # ÉçÉPÉbÉgçHäwáV
+  application =
+  { id        = 50310
+    name      = TECH_APP_INDUSTRY_531_NAME
+    desc      = TECH_APP_INDUSTRY_531_DESC
+    position  = { x = 344 y = 359 }
+    year      = 1980
+    component = { id = 50311 name = TECH_CMP_INDUSTRY_531_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50312 name = TECH_CMP_INDUSTRY_531_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50313 name = TECH_CMP_INDUSTRY_531_3_NAME type = electronics difficulty = 8 }
+    component = { id = 50314 name = TECH_CMP_INDUSTRY_531_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50315 name = TECH_CMP_INDUSTRY_531_5_NAME type = management difficulty = 8 }
+    required  = { 50300 }
+    effects =
+    { command = { type = allow_building which = rocket_test }
+    }
+  }
+  # ÉçÉPÉbÉgçHäwáW
+  application =
+  { id        = 50320
+    name      = TECH_APP_INDUSTRY_532_NAME
+    desc      = TECH_APP_INDUSTRY_532_DESC
+    position  = { x = 344 y = 375 }
+    year      = 1988
+    component = { id = 50321 name = TECH_CMP_INDUSTRY_532_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50322 name = TECH_CMP_INDUSTRY_532_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50323 name = TECH_CMP_INDUSTRY_532_3_NAME type = electronics difficulty = 8 }
+    component = { id = 50324 name = TECH_CMP_INDUSTRY_532_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50325 name = TECH_CMP_INDUSTRY_532_5_NAME type = management difficulty = 8 }
+    required  = { 50310 }
+    effects =
+    { command = { }
+    }
+  }
+  # ÉçÉPÉbÉgçHäwáX
+  application =
+  { id        = 50330
+    name      = TECH_APP_INDUSTRY_533_NAME
+    desc      = TECH_APP_INDUSTRY_533_DESC
+    position  = { x = 344 y = 391 }
+    year      = 1996
+    component = { id = 50331 name = TECH_CMP_INDUSTRY_533_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50332 name = TECH_CMP_INDUSTRY_533_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50333 name = TECH_CMP_INDUSTRY_533_3_NAME type = electronics difficulty = 8 }
+    component = { id = 50334 name = TECH_CMP_INDUSTRY_533_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50335 name = TECH_CMP_INDUSTRY_533_5_NAME type = management difficulty = 8 }
+    required  = { 50320 }
+    effects =
+    { command = { }
+    }
+  }
+  # ÉçÉPÉbÉgçHäwáY
+  application =
+  { id        = 50340
+    name      = TECH_APP_INDUSTRY_534_NAME
+    desc      = TECH_APP_INDUSTRY_534_DESC
+    position  = { x = 344 y = 407 }
+    year      = 2001
+    component = { id = 50341 name = TECH_CMP_INDUSTRY_534_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50342 name = TECH_CMP_INDUSTRY_534_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50343 name = TECH_CMP_INDUSTRY_534_3_NAME type = electronics difficulty = 8 }
+    component = { id = 50344 name = TECH_CMP_INDUSTRY_534_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50345 name = TECH_CMP_INDUSTRY_534_5_NAME type = management difficulty = 8 }
+    required  = { 50330 }
+    effects =
+    { command = { }
+    }
+  }
+  # ÉçÉPÉbÉgçHäwáZ
+  application =
+  { id        = 50350
+    name      = TECH_APP_INDUSTRY_535_NAME
+    desc      = TECH_APP_INDUSTRY_535_DESC
+    position  = { x = 344 y = 423 }
+    year      = 2006
+    component = { id = 50351 name = TECH_CMP_INDUSTRY_535_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50352 name = TECH_CMP_INDUSTRY_535_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50353 name = TECH_CMP_INDUSTRY_535_3_NAME type = electronics difficulty = 8 }
+    component = { id = 50354 name = TECH_CMP_INDUSTRY_535_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50355 name = TECH_CMP_INDUSTRY_535_5_NAME type = management difficulty = 8 }
+    required  = { 50340 }
+    effects =
+    { command = { }
+    }
+  }
+  # ÉçÉPÉbÉgçHäwá[
+  application =
+  { id        = 50360
+    name      = TECH_APP_INDUSTRY_536_NAME
+    desc      = TECH_APP_INDUSTRY_536_DESC
+    position  = { x = 344 y = 439 }
+    year      = 2010
+    component = { id = 50361 name = TECH_CMP_INDUSTRY_536_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 50362 name = TECH_CMP_INDUSTRY_536_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 50363 name = TECH_CMP_INDUSTRY_536_3_NAME type = electronics difficulty = 8 }
+    component = { id = 50364 name = TECH_CMP_INDUSTRY_536_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 50365 name = TECH_CMP_INDUSTRY_536_5_NAME type = management difficulty = 8 }
+    required  = { 50350 }
+    effects =
+    { command = { }
+    }
+  }
+}

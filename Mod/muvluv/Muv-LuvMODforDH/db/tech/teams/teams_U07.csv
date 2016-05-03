@@ -1,0 +1,23 @@
+U07;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+99300;チェルノモルスキー造船所;T_UKR_Chernomorsky_Shipyard;6;1930;2110;naval_artillery;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99301;ハリコフ航空研究所;T_UKR_Kharkov_Aviation_Institute;4;1930;2110;aircraft_testing;bomber_tactics;fighter_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99302;カラコフ機関車工場;T_UKR_Kharkov_Locomotive_Factory;8;1930;2110;artillery;chemistry;mechanics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+99303;キエフ工廠;T_UKR_Kiev_Arsenal;5;1930;2110;artillery;general_equipment;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99304;キエフ大学;T_UKR_Kiev_University;6;1930;2110;chemistry;management;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99305;モトール・シチ社;T_UKR_Motor_Sich;6;1930;2110;electronics;general_equipment;mechanics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99306;ニコラーエフ造船所;T_UKR_Nikolaev_Admiralty_Shipyard;4;1930;2110;electronics;naval_artillery;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99307;ナヴァポラツク工業会社;T_BLR_NavapolatskIndustry;5;1930;2110;mechanics;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99308;MOLAJ社;T1606;6;1930;2110;chemistry;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99309;マンフレッド・ヴァイス社;T1604;5;1930;2110;aeronautics;electronics;industrial_engineering;management;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99310;MAVAG社;T1602;6;1930;2110;aeronautics;artillery;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99311;セヴァストポリ海軍研究所;T_UKR_Sevastopol_Naval_Institute;5;1930;2110;decentralized_execution;naval_training;seamanship;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99312;ツポレフ社;T_UKR_Tupolev;6;1930;2110;aeronautics;chemistry;electronics;rocketry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99313;東欧航空宇宙軍;T_UKR_Ukrainian_Air_Force;6;1930;2110;centralized_execution;combined_arms_focus;decentralized_execution;fighter_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99314;東欧海軍;T_UKR_Ukrainian_Naval_Force;6;1930;2110;centralized_execution;naval_training;seamanship;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99315;東欧陸軍;T2915;7;1930;2110;centralized_execution;combined_arms_focus;individual_courage;infantry_focus;large_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99316;カルボシン社;T2901;5;1930;2110;chemistry;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99317;IAR社;T2903;7;1930;2110;aeronautics;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99318;マン社;T2907;7;1930;2110;electronics;industrial_engineering;management;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99319;マラクサ製造会社;T2904;6;1930;2110;artillery;mechanics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99320;ベラルーシ国立大学;T9700;6;1930;2110;chemistry;management;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+99321;シュコダ社;T1105;8;1970;1970;mechanics;industrial_engineering;management;technical_efficiency;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

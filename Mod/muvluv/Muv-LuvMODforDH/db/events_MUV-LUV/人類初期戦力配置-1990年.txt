@@ -1,0 +1,1982 @@
+##############################################################
+##
+## 1990年初期戦力配備イベント(120001~130000)
+##
+##############################################################
+##
+## ## 史実世界	
+## # 亜細亜	
+## id = 120001	初期戦力配備(日本帝国)
+## id = 120002	初期戦力配備(ソ連)
+## id = 120003	初期戦力配備(高麗連邦)
+## id = 120004	初期戦力配備(統一中華)
+## id = 120005	初期戦力配備(モンゴル)
+## id = 120006	初期戦力配備(フィリピン)
+## id = 120007	初期戦力配備(マレーシア)
+## id = 120008	初期戦力配備(シンガポール)
+## id = 120009	初期戦力配備(ブルネイ)
+## id = 120010	初期戦力配備(インドネシア)
+## id = 120011	初期戦力配備(ベトナム)
+## id = 120012	初期戦力配備(ラオス)
+## id = 120013	初期戦力配備(カンボジア)
+## id = 120014	初期戦力配備(タイ)
+## id = 120015	初期戦力配備(ビルマ)
+## id = 120016	初期戦力配備(インド)
+## id = 120017	初期戦力配備(パキスタン)
+## id = 120018	初期戦力配備(オーストラリア)
+## id = 120019	初期戦力配備(ニュージーランド)
+##	
+## # 中東	
+## id = 120020	初期戦力配備(中東連合)
+##	
+## # ヨーロッパ	
+## id = 120021	初期戦力配備(欧州連合)
+##	
+## # アフリカ	
+## id = 120022	初期戦力配備(アフリカ連合)
+## id = 120023	初期戦力配備(南アフリカ)
+##	
+## # 北アメリカ	
+## id = 120024	初期戦力配備(アメリカ)
+## id = 120025	初期戦力配備(カナダ)
+## id = 120026	初期戦力配備(メキシコ)
+##	
+## # 中央アメリカ	
+## id = 120027	初期戦力配備(グアテマラ)
+## id = 120028	初期戦力配備(ホンジュラス)
+## id = 120029	初期戦力配備(エルサルバトル)
+## id = 120030	初期戦力配備(ニカラグア)
+## id = 120031	初期戦力配備(コスタリカ)
+## id = 120032	初期戦力配備(パナマ)
+## id = 120033	初期戦力配備(キューバ)
+## id = 120034	初期戦力配備(ハイチ)
+## id = 120035	初期戦力配備(ドミニカ)
+##	
+## # 南アメリカ	
+## id = 120036	初期戦力配備(ブラジル)
+## id = 120037	初期戦力配備(アルゼンチン)
+## id = 120038	初期戦力配備(チリ)
+## id = 120039	初期戦力配備(ベネズエラ)
+## id = 120040	初期戦力配備(コロンビア)
+## id = 120041	初期戦力配備(エクアドル)
+## id = 120042	初期戦力配備(ペルー)
+## id = 120043	初期戦力配備(ボリビア)
+## id = 120044	初期戦力配備(パラグアイ)
+## id = 120045	初期戦力配備(ウルグアイ)
+##	
+## # その他	
+## id = 120046	初期戦力配備(国際連合)
+##	
+## ## 架空世界	
+## # アジア	
+## id = 120047	初期戦力配備(日本帝国)
+## id = 120048	初期戦力配備(ソ連)
+## id = 120049	初期戦力配備(高麗連邦)
+## id = 120050	初期戦力配備(統一中華)
+## id = 120051	初期戦力配備(モンゴル)
+## id = 120052	初期戦力配備(フィリピン)
+## id = 120053	初期戦力配備(マレーシア)
+## id = 120054	初期戦力配備(シンガポール)
+## id = 120055	初期戦力配備(ブルネイ)
+## id = 120056	初期戦力配備(インドネシア)
+## id = 120057	初期戦力配備(ベトナム)
+## id = 120058	初期戦力配備(ラオス)
+## id = 120059	初期戦力配備(カンボジア)
+## id = 120060	初期戦力配備(タイ)
+## id = 120061	初期戦力配備(ビルマ)
+## id = 120062	初期戦力配備(インド)
+## id = 120063	初期戦力配備(パキスタン)
+## id = 120064	初期戦力配備(オーストラリア)
+## id = 120065	初期戦力配備(ニュージーランド)
+##	
+## # 中東	
+## id = 120066	初期戦力配備(中東連合)
+##	
+## # ヨーロッパ	
+## id = 120067	初期戦力配備(欧州連合)
+##	
+## # アフリカ	
+## id = 120068	初期戦力配備(アフリカ連合)
+## id = 120069	初期戦力配備(南アフリカ)
+##	
+## # 北アメリカ	
+## id = 120070	初期戦力配備(アメリカ)
+## id = 120071	初期戦力配備(カナダ)
+## id = 120072	初期戦力配備(メキシコ)
+##	
+## # 中央アメリカ	
+## id = 120073	初期戦力配備(グアテマラ)
+## id = 120074	初期戦力配備(ホンジュラス)
+## id = 120075	初期戦力配備(エルサルバトル)
+## id = 120076	初期戦力配備(ニカラグア)
+## id = 120077	初期戦力配備(コスタリカ)
+## id = 120078	初期戦力配備(パナマ)
+## id = 120079	初期戦力配備(キューバ)
+## id = 120080	初期戦力配備(ハイチ)
+## id = 120081	初期戦力配備(ドミニカ)
+##	
+## # 南アメリカ	
+## id = 120082	初期戦力配備(ブラジル)
+## id = 120083	初期戦力配備(アルゼンチン)
+## id = 120084	初期戦力配備(チリ)
+## id = 120085	初期戦力配備(ベネズエラ)
+## id = 120086	初期戦力配備(コロンビア)
+## id = 120087	初期戦力配備(エクアドル)
+## id = 120088	初期戦力配備(ペルー)
+## id = 120089	初期戦力配備(ボリビア)
+## id = 120090	初期戦力配備(パラグアイ)
+## id = 120091	初期戦力配備(ウルグアイ)
+##	
+## # その他	
+## id = 120092	初期戦力配備(国際連合)
+##	
+## # 主要国航空兵器配備_史実世界	
+## id = 120093	初期戦力配備(日本帝国)
+## id = 120094	初期戦力配備(ソ連)
+## id = 120095	初期戦力配備(統一中華)
+## id = 120096	初期戦力配備(インドネシア)
+## id = 120097	初期戦力配備(オーストラリア)
+## id = 120098	初期戦力配備(中東連合)
+## id = 120099	初期戦力配備(欧州連合)
+## id = 120100	初期戦力配備(アフリカ連合)
+## id = 120101	初期戦力配備(アメリカ)
+## id = 120102	初期戦力配備(国際連合)
+##
+##############################################################
+
+event = {
+	id = 120093
+	random = no
+	country = JAP
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 1
+	deathdate = { day = 3 month = 0 year = 1990 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_corps which = "南樺太対艦戦術砲兵部隊" value = Air where = 1176 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "南樺太戦略砲兵部隊" value = Air where = 1176 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps which = "千島戦略砲兵部隊" value = Air where = 1177 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps which = "千島対艦戦術砲兵部隊" value = Air where = 1177 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "北海道対艦戦術砲兵部隊" value = Air where = 1179 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "北海道戦略砲兵部隊" value = Air where = 1179 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps which = "宮城対艦戦術砲兵部隊" value = Air where = 1183 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "新潟対艦戦術砲兵部隊" value = Air where = 1184 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "佐渡島対艦戦術砲兵部隊" value = Air where = 1185 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "佐渡島戦略砲兵部隊" value = Air where = 1185 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps which = "東京対地戦術特務砲兵部隊" value = Air where = 1192 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps which = "東京対艦戦術砲兵部隊" value = Air where = 1192 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "神奈川対艦戦術砲兵部隊" value = Air where = 1193 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "硫黄島戦略砲兵部隊" value = Air where = 1599 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps which = "硫黄島対艦戦術砲兵部隊" value = Air where = 1599 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "京都対地戦術特務砲兵部隊" value = Air where = 2615 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps which = "京都対艦戦術砲兵部隊" value = Air where = 2615 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "大阪対艦戦術砲兵部隊" value = Air where = 2618 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "鳥取対艦戦術砲兵部隊" value = Air where = 2620 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "広島対地戦術特務砲兵部隊" value = Air where = 2623 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps which = "広島対艦戦術砲兵部隊" value = Air where = 2623 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "広島戦略砲兵部隊" value = Air where = 2623 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps which = "長崎対艦戦術砲兵部隊" value = Air where = 2632 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "鹿児島対艦戦術砲兵部隊" value = Air where = 2635 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "沖縄戦略砲兵部隊" value = Air where = 2637 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps which = "沖縄対艦戦術砲兵部隊" value = Air where = 2637 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps which = "南樺太対地戦術砲兵部隊" value = Air where = 1176 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "北海道対地戦術砲兵部隊" value = Air where = 1179 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "秋田対地戦術砲兵部隊" value = Air where = 1180 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "宮城対地戦術砲兵部隊" value = Air where = 1183 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "新潟対地戦術砲兵部隊" value = Air where = 1184 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "東京対地戦術砲兵部隊" value = Air where = 1192 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "神奈川対地戦術砲兵部隊" value = Air where = 1193 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "岐阜対地戦術砲兵部隊" value = Air where = 2609 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "京都対地戦術砲兵部隊" value = Air where = 2615 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "大阪対地戦術砲兵部隊" value = Air where = 2618 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "鳥取対地戦術砲兵部隊" value = Air where = 2620 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "広島対地戦術砲兵部隊" value = Air where = 2623 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "高知対地戦術砲兵部隊" value = Air where = 2628 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "大分対地戦術砲兵部隊" value = Air where = 2630 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "長崎対地戦術砲兵部隊" value = Air where = 2632 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps which = "鹿児島対地戦術砲兵部隊" value = Air where = 2635 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+	}
+}
+
+event = {
+	id = 120094
+	random = no
+	country = SOV
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+                # 戦術核ミサイル群 # 20
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+                # AL弾 # 40
+		command = { type = add_corps value = Air where = 1525 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 2641 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1172 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1523 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1170 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1372 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1167 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+                # 戦略ミサイル群 # 40
+		command = { type = add_corps value = Air where = 1525 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 2641 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 2641 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1172 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1172 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1523 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1170 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1372 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1527 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1167 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+                # 地対艦ミサイル群
+		command = { type = add_corps value = Air where = 1523 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 1372 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 1172 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 908 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 1170 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+	}
+}
+
+event = {
+	id = 120095
+	random = no
+	country = U05
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+                # 戦術核ミサイル群 # 20
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+                # AL弾 # 40
+		command = { type = add_corps value = Air where = 1275 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1321 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1315 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+                # 戦略ミサイル群 # 40
+		command = { type = add_corps value = Air where = 1275 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1360 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1307 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1267 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1442 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1379 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1315 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1321 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1323 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1877 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+                # 地対艦ミサイル群 # 32
+		command = { type = add_corps value = Air where = 1321 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1315 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1247 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1237 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 2529 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1204 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1202 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 2638 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1414 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1414 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1414 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1522 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1522 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1522 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1525 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1525 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1525 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1527 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1366 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1372 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1167 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1172 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1523 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1170 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 908 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 2641 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1418 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1418 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+	}
+}
+
+event = {
+	id = 120096
+	random = no
+	country = INO
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+                # 戦略ミサイル群 # 12
+		command = { type = add_corps value = Air where = 1300 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1613 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+                # 地対艦ミサイル群 # 16
+		command = { type = add_corps value = Air where = 1613 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1649 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1656 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1661 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+                # AL弾 # 40
+		command = { type = add_corps value = Air where = 1300 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1613 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1649 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1656 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+	}
+}
+
+event = {
+	id = 120097
+	random = no
+	country = AST
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+                # 戦略ミサイル群 # 12
+		command = { type = add_corps value = Air where = 1666 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1670 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1711 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1703 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+                # 地対艦ミサイル群 # 16
+		command = { type = add_corps value = Air where = 1711 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1703 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1722 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1723 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1730 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1670 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1677 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1666 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+                # AL弾 # 40
+		command = { type = add_corps value = Air where = 1666 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1711 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+                # 地対地ミサイル群  # 32
+		command = { type = add_corps value = Air where = 1711 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1703 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1722 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1723 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1730 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1670 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1677 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1666 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+	}
+}
+
+event = {
+	id = 120098
+	random = no
+	country = U03
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+                # 戦略ミサイル群 # 12
+		command = { type = add_corps value = Air where = 1906 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1819 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1805 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+                # 地対艦ミサイル群 # 16
+		command = { type = add_corps value = Air where = 404 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1812 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1906 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1804 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+                # AL弾 # 40
+		command = { type = add_corps value = Air where = 1906 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1805 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+                # 地対地ミサイル群  # 32
+		command = { type = add_corps value = Air where = 404 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1803 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1805 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1906 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 2460 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1819 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 1809 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 406 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+	}
+}
+
+event = {
+	id = 120099
+	random = no
+	country = U02
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+                # 戦術核ミサイル群 # 20
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+                # AL弾 # 40
+		command = { type = add_corps value = Air where = 534 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 444 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 957 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1720 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 195 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 294 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 105 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+                # 戦略ミサイル群 # 40
+		command = { type = add_corps value = Air where = 534 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 444 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 957 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1720 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 195 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 294 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 129 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 129 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 105 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 105 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 800 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 12 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 11 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 866 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+                # 地対艦ミサイル群
+		command = { type = add_corps value = Air where = 534 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 396 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 957 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 1720 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 195 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 294 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 124 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 129 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 25 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 800 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 1 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 21 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 11 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 1166 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 5 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 866 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+               # 地対地ミサイル群  # 80
+		command = { type = add_corps value = Air where = 534 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 525 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 444 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 957 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1720 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 195 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 294 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 133 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 133 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 127 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 127 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 108 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 97 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 23 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 21 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 20 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 17 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 12 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 29 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+	}
+}
+
+event = {
+	id = 120100
+	random = no
+	country = U01
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+                # AL弾 # 40
+		command = { type = add_corps value = Air where = 1137 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 907 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 950 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+                # 戦略ミサイル群 # 40
+		command = { type = add_corps value = Air where = 1137 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1066 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 914 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 907 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 924 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 950 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 939 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+                # 地対艦ミサイル群 # 32
+		command = { type = add_corps value = Air where = 1137 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1037 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1061 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 903 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 914 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 939 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 960 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 988 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1008 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_corps value = Air where = 1096 }		
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+		command = { type = add_division value = flying_bomb when = 12 }
+               # 地対地ミサイル群  # 80
+		command = { type = add_corps value = Air where = 950 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 939 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 907 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 914 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 920 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 903 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 903 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 903 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 903 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 903 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 914 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 914 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 920 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_corps value = Air where = 920 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+		command = { type = add_division value = flying_bomb when = 3 }
+	}
+}
+
+event = {
+	id = 120101
+	random = no
+	country = USA
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+                # 戦術核ミサイル群 # 20
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+                # 地対艦ミサイル群
+		command = { type = add_corps value = Air where = 600 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 606 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 644 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 651 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 716 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 765 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 783 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 549 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 663 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+                # 戦略ミサイル群 # 40
+		command = { type = add_corps value = Air where = 549 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 707 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 689 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 793 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 725 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 670 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 614 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 790 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 683 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+                # AL弾 # 40
+		command = { type = add_corps value = Air where = 781 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1863 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 127 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 12 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+                # 地対地ミサイル群 # 80
+		command = { type = add_corps value = Air where = 549 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 707 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 689 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 793 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 725 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 670 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 614 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 790 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 683 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 781 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1863 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 127 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 12 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+	}
+}
+
+event = {
+	id = 120102
+	random = no
+	country = U06
+	trigger = {
+			ai = no
+	}
+	name = "初期戦力配備"
+	desc = "EVT_1_DESC"
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "配置開始"
+		## 航空戦力
+                # 戦術核ミサイル群 # 20
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+		command = { type = add_division value = flying_bomb when = 31 }
+                # 地対艦ミサイル群
+		command = { type = add_corps value = Air where = 602 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 2623 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 545 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 396 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 1720 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_corps value = Air where = 21 }		
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+		command = { type = add_division value = flying_bomb when = 13 }
+                # 戦略ミサイル群 # 40
+		command = { type = add_corps value = Air where = 602 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 2661 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1803 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 545 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 1720 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 21 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 127 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_corps value = Air where = 133 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+		command = { type = add_division value = flying_rocket when = 2 }
+                # AL弾 # 40
+		command = { type = add_corps value = Air where = 602 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 2661 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1803 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 903 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 545 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 1720 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_corps value = Air where = 133 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+		command = { type = add_division value = flying_bomb when = 20 }
+                # 戦略ミサイル群 # 40
+		command = { type = add_corps value = Air where = 602 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 2661 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1803 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 545 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1720 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 21 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 127 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 133 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 602 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 2661 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1803 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 903 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 545 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 1720 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_corps value = Air where = 133 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+		command = { type = add_division value = flying_bomb when = 4 }
+	}
+}

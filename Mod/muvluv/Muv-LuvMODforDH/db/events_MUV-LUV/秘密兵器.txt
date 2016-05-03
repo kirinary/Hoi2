@@ -1,0 +1,571 @@
+#########################################################################
+#
+#	秘密兵器開発可能化イベント(1201~1300)
+#
+#########################################################################
+## 
+## id = 8000	人工衛星
+## id = 8001	イージスシステム
+## id = 8002	電磁投射砲
+## id = 8003	荷電粒子砲
+## id = 8004	G元素解析
+## id = 8005	G弾運用
+## id = 8006	再突入型駆逐艦
+## id = 8007	戦略航空軌道要塞
+## id = 8008	戦略合神機
+## id = 8009	核兵器
+## id = 8010	スーパーコンピューター
+## id = 8011	戦略ミサイル
+## id = 8012	XM関連
+## id = 8013	無人兵器用AI
+## id = 8014	BETA
+## id = 8015	人類
+## id = 8016	電磁投射砲(戦術機＆艦艇用)
+## id = 8017	
+## id = 8018	
+## id = 8019	
+## id = 8020	
+## id = 8021	
+## id = 8022	
+## id = 8023	
+## id = 8024	
+## id = 8025	
+## id = 8026	
+## id = 8027	
+## id = 8028	
+## id = 8029	
+## id = 8030	
+##
+#########################################################################
+
+event = {
+	id = 8000
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 50020 # 電子計算機Ⅰ
+                technology = 50290 # ロケット工学Ⅰ
+                technology = 5690 # 航空宇宙工学Ⅱ
+                technology = 5600 # 電子工学Ⅰ
+		NOT = {
+			is_tech_active = 7030
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8000_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7030 }# 人工衛星打ち上げ実験
+		command = {  type = activate which = 7040 }# 軍事通信衛星打ち上げ
+                command = {  type = activate which = 7050 }# 軍事偵察衛星打ち上げ
+                command = {  type = activate which = 7060 }# 海洋監視衛星打ち上げ
+                command = {  type = activate which = 7070 }# 武装衛星打ち上げ
+	}
+}
+
+event = {
+	id = 8001
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 5280 # レーダー技術Ⅳ
+                technology = 5630 # 電子工学Ⅳ
+		technology = 50040 # 電子計算機Ⅲ
+		NOT = {
+			is_tech_active = 7080
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8001_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7080 }# イージスシステムⅠ
+		command = {  type = activate which = 7090 }# イージスシステムⅡ
+                command = {  type = activate which = 7100 }# イージスシステムⅢ
+	}
+}
+
+event = {
+	id = 8002
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 5580 # 量子電磁力学Ⅶ
+		technology = 7170 # グレイナイン
+		NOT = {
+			is_tech_active = 7110
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8002_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7110 }# 電磁投射技術兵器転用Ⅰ
+		command = {  type = activate which = 7120 }# 電磁投射技術兵器転用Ⅱ
+	}
+}
+
+event = {
+	id = 8003
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 5580 # 量子電磁力学Ⅶ
+		technology = 7160 # グレイシックス
+		NOT = {
+			is_tech_active = 7130
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8003_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+                command = {  type = activate which = 7130 }# 荷電粒子技術兵器転用Ⅰ
+                command = {  type = activate which = 7140 }# 荷電粒子技術兵器転用Ⅱ
+	}
+}
+
+event = {
+	id = 8004
+	random = no
+	invention = yes
+
+	trigger = {
+		technology = 50300 # ロケット工学Ⅱ
+                technology = 50040 # 電子工学Ⅲ
+		technology = 5810 # 原子核物理学Ⅵ
+                technology = 5540 # 量子電磁力学Ⅲ
+		NOT = {
+			is_tech_active = 7150
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8004_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK" # 
+		command = {  type = activate which = 7150 }# G元素解析技術
+		command = {  type = activate which = 7160 }# グレイ・シックス解析
+		command = {  type = activate which = 7170 }# グレイ・ナイン解析
+		command = {  type = activate which = 7180 }# グレイ・イレブン解析
+	}
+}
+
+event = {
+	id = 8005
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 7170 # グレイ・ナイン
+                technology = 5820 # 原子核物理学Ⅶ
+		NOT = {
+			is_tech_active = 7190
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8005_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7190 }# 五次元効果爆弾/運用理論
+		command = {  type = activate which = 7200 }# 五次元効果爆弾/基礎理論
+                command = {  type = activate which = 7210 }# 五次元効果爆弾/開発Ⅰ
+                command = {  type = activate which = 7220 }# 五次元効果爆弾/開発Ⅱ
+                command = {  type = activate which = 7230 }# 五次元効果爆弾/反応実験
+                command = {  type = activate which = 7240 }# 五次元効果爆弾Ⅰ
+                command = {  type = activate which = 7250 }# 五次元効果爆弾Ⅱ
+                command = {  type = activate which = 7260 }# 五次元効果爆弾Ⅲ
+	}
+}
+
+event = {
+	id = 8006
+	random = no
+	invention = yes
+
+	trigger = {
+		technology = 50320 # ロケット工学Ⅳ
+                technology = 5710 # 航空宇宙工学Ⅳ
+		technology = 5830 # 原子核物理学Ⅷ
+                technology = 5630 # 電子工学Ⅳ
+		technology = 40140 # 輸送機Ⅴ
+		NOT = {
+			is_tech_active = 7270
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8006_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7270 }# 再突入型駆逐艦Ⅰ
+		command = {  type = activate which = 7280 }# 再突入型駆逐艦Ⅱ
+                command = {  type = activate which = 7290 }# 再突入型駆逐艦Ⅲ
+                command = {  type = activate which = 7300 }# 再突入型駆逐艦Ⅳ
+                command = {  type = activate which = 7310 }# 再突入型駆逐艦Ⅴ
+	}
+}
+
+event = {
+	id = 8007
+	random = no
+	invention = yes
+
+	trigger = {
+		technology = 2010 # 戦術歩行戦闘機Ⅰ
+                technology = 2310 # 戦術歩行戦闘機/改修機Ⅰ
+		technology = 2610 # 強襲歩行攻撃機Ⅰ
+                technology = 2910 # 戦術歩行攻撃機Ⅰ
+		technology = 50300 # ロケット工学Ⅱ
+                technology = 50040 # 電子工学Ⅲ
+		technology = 5810 # 原子核物理学Ⅵ
+                technology = 5540 # 量子電磁力学Ⅲ
+		technology = 5570 # 航空宇宙工学Ⅲ
+                technology = 7170 # グレイ・ナイン
+                technology = 7180 # グレイ・イレブン
+		NOT = {
+			is_tech_active = 7320
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8007_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK" #
+		command = {  type = activate which = 7320 }# 戦略航空機動要塞/運用理論
+		command = {  type = activate which = 7330 }# 重力制御技術
+		command = {  type = activate which = 7340 }# 専用AI
+		command = {  type = activate which = 7350 }# 量子伝道脳
+		command = {  type = activate which = 7360 }# 抗重力機関
+		command = {  type = activate which = 7370 }# 戦略航空機動要塞Ⅰ
+		command = {  type = activate which = 7380 }# 戦略航空機動要塞Ⅱ
+		command = {  type = activate which = 7390 }# 戦略航空機動要塞Ⅲ
+		command = {  type = activate which = 7400 }# 戦略航空機動要塞Ⅳ
+		command = {  type = activate which = 7410 }# 戦略航空機動要塞Ⅴ
+	}
+}
+
+
+
+
+event = {
+	id = 8008
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 2160 # 第四世代戦術機Ⅰ型
+                technology = 5670 # 電子工学Ⅷ
+                technology = 7160 # グレイ・シックス
+                technology = 7170 # グレイ・ナイン
+                technology = 7180 # グレイ・イレブン
+                technology = 7620 # スーパーコンピュータ
+		NOT = {
+			is_tech_active = 7420
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8008_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7420 }# 戦術機/合身機構
+		command = {  type = activate which = 7430 }# 戦術機/無限力機関
+                command = {  type = activate which = 7440 }# 戦術機/自立制御機関
+                command = {  type = activate which = 7450 }# 戦略合神機Ⅰ
+                command = {  type = activate which = 7460 }# 戦略合神機Ⅱ
+                command = {  type = activate which = 7470 }# 戦略合神機Ⅲ
+                command = {  type = activate which = 7480 }# 戦略合神機Ⅳ
+                command = {  type = activate which = 7490 }# 戦略合神機Ⅴ
+	}
+}
+
+
+
+event = {
+	id = 8009
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 5780 # 原子核物理学Ⅲ
+		NOT = {
+			is_tech_active = 7500
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8009_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7500 }# 原子爆弾Ⅰ
+		command = {  type = activate which = 7510 }# 原子爆弾Ⅱ
+                command = {  type = activate which = 7520 }# 原子爆弾Ⅲ
+                command = {  type = activate which = 7530 }# 水素爆弾Ⅰ
+                command = {  type = activate which = 7540 }# 水素爆弾Ⅱ
+                command = {  type = activate which = 7550 }# 水素爆弾Ⅲ
+                command = {  type = activate which = 7560 }# 中性子爆弾Ⅰ
+                command = {  type = activate which = 7570 }# 中性子爆弾Ⅱ
+                command = {  type = activate which = 7580 }# 戦闘車両用原子力エンジン
+                command = {  type = activate which = 7590 }# 戦術機用原子力エンジン
+                command = {  type = activate which = 7600 }# 航空機用原子力エンジン
+                command = {  type = activate which = 7610 }# 艦艇用原子力エンジン
+	}
+}
+
+event = {
+	id = 8010
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 50060 # 電子計算機Ⅴ
+                technology = 5640 # 電子工学Ⅴ
+		NOT = {
+			is_tech_active = 7620
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8010_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7620 }# スーパーコンピューターⅠ
+		command = {  type = activate which = 7630 }# スーパーコンピューターⅡ
+                command = {  type = activate which = 7640 }# スーパーコンピューターⅢ
+                command = {  type = activate which = 7650 }# 量子コンピューターⅠ
+                command = {  type = activate which = 7660 }# 量子コンピューターⅡ
+	}
+}
+
+event = {
+	id = 8011
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 50290 # ロケット工学Ⅰ
+                technology = 5680 # 航空宇宙工学Ⅰ
+		NOT = {
+			is_tech_active = 7670
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8011_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7670 }# 短距離弾道ミサイル
+		command = {  type = activate which = 7680 }# 準中距離弾道ミサイル
+                command = {  type = activate which = 7690 }# 中距離弾道ミサイル
+                command = {  type = activate which = 7700 }# 大陸間弾道ミサイル
+                command = {  type = activate which = 7710 }# 潜水艦発射弾道ミサイル
+                command = {  type = activate which = 7720 }# 軌道爆撃システムⅠ
+                command = {  type = activate which = 7730 }# 軌道爆撃システムⅡ
+                command = {  type = activate which = 7740 }# 軌道爆撃システムⅢ
+	}
+}
+
+event = {
+	id = 8012
+	random = no
+	invention = yes
+
+	trigger = {
+		technology = 5630 # 電子工学Ⅳ
+		NOT = {
+			is_tech_active = 7750
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8012_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK" #
+		command = {  type = activate which = 7750 }# 高性能CPUⅠ
+		command = {  type = activate which = 7760 }# 高性能CPUⅡ
+		command = {  type = activate which = 7770 }# XM3/基礎理論
+		command = {  type = activate which = 7780 }# 戦術機用OSⅠ
+		command = {  type = activate which = 7790 }# 戦術機用OSⅡ
+		command = {  type = activate which = 7800 }# 戦術機用OSⅢ
+	}
+}
+
+event = {
+	id = 8013
+	random = no
+	invention = yes
+
+	trigger = {
+		technology = 5670 # 電子工学Ⅷ
+		NOT = {
+			is_tech_active = 7810
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8013_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK" # 
+		command = {  type = activate which = 7810 }# 戦闘用人工知能/基礎理論
+		command = {  type = activate which = 7820 }# 戦闘用人工知能/運用理論
+		command = {  type = activate which = 7830 }# 戦闘用人工知能Ⅰ
+		command = {  type = activate which = 7840 }# 戦闘用人工知能Ⅱ
+		command = {  type = activate which = 7850 }# 戦闘用人工知能Ⅲ
+		command = {  type = activate which = 7860 }# 無人制御航空機Ⅰ
+		command = {  type = activate which = 7870 }# 無人制御航空機Ⅱ
+		command = {  type = activate which = 7880 }# 無人制御航空機Ⅲ
+		command = {  type = activate which = 7890 }# 無人制御戦闘車両Ⅰ
+		command = {  type = activate which = 7900 }# 無人制御戦闘車両Ⅱ
+		command = {  type = activate which = 7910 }# 無人制御戦闘車両Ⅲ
+		command = {  type = activate which = 7920 }# 無人制御戦術機Ⅰ
+		command = {  type = activate which = 7930 }# 無人制御戦術機Ⅱ
+		command = {  type = activate which = 7940 }# 無人制御戦術機Ⅲ
+	}
+}
+
+event = {
+	id = 8014
+	random = no
+	invention = yes
+
+	trigger = {
+		NOT = {
+			is_tech_active = 7010
+		        technology = 7020
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8013_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK" # 
+		command = {  type = activate which = 7010 }# 人類技術
+	}
+}
+
+event = {
+	id = 8015
+	random = no
+	invention = yes
+
+	trigger = {
+		NOT = {
+			is_tech_active = 7020
+		        technology = 7010
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8013_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK" # 
+		command = {  type = activate which = 7020 }# BETA技術
+	}
+}
+
+event = {
+	id = 8016
+	random = no
+	invention = yes
+
+	trigger = {
+                technology = 5560 # 量子電磁力学Ⅴ
+		NOT = {
+			is_tech_active = 7950
+		}
+	}
+
+	name = "理論的大躍進　-　秘密兵器"
+	desc = "EVT_8016_DESC"
+	picture = "scientist"
+	style = 0
+
+
+	action_a = {
+		name = "OK"
+		command = {  type = activate which = 7950 }# 電磁投射砲Ⅰ
+		command = {  type = activate which = 7960 }# 電磁投射砲Ⅱ
+		command = {  type = activate which = 7970 }# 電磁投射砲Ⅲ
+		command = {  type = activate which = 7980 }# 電磁投射砲Ⅳ
+		command = {  type = activate which = 7990 }# 電磁投射砲Ⅴ
+		command = {  type = activate which = 8000 }# 電磁投射砲Ⅵ
+		command = {  type = activate which = 70000 }# 電磁投射砲Ⅶ
+		command = {  type = activate which = 70010 }# 電磁投射砲Ⅷ
+		command = {  type = activate which = 70020 }# 電磁投射砲Ⅸ
+		command = {  type = activate which = 70030 }# 電磁投射砲Ⅹ
+	}
+}

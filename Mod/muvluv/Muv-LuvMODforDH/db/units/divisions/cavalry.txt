@@ -1,0 +1,1029 @@
+allowed_brigades = artillery
+allowed_brigades = anti_tank
+allowed_brigades = anti_air
+allowed_brigades = rocket_artillery
+allowed_brigades = sp_artillery
+allowed_brigades = sp_rct_artillery
+allowed_brigades = tank_destroyer
+allowed_brigades = light_armor_brigade
+allowed_brigades = heavy_armor
+allowed_brigades = super_heavy_armor
+allowed_brigades = armored_car
+allowed_brigades = engineer
+allowed_brigades = police
+allowed_brigades = sp_anti_air
+allowed_brigades = medium_armor
+allowed_brigades = floatplane
+allowed_brigades = light_cag
+allowed_brigades = amph_armor
+allowed_brigades = glider_armor
+allowed_brigades = glider_artillery
+allowed_brigades = super_heavy_artillery
+allowed_brigades = b_rsv_36
+allowed_brigades = b_rsv_37
+allowed_brigades = b_rsv_38
+# 0
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 35
+  toughness           = 40
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  softattack          = 46
+  hardattack          = 52
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 1
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 35
+  toughness           = 40
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  softattack          = 46
+  hardattack          = 52
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 2
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 15
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 56
+  hardattack          = 62
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 14
+  speed_cap_eng       = 14
+  speed_cap_at        = 14
+  speed_cap_aa        = 14
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 3
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 55
+  toughness           = 60
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 66
+  hardattack          = 72
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 14
+  speed_cap_eng       = 14
+  speed_cap_at        = 14
+  speed_cap_aa        = 14
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 4
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 76
+  hardattack          = 85
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 5
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 18
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 65
+  toughness           = 70
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 86
+  hardattack          = 91
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 6
+# 中間
+model =
+{ cost                = 9
+  buildtime           = 95
+  manpower            = 9
+  maxspeed            = 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 14
+  toughness           = 14
+  softness            = 95
+  suppression         = 4
+  airdefence          = 4
+  softattack          = 12
+  hardattack          = 2
+  airattack           = 4
+  transportweight     = 30
+  supplyconsumption   = 1.5
+  fuelconsumption     = 1.5
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+}
+# 7
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 35
+  toughness           = 40
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 41
+  hardattack          = 47
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 8
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 35
+  toughness           = 40
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 41
+  hardattack          = 47
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 9
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 15
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 51
+  hardattack          = 57
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 10
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 55
+  toughness           = 60
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 61
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  hardattack          = 77
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 11
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 71
+  hardattack          = 77
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 12
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 18
+  morale              = 40
+  defensiveness       = 65
+  toughness           = 70
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 81
+  hardattack          = 86
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  defaultorganisation = 40
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 13
+# 中間
+model =
+{ cost                = 9
+  buildtime           = 95
+  manpower            = 9
+  maxspeed            = 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 14
+  toughness           = 14
+  softness            = 95
+  suppression         = 4
+  airdefence          = 4
+  softattack          = 12
+  hardattack          = 2
+  airattack           = 4
+  transportweight     = 30
+  supplyconsumption   = 1.5
+  fuelconsumption     = 1.5
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+}
+# 14
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 35
+  toughness           = 40
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 38
+  hardattack          = 44
+  airattack           = 5
+  transportweight     = 15
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 15
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 35
+  toughness           = 40
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 38
+  hardattack          = 44
+  airattack           = 5
+  transportweight     = 15
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 16
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 15
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 48
+  hardattack          = 54
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 17
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 15
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 55
+  toughness           = 60
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 58
+  hardattack          = 64
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 18
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 68
+  hardattack          = 74
+  airattack           = 5
+  transportweight     = 15
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 19
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 18
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 65
+  toughness           = 70
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 81
+  hardattack          = 86
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 20
+# 中間
+model =
+{ cost                = 9
+  buildtime           = 95
+  manpower            = 9
+  maxspeed            = 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 14
+  toughness           = 14
+  softness            = 95
+  suppression         = 4
+  airdefence          = 4
+  softattack          = 12
+  hardattack          = 2
+  airattack           = 4
+  transportweight     = 30
+  supplyconsumption   = 1.5
+  fuelconsumption     = 1.5
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+}
+# 21
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 35
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 36
+  hardattack          = 42
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  toughness           = 40
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 22
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 35
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 36
+  hardattack          = 42
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  toughness           = 40
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 23
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 15
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 46
+  hardattack          = 52
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  airattack           = 5
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 24
+model =
+{ cost                = 22
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 55
+  toughness           = 60
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 56
+  hardattack          = 62
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  softness            = 50
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 25
+model =
+{ cost                = 23
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 66
+  hardattack          = 72
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 26
+model =
+{ cost                = 23
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 18
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 65
+  toughness           = 70
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 76
+  hardattack          = 81
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# 27
+# 中間
+model =
+{ cost                = 9
+  buildtime           = 95
+  manpower            = 9
+  maxspeed            = 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 14
+  toughness           = 14
+  softness            = 95
+  suppression         = 4
+  airdefence          = 4
+  softattack          = 12
+  hardattack          = 2
+  airattack           = 4
+  transportweight     = 30
+  supplyconsumption   = 1.5
+  fuelconsumption     = 1.5
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+}
+# 28
+##エイプリルフール武御雷
+model =
+{ cost                = 30
+  buildtime           = 360
+  manpower            = 20
+  maxspeed            = 20
+  defaultorganisation = 50
+  morale              = 50
+  defensiveness       = 80
+  toughness           = 80
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 100
+  hardattack          = 100
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 20
+  speed_cap_eng       = 20
+  speed_cap_at        = 20
+  speed_cap_aa        = 20
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 1 EQUIPMENT = 1 }
+}
+# 29
+# Semi-Motorized Cavalry Division - 3
+model =
+{ cost                = 9
+  buildtime           = 95
+  manpower            = 9
+  maxspeed            = 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 14
+  toughness           = 14
+  softness            = 95
+  suppression         = 4
+  airdefence          = 4
+  softattack          = 12
+  hardattack          = 2
+  airattack           = 4
+  transportweight     = 30
+  supplyconsumption   = 1.5
+  fuelconsumption     = 1.5
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+}
+# 30
+# Armored Cavalry Division - 4
+model =
+{ cost                = 50
+  buildtime           = 360
+  manpower            = 20
+  maxspeed            = 20
+  defaultorganisation = 50
+  morale              = 50
+  defensiveness       = 80
+  toughness           = 80
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 100
+  hardattack          = 100
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 20
+  speed_cap_eng       = 20
+  speed_cap_at        = 20
+  speed_cap_aa        = 20
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 1 EQUIPMENT = 1 }
+}
+# 31
+# Great War Cavalry Division - 0
+model =
+{ cost                = 51
+  buildtime           = 360
+  manpower            = 20
+  maxspeed            = 20
+  defaultorganisation = 50
+  morale              = 50
+  defensiveness       = 80
+  toughness           = 80
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 105
+  hardattack          = 105
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 20
+  speed_cap_eng       = 20
+  speed_cap_at        = 20
+  speed_cap_aa        = 20
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 1 EQUIPMENT = 1 }
+}
+# 32
+# Early Cavalry Division - 1
+model =
+{ cost                = 52
+  buildtime           = 360
+  manpower            = 20
+  maxspeed            = 20
+  defaultorganisation = 50
+  morale              = 50
+  defensiveness       = 80
+  toughness           = 80
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 110
+  hardattack          = 110
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 20
+  speed_cap_eng       = 20
+  speed_cap_at        = 20
+  speed_cap_aa        = 20
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 1 EQUIPMENT = 1 }
+}
+# 33
+# Basic Cavalry Division - 2
+model =
+{ cost                = 53
+  buildtime           = 360
+  manpower            = 20
+  maxspeed            = 20
+  defaultorganisation = 50
+  morale              = 50
+  defensiveness       = 80
+  toughness           = 80
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 115
+  hardattack          = 115
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 20
+  speed_cap_eng       = 20
+  speed_cap_at        = 20
+  speed_cap_aa        = 20
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 1 EQUIPMENT = 1 }
+}
+# 34
+# Semi-Motorized Cavalry Division - 3
+model =
+{ cost                = 54
+  buildtime           = 360
+  manpower            = 20
+  maxspeed            = 20
+  defaultorganisation = 50
+  morale              = 50
+  defensiveness       = 80
+  toughness           = 80
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 120
+  hardattack          = 120
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 20
+  speed_cap_eng       = 20
+  speed_cap_at        = 20
+  speed_cap_aa        = 20
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 1 EQUIPMENT = 1 }
+}
+# 35
+# 中間
+model =
+{ cost                = 9
+  buildtime           = 95
+  manpower            = 9
+  maxspeed            = 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 14
+  toughness           = 14
+  softness            = 95
+  suppression         = 4
+  airdefence          = 4
+  softattack          = 12
+  hardattack          = 2
+  airattack           = 4
+  transportweight     = 30
+  supplyconsumption   = 1.5
+  fuelconsumption     = 1.5
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+}
+# 36
+model =
+{ cost                = 24
+  buildtime           = 400
+  manpower            = 5
+  maxspeed            = 15
+  defaultorganisation = 40
+  morale              = 40
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 5
+  airdefence          = 5
+  softattack          = 46
+  hardattack          = 52
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 7
+  speed_cap_eng       = 7
+  speed_cap_at        = 7
+  speed_cap_aa        = 7
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+  airattack           = 5
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}

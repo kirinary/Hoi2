@@ -1,0 +1,2729 @@
+##############################################################
+##
+## 国際協力イベント(901~1000)
+##
+##############################################################
+## アメリカ
+## id = 901	対外支援体制構築
+## id = 902	対ソ支援(USA)
+## id = 903	アメリカからの支援
+## id = 904	対中国支援(USA)
+## id = 905	アメリカからの支援
+## id = 906	対イラン支援(USA)
+## id = 907	アメリカからの支援
+## id = 908	対イラク支援(USA)
+## id = 909	アメリカからの支援
+## id = 910	対トルコ支援(USA)
+## id = 911	アメリカからの支援
+## id = 912	対イスラエル支援(USA)
+## id = 913	アメリカからの支援
+## id = 914	対サウジアラビア支援(USA)
+## id = 915	アメリカからの支援
+## id = 916	対シリア支援(USA)
+## id = 917	アメリカからの支援
+## id = 918	対レバノン支援(USA)
+## id = 919	アメリカからの支援
+## id = 920	対西ドイツ支援(USA)
+## id = 921	アメリカからの支援
+## id = 922	対フランス支援(USA)
+## id = 923	アメリカからの支援
+## id = 924	対イタリア支援(USA)
+## id = 925	アメリカからの支援
+## id = 926	対イギリス支援(USA)
+## id = 927	アメリカからの支援
+## id = 928	対スペイン支援(USA)
+## id = 929	アメリカからの支援
+## id = 930	対ギリシア支援(USA)
+## id = 931	アメリカからの支援
+## id = 932	対ポルトガル支援(USA)
+## id = 933	アメリカからの支援
+## id = 934	対インド支援(USA)
+## id = 935	アメリカからの支援
+## id = 936	対タイ支援(USA)
+## id = 937	アメリカからの支援
+## id = 938	対ベトナム支援(USA)
+## id = 939	アメリカからの支援
+## id = 940	バンクーバー協定(U06)
+## id = 941	バンクーバー協定(USA)
+## id = 942	バンクーバー協定(SOV)
+## id = 943	バンクーバー協定(AST)
+## id = 944	バンクーバー協定(IND)
+## id = 945	バンクーバー協定(CHC)
+## id = 946	バンクーバー協定(ISR)
+## id = 947	バンクーバー協定(EGY)
+## id = 948	バンクーバー協定(SAU)
+## id = 949	バンクーバー協定(SAF)
+## id = 950	バンクーバー協定(INO)
+## id = 951	バンクーバー協定(SIA)
+## id = 952	バンクーバー協定(CZE)
+## id = 953	バンクーバー協定(IRE)
+## id = 954	バンクーバー協定(ARA)
+## id = 955	バンクーバー協定(ALB)
+## id = 956	バンクーバー協定(YEM)
+## id = 957	バンクーバー協定(PER)
+## id = 958	バンクーバー協定(AUS)
+## id = 959	バンクーバー協定(DDR)
+## id = 960	バンクーバー協定(OMN)
+## id = 961	バンクーバー協定(U96)
+## id = 962	バンクーバー協定(NZL)
+## id = 963	バンクーバー協定(CMB)
+## id = 964	バンクーバー協定(NEP)
+## id = 965	バンクーバー協定(SIB)
+## id = 966	バンクーバー協定(HUN)
+## id = 967	バンクーバー協定(U97)
+## id = 968	バンクーバー協定(U95)
+## id = 969	バンクーバー協定(PAK)
+## id = 970	バンクーバー協定(BUR)
+## id = 971	バンクーバー協定(PHI)
+## id = 972	バンクーバー協定(FIN)
+## id = 973	バンクーバー協定(BHU)
+## id = 974	バンクーバー協定(BUL)
+## id = 975	バンクーバー協定(BRU)
+## id = 976	バンクーバー協定(SYR)
+## id = 977	バンクーバー協定(SIK)
+## id = 978	バンクーバー協定(SCH)
+## id = 979	バンクーバー協定(SWE)
+## id = 980	バンクーバー協定(VIE)
+## id = 981	バンクーバー協定(POL)
+## id = 982	バンクーバー協定(MLY)
+## id = 983	バンクーバー協定(MON)
+## id = 984	バンクーバー協定(YUG)
+## id = 985	バンクーバー協定(JOR)
+## id = 986	バンクーバー協定(LAO)
+## id = 987	バンクーバー協定(ROM)
+## id = 988	バンクーバー協定(LEB)
+## id = 989	バンクーバー協定(CHI)
+## id = 990	バンクーバー協定(IDC)
+## id = 991	バンクーバー協定(AFG)
+## 南米連合/中米連合
+## id = 999	対外支援体制構築(U08)
+## id = 1000	対外支援体制構築(U09)
+##############################################################
+event = {
+	id = 901
+	random = no
+        country = USA
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "対外支援体制構築"
+	desc = "EVT_901_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "BETAを押さえ込まなければならない"
+                command = { type = free_ic value = -200 }
+ }
+}
+
+event = {
+	id = 902
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = SOV country = U12 }
+                    #under_attack = SOV
+       }
+	name = "対ソ支援"
+	desc = "EVT_902_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportSOV }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 903
+	random = no
+        persistent = yes
+        country = SOV
+        decision = {flag = SupportSOV }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 300 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 904
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = CHC country = U12 }
+                    #under_attack = CHC
+       }
+	name = "対中国支援"
+	desc = "EVT_904_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportCHC }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 905
+	random = no
+        persistent = yes
+        country = CHC
+        decision = {flag = SupportCHC }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 300 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 906
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = PER country = U12 }
+                    #under_attack = PER
+       }
+	name = "対イラン支援"
+	desc = "EVT_906_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportPER }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 907
+	random = no
+        persistent = yes
+        country = PER
+        decision = {flag = SupportPER }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 908
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = IRQ country = U12 }
+                    #under_attack = IRQ
+       }
+	name = "対ソ支援"
+	desc = "EVT_908_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportIRQ }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 909
+	random = no
+        persistent = yes
+        country = IRQ
+        decision = {flag = SupportIRQ }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 910
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = TUR country = U12 }
+                    #under_attack = TUR
+       }
+	name = "対トルコ支援"
+	desc = "EVT_910_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportTUR }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 911
+	random = no
+        persistent = yes
+        country = TUR
+        decision = {flag = SupportTUR }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 912
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = ISR country = U12 }
+                    #under_attack = ISR
+       }
+	name = "対イスラエル支援"
+	desc = "EVT_912_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportISR }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 913
+	random = no
+        persistent = yes
+        country = ISR
+        decision = {flag = SupportISR }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 914
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = SAU country = U12 }
+                    #under_attack = SAU
+       }
+	name = "対サウジアラビア支援"
+	desc = "EVT_914_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportSAU }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 915
+	random = no
+        persistent = yes
+        country = SAU
+        decision = {flag = SupportSAU }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 916
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = SYR country = U12 }
+                    #under_attack = SYR
+       }
+	name = "対シリア支援"
+	desc = "EVT_916_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportSYR }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 917
+	random = no
+        persistent = yes
+        country = SYR
+        decision = {flag = SupportSYR }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 918
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = LEB country = U12 }
+                    #under_attack = LEB
+       }
+	name = "対レバノン支援"
+	desc = "EVT_918_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportLEB }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 919
+	random = no
+        persistent = yes
+        country = LEB
+        decision = {flag = SupportLEB }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 920
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = DFR country = U12 }
+                    #under_attack = DFR
+       }
+	name = "対西ドイツ支援"
+	desc = "EVT_920_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportDFR }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 921
+	random = no
+        persistent = yes
+        country = DFR
+        decision = {flag = SupportDFR }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 922
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = FRA country = U12 }
+                    #under_attack = FRA
+       }
+	name = "対フランス支援"
+	desc = "EVT_922_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportFRA }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 923
+	random = no
+        persistent = yes
+        country = FRA
+        decision = {flag = SupportFRA }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 924
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = ITA country = U12 }
+                    #under_attack = ITA
+       }
+	name = "対イタリア支援"
+	desc = "EVT_924_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportITA }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 925
+	random = no
+        persistent = yes
+        country = ITA
+        decision = {flag = SupportITA }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 926
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = ENG country = U12 }
+                    #under_attack = ENG
+       }
+	name = "対イギリス支援"
+	desc = "EVT_926_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportENG }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 927
+	random = no
+        persistent = yes
+        country = ENG
+        decision = {flag = SupportENG }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 928
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = SPA country = U12 }
+                    #under_attack = SPA
+       }
+	name = "対スペイン支援"
+	desc = "EVT_928_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportSPA }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 929
+	random = no
+        persistent = yes
+        country = SPA
+        decision = {flag = SupportSPA }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 80 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 930
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = GRE country = U12 }
+                    #under_attack = GRE
+       }
+	name = "対ギリシア支援"
+	desc = "EVT_930_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportGRE }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 931
+	random = no
+        persistent = yes
+        country = GRE
+        decision = {flag = SupportGRE }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 40 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 932
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = POR country = U12 }
+                    #under_attack = POR
+       }
+	name = "対ポルトガル支援"
+	desc = "EVT_932_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportPOR }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 933
+	random = no
+        persistent = yes
+        country = POR
+        decision = {flag = SupportPOR }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 40 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 934
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = IND country = U12 }
+                    #under_attack = IND
+       }
+	name = "対インド支援"
+	desc = "EVT_934_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportIND }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 935
+	random = no
+        persistent = yes
+        country = IND
+        decision = {flag = SupportIND }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 200 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 936
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = SIA country = U12 }
+                    #under_attack = SIA
+       }
+	name = "対タイ支援"
+	desc = "EVT_936_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportSIA }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 937
+	random = no
+        persistent = yes
+        country = SIA
+        decision = {flag = SupportSIA }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 40 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 938
+	random = no
+        country = USA
+	trigger = {
+                    war = { country = VIE country = U12 }
+                    #under_attack = VIE
+       }
+	name = "対ベトナム支援"
+	desc = "EVT_938_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "支援を行う"
+                ai_chance = 100
+                command = { type = setflag which = SupportVIE }
+ }
+        action_b = {
+		name = "支援の必要はない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 939
+	random = no
+        persistent = yes
+        country = VIE
+        decision = {flag = SupportVIE }
+        decision_trigger = {
+                             OR = {
+                                  lost_VP = { value = 10 }
+                                  lost_national = { value = 10 }
+                                  lost_IC = { value = 10 }
+                                   }
+                             }
+	trigger = { NOT = { army = 40 } }
+	name = "アメリカからの支援"
+	desc = "EVT_903_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 1974 }
+	offset = 60
+	deathdate = { hour = 0 day = 15 month = 0 year = 1979 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = paratrooper when = 0 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+		command = { type = add_division value = armor when = 1 where = artillery }
+ }
+}
+
+event = {
+	id = 940
+	random = no
+        country = U06
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1979 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "人類は団結しなければならない！"
+                ai_chance = 100
+                command = { type = setflag which = Vancouver }
+                #command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "人類の団結など不可能だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 941
+	random = no
+        country = USA
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 942
+	random = no
+        country = SOV
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 943
+	random = no
+        country = AST
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 944
+	random = no
+        country = IND
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 945
+	random = no
+        country = CHC
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 946
+	random = no
+        country = ISR
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 947
+	random = no
+        country = EGY
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 948
+	random = no
+        country = SAU
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 949
+	random = no
+        country = SAF
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 950
+	random = no
+        country = INO
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 951
+	random = no
+        country = SIA
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 952
+	random = no
+        country = CZE
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 953
+	random = no
+        country = IRE
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 954
+	random = no
+        country = ARA
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 955
+	random = no
+        country = ALB
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 956
+	random = no
+        country = YEM
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 957
+	random = no
+        country = PER
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 958
+	random = no
+        country = AUS
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 959
+	random = no
+        country = DDR
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 960
+	random = no
+        country = OMN
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 961
+	random = no
+        country = U96
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 962
+	random = no
+        country = NZL
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 963
+	random = no
+        country = CMB
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 964
+	random = no
+        country = NEP
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 965
+	random = no
+        country = SIB
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 966
+	random = no
+        country = HUN
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 967
+	random = no
+        country = U97
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 968
+	random = no
+        country = U95
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 969
+	random = no
+        country = PAK
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 970
+	random = no
+        country = BUR
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 971
+	random = no
+        country = PHI
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 972
+	random = no
+        country = FIN
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 973
+	random = no
+        country = BHU
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 974
+	random = no
+        country = BUL
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 975
+	random = no
+        country = BRU
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 976
+	random = no
+        country = SYR
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 977
+	random = no
+        country = SIK
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 978
+	random = no
+        country = SCH
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 979
+	random = no
+        country = SWE
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 980
+	random = no
+        country = VIE
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 981
+	random = no
+        country = POL
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 982
+	random = no
+        country = MLY
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 983
+	random = no
+        country = MON
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 984
+	random = no
+        country = YUG
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 985
+	random = no
+        country = JOR
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 986
+	random = no
+        country = LAO
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 987
+	random = no
+        country = ROM
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 988
+	random = no
+        country = LEB
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 989
+	random = no
+        country = CHI
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 990
+	random = no
+        country = IDC
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 991
+	random = no
+        country = AFG
+	trigger = {
+                    flag = Vancouver
+       }
+	name = "バンクーバー協定"
+	desc = "EVT_940_DESC"
+	style = 0
+
+	date = { day = 15 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連の元に結集する"
+                ai_chance = 100
+                command = { type = alliance where = 2 }
+ }
+        action_b = {
+		name = "指揮権の統一など論外だ"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 999
+	random = no
+        country = U08
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "対外支援体制構築"
+	desc = "EVT_901_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "BETAを押さえ込まなければならない"
+                command = { type = free_ic value = -120 }
+                command = { type = deactivate which = 2010 }
+ }
+}
+
+event = {
+	id = 1000
+	random = no
+        country = U09
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "対外支援体制構築"
+	desc = "EVT_901_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "BETAを押さえ込まなければならない"
+                command = { type = free_ic value = -50 }
+                command = { type = deactivate which = 2010 }
+ }
+}

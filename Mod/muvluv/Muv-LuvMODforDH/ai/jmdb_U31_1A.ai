@@ -1,0 +1,556 @@
+#### ai設定下書き
+## Hearts of Iron 2 DataWikiより参照
+
+### スイッチ・フラッグ 
+switch = no                                # [yes/no] 値がyesの場合、毎年1月1日にAIを自動的に変更する
+flags = { }                                # グローバルフラッグの設定。このAIにファイルが切り替わると自動的に設定される
+
+
+### 外交 
+claim_acceptance = 0                       # 領土要求の受け入れ率(値 - <整数>)
+demand_claims = { }                        # 特定の国への領土要求(リストに含まれる国に中核州があれば、領土要求をする)
+liberate = { }                             # 独立を与える国(hoi2では機能しない)
+resistance = { }                           # 設定された国からの政治干渉の成功しにくさ(Ｘ = [0～10])
+combat = { }                               # 指定した国にどれだけ戦争を望むか(0~100)
+protect = { }                              # 独立保証をする可能性（高い方が良い,-100~100),Ｘが高い相手ほど干渉しやすく、逆に負値ならば決して干渉しない
+target = { }                               # 重要な意味を持つ州(1~100),ＡＩは戦争でこの州を獲得しようとして、講和条約で要求する
+
+
+### 戦争 
+## 改良・補充・パニックモード 
+upgrading = 0.05                           # 改良に使用するＩＣの最大限％
+reinforcement = 0.3                        # 補充に使用するＩＣの最大限％
+desperation = 1.0                          # icがこの％より多く敵に占領されたとき、AIはパニックモードになります
+strat_redeploy_threshold = 30              # この日数以上かかる場合ＡＩが戦略的再配置をする
+max_redeploying = 0.25                     # 同時に戦略的再配置をする割合。デフォルト：0.25 
+use_offensive_supply = yes                 # AIが攻勢準備を使用するかどうか
+max_fuel_offensive = 10000                 # 石油消費量がこの値以上の場合、攻勢準備を使用しない (デフォルト：100)
+evac_islands = yes                         # AIが低価値な島から部隊を撤退させるかどうか
+war = 999999999999999999999999999999999999 # 戦争大好き度「戦争屋度」, この値が高い場合戦争をしたくてうずうずしているらしい
+neutrality = 0                             # 中立政策 ,もし100以上ならば基本的に同盟はしません,この値が高いほど中立でいる。（宣戦布告のしやすさには影響を与えない！）
+
+## 国境での師団数
+max_front_ratio = 4.0                      # 他国に対する、前線で対峙する師団数の割合。（デフォルト4.0）(4.0は4倍)
+max_front_ratios = { }                     # 特定の国に対して対峙する師団数の割合,max_front_ratioよりもこちらが優先される,負の値をとった場合はその国との国境に兵力を配置しない
+exp_force_ratio = 0.3                      # 遠征軍を派遣する割合（デフォルト0.75）(0.75は全陸軍の75％)
+no_exp_forces_to = { }                     # 軍を派遣しない国(しかし、隣接する同盟国には軍を派遣する可能性もある)
+
+# 戦時に駐屯する割合,前線以外のすべての侵入した陸上部隊は、この設定の影響を受ける
+max_garrison_prop = 0.3                    # 部隊が戦時に駐屯する最大割合
+min_garrison_prop = 0.2                    # 部隊が戦時に駐屯する最小割合
+
+
+### 建造物関連
+
+construction = { 
+max_factor = 0.100                         # プロヴィンスの建造物生産に使用されるＩＣの割合
+                        
+# 対空砲
+AA_batteries   = not_atwar                 # [ 建設する ／ しない ／ 戦争中に建設 ／ 平和時に建設 ]
+max_AA_level  = 10                         # このレベルまでしか拡張しません
+AA_provs  = { }                            # 優先的に配置される州
+
+# 沿岸要塞
+coastal_fort   = no                        # [ 建設する ／ しない ／ 戦争中に建設 ／ 平和時に建設 ]
+max_coastal_level = 10                     # このレベルまでしか拡張しません
+coastal_fort_provs = { }                   # 優先的に配置される州
+
+# レーダー基地 
+radar_station   = no                       # [ 建設する ／ しない ／ 戦争中に建設 ／ 平和時に建設 ]
+max_radar  = 10                            # このレベルまでしか拡張しません
+radar_provs  = { }                         # 優先的に配置される州
+
+# 航空基地 
+air_base   = no                            # [ 建設する ／ しない ／ 戦争中に建設 ／ 平和時に建設 ]
+max_air_base  = 10                         # このレベルまでしか拡張しません
+air_base_provs  = { }                      # 優先的に配置される州
+
+# 海軍基地 
+naval_base   = no                          # [ 建設する ／ しない ／ 戦争中に建設 ／ 平和時に建設 ]
+max_naval_base  = 10                       # このレベルまでしか拡張しません
+naval_base_provs = { }                     # 優先的に配置される州
+
+# 陸上要塞 
+land_fort  = no                            # [ 建設する ／ しない ／ 戦争中に建設 ／ 平和時に建設 ]
+max_land_level  = 10                       # このレベルまでしか拡張しません
+fort_borders = {  }                        # これらの国との国境に要塞を建設します
+fort_provs  = { }                          # 優先的に配置される州
+
+# 工場 
+
+ic_at_war  = no                            # 工場を建設する州は必ず指定してください！
+                                           # 戦時に工場を建設するかどうか,通常、大きな余裕（資源？IC？）がある場合、我々は常にICを建造します。戦争時は例外かもしれません
+force_ic_until  = 1973                     #ＩＣの余裕を無視して、X年になるまで工場を建て続ける（拡張が予想される国に役立ちます）
+ic_end_year  = 1990                        #Ｘ以降は工場の建設をしません。
+IC_provs  = { }                            # 優先的に建設される州
+
+# 原子炉
+nuclear_reactor = no                       # [ 建設する ／ しない ／ 戦争中に建設 ／ 平和時に建設 ]
+nuclear_reactor_prov = 2615                # AIは、このIDの州に原子炉を建設しようとするでしょう
+max_nuclear = 10                           # AIが建設しようとする原子炉の最大サイズ
+
+# ロケット試験場
+rocket_test = no                           # [ 建設する ／ しない ／ 戦争中に建設 ／ 平和時に建設 ]
+rocket_test_prov = 2615                    # AIは、このIDの州にロケットテスト場を建設しようとするでしょう
+max_rocket = 10                            # AIが建設しようとするロケットテスト場の最大サイズ
+
+}
+
+
+### 守備隊
+garrison = { 
+defend_overseas_beaches = yes              # 海外にある、海岸が有る州に守備隊を置くか。デフォルトはnoです。
+
+# -この設定はAIを大きく左右します- 基本的にデフォルトに設定することを勧めます。AIが壊れる恐れ有り！
+home_multiplier  = 0.5                     # 中核州へ駐屯させる軍の割合。（デフォルト：0.5）
+overseas_multiplier  = 0.3333              # 海外領土へ駐屯させる軍の割合。（デフォルト：0.3333）
+home_peace_cap  = 10                       # 平和時に首都に駐屯させる師団の上限
+war_zone_odds   = 2.0                      # デフォルト2.0にしてください。（2.0 Ｘ 敵師団数　の軍を送ろうと努力します）
+area_multiplier = { }                      # 指定した州に優先度を設定します。（中核州の場合は無効）
+
+# プロヴィンスに対する優先度の指定 
+beach    = 50                              # 上陸できる砂浜
+capital   = 100                            # 首都
+human_border  = 210                        # 人間のプレイヤーとの国境（同盟している場合は無視
+war_target  = 100                          # 隣国のAIが宣戦を企てて攻撃目標になっている場合
+reserves  = 20                             # 前線の直ぐ後方の地域に付く優先度ボーナス
+opposing_alliance = 100                    # 中立国でいることにすべての同盟（連・枢・共）が反対する？
+claim_threat  = 100                        # 我々が中立の場合、我々に対する誰かの領土要求の通りやすさ
+unstable_border  = 50                      # 我々が誰かと戦争している場合の、我々に対する誰かの領土要求の通りやすさ？
+
+# 特定の国 
+	country_priorities = {
+	}
+#「 opposing_alliance 」「 claim_threat 」「 unstable_border 」の値を強制的に設定されたものにする？
+
+# 特定の州 
+	province_priorities = {
+	}
+
+# 無視する州 
+	ignore = {
+	}
+    # 州の価値に対する総合係数
+    # key_point_prio_mult = X # この値 × 州の価値 ＝ 本当の価値？
+}
+
+
+### 戦争での戦力振り分け
+# 相手との戦力比率が、以下で当てはまる数値の積算を上回らない限りAIは敵軍を攻撃しません。（戦力が同じ場合は1.0、自軍が優勢の場合は＞1.0）
+front = {
+river =   0.1                              # 渡河攻撃
+largefort  = 0.5                           # レベル６以上の要塞に対して。 
+smallfort = 0.3                            # レベル６以下の要塞に対して
+occupied = 0.1                             # 敵地の領土に囲まれた孤立した地域
+owned  = 0.1                               # 自国の領土に囲まれた地域
+
+strength 	= 0.1
+organisation 	= 0.1
+soft_attack 	= 0.1
+hard_attack 	= 0.1
+ground_defense 	= 0.1
+dig_in 	= 1.0                              # Against defender
+
+# ↓はV1.2の時点で、これらはすべて旧式であって、そしてもう効果を持ちません？
+frozen_attack  = 0.50                      # 凍土
+snow_attack  = 0.50                        # 雪
+blizzard_attack = 0.25                     # 猛吹雪
+storm_attack  = 0.60                       # 嵐
+muddy_attack  = 0.75                       # 泥濘
+jungle_attack  = 0.85                      # ジャングル,密林
+mountain_attack = 0.60                     # 山岳
+swamp_attack  = 0.60                       # 沼
+forest_attack  = 0.85                      # 森林
+hill_attack  = 0.75                        # 丘
+urban_attack  = 0.40                       # 市街
+
+support_defense_prop = 0.333               # 隣接する州の防衛を支援するために使われるかもしれない前線の州の師団の割合。（デフォルト0.333）
+recklessness   =  3                        # recklessness -この数値が高い場合、AIの攻撃性が上がります[1-3]
+
+## ai,人間に対する行動内容
+	# Even -前線全体に沿って均等に軍隊を配置します。
+	# Reactive - 敵の兵力集結地点に合わせて配置しようと試みます。
+	# Defensive - より多くの兵力を戦略上重要な州におこうとします。（ IC 、勝利ポイント、オイルなど）
+	# Offensive - 敵の弱点により多くの兵力をおきます。
+	# Operational Defensive - 撤退路が少ない場所には、より少ない兵しかおきません。（包囲を避けるため）
+
+distrib_vs_ai   = Reactive                 # AIに対する行動 [even/reactive/defensive/offensive/op_defensive]
+distrib_vs_human  = Reactive               # 人間プレイヤーに対する行動 [even/reactive/defensive/offensive/op_defensive]
+
+# 反撃を控える国
+enemy_handicap = { }                       # これらの国は、設定された日数の間、開戦しても攻撃を仕掛けてきません,これらの値は人間のコントロールの下にある敵には無視されます,値は、設定された国との、すべての戦争に適用されます
+passivity = { }                            # 指定した国に対して、AIは各攻撃機会毎にこの確率で攻撃を行わなくなる。100に指定すると一切その国への攻撃を行わない(指定できる値0~100)
+
+# 特定プロヴィエンスの防衛
+province_priorities = {                    # ID 527のプロヴィンスを防衛するためにのみ、20％の戦力を振り向けます
+		527 = 0.2 
+}
+
+reserve_prop = 0.2                         # 前線の完全な師団の後方に残ることを許される割合（回復が必要な司令部、師団）
+panic_ratio_vs_ai = 2.5                    # (ai)敵師団数がこの割合を上回るほど前線で圧倒された場合、前線はより多くの兵力を求めます,これは後方部隊が守備任務などから引き抜かれる結果になります、ゆえに高く設定してください
+panic_ratio_vs_human = 2.5                 # (人間)敵師団数がこの割合を上回るほど前線で圧倒された場合、前線はより多くの兵力を求めます,これは後方部隊が守備任務などから引き抜かれる結果になります、ゆえに高く設定してください
+
+## 攻撃
+
+enemy_reinf_days = 2.5                     # X日間、Xより可能性計算における目標州から敵のユニット数えないでください
+base_attack_odds = 1.0                     # 見込みがXか、それより良いならば、攻撃するでしょう
+min_attack_odds = 1.5                      # もし戦闘が膠着している場合、この値と同じくらいでも攻撃するでしょう
+max_attack_odds = 3.0                      # この値以上の値をこれら（この一群の設定？）に設定しないでください
+reinforce_odds = 1.5                       # 攻撃部隊の見込みがこの値よりある場合、より多くの兵力を送り込みます
+withdraw_odds = 0.5                        # この値になると、攻撃を中止し引き下がります,防御位置まで撤退する計算は、少数の変数に帰結させるにはあまりにも複雑です,組織率が低すぎる場合、さらに退却を行います
+
+}
+
+### ユニット生産 
+#メモ：AIの生産期間は、他の要素、たとえばIC容量、シナリオ終了日、絶望などにも左右されます。
+military = {
+relative_build_scheme  = no                # [yes］に設定すると、AIは既存の保有ユニットを考慮して軍全体として以下の値を保つようにユニットを生産します
+                                           # [no]と設定した場合、既存の保有ユニットを考慮せず生産中ユニットの比率が以下を保つように生産します
+                                           # 戦争中は各兵種間の数値が変動しているせいかyesにすると上手く動作しないこともあるようです。戦争中はno、平和時はyesにすることをお勧めします
+max_batch_peace =  800                     # 平和時は、この値より日数のかかる生産はしません
+max_batch_war =  500                       # 戦争時は、この値より日数のかかる生産はしません
+max_batch_home_front = 150                 # 中核州で戦闘が行われている場合、この値より日数のかかる生産はしません
+
+
+## 師団の生産割合
+# 注意：陸海空あわせて100%になるように設定してください
+# AIは戦術及び戦略爆撃機を生産するとき、かならず護衛戦闘機も生産します
+
+# 陸軍
+infantry =  30                              # 歩兵         [ 戦術歩行戦闘機/改修機 ]           [ 要撃級 ]
+cavalry =  0                               # 騎兵         [ 無人戦術機 ]                      [  ]
+motorized = 0                              # 自動車化歩兵 [ 戦略航空機動要塞 ]                [ 母艦級 ]
+mechanized = 0                             # 機械化歩兵   [ 機械化歩兵 ]                      [  ]
+light_armor = 0                            # 軽戦車       [ 歩兵戦車 ]                        [  ]
+armor =  0                                 # 戦車         [ 主力戦車 ]                        [  ]
+paratrooper = 0                           # 空挺         [ 戦術歩行戦闘機 ]                  [ 要撃級 ]
+marine =  25                               # 海兵         [ 局地戦強襲攻撃機 ]                [ 突撃級 ]
+bergsjaeger = 25                           # 山岳兵       [ 戦術歩行攻撃機 ]                  [ 重光線級 ]
+garrison =  0                              # 守備隊       [ 自走支援担保 ]                    [ 門級 ]
+hq = 20                                    # 司令部       [ 指揮車両/指揮官機 ]               [ 要塞級、頭脳級、重頭脳級 ]
+militia =  0                               # 民兵         [ 練習機/高等練習機 ]               [ 要撃級 ]
+# 100 %
+
+# 空軍
+escort = 0                                 # 護衛機       [ 護衛戦闘機 ]                      [  ]
+multi_role = 0                             # 戦闘機       [ 多用途戦闘機 ]                    [ 制空級 ]
+interceptor = 0                            # 局地戦闘機   [ 要撃戦闘機 ]                      [ 迎撃級 ]
+strategic_bomber = 0                       # 戦略爆撃機   [ 戦略爆撃機/戦術用戦略爆撃機 ]     [ 重爆撃級 ]
+tactical_bomber = 0                        # 戦術爆撃機   [ 戦術爆撃機/戦闘爆撃機 ]           [ 爆撃級 ]
+naval_bomber = 0                           # 艦爆機       [ 攻撃機/戦闘攻撃機 ]               [ 攻撃級 ]
+cas = 0                                    # 近接攻撃機   [ 戦闘ヘリ ]                        [  ]
+transport_plane = 0                        # 輸送機       [ 輸送機/再突入型駆逐艦 ]           [ 空輸級 ]
+flying_bomb = 0                            # V1           [ 戦術ミサイル ]                    [ 飛翔級 ]
+flying_rocket = 0                          # V2           [ 戦略ミサイル/軌道爆撃 ]           [  ]
+# 0 %
+
+# 海軍
+battleship = 0                             # 戦艦         [ 戦艦/原子力/イージス ]            [ 戦艦級 ]
+light_cruiser = 0                          # 軽巡洋艦     [ ミサイル艇 ]                      [  ]
+heavy_cruiser = 0                          # 重巡洋艦     [ 巡洋艦/原子力/イージス ]          [ 巡洋級 ]
+battlecruiser = 0                          # 巡洋戦艦     [ ロケット砲艦 ]                    [  ]
+destroyer = 0                              # 駆逐艦       [ 駆逐艦/原子力/イージス ]          [ 駆逐級 ]
+carrier = 0                                # 空母         [ 空母/原子力空母 ]                 [ 空母級 ]
+escort_carrier = 0                         # 軽空母       [ ヘリ空母 ]                        [ 軽空母級 ]
+submarine = 0                              # 潜水艦       [ 巡洋/攻撃潜水艦 ]                 [ 潜水級 ]
+nuclear_submarine = 0                      # 原子力潜水艦 [ 原子力潜水艦 ]                    [  ]
+transport = 0                              # 輸送船       [ 輸送艦/揚陸艦 ]                   [ 輸送級 ]
+# 0
+
+# 旅団生産割合 
+# 注意：100%以下に設定してください
+# 陸軍
+artillery = 0                              # 砲兵         [ 自走榴弾砲 ]                      [  ]
+sp_artillery = 0                           # 自走法       [ 自走荷電粒子砲 ]                  [  ]
+rocket_artillery = 0                       # ロケット砲   [  ]                                [  ]
+sp_rct_artillery = 0                    # 自走ロケット [ 自走ロケット砲 ]                  [  ]
+anti_tank = 0                              # 対戦車砲     [ 自走電磁投射砲 ]                  [  ]
+tank_destroyer = 0                         # 駆逐戦車     [ VBL装甲車 ]                       [  ]
+light_armor_brigade = 10                   # 軽戦車旅団   [  ]                                [ 戦車級 ]
+heavy_armor = 15                           # 重戦車旅団   [  ]                                [ 兵士級 ]
+super_heavy_armor = 10                     # 超重戦車     [  ]                                [ 光線級 ]
+armored_car = 0                            # 装甲車       [ 多脚運搬車両 ]                    [  ]
+anti_air =  0                              # 対空旅団     [ 自走対空砲 ]                      [  ]
+police =  0                                # 憲兵         [  ]                                [  ]
+engineer =  0                              # 工兵         [  ]                                [  ]
+
+# 海軍
+#注意：100%に設定してください
+cag    = 100                               # 空母航空団   [ 空母航空隊 ]                      [  ]
+}
+
+
+### 空軍設定 
+
+air_marshal = {
+
+icxdayscostfactor = 10.0                   # 結果を予想してから真のICコストを算定します
+manpowercostfactor = 100.0                 # 結果を予想してから真の人的資源コストを算定します
+destructionriskthreashold = 0.2            # 師団が壊滅するかもしれない恐れがあるとき（？）
+airsuperioritydesirability = 10.0          # これはミッションの「願わしさ」を計算するとき使われる乗数です
+airsuperioritylosstolerance = 1.0          # これは自軍の損害に対する寛容さです
+
+#２.０があなたの敵の損失の２倍を受け入れます、０.５が２分の１を受け入れます
+groundattacklosstolerance = 1.0
+groundattackdesirability = 1.0
+interdictionlosstolerance = 1.5
+inderdictiondesirability = 1.0
+logisticalstrikelosstolerance = 4.5
+logisticalstrikeefficency = 0.01 
+
+#これはこの任務でどのくらいの損害が出るか、それを評価するときに適用されるパラメーターです。（「願わしさ」と混同しないこと）
+logisticalstrikedesirability = 100000.0
+runwaycrateringlosstolerance = 1.5
+runwaycrateringefficency = 0.01
+runwaycrateringdesirability = 20000.0
+strategicstriketolerance = 4.5
+strategicstrikeefficency = 0.01
+strategicstrikedesirability = 1000000.0
+installationstriketolerance = 1.5
+installationstrikeefficency = 0.01
+installationstrikedesirability = 10.0
+navalstriketolerance = 1.0
+navalstrikedesirability = 10.0
+portstriketolerance = 1.0
+portstrikedesirability = 9.0↑
+
+# 任務の比重
+#あなたは任務の比重を変えることが出来ます
+#しかし、合計が1になるように設定しなければなりません
+# デフォルトは[yes]です：
+
+taskforcetype = { 
+name = "Air Superiority"                   # 名前は、ただデバッグを容易にするために使われるだけです
+desiredratio = 0.400                       # この任務を実行する比率です
+rangeweight = 10.000                       # この任務において、航続距離がどの程度重要か
+
+#この任務において攻撃力がどの程度重要か
+airkillpowerweight = 2000.000 
+hardkillpowerweight = 0.000 
+softkillpowerweight = 0.000  
+navalkillpowerweight = 0.000 
+strategickillpowerweight = 0.000 		
+
+#この項目に設定された数字は、莫大なマイナスを保つようにしてください
+transportcapacityweight = -1000000.000 
+
+# 敵空軍の存在に対する脆弱性（？）
+airvulnurabilityweight = -1.000  
+
+# AIは、この空軍の任務をいかに考慮すべきですか
+surfacevulnurabilityweight = 0.000
+
+#「任務未設定」はAIがなにもしないときに選択する任務です。
+#「再組織」はAIが部隊を再編成するときに選択する任務です。
+# 可能なミッションは以下のとおり：
+		idle = yes 
+		reorganize = yes 
+		air_superiority = yes 
+ #Others not supported by the "Air Superiority" default taskforce type
+ #interdiction
+ #ground_attack
+ #logistical_strike
+ #runway_cratering
+ #strategic_bombardment
+ #installation_strike
+ #naval_strike
+ #port_strike
+ #convoy_air_raiding
+ #airborne_assault
+ #air_supply 	
+}
+
+#他のデフォルト
+taskforcetype = { name = "Soft Bombing" desiredratio = 0.200 rangeweight = 10.000
+airkillpowerweight = 0.000 hardkillpowerweight = 0.000 softkillpowerweight = 2000.000
+navalkillpowerweight = 0.000 strategickillpowerweight = 0.000 transportcapacityweight = -1000000.000
+airvulnurabilityweight = 0.000 surfacevulnurabilityweight = -1.000 idle = yes reorganize = yes interdiction = yes ground_attack = yes }
+taskforcetype = { name = "Hard Bombing" desiredratio = 0.100 rangeweight = 10.000
+airkillpowerweight = 0.000 hardkillpowerweight = 2000.000 softkillpowerweight = 0.000
+navalkillpowerweight = 0.000 strategickillpowerweight = 0.000 transportcapacityweight = -1000000.000
+airvulnurabilityweight = 0.000 surfacevulnurabilityweight = -1.000 idle = yes reorganize = yes interdiction = yes ground_attack = yes }
+taskforcetype = { name = "Strategic Bombing" desiredratio = 0.100 rangeweight = 10.000
+airkillpowerweight = 0.000 hardkillpowerweight = 0.000 softkillpowerweight = 0.000
+navalkillpowerweight = 0.000 strategickillpowerweight = 2000.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = -0.500
+surfacevulnurabilityweight = -0.500 idle = yes
+reorganize = yes logistical_strike = yes runway_cratering = yes strategic_bombardment = yes installation_strike = yes }
+taskforcetype = { name = "Naval Bombing" desiredratio = 0.100 rangeweight = 10.000
+airkillpowerweight = 0.000 hardkillpowerweight = 0.000 softkillpowerweight = 0.000
+navalkillpowerweight = 2000.000 strategickillpowerweight = 0.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = 0.000
+surfacevulnurabilityweight = -1.000 idle = yes
+reorganize = yes naval_strike = yes port_strike = yes convoy_air_raiding = yes }
+taskforcetype = { name = "Airlift" desiredratio = 0.100 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = -2000.000
+softkillpowerweight = -2000.000 navalkillpowerweight = 0.000
+strategickillpowerweight = -2000.000 transportcapacityweight = 1000000.000 airvulnurabilityweight = -1.000 surfacevulnurabilityweight =
+0.000 idle = yes reorganize = yes airborne_assault = yes air_supply = yes }
+
+}
+
+
+### 将軍昇進割合 
+
+# この値は、貴方が持っているリーダーの数に掛ける数字です
+# 例えば、もし貴方が100人リーダーを持っていて、そのうちの２人が元帥になることを望むなら、0.02と設定してください
+leader_ratio = {
+	land_field_marshal =0.02                               # 陸軍元帥
+	land_general =0.031                                    # 陸軍大将
+	land_lt_general =0.41                                  # 陸軍中将
+	
+	sea_grand_admiral =0.02                                # 海軍元帥
+	sea_admiral =0.061                                     # 海軍大将
+	sea_vice_admiral =0.401                                # 海軍中将
+	
+	air_marshal =0.02                                      # 空軍元帥
+	air_general =0.091                                     # 空軍大将
+	air_lt_General =0.11                                   # 空軍中将
+}
+
+### 侵攻判断 
+# aiによる強襲上陸に関係している要因
+# 特定のプロヴィンスの評価
+invasion = {
+
+base = 1.0                                                 # 相対的な修正。（より低い値が、より重要だという評価です）
+random = 1.0                                               # ランダム修正の範囲 （１.０ ＝ １％）
+coastal = 1.0                                              # 数字を大きくすると、沿岸要塞をより避けます
+beach = 1.0                                                # 数字を大きくすると、最悪の海岸を避けます
+distance = 1.0                                             # より高いと、遠距離の目標を避けます
+max_distance = 20.0                                        # これより遠距離の目標は無視されます。1 = 100km
+pocket = 1.0                                               # prioritise pockets, ie provinces with no adjacent controlled by same.
+island = 1.0                                               # 島を優先的に攻略します
+enemy = 1.0                                                # 上陸先の敵部隊を警戒します
+adjacentenemy = 1.0                                        # 上陸先近くの敵部隊を警戒します。
+air_base = 0.1                                             # 空軍基地があるかどうかを重要視します
+naval_base = 0.1                                           # 海軍基地があるかどうかを重要視します
+air_support = 0.1                                          # 空軍基地が近くにあるかどうかを重要視します
+                                              # 自国の中核州で戦闘があっても、上陸をするか否か　デフォルト：no
+
+# AIは上陸の優先順位をこの項目で参照します
+#「nearest」は最も近く、適当な場所を選択します
+#「home」は自国の港に引き返します
+redirect = priority/nearest/home
+
+# 特定のプロヴィエンスへの上陸
+
+# 特定の州が特別な優先順位ボーナスを得るために設定する項目です
+# 南シシリー（898）がとても高い優先順位を持っています。 （マイナスに設定すると、上陸を避けるようになります）
+target = {
+	}
+
+}
+
+
+### 海軍関連 
+# 海軍のAIを設定する
+admiral = {
+
+# 特定の海域をパトロールさせることが出来ます
+# この場合、南北海（592）のパトロールを重要視します
+target = {
+	}
+	
+# これは、592が重要な海域であり、そこを支配することが目標になっているという意味です
+core = {
+	}
+
+# どの州を拠点として使用するか設定します
+base = {                                                   
+	} 
+
+# どの海域を無視するか設定します
+# 海域名で指定してください。 プロヴィンス名ではありません
+ignore = {
+}
+
+min_org  = 1%                                              # ユニットが撤退できる最低組織率
+min_dmg  = 1%                                              # ユニットが撤退できる最低ダメージ
+return_org  = 1%                                           # すべての艦隊/ユニットが撤退すべき組織率
+return_dmg  = 1%                                           # すべての艦隊/ユニットが撤退すべきダメージ
+
+}
+
+
+### 技術開発 
+# 技術的な開発のために修正するべき要因
+technology = {
+
+endgoal = {  }                                             # そこで終了すべき技術のリスト
+preference = {  }                                          # 優先すべき技術のリスト
+ignore = {  }                                              # 決して研究しないであろう技術
+
+# これらの値にしたがって優先度が決定されます
+armor = 0                                                  # 戦車             [ 戦術機 ]
+infantry = 0                                               # 歩兵・戦車       [ 歩兵/装甲 ]
+industry = 0                                               # 産業技術         [ 工業技術 ]
+aircraft = 0                                               # 航空機開発
+naval = 0                                                  # 艦艇開発
+land_doctrines = 0                                         # 陸軍ドクトリン
+air_doctrines = 0                                          # 空軍ドクトリン
+naval_doctrines = 0                                        # 海軍ドクトリン
+secret_weapons = 0                                         # 秘密兵器
+
+}
+
+
+### 貿易
+trade = {
+
+# -1 (デフォルト値）に設定されない場合、これらの値は"db\resource_values.csv"に設定された値より優先されます
+energy 		= -1 # エネルギー
+rare_materials 	= -1 # 希少資源
+metal 		= -1 # 鉄
+oil 		= -1 # 石油
+supplies 	= -1 # 物資
+money 		= -1 # 金
+
+favored = { }                                              # 貿易相手として望ましい国
+embargo = { }                                              # 貿易相手として望ましくない国
+
+}
+
+
+### 技術取引
+
+tech_sharing = {                                           # 技術交流をするかどうか。高ければ高いほど技術交流が盛んです
+	favored = { }                                      # 技術交換に望ましい国。より高い値はより良い技術を交換することを意味します
+	embargo = { }                                      # 技術交換に望ましくない国
+	not = { }                                          # 決して取引しない技術のリスト
+	prioritized = { }                                  # 技術を差し出した場合、これらはより相手に重要視されます
+} 
+
+
+### スパイ
+spyprefs = {
+percentage_on_spies = 0.2                                  # 国がスパイを送るために費やす収入の割合（？）：スパイを送るために費やす割合（？）
+percentage_foreign_mission = 0.7                           # 国がスパイ活動に費やす収入の割合（？）：ミッションに費やす割合（？）
+#上の項目と説明の原文が重複しています。上記の説明は推測です
+
+# 記述の開始(入れ子1) ,自国での防諜活動
+spyprefsdata = { 
+NumberOfSpies = 3                                          # 自国に送るスパイ？
+counter_espionage =  10                                    # スパイ抹殺の頻度？
+home_defence  = yes                                        # 自国で防諜を行うか？
+# 記述の終了(入れ子1)
+}
+
+# 記述の開始(入れ子2)
+spyprefsdata = {
+country_priorities = 10                                    # スパイ活動（暗殺、青写真奪取など）を積極的に行うかどうか。1から10までの整数で設定、高いほど積極的
+NumberOfSpies = 10                                         # この数に達するまでスパイを送り込む
+min_number_of_spies = 2                                    # この数に達するまでスパイ活動は行われない
+
+#以下の数は、必ず整数で設定すること(複数回使用可)
+		steal_blueprint = 0                        # 青写真奪取
+		minister_assassination = 0                 # 閣僚暗殺
+		smear_campaign = 0                         # 中傷
+		coup = 0                                   # クーデター扇動
+		sabotage_industry = 0                      # 生産妨害
+		nuclear_sabotage = 0                       # 核兵器破壊
+		found_partisans = 0                        # パルチザン支援
+		massmedia = 0                              # 世論操作
+		counter_espionage = 15                     # スパイ抹殺
+		disrupt_techteam = 0                       # 研究妨害
+ 		country = U31                              # 目標とする国家
+  	}
+# 記述の終了(入れ子2)
+}

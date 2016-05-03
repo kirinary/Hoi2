@@ -1,0 +1,705 @@
+##############################################################
+##
+## オルタネイティヴ6(36101~362000)
+##
+##############################################################
+##
+## id = 36101	オルタネイティヴ6予備計画召集(U06)
+## id = 36102	オルタネイティヴ6本部誘致(U06)
+## id = 36103	オルタネイティヴ6本部誘致(JAP)
+## id = 36104	オルタネイティヴ6本部誘致(USA)
+## id = 36105	オルタネイティヴ6本部決定(U06)
+## id = 36106	オルタネイティヴ6本部-日本-(U06)
+## id = 36107	オルタネイティヴ6本部-日本-(JAP)
+## id = 36108	オルタネイティヴ6本部-日本-(USA)
+## id = 36109	オルタネイティヴ6本部-アメリカ-(U06)
+## id = 36110   オルタネイティヴ6本部-アメリカ-(JAP)
+## id = 36111	オルタネイティヴ6本部-アメリカ-(USA)
+## id = 36112	横浜基地拡張(JAP)
+## id = 36113	ロスアラモス研究所拡張(U06)
+## id = 36114	オルタネイティヴ6本格始動
+## id = 36115	量子電導脳開発
+## id = 36116	移民船団改装計画
+## id = 36117	第1次改装計画
+## id = 36118	第2次改装計画
+## id = 36119	第3次改装計画
+## id = 36120   軌道巡航型戦術機母艦
+## id = 36121	軌道降下戦術の改良
+## id = 36122	MIRVデコイ
+## id = 36123	XG-70量産化計画
+## id = 36124	A-01連隊再建計画
+## id = 36125	ヴァルキリーズ･データ
+## id = 36126	プラチナコード
+## id = 36127	
+## id = 36128	
+## id = 36129
+## id = 36130		
+##
+##############################################################
+event = {
+	id = 36101
+	random = no
+	country = U06
+	trigger = {
+                  event = 50112
+       }
+
+	name = "オルタネイティヴ6予備計画召集"
+	desc = "EVT_36101_DESC" 
+	style = 0
+
+	date = { day = 16 month = 5 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "予備計画を召集する"                
+                command = { type = setflag which = Alternative6 }
+ }
+}
+
+event = {
+	id = 36102
+	random = no
+	country = U06
+	trigger = {
+                  event = 36101
+                  flag = Alternative6
+       }
+
+	name = "オルタネイティヴ6本部誘致"
+	desc = "EVT_36102_DESC" 
+	style = 0
+
+	date = { day = 16 month = 5 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "本部候補を調査する"                
+                command = { type = setflag which = Alternative6Base }
+ }
+}
+
+event = {
+	id = 36103
+	random = no
+	country = JAP
+	trigger = {
+                  event = 36101
+                  flag = Alternative6
+       }
+
+	name = "オルタネイティヴ6本部誘致"
+	desc = "EVT_36103_DESC" 
+	style = 0
+
+	date = { day = 16 month = 5 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "本部を誘致する"
+                command = { type = setflag which = Alternative6JAPBase }
+ }
+}
+
+event = {
+	id = 36104
+	random = no
+	country = USA
+	trigger = {
+                  event = 36101
+                  flag = Alternative6
+       }
+
+	name = "オルタネイティヴ6本部誘致"
+	desc = "EVT_36104_DESC" 
+	style = 0
+
+	date = { day = 16 month = 5 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "本部を誘致する"
+                command = { type = setflag which = Alternative6USABase }
+ }
+}
+
+event = {
+	id = 36105
+	random = no
+	country = U06
+	trigger = {
+                  event = 36102
+                  flag = Alternative6Base
+                  flag = Alternative6JAPBase
+                  flag = Alternative6USABase
+       }
+
+	name = "オルタネイティヴ6本部決定"
+	desc = "EVT_36105_DESC" 
+	style = 0
+
+	date = { day = 25 month = 10 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "日本に決定する"
+                ai_chance = 100             
+                command = { type = setflag which = Alternative6JAPBase2 }
+ }
+        action_b = {
+		name = "アメリカに決定する"
+                ai_chance = 0            
+                command = { type = setflag which = Alternative6USABase2 }
+ }
+}
+
+event = {
+	id = 36106
+	random = no
+	country = U06
+	trigger = {
+                  event = 36105
+                  flag = Alternative6JAPBase2
+       }
+
+	name = "オルタネイティヴ6本部-日本-"
+	desc = "EVT_36106_DESC" 
+	style = 0
+
+	date = { day = 25 month = 10 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "日本に決定する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36107
+	random = no
+	country = JAP
+	trigger = {
+                  event = 36105
+                  flag = Alternative6JAPBase2
+       }
+
+	name = "オルタネイティヴ6本部-日本-"
+	desc = "EVT_36107_DESC" 
+	style = 0
+
+	date = { day = 25 month = 10 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36108
+	random = no
+	country = USA
+	trigger = {
+                  event = 36105
+                  flag = Alternative6JAPBase2
+       }
+
+	name = "オルタネイティヴ6本部-日本-"
+	desc = "EVT_36108_DESC" 
+	style = 0
+
+	date = { day = 25 month = 10 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36109
+	random = no
+	country = U06
+	trigger = {
+                  event = 36105
+                  flag = Alternative6USABase2
+       }
+
+	name = "オルタネイティヴ6本部-アメリカ-"
+	desc = "EVT_36109_DESC" 
+	style = 0
+
+	date = { day = 25 month = 10 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "アメリカに決定する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36110
+	random = no
+	country = JAP
+	trigger = {
+                  event = 36105
+                  flag = Alternative6USABase2
+       }
+
+	name = "オルタネイティヴ6本部-アメリカ-"
+	desc = "EVT_36110_DESC" 
+	style = 0
+
+	date = { day = 25 month = 10 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36111
+	random = no
+	country = USA
+	trigger = {
+                  event = 36105
+                  flag = Alternative6USABase2
+       }
+
+	name = "オルタネイティヴ6本部-アメリカ-"
+	desc = "EVT_36111_DESC" 
+	style = 0
+
+	date = { day = 25 month = 10 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36112
+	random = no
+	country = JAP
+	trigger = {
+                  flag = Alternative6JAPBase2
+       }
+
+	name = "横浜基地拡張"
+	desc = "EVT_36112_DESC" 
+	style = 0
+
+	date = { day = 9 month = 4 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = supplies value = -10000 }
+                command = { type = money value = -500 }
+                command = { type = local_setflag which = Alternative6Start }
+ }
+}
+
+event = {
+	id = 36113
+	random = no
+	country = USA
+	trigger = {
+                  flag = Alternative6USABase2
+       }
+
+	name = "ロスアラモス研究所拡張"
+	desc = "EVT_36113_DESC" 
+	style = 0
+
+	date = { day = 9 month = 4 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = supplies value = -10000 }
+                command = { type = money value = -500 }
+                command = { type = local_setflag which = Alternative6Start }
+ }
+}
+
+event = {
+	id = 36114
+	random = no
+	trigger = {
+                  local_flag = Alternative6Start
+       }
+
+	name = "オルタネイティヴ6本格始動"
+	desc = "EVT_36114_DESC" 
+	style = 0
+
+	date = { day = 12 month = 5 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "すばらしい"
+                command = { type = supplies value = -5000 }
+                command = { type = money value = -200 }
+                command = { type = local_setflag which = Alternative6Start2 }
+ }
+}
+
+event = {
+	id = 36115
+	random = no
+	trigger = {
+                  local_flag = Alternative6Start2
+       }
+
+	name = "量子電導脳開発"
+	desc = "EVT_36115_DESC" 
+	style = 0
+
+	date = { day = 27 month = 8 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "開発を行うのだ"
+                command = { type = money value = -500 }
+                command = { type = local_setflag which = QuantumComputer }
+ }
+}
+
+event = {
+	id = 36116
+	random = no
+	trigger = {
+                  local_flag = Alternative6Start2
+       }
+
+	name = "移民船団改装計画"
+	desc = "EVT_36116_DESC" 
+	style = 0
+
+	date = { day = 8 month = 10 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "計画を実行する"
+                ai_chance = 95
+                command = { type = money value = -200 }
+                command = { type = supplies value = -30000 }
+                command = { type = local_setflag which = ImmigrationFleet  }
+ }
+        action_b = {
+		name = "計画を破棄する"
+                ai_chance = 5
+                command = { }
+ }
+}
+
+event = {
+	id = 36117
+	random = no
+	trigger = {
+                  local_flag = ImmigrationFleet
+       }
+
+	name = "第1次改装計画"
+	desc = "EVT_36117_DESC" 
+	style = 0
+
+	date = { day = 1 month = 1 year = 2006 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = add_division which = "第1特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第2特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第3特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第4特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第1特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+		command = { type = add_division which = "第2特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+		command = { type = add_division which = "第3特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+		command = { type = add_division which = "第4特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+ }
+}
+
+event = {
+	id = 36118
+	random = no
+	trigger = {
+                  local_flag = ImmigrationFleet
+       }
+
+	name = "第2次改装計画"
+	desc = "EVT_36118_DESC" 
+	style = 0
+
+	date = { day = 1 month = 6 year = 2006 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = add_division which = "第5特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第6特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第7特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第8特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第5特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+		command = { type = add_division which = "第6特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+		command = { type = add_division which = "第7特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+		command = { type = add_division which = "第8特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+ }
+}
+
+event = {
+	id = 36119
+	random = no
+	trigger = {
+                  local_flag = ImmigrationFleet
+       }
+
+	name = "第3次改装計画"
+	desc = "EVT_36119_DESC" 
+	style = 0
+
+	date = { day = 1 month = 11 year = 2006 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = add_division which = "第9特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第10特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第11特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第12特務再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第9特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+		command = { type = add_division which = "第10特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+		command = { type = add_division which = "第11特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+		command = { type = add_division which = "第12特務装甲駆逐戦隊" value = d_rsv_34 when = 0 }#
+ }
+}
+
+event = {
+	id = 36120
+	random = no
+	trigger = {
+                  local_flag = ImmigrationFleet
+       }
+
+	name = "軌道巡航型戦術機母艦"
+	desc = "EVT_36120_DESC" 
+	style = 0
+
+	date = { day = 24 month = 11 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "開発する"
+                ai_chance = 90
+                command = { type = money value = -200 }
+                command = { type = paradrop_attack which = paratrooper value = 10 }
+ }
+        action_b = {
+		name = "妄想の産物だ"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 36121
+	random = no
+	trigger = {
+                  local_flag = ImmigrationFleet
+       }
+
+	name = "軌道降下戦術の改良"
+	desc = "EVT_36121_DESC" 
+	style = 0
+
+	date = { day = 2 month = 0 year = 2006 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "研究する"
+                ai_chance = 90
+                command = { type = money value = -200 }
+                command = { type = paradrop_attack which = paratrooper value = 10 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 36122
+	random = no
+	trigger = {
+                  local_flag = ImmigrationFleet
+       }
+
+	name = "MIRVデコイ"
+	desc = "EVT_36122_DESC" 
+	style = 0
+
+	date = { day = 16 month = 2 year = 2006 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "開発する"
+                ai_chance = 90
+                command = { type = money value = -200 }
+                command = { type = paradrop_attack which = paratrooper value = 10 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 36123
+	random = no
+	trigger = {
+                  local_flag = QuantumComputer
+       }
+
+	name = "XG-70量産化計画"
+	desc = "EVT_36123_DESC" 
+	style = 0
+
+	date = { day = 7 month = 11 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "計画を推進する"
+                ai_chance = 90
+                command = { type = money value = -500 }
+                command = { type = supplies value = -5000 }
+                command = { type = build_cost which = motorized where = relative value = 10 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 36124
+	random = no
+	trigger = {
+                  local_flag = Alternative6Start2
+       }
+
+	name = "A-01連隊再建計画"
+	desc = "EVT_36124_DESC" 
+	style = 0
+
+	date = { day = 12 month = 6 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "再建する"
+                ai_chance = 90
+                command = { type = money value = -500 }
+                command = { type = supplies value = -5000 }
+		command = { type = add_division which = "柏木大隊" value = paratrooper when = 13 where = artillery }
+		command = { type = add_division which = "伊隅大隊" value = paratrooper when = 13 where = artillery }
+		command = { type = add_division which = "速瀬大隊" value = paratrooper when = 13 where = artillery }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 36125
+	random = no
+	trigger = {
+                  local_flag = Alternative6Start2
+       }
+
+	name = "ヴァルキリーズ･データ"
+	desc = "EVT_36125_DESC" 
+	style = 0
+
+	date = { day = 12 month = 7 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "活用する"
+                ai_chance = 90
+                command = { type = money value = -500 }
+                command = { type = supplies value = -5000 }
+		command = { type = surprise which = land value = 10 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 36126
+	random = no
+	trigger = {
+                  local_flag = Alternative6Start2
+       }
+
+	name = "プラチナコード"
+	desc = "EVT_36126_DESC" 
+	style = 0
+
+	date = { day = 25 month = 8 year = 2005 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "活用する"
+                ai_chance = 90
+                command = { type = money value = -500 }
+                command = { type = supplies value = -5000 }
+		command = { type = surprise which = land value = 10 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 10
+		command = { }
+ }
+}

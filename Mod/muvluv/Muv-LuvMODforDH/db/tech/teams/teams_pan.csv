@@ -1,0 +1,10 @@
+PAN;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+5700;チキータ社;T_PAN_Chiquita;2;1930;2100;industrial_engineering;chemistry;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5701;エストレージャ砂糖会社;T_PAN_Azucarera;2;1930;2100;industrial_engineering;chemistry;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5702;パナマ運河会社;T5700;3;1930;2100;mechanics;seamanship;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5703;パナマ運河会社;T5700;4;1946;2100;mechanics;seamanship;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5704;パナマ運河造船所;T5701;3;1930;2100;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5705;パナマ運河造船所;T5701;4;1946;2100;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5706;国家警察;T_PAN_Police;4;1930;2100;small_unit_tactics;training;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5707;レモン・カンテラ;T5702;4;1942;2100;large_unit_tactics;training;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5708;パナマ大学;T_PAN_Universidad;2;1935;2100;mathematics;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

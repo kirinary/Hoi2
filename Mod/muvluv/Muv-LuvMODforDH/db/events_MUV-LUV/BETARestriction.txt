@@ -1,0 +1,2535 @@
+event = {
+	id = 60101
+	random = no 
+	country = -1
+        persistent = yes
+	trigger = {
+		ai = yes
+                technology = 7020
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1998 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+                #command = { type = surprise which = land value = 20 }
+	}
+}
+
+event = {
+	id = 60102
+	random = no 
+	country = -1
+        persistent = yes
+	trigger = {
+		ai = yes
+                technology = 7020
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 2001 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 2001 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+                #command = { type = surprise which = land value = 20 }
+	}
+}
+
+event = {
+	id = 60301
+	random = no 
+	country = -1
+        persistent = yes
+	trigger = {
+                event = 50110
+		ai = yes
+                participant = { country = -1 value = 3 }
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 2002 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 2002 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.7 }
+	}
+}
+
+event = {
+	id = 60308
+	random = no 
+	country = U12
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U12_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60309
+	random = no 
+	country = U13
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U13_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+event = {
+	id = 60310
+	random = no 
+	country = U14
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U14_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60311
+	random = no 
+	country = U15
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U15_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+event = {
+	id = 60312
+	random = no 
+	country = U16
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U16_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+event = {
+	id = 60313
+	random = no 
+	country = U17
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U17_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+event = {
+	id = 60314
+	random = no 
+	country = U18
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U18_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+
+event = {
+	id = 60315
+	random = no 
+	country = U19
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U19_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+event = {
+	id = 60316
+	random = no 
+	country = U20
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U20_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+event = {
+	id = 60317
+	random = no 
+	country = U22
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U22_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+
+event = {
+	id = 60318
+	random = no 
+	country = U23
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U23_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+event = {
+	id = 60319
+	random = no 
+	country = U24
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U24_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+
+event = {
+	id = 60320
+	random = no 
+	country = U25
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U25_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+
+event = {
+	id = 60321
+	random = no 
+	country = U26
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U26_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+
+event = {
+	id = 60322
+	random = no 
+	country = U27
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U27_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+
+event = {
+	id = 60323
+	random = no 
+	country = U28
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U28_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+event = {
+	id = 60324
+	random = no 
+	country = U29
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U29_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+
+event = {
+	id = 60325
+	random = no 
+	country = U30
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U30_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60326
+	random = no 
+	country = U31
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+		command = { type = ai which = U31_1998L.ai }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+#####################################################################################################################
+
+event = {
+	id = 60008
+	random = no 
+	country = U12
+	trigger = {
+		ai = yes
+                event = 50109
+	}
+	name = "ç˜â‘çÏêÌÇÃâeãø"
+	desc = "ózìÆå¯â "
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = soft_attack which = garrison value = -60 }
+                command = { type = hard_attack which = garrison value = -60 }
+                command = { type = defensiveness which = garrison value = -60 }
+                command = { type = toughness which = garrison value = -60 }
+	}
+}
+
+event = {
+	id = 60009
+	random = no 
+	country = U12
+	trigger = {
+                control = { province = 1193 data = -3 }
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = sleepevent which = 41001 }
+                command = { type = sleepevent which = 41002 }
+                command = { type = sleepevent which = 41003 }
+                command = { type = sleepevent which = 500051 }
+                command = { type = sleepevent which = 500052 }
+                command = { type = sleepevent which = 500053 }
+                command = { type = sleepevent which = 500054 }
+                command = { type = sleepevent which = 50006 }
+                command = { type = sleepevent which = 50007 }
+                command = { type = sleepevent which = 50008 }
+                command = { type = sleepevent which = 50009 }
+	}
+}
+
+event = {
+	id = 60010
+	random = no 
+	country = U12
+	trigger = {
+                control = { province = 1323 data = -3 }
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = sleepevent which = 41008 }
+                command = { type = sleepevent which = 41009 }
+	}
+}
+
+event = {
+	id = 60011
+	random = no 
+	country = U12
+	trigger = {
+                control = { province = 525 data = -3 }
+                control = { province = 526 data = -3 }
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = sleepevent which = 41011 }
+	}
+}
+
+##########################################################################################################
+
+event = {
+	id = 60012
+	random = no 
+	country = U32
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U32_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60013
+	random = no 
+	country = U33
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U33_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60014
+	random = no 
+	country = U34
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U34_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60015
+	random = no 
+	country = U35
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U35_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60016
+	random = no 
+	country = U36
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U36_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60017
+	random = no 
+	country = U37
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U37_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60018
+	random = no 
+	country = U38
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U38_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60019
+	random = no 
+	country = U39
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U39_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60020
+	random = no 
+	country = U40
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U40_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60021
+	random = no 
+	country = U41
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U41_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60022
+	random = no 
+	country = U42
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U42_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60023
+	random = no 
+	country = U43
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U43_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60024
+	random = no 
+	country = U44
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U44_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60025
+	random = no 
+	country = U45
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U45_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60026
+	random = no 
+	country = U46
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U46_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60027
+	random = no 
+	country = U47
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U47_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60028
+	random = no 
+	country = U48
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U48_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60029
+	random = no 
+	country = U49
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U49_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60030
+	random = no 
+	country = U50
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U50_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60031
+	random = no 
+	country = U51
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U51_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60032
+	random = no 
+	country = U52
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U52_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60033
+	random = no 
+	country = U53
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U53_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60034
+	random = no 
+	country = U54
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U54_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60035
+	random = no 
+	country = U55
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U55_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60036
+	random = no 
+	country = U56
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U56_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60037
+	random = no 
+	country = U57
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U57_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60038
+	random = no 
+	country = U58
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U58_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60039
+	random = no 
+	country = U59
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U59_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60040
+	random = no 
+	country = U60
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U60_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60041
+	random = no 
+	country = U61
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U61_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60042
+	random = no 
+	country = U62
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U62_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60043
+	random = no 
+	country = U63
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U63_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60044
+	random = no 
+	country = U64
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U64_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60045
+	random = no 
+	country = U65
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U65_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60046
+	random = no 
+	country = U66
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U66_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60047
+	random = no 
+	country = U67
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U67_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60048
+	random = no 
+	country = U68
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U68_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60049
+	random = no 
+	country = U69
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U69_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60050
+	random = no 
+	country = U70
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U70_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60051
+	random = no 
+	country = U71
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U71_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60052
+	random = no 
+	country = U72
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U72_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60053
+	random = no 
+	country = U73
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U73_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60054
+	random = no 
+	country = U74
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U74_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60055
+	random = no 
+	country = U75
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U75_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60056
+	random = no 
+	country = U76
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U76_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60057
+	random = no 
+	country = U77
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U77_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60058
+	random = no 
+	country = U78
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U78_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60059
+	random = no 
+	country = U79
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U79_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60060
+	random = no 
+	country = U80
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U80_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 60061
+	random = no 
+	country = U81
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.9 }
+		command = { type = ai which = U81_1998L.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = on_upgrade where = relative value = -100000 }
+                command = { type = build_time which = infantry when = on_upgrade where = relative value = 100000 }
+	}
+}

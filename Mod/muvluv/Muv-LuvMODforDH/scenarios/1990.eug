@@ -1,0 +1,88 @@
+name       = "1990_SCENARIO"
+panel      = "scenarios/data/scenario_1990A.bmp"
+header =
+{ name             = "The_BETA_earth_invasion"
+  startdate        = { year = 1990 }
+  selectable       = { JAP SOV USA U01 U02 U03 U04 U05 U06 U08 U09 AST CAN NZL MON ISR }
+  JAP              = { desc = JAP_90_DESC }
+  SOV              = { desc = SOV_90_DESC }
+  USA              = { desc = USA_90_DESC }
+  U01              = { desc = U01_90_DESC }
+  U02              = { desc = U02_90_DESC }
+  U03              = { desc = U03_90_DESC }
+  U04              = { desc = U04_90_DESC }
+  U05              = { desc = U05_90_DESC }
+  U06              = { desc = U06_90_DESC }
+  set_ai_aggresive = 2
+  set_difficulty   = 2
+  set_gamespeed    = 7
+}
+globaldata =
+{ enddate   = { year = 2100 month = 11 day = 28 }
+  allies =
+  { id          = { type = 15000 id = 1 }
+   participant  = { JAP SOV USA U01 U02 U03 U04 U05 U06 U08 U09 AST CAN NZL MON ISR }
+  }
+  comintern =
+  { id          = { type = 15000 id = 2 }
+    participant = { U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 }
+  }
+  war =
+  { id        = { type = 9430 id = 4 }
+    date      = { year = 1973 month = 0 day = 0 }
+    enddate   = { year = 2100 month = 0 day = 0 }
+    attackers =
+    { id          = { type = 9430 id = 5 }
+      participant = { U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 }
+    }
+    defenders =
+    { id          = { type = 9430 id = 6 }
+    participant   = { JAP SOV USA U01 U02 U03 U04 U05 U06 U08 U09 AST CAN NZL MON ISR }
+    }
+  }
+  startdate = { year = 1990 month = 0 day = 0 }
+}
+map =
+{ yes = all
+}
+
+#sleepevent = { 37001 37002 37003 37004 37005 37006 37007 37008 37009 37010 37011 37012 37013 37014 37015 37016 37017 37018 37019 }
+
+# Includes for global data
+include = "db\events_MUV-LUV1990.txt"
+
+# Victory points distribution
+include = "scenarios\1990\vp.inc"
+
+# Include files for each country tag used in the scenario
+include = "scenarios\1990\JAP.inc"
+include = "scenarios\1990\SOV.inc"
+include = "scenarios\1990\U01.inc"
+include = "scenarios\1990\U02.inc"
+include = "scenarios\1990\U03.inc"
+include = "scenarios\1990\U04.inc"
+include = "scenarios\1990\U05.inc"
+include = "scenarios\1990\U06.inc"
+include = "scenarios\1990\U08.inc"
+include = "scenarios\1990\U09.inc"
+include = "scenarios\1990\U12.inc"
+include = "scenarios\1990\U13.inc"
+include = "scenarios\1990\U14.inc"
+include = "scenarios\1990\U15.inc"
+include = "scenarios\1990\U16.inc"
+include = "scenarios\1990\U17.inc"
+include = "scenarios\1990\U18.inc"
+include = "scenarios\1990\U19.inc"
+include = "scenarios\1990\U20.inc"
+include = "scenarios\1990\U22.inc"
+include = "scenarios\1990\U23.inc"
+include = "scenarios\1990\U24.inc"
+include = "scenarios\1990\USA.inc"
+include = "scenarios\1990\AST.inc"
+include = "scenarios\1990\CAN.inc"
+include = "scenarios\1990\NZL.inc"
+include = "scenarios\1990\MON.inc"
+include = "scenarios\1990\ISR.inc"
+
+# Data for provinces, currently not owned by any nation
+include = "scenarios\1990\provinces.inc"

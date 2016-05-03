@@ -1,0 +1,28 @@
+-JSGMEを使ったパッチ適用方法-
+
+1、Muv-LuvMODforDHに画像、研究画像1、研究画像2を入れたものをDarkestHour/Modsにコピーする
+
+2、DarkestHour/Modsの中にJSGMEをインストールする
+
+3、そこにJSGMEのMOD格納フォルダを作る
+
+4、JSGMEのMOD格納フォルダにpatchフォルダを入れる
+
+5、JSGMEを起動してパッチ（muv-luvDH** patch）を適用する
+
+
+正しい形
+
+DarkestHourフォルダ
+  |
+Modsフォルダ
+  |
+Muv-LuvMODforDHフォルダ※1、JSGME、JSGMEのMOD格納フォルダ
+                                        |
+                                muv-luvDH** patchフォルダ
+                                        |
+                                Muv-LuvMODforDHフォルダ※1
+                                        |
+                                ai、config、db、gfxなど
+
+※1　このフォルダは必ず同じ名前にする

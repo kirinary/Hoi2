@@ -1,0 +1,1123 @@
+##############################################################
+##
+## ソ連フレーバーイベント(19001~20000)
+##
+##############################################################
+## 
+## id = 19001	統一中華戦線との関係＋
+## id = 19002	欧州連合との関係＋
+## id = 19003	アメリカ合衆国との関係＋
+## id = 19004	国際連合との関係＋
+## id = 19005	ソビエト連邦との関係＋
+## id = 19006	大東亜連合との関係＋
+## id = 19007	オーストラリアとの関係＋
+## id = 19008	アフリカ連合との関係＋
+## id = 19009	中東連合との関係＋
+## id = 19010	統一中華戦線との関係－
+## id = 19011	欧州連合との関係－
+## id = 19012	アメリカ合衆国との関係－
+## id = 19013	国際連合との関係－
+## id = 19014	ソビエト連邦との関係－
+## id = 19015	大東亜連合との関係－
+## id = 19016	オーストラリアとの関係－
+## id = 19017	アフリカ連合との関係－
+## id = 19018	中東連合との関係－
+## id = 19019	アラスカへの首都の移転について
+## id = 19020
+## id = 19021   ペレストロイカ提唱(SOV)
+## id = 19022   グラスノスチ提唱(SOV)
+## id = 19023   新連邦条約(SOV)
+## id = 19024   8月クーデター(SOV)
+## id = 19025   8月クーデター(USA)
+## id = 19026   8月クーデター(JAP)
+## id = 19027   8月クーデター(U02)
+## id = 19028   マルタ会談(SOV)
+## id = 19029   マルタ会談(USA)
+## id = 19030   冷戦終結(SOV)
+## id = 19031   冷戦終結(USA)
+## id = 19032   冷戦終結(JAP)
+## id = 19033   冷戦終結(U02)
+## id = 19034   冷戦終結(U01)
+## id = 19035   冷戦終結(U03)
+## id = 19036   冷戦終結(U04)
+## id = 19037   冷戦終結(U05)
+## id = 19038   冷戦終結(U06)
+## id = 19039   マルタ会談-決裂-(SOV)
+## id = 19040   マルタ会談-決裂-(USA)
+## id = 19041   キングストン合意(SOV)
+## id = 19042   キングストン合意(USA)
+## id = 19043   キングストン合意-成立-(SOV)
+## id = 19044   キングストン合意-成立-(USA)
+## id = 19045   キングストン合意-決裂-(SOV)
+## id = 19046   キングストン合意-決裂-(USA)
+## id = 19047   アラスカ水爆撤去完了(SOV)
+## id = 19048   アラスカ水爆撤去完了(USA)
+## id = 19049   
+## id = 19050   
+## id = 19051   
+## id = 19052   
+## id = 19053   
+## id = 19054   
+## id = 19055
+## id = 19056
+## id = 19057
+## id = 19058
+## id = 19059
+## id = 19060
+##
+##############################################################
+
+## 各国との融和
+event = {
+	id = 19001
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "統一中華戦線との関係"
+	desc = "EVT_19001_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U05 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 19002
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "欧州連合との関係"
+	desc = "EVT_19002_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U02 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 19003
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_19003_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = 10 } 
+ 	}
+}
+
+event = {
+	id = 19004
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_19004_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = 10 } 
+	}
+}
+
+event = {
+	id = 19005
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "日本帝国との関係"
+	desc = "EVT_19005_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = JAP value = 10 } 
+        }
+}
+
+event = {
+	id = 19006
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_19006_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U04 value = 10 } 
+        }
+}
+
+event = {
+	id = 19007
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "オーストラリアとの関係"
+	desc = "EVT_19007_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = AST value = 10 } 
+        }
+}
+
+event = {
+	id = 19008
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "アフリカ連合との関係"
+	desc = "EVT_19008_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U01 value = 10 } 
+        }
+}
+
+event = {
+	id = 19009
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_19009_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = 10 } 
+        }
+}
+
+event = {
+	id = 19010
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "統一中華戦線との関係"
+	desc = "EVT_19010_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U05 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 19011
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "欧州連合との関係"
+	desc = "EVT_19011_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U02 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 19012
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_19012_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = -10 } 
+ 	}
+}
+
+event = {
+	id = 19013
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_19013_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = -10 } 
+	}
+}
+
+event = {
+	id = 19014
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "日本帝国との関係"
+	desc = "EVT_19014_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = JAP value = -10 } 
+        }
+}
+
+event = {
+	id = 19015
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_19015_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U04 value = -10 } 
+        }
+}
+
+event = {
+	id = 19016
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "オーストラリアとの関係"
+	desc = "EVT_19016_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = AST value = -10 } 
+        }
+}
+
+event = {
+	id = 19017
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "アフリカ連合との関係"
+	desc = "EVT_19017_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U01 value = -10 } 
+        }
+}
+
+event = {
+	id = 19018
+	random = yes
+	country = SOV
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_19018_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = -10 } 
+        }
+}
+
+event = {
+	id = 19019
+	random = no
+	country = SOV
+	trigger = {
+          control = { province = 1521 data = U12 } #ネザメツヌイ
+          control = { province = 1525 data = U12 } #ブラゴヴェシチェンクス
+	}
+
+	name = "アラスカへの首都移転について"
+	desc = "EVT_19019_DESC" 
+	style = 0
+        
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "アラスカへ首都を移転する"
+                ai_chance = 95
+		command = { type = capital which = 908 }
+ }
+        action_b = {
+                name = "その必要はない"
+                ai_chance = 5
+                command = { }
+ }
+}
+
+event = {
+	id = 19021
+	random = no
+	country = SOV
+	trigger = {
+               control = { province = 1170 data = SOV } #ベリゴンスキー
+	}
+
+	name = "ペレストロイカ提唱"
+	desc = "EVT_19021_DESC" 
+	style = 0
+        
+	date = { day = 14 month = 10 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "提唱する"
+                ai_chance = 90
+		command = { type = domestic which = democratic value = 3 }
+		command = { type = domestic which = political_left value = -1 }
+		command = { type = domestic which = free_market value = 2 }
+		command = { type = domestic which = freedom value = 2 }
+                command = { type = setflag which = Perestroika }
+                command = { type = dissent value = 4 }
+ }
+        action_b = {
+                name = "その必要はない"
+                ai_chance = 10
+                command = { type = dissent value = 3 }
+ }
+}
+
+event = {
+	id = 19022
+	random = no
+	country = SOV
+	trigger = {
+               control = { province = 1170 data = SOV } #ベリゴンスキー
+               flag = Perestroika
+	}
+
+	name = "グラスノスチ提唱"
+	desc = "EVT_19022_DESC" 
+	style = 0
+        
+	date = { day = 14 month = 10 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "提唱する"
+                ai_chance = 90
+		command = { type = domestic which = democratic value = 1 }
+		command = { type = domestic which = political_left value = -1 }
+		command = { type = domestic which = free_market value = 3 }
+		command = { type = domestic which = freedom value = 3 }
+                command = { type = setflag which = glasnost }
+                command = { type = dissent value = 2 }
+ }
+        action_b = {
+                name = "その必要はない"
+                ai_chance = 10
+                command = { type = dissent value = 1 }
+ }
+}
+
+event = {
+	id = 19023
+	random = no
+	country = SOV
+	trigger = {
+               control = { province = 1170 data = SOV } #ベリゴンスキー
+               flag = glasnost
+	}
+
+	name = "新連邦条約"
+	desc = "EVT_19023_DESC" 
+	style = 0
+        
+	date = { day = 17 month = 8 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "調印する"
+                ai_chance = 90
+                command = { type = setflag which = UnionofSovereignStates }
+                command = { type = dissent value = 3 }
+ }
+        action_b = {
+                name = "その必要はない"
+                ai_chance = 10
+                command = { }
+ }
+}
+
+event = {
+	id = 19024
+	random = no
+	country = SOV
+	trigger = {
+               control = { province = 1170 data = SOV } #ベリゴンスキー
+               flag = UnionofSovereignStates
+	}
+
+	name = "8月クーデター"
+	desc = "EVT_19024_DESC" 
+	style = 0
+        
+	date = { day = 18 month = 8 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "国家非常事態委員会を鎮圧せよ！"
+                ai_chance = 98
+                command = { type = setflag which = NewGovernment }
+ }
+        action_b = {
+                name = "国家非常事態委員会が正統な政府だ！"
+                ai_chance = 2
+		command = { type = domestic which = democratic value = -4 }
+		command = { type = domestic which = political_left value = 2 }
+		command = { type = domestic which = free_market value = -5 }
+		command = { type = domestic which = freedom value = -5 }
+ }
+}
+
+event = {
+	id = 19025
+	random = no
+	country = USA
+	trigger = {
+               control = { province = 1170 data = SOV } #ベリゴンスキー
+               flag = UnionofSovereignStates
+	}
+
+	name = "8月クーデター"
+	desc = "EVT_19025_DESC" 
+	style = 0
+        
+	date = { day = 18 month = 8 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+                command = { }
+ }
+}
+
+event = {
+	id = 19026
+	random = no
+	country = JAP
+	trigger = {
+               control = { province = 1170 data = SOV } #ベリゴンスキー
+               flag = UnionofSovereignStates
+	}
+
+	name = "8月クーデター"
+	desc = "EVT_19026_DESC" 
+	style = 0
+        
+	date = { day = 18 month = 8 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+                command = { }
+ }
+}
+
+event = {
+	id = 19027
+	random = no
+	country = U02
+	trigger = {
+               control = { province = 1170 data = SOV } #ベリゴンスキー
+               flag = UnionofSovereignStates
+	}
+
+	name = "8月クーデター"
+	desc = "EVT_19027_DESC" 
+	style = 0
+        
+	date = { day = 18 month = 8 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+                command = { }
+ }
+}
+
+event = {
+	id = 19028
+	random = no
+	country = SOV
+	trigger = {
+               flag = NewGovernment
+	}
+
+	name = "マルタ会談"
+	desc = "EVT_19028_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "合意する"
+                ai_chance = 99
+                command = { type = setflag which = MaltaSummitSOV }
+ }
+	action_b = {
+		name = "合意しない"
+                ai_chance = 1
+                command = { }
+ }
+}
+
+event = {
+	id = 19029
+	random = no
+	country = USA
+	trigger = {
+               flag = NewGovernment
+	}
+
+	name = "マルタ会談"
+	desc = "EVT_19029_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "合意する"
+                ai_chance = 99
+                command = { type = setflag which = MaltaSummitUSA }
+ }
+	action_b = {
+		name = "合意しない"
+                ai_chance = 1
+                command = { }
+ }
+}
+
+event = {
+	id = 19030
+	random = no
+	country = SOV
+	trigger = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+	}
+
+	name = "冷戦終結"
+	desc = "EVT_19030_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { type = relation which = USA value = 50 }
+ }
+}
+
+event = {
+	id = 19031
+	random = no
+	country = USA
+	trigger = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+	}
+
+	name = "冷戦終結"
+	desc = "EVT_19030_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { type = relation which = SOV value = 50 }
+ }
+}
+
+event = {
+	id = 19032
+	random = no
+	country = JAP
+	trigger = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+	}
+
+	name = "冷戦終結"
+	desc = "EVT_19030_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 19033
+	random = no
+	country = U02
+	trigger = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+	}
+
+	name = "冷戦終結"
+	desc = "EVT_19030_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 19034
+	random = no
+	country = U01
+	trigger = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+	}
+
+	name = "冷戦終結"
+	desc = "EVT_19030_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 19035
+	random = no
+	country = U03
+	trigger = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+	}
+
+	name = "冷戦終結"
+	desc = "EVT_19030_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 19036
+	random = no
+	country = U04
+	trigger = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+	}
+
+	name = "冷戦終結"
+	desc = "EVT_19030_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 19037
+	random = no
+	country = U05
+	trigger = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+	}
+
+	name = "冷戦終結"
+	desc = "EVT_19030_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 19038
+	random = no
+	country = U06
+	trigger = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+	}
+
+	name = "冷戦終結"
+	desc = "EVT_19030_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 19039
+	random = no
+	country = SOV
+	trigger = {
+             NOT = {
+               OR = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+                    }
+                   }
+	}
+
+	name = "マルタ会談-決裂-"
+	desc = "EVT_19039_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 19040
+	random = no
+	country = USA
+	trigger = {
+             NOT = {
+               OR = {
+               flag = MaltaSummitSOV
+               flag = MaltaSummitUSA
+                    }
+                   }
+	}
+
+	name = "マルタ会談-決裂-"
+	desc = "EVT_19040_DESC" 
+	style = 0
+        
+	date = { day = 1 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 19041
+	random = no
+	country = SOV
+	trigger = {
+                   event = 19030
+	}
+
+	name = "キングストン合意"
+	desc = "EVT_19041_DESC" 
+	style = 0
+        
+	date = { day = 9 month = 4 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "合意する"
+                ai_chance = 100
+                command = { type = setflag which = KingstonSOV }
+ }
+	action_b = {
+		name = "合意しない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 19042
+	random = no
+	country = USA
+	trigger = {
+                   event = 19031
+	}
+
+	name = "キングストン合意"
+	desc = "EVT_19042_DESC" 
+	style = 0
+        
+	date = { day = 9 month = 4 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "合意する"
+                ai_chance = 100
+                command = { type = setflag which = KingstonUSA }
+ }
+	action_b = {
+		name = "合意しない"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 19043
+	random = no
+	country = SOV
+	trigger = {
+                   flag = KingstonSOV
+                   flag = KingstonUSA
+	}
+
+	name = "キングストン合意-成立-"
+	desc = "EVT_19043_DESC" 
+	style = 0
+        
+	date = { day = 9 month = 4 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = relation which = USA value = 20 }
+                command = { type = sleepevent which = 36530 }
+ }
+}
+
+event = {
+	id = 19044
+	random = no
+	country = USA
+	trigger = {
+                   flag = KingstonSOV
+                   flag = KingstonUSA
+	}
+
+	name = "キングストン合意-成立-"
+	desc = "EVT_19044_DESC" 
+	style = 0
+        
+	date = { day = 9 month = 4 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = relation which = SOV value = 20 }
+                command = { type = sleepevent which = 36528 }
+                command = { type = sleepevent which = 36529 }
+                command = { type = sleepevent which = 36531 }
+ }
+}
+
+event = {
+	id = 19045
+	random = no
+	country = SOV
+	trigger = {
+               NOT = {
+                 OR = {
+                   flag = KingstonSOV
+                   flag = KingstonUSA
+                      }
+                     }
+	}
+
+	name = "キングストン合意-決裂-"
+	desc = "EVT_19045_DESC" 
+	style = 0
+        
+	date = { day = 9 month = 4 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんてことだ！"
+                command = { type = relation which = USA value = -20 }
+ }
+}
+
+event = {
+	id = 19046
+	random = no
+	country = USA
+	trigger = {
+               NOT = {
+                 OR = {
+                   flag = KingstonSOV
+                   flag = KingstonUSA
+                      }
+                     }
+	}
+
+	name = "キングストン合意-決裂-"
+	desc = "EVT_19046_DESC" 
+	style = 0
+        
+	date = { day = 9 month = 4 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんてことだ！"
+                command = { type = relation which = SOV value = -20 }
+ }
+}
+
+event = {
+	id = 19047
+	random = no
+	country = SOV
+	trigger = {
+                   event = 19043
+	}
+
+	name = "アラスカ水爆撤去完了"
+	desc = "EVT_19047_DESC" 
+	style = 0
+        
+	date = { day = 7 month = 7 year = 2006 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = relation which = SOV value = 20 }
+ }
+}
+
+event = {
+	id = 19048
+	random = no
+	country = USA
+	trigger = {
+                   event = 19044
+	}
+
+	name = "アラスカ水爆撤去完了"
+	desc = "EVT_19048_DESC" 
+	style = 0
+        
+	date = { day = 7 month = 7 year = 2006 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = relation which = SOV value = 20 }
+ }
+}

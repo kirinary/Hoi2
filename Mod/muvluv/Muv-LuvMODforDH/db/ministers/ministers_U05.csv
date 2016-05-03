@@ -1,0 +1,144 @@
+U05;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+9004000;Head of State;毛沢東（マオ・ツェタン）;36;ST;Powerhungry Demagogue;high;M51001;x
+9004001;Head of Government;毛沢東（マオ・ツェタン）;36;ST;Backroom Backstabber;high;M51001;x
+9004002;Foreign Minister;ワン・チアシアン;36;ST;General Staffer;high;M51003;x
+9004003;Minister of Armament;林伯渠（リン・ポチウ）;36;ST;Military Entrepreneur;high;M51004;x
+9004004;Minister of Security;シー・チューツァイ;36;ST;Man of the People;high;M51005;x
+9004005;Head of Military Intelligence;リ・ケヌン;36;ST;Logistics Specialist;high;M51006;x
+9004006;Chief of Staff;朱徳（チュ・テイ）;36;ST;School of Mass Combat;high;M51007;x
+9004007;Chief of Army;朱徳（チュ・テイ）;36;ST;Guns and Butter Doctrine;high;M51007;x
+9004008;Chief of Navy;シャオ・チンクワン;36;ST;Open Seas Doctrine;high;M51009;x
+9004009;Chief of Air Force;ファン・ツェイ;36;ST;Army Aviation Doctrine;high;M51010;x
+9004010;Head of State;張国燾（チャン・クオタオ）;37;LE;Ruthless Powermonger;high;M51012;x
+9004011;Head of State;林伯渠（リン・ポチウ）;37;LWR;Die-hard Reformer;high;M51004;x
+9004012;Head of Government;張国燾（チャン・クオタオ）;37;LE;Ambitious Union Boss;high;M51012;x
+9004013;Head of Government;林伯渠（リン・ポチウ）;37;LWR;Flamboyant Tough Guy;high;M51004;x
+9004014;Foreign Minister;張国燾（チャン・クオタオ）;42;ST;Ideological Crusader;high;M51012;x
+9004015;Foreign Minister;リ・ケヌン;44;ST;Great Compromiser;high;M51006;x
+9004016;Minister of Armament;ツァオ・チウジュ;39;ST;Administrative Genius;high;M51023;x
+9004017;Minister of Armament;クオ・ユンシェン;41;ST;Air to Ground Proponent;high;M51024;x
+9004018;Minister of Armament;ワン・フェンポ;43;ST;laissez-faire capitalist;high;M51025;x
+9004019;Minister of Armament;ヘ・ユアンタン;37;LWR;Resource Industrialist;high;M51026;x
+9004020;Minister of Security;チョウ・フシン;39;ST;Crime Fighter;high;M51030;x
+9004021;Minister of Security;毛沢東（マオ・ツェタン）;41;ST;Back Stabber;high;M51001;x
+9004022;Minister of Security;林伯渠（リン・ポチウ）;42;ST;Compassionate Gentleman;high;M51004;x
+9004023;Minister of Security;カオ・フスエ;44;ST;Compassionate Gentleman;high;M51033;x
+9004024;Head of Military Intelligence;周恩来（チョウ・エンライ）;39;ST;Technical Specialist;high;M51037;x
+9004025;Head of Military Intelligence;鄧小平（テン・シャオピン）;40;ST;Industrial Specialist;high;M51038;x
+9004026;Head of Military Intelligence;ワン・チアシアン;42;ST;Dismal Enigma;high;M51003;x
+9004027;Head of Military Intelligence;シー・チューツァイ;45;ST;Political Specialist;high;M51005;x
+9004028;Chief of Staff;スー・シャンツェン;41;ST;School of Manoeuvre;high;M51044;x
+9004029;Chief of Staff;陳毅（チェン・イー）;44;ST;School of Psychology;high;M51045;x
+9004030;Chief of Army;高崗（カオ・カン）;40;ST;Elastic Defence Doctrine;high;M51049;x
+9004031;Chief of Army;陳毅（チェン・イー）;43;ST;Armoured Spearhead Doctrine;high;M51045;x
+9004032;Head of Government;周恩来（チョウ・エンライ）;49;ST;Ambitious Union Boss;high;M51051;x
+9004033;Foreign Minister;周恩来（チョウ・エンライ）;49;ST;Ideological Crusader;high;M51051;x
+9004034;Minister of Armament;ペン・デファイ(彭徳懐);49;ST;Theoretical Scientist;high;M51053;x
+9004035;Minister of Security;レン・ビシ（任弼時）;49;ST;Efficient Sociopath;high;M51054;x
+9004036;Head of Military Intelligence;ペン・チェン（彭真）;49;ST;Industrial Specialist;high;M51055;x
+9004037;Foreign Minister;陳毅（チェン・イー）;58;ST;General Staffer;high;M51045;x
+9004038;Minister of Armament;林彪 （リン・ピャオ）;59;ST;Military Entrepreneur;high;L76324;x
+9004039;Minister of Security;シー・リャン;50;ST;Prince of Terror;high;M51058;x
+9004040;Minister of Security;チェン・イン;59;ST;Silent Lawyer;high;M51059;x
+9004041;Minister of Security;ゼン・シャン;60;ST;Back Stabber;high;M51060;x
+9004042;Head of Military Intelligence;薄一波（パク・イッパ）;53;ST;Technical Specialist;high;M51061;x
+9004043;Head of Military Intelligence;李先念（リー・シャンニャン）;54;ST;Logistics Specialist;high;L76322;x
+9004044;Head of State;林森（リン・セン）;36;PA;Weary Stiffneck;high;M52001;x
+9004045;Head of Government;蒋介石（チアン・カイシェク）;36;PA;Old General;high;M52002;x
+9004046;Foreign Minister;チャン・ツン;36;PA;Great Compromiser;high;M52003;x
+9004047;Minister of Armament;閻錫山（イェン・シシャン）;36;PA;Corrupt Kleptocrat;high;M52004;x
+9004048;Minister of Security;陳果夫（チェン・クオフ）;36;PA;Crooked Kleptocrat;high;M52005;x
+9004049;Head of Military Intelligence;陳立夫（チェン・リフー）;36;PA;Political Specialist;high;M52006;x
+9004050;Chief of Staff;蒋介石（チアン・カイシェク）;36;PA;School of Manoeuvre;high;M52002;x
+9004051;Chief of Army;張学良（チャン・スエリャン）;36;PA;Guns and Butter Doctrine;high;M52008;x
+9004052;Chief of Navy;陳紹寛（チェン・シャオクァン）;36;PA;Indirect Approach Doctrine;high;M52009;x
+9004053;Chief of Air Force;チョウ・チージョウ;36;PA;Army Aviation Doctrine;high;M52010;x
+9004054;Head of State;蒋介石（チアン・カイシェク）;43;PA;Resigned Generalissimo;high;M52002;x
+9004055;Head of State;林森（リン・セン）;39;SC;Weary Stiffneck;high;M52001;x
+9004056;Head of State;宋子文（T・V・スーン）;43;SC;Autocratic Charmer;high;M52024;x
+9004057;Head of State;汪兆銘（ワン・チンウェイ）;39;FA;Ruthless Powermonger;high;M52011;x
+9004058;Head of Government;王寵惠（ワン・チュンホェイ）;37;PA;Flamboyant Tough Guy;high;M52026;x
+9004059;Head of Government;チャン・ツン;39;PA;Happy Amateur;high;M52003;x
+9004060;Head of Government;宋子文（T・V・スーン）;45;PA;Political Protege;high;M52024;x
+9004061;Head of Government;孔祥煕（クン・シャンシ）;38;PA;Silent Workhorse;high;M52030;x
+9004062;Head of Government;李宗仁（リー・ツンジェン）;43;SC;Corporate Suit;high;M52031;x
+9004063;Head of Government;王克敏（ワン・ケミン）;39;FA;Backroom Backstabber;high;M52012;x
+9004064;Foreign Minister;王寵惠（ワン・チュンホェイ）;37;PA;Ideological Crusader;high;M52026;x
+9004065;Foreign Minister;リン・ウェイ;39;PA;General Staffer;high;M52035;x
+9004066;Foreign Minister;シェン・ツイ;40;PA;Apologetic Clerk;high;M52036;x
+9004067;Foreign Minister;陳果夫（チェン・クオフ）;41;PA;Great Compromiser;high;M52005;x
+9004068;Foreign Minister;王世杰（ワン・シーチー）;45;PA;Iron Fisted Brute;high;M52038;x
+9004069;Foreign Minister;林森（リン・セン）;39;SC;Ideological Crusader;high;M52001;x
+9004070;Foreign Minister;宋子文（T・V・スーン）;41;PA;The Cloak N Dagger Schemer;high;M52024;x
+9004071;Foreign Minister;汪兆銘（ワン・チンウェイ）;39;FA;Biased Intellectual;high;M52041;x
+9004072;Foreign Minister;チェン・ルー;38;PA;Apologetic Clerk;high;M52013;x
+9004073;Foreign Minister;ヤン・ルーチャン;44;FA;Great Compromiser;high;M52043;x
+9004074;Minister of Armament;白崇禧（パイ・チュンシ）;37;PA;Resource Industrialist;high;M52045;x
+9004075;Minister of Armament;徐永昌（シュー・ユンチャン）;38;PA;Theoretical Scientist;high;M52046;x
+9004076;Minister of Armament;ホアン・チェンツオ;39;PA;Military Entrepreneur;high;M52047;x
+9004077;Minister of Armament;ヘ・インキン;39;PA;Air Superiority Proponent;high;M52048;x
+9004078;Minister of Armament;陳果夫（チェン・クオフ）;40;PA;laissez-faire capitalist;high;M52005;x
+9004079;Minister of Armament;ツァイ・ウェンチー;41;PA;Tank Proponent;high;M52050;x
+9004080;Minister of Armament;賀国光（ホー・クオカン）;42;PA;Air to Ground Proponent;high;M52051;x
+9004081;Minister of Armament;陳紹寛（チェン・シャオクァン）;42;PA;Battle Fleet Proponent;high;M52009;x
+9004082;Minister of Armament;ユ・フェイペン;42;PA;Infantry Proponent;high;M52053;x
+9004083;Minister of Armament;ワン・シュウミン;43;PA;Air to Sea Proponent;high;M52054;x
+9004084;Minister of Armament;将経国（チアン・チンクオ）;45;PA;Administrative Genius;high;M52055;x
+9004085;Minister of Armament;トゥ・チエンシー;46;PA;Strategic Air Proponent;high;M52056;x
+9004086;Minister of Armament;ウォン・ウェンハオ;39;SC;laissez-faire capitalist;high;M52057;x
+9004087;Minister of Armament;何応欽（ホー・インチン）;43;SC;Infantry Proponent;high;M52058;x
+9004088;Minister of Armament;陳公博（チェン・クンポ）;39;FA;laissez-faire capitalist;high;M52014;x
+9004089;Minister of Armament;ヤン・ルーチャン;41;FA;Resource Industrialist;high;M52043;x
+9004090;Minister of Armament;チャン・チャク;43;FA;Submarine Proponent;high;M52061;x
+9004091;Minister of Security;タイ・リー;38;PA;Crime Fighter;high;M52063;x
+9004092;Minister of Security;ワルサー・ステンズ;37;PA;Back Stabber;high;M52064;x
+9004093;Minister of Security;呉忠信（ウー・チャンシン）;38;PA;Compassionate Gentleman;high;M52065;x
+9004094;Minister of Security;黄慕松（ホアン・ムスン）;39;PA;Efficient Sociopath;high;M52066;x
+9004095;Minister of Security;谷正倫（ク・チェンルン）;40;PA;Crime Fighter;high;M52067;x
+9004096;Minister of Security;リュー・フェイ;41;PA;Silent Lawyer;high;M52068;x
+9004097;Minister of Security;将経国（チアン・チンクオ）;43;PA;Man of the People;high;M52055;x
+9004098;Minister of Security;陳立夫（チェン・リフー）;39;SC;Back Stabber;high;M52006;x
+9004099;Minister of Security;孔祥煕（クン・シャンシ）;43;SC;Man of the People;high;M52030;x
+9004100;Minister of Security;カン・ツェ;44;SC;Prince of Terror;high;M52072;x
+9004101;Minister of Security;蔡元培（ツァイ・ユアンペイ）;45;SC;Compassionate Gentleman;high;M52073;x
+9004102;Minister of Security;ティン・モータン;39;FA;Crooked Kleptocrat;high;M52015;x
+9004103;Minister of Security;王克敏（ワン・ケミン）;41;FA;Man of the People;high;M52012;x
+9004104;Minister of Security;チャン・ホンサム;43;FA;Prince of Terror;high;M52076;x
+9004105;Minister of Security;チェン・ファケ;44;FA;Efficient Sociopath;high;M52077;x
+9004106;Head of Military Intelligence;タイ・リー;37;PA;Political Specialist;high;M52063;x
+9004107;Head of Military Intelligence;賀耀組（ホー・ヤオツー）;39;PA;Industrial Specialist;high;M52079;x
+9004108;Head of Military Intelligence;マオ・ジェンフェン;40;PA;Logistics Specialist;high;M52080;x
+9004109;Head of Military Intelligence;チアン・イーイン;44;PA;Dismal Enigma;high;M52064;x
+9004110;Head of Military Intelligence;楊宣誠（ヤン・シュアンチェン）;41;PA;Naval Intelligence Specialist;high;M52082;x
+9004111;Head of Military Intelligence;チェン・チーミン;42;PA;Technical Specialist;high;M52083;x
+9004112;Head of Military Intelligence;張学良（チャン・スエリャン）;39;SC;Logistics Specialist;high;M52008;x
+9004113;Head of Military Intelligence;李世軍（リー・シーチュン）;39;FA;Political Specialist;high;M52016;x
+9004114;Head of Military Intelligence;チェン・ファケ;43;FA;Logistics Specialist;high;M52077;x
+9004115;Chief of Staff;白崇禧（パイ・チュンシ）;38;PA;School of Mass Combat;high;M52045;x
+9004116;Chief of Staff;チアン・パイリ;39;PA;School of Psychology;high;M52089;x
+9004117;Chief of Staff;チエン・タチュン;41;PA;School of Defence;high;M52090;x
+9004118;Chief of Staff;リン・ウェイ;43;PA;School of Manoeuvre;high;M52035;x
+9004119;Chief of Staff;シャオ・イシュー;45;PA;School of Fire Support;high;M52092;x
+9004120;Chief of Staff;シュー・ツーイー;39;SC;School of Defence;high;M52093;x
+9004121;Chief of Staff;斉燮元（チ・シーユアン）;39;FA;School of Fire Support;high;M52017;x
+9004122;Chief of Army;李宗仁（リー・ツンジェン）;37;PA;Static Defence Doctrine;high;M52031;x
+9004123;Chief of Army;チアン・パイリ;38;PA;Guns and Butter Doctrine;high;M52089;x
+9004124;Chief of Army;顧祝同（ク・チュートゥン）;39;PA;Decisive Battle Doctrine;high;M52097;x
+9004125;Chief of Army;徐庭瑤（シュー・ティンヤオ）;44;PA;Armoured Spearhead Doctrine;high;M52098;x
+9004126;Chief of Army;何応欽（ホー・インチン）;39;SC;Elastic Defence Doctrine;high;M52058;x
+9004127;Chief of Army;パオ・ウェンユエ;39;FA;Static Defence Doctrine;high;M52018;x
+9004128;Chief of Navy;オウヤン・ケ;37;PA;Open Seas Doctrine;high;M52101;x
+9004129;Chief of Navy;曾以鼎（ツェン・イティン）;39;PA;Base Control Doctrine;high;M52102;x
+9004130;Chief of Navy;陳季良（チェン・チリャン）;43;PA;Indirect Approach Doctrine;high;M52103;x
+9004131;Chief of Navy;クェイ・ユンチン;45;PA;Decisive Naval Battle Doctrine;high;M52104;x
+9004132;Chief of Navy;陳誠（チェン・チェン）;45;PA;Power Projection Doctrine;high;M52105;x
+9004133;Chief of Navy;ジェン・ショウスー;39;SC;Open Seas Doctrine;high;M52106;x
+9004134;Chief of Navy;ジェン・ユアンタオ;39;FA;Open Seas Doctrine;high;M52019;x
+9004135;Chief of Air Force;ホアン・チェンツオ;37;PA;Air Superiority Doctrine;high;M52047;x
+9004136;Chief of Air Force;沈鴻烈（シェン・フンリー）;41;PA;Naval Aviation Doctrine;high;M52109;x
+9004137;Chief of Air Force;ワン・シュウミン;45;PA;Vertical Envelopment Doctrine;high;M52054;x
+9004138;Chief of Air Force;チエン・タチュン;39;SC;Carpet Bombing Doctrine;high;M52090;x
+9004139;Chief of Air Force;チェン・チャンチュウ;39;FA;Army Aviation Doctrine;high;M52020;x
+9004140;Head of Government;イェン・シシャン（閻錫山）;49;PA;Old General;high;M52114;x
+9004141;Head of Government;チェン・チェン（陳誠）;50;PA;Political Protege;high;M52115;x

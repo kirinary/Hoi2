@@ -1,0 +1,47 @@
+model =
+{ cost                = 2
+  buildtime           = 35
+  manpower            = 2
+  defensiveness       = 8
+  toughness           = 0
+  maxspeed            = 0
+  softness            = 0
+  hardattack          = 1
+  softattack          = 1
+  supplyconsumption   = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  airdefence          = 9999
+  airattack           = 9999
+}
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+model          = { cost = 10 buildtime = 120 manpower = 2 defensiveness = 8 toughness = 2 maxspeed = -4 softness = -40 hardattack = 8 softattack = 7 supplyconsumption = 0.6 fuelconsumption = 2 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }

@@ -1,0 +1,831 @@
+##############################################################
+##
+## オーストラリアフレーバーイベント(29001~30000)
+##
+##############################################################
+## 
+## 諸外国との関係
+## id = 29001	統一中華戦線との関係＋
+## id = 29002	欧州連合との関係＋
+## id = 29003	アメリカ合衆国との関係＋
+## id = 29004	国際連合との関係＋
+## id = 29005	ソビエト連邦との関係＋
+## id = 29006	大東亜連合との関係＋
+## id = 29007	オーストラリアとの関係＋
+## id = 29008	アフリカ連合との関係＋
+## id = 29009	中東連合との関係＋
+## id = 29010	統一中華戦線との関係－
+## id = 29011	欧州連合との関係－
+## id = 29012	アメリカ合衆国との関係－
+## id = 29013	国際連合との関係－
+## id = 29014	ソビエト連邦との関係－
+## id = 29015	大東亜連合との関係－
+## id = 29016	オーストラリアとの関係－
+## id = 29017	アフリカ連合との関係－
+## id = 29018	中東連合との関係－
+##
+## 関連イベント
+## id = 29019	大東亜連合加盟について
+## id = 29020	加盟要請が拒否された
+## id = 29021	ニューギニア島購入提案
+## イギリス連邦統合関連
+## id = 29022   コモンウェルス統合
+## id = 29023   メルボルン会談(AST)
+## id = 29024   メルボルン会談(NZL)
+## id = 29025   メルボルン会談(CAN)
+## id = 29026   メルボルン会談(U01)
+## id = 29027   メルボルン会談(U02)
+## id = 29028   イギリス連邦統合-参加-(AST)
+## id = 29029   イギリス連邦統合-参加-(NZL)
+## id = 29030   イギリス連邦統合-参加-(CAN)
+## id = 29031   イギリス連邦統合-参加-(U01)
+## id = 29032   イギリス連邦統合-不参加-(NZL)
+## id = 29033   イギリス連邦統合-不参加-(CAN)
+## id = 29034   イギリス連邦統合-不参加-(U01)
+## id = 29035   ウェストミンスター憲章改定(U02)
+## id = 29036   イギリス連邦の統合(AST)
+## id = 29037   イギリス連邦の統合(U91-AST併合)
+## id = 29038   イギリス連邦の統合(U91-NZL併合)
+## id = 29039   イギリス連邦の統合(U91-CAN併合)
+## id = 29040   イギリス連邦の統合(U01-南アフリカ地域割譲)
+## id = 29041    
+## id = 29042    
+## id = 29043    
+## id = 29044    
+## id = 29045    
+## id = 29046    
+## id = 29047
+## id = 29048
+## id = 29049
+## id = 29050
+##
+##############################################################
+
+## 各国との融和
+event = {
+	id = 29001
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "統一中華戦線との関係"
+	desc = "EVT_29001_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U05 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 29002
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "欧州連合との関係"
+	desc = "EVT_29002_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U02 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 29003
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_29003_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = 10 } 
+ 	}
+}
+
+event = {
+	id = 29004
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_29004_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = 10 } 
+	}
+}
+
+event = {
+	id = 29005
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "ソビエト連邦との関係"
+	desc = "EVT_29005_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = 10 } 
+        }
+}
+
+event = {
+	id = 29006
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_29006_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = 10 } 
+        }
+}
+
+event = {
+	id = 29007
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "日本帝国との関係"
+	desc = "EVT_29007_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = JAP value = 10 } 
+        }
+}
+
+event = {
+	id = 29008
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "アフリカ連合との関係"
+	desc = "EVT_29008_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U01 value = 10 } 
+        }
+}
+
+event = {
+	id = 29009
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_29009_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = 10 } 
+        }
+}
+
+event = {
+	id = 29010
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "統一中華戦線との関係"
+	desc = "EVT_29010_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U05 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 29011
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "欧州連合との関係"
+	desc = "EVT_29011_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U02 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 29012
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_29012_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = -10 } 
+ 	}
+}
+
+event = {
+	id = 29013
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_29013_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = -10 } 
+	}
+}
+
+event = {
+	id = 29014
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "ソビエト連邦との関係"
+	desc = "EVT_29014_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = -10 } 
+        }
+}
+
+event = {
+	id = 29015
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_29015_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = -10 } 
+        }
+}
+
+event = {
+	id = 29016
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "日本帝国との関係"
+	desc = "EVT_29016_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = JAP value = -10 } 
+        }
+}
+
+event = {
+	id = 29017
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "アフリカ連合との関係"
+	desc = "EVT_29017_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U01 value = -10 } 
+        }
+}
+
+event = {
+	id = 29018
+	random = yes
+	country = AST
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_29018_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = -10 } 
+        }
+}
+
+event = {
+	id = 29022
+	random = no
+	country = AST
+	trigger = {
+                  control = { province = 1353 data = -2 }#シンガポール陥落
+	}
+
+	name = "コモンウェルス統合"
+	desc = "EVT_29022_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合に向けて準備を始める"
+                ai_chance = 85
+		command = { type = setflag which = Melbourne } 
+        }
+	action_b = {
+		name = "我が国は単独で戦う"
+                ai_chance = 15
+		command = { } 
+        }
+}
+
+event = {
+	id = 29023
+	random = no
+	country = AST
+	trigger = {
+                  flag = Melbourne
+	}
+
+	name = "メルボルン会談"
+	desc = "EVT_29023_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合を目指す"
+		command = { type = setflag which = commonwealthAST } 
+        }
+}
+
+event = {
+	id = 29024
+	random = no
+	country = NZL
+	trigger = {
+                  flag = Melbourne
+	}
+
+	name = "メルボルン会談"
+	desc = "EVT_29024_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合に賛成する"
+                ai_chance = 90
+		command = { type = setflag which = commonwealthNZL } 
+        }
+	action_b = {
+		name = "我が国は単独で戦う"
+                ai_chance = 10
+		command = { type = setflag which = commonwealthNZL2 } 
+        }
+}
+
+event = {
+	id = 29025
+	random = no
+	country = CAN
+	trigger = {
+                  flag = Melbourne
+	}
+
+	name = "メルボルン会談"
+	desc = "EVT_29024_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合に賛成する"
+                ai_chance = 90
+		command = { type = setflag which = commonwealthCAN } 
+        }
+	action_b = {
+		name = "我が国は単独で戦う"
+                ai_chance = 10
+		command = { type = setflag which = commonwealthCAN2 } 
+        }
+}
+
+event = {
+	id = 29026
+	random = no
+	country = U01
+	trigger = {
+                  flag = Melbourne
+	}
+
+	name = "メルボルン会談"
+	desc = "EVT_29024_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合に賛成する"
+                ai_chance = 90
+		command = { type = setflag which = commonwealthU01 } 
+        }
+	action_b = {
+		name = "我が国は単独で戦う"
+                ai_chance = 10
+		command = { type = setflag which = commonwealthU012 } 
+        }
+}
+
+event = {
+	id = 29027
+	random = no
+	country = U02
+	trigger = {
+                  flag = Melbourne
+	}
+
+	name = "メルボルン会談"
+	desc = "EVT_29027_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合に賛成する"
+		command = { type = setflag which = commonwealthU02 } 
+        }
+}
+
+event = {
+	id = 29028
+	random = no
+	country = AST
+	trigger = {
+                  flag = commonwealthAST
+	}
+
+	name = "イギリス連邦統合-参加-"
+	desc = "EVT_29028_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = dissent value = -5 } 
+        }
+}
+
+event = {
+	id = 29029
+	random = no
+	country = NZL
+	trigger = {
+                  flag = commonwealthNZL
+	}
+
+	name = "イギリス連邦統合-参加-"
+	desc = "EVT_29028_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = dissent value = -5 } 
+        }
+}
+
+event = {
+	id = 29030
+	random = no
+	country = CAN
+	trigger = {
+                  flag = commonwealthCAN
+	}
+
+	name = "イギリス連邦統合-参加-"
+	desc = "EVT_29028_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = dissent value = -5 } 
+        }
+}
+
+event = {
+	id = 29031
+	random = no
+	country = U01
+	trigger = {
+                  flag = commonwealthU01
+	}
+
+	name = "イギリス連邦統合-参加-"
+	desc = "EVT_29028_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = dissent value = -5 } 
+        }
+}
+
+event = {
+	id = 29032
+	random = no
+	country = NZL
+	trigger = {
+                  flag = commonwealthNZL2
+	}
+
+	name = "イギリス連邦統合-不参加-"
+	desc = "EVT_29032_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "それも良いだろう"
+		command = { } 
+        }
+}
+
+event = {
+	id = 29033
+	random = no
+	country = CAN
+	trigger = {
+                  flag = commonwealthCAN2
+	}
+
+	name = "イギリス連邦統合-不参加-"
+	desc = "EVT_29032_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "それも良いだろう"
+		command = { } 
+        }
+}
+
+event = {
+	id = 29034
+	random = no
+	country = U01
+	trigger = {
+                  flag = commonwealthU012
+	}
+
+	name = "イギリス連邦統合-不参加-"
+	desc = "EVT_29032_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "それも良いだろう"
+		command = { } 
+        }
+}
+
+event = {
+	id = 29035
+	random = no
+	country = U02
+	trigger = {
+                  flag = commonwealthU02
+	}
+
+	name = "ウェストミンスター憲章改定"
+	desc = "EVT_29035_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "それも良いだろう"
+		command = { type = dissent value = -5 }
+        }
+}
+
+event = {
+	id = 29036
+	random = no
+	country = AST
+	trigger = {
+                  event = 29028
+	}
+
+	name = "イギリス連邦の統合"
+	desc = "EVT_29036_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合だ！"
+                command = { type = removecore which = 1730 }
+		command = { type = independence which = U91 value = 1 when = 0 }
+        }
+}
+
+event = {
+	id = 29037
+	random = no
+	country = U91
+	trigger = {
+                  event = 29036
+	}
+
+	name = "イギリス連邦の統合"
+	desc = "EVT_29037_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合だ！"
+                command = { type = inherit which = AST }
+                command = { type = alliance which = U06 }
+        }
+}
+
+event = {
+	id = 29038
+	random = no
+	country = U91
+	trigger = {
+                  event = 29029
+                  event = 29036
+	}
+
+	name = "イギリス連邦の統合"
+	desc = "EVT_29038_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合だ！"
+                command = { type = inherit which = NZL }
+        }
+}
+
+event = {
+	id = 29039
+	random = no
+	country = U91
+	trigger = {
+                  event = 29030
+                  event = 29036
+	}
+
+	name = "イギリス連邦の統合"
+	desc = "EVT_29039_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合だ！"
+                command = { type = inherit which = CAN }
+        }
+}
+
+event = {
+	id = 29040
+	random = no
+	country = U01
+	trigger = {
+                  event = 29031
+                  event = 29036
+	}
+
+	name = "イギリス連邦の統合"
+	desc = "EVT_29040_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "統合だ！"
+                command = { type = secedeprovince which = U91 value = 1115 }
+                command = { type = secedeprovince which = U91 value = 1116 }
+                command = { type = secedeprovince which = U91 value = 1114 }
+                command = { type = secedeprovince which = U91 value = 1117 }
+                command = { type = secedeprovince which = U91 value = 1118 }
+                command = { type = secedeprovince which = U91 value = 1120 }
+                command = { type = secedeprovince which = U91 value = 1113 }
+                command = { type = secedeprovince which = U91 value = 1119 }
+                command = { type = secedeprovince which = U91 value = 1109 }
+                command = { type = secedeprovince which = U91 value = 1108 }
+                command = { type = secedeprovince which = U91 value = 1107 }
+                command = { type = secedeprovince which = U91 value = 1106 }
+                command = { type = secedeprovince which = U91 value = 1110 }
+                command = { type = secedeprovince which = U91 value = 1122 }
+                command = { type = secedeprovince which = U91 value = 1820 }
+                command = { type = secedeprovince which = U91 value = 975 }
+        }
+}

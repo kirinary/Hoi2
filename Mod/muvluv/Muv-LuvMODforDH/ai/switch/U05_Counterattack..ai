@@ -1,0 +1,48 @@
+target = {
+	           1202 = 1000
+	           2526 = 1000
+	           2529 = 1000
+	           1966 = 1000
+	           1237 = 1000
+	           1936 = 1000
+	           1315 = 1000
+	           1316 = 1000
+	           696 = 1000
+	           1320 = 1000
+	           1205 = 1000
+	           2551 = 1000
+	           1441 = 1000
+	           1404 = 1000
+	           1379 = 1000
+}
+invasion = {
+	base = 1.0                                 
+	random = 1.0                                  
+	coastal = 1.0                               
+	beach = 1.0                                  
+	distance = 10.0                              
+	max_distance = 50                        
+	pocket = 1.0                                 
+	island = 1.0                                
+	enemy = 100.0                                
+	adjacentenemy = 1.0                         
+	air_base = 0.1                               
+	naval_base = 0.1                              
+	air_support = 0.1                            
+	ignore = no	                          
+	redirect = priority/nearest/home
+	staging_province = { 1323
+	                    }
+	target = {
+	           1202 = 1000
+	           2526 = 1000
+	           2529 = 1000
+	           1966 = 1000
+	           1237 = 1000
+	           1936 = 1000
+	           1315 = 1000
+	           1316 = 1000
+	           696 = 1000
+	           1320 = 1000
+	             }
+}

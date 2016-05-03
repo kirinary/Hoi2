@@ -1,0 +1,557 @@
+##############################################################
+##
+## 金正日イベント(5601~5700)
+##
+##############################################################
+##
+## id = 5601	ニューヨーク会談(SOV)
+## id = 5602	大東亜連合の決断(U04)
+## id = 5603	偉大なる将軍の帰還(U04)
+## id = 5604	ジャカルタ演説(U04)
+## id = 5605	高麗連邦政府との和解(U04)
+## id = 5606	金正日戦術機甲連隊(U04)
+## id = 5607	金3兄弟の活躍(U04)
+## id = 5608	工業地帯移転協定(U04)
+## id = 5609	金正日来日(JAP)
+## id = 5610	工業地帯移転協定(JAP)
+## id = 5611	国連総会演説(U04)
+## id = 5612	国連総会演説(U06)
+## id = 5613	金正日ソ連訪問(U04)
+## id = 5614	ポモルニク型エアクッション揚陸艇(U04)
+## id = 5615	ポモルニク型エアクッション揚陸艇(SOV)
+## id = 5616	ポモルニク型購入(U04)
+## id = 5617	ポモルニク型売却(SOV)
+## id = 5618	MiG-29追加購入(U04)
+## id = 5619	MiG-29追加購入(SOV)
+## id = 5620	MiG-29購入(U04)
+## id = 5621	MiG-29売却(SOV)
+## id = 5622	金正日ユーコン基地訪問(U04)
+###############################################################
+
+event = {
+	id = 5601
+	random = no
+	country = SOV
+	trigger = {
+	}
+
+	name = "ニューヨーク会談"
+	desc = "EVT_5601_DESC"
+
+	date = { day = 3 month = 2 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "金正日に一任する"
+                ai_chance = 95
+                command = { type = setflag which = kim }
+	}
+       action_b = {
+               name = "馬鹿げた提案だ"
+               ai_chance = 5
+               command = { }
+       }
+}
+
+event = {
+	id = 5602
+	random = no
+	country = U04
+	trigger = {
+                  flag = kim
+	}
+
+	name = "大東亜連合の決断"
+	desc = "EVT_5602_DESC"
+
+	date = { day = 3 month = 2 year = 1998 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "金正日を受け入れる"
+                ai_chance = 95
+                command = { type = setflag which = kim2 }
+	}
+       action_b = {
+               name = "共産主義者に用は無い！"
+               ai_chance = 5
+               command = { }
+       }
+}
+
+event = {
+	id = 5603
+	random = no
+	country = U04
+	trigger = {
+                  flag = kim2
+	}
+
+	name = "偉大なる将軍の帰還"
+	desc = "EVT_5603_DESC"
+
+	date = { day = 3 month = 2 year = 1998 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "金正日万歳！"
+                command = { }
+	}
+}
+
+event = {
+	id = 5604
+	random = no
+	country = U04
+	trigger = {
+                  event = 5603
+	}
+
+	name = "ジャカルタ演説"
+	desc = "EVT_5604_DESC"
+
+	date = { day = 29 month = 2 year = 1998 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -5 }
+	}
+}
+
+event = {
+	id = 5605
+	random = no
+	country = U04
+	trigger = {
+                  event = 5604
+	}
+
+	name = "高麗連邦政府との和解"
+	desc = "EVT_5605_DESC"
+
+	date = { day = 25 month = 4 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -5 }
+	}
+}
+
+event = {
+	id = 5606
+	random = no
+	country = U04
+	trigger = {
+                  event = 5605
+	}
+
+	name = "金正日戦術機甲連隊の編成"
+	desc = "EVT_5606_DESC"
+
+	date = { day = 26 month = 5 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "部隊を編成する"
+                ai_chance = 100
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = supplies value = -1000 }
+		command = { type = manpowerpool value = -150 }
+	}
+	action_b = {
+		name = "そのような必要は無い"
+                ai_chance = 0
+                command = { }
+	}
+}
+
+event = {
+	id = 5607
+	random = no
+	country = U04
+	trigger = {
+                  event = 5605
+	}
+
+	name = "金3兄弟の活躍"
+	desc = "EVT_5607_DESC"
+
+	date = { day = 5 month = 10 year = 1998 }
+	offset = 10
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -5 }
+	}
+}
+
+event = {
+	id = 5608
+	random = no
+	country = U04
+	trigger = {
+                  event = 5605
+	}
+
+	name = "工業地帯移転協定"
+	desc = "EVT_5608_DESC"
+
+	date = { day = 15 month = 5 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "日本に提案する"
+		command = { type = trigger which = 5609 }
+	}
+	action_b = {
+		name = "そのような必要は無い"
+                command = { }
+	}
+}
+
+event = {
+	id = 5609
+	random = no
+	country = JAP
+	trigger = {
+                  event = 5608
+	}
+
+	name = "金正日来日"
+	desc = "EVT_5609_DESC"
+
+	date = { day = 15 month = 5 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "歓迎する"
+		command = { type = trigger which = 5610 }
+	}
+}
+
+event = {
+	id = 5610
+	random = no
+	country = JAP
+	trigger = {
+                  event = 5609
+	}
+
+	name = "工業地帯移転協定"
+	desc = "EVT_5610_DESC"
+
+	date = { day = 15 month = 5 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "締結する"
+                ai_chance = 80
+		command = { type = free_ic value = 10 }
+                command = { type = construct which = ic where = 2615 value = -5 }#京都
+                command = { type = construct which = ic where = 2618 value = -5 }#大阪
+                command = { type = relation which = U04 value = 20 }
+	}
+	action_a = {
+		name = "その必要は無い"
+                ai_chance = 20
+		command = { }
+	}
+}
+
+event = {
+	id = 5611
+	random = no
+	country = U04
+	trigger = {
+                  flag = kim2
+	}
+
+	name = "国連総会演説"
+	desc = "EVT_5611_DESC"
+
+	date = { day = 15 month = 9 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = dissent value = -5 }
+	}
+}
+
+event = {
+	id = 5612
+	random = no
+	country = U06
+	trigger = {
+                  flag = kim2
+	}
+
+	name = "国連総会演説"
+	desc = "EVT_5611_DESC"
+
+	date = { day = 15 month = 9 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = dissent value = -5 }
+	}
+}
+
+event = {
+	id = 5613
+	random = no
+	country = U04
+	trigger = {
+                  flag = kim2
+	}
+
+	name = "金正日ソ連訪問"
+	desc = "EVT_5613_DESC"
+
+	date = { day = 15 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "派遣する"
+		command = { type = trigger which = 5613 }
+	}
+}
+
+event = {
+	id = 5614
+	random = no
+	country = U04
+	trigger = {
+                  event = 5612
+	}
+
+	name = "ポモルニク型エアクッション揚陸艇"
+	desc = "EVT_5614_DESC"
+
+	date = { day = 17 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "購入を打診する"
+                ai_chance = 95
+		command = { type = setflag which = pom }
+	}
+	action_b = {
+		name = "その必要は無い"
+                ai_chance = 5
+		command = { }
+	}
+}
+
+event = {
+	id = 5615
+	random = no
+	country = SOV
+	trigger = {
+                  flag = pom
+	}
+
+	name = "ポモルニク型エアクッション揚陸艇"
+	desc = "EVT_5614_DESC"
+
+	date = { day = 17 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "売却する"
+                ai_chance = 95
+		command = { type = setflag which = pom2 }
+	}
+	action_b = {
+		name = "止めておこう"
+                ai_chance = 5
+		command = { }
+	}
+}
+
+event = {
+	id = 5616
+	random = no
+	country = U04
+	trigger = {
+                  flag = pom2
+	}
+
+	name = "ポモルニク型購入"
+	desc = "EVT_5616_DESC"
+
+	date = { day = 17 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = add_division which = "第1揚陸艇部隊" value = transport when = 3 }
+		command = { type = add_division which = "第2揚陸艇部隊" value = transport when = 3 }
+		command = { type = add_division which = "第3揚陸艇部隊" value = transport when = 3 }
+		command = { type = supplies value = -1000 }
+		command = { type = money value = -150 }
+	}
+}
+
+event = {
+	id = 5617
+	random = no
+	country = SOV
+	trigger = {
+                  flag = pom2
+	}
+
+	name = "ポモルニク型売却"
+	desc = "EVT_5617_DESC"
+
+	date = { day = 17 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = money value = 150 }
+	}
+}
+
+event = {
+	id = 5618
+	random = no
+	country = U04
+	trigger = {
+                  event = 5612
+	}
+
+	name = "MiG-29追加購入"
+	desc = "EVT_5618_DESC"
+
+	date = { day = 25 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "購入を打診する"
+                ai_chance = 95
+		command = { type = setflag which = 29 }
+	}
+	action_b = {
+		name = "その必要は無い"
+                ai_chance = 5
+		command = { }
+	}
+}
+
+event = {
+	id = 5619
+	random = no
+	country = SOV
+	trigger = {
+                  flag = 29
+	}
+
+	name = "MiG-29追加購入"
+	desc = "EVT_5618_DESC"
+
+	date = { day = 25 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "売却する"
+                ai_chance = 95
+		command = { type = setflag which = 29-2 }
+	}
+	action_b = {
+		name = "止めておこう"
+                ai_chance = 5
+		command = { }
+	}
+}
+
+event = {
+	id = 5620
+	random = no
+	country = U04
+	trigger = {
+                  flag = 29-2
+	}
+
+	name = "MiG-29購入"
+	desc = "EVT_5620_DESC"
+	
+	date = { day = 25 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = add_division which = 第555戦術機大隊 value = paratrooper when = 6 }
+		command = { type = add_division which = 第556戦術機大隊 value = paratrooper when = 6 }
+		command = { type = add_division which = 第557戦術機大隊 value = paratrooper when = 6 }
+		command = { type = supplies value = -2000 }
+		command = { type = money value = -350 }
+	}
+}
+
+event = {
+	id = 5621
+	random = no
+	country = SOV
+	trigger = {
+                  flag = pom2
+	}
+
+	name = "MiG-29売却"
+	desc = "EVT_5621_DESC"
+
+	date = { day = 25 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = money value = 350 }
+	}
+}
+
+event = {
+	id = 5622
+	random = no
+	country = U04
+	trigger = {
+                  event = 5612
+	}
+
+	name = "金正日ユーコン基地訪問"
+	desc = "EVT_5622_DESC"
+
+	date = { day = 11 month = 3 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -3 }
+	}
+}

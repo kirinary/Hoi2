@@ -1,0 +1,179 @@
+#model0
+model =
+{ cost                = 40
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 500
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1000
+}
+
+#model1
+model =
+{ cost                = 45
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 520
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1020
+}
+
+#model2
+model =
+{ cost                = 45
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 540
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1040
+}
+
+#model3
+model =
+{ cost                = 45
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 560
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1060
+}
+
+#model4
+model =
+{ cost                = 45
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 580
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1080
+}
+
+#model5
+model =
+{ cost                = 50
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 600
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1100
+}
+
+#model6
+model =
+{ cost                = 50
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 620
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1120
+}
+
+#model7
+model =
+{ cost                = 50
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 640
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1140
+}
+
+#model8
+model =
+{ cost                = 50
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 660
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1160
+}
+
+#model9
+model =
+{ cost                = 50
+  buildtime           = 300
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 0
+  softattack          = 680
+  suppression         = 0
+  fuelconsumption     = 60
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 5.0
+  hardattack          = 1200
+}

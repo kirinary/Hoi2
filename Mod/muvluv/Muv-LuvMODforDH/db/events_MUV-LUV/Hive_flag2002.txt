@@ -1,0 +1,421 @@
+event = {
+	id = 70003
+	random = no 
+	country = U12
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		#command = { type = setflag which = Kashgar_Hive }
+		command = { type = setflag which = Mashhad_Hive }
+		command = { type = setflag which = Uralsk_Hive }
+		command = { type = setflag which = Velsk_Hive }
+		command = { type = setflag which = Minsk_Hive }
+		command = { type = setflag which = Ekibastuz_Hive }
+		command = { type = setflag which = Surgut_Hive }
+		command = { type = setflag which = Rovaniemi_Hive }
+		command = { type = setflag which = Anbar_Hive }
+		command = { type = setflag which = Noginsk_Hive }
+		command = { type = setflag which = Budapest_Hive }
+		command = { type = setflag which = Lyon_Hiv }
+		command = { type = setflag which = Bhopal_Hive }
+		command = { type = setflag which = Dunhuang_Hive }
+		command = { type = setflag which = Krasnoyarsk_Hive }
+		command = { type = setflag which = Chongqing_Hive }
+		command = { type = setflag which = Mandalay_Hive }
+		command = { type = setflag which = Ulanbator_Hive }
+		command = { type = setflag which = Blagoveshchensk_Hive }
+		command = { type = setflag which = Cheorwon_Hive }
+		command = { type = setflag which = Olyokminsk_Hive }
+		command = { type = setflag which = Evensk_Hive }
+		command = { type = ai which = U12_1998.ai }
+                command = { type = sleepevent which = 61051 }
+	}
+}
+
+event = {
+	id = 70002
+	random = no 
+	country = U13
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70003
+	random = no 
+	country = U14
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70004
+	random = no 
+	country = U15
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70005
+	random = no 
+	country = U16
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70006
+	random = no 
+	country = U17
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70007
+	random = no 
+	country = U18
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70008
+	random = no 
+	country = U19
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70009
+	random = no 
+	country = U20
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70010
+	random = no 
+	country = U22
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70011
+	random = no 
+	country = U23
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70012
+	random = no 
+	country = U24
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_5 }
+	}
+}
+
+event = {
+	id = 70013
+	random = no 
+	country = U25
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_4 }
+	}
+}
+
+event = {
+	id = 70014
+	random = no 
+	country = U26
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_4 }
+	}
+}
+
+event = {
+	id = 70015
+	random = no 
+	country = U27
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_4 }
+	}
+}
+
+event = {
+	id = 70016
+	random = no 
+	country = U28
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_4 }
+	}
+}
+
+event = {
+	id = 70017
+	random = no 
+	country = U29
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_3 }
+	}
+}
+
+event = {
+	id = 70018
+	random = no 
+	country = U30
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_3 }
+	}
+}
+
+event = {
+	id = 70019
+	random = no 
+	country = U31
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_4 }
+	}
+}
+
+event = {
+	id = 70020
+	random = no 
+	country = U34
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_2 }
+	}
+}
+
+event = {
+	id = 70021
+	random = no 
+	country = U36
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = local_setflag which = Phase_2 }
+	}
+}

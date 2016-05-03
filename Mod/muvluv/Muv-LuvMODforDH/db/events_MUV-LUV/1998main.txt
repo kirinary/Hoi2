@@ -1,0 +1,1437 @@
+event = {
+	id = 50201
+	random = no
+        country = U06
+	trigger = {
+                  ai = no
+       }
+
+	name = "オルタネイティヴ計画派閥"
+	desc = "EVT_50201_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "オルタネイティヴ4"
+                ai_chance = 100
+		command = { type = setflag which = UNAlt4 }
+ }
+        action_b = {
+		name = "オルタネイティヴ5"
+                ai_chance = 0
+		command = { type = setflag which = UNAlt5 }
+ }
+}
+
+event = {
+	id = 50202
+	random = no
+        country = USA
+	trigger = {
+                  ai = no
+       }
+
+	name = "オルタネイティヴ計画派閥"
+	desc = "EVT_50201_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "オルタネイティヴ4"
+                ai_chance = 0
+		command = { type = setflag which = USAAlt4 }
+ }
+        action_b = {
+		name = "オルタネイティヴ5"
+                ai_chance = 100
+		command = { type = setflag which = USAAlt5 }
+ }
+}
+
+event = {
+	id = 50203
+	random = no
+        country = U02
+	trigger = {
+                  ai = no
+       }
+
+	name = "オルタネイティヴ計画派閥"
+	desc = "EVT_50201_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "オルタネイティヴ4"
+                ai_chance = 100
+		command = { type = setflag which = EUAlt4 }
+ }
+        action_b = {
+		name = "オルタネイティヴ5"
+                ai_chance = 0
+		command = { type = setflag which = EUAlt5 }
+ }
+}
+
+event = {
+	id = 50204
+	random = no
+        country = U01
+	trigger = {
+                  ai = no
+       }
+
+	name = "オルタネイティヴ計画派閥"
+	desc = "EVT_50201_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "オルタネイティヴ4"
+                ai_chance = 0
+		command = { type = setflag which = AfAlt4 }
+ }
+        action_b = {
+		name = "オルタネイティヴ5"
+                ai_chance = 100
+		command = { type = setflag which = AfAlt5 }
+ }
+}
+
+event = {
+	id = 50205
+	random = no
+        country = U04
+	trigger = {
+                  ai = no
+       }
+
+	name = "オルタネイティヴ計画派閥"
+	desc = "EVT_50201_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "オルタネイティヴ4"
+                ai_chance = 100
+		command = { type = setflag which = AsiAlt4 }
+ }
+        action_b = {
+		name = "オルタネイティヴ5"
+                ai_chance = 0
+		command = { type = setflag which = AsiAlt5 }
+ }
+}
+
+event = {
+	id = 50206
+	random = no
+        country = U05
+	trigger = {
+                  ai = no
+       }
+
+	name = "オルタネイティヴ計画派閥"
+	desc = "EVT_50201_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "オルタネイティヴ4"
+                ai_chance = 100
+		command = { type = setflag which = ChAlt4 }
+ }
+        action_b = {
+		name = "オルタネイティヴ5"
+                ai_chance = 0
+		command = { type = setflag which = ChAlt5 }
+ }
+}
+
+event = {
+	id = 50207
+	random = no
+        country = SOV
+	trigger = {
+                  ai = no
+       }
+
+	name = "オルタネイティヴ計画派閥"
+	desc = "EVT_50201_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "オルタネイティヴ4"
+                ai_chance = 100
+		command = { type = setflag which = SOVAlt4 }
+ }
+        action_b = {
+		name = "オルタネイティヴ5"
+                ai_chance = 0
+		command = { type = setflag which = SOVAlt5 }
+ }
+}
+
+event = {
+	id = 50208
+	random = no
+        country = U06
+	trigger = {
+                  ai = no
+                  event = 50106
+                  OR = {
+                   flag = UNAlt4
+                   flag = UNAlt5
+                        }
+       }
+
+	name = "甲21号作戦"
+	desc = "EVT_50106_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+
+event = {
+	id = 50209
+	random = no
+        country = USA
+	trigger = {
+                  ai = no
+                  event = 50106
+                  OR = {
+                   flag = USAAlt4
+                   flag = USAAlt5
+                        }
+       }
+
+	name = "甲21号作戦"
+	desc = "EVT_50106_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50210
+	random = no
+        country = U02
+	trigger = {
+                  ai = no
+                  event = 50106
+                  OR = {
+                   flag = EUAlt4
+                   flag = EUAlt5
+                        }
+       }
+
+	name = "甲21号作戦"
+	desc = "EVT_50106_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50211
+	random = no
+        country = U01
+	trigger = {
+                  ai = no
+                  event = 50106
+                  OR = {
+                   flag = AfAlt4
+                   flag = AfAlt5
+                        }
+       }
+
+	name = "甲21号作戦"
+	desc = "EVT_50106_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50212
+	random = no
+        country = U04
+	trigger = {
+                  ai = no
+                  event = 50106
+                  OR = {
+                   flag = AsiAlt4
+                   flag = AsiAlt5
+                        }
+       }
+
+	name = "甲21号作戦"
+	desc = "EVT_50106_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+
+event = {
+	id = 50213
+	random = no
+        country = U05
+	trigger = {
+                  ai = no
+                  event = 50106
+                  OR = {
+                   flag = ChAlt4
+                   flag = ChAlt5
+                        }
+       }
+
+	name = "甲21号作戦"
+	desc = "EVT_50106_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50214
+	random = no
+        country = SOV
+	trigger = {
+                  ai = no
+                  event = 50106
+                  OR = {
+                   flag = SOVAlt4
+                   flag = SOVAlt5
+                        }
+       }
+
+	name = "甲21号作戦"
+	desc = "EVT_50106_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50215
+	random = no
+        country = U06
+	trigger = {
+                  ai = no
+                  event = 50109
+                  OR = {
+                   flag = UNAlt4
+                   flag = UNAlt5
+                        }
+       }
+
+	name = "桜花作戦"
+	desc = "EVT_50109_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50216
+	random = no
+        country = USA
+	trigger = {
+                  ai = no
+                  event = 50109
+                  OR = {
+                   flag = USAAlt4
+                   flag = USAAlt5
+                        }
+       }
+
+	name = "桜花作戦"
+	desc = "EVT_50106_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50217
+	random = no
+        country = U02
+	trigger = {
+                  ai = no
+                  event = 50109
+                  OR = {
+                   flag = EUAlt4
+                   flag = EUAlt5
+                        }
+       }
+
+	name = "桜花作戦"
+	desc = "EVT_50109_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50218
+	random = no
+        country = U01
+	trigger = {
+                  ai = no
+                  event = 50109
+                  OR = {
+                   flag = AfAlt4
+                   flag = AfAlt5
+                        }
+       }
+
+	name = "桜花作戦"
+	desc = "EVT_50109_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50219
+	random = no
+        country = U04
+	trigger = {
+                  ai = no
+                  event = 50109
+                  OR = {
+                   flag = AsiAlt4
+                   flag = AsiAlt5
+                        }
+       }
+
+	name = "桜花作戦"
+	desc = "EVT_50109_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+
+event = {
+	id = 50220
+	random = no
+        country = U05
+	trigger = {
+                  ai = no
+                  event = 50109
+                  OR = {
+                   flag = ChAlt4
+                   flag = ChAlt5
+                        }
+       }
+
+	name = "桜花作戦"
+	desc = "EVT_50109_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50221
+	random = no
+        country = SOV
+	trigger = {
+                  ai = no
+                  event = 50109
+                  OR = {
+                   flag = SOVAlt4
+                   flag = SOVAlt5
+                        }
+       }
+
+	name = "桜花作戦"
+	desc = "EVT_50109_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦に参加する"
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+ }
+}
+
+event = {
+	id = 50301
+	random = no
+        country = U06
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = UNAlt4
+       }
+
+	name = "EVT_50301_NAME"
+	desc = "EVT_50301_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -20  }
+		command = { type = rarematerialspool value = 5000 }
+ }
+}
+
+event = {
+	id = 50302
+	random = no
+        country = USA
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = USAAlt4
+       }
+
+	name = "EVT_50301_NAME"
+	desc = "EVT_50301_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -20  }
+		command = { type = rarematerialspool value = 5000 }
+ }
+}
+
+event = {
+	id = 50303
+	random = no
+        country = U02
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = EUAlt4
+       }
+
+	name = "EVT_50301_NAME"
+	desc = "EVT_50301_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -20  }
+		command = { type = rarematerialspool value = 5000 }
+ }
+}
+
+event = {
+	id = 50304
+	random = no
+        country = U01
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = AfAlt4
+       }
+
+	name = "EVT_50301_NAME"
+	desc = "EVT_50301_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -20  }
+		command = { type = rarematerialspool value = 5000 }
+ }
+}
+
+event = {
+	id = 50305
+	random = no
+        country = U04
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = AsiAlt4
+       }
+
+	name = "EVT_50301_NAME"
+	desc = "EVT_50301_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -20  }
+		command = { type = rarematerialspool value = 5000 }
+ }
+}
+
+event = {
+	id = 50306
+	random = no
+        country = U05
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = ChAlt4
+       }
+
+	name = "EVT_50301_NAME"
+	desc = "EVT_50301_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -20  }
+		command = { type = rarematerialspool value = 5000 }
+ }
+}
+
+
+event = {
+	id = 50307
+	random = no
+        country = SOV
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = SOVAlt4
+       }
+
+	name = "EVT_50301_NAME"
+	desc = "EVT_50301_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -20  }
+		command = { type = rarematerialspool value = 5000 }
+ }
+}
+
+event = {
+	id = 50308
+	random = no
+        country = U06
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = UNAlt5
+       }
+
+	name = "EVT_50308_NAME"
+	desc = "EVT_50308_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+event = {
+	id = 50309
+	random = no
+        country = USA
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = USAAlt5
+       }
+
+	name = "EVT_50308_NAME"
+	desc = "EVT_50308_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+event = {
+	id = 50310
+	random = no
+        country = U02
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = EUAlt5
+       }
+
+	name = "EVT_50308_NAME"
+	desc = "EVT_50308_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+event = {
+	id = 50311
+	random = no
+        country = U01
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = AfAlt5
+       }
+
+	name = "EVT_50308_NAME"
+	desc = "EVT_50308_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+event = {
+	id = 50312
+	random = no
+        country = U04
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = AsiAlt5
+       }
+
+	name = "EVT_50308_NAME"
+	desc = "EVT_50308_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+event = {
+	id = 50313
+	random = no
+        country = U05
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = ChAlt5
+       }
+
+	name = "EVT_50308_NAME"
+	desc = "EVT_50308_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+
+event = {
+	id = 50314
+	random = no
+        country = SOV
+	trigger = {
+                  ai = no
+                  event = 50111
+                  flag = SOVAlt5
+       }
+
+	name = "EVT_50308_NAME"
+	desc = "EVT_50308_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+
+event = {
+	id = 50315
+	random = no
+        country = U06
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = UNAlt5
+       }
+
+	name = "EVT_50315_NAME"
+	desc = "EVT_50315_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -5 }
+ }
+}
+
+
+
+event = {
+	id = 50316
+	random = no
+        country = USA
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = USAAlt5
+       }
+
+	name = "EVT_50315_NAME"
+	desc = "EVT_50315_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -5 }
+ }
+}
+
+event = {
+	id = 50317
+	random = no
+        country = U02
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = EUAlt5
+       }
+
+	name = "EVT_50315_NAME"
+	desc = "EVT_50315_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -5 }
+ }
+}
+
+event = {
+	id = 50318
+	random = no
+        country = U01
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = AfAlt5
+       }
+
+	name = "EVT_50315_NAME"
+	desc = "EVT_50315_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -5 }
+ }
+}
+
+
+event = {
+	id = 50319
+	random = no
+        country = U04
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = AsiAlt5
+       }
+
+	name = "EVT_50315_NAME"
+	desc = "EVT_50315_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -5 }
+ }
+}
+
+
+event = {
+	id = 50320
+	random = no
+        country = U05
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = ChAlt5
+       }
+
+	name = "EVT_50315_NAME"
+	desc = "EVT_50315_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -5 }
+ }
+}
+
+
+event = {
+	id = 50321
+	random = no
+        country = SOV
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = SOVAlt5
+       }
+
+	name = "EVT_50315_NAME"
+	desc = "EVT_50315_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -5 }
+ }
+}
+
+
+event = {
+	id = 50322
+	random = no
+        country = U06
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = UNAlt4
+       }
+
+	name = "EVT_50322_NAME"
+	desc = "EVT_50322_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+
+event = {
+	id = 50323
+	random = no
+        country = USA
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = USAAlt4
+       }
+
+	name = "EVT_50322_NAME"
+	desc = "EVT_50322_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+
+event = {
+	id = 50324
+	random = no
+        country = U02
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = EUAlt4
+       }
+
+	name = "EVT_50322_NAME"
+	desc = "EVT_50322_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+event = {
+	id = 50325
+	random = no
+        country = U01
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = AfAlt4
+       }
+
+	name = "EVT_50322_NAME"
+	desc = "EVT_50322_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+
+event = {
+	id = 50326
+	random = no
+        country = U04
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = AsiAlt4
+       }
+
+	name = "EVT_50322_NAME"
+	desc = "EVT_50322_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+
+event = {
+	id = 50327
+	random = no
+        country = U05
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = ChAlt4
+       }
+
+	name = "EVT_50322_NAME"
+	desc = "EVT_50322_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}
+
+
+event = {
+	id = 50328
+	random = no
+        country = SOV
+	trigger = {
+                  ai = no
+                  event = 50118
+                  flag = SOVAlt4
+       }
+
+	name = "EVT_50322_NAME"
+	desc = "EVT_50322_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+		command = { type = money value = -500  }
+		command = { type = dissent value = 8 }
+ }
+}

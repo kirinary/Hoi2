@@ -1,0 +1,1438 @@
+##############################################################
+##
+## 欧州連合フレーバーイベント(23001~24000)
+##
+##############################################################
+## 
+## id = 23001	統一中華戦線との関係＋
+## id = 23002	欧州連合との関係＋
+## id = 23003	アメリカ合衆国との関係＋
+## id = 23004	国際連合との関係＋
+## id = 23005	ソビエト連邦との関係＋
+## id = 23006	大東亜連合との関係＋
+## id = 23007	オーストラリアとの関係＋
+## id = 23008	アフリカ連合との関係＋
+## id = 23009	中東連合との関係＋
+## id = 23010	統一中華戦線との関係－
+## id = 23011	欧州連合との関係－
+## id = 23012	アメリカ合衆国との関係－
+## id = 23013	国際連合との関係－
+## id = 23014	ソビエト連邦との関係－
+## id = 23015	大東亜連合との関係－
+## id = 23016	オーストラリアとの関係－
+## id = 23017	アフリカ連合との関係－
+## id = 23018	中東連合との関係－
+## id = 23019
+## id = 23020
+## id = 23021   ロヴァニエミハイヴ侵攻作戦（23021～23025までAI専用イベント　ごちゃまぜMODのKHC的なアレ）
+## id = 23022   ロヴァニエミハイヴ侵攻-サンタクロース作戦-
+## id = 23023   月光(モント･リヒト)作戦
+## id = 230230  AI_EVENT
+## id = 23024   ギャラルホルン作戦
+## id = 230240  AI_EVENT
+## id = 23025   雪中の奇跡作戦
+## id = 23026
+## id = 23027   ドラッヘ作戦
+## id = 23028   グライフ作戦
+## id = 23029   レーヴェ作戦
+## id = 23030   シュバルツァーケーニッヒスヴォルフ作戦
+## id = 23031   ヴァイスヴォルフ作戦
+## id = 23032
+## id = 23033   間引き作戦(U02)
+## id = 23034   間引き作戦(U19)
+## id = 23035   間引き作戦(U22)
+## id = 23036   間引き作戦(U23)
+## id = 23037   BETA群出現(U19)
+## id = 23038   BETA群出現(U22)
+## id = 23039   BETA群出現(U23)
+## id = 23040   BETA群侵攻(U23)
+## id = 23041
+## id = 23042   スレイヴニル小隊の成果
+## id = 23043   サーグ製戦術機統合強化計画
+## id = 23044   ユーロファイタス社の参入
+## id = 23045   ラインメイタル社の参入
+## id = 23046   Riddare av Lindblum
+## id = 23047   ケプラヴィーク基地の拡張
+## id = 23048   EIP実戦テストの開始
+## id = 23049   Dynel NTW-120LM
+## id = 23050   EF-2000の技術
+## id = 23051   統合強化計画完遂
+## id = 23052   
+## id = 23053   オーストリア皇帝位の復活
+## id = 23054   オーストリア･ハンガリー同君連合の復活
+## id = 23055   オットー・フォン・ハプスブルクの帰還
+## id = 23056   新アウスグライヒ
+## id = 23057   金羊毛騎士団
+## id = 23058   カール・ハプスブルク＝ロートリンゲン
+## id = 23059   オーストリア近衛連隊の編成
+## id = 23060   ルドルフ帝冠戦術機甲大隊の編成
+## id = 23061   聖イシュトヴァーン王冠戦術機甲大隊の編成
+## id = 23062
+## id = 23063   
+## id = 23064   
+##
+##############################################################
+
+## 各国との融和
+event = {
+	id = 23001
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "統一中華戦線との関係"
+	desc = "EVT_23001_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U05 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 23002
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "日本帝国との関係"
+	desc = "EVT_23002_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = JAP value = 10 } 
+ 	}
+}
+
+event = {
+	id = 23003
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_23003_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = 10 } 
+ 	}
+}
+
+event = {
+	id = 23004
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_23004_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = 10 } 
+	}
+}
+
+event = {
+	id = 23005
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "ソビエト連邦との関係"
+	desc = "EVT_23005_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = 10 } 
+        }
+}
+
+event = {
+	id = 23006
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_23006_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U04 value = 10 } 
+        }
+}
+
+event = {
+	id = 23007
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "オーストラリアとの関係"
+	desc = "EVT_23007_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = AST value = 10 } 
+        }
+}
+
+event = {
+	id = 23008
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "アフリカ連合との関係"
+	desc = "EVT_23008_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U01 value = 10 } 
+        }
+}
+
+event = {
+	id = 23009
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_23009_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = 10 } 
+        }
+}
+
+event = {
+	id = 23010
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "統一中華戦線との関係"
+	desc = "EVT_23010_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U05 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 23011
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "日本帝国との関係"
+	desc = "EVT_23011_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = JAP value = -10 } 
+ 	}
+}
+
+event = {
+	id = 23012
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "アメリカ合衆国との関係"
+	desc = "EVT_23012_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = USA value = -10 } 
+ 	}
+}
+
+event = {
+	id = 23013
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "国際連合との関係"
+	desc = "EVT_23013_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U06 value = -10 } 
+	}
+}
+
+event = {
+	id = 23014
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "ソビエト連邦との関係"
+	desc = "EVT_23014_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = SOV value = -10 } 
+        }
+}
+
+event = {
+	id = 23015
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "大東亜連合との関係"
+	desc = "EVT_23015_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U04 value = -10 } 
+        }
+}
+
+event = {
+	id = 23016
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "オーストラリアとの関係"
+	desc = "EVT_23016_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = AST value = -10 } 
+        }
+}
+
+event = {
+	id = 23017
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "アフリカ連合との関係"
+	desc = "EVT_23017_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U01 value = -10 } 
+        }
+}
+
+event = {
+	id = 23018
+	random = yes
+	country = U02
+	trigger = {
+	}
+
+	name = "中東連合との関係"
+	desc = "EVT_23018_DESC"
+	style = 0
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = relation which = U03 value = -10 } 
+        }
+}
+
+
+event = {
+	id = 23021
+	random = no
+	country = U02
+	trigger = {
+                 event = 50111
+                 random = 10
+                 ai = yes
+                 Flag = Rovaniemi_Hive
+                 control = { province = 294 data = -2 }#コペンハーゲン
+                 control = { province = 142 data = -2 }#ヘルシンキ
+                 control = { province = 133 data = -2 }#ムルマンスク
+	}
+
+	name = "ロヴァニエミハイヴ侵攻作戦"
+	desc = "EVT_23021_DESC" 
+	picture = "rovani"
+	style = 0
+        
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 8
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "作戦を実行する"
+                ai_chance = 90
+		command = { type = setflag which = Rovaniemi }
+ }	
+       action_b = {
+		name = "作戦を実行しない"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+
+event = {
+	id = 23022
+	random = no
+	country = U02
+	trigger = {
+                 flag = Rovaniemi
+                 ai = yes
+	}
+
+	name = "EVT_23022_NAME"
+	desc = "EVT_23022_DESC" 
+	picture = "rovani"
+	style = 0
+        
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "作戦の準備にかかる"
+                command = { type = money value = -300 }
+                command = { type = supplies value = -2000 }
+ }	
+}
+
+
+event = {
+	id = 23023
+	random = no
+	country = U02
+	trigger = {
+                 event = 23022
+                 ai = yes
+                 control = { province = 294 data = -2 }#コペンハーゲン
+                 control = { province = 142 data = -2 }#ヘルシンキ
+                 control = { province = 133 data = -2 }#ムルマンスク
+	}
+
+	name = "月光(モント･リヒト作戦)"
+	desc = "EVT_23023_DESC" 
+	picture = "rovani"
+	style = 0
+        
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "揚陸地点を確保するのだ！"
+		command = { type = add_corps value = land where = 294 } #コペンハーゲンid294
+		command = { type = add_division value = hq when = 3 where = artillery } 
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_corps value = land where = 133 } #ムルマンスクid133
+		command = { type = add_division value = hq when = 3 where = artillery } 
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+ }	
+}
+
+event = {
+	id = 230230
+	random = no
+	country = U12
+	trigger = {
+                 event = 23022
+                 ai = yes
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+        
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ok"
+                command = { type = control which = U02 value = 294 }
+                command = { type = control which = U02 value = 133 }
+ }	
+}
+
+event = {
+	id = 23024
+	random = no
+	country = U02
+	trigger = {
+                 event = 23023
+                 ai = yes
+                 OR = {
+                 control = { province = 294 data = -3 }#コペンハーゲン
+                 control = { province = 133 data = -3 }#ムルマンスク
+                      }
+	}
+
+	name = "ギャラルホルン作戦"
+	desc = "EVT_23024_DESC" 
+	picture = "rovani"
+	style = 0
+        
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "橋頭堡を確保するのだ！"
+		command = { type = add_corps value = land where = 142 } #ヘルシンキid142
+		command = { type = add_division value = hq when = 3 where = artillery } 
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+ }	
+}
+
+event = {
+	id = 230240
+	random = no
+	country = U12
+	trigger = {
+                 event = 23023
+                 ai = yes
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+        
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ok"
+                command = { type = control which = U02 value = 142 }
+ }	
+}
+
+event = {
+	id = 23025
+	random = no
+	country = U02
+	trigger = {
+                 event = 23024
+                 ai = yes
+                 control = { province = 142 data = -3 }#ヘルシンキ
+	}
+
+	name = "雪中の奇跡作戦"
+	desc = "EVT_23025_DESC" 
+	picture = "rovani"
+	style = 0
+        
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ハイヴを制圧するのだ！"
+		command = { type = frozen_attack which = paratrooper value = 10 }
+		command = { type = frozen_defense which = paratrooper value = 10 }
+		command = { type = snow_attack which = paratrooper value = 10 }
+		command = { type = snow_defense which = paratrooper value = 10 }
+		command = { type = blizzard_attack which = paratrooper value = 10 }
+		command = { type = blizzard_defense which = paratrooper value = 10 }
+ }	
+}
+
+
+event = {
+	id = 23031
+	random = no
+	country = U02
+	trigger = {
+                 control = { province = 19 data = -3 }#ロンドン
+	}
+
+	name = "ヴァイスヴォルフ作戦"
+	desc = "EVT_23031_DESC"
+	style = 0
+        
+	date = { day = 24 month = 2 year = 2000 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "作戦を実行する"
+                ai_chance = 90
+                command = { type = unlock_division which = 25001 value = 2 }
+                command = { type = unlock_division which = 25001 value = 3 }
+                command = { type = unlock_division which = 25001 value = 4 }
+                command = { type = unlock_division which = 25001 value = 5 }
+                command = { type = unlock_division which = 25001 value = 6 }
+                command = { type = unlock_division which = 25001 value = 7 }
+                command = { type = unlock_division which = 25001 value = 8 }
+                command = { type = unlock_division which = 25001 value = 9 }
+                command = { type = unlock_division which = 25001 value = 10 }
+                command = { type = unlock_division which = 25001 value = 11 }
+                command = { type = unlock_division which = 25001 value = 12 }
+                command = { type = unlock_division which = 25001 value = 13 }
+                command = { type = supplies value = -2000 }
+ }
+	action_b = {
+		name = "そんな余裕は無い"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+
+event = {
+	id = 23033
+	random = no
+	country = U02
+        persistent = yes
+	trigger = {
+                 atwar = U19
+                 atwar = U22
+                 atwar = U23
+                 flag = mabikireturn
+                 random = 20
+               NOT = {
+                     flag = mabikiL
+                     flag = mabikiB
+                     flag = mabikiR
+                     }
+	}
+
+	name = "間引き作戦"
+	desc = "EVT_23033_DESC"
+	style = 0
+        
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "リヨンハイヴへ間引きを行う"
+                ai_chance = 33
+                command = { type = supplies value = -1000 }
+                command = { type = manpowerpool value = -10 }
+		command = { type = setflag which = mabikiL }
+                command = { type = clrflag which = mabikireturn }
+ }
+	action_b = {
+		name = "ブダペストハイヴへ間引きを行う"
+                ai_chance = 33
+                command = { type = supplies value = -1000 }
+                command = { type = manpowerpool value = -10 }
+		command = { type = setflag which = mabikiB }
+                command = { type = clrflag which = mabikireturn }
+ }
+	action_c = {
+		name = "ロヴァニエミハイヴへ間引きを行う"
+                ai_chance = 33
+                command = { type = supplies value = -1000 }
+                command = { type = manpowerpool value = -10 }
+		command = { type = setflag which = mabikiR }
+                command = { type = clrflag which = mabikireturn }
+ }
+	action_d = {
+		name = "間引きを行わない"
+                ai_chance = 1
+		command = { type = setflag which = Nomabiki }
+                command = { type = clrflag which = mabikireturn }
+ }
+}
+
+
+event = {
+	id = 23034
+	random = no
+	country = U19
+        persistent = yes
+	trigger = {
+                 flag = mabikiR
+	}
+
+	name = "間引き作戦"
+	desc = "EVT_23034_DESC"
+	style = 0
+        
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+                command = { type = free_ic value = -60 }
+		command = { type = setflag which = mabikiR2 }
+                command = { type = clrflag which = mabikiR }
+ }
+}
+
+
+event = {
+	id = 23035
+	random = no
+	country = U22
+        persistent = yes
+	trigger = {
+                 flag = mabikiB
+	}
+
+	name = "間引き作戦"
+	desc = "EVT_23035_DESC"
+	style = 0
+        
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+                command = { type = free_ic value = -60 }
+		command = { type = setflag which = mabikiB2 }
+                command = { type = clrflag which = mabikiB }
+ }
+}
+
+
+event = {
+	id = 23036
+	random = no
+	country = U23
+        persistent = yes
+	trigger = {
+                 flag = mabikiL
+	}
+
+	name = "間引き作戦"
+	desc = "EVT_23036_DESC"
+	style = 0
+        
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+                command = { type = free_ic value = -60 }
+		command = { type = setflag which = mabikiL2 }
+                command = { type = clrflag which = mabikiL }
+ }
+}
+
+
+event = {
+	id = 23037
+	random = no
+	country = U19
+        persistent = yes
+	trigger = {
+                 flag = mabikiR2
+                 random = 20
+	}
+
+	name = "BETA群出現"
+	desc = "EVT_23037_DESC"
+	style = 0
+        
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 12
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+                command = { type = free_ic value = 60 }
+		command = { type = setflag which = mabikireturn }
+                command = { type = clrflag which = mabikiL2 }
+ }
+}
+
+
+event = {
+	id = 23038
+	random = no
+	country = U22
+        persistent = yes
+	trigger = {
+                 flag = mabikiB2
+                 random = 20
+	}
+
+	name = "BETA群出現"
+	desc = "EVT_23038_DESC"
+	style = 0
+        
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 12
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+                command = { type = free_ic value = 60 }
+		command = { type = setflag which = mabikireturn }
+                command = { type = clrflag which = mabikiB2 }
+ }
+}
+
+
+event = {
+	id = 23039
+	random = no
+	country = U23
+        persistent = yes
+	trigger = {
+                 flag = mabikiL2
+                 random = 20
+	}
+
+	name = "BETA群出現"
+	desc = "EVT_23039_DESC"
+	style = 0
+        
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 12
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+                command = { type = free_ic value = 60 }
+		command = { type = setflag which = mabikireturn }
+                command = { type = clrflag which = mabikiL2 }
+ }
+}
+
+
+event = {
+	id = 23040
+	random = no
+	country = U23
+        persistent = yes
+	trigger = {
+                 flag = Nomabiki
+                 random = 20
+	}
+
+	name = "BETA群侵攻"
+	desc = "EVT_23040_DESC"
+	style = 0
+        
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 12
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "OK"
+		command = { type = setflag which = mabikireturn }
+                command = { type = clrflag which = Nomabiki }
+		command = { type = add_corps value = land where = 20 }#ドーバー
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 20 }#ドーバー
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 20 }#ドーバー
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 21 }#ポーツマス
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 21 }#ポーツマス
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 21 }#ポーツマス
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # 突撃級
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # 重光線級
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+event = {
+	id = 23042
+	random = no
+	country = U02
+	trigger = {
+                 control = { province = 19 data = -3 }#ロンドン
+	}
+
+	name = "スレイヴニル小隊の成果"
+	desc = "EVT_23042_DESC"
+	style = 0
+        
+	date = { day = 3 month = 1 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = setflag which = Sleipner }
+ }
+}
+
+event = {
+	id = 23043
+	random = no
+	country = U02
+	trigger = {
+                 flag = Sleipner
+	}
+
+	name = "サーグ製戦術機統合強化計画"
+	desc = "EVT_23043_DESC"
+	style = 0
+        
+	date = { day = 3 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を開始する"
+                ai_chance = 90
+		command = { type = setflag which = EIP }
+                command = { type = supplies value = -3000 }
+                command = { type = money value = -1000 }
+ }
+	action_b = {
+		name = "その必要はない"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 23044
+	random = no
+	country = U02
+	trigger = {
+                 flag = EIP
+	}
+
+	name = "ユーロファイタス社の参入"
+	desc = "EVT_23044_DESC"
+	style = 0
+        
+	date = { day = 5 month = 8 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "参入を認める"
+                ai_chance = 90
+		command = { type = setflag which = EF }
+                command = { type = supplies value = -1000 }
+                command = { type = money value = -500 }
+ }
+	action_b = {
+		name = "参入を認めない"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 23045
+	random = no
+	country = U02
+	trigger = {
+                 flag = EIP
+	}
+
+	name = "ラインメイタル社の参入"
+	desc = "EVT_23045_DESC"
+	style = 0
+        
+	date = { day = 12 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "参入を認める"
+                ai_chance = 90
+		command = { type = setflag which = RM }
+                command = { type = supplies value = -1000 }
+                command = { type = money value = -500 }
+ }
+	action_b = {
+		name = "参入を認めない"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 23046
+	random = no
+	country = U02
+	trigger = {
+                 flag = EIP
+	}
+
+	name = "Riddare av Lindblum"
+	desc = "EVT_23046_DESC"
+	style = 0
+        
+	date = { day = 6 month = 2 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+		command = { type = research_mod value = 3 }
+ }
+}
+
+event = {
+	id = 23047
+	random = no
+	country = U02
+	trigger = {
+                 flag = EIP
+                 control = { province = 1 data = -1 }#アイスランド
+	}
+
+	name = "ケプラヴィーク基地の拡張"
+	desc = "EVT_23047_DESC"
+	style = 0
+        
+	date = { day = 22 month = 8 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = construct which = ic where = 1 value = 3 }
+		command = { type = construct which = naval_base where = 1 value = 3 }
+                command = { type = supplies value = -1000 }
+                command = { type = money value = -500 }
+ }
+}
+
+event = {
+	id = 23048
+	random = no
+	country = U02
+	trigger = {
+                 flag = EIP
+	}
+
+	name = "EIP実戦テストの開始"
+	desc = "EVT_23048_DESC"
+	style = 0
+        
+	date = { day = 26 month = 10 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "結果に期待しよう"
+                command = { type = supplies value = -1000 }
+                command = { type = money value = -100 }
+ }
+}
+
+event = {
+	id = 23049
+	random = no
+	country = U02
+	trigger = {
+                 flag = EIP
+                 flag = RM
+	}
+
+	name = "Dynel NTW-120LM"
+	desc = "EVT_23049_DESC"
+	style = 0
+        
+	date = { day = 1 month = 3 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { type = soft_attack which = bergsjaeger value = 15 }
+                command = { type = hard_attack which = bergsjaeger value = 15 }
+ }
+}
+
+event = {
+	id = 23050
+	random = no
+	country = U02
+	trigger = {
+                 flag = EIP
+                 flag = EF
+	}
+
+	name = "EF-2000の技術"
+	desc = "EVT_23050_DESC"
+	style = 0
+        
+	date = { day = 6 month = 6 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい！"
+                command = { type = speed which = bergsjaeger value = 20 }
+ }
+}
+
+event = {
+	id = 23051
+	random = no
+	country = U02
+	trigger = {
+                 flag = EIP
+	}
+
+	name = "統合強化計画完遂"
+	desc = "EVT_23051_DESC"
+	style = 0
+        
+	date = { day = 2 month = 10 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = speed which = bergsjaeger value = 15 }
+                command = { type = soft_attack which = bergsjaeger value = 15 }
+                command = { type = hard_attack which = bergsjaeger value = 15 }
+ }
+}
+
+event = {
+	id = 23053
+	random = no
+	country = U02
+	trigger = {
+                 control = { province = 19 data = -3 }#ロンドン
+	}
+
+	name = "オーストリア皇帝位の復活"
+	desc = "EVT_23053_DESC"
+	style = 0
+	picture = "Austria"
+        
+	date = { day = 28 month = 10 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "皇帝位を復活させる"
+                ai_chance = 90
+		command = { type = setflag which = IA }
+ }
+	action_b = {
+		name = "ふざけた提案だ"
+                ai_chance = 10
+		command = { }
+ }
+}
+
+event = {
+	id = 23054
+	random = no
+	country = U02
+	trigger = {
+                 flag = IA
+	}
+
+	name = "オーストリア･ハンガリー同君連合の復活"
+	desc = "EVT_23054_DESC"
+	style = 0
+        
+	date = { day = 7 month = 0 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -5 }
+ }
+}
+
+event = {
+	id = 23055
+	random = no
+	country = U02
+	trigger = {
+                 flag = IA
+	}
+
+	name = "オットー・フォン・ハプスブルクの帰還"
+	desc = "EVT_23055_DESC"
+	style = 0
+        
+	date = { day = 13 month = 0 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "皇帝陛下万歳!国王陛下万歳!"
+		command = { type = dissent value = -5 }
+ }
+}
+
+event = {
+	id = 23056
+	random = no
+	country = U02
+	trigger = {
+                 flag = IA
+	}
+
+	name = "新アウスグライヒ"
+	desc = "EVT_23056_DESC"
+	style = 0
+        
+	date = { day = 22 month = 9 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = dissent value = -5 }
+ }
+}
+
+event = {
+	id = 23057
+	random = no
+	country = U02
+	trigger = {
+                 flag = IA
+	}
+
+	name = "金羊毛騎士団"
+	desc = "EVT_23057_DESC"
+	style = 0
+	picture = "GoldenFleece"
+        
+	date = { day = 16 month = 11 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "名称を与える"
+                ai_chance = 85
+                command = { type = morale which = land when = now value = 5 }
+ }
+	action_b = {
+		name = "その必要はない"
+                ai_chance = 15
+		command = { }
+ }
+}
+
+event = {
+	id = 23058
+	random = no
+	country = U02
+	trigger = {
+                 flag = IA
+	}
+
+	name = "カール・ハプスブルク＝ロートリンゲン"
+	desc = "EVT_23058_DESC"
+	style = 0
+        
+	date = { day = 5 month = 9 year = 2000 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "皇太子殿下万歳！"
+                command = { type = morale which = land when = now value = 5 }
+ }
+}
+
+event = {
+	id = 23059
+	random = no
+	country = U02
+	trigger = {
+                 flag = IA
+	}
+
+	name = "オーストリア近衛連隊の編成"
+	desc = "EVT_23059_DESC"
+	style = 0
+        
+	date = { day = 7 month = 4 year = 2000 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "部隊を編成する"
+                ai_chance = 70
+		command = { type = setflag which = IRG }
+                command = { type = supplies value = -3000 }
+                command = { type = money value = -800 }
+ }
+	action_b = {
+		name = "そんな余裕はない"
+                ai_chance = 30
+		command = { }
+ }
+}
+
+event = {
+	id = 23060
+	random = no
+	country = U02
+	trigger = {
+                 flag = IRG
+	}
+
+	name = "ルドルフ帝冠戦術機甲大隊の編成"
+	desc = "EVT_23060_DESC"
+	style = 0
+        
+	date = { day = 19 month = 2 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "部隊を編成する"
+		command = { type = activate_division which = 25001 value = 14 where = 19 when = 1 }
+ }
+}
+
+event = {
+	id = 23061
+	random = no
+	country = U02
+	trigger = {
+                 flag = IRG
+	}
+
+	name = "聖イシュトヴァーン王冠戦術機甲大隊の編成"
+	desc = "EVT_23061_DESC"
+	style = 0
+        
+	date = { day = 6 month = 6 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "部隊を編成する"
+		command = { type = activate_division which = 25001 value = 15 where = 19 when = 1 }
+ }
+}

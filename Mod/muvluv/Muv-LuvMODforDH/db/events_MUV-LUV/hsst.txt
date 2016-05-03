@@ -1,0 +1,720 @@
+event = {
+	id = 110
+	random = no 
+	country = JAP
+	trigger = {
+		ai = no
+	}
+	name = "初期HSST兵力"
+        desc = "EVT_1_DESC"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                name = "OK"
+		command = { type = add_corps which = "国連宇宙総軍第1艦隊ランサー" value = air where = 1192 } 
+		command = { type = add_division which = "第1再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第2再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第3再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第4再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第2艦隊メテオール" value = air where = 1192 } 
+		command = { type = add_division which = "第5再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第6再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第7再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第8再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第3艦隊アリオール" value = air where = 1192 } 
+		command = { type = add_division which = "第9再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第10再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第11再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第12再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第4艦隊ブレイド･ナイツ" value = air where = 1192 } 
+		command = { type = add_division which = "第13再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第14再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第15再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第16再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第5艦隊シュベリエ" value = air where = 1192 } 
+		command = { type = add_division which = "第17再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第18再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第19再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第20再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第6艦隊フォルゴーレ" value = air where = 1192 } 
+		command = { type = add_division which = "第21再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第22再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第23再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第24再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第7艦隊エイペスト" value = air where = 1192 } 
+		command = { type = add_division which = "第25再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第26再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第27再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第28再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "教導軌道降下兵団" value = land where = 1192 } 
+		command = { type = add_division which = "第275戦術機甲大隊「オービット･デスサイズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第177戦術機甲大隊「ドーム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第178戦術機甲大隊「ゴーレム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第179戦術機甲大隊「オムニ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第1軌道降下兵団「ビギニングダイバーズ」" value = land where = 1192 } 
+		command = { type = add_division which = "第158戦術機甲大隊「ループァ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第159戦術機甲大隊「ラーズグリーズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第160戦術機甲大隊「コレクター」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第161戦術機甲大隊「ビルドシュバイン」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第2軌道降下兵団「ライトニングダイバーズ」" value = land where = 1192 } 
+		command = { type = add_division which = "第521戦術機甲大隊「グール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第522戦術機甲大隊「ヴェノム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第523戦術機甲大隊「バイパー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第524戦術機甲大隊「グリーンデビル」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第3軌道降下兵団「ダジボーグダイバーズ」" value = land where = 1192 } 
+		command = { type = add_division which = "第156戦術機甲大隊「オリョール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第844戦術機甲大隊「シュバルツ･シュペーア」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第845戦術機甲大隊「ヴィルベント」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第846戦術機甲大隊「ランシエ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第4軌道降下兵団「ジュピターダイバーズ」" value = land where = 1192 } 
+		command = { type = add_division which = "第110戦術機甲大隊「イオ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第175戦術機甲大隊「エウロパ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第280戦術機甲大隊「ガニメデ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第490戦術機甲大隊「カリスト」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第5軌道降下兵団「ロバートダイバーズ」" value = land where = 1192 } 
+		command = { type = add_division which = "第522戦術機甲大隊「デイビット･E･トウィッグス」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第919戦術機甲大隊「アール･ヴァン･ドーン」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第107戦術機甲大隊「ジョン･マグルーダー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第119戦術機甲大隊「ジョージ･B･ローリング」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第6軌道降下兵団「オービットダイバーズ」" value = land where = 1192 } 
+		command = { type = add_division which = "第1軌道戦術機甲大隊「ザウバー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第2軌道戦術機甲大隊「レザール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第3軌道戦術機甲大隊「ゴースト」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第4軌道戦術機甲大隊「アクイラ」" value = paratrooper when = 9 }
+	}
+}
+
+event = {
+	id = 111
+	random = no 
+	country = SOV
+	trigger = {
+		ai = no
+	}
+	name = "初期HSST兵力"
+        desc = "EVT_1_DESC"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                name = "OK"
+		command = { type = add_corps which = "国連宇宙総軍第1艦隊ランサー" value = air where = 908 } 
+		command = { type = add_division which = "第1再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第2再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第3再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第4再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第2艦隊メテオール" value = air where = 908 } 
+		command = { type = add_division which = "第5再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第6再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第7再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第8再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第3艦隊アリオール" value = air where = 908 } 
+		command = { type = add_division which = "第9再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第10再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第11再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第12再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第4艦隊ブレイド･ナイツ" value = air where = 908 } 
+		command = { type = add_division which = "第13再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第14再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第15再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第16再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第5艦隊シュベリエ" value = air where = 908 } 
+		command = { type = add_division which = "第17再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第18再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第19再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第20再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第6艦隊フォルゴーレ" value = air where = 908 } 
+		command = { type = add_division which = "第21再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第22再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第23再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第24再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第7艦隊エイペスト" value = air where = 908 } 
+		command = { type = add_division which = "第25再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第26再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第27再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第28再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "教導軌道降下兵団" value = land where = 908 } 
+		command = { type = add_division which = "第275戦術機甲大隊「オービット･デスサイズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第177戦術機甲大隊「ドーム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第178戦術機甲大隊「ゴーレム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第179戦術機甲大隊「オムニ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第1軌道降下兵団「ビギニングダイバーズ」" value = land where = 908 } 
+		command = { type = add_division which = "第158戦術機甲大隊「ループァ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第159戦術機甲大隊「ラーズグリーズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第160戦術機甲大隊「コレクター」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第161戦術機甲大隊「ビルドシュバイン」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第2軌道降下兵団「ライトニングダイバーズ」" value = land where = 908 } 
+		command = { type = add_division which = "第521戦術機甲大隊「グール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第522戦術機甲大隊「ヴェノム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第523戦術機甲大隊「バイパー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第524戦術機甲大隊「グリーンデビル」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第3軌道降下兵団「ダジボーグダイバーズ」" value = land where = 908 } 
+		command = { type = add_division which = "第156戦術機甲大隊「オリョール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第844戦術機甲大隊「シュバルツ･シュペーア」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第845戦術機甲大隊「ヴィルベント」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第846戦術機甲大隊「ランシエ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第4軌道降下兵団「ジュピターダイバーズ」" value = land where = 908 } 
+		command = { type = add_division which = "第110戦術機甲大隊「イオ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第175戦術機甲大隊「エウロパ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第280戦術機甲大隊「ガニメデ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第490戦術機甲大隊「カリスト」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第5軌道降下兵団「ロバートダイバーズ」" value = land where = 908 } 
+		command = { type = add_division which = "第522戦術機甲大隊「デイビット･E･トウィッグス」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第919戦術機甲大隊「アール･ヴァン･ドーン」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第107戦術機甲大隊「ジョン･マグルーダー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第119戦術機甲大隊「ジョージ･B･ローリング」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第6軌道降下兵団「オービットダイバーズ」" value = land where = 908 } 
+		command = { type = add_division which = "第1軌道戦術機甲大隊「ザウバー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第2軌道戦術機甲大隊「レザール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第3軌道戦術機甲大隊「ゴースト」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第4軌道戦術機甲大隊「アクイラ」" value = paratrooper when = 9 }
+	}
+}
+
+event = {
+	id = 112
+	random = no 
+	country = U01
+	trigger = {
+		ai = no
+	}
+	name = "初期HSST兵力"
+        desc = "EVT_1_DESC"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                name = "OK"
+		command = { type = add_corps which = "国連宇宙総軍第1艦隊ランサー" value = air where = 907 } 
+		command = { type = add_division which = "第1再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第2再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第3再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第4再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第2艦隊メテオール" value = air where = 907 } 
+		command = { type = add_division which = "第5再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第6再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第7再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第8再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第3艦隊アリオール" value = air where = 907 } 
+		command = { type = add_division which = "第9再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第10再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第11再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第12再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第4艦隊ブレイド･ナイツ" value = air where = 907 } 
+		command = { type = add_division which = "第13再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第14再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第15再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第16再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第5艦隊シュベリエ" value = air where = 907 } 
+		command = { type = add_division which = "第17再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第18再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第19再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第20再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第6艦隊フォルゴーレ" value = air where = 907 } 
+		command = { type = add_division which = "第21再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第22再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第23再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第24再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第7艦隊エイペスト" value = air where = 907 } 
+		command = { type = add_division which = "第25再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第26再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第27再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第28再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "教導軌道降下兵団" value = land where = 907 } 
+		command = { type = add_division which = "第275戦術機甲大隊「オービット･デスサイズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第177戦術機甲大隊「ドーム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第178戦術機甲大隊「ゴーレム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第179戦術機甲大隊「オムニ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第1軌道降下兵団「ビギニングダイバーズ」" value = land where = 907 } 
+		command = { type = add_division which = "第158戦術機甲大隊「ループァ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第159戦術機甲大隊「ラーズグリーズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第160戦術機甲大隊「コレクター」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第161戦術機甲大隊「ビルドシュバイン」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第2軌道降下兵団「ライトニングダイバーズ」" value = land where = 907 } 
+		command = { type = add_division which = "第521戦術機甲大隊「グール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第522戦術機甲大隊「ヴェノム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第523戦術機甲大隊「バイパー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第524戦術機甲大隊「グリーンデビル」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第3軌道降下兵団「ダジボーグダイバーズ」" value = land where = 907 } 
+		command = { type = add_division which = "第156戦術機甲大隊「オリョール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第844戦術機甲大隊「シュバルツ･シュペーア」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第845戦術機甲大隊「ヴィルベント」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第846戦術機甲大隊「ランシエ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第4軌道降下兵団「ジュピターダイバーズ」" value = land where = 907 } 
+		command = { type = add_division which = "第110戦術機甲大隊「イオ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第175戦術機甲大隊「エウロパ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第280戦術機甲大隊「ガニメデ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第490戦術機甲大隊「カリスト」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第5軌道降下兵団「ロバートダイバーズ」" value = land where = 907 } 
+		command = { type = add_division which = "第522戦術機甲大隊「デイビット･E･トウィッグス」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第919戦術機甲大隊「アール･ヴァン･ドーン」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第107戦術機甲大隊「ジョン･マグルーダー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第119戦術機甲大隊「ジョージ･B･ローリング」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第6軌道降下兵団「オービットダイバーズ」" value = land where = 907 } 
+		command = { type = add_division which = "第1軌道戦術機甲大隊「ザウバー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第2軌道戦術機甲大隊「レザール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第3軌道戦術機甲大隊「ゴースト」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第4軌道戦術機甲大隊「アクイラ」" value = paratrooper when = 9 }
+	}
+}
+
+event = {
+	id = 113
+	random = no 
+	country = U02
+	trigger = {
+		ai = no
+	}
+	name = "初期HSST兵力"
+        desc = "EVT_1_DESC"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                name = "OK"
+		command = { type = add_corps which = "国連宇宙総軍第1艦隊ランサー" value = air where = 19 } 
+		command = { type = add_division which = "第1再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第2再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第3再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第4再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第2艦隊メテオール" value = air where = 19 } 
+		command = { type = add_division which = "第5再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第6再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第7再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第8再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第3艦隊アリオール" value = air where = 19 } 
+		command = { type = add_division which = "第9再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第10再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第11再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第12再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第4艦隊ブレイド･ナイツ" value = air where = 19 } 
+		command = { type = add_division which = "第13再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第14再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第15再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第16再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第5艦隊シュベリエ" value = air where = 19 } 
+		command = { type = add_division which = "第17再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第18再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第19再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第20再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第6艦隊フォルゴーレ" value = air where = 19 } 
+		command = { type = add_division which = "第21再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第22再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第23再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第24再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第7艦隊エイペスト" value = air where = 19 } 
+		command = { type = add_division which = "第25再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第26再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第27再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第28再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "教導軌道降下兵団" value = land where = 19 } 
+		command = { type = add_division which = "第275戦術機甲大隊「オービット･デスサイズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第177戦術機甲大隊「ドーム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第178戦術機甲大隊「ゴーレム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第179戦術機甲大隊「オムニ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第1軌道降下兵団「ビギニングダイバーズ」" value = land where = 19 } 
+		command = { type = add_division which = "第158戦術機甲大隊「ループァ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第159戦術機甲大隊「ラーズグリーズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第160戦術機甲大隊「コレクター」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第161戦術機甲大隊「ビルドシュバイン」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第2軌道降下兵団「ライトニングダイバーズ」" value = land where = 19 } 
+		command = { type = add_division which = "第521戦術機甲大隊「グール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第522戦術機甲大隊「ヴェノム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第523戦術機甲大隊「バイパー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第524戦術機甲大隊「グリーンデビル」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第3軌道降下兵団「ダジボーグダイバーズ」" value = land where = 19 } 
+		command = { type = add_division which = "第156戦術機甲大隊「オリョール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第844戦術機甲大隊「シュバルツ･シュペーア」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第845戦術機甲大隊「ヴィルベント」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第846戦術機甲大隊「ランシエ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第4軌道降下兵団「ジュピターダイバーズ」" value = land where = 19 } 
+		command = { type = add_division which = "第110戦術機甲大隊「イオ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第175戦術機甲大隊「エウロパ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第280戦術機甲大隊「ガニメデ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第490戦術機甲大隊「カリスト」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第5軌道降下兵団「ロバートダイバーズ」" value = land where = 19 } 
+		command = { type = add_division which = "第522戦術機甲大隊「デイビット･E･トウィッグス」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第919戦術機甲大隊「アール･ヴァン･ドーン」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第107戦術機甲大隊「ジョン･マグルーダー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第119戦術機甲大隊「ジョージ･B･ローリング」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第6軌道降下兵団「オービットダイバーズ」" value = land where = 19 } 
+		command = { type = add_division which = "第1軌道戦術機甲大隊「ザウバー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第2軌道戦術機甲大隊「レザール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第3軌道戦術機甲大隊「ゴースト」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第4軌道戦術機甲大隊「アクイラ」" value = paratrooper when = 9 }
+	}
+}
+
+event = {
+	id = 114
+	random = no 
+	country = U04
+	trigger = {
+		ai = no
+	}
+	name = "初期HSST兵力"
+        desc = "EVT_1_DESC"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                name = "OK"
+		command = { type = add_corps which = "国連宇宙総軍第1艦隊ランサー" value = air where = 1353 } 
+		command = { type = add_division which = "第1再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第2再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第3再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第4再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第2艦隊メテオール" value = air where = 1353 } 
+		command = { type = add_division which = "第5再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第6再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第7再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第8再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第3艦隊アリオール" value = air where = 1353 } 
+		command = { type = add_division which = "第9再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第10再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第11再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第12再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第4艦隊ブレイド･ナイツ" value = air where = 1353 } 
+		command = { type = add_division which = "第13再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第14再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第15再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第16再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第5艦隊シュベリエ" value = air where = 1353 } 
+		command = { type = add_division which = "第17再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第18再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第19再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第20再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第6艦隊フォルゴーレ" value = air where = 1353 } 
+		command = { type = add_division which = "第21再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第22再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第23再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第24再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第7艦隊エイペスト" value = air where = 1353 } 
+		command = { type = add_division which = "第25再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第26再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第27再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第28再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "教導軌道降下兵団" value = land where = 1353 } 
+		command = { type = add_division which = "第275戦術機甲大隊「オービット･デスサイズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第177戦術機甲大隊「ドーム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第178戦術機甲大隊「ゴーレム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第179戦術機甲大隊「オムニ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第1軌道降下兵団「ビギニングダイバーズ」" value = land where = 1353 } 
+		command = { type = add_division which = "第158戦術機甲大隊「ループァ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第159戦術機甲大隊「ラーズグリーズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第160戦術機甲大隊「コレクター」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第161戦術機甲大隊「ビルドシュバイン」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第2軌道降下兵団「ライトニングダイバーズ」" value = land where = 1353 } 
+		command = { type = add_division which = "第521戦術機甲大隊「グール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第522戦術機甲大隊「ヴェノム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第523戦術機甲大隊「バイパー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第524戦術機甲大隊「グリーンデビル」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第3軌道降下兵団「ダジボーグダイバーズ」" value = land where = 1353 } 
+		command = { type = add_division which = "第156戦術機甲大隊「オリョール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第844戦術機甲大隊「シュバルツ･シュペーア」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第845戦術機甲大隊「ヴィルベント」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第846戦術機甲大隊「ランシエ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第4軌道降下兵団「ジュピターダイバーズ」" value = land where = 1353 } 
+		command = { type = add_division which = "第110戦術機甲大隊「イオ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第175戦術機甲大隊「エウロパ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第280戦術機甲大隊「ガニメデ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第490戦術機甲大隊「カリスト」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第5軌道降下兵団「ロバートダイバーズ」" value = land where = 1353 } 
+		command = { type = add_division which = "第522戦術機甲大隊「デイビット･E･トウィッグス」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第919戦術機甲大隊「アール･ヴァン･ドーン」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第107戦術機甲大隊「ジョン･マグルーダー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第119戦術機甲大隊「ジョージ･B･ローリング」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第6軌道降下兵団「オービットダイバーズ」" value = land where = 1353 } 
+		command = { type = add_division which = "第1軌道戦術機甲大隊「ザウバー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第2軌道戦術機甲大隊「レザール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第3軌道戦術機甲大隊「ゴースト」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第4軌道戦術機甲大隊「アクイラ」" value = paratrooper when = 9 }
+	}
+}
+
+event = {
+	id = 115
+	random = no 
+	country = U05
+	trigger = {
+		ai = no
+	}
+	name = "初期HSST兵力"
+        desc = "EVT_1_DESC"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                name = "OK"
+		command = { type = add_corps which = "国連宇宙総軍第1艦隊ランサー" value = air where = 1323 } 
+		command = { type = add_division which = "第1再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第2再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第3再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第4再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第2艦隊メテオール" value = air where = 1323 } 
+		command = { type = add_division which = "第5再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第6再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第7再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第8再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第3艦隊アリオール" value = air where = 1323 } 
+		command = { type = add_division which = "第9再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第10再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第11再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第12再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第4艦隊ブレイド･ナイツ" value = air where = 1323 } 
+		command = { type = add_division which = "第13再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第14再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第15再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第16再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第5艦隊シュベリエ" value = air where = 1323 } 
+		command = { type = add_division which = "第17再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第18再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第19再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第20再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第6艦隊フォルゴーレ" value = air where = 1323 } 
+		command = { type = add_division which = "第21再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第22再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第23再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第24再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第7艦隊エイペスト" value = air where = 1323 } 
+		command = { type = add_division which = "第25再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第26再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第27再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第28再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "教導軌道降下兵団" value = land where = 1323 } 
+		command = { type = add_division which = "第275戦術機甲大隊「オービット･デスサイズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第177戦術機甲大隊「ドーム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第178戦術機甲大隊「ゴーレム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第179戦術機甲大隊「オムニ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第1軌道降下兵団「ビギニングダイバーズ」" value = land where = 1323 } 
+		command = { type = add_division which = "第158戦術機甲大隊「ループァ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第159戦術機甲大隊「ラーズグリーズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第160戦術機甲大隊「コレクター」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第161戦術機甲大隊「ビルドシュバイン」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第2軌道降下兵団「ライトニングダイバーズ」" value = land where = 1323 } 
+		command = { type = add_division which = "第521戦術機甲大隊「グール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第522戦術機甲大隊「ヴェノム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第523戦術機甲大隊「バイパー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第524戦術機甲大隊「グリーンデビル」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第3軌道降下兵団「ダジボーグダイバーズ」" value = land where = 1323 } 
+		command = { type = add_division which = "第156戦術機甲大隊「オリョール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第844戦術機甲大隊「シュバルツ･シュペーア」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第845戦術機甲大隊「ヴィルベント」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第846戦術機甲大隊「ランシエ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第4軌道降下兵団「ジュピターダイバーズ」" value = land where = 1323 } 
+		command = { type = add_division which = "第110戦術機甲大隊「イオ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第175戦術機甲大隊「エウロパ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第280戦術機甲大隊「ガニメデ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第490戦術機甲大隊「カリスト」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第5軌道降下兵団「ロバートダイバーズ」" value = land where = 1323 } 
+		command = { type = add_division which = "第522戦術機甲大隊「デイビット･E･トウィッグス」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第919戦術機甲大隊「アール･ヴァン･ドーン」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第107戦術機甲大隊「ジョン･マグルーダー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第119戦術機甲大隊「ジョージ･B･ローリング」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第6軌道降下兵団「オービットダイバーズ」" value = land where = 1323 } 
+		command = { type = add_division which = "第1軌道戦術機甲大隊「ザウバー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第2軌道戦術機甲大隊「レザール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第3軌道戦術機甲大隊「ゴースト」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第4軌道戦術機甲大隊「アクイラ」" value = paratrooper when = 9 }
+	}
+}
+
+
+event = {
+	id = 116
+	random = no 
+	country = U06
+	trigger = {
+		ai = no
+	}
+	name = "初期HSST兵力"
+        desc = "EVT_1_DESC"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                name = "OK"
+		command = { type = add_corps which = "国連宇宙総軍第1艦隊ランサー" value = air where = 602 } 
+		command = { type = add_division which = "第1再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第2再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第3再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第4再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第2艦隊メテオール" value = air where = 602 } 
+		command = { type = add_division which = "第5再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第6再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第7再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第8再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第3艦隊アリオール" value = air where = 602 } 
+		command = { type = add_division which = "第9再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第10再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第11再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第12再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第4艦隊ブレイド･ナイツ" value = air where = 602 } 
+		command = { type = add_division which = "第13再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第14再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第15再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第16再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第5艦隊シュベリエ" value = air where = 602 } 
+		command = { type = add_division which = "第17再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第18再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第19再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第20再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第6艦隊フォルゴーレ" value = air where = 602 } 
+		command = { type = add_division which = "第21再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第22再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第23再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第24再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第7艦隊エイペスト" value = air where = 602 } 
+		command = { type = add_division which = "第25再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第26再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第27再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第28再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "教導軌道降下兵団" value = land where = 602 } 
+		command = { type = add_division which = "第275戦術機甲大隊「オービット･デスサイズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第177戦術機甲大隊「ドーム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第178戦術機甲大隊「ゴーレム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第179戦術機甲大隊「オムニ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第1軌道降下兵団「ビギニングダイバーズ」" value = land where = 602 } 
+		command = { type = add_division which = "第158戦術機甲大隊「ループァ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第159戦術機甲大隊「ラーズグリーズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第160戦術機甲大隊「コレクター」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第161戦術機甲大隊「ビルドシュバイン」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第2軌道降下兵団「ライトニングダイバーズ」" value = land where = 602 } 
+		command = { type = add_division which = "第521戦術機甲大隊「グール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第522戦術機甲大隊「ヴェノム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第523戦術機甲大隊「バイパー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第524戦術機甲大隊「グリーンデビル」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第3軌道降下兵団「ダジボーグダイバーズ」" value = land where = 602 } 
+		command = { type = add_division which = "第156戦術機甲大隊「オリョール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第844戦術機甲大隊「シュバルツ･シュペーア」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第845戦術機甲大隊「ヴィルベント」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第846戦術機甲大隊「ランシエ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第4軌道降下兵団「ジュピターダイバーズ」" value = land where = 602 } 
+		command = { type = add_division which = "第110戦術機甲大隊「イオ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第175戦術機甲大隊「エウロパ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第280戦術機甲大隊「ガニメデ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第490戦術機甲大隊「カリスト」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第5軌道降下兵団「ロバートダイバーズ」" value = land where = 602 } 
+		command = { type = add_division which = "第522戦術機甲大隊「デイビット･E･トウィッグス」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第919戦術機甲大隊「アール･ヴァン･ドーン」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第107戦術機甲大隊「ジョン･マグルーダー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第119戦術機甲大隊「ジョージ･B･ローリング」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第6軌道降下兵団「オービットダイバーズ」" value = land where = 602 } 
+		command = { type = add_division which = "第1軌道戦術機甲大隊「ザウバー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第2軌道戦術機甲大隊「レザール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第3軌道戦術機甲大隊「ゴースト」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第4軌道戦術機甲大隊「アクイラ」" value = paratrooper when = 9 }
+	}
+}
+
+event = {
+	id = 117
+	random = no 
+	country = USA
+	trigger = {
+		ai = no
+	}
+	name = "初期HSST兵力"
+        desc = "EVT_1_DESC"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                name = "OK"
+		command = { type = add_corps which = "国連宇宙総軍第1艦隊ランサー" value = air where = 606 } 
+		command = { type = add_division which = "第1再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第2再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第3再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第4再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第2艦隊メテオール" value = air where = 606 } 
+		command = { type = add_division which = "第5再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第6再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第7再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第8再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第3艦隊アリオール" value = air where = 606 } 
+		command = { type = add_division which = "第9再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第10再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第11再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第12再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第4艦隊ブレイド･ナイツ" value = air where = 606 } 
+		command = { type = add_division which = "第13再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第14再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第15再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第16再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第5艦隊シュベリエ" value = air where = 606 } 
+		command = { type = add_division which = "第17再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第18再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第19再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第20再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第6艦隊フォルゴーレ" value = air where = 606 } 
+		command = { type = add_division which = "第21再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第22再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第23再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第24再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "国連宇宙総軍第7艦隊エイペスト" value = air where = 606 } 
+		command = { type = add_division which = "第25再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第26再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第27再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_division which = "第28再突入駆逐戦隊" value = d_rsv_34 when = 0 }
+		command = { type = add_corps which = "教導軌道降下兵団" value = land where = 606 } 
+		command = { type = add_division which = "第275戦術機甲大隊「オービット･デスサイズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第177戦術機甲大隊「ドーム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第178戦術機甲大隊「ゴーレム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第179戦術機甲大隊「オムニ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第1軌道降下兵団「ビギニングダイバーズ」" value = land where = 606 } 
+		command = { type = add_division which = "第158戦術機甲大隊「ループァ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第159戦術機甲大隊「ラーズグリーズ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第160戦術機甲大隊「コレクター」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第161戦術機甲大隊「ビルドシュバイン」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第2軌道降下兵団「ライトニングダイバーズ」" value = land where = 606 } 
+		command = { type = add_division which = "第521戦術機甲大隊「グール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第522戦術機甲大隊「ヴェノム」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第523戦術機甲大隊「バイパー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第524戦術機甲大隊「グリーンデビル」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第3軌道降下兵団「ダジボーグダイバーズ」" value = land where = 606 } 
+		command = { type = add_division which = "第156戦術機甲大隊「オリョール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第844戦術機甲大隊「シュバルツ･シュペーア」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第845戦術機甲大隊「ヴィルベント」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第846戦術機甲大隊「ランシエ」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第4軌道降下兵団「ジュピターダイバーズ」" value = land where = 606 } 
+		command = { type = add_division which = "第110戦術機甲大隊「イオ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第175戦術機甲大隊「エウロパ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第280戦術機甲大隊「ガニメデ」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第490戦術機甲大隊「カリスト」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第5軌道降下兵団「ロバートダイバーズ」" value = land where = 606 } 
+		command = { type = add_division which = "第522戦術機甲大隊「デイビット･E･トウィッグス」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第919戦術機甲大隊「アール･ヴァン･ドーン」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第107戦術機甲大隊「ジョン･マグルーダー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第119戦術機甲大隊「ジョージ･B･ローリング」" value = paratrooper when = 9 }
+		command = { type = add_corps which = "第6軌道降下兵団「オービットダイバーズ」" value = land where = 606 } 
+		command = { type = add_division which = "第1軌道戦術機甲大隊「ザウバー」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第2軌道戦術機甲大隊「レザール」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第3軌道戦術機甲大隊「ゴースト」" value = paratrooper when = 9 }
+		command = { type = add_division which = "第4軌道戦術機甲大隊「アクイラ」" value = paratrooper when = 9 }
+	}
+}

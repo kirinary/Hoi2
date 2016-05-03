@@ -1,0 +1,129 @@
+##############################################################
+##
+## シナリオ初期調整(900001~901000)
+##
+##############################################################
+##
+## id = 900001	難易度調節
+## id = 900002	Muv-Luv Alternative！(1973)   
+## id = 900003	Muv-Luv Alternative！(1990) 
+##
+##############################################################
+
+event = {
+	id = 900001
+	random = no
+	country = -1
+	trigger = {
+                  ai = no
+	}
+
+	name = "難易度調整"
+	desc = "EVT_900001_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "最大の援助を受け取る"
+                command = { type = free_ic value = 50 }
+                command = { type = free_energy value = 100 }
+                command = { type = free_rare_materials value = 30 }
+                command = { type = free_oil value = 30 }
+                command = { type = free_metal value = 50 }
+                command = { type = free_manpower value = 2 }
+		command = { type = add_division value = paratrooper when = 29 where = artillery }
+		command = { type = add_division value = paratrooper when = 29 where = artillery }
+		command = { type = add_division value = paratrooper when = 29 where = artillery }
+		command = { type = add_division value = paratrooper when = 29 where = artillery }
+		command = { type = add_division value = paratrooper when = 29 where = artillery }
+		command = { type = add_division value = paratrooper when = 29 where = artillery }
+		command = { type = add_division value = paratrooper when = 29 where = artillery }
+		command = { type = add_division value = paratrooper when = 29 where = artillery }
+		command = { type = add_division value = paratrooper when = 29 where = artillery }
+ }
+        action_b = {
+                name = "援助を一部受け取る"
+                command = { type = free_ic value = 30 }
+                command = { type = free_energy value = 60 }
+                command = { type = free_rare_materials value = 30 }
+                command = { type = free_oil value = 15 }
+                command = { type = free_metal value = 15 }
+ }
+        action_c = {
+                name = "勇気を振り絞り援助無しでやる"
+                command = { }
+ }
+}
+
+event = {
+	id = 900002
+	random = no
+	country = -1
+	trigger = {
+				ai = no
+	}
+
+	name = "Muv-Luv Alternative！(1973)"
+	desc = "EVT_900003_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 1974 }
+
+	action_a = {
+		name = "OK"
+		command = { type = setflag which = Kashgar_Hive }
+		command = { type = setflag which = Mashhad_Hive }
+		command = { type = setflag which = Uralsk_Hive }
+		command = { type = setflag which = Velsk_Hive }
+		command = { type = setflag which = Minsk_Hive }
+		command = { type = setflag which = Ekibastuz_Hive }
+		command = { type = setflag which = Surgut_Hive }
+		command = { type = setflag which = Rovaniemi_Hive }
+		command = { type = setflag which = Anbar_Hive }
+		command = { type = setflag which = Noginsk_Hive }
+		command = { type = setflag which = Budapest_Hive }
+		command = { type = setflag which = Lyon_Hive }
+		command = { type = setflag which = Bhopal_Hive }
+                command = { type = trigger which = 1701 }
+	}
+}
+
+event = {
+	id = 900003
+	random = no
+	country = -1
+	trigger = {
+					ai = no
+	}
+
+	name = "Muv-Luv Alternative！(1990)"
+	desc = "EVT_900003_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 1991 }
+
+	action_a = {
+		name = "OK"
+		command = { type = setflag which = Kashgar_Hive }
+		command = { type = setflag which = Mashhad_Hive }
+		command = { type = setflag which = Uralsk_Hive }
+		command = { type = setflag which = Velsk_Hive }
+		command = { type = setflag which = Minsk_Hive }
+		command = { type = setflag which = Ekibastuz_Hive }
+		command = { type = setflag which = Surgut_Hive }
+		command = { type = setflag which = Rovaniemi_Hive }
+		command = { type = setflag which = Anbar_Hive }
+		command = { type = setflag which = Noginsk_Hive }
+		command = { type = setflag which = Budapest_Hive }
+		command = { type = setflag which = Lyon_Hive }
+		command = { type = setflag which = Bhopal_Hive }
+                command = { type = trigger which = 1701 }
+	}
+}

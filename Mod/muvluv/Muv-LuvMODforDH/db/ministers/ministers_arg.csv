@@ -1,0 +1,12 @@
+ARG;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+35001;Head of State;アレハンドロ・アグスティン・ラヌーセ;70;PA;Resigned Generalissimo;High;M35001;x
+35002;Head of Government;アレハンドロ・アグスティン・ラヌーセ;70;PA;Old General;High;M35001;x
+35003;Foreign Minister;エドゥアルド・マクロウグリン;70;PA;General Staffer;High;M35003;x
+35004;Minister of Armament;ホルヘ・ウェーベ;70;PA;Economist Minister;High;M35004;x
+35005;Minister of Security;アルトゥーロ・モル・ロイグ;70;SC;Man of the People;High;M35005;x
+35006;Head of Military Intelligence;カルロス・アルベルト・マルティネス;70;PA;Logistics Specialist;High;M35006;x
+35007;Chief of Staff;エドゥアルド・アギーレ・オバリオ;70;PA;School of Defence;High;M35007;x
+35008;Chief of Army;アレハンドロ・アグスティン・ラヌーセ;70;PA;Elastic Defence Doctrine;High;M35001;x
+35009;Chief of Navy;カルロス・コダ;70;PA;Base Control Doctrine;High;M35009;x
+35010;Chief of Air Force;カルロス・レイ;70;PA;Air Superiority Doctrine;High;M35010;x

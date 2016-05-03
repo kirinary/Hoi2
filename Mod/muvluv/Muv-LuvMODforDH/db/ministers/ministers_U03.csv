@@ -1,0 +1,764 @@
+U03;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+9002001;Head of State;サー・ヘンリー・ダフィールド・クラーク;36;ML;Stern Imperialist;high;M564001;x
+9002002;Head of Government;サー・ジョン・アンダーソン;36;ML;Political Protege;high;M564002;x
+9002003;Foreign Minister;サー・バートランド・グランシー;36;ML;Great Compromiser;high;M564003;x
+9002004;Minister of Armament;アルバート・E・クラッターバック;36;ML;Corrupt Kleptocrat;high;M564004;x
+9002005;Minister of Security;ハーバート・ウィリアム・エマーソン;36;ML;Prince of Terror;high;M564005;x
+9002006;Head of Military Intelligence;フレデリック・ゴフ＝カルソープ;36;ML;Industrial Specialist;high;M564006;x
+9002007;Chief of Staff;ウォレス・ダフィールド・ライト;36;ML;School of Defence;high;M564007;x
+9002008;Chief of Army;B・G・E・ダイアー;36;ML;Static Defence Doctrine;high;M564008;x
+9002009;Chief of Navy;ジョン・タルボット＝サヴィニャック・ホール;36;ML;Indirect Approach Doctrine;high;L1394;x
+9002010;Chief of Air Force;ジェラルド・ヘンドリクソン;36;ML;Naval Aviation Doctrine;high;M564010;x
+9002011;Head of State;イスカンデル・ミルザ;36;SD;Barking Buffoon;high;M59014;x
+9002012;Head of State;H・H・ムハメド・シュジャ・ウル＝ムルク;36;PA;Resigned Generalissimo;high;M564012;x
+9002013;Head of Government;ムハンマド・アリ・ジンナー;36;SD;Flamboyant Tough Guy;high;M59042;x
+9002014;Head of Government;マノウォー太守ジャミアト2世;36;PA;old airmarshal;high;M564014;x
+9002015;Foreign Minister;リアカット・アリ・カーン;36;SD;The Cloak N Dagger Schemer;high;M59052;x
+9002016;Foreign Minister;モハンメド・アユブ・カーン;46;SD;General Staffer;high;M59049;x
+9002017;Foreign Minister;H・H・ヌワン・カーン・ジョラワル;36;PA;Ideological Crusader;high;M564017;x
+9002018;Minister of Armament;ザキル・フサイン博士;36;SD;Theoretical Scientist;high;M59066;x
+9002019;Minister of Armament;ザヒド・フサイン;41;SD;Administrative Genius;high;M564019;x
+9002020;Minister of Armament;フランシス・エドガー・カーニー;40;ML;Military Entrepreneur;high;M564020;x
+9002021;Minister of Armament;メフタル・サイフ・ウル＝ラフマン;36;PA;Resource Industrialist;high;M564021;x
+9002022;Minister of Security;リアカット・アリ・カーン;36;SD;Efficient Sociopath;high;M59052;x
+9002023;Minister of Security;アブドゥル・アリ・カーン;44;SD;Man of the People;high;M59076;x
+9002024;Minister of Security;エヴァン・メレディス・ジェンキンス;43;ML;Compassionate Gentleman;high;M564024;x
+9002025;Minister of Security;H・H・ムザファル・ウル＝ムルク;36;PA;Back Stabber;high;M564025;x
+9002026;Head of Military Intelligence;イフトカル・フセイン・メムドゥート;36;SD;Industrial Specialist;high;M59085;x
+9002027;Head of Military Intelligence;ウィルフレッド・ハート＝サグデン;41;ML;Naval Intelligence Specialist;high;M564027;x
+9002028;Head of Military Intelligence;エドワード・グライヒェン卿;36;PA;Dismal Enigma;high;M564028;x
+9002029;Chief of Staff;サー・スキンデール・ヒタイ・カーン;36;SD;School of Psychology;high;M59096;x
+9002030;Chief of Staff;ムハンマド・ヤヒヤ・カーン;45;SD;School of Fire Support;high;M59098;x
+9002031;Chief of Staff;カシミール藩王H・H・シュリマン8世;36;PA;School of Mass Combat;high;M564031;x
+9002032;Chief of Army;ムハンマド・アユブ・カーン;36;SD;Elastic Defence Doctrine;high;M59105;x
+9002033;Chief of Army;ムハンマド・ヤヒヤ・カーン;45;SD;Armoured Spearhead Doctrine;high;M59098;x
+9002034;Chief of Army;ウッダウラ太守ルクン;36;PA;Decisive Battle Doctrine;high;M564034;x
+9002035;Chief of Navy;アリ・レーマン・カーン;36;SD;Base Control Doctrine;high;L505113;x
+9002036;Chief of Navy;カーンジ太守H・H・ディワン3世;36;SD;Open Seas Doctrine;high;M564036;x
+9002037;Chief of Air Force;アスガル・カーン;36;SD;Vertical Envelopment Doctrine;high;M59020;x
+9002038;Chief of Air Force;H・H・アフマド・ウル＝ムルク;36;PA;Carpet Bombing Doctrine;high;M564038;x
+9002039;Head of State;ムハンマド・アリ・ジンナー;47;SD;Powerhungry Demagogue;high;M59042;x
+9002040;Head of State;クワジャ・ナジムッディン;48;SD;Barking Buffoon;high;M564040;x
+9002041;Head of State;ゴラム・ムハンマド;51;SD;Benevolent Gentleman;high;M564041;x
+9002042;Head of Government;リアカット・アリ・カーン;47;SD;Backroom Backstabber;high;M59052;x
+9002043;Head of Government;クワジャ・ナジムッディン;47;SD;Corporate Suit;high;M564040;x
+9002044;Head of Government;モハンマド・アリ・ボグラ;53;SD;Ambitious Union Boss;high;M564044;x
+9002045;Foreign Minister;チャウドリ・モハンマド・アリ;51;SD;Biased Intellectual;high;M564045;x
+9002046;Foreign Minister;フセイン・スラワンディ;53;SD;Apologetic Clerk;high;M564046;x
+9002047;Minister of Armament;アブドゥル・ワハブ・カーン;52;SD;Infantry Proponent;high;M564047;x
+9002048;Minister of Security;モウルヴィ・タミザッディン・カーン;51;SD;Silent Lawyer;high;M564048;x
+9002049;Head of Military Intelligence;アブドゥル・ワハブ・カーン;49;SD;Logistics Specialist;high;M564047;x
+9002050;Head of State;アブドゥル・アジズ・アル・サウド;36;PA;Ruthless Powermonger;high;M63001;x
+9002051;Head of Government;サウド・アル・サウド;36;PA;Backroom Backstabber;high;M63002;x
+9002052;Foreign Minister;ファイサル・アル・サウド;36;PA;Apologetic Clerk;high;M63003;x
+9002053;Minister of Armament;ファイサル・アル・サウド;36;PA;Resource Industrialist;high;M63003;x
+9002054;Minister of Security;ハーリド・アル・サウド;36;PA;Crooked Kleptocrat;high;M63005;x
+9002055;Head of Military Intelligence;ハーリド・アル・サウド;36;PA;Logistics Specialist;high;M63005;x
+9002056;Chief of Staff;サウド・アル・サウド;36;PA;School of Manoeuvre;high;M63002;x
+9002057;Chief of Army;ファイサル・アル・サウド;36;PA;Guns and Butter Doctrine;high;M63003;x
+9002058;Chief of Navy;ファイサル・アル・サウド;36;PA;Open Seas Doctrine;high;M63003;x
+9002059;Chief of Air Force;ファイサル・サウド;36;PA;Army Aviation Doctrine;high;M63003;x
+9002060;Foreign Minister;ヒューバート・スコット＝ペイン;39;SC;General Staffer;high;M63031;x
+9002061;Foreign Minister;チャールズ・ロード・パルムーア;41;SC;Apologetic Clerk;high;M63032;x
+9002062;Foreign Minister;ハリー・セントジョン・フィルビー;44;PA;Ideological Crusader;high;M63033;x
+9002063;Foreign Minister;サウド・アル・サウド;45;PA;Biased Intellectual;high;M63002;x
+9002064;Minister of Armament;G・G・アイメ＝ムレイ;37;SC;Administrative Genius;high;M63035;x
+9002065;Minister of Armament;ハリー・セントジョン・フィルビー;38;PA;Infantry Proponent;high;M63033;x
+9002066;Minister of Armament;アルトゥール・J・サルター;39;SC;Theoretical Scientist;high;M63037;x
+9002067;Minister of Armament;マルコム・デ・レ・ヴィンジ;40;SC;Resource Industrialist;high;M63038;x
+9002068;Minister of Armament;ジェフリー・ジョージ・ノックス;41;SC;Tank Proponent;high;M63039;x
+9002069;Minister of Armament;サリー・アル・ラージー;45;PA;laissez-faire capitalist;high;M63040;x
+9002070;Minister of Security;ヒューバート・スコット＝ペイン;38;SC;Silent Lawyer;high;M63031;x
+9002071;Minister of Security;ハリー・セントジョン・フィルビー;41;PA;Compassionate Gentleman;high;M63033;x
+9002072;Minister of Security;ジェームズ・パワー・カルネ;42;SC;Efficient Sociopath;high;M63043;x
+9002073;Minister of Security;アルウィン・パーカー;43;SC;Man of the People;high;M63044;x
+9002074;Minister of Security;スレイマン・アル・オリャン;45;PA;Back Stabber;high;M63045;x
+9002075;Head of Military Intelligence;サー・エリック・フラートン;37;SC;Naval Intelligence Specialist;high;M63046;x
+9002076;Head of Military Intelligence;ハリー・セントジョン・フィルビー;39;PA;Dismal Enigma;high;M63033;x
+9002077;Head of Military Intelligence;ヒューバート・スコット＝ペイン;41;SC;Political Specialist;high;M63031;x
+9002078;Head of Military Intelligence;ファイサル・アル・サウド;45;PA;Industrial Specialist;high;M63003;x
+9002079;Chief of Staff;サー・エリック・フラートン;36;SC;School of Psychology;high;M63046;x
+9002080;Chief of Staff;ウィリアム・キャンベル＝ライス;37;SC;School of Defence;high;M63051;x
+9002081;Chief of Staff;T・E・ショー;38;SC;School of Fire Support;high;M63052;x
+9002082;Chief of Staff;T・R・S・スマイス＝クーパー;40;SC;School of Mass Combat;high;M63053;x
+9002083;Chief of Staff;ファイサル・アル・サウド;45;PA;School of Manoeuvre;high;M63003;x
+9002084;Chief of Army;ウィリアム・キャンベル＝ライス;38;SC;Static Defence Doctrine;high;M63051;x
+9002085;Chief of Army;T・E・ショー;39;SC;Elastic Defence Doctrine;high;M63052;x
+9002086;Chief of Army;T・R・S・スマイス＝クーパー;41;SC;Decisive Battle Doctrine;high;M63053;x
+9002087;Chief of Navy;サー・エリック・フラートン;37;SC;Indirect Approach Doctrine;high;M63046;x
+9002088;Chief of Navy;フィリップ・ゴードン＝リー;41;SC;Open Seas Doctrine;high;M63060;x
+9002089;Chief of Air Force;サー・エリック・フラートン;38;SC;Naval Aviation Doctrine;high;M63046;x
+9002090;Chief of Air Force;T・E・ショー;39;SC;Army Aviation Doctrine;high;M63052;x
+9002091;Chief of Air Force;アルトゥール・ドーキンス;41;SC;Air Superiority Doctrine;high;M63064;x
+9002092;Chief of Air Force;バッサム・アブ・ハーダー;45;PA;Vertical Envelopment Doctrine;high;M63065;x
+9002093;Head of State;ケマル・アタトゥルク;36;PA;Resigned Generalissimo;high;M12001;x
+9002094;Head of Government;ムスタファ・イスメット;36;PA;Political Protege;high;M12002;x
+9002095;Foreign Minister;テヴフィク・ルスタ・アラス;36;PA;Biased Intellectual;high;M12003;x
+9002096;Minister of Armament;ゼカイ・アパイディン;36;SC;Resource Industrialist;high;M12004;x
+9002097;Minister of Security;シュクル・カヤ;36;SC;Man of the People;high;M12005;x
+9002098;Head of Military Intelligence;シュクル・アリ・オーゲル;36;PA;Industrial Specialist;high;M12006;x
+9002099;Chief of Staff;フェヴジ・チャクマク;36;PA;School of Defence;high;M12007;x
+9002100;Chief of Army;メフメト・ヌリ・ヤムト;36;PA;Static Defence Doctrine;high;M12008;x
+9002101;Chief of Navy;メフメト・アリ・ウンゲン;36;PA;Base Control Doctrine;high;M12009;x
+9002102;Chief of Air Force;アリ・オルルンガト;36;PA;Army Aviation Doctrine;high;M12010;x
+9002103;Head of State;イスメト・イノヌ;38;SC;Pig-headed Isolationist;high;M12031;x
+9002104;Head of Government;マフムド・セラル・バイヤー;38;SC;Silent Workhorse;high;M12032;x
+9002105;Head of Government;レフィク・サイダム;39;ML;Smiling Oilman;high;M12024;x
+9002106;Head of Government;シュクル・サラコグル;42;ML;Flamboyant Tough Guy;high;M12034;x
+9002107;Foreign Minister;シュクル・サラコグル;38;SC;Biased Intellectual;high;M12034;x
+9002108;Foreign Minister;サイード・メネメンショグル;42;ML;Great Compromiser;high;M12036;x
+9002109;Foreign Minister;ハッサン・サカ;44;SC;Ideological Crusader;high;M12038;x
+9002110;Foreign Minister;ネジメティン・サディク・サダク;47;SC;General Staffer;high;M12039;x
+9002111;Foreign Minister;レフェト・ベレ;36;PA;General Staffer;high;M12040;x
+9002112;Foreign Minister;ムスタファ・イスメット;37;SC;Great Compromiser;high;M12002;x
+9002113;Foreign Minister;アリ・フェフティ・オキャル;37;ML;Biased Intellectual;high;M12013;x
+9002114;Foreign Minister;アブドゥルハリク・レンダ;43;ML;Apologetic Clerk;high;M12043;x
+9002115;Minister of Armament;ヌルラー・エサト・スメール;43;ML;Corrupt Kleptocrat;high;M12045;x
+9002116;Minister of Armament;アドナン・メンデレス;46;ML;Theoretical Scientist;high;M12046;x
+9002117;Minister of Armament;イスメト・イノヌ;36;SC;Administrative Genius;high;M12031;x
+9002118;Minister of Armament;フアド・カリスター;36;SC;Infantry Proponent;high;M12048;x
+9002119;Minister of Armament;カジム・オザルプ;36;SC;Military Entrepreneur;high;M12049;x
+9002120;Minister of Armament;テヴフィク・ルスタ・アラス;39;ML;Theoretical Scientist;high;M12050;x
+9002121;Minister of Armament;メフメト・グナルタイ;40;SC;Tank Proponent;high;M12051;x
+9002122;Minister of Armament;ムニル・ブルセン;46;ML;laissez-faire capitalist;high;M12052;x
+9002123;Minister of Armament;ムスタファ・レンダ;38;ML;Military Entrepreneur;high;M12054;x
+9002124;Minister of Security;フスヌ・チャキール;43;ML;Crooked Kleptocrat;high;M12056;x
+9002125;Minister of Security;ヒルミ・ウラン;44;ML;Crime Fighter;high;M12057;x
+9002126;Minister of Security;メムドゥー・タグマク;46;ML;Prince of Terror;high;M12059;x
+9002127;Minister of Security;アドナン・メンデレス;47;ML;Back Stabber;high;M12046;x
+9002128;Minister of Security;アブドゥル・ナジ・ティナズ;38;ML;Silent Lawyer;high;M12061;x
+9002129;Minister of Security;マフムド・セラル・バイヤー;36;SC;Back Stabber;high;M12032;x
+9002130;Minister of Security;アッバス・セヴァト;39;SD;Crooked Kleptocrat;high;M12025;x
+9002131;Minister of Security;サフェト・アリカン;40;SC;Crime Fighter;high;M12058;x
+9002132;Minister of Security;アリ・リザ・トゥーレル;40;ML;Efficient Sociopath;high;M12065;x
+9002133;Minister of Security;オルハン・ゴカイ;41;ML;Silent Lawyer;high;M12015;x
+9002134;Minister of Security;メフメト・レセプ・ペーカー;41;SC;Compassionate Gentleman;high;M12067;x
+9002135;Head of Military Intelligence;ムスタファ・レンダ;38;SC;Dismal Enigma;high;M12054;x
+9002136;Head of Military Intelligence;アリ・ルザ・アルトゥンカル;43;ML;Logistics Specialist;high;M12069;x
+9002137;Head of Military Intelligence;モヌターズ・オクメン;46;ML;Industrial Specialist;high;M12070;x
+9002138;Head of Military Intelligence;メフメト・レセプ・ペーカー;47;ML;Industrial Specialist;high;M12067;x
+9002139;Head of Military Intelligence;フアド・コプルル;38;ML;Naval Intelligence Specialist;high;M12026;x
+9002140;Chief of Staff;アブドゥル・ナジ・ティナズ;38;SC;School of Fire Support;high;M12061;x
+9002141;Chief of Staff;アリ・オルルンガト;43;ML;School of Mass Combat;high;M12010;x
+9002142;Chief of Staff;アブドゥラーマン・グルマン;46;ML;School of Manoeuvre;high;M12075;x
+9002143;Chief of Army;ムスタファ・エルデルフン;43;ML;Armoured Spearhead Doctrine;high;M12077;x
+9002144;Chief of Army;セミル・トゥーデムル;46;ML;Decisive Battle Doctrine;high;M12078;x
+9002145;Chief of Navy;アリ・ファウト・セベソイ;38;SC;Indirect Approach Doctrine;high;M12079;x
+9002146;Chief of Navy;ヴェービ・コック;43;ML;Decisive Naval Battle Doctrine;high;M12080;x
+9002147;Chief of Navy;アフメト・エイダム・ボラク;46;ML;Base Control Doctrine;high;M12081;x
+9002148;Chief of Air Force;エルカン・ガタリ;43;ML;Army Aviation Doctrine;high;M12083;x
+9002149;Chief of Air Force;メムドゥー・タグマク;46;ML;Air Superiority Doctrine;high;M12059;x
+9002150;Head of State;ニハール・アトシーズ;36;FA;Ruthless Powermonger;high;M12011;x
+9002151;Head of Government;ゼキ・ヴェリディ・トガン;36;FA;Old General;high;M12012;x
+9002152;Foreign Minister;アリ・フェフティ・オキャル;36;PA;Ideological Crusader;high;M12013;x
+9002153;Minister of Armament;サディ・オズベク;36;FA;Air to Sea Proponent;high;M12014;x
+9002154;Head of Military Intelligence;アリ・フェフティ・オキャル;36;SC;Dismal Enigma;high;M12013;x
+9002155;Chief of Staff;ムスタファ・イスメット;36;PA;School of Defence;high;M12002;x
+9002156;Chief of Army;アルパルスラン・トゥルケス;36;FA;Guns and Butter Doctrine;high;M12018;x
+9002157;Chief of Navy;ラウフ・オルバイ;36;FA;Base Control Doctrine;high;M12019;x
+9002158;Chief of Air Force;サディ・オズベク;36;PA;Naval Aviation Doctrine;high;M12014;x
+9002159;Head of State;セフィク・フスヌ;36;ST;Stern Imperialist;high;M12021;x
+9002160;Head of Government;ペルテヴ・ナイリ・ボラタヴ;36;ST;Naive Optimist;high;M12022;x
+9002161;Foreign Minister;ナジム・ヒクメット・ラン;36;ST;The Cloak N Dagger Schemer;high;M12023;x
+9002162;Minister of Armament;レフィク・サイダム;36;LWR;Infantry Proponent;high;M12024;x
+9002163;Chief of Staff;アッバス・セヴァト;36;LWR;School of Manoeuvre;high;M12025;x
+9002164;Chief of Army;ペルテヴ・ナイリ・ボラタヴ;36;LWR;Elastic Defence Doctrine;high;M12022;x
+9002165;Chief of Navy;イスマエル・エリム;36;LE;Decisive Naval Battle Doctrine;high;M12029;x
+9002166;Chief of Air Force;レフィク・サイダム;36;LE;Air Superiority Doctrine;high;M12024;x
+9002167;Head of State;マフムド・セラル・バイヤー;50;ML;Barking Buffoon;high;M12032;x
+9002168;Head of Government;メフメト・レセプ・ペーカー;46;SC;Political Protege;high;M12067;x
+9002169;Head of Government;ハッサン・サカ;47;SC;Happy Amateur;high;M12038;x
+9002170;Head of Government;メフメト・グナルタイ;49;SC;Silent Workhorse;high;M12051;x
+9002171;Head of Government;アドナン・メンデレス;50;ML;Ambitious Union Boss;high;M12046;x
+9002172;Foreign Minister;メフメト・フアト・キョプリュリュ;50;ML;Iron Fisted Brute;high;M12090;x
+9002173;Minister of Armament;ファイク・アフメト・バルトチュ;47;SC;Battle Fleet Proponent;high;M12091;x
+9002174;Minister of Armament;イスマエル・エリム;49;SC;Resource Industrialist;high;M12029;x
+9002175;Minister of Armament;サメト・アーオルー;50;ML;Theoretical Scientist;high;M12093;x
+9002176;Minister of Armament;ファトゥン・リュスチュ・ゾルル;52;ML;Administrative Genius;high;M12094;x
+9002177;Minister of Security;レフク・コラルタン;50;ML;Silent Lawyer;high;M12095;x
+9002178;Head of State;ムハンメド・ザヒール;36;FA;Autocratic Charmer;high;M54001;x
+9002179;Head of Government;ムハンメド・ハシム;36;FA;Happy Amateur;high;M54002;x
+9002180;Foreign Minister;ハジ・ファイズ・ムハンメド・ジケリア;36;FA;Ideological Crusader;high;M54003;x
+9002182;Minister of Security;ムハンメド・ハシム;36;FA;Crooked Kleptocrat;high;M54002;x
+9002183;Head of Military Intelligence;シャー・マフムード・ガージ;36;FA;Dismal Enigma;high;M54006;x
+9002184;Chief of Staff;モハンメド・ダウド;36;FA;School of Psychology;high;M54007;x
+9002185;Chief of Army;モハンメド・ダウド;36;FA;Elastic Defence Doctrine;high;M54007;x
+9002186;Chief of Navy;ムハンメド・ザヒール;36;FA;Indirect Approach Doctrine;high;M54009;x
+9002187;Chief of Air Force;モハンメド・ダウド;36;FA;Army Aviation Doctrine;high;M54007;x
+9002188;Head of State;ムハンメド・ザヒール;39;SC;Benevolent Gentleman;high;M54001;x
+9002189;Head of State;ムハンメド・ザヒール;46;PA;Autocratic Charmer;high;M54001;x
+9002190;Head of Government;ムハンメド・ハシム;39;SC;Happy Amateur;high;M54002;x
+9002191;Head of Government;シャー・マフムード・ガージ;46;PA;Old General;high;M54006;x
+9002193;Foreign Minister;アマヌラー;36;FA;Ideological Crusader;high;M54011;x
+9002194;Foreign Minister;モハンメド・ダウド;39;SC;Great Compromiser;high;M54007;x
+9002195;Foreign Minister;ワジール・アクバル・カーン;42;SC;General Staffer;high;M54018;x
+9002196;Foreign Minister;アリ・ムハンメド・カーン;39;SC;Biased Intellectual;high;M54020;x
+9002197;Foreign Minister;モハンメド・エテマディ・カーン;44;SC;The Cloak N Dagger Schemer;high;M54016;x
+9002198;Foreign Minister;アサドゥラー・セライ・カーン;45;PA;Iron Fisted Brute;high;M54031;x
+9002199;Minister of Armament;モハンメド・ダウド;37;FA;Air to Ground Proponent;high;M54007;x
+9002200;Minister of Armament;イタロ・セルジェンテ;38;FA;Tank Proponent;high;M54033;x
+9002201;Minister of Armament;ボルトロ・ベルロッティ;39;FA;Administrative Genius;high;M54034;x
+9002202;Minister of Armament;アサドゥラー・セライ・カーン;39;SC;Infantry Proponent;high;M54031;x
+9002203;Minister of Armament;ハジ・ファイズ・ムハンメド・ジケリア;40;SC;laissez-faire capitalist;high;M54003;x
+9002204;Minister of Armament;ナシルラー・フサイン;40;SC;Battle Fleet Proponent;high;M54019;x
+9002205;Minister of Armament;フェルッチオ・セラフィニ;40;SC;Air Superiority Proponent;high;M54038;x
+9002206;Minister of Armament;アマヌラー;36;SC;Corrupt Kleptocrat;high;M54011;x
+9002207;Minister of Armament;マッシモ・ピロッティ;41;SC;Theoretical Scientist;high;M54040;x
+9002208;Minister of Armament;ポンペオ・アロイシ;43;SC;Military Entrepreneur;high;M54041;x
+9002209;Minister of Armament;シャー・ワリ・カーン;44;SC;Strategic Air Proponent;high;M54042;x
+9002210;Minister of Armament;モハンメド・エテマディ・カーン;45;PA;Submarine Proponent;high;M54016;x
+9002211;Minister of Armament;ムハンメド・ノウロズ;46;PA;Resource Industrialist;high;M54044;x
+9002212;Minister of Armament;アリ・ムハンメド・カーン;47;PA;Air to Sea Proponent;high;M54020;x
+9002213;Minister of Security;カルロ・ガルバッソ;38;FA;Prince of Terror;high;M54046;x
+9002214;Minister of Security;グラム・ファルク・ウスマン;39;FA;Crime Fighter;high;M54047;x
+9002215;Minister of Security;アリ・ムハンメド・カーン;39;SC;Efficient Sociopath;high;M54020;x
+9002216;Minister of Security;ムハンメド・ザヒール;41;SC;Man of the People;high;M54009;x
+9002217;Minister of Security;リッチ・A・ブサッティ;43;SC;Silent Lawyer;high;M54050;x
+9002218;Minister of Security;アブドゥル・マジド・ザブリ;45;PA;Crooked Kleptocrat;high;M54004;x
+9002219;Minister of Security;ムハンメド・ゴバール;46;PA;Back Stabber;high;M54015;x
+9002220;Minister of Security;アサドゥラー・セライ・カーン;47;PA;Compassionate Gentleman;high;M54031;x
+9002221;Head of Military Intelligence;ピエトロ・ストッパニ;37;FA;Industrial Specialist;high;M54054;x
+9002222;Head of Military Intelligence;カルロ・シャンザール;38;FA;Technical Specialist;high;M54055;x
+9002223;Head of Military Intelligence;カルロ・エンリコ・バルドゥッジ;39;SC;Political Specialist;high;M54056;x
+9002224;Head of Military Intelligence;アリ・ムハンメド・カーン;40;SC;Naval Intelligence Specialist;high;M54020;x
+9002225;Head of Military Intelligence;アブドゥル・マジド・ザブリ;43;SC;Dismal Enigma;high;M54004;x
+9002226;Head of Military Intelligence;モハンメド・エテマディ・カーン;45;PA;Logistics Specialist;high;M54016;x
+9002227;Chief of Staff;シャー・マフムード・ガージ;36;FA;School of Psychology;high;M54006;x
+9002228;Chief of Staff;ワジール・アクバル・カーン;39;SC;School of Defence;high;M54018;x
+9002229;Chief of Staff;ナシルラー・フサイン;43;SC;School of Fire Support;high;M54019;x
+9002230;Chief of Staff;ゴラム・ワリ;44;SC;School of Manoeuvre;high;M54063;x
+9002231;Chief of Army;レナート・バルドルチ;37;FA;Armoured Spearhead Doctrine;high;M54065;x
+9002232;Chief of Army;アサドゥラー・セライ・カーン;39;SC;Elastic Defence Doctrine;high;M54031;x
+9002233;Chief of Army;ワジール・アクバル・カーン;42;SC;Static Defence Doctrine;high;M54018;x
+9002234;Chief of Army;ゴラム・ワリ;43;SC;Guns and Butter Doctrine;high;M54063;x
+9002235;Chief of Army;ナシルラー・フサイン;45;PA;Decisive Battle Doctrine;high;M54019;x
+9002236;Chief of Navy;ムハンメド・ハシム;39;SC;Base Control Doctrine;high;M54002;x
+9002237;Chief of Navy;モハンメド・エテマディ・カーン;43;SC;Indirect Approach Doctrine;high;M54016;x
+9002238;Chief of Navy;アリ・ムハンメド・カーン;44;SC;Power Projection Doctrine;high;M54020;x
+9002239;Chief of Navy;ナシルラー・フサイン;45;PA;Decisive Naval Battle Doctrine;high;M54019;x
+9002240;Chief of Navy;シャー・ワリ・カーン;46;PA;Open Seas Doctrine;high;M54042;x
+9002241;Chief of Air Force;ゴラム・ワリ;37;FA;Vertical Envelopment Doctrine;high;M54063;x
+9002242;Chief of Air Force;シャー・ワリ・カーン;38;FA;Carpet Bombing Doctrine;high;M54042;x
+9002243;Chief of Air Force;フェルッチオ・セラフィニ;39;FA;Air Superiority Doctrine;high;M54038;x
+9002244;Chief of Air Force;ムハンメド・ザヒール;39;SC;Army Aviation Doctrine;high;M54009;x
+9002245;Chief of Air Force;アリ・ムハンメド・カーン;45;PA;Naval Aviation Doctrine;high;M54020;x
+9002246;Head of State;アマヌラー;36;PA;Resigned Generalissimo;high;M54011;x
+9002247;Head of Government;ムハンメド・ゴバール;36;PA;Backroom Backstabber;high;M54012;x
+9002248;Minister of Armament;アブドゥル・ハディ・ダワイ;36;PA;Laissez-Faire Capitalist;high;M54014;x
+9002249;Foreign Minister;モハメド・マイワンドワル;51;PA;Ideological Crusader;high;M54080;x
+9002250;Head of State;レザ・パーラヴィ;36;PA;Resigned Generalissimo;high;M53001;x
+9002251;Head of Government;マームッド・ジャム;36;PA;Silent Workhorse;high;M53002;x
+9002252;Foreign Minister;イノヤトゥラー・カーン・サミ;36;PA;Great Compromiser;high;M53003;x
+9002253;Minister of Armament;アーマッド・カーン・ナクジャーヴァン;36;PA;Battle Fleet Proponent;high;M53004;x
+9002254;Minister of Security;アリ・アクバー・デイヴァ;36;PA;Back Stabber;high;M53005;x
+9002255;Head of Military Intelligence;レザ・ミザニ;36;PA;Naval Intelligence Specialist;high;M53006;x
+9002256;Chief of Staff;レザ・パーラヴィ;36;PA;School of Defence;high;M53001;x
+9002257;Chief of Army;アブドレザ・アフカーミ;36;PA;Static Defence Doctrine;high;M53008;x
+9002258;Chief of Navy;アーマッド・ミラ・コスラヴァニ;36;PA;Indirect Approach Doctrine;high;M53009;x
+9002259;Chief of Air Force;アーマッド・カーン・ナクジャーヴァン;36;PA;Naval Aviation Doctrine;high;M53004;x
+9002260;Head of State;モハンメド・レザ・パーラヴィ;41;SC;Benevolent Gentleman;high;M53011;x
+9002261;Head of State;モハンメド・レザ・パーラヴィ;41;PA;Autocratic Charmer;high;M53011;x
+9002262;Head of Government;アーマッド・マティン＝ダフタリー;39;FA;Naive Optimist;high;M53033;x
+9002263;Head of Government;アリ・カーン・マンソウア;40;PA;Old General;high;M53034;x
+9002264;Head of Government;モハンメド・アリ・フォロウヒ;41;SC;Political Protege;high;M53015;x
+9002265;Head of Government;アリ・ゾハイリ;43;SL;Smiling Oilman;high;M53036;x
+9002266;Head of Government;アハミード・カワン・アズ・サルタナ;42;SC;Happy Amateur;high;M53037;x
+9002267;Head of Government;モハンメド・サイド・マラゲイ;44;SC;Silent Workhorse;high;M53038;x
+9002268;Head of Government;セイド・モルテザ・カーン・バヤト;44;SL;FLamboyant Tough Guy;high;M53039;x
+9002269;Head of Government;イブラヒム・ハキミ・アル・ムルク;45;PA;Backroom Backstabber;high;M53040;x
+9002270;Head of Government;ムーシン・サダル・アル・アラフ;45;SC;Corporate Suit;high;M53041;x
+9002271;Foreign Minister;ムスタファ・アディル;37;PA;Biased Intellectual;high;M53042;x
+9002272;Foreign Minister;ミリア・ムーシン・カーン;38;PA;Ideological Crusader;high;M53043;x
+9002273;Foreign Minister;アリ・ゾハイリ;39;PA;Iron Fisted Brute;high;M53036;x
+9002274;Foreign Minister;ムザファー・アラム;39;PA;Apologetic Clerk;high;M53045;x
+9002275;Foreign Minister;イブラヒム・アラム;40;FA;The Cloak N Dagger Schemer;high;M53046;x
+9002276;Foreign Minister;アマリ・ジャワド;40;FA;Biased Intellectual;high;M53047;x
+9002277;Foreign Minister;アリ・ゾハイリ;41;SL;The Cloak N Dagger Schemer;high;M53036;x
+9002278;Foreign Minister;モハンメド・サイド・マラゲイ;42;SC;Great Compromiser;high;M53038;x
+9002279;Foreign Minister;ナスルラ・インティザム;44;SL;Biased Intellectual;high;M53051;x
+9002280;Foreign Minister;アヌシャーヴァン・セパーボディ;45;PA;Apologetic Clerk;high;M53052;x
+9002281;Foreign Minister;アブル・カシム・ナジム;45;SC;The Cloak N Dagger Schemer;high;M53053;x
+9002282;Foreign Minister;アハミード・カワン・アズ・サルタナ;46;SC;Ideological Crusader;high;M53037;x
+9002283;Foreign Minister;モハンメド・モッサデク;46;SL;The Cloak N Dagger Schemer;high;M53013;x
+9002284;Minister of Armament;レザ・ミザニ;37;PA;Resource Industrialist;high;M53006;x
+9002285;Minister of Armament;ミルザ・リザ・アルファ・ドウレー;37;PA;Infantry Proponent;high;M53057;x
+9002286;Minister of Armament;アルフレッド・ルドルフ・ジマーマン;38;SC;laissez-faire capitalist;high;M53014;x
+9002287;Minister of Armament;アーマッド・カーン・ナクジャーヴァン;38;PA;Air to Sea Proponent;high;M53004;x
+9002288;Minister of Armament;アーマッド・ミラ・コスラヴァニ;39;PA;Submarine Proponent;high;M53009;x
+9002289;Minister of Armament;アブドレザ・アフカーミ;39;FA;Military Entrepreneur;high;M53008;x
+9002290;Minister of Armament;モハンメド・ナクジャヴァニ;40;FA;Tank Proponent;high;M53062;x
+9002291;Minister of Armament;モルテザ・ヤズディ;40;FA;Air Superiority Proponent;high;M53024;x
+9002292;Minister of Armament;サイド・サル＝ディン・タバタバイ;41;SC;Battle Fleet Proponent;high;M53012;x
+9002293;Minister of Armament;ゾカ・ドウレー;43;SL;Theoretical Scientist;high;M53065;x
+9002294;Minister of Armament;モハンメド・バフラミ;44;SC;Strategic Air Proponent;high;M53026;x
+9002295;Minister of Armament;ゾカ・ドウレー;45;PA;Tank Proponent;high;M53065;x
+9002296;Minister of Armament;ジャファー・ピシェヴァリ;45;SC;Resource Industrialist;high;M53023;x
+9002297;Minister of Armament;アヌシャーヴァン・セパーボディ;46;SC;Administrative Genius;high;M53052;x
+9002298;Minister of Security;ソレイマン・ミルザ;36;PA;Crime Fighter;high;M53022;x
+9002299;Minister of Security;ミルザ・リザ・アルファ・ドウレー;36;PA;Back Stabber;high;M53057;x
+9002300;Minister of Security;アリ・マンソウア;38;PA;Man of the People;high;M53034;x
+9002301;Minister of Security;フセイン・カーン・アラ;39;FA;Silent Lawyer;high;M53073;x
+9002302;Minister of Security;モハンメド・バフラミ;41;SC;Compassionate Gentleman;high;M53026;x
+9002303;Minister of Security;エラジ・エスカンダリ;42;SL;Prince of Terror;high;M53025;x
+9002304;Minister of Security;エドワード・G・V・S・ロード・ダービー;41;SC;Efficient Sociopath;high;M53076;x
+9002305;Minister of Security;メーディ・マンジャラニ;45;PA;Prince of Terror;high;M53077;x
+9002306;Minister of Security;アボルハサン・ハキミ;45;SC;Back Stabber;high;M53078;x
+9002307;Minister of Security;ホセイン・アルファズニ;46;SC;Silent Lawyer;high;M53079;x
+9002308;Head of Military Intelligence;ムハンメド・レザ・パヒアヴィ;37;PA;Political Specialist;high;M53011;x
+9002309;Head of Military Intelligence;ディンシャー・イラーニ;38;PA;Technical Specialist;high;M53021;x
+9002310;Head of Military Intelligence;アルフレッド・ルドルフ・ジマーマン;39;FA;Industrial Specialist;high;M53014;x
+9002311;Head of Military Intelligence;アーマッド・マティン＝ダフタリー;41;FA;Naval Intelligence Specialist;high;M53033;x
+9002312;Head of Military Intelligence;アリ・セパーボディ・カジャー;41;SC;Dismal Enigma;high;M53084;x
+9002313;Head of Military Intelligence;サー・ネヴィル・グラントリー;41;SL;Industrial Specialist;high;M53085;x
+9002314;Head of Military Intelligence;アブドル・ホセイン・サルダリエ;45;PA;Dismal Enigma;high;M53086;x
+9002315;Head of Military Intelligence;アブドラー・エンテザム;45;SC;Technical Specialist;high;M53087;x
+9002316;Head of Military Intelligence;オヴァサク・アル＝ドレー・ノーリー;45;SC;Naval Intelligence Specialist;high;M53088;x
+9002317;Head of Military Intelligence;モハンメド・モッサデク;46;SL;Logistics Specialist;high;M53013;x
+9002318;Chief of Staff;アリ・アクバー・デイヴァ;39;PA;School of Psychology;high;M53005;x
+9002319;Chief of Staff;ハサン・マジド・フィルーズ;39;FA;School of Defence;high;M53028;x
+9002320;Chief of Staff;レザ・ミザニ;41;SC;School of Mass Combat;high;M53006;x
+9002321;Chief of Staff;アリ・カーン・ナクジアム;43;SL;School of Manoeuvre;high;M53027;x
+9002322;Chief of Staff;モハンメド・レザ・パーラヴィ;45;PA;School of Defence;high;M53011;x
+9002323;Chief of Staff;ホセイン・アフカーミ;45;SC;School of Fire Support;high;M53017;x
+9002324;Chief of Army;マー・アフカーミ;38;PA;Guns and Butter Doctrine;high;M53018;x
+9002325;Chief of Army;ハサン・マジド・フィルーズ;39;FA;Static Defence Doctrine;high;M53028;x
+9002326;Chief of Army;アズラム・ミア・ガーニ;41;SC;Elastic Defence Doctrine;high;M53098;x
+9002327;Chief of Army;モハンメド・ナクジャヴァニ;45;PA;Armoured Spearhead Doctrine;high;M53062;x
+9002328;Chief of Army;ヘダヤット・ギランシャー;45;SC;Decisive Battle Doctrine;high;M53100;x
+9002329;Chief of Navy;レザ・ミザニ;38;PA;Base Control Doctrine;high;M53006;x
+9002330;Chief of Navy;シャプーア・キスラバディ;39;FA;Open Seas Doctrine;high;M53102;x
+9002331;Chief of Navy;モハンメド・ミア・モハンナ;41;SC;Power Projection Doctrine;high;M53029;x
+9002332;Chief of Navy;アーマッド・カーン・ナクジャーヴァン;45;PA;Decisive Naval Battle Doctrine;high;M53004;x
+9002333;Chief of Navy;モハンメド・モイニ;45;SC;Indirect Approach Doctrine;high;M53020;x
+9002334;Chief of Air Force;サデグ・カーン・クーパル;37;PA;Army Aviation Doctrine;high;M53106;x
+9002335;Chief of Air Force;モハンメド・ナクジャヴァニ;39;FA;Air Superiority Doctrine;high;M53062;x
+9002336;Chief of Air Force;モハンメド・モイニ;41;SC;Vertical Envelopment Doctrine;high;M53020;x
+9002337;Chief of Air Force;モハンメド・ミア・モハンナ;45;SC;Naval Aviation Doctrine;high;M53029;x
+9002338;Chief of Air Force;ヘダヤット・ギランシャー;46;PA;Carpet Bombing Doctrine;high;M53100;x
+9002339;Minister of Security;モハンメド・アリ・フォロウヒ;36;SC;Crime Fighter;high;M53015;x
+9002340;Head of State;ディンシャー・イラーニ;36;ST;Stern Imperialist;high;M53021;x
+9002341;Head of Government;ソレイマン・ミルザ;36;ST;Happy Amateur;high;M53022;x
+9002342;Foreign Minister;ジャファー・ピシェヴァリ;36;ST;Iron Fisted Brute;high;M53023;x
+9002343;Head of Military Intelligence;モハンメド・バフラミ;36;ST;Political Specialist;high;M53026;x
+9002344;Head of Government;アブドル・ホセイン・ハジール;48;ML;Happy Amateur;high;M53111;x
+9002345;Head of Government;モハンメド・サイド・マラゲイ;48;ML;Flamboyant Tough Guy;high;M53038;x
+9002346;Head of Government;アリ・マンソウア;50;SC;Political Protege;high;M53034;x
+9002347;Head of Government;アリ・ラズマーラー;50;PA;old airmarshal;high;M53114;x
+9002348;Head of Government;フセイン・カーン・アラ;51;PA;Backroom Backstabber;high;M53073;x
+9002349;Head of Government;モハンメド・モッサデク;51;SL;Smiling Oilman;high;M53013;x
+9002350;Head of Government;ファズロラ・ザヘディ;53;PA;Old General;high;M53117;x
+9002351;Foreign Minister;アブドル・ホセイン・ハジール;51;ML;Ideological Crusader;high;M53111;x
+9002352;Chief of Staff;アリ・ラズマーラー;53;PA;School of Psychology;high;M53114;x
+9002353;Chief of Air Force;アリ・ラズマーラー;49;PA;Army Aviation Doctrine;high;M53114;x
+9002354;Chief of Army;ファズロラ・ザヘディ;51;PA;Guns and Butter Doctrine;high;M53117;x
+9002355;Head of State;ハイム・ワイツマン;36;SL;Benevolent Gentleman;high;M559001;x
+9002356;Head of Government;ダビド・ベン・グリオン;36;SL;Ambitious Union Boss;high;M559002;x
+9002357;Foreign Minister;モシェ・シャレット;36;SL;Biased Intellectual;high;M559003;x
+9002358;Minister of Armament;レヴィ・エシュコル;36;SL;Resource Industrialist;high;M559002;x
+9002359;Minister of Security;ゴルダ・メイル;36;SL;Man of the People;high;M559005;x
+9002360;Head of Military Intelligence;イーガル・アロン;36;SL;Logistics Specialist;high;M559006;x
+9002361;Chief of Staff;イガエル・ヤディン;36;SL;School of Fire Support;high;M559007;x
+9002362;Chief of Army;イーガル・アロン;36;SL;Guns and Butter Doctrine;high;M559008;x
+9002363;Chief of Navy;イェディディア・ヤーリ;36;SL;Decisive Naval Battle Doctrine;high;M559009;x
+9002364;Chief of Air Force;ハイム・ラスコヴ;36;SL;Army Aviation Doctrine;high;M559010;x
+9002365;Head of State;マシェ・シャイピラ;36;PA;Stern Imperialist;high;M559011;x
+9002366;Head of State;ハイム・アルロソロフ;36;LE;Barking Buffoon;high;M559012;x
+9002367;Head of Government;ダニエル・オースター;36;PA;Backroom Backstabber;high;M559013;x
+9002368;Head of Government;アブラハン・ハーシェル博士;36;LE;Naive Optimist;high;M559014;x
+9002369;Foreign Minister;ゼラク・ウォーナフティグ;36;PA;Ideological Crusader;high;M559015;x
+9002370;Foreign Minister;ピンハス・レヴォン;43;SL;Great Compromiser;high;M559016;x
+9002371;Foreign Minister;イツハク・ベン・ツヴィ;36;LE;Iron Fisted Brute;high;M559017;x
+9002372;Foreign Minister;イツハク・タベンキン;39;LE;The Cloak N Dagger Schemer;high;M559018;x
+9002373;Minister of Armament;ヴァディア・ヨセフ;36;PA;Infantry Proponent;high;M559019;x
+9002374;Minister of Armament;メンカヘム・ウシスキン;37;PA;Strategic Air Proponent;high;M559020;x
+9002375;Minister of Armament;ヴァトハガン・メルトニアン;40;PA;laissez-faire capitalist;high;M559021;x
+9002376;Minister of Armament;カディシュ・ルツ;40;SL;Battle Fleet Proponent;high;M559022;x
+9002377;Minister of Armament;ヨセフ・スプリンザク;42;SL;Air Superiority Proponent;high;M559023;x
+9002378;Minister of Armament;エリエザー・カプラン;45;SL;Military Entrepreneur;high;M559024;x
+9002379;Minister of Armament;パヴロス・レヴァン;36;LE;Tank Proponent;high;M559025;x
+9002380;Minister of Security;ネイハム・ニール＝ラファルケス;36;PA;Back Stabber;high;M559026;x
+9002381;Minister of Security;メナヘム・バスキンド;39;PA;Compassionate Gentleman;high;M559027;x
+9002382;Minister of Security;メンカヘム・ビギン;40;PA;Efficient Sociopath;high;M559028;x
+9002383;Minister of Security;モシェ・ハイム・シャピラ;49;SL;Silent Lawyer;high;M559029;x
+9002384;Minister of Security;イスラエル・ロカフ;52;SD;Crime Fighter;high;M559030;x
+9002385;Minister of Security;モシェ・カッツネルソン;41;LE;Prince of Terror;high;M559031;x
+9002386;Head of Military Intelligence;イスラエル・バー＝イェフダ;36;PA;Political Specialist;high;M559032;x
+9002387;Head of Military Intelligence;メナヘム・メンデル・リプシュッツ;37;PA;Dismal Enigma;high;M559033;x
+9002388;Head of Military Intelligence;ピンハス・サピア;42;SL;Technical Specialist;high;M559034;x
+9002389;Head of Military Intelligence;イツハク・グリュンバウム;44;SL;Dismal Enigma;high;M559035;x
+9002390;Head of Military Intelligence;ラール・カッツネルソン;36;LE;Industrial Specialist;high;M559036;x
+9002391;Head of Military Intelligence;メナヘム・シュニーアソン;37;LE;Naval Intelligence Specialist;high;M559037;x
+9002392;Chief of Staff;ロマン・ザハリ;36;PA;School of Defence;high;M559038;x
+9002393;Chief of Staff;ジロシャハフト・ハルカビ;42;PA;School of Psychology;high;M559039;x
+9002394;Chief of Staff;リチャード・シルヴァースタイン;36;LE;School of Mass Combat;high;M559040;x
+9002395;Chief of Army;ピンハス・ローゼンガーテン;36;PA;Elastic Defence Doctrine;high;M559041;x
+9002396;Chief of Army;モシェ・ダヤン;44;SL;Armoured Spearhead Doctrine;high;M559042;x
+9002397;Chief of Army;アモス・ゾレフ;36;LE;Decisive Battle Doctrine;high;M559043;x
+9002398;Chief of Navy;ハイム・グルンワルド;36;PA;Base Control Doctrine;high;M559044;x
+9002399;Chief of Navy;モシェ・クレリッツ;36;LE;Indirect Approach Doctrine;high;M559045;x
+9002400;Chief of Air Force;クリス・マギー;36;PA;Army Aviation Doctrine;high;M559046;x
+9002401;Chief of Air Force;ルーヴェン・ウルフ;36;LE;Air Superiority Doctrine;high;M559047;x
+9002402;Head of State;イツハク・ベン・ツヴィ;52;SL;Ruthless Powermonger;high;M559017;x
+9002403;Minister of Security;イツハク・グリュンバウム;48;SL;Prince of Terror;high;M559035;x
+9002404;Head of Military Intelligence;ヨセフ・スプリンザク;48;SL;Industrial Specialist;high;M559023;x
+9002405;Chief of Army;ダビド・ベン・グリオン;48;SL;Decisive Battle Doctrine;high;M559002;x
+9002406;Head of State;サイード・イブン・ティモール;36;PA;Ruthless Powermonger;high;M92001;x
+9002407;Head of Government;サイード・イブン・ティモール;36;PA;Backroom Backstabber;high;M92001;x
+9002408;Foreign Minister;サイード・イブン・ティモール;36;PA;General Staffer;high;M92001;x
+9002409;Minister of Armament;ジャームズ・E・ドラモンド;36;SC;Resource Industrialist;high;M92004;x
+9002410;Minister of Security;ヘンリー・L・W・L・バーナム;36;SC;Compassionate Gentleman;high;M92005;x
+9002411;Head of Military Intelligence;ジェフリー・デニス;36;SC;Technical Specialist;high;M92006;x
+9002412;Chief of Staff;サイード・イブン・ティモール;36;PA;School of Defence;high;M92001;x
+9002413;Chief of Army;サイード・イブン・ティモール;36;PA;Static Defence Doctrine;high;M92001;x
+9002414;Chief of Navy;ジェフリー・クレイドン;36;SC;Open Seas Doctrine;high;M92009;x
+9002415;Chief of Air Force;アブダラー・イブン・ティムール;36;PA;Air Superiority Doctrine;high;M92010;x
+9002416;Foreign Minister;ハーバート・A・ローレンス＝フィッシャー;39;SC;Great Compromiser;high;M92011;x
+9002417;Foreign Minister;イブラヒム・イブン・ティモール;44;PA;Iron Fisted Brute;high;M92012;x
+9002418;Minister of Armament;アルトウール・ヘンダーソン;41;SC;Infantry Proponent;high;M92013;x
+9002419;Minister of Armament;ジェームズ・H・トーマス;43;SC;laissez-faire capitalist;high;M92014;x
+9002420;Minister of Armament;アリ・イブン・ティムール;45;SC;Corrupt Kleptocrat;high;M92015;x
+9002421;Minister of Security;ロバート・バナタイン・フィンレイ;40;SC;Silent Lawyer;high;M92016;x
+9002422;Minister of Security;サイード・イブン・ティモール;45;PA;Efficient Sociopath;high;M92001;x
+9002423;Head of Military Intelligence;ハロルド・ベレスフォード＝バトラー;42;SC;Industrial Specialist;high;M92018;x
+9002424;Chief of Staff;P・A・マン;38;SC;School of Fire Support;high;M92019;x
+9002425;Chief of Staff;アンガス・ダグラス＝ハミルトン;41;SC;School of Mass Combat;high;M92020;x
+9002426;Chief of Staff;ジャミル・イブン・ティモール;45;PA;School of Manoeuvre;high;M92021;x
+9002427;Chief of Army;エリク・ライト;38;SC;Guns and Butter Doctrine;high;M92022;x
+9002428;Chief of Army;アンガス・ダグラス＝ハミルトン;41;SC;Decisive Battle Doctrine;high;M92020;x
+9002429;Chief of Army;ザヒール・イブン・ティモール;45;PA;Elastic Defence Doctrine;high;M92024;x
+9002430;Chief of Navy;デレク・リーフ;43;SC;Indirect Approach Doctrine;high;M92025;x
+9002431;Chief of Air Force;デレク・リーフ;40;SC;Naval Aviation Doctrine;high;M92025;x
+9002432;Chief of Air Force;R・E・マーティン;41;SC;Army Aviation Doctrine;high;M92027;x
+9002433;Chief of Air Force;ファウジ・イブン・ティモール;45;PA;Carpet Bombing Doctrine;high;M92028;x
+9002434;Head of State;ヤヒヤ・アル・ハミド;36;PA;Stern Imperialist;high;M93001;x
+9002435;Head of Government;ヤヒヤ・アル・ハミド;36;PA;Smiling Oilman;high;M93001;x
+9002436;Foreign Minister;ヤヒヤ・アル・ハミド;36;PA;General Staffer;high;M93001;x
+9002437;Minister of Armament;アフマド・アル・ハミド;36;PA;Corrupt Kleptocrat;high;M93004;x
+9002438;Minister of Security;ヤヒヤ・アル・ハミド;36;PA;Prince of Terror;high;M93001;x
+9002439;Head of Military Intelligence;アフマド・アル・ハミド;36;PA;Dismal Enigma;high;M93004;x
+9002440;Chief of Staff;ヤヒヤ・アル・ハミド;36;PA;School of Defence;high;M93001;x
+9002441;Chief of Army;アフマド・アル・ハミド;36;PA;Armoured Spearhead Doctrine;high;M93004;x
+9002442;Chief of Navy;マンスール・アル・バドル;36;PA;Power Projection Doctrine;high;M93009;x
+9002443;Chief of Air Force;マンスール・アル・バドル;36;PA;Army Aviation Doctrine;high;M93009;x
+9002444;Foreign Minister;R・J・マクニール・カッシェンドゥン;39;SC;Great Compromiser;high;M93011;x
+9002445;Minister of Armament;アレクダンドレ・ラヴデイ;40;SC;Infantry Proponent;high;M93013;x
+9002446;Minister of Armament;ヘンリー・R・ドブス;41;SC;Resource Industrialist;high;M93014;x
+9002447;Minister of Armament;A・H・C・リヴァース;42;SC;Administrative Genius;high;M93015;x
+9002448;Minister of Security;レオナード・ライアル;38;SC;Silent Lawyer;high;M93017;x
+9002449;Minister of Security;マンスール・アル・バドル;45;PA;Crooked Kleptocrat;high;M93009;x
+9002450;Head of Military Intelligence;セシル・バリントン・ハースト;40;SC;Technical Specialist;high;M93019;x
+9002451;Chief of Staff;R・モントゴメリー＝クリヴェス;39;SC;School of Mass Combat;high;M93020;x
+9002452;Chief of Staff;アブド・アル・フセイニ;45;PA;School of Fire Support;high;M93021;x
+9002453;Chief of Army;R・モントゴメリー＝クリヴェス;39;SC;Guns and Butter Doctrine;high;M93020;x
+9002454;Chief of Army;テッド・ポインター;42;SC;Decisive Battle Doctrine;high;M93023;x
+9002455;Chief of Army;アブド・アル・フセイニ;45;PA;Elastic Defence Doctrine;high;M93021;x
+9002456;Chief of Navy;イアン・トリローニー;40;SC;Open Seas Doctrine;high;M93025;x
+9002457;Chief of Air Force;テッド・ポインター;40;SC;Air Superiority Doctrine;high;M93023;x
+9002458;Chief of Air Force;アリ・ハルケー;45;PA;Vertical Envelopment Doctrine;high;M93027;x
+9002459;Head of State;ムハンメド・ベイ・アル＝アビド;36;SL;Stern Imperialist;high;M528001;x
+9002460;Head of Government;ダミアン・コムト・ド・マルテル;36;SL;Ambitious Union Boss;high;M528002;x
+9002461;Foreign Minister;ジャミル・マルダム・ベイ;36;SL;Great Compromiser;high;M528003;x
+9002462;Minister of Armament;ファリス・アル＝クーリ;36;SL;Air to Ground Proponent;high;M528004;x
+9002463;Minister of Security;イブ・モランダ;36;SL;Crooked Kleptocrat;high;M528005;x
+9002464;Head of Military Intelligence;ダミアン・コムト・ド・マルテル;36;SL;Logistics Specialist;high;M528002;x
+9002465;Chief of Staff;アンリ・アミエル;36;SL;School of Manoeuvre;high;M528007;x
+9002466;Chief of Army;ガブリエル・ピュオー;36;SL;Armoured Spearhead Doctrine;high;M528008;x
+9002467;Chief of Navy;イヴ・カレ・ド・リュザンケイ;36;SL;Base Control Doctrine;high;M528009;x
+9002468;Chief of Air Force;クリスチャン・クードレイ;36;SL;Naval Aviation Doctrine;high;M528010;x
+9002469;Head of State;シャイク・ムハメド・アル＝ザワヒリ;36;PA;Autocratic Charmer;high;M528011;x
+9002470;Head of State;ハシム・アル＝アタシ;36;SL;Insignificant Layman;high;M528012;x
+9002471;Head of State;バヒジ・アド・ディン・アル＝カティブ;39;SL;Barking Buffoon;high;M528013;x
+9002472;Head of State;シャイク・タジ・アド＝ディン・アル＝ハサニ;41;SC;Weary Stiffneck;high;M528014;x
+9002473;Head of State;シュクリ・アル＝クウェイトリ;43;SL;Benevolent Gentleman;high;M528015;x
+9002474;Head of State;ルフィ・アル＝ハファル;36;SC;Die-hard Reformer;high;M528016;x
+9002475;Head of Government;アンリ・デンツ;36;PA;Old General;high;L24059;x
+9002476;Head of Government;ガブリエル・ピュオー;38;SL;Silent Workhorse;high;M528008;x
+9002477;Head of Government;ジョルジュ・カトルー;41;SL;Old General;high;L24029;x
+9002478;Head of Government;イヴ・シャテニョー;43;SL;Corporate Suit;high;M528020;x
+9002479;Head of Government;シュクリ・アル＝クウェイトリ;45;SL;Backroom Backstabber;high;M528015;x
+9002480;Head of Government;ジャミル・マルダム・ベイ;36;ML;Political Protege;high;M528003;x
+9002481;Foreign Minister;ファリス・アル＝クーリ;36;PA;The Cloak N Dagger Schemer;high;M528004;x
+9002482;Foreign Minister;シャイク・ムハメド・アル＝ガウジ;41;SL;General Staffer;high;M528024;x
+9002483;Foreign Minister;ルフィ・アル＝ハファル;43;SL;Iron Fisted Brute;high;M528016;x
+9002484;Foreign Minister;サーダッラー・アル＝ジャビリ;45;SL;The Cloak N Dagger Schemer;high;M528026;x
+9002485;Foreign Minister;シャイク・ムスタファ・アル＝マラギ;36;SC;Great Compromiser;high;M528027;x
+9002486;Minister of Armament;イヴ・モランダ;36;PA;Air Superiority Proponent;high;M528005;x
+9002487;Minister of Armament;シャイク・ムハメド・アル＝シナウィ;38;SL;Infantry Proponent;high;M528029;x
+9002488;Minister of Armament;シャイク・アブド・アル＝アリム・セリム;41;SL;Military Entrepreneur;high;M528030;x
+9002489;Minister of Armament;ミシェル・モーリス＝ボカノウスキ;44;SL;Tank Proponent;high;M528031;x
+9002490;Minister of Armament;ポール・ライステンシュナイダー;46;SL;laissez-faire capitalist;high;M528032;x
+9002491;Minister of Armament;シャイク・ムスタファ・アル＝マラギ;39;SC;Air to Ground Proponent;high;M528027;x
+9002492;Minister of Security;シャイク・ムスタファ・アル＝マラギ;36;PA;Back Stabber;high;M528027;x
+9002493;Minister of Security;ムスタファ・アル＝アタシ;39;SL;Man of the People;high;M528035;x
+9002494;Minister of Security;アンドレ・サルヴァ;41;SL;Crime Fighter;high;M528036;x
+9002495;Minister of Security;ジャミル・チャクルラ;43;SL;Back Stabber;high;M528037;x
+9002496;Minister of Security;ジャン・アブデル・フーカ;45;SL;Compassionate Gentleman;high;M528038;x
+9002497;Minister of Security;ファリス・アル＝クーリ;36;SC;Man of the People;high;M528004;x
+9002498;Head of Military Intelligence;アンリ・デンツ;38;PA;Logistics Specialist;high;L24059;x
+9002499;Head of Military Intelligence;ガブリエル・ピュオー;38;SL;Industrial Specialist;high;M528008;x
+9002500;Head of Military Intelligence;ジョルジュ・カトルー;41;SL;Dismal Enigma;high;L24029;x
+9002501;Head of Military Intelligence;イヴ・シャテニョー;43;SL;Political Specialist;high;M528020;x
+9002502;Head of Military Intelligence;シャイク・ムハメド・アル＝ガウジ;36;SC;Industrial Specialist;high;M528024;x
+9002503;Chief of Staff;アンリ・デンツ;36;PA;School of Defence;high;L24059;x
+9002504;Chief of Staff;ルシアン・カンバ;41;SL;School of Manoeuvre;high;M528046;x
+9002505;Chief of Staff;フセイン・アル＝ザイム;45;SL;School of Mass Combat;high;M528047;x
+9002506;Chief of Staff;シャイク・ムハメド・アル＝ガウジ;36;SC;School of Fire Support;high;M528024;x
+9002507;Chief of Army;ファウジ・アル＝クワウジ;36;PA;Static Defence Doctrine;high;M528049;x
+9002508;Chief of Army;ジョルジュ・カトルー;41;SL;Decisive Battle Doctrine;high;L24029;x
+9002509;Chief of Army;アディブ・アル＝シシャクリ;45;SL;Guns and Butter Doctrine;high;M528051;x
+9002510;Chief of Army;ベルナール・デュペリエ;36;SC;Elastic Defence Doctrine;high;M528052;x
+9002511;Chief of Navy;シャイク・ムハメド・アル＝ガウジ;36;PA;Base Control Doctrine;high;M528024;x
+9002512;Chief of Navy;オマル・アブラシュ;45;SL;Open Seas Doctrine;high;M528054;x
+9002513;Chief of Navy;イヴ・モランダ;36;SC;Decisive Naval Battle Doctrine;high;M528005;x
+9002514;Chief of Air Force;フセイン・アル＝ザイム;36;PA;Air Superiority Doctrine;high;M528047;x
+9002515;Chief of Air Force;アンリ・アミエル;45;SL;Army Aviation Doctrine;high;M528007;x
+9002516;Chief of Air Force;アンリ・アミエル;36;SC;Vertical Envelopment Doctrine;high;M528007;x
+9002517;Minister of Armament;アミル・ムスタファ・アル＝シハビ;40;PA;laissez-faire capitalist;high;M528059;x
+9002518;Head of State;フセイン・アル＝ザイム;49;SL;Resigned Generalissimo;high;M528047;x
+9002519;Head of State;ファウジ・アス・シル;51;SL;Barking Buffoon;high;M528061;x
+9002520;Head of State;アディブ・アル＝シシャクリ;53;SL;Powerhungry Demagogue;high;M528051;x
+9002521;Head of Government;ハリド・アル・アズム;48;SL;Flamboyant Tough Guy;high;M528063;x
+9002522;Head of Government;フセイン・アル＝ザイム;49;SL;Old General;high;M528047;x
+9002523;Head of Government;ムフシン・アル・バラジ;49;SL;Silent Workhorse;high;M528065;x
+9002524;Head of Government;ハシム・アル＝アタシ;49;SL;Happy Amateur;high;M528012;x
+9002525;Head of Government;ナーズム・アル・クドゥシ;50;SL;Ambitious Union Boss;high;M528067;x
+9002526;Head of Government;ハッサン・アル・ハキム;51;SL;Smiling Oilman;high;M528068;x
+9002527;Head of Government;ファウジ・アス・シル;51;SL;Old General;high;M528061;x
+9002528;Head of Government;アディブ・アル＝シシャクリ;53;SL;Corporate Suit;high;M528051;x
+9002529;Chief of Staff;ファウジ・アス・シル;49;SL;School of Defence;high;M528061;x
+9002530;Minister of Armament;ハリド・アル・アズム;46;SL;Resource Industrialist;high;M528063;x
+9002531;Foreign Minister;ムフシン・アル・バラジ;39;SL;Apologetic Clerk;high;M528065;x
+9002532;Minister of Security;ナーズム・アル・クドゥシ;43;SL;Silent Lawyer;high;M528067;x
+9002533;Minister of Armament;ハッサン・アル・ハキム;49;SL;Air to Ground Proponent;high;M528068;x
+9002534;Head of Military Intelligence;サミ・ヒンナーウィー;44;SL;Logistics Specialist;high;M528076;x
+9002535;Chief of Air Force;ハリード・アル・ラジ;49;SL;Carpet Bombing Doctrine;high;M528077;x
+9002536;Head of State;エミール・エデー;36;SL;Pig-headed Isolationist;high;M529001;x
+9002537;Head of Government;アユーブ・タベット;36;SL;Old General;high;M529002;x
+9002538;Foreign Minister;アブダッラー・アレフ・アル＝ヤフィ;40;SL;General Staffer;high;M529003;x
+9002539;Minister of Armament;アルフレ・ナカチェ;36;SL;Air to Ground Proponent;high;M529002;x
+9002540;Minister of Security;カレド・チェハブ;40;SL;Prince of Terror;high;M529005;x
+9002541;Head of Military Intelligence;カイレディン・アル＝アフダブ;36;SL;Technical Specialist;high;M529006;x
+9002542;Chief of Staff;アドリアン・ペルティエ;36;SL;School of Manoeuvre;high;M529007;x
+9002543;Chief of Army;アルフレ・カゾー;36;SL;Decisive Battle Doctrine;high;M529008;x
+9002544;Chief of Navy;アシル・ペレティ;36;SL;Power Projection Doctrine;high;M529009;x
+9002545;Chief of Air Force;アンリ・スーラ;36;SL;Naval Aviation Doctrine;high;M529010;x
+9002546;Head of State;アルフレ・ナカチェ;40;SC;Autocratic Charmer;high;M529002;x
+9002547;Head of State;サーデル・アル＝ムンラ;43;SL;Ruthless Powermonger;high;M529012;x
+9002548;Head of State;バカラ・アル＝クーリ;36;SC;Barking Buffoon;high;M529013;x
+9002549;Head of State;シャルル・デバス;36;PA;Die-hard Reformer;high;M529014;x
+9002550;Head of Government;カイレディン・アル＝アフダブ;37;SL;Naive Optimist;high;M529006;x
+9002551;Head of Government;カレド・チェハブ;40;ML;Political Protege;high;M529005;x
+9002552;Head of Government;アブダッラー・アレフ・アル＝ヤフィ;40;ML;Old Admiral;high;M529003;x
+9002553;Head of Government;アブドゥッラー・バユム;39;SL;Silent Workhorse;high;M529018;x
+9002554;Head of Government;アルフレ・ナカチェ;41;SL;Ambitious Union Boss;high;M529002;x
+9002555;Head of Government;アフメド・ダウド;41;SL;Corporate Suit;high;M529020;x
+9002556;Head of Government;サミ・アッソル;42;SL;Happy Amateur;high;M529021;x
+9002557;Head of Government;ペトロ・トラド;43;SL;Smiling Oilman;high;M529022;x
+9002558;Head of Government;リアド・アッソル;43;SC;Silent Workhorse;high;M529023;x
+9002559;Head of Government;アブドゥル・ハミド・カラミ;45;SC;Flamboyant Tough Guy;high;M529024;x
+9002560;Head of Government;サミ・アッソル;45;SC;Corporate Suit;high;M529021;x
+9002561;Head of Government;サーデル・アル＝ムンラ;46;SC;Naive Optimist;high;M529012;x
+9002562;Head of Government;リアド・アッソル;46;SC;Backroom Backstabber;high;M529023;x
+9002563;Head of Government;ハビブ・バシャ・エル＝サエド;36;PA;Political Protege;high;M529028;x
+9002564;Foreign Minister;アブデルクリム・アル＝カッタビ;41;SL;The Cloak N Dagger Schemer;high;M529029;x
+9002565;Foreign Minister;サミ・アッソル;46;SL;Ideological Crusader;high;M529021;x
+9002566;Foreign Minister;アブドゥッラー・バユム;36;SC;Apologetic Clerk;high;M529018;x
+9002567;Foreign Minister;ジャック・バウメル;40;SC;Iron Fisted Brute;high;M529032;x
+9002568;Foreign Minister;マジド・アルスラン;44;SC;The Cloak N Dagger Schemer;high;M529033;x
+9002569;Foreign Minister;エミール・エデー;36;PA;Ideological Crusader;high;M529001;x
+9002570;Minister of Armament;リアド・アッソル;40;SL;Administrative Genius;high;M529023;x
+9002571;Minister of Armament;ラヤン・カディ;44;SL;Tank Proponent;high;M529036;x
+9002572;Minister of Armament;カレド・チェハブ;40;SC;Corrupt Kleptocrat;high;M529005;x
+9002573;Minister of Armament;アフメド・ダウド;39;SC;Infantry Proponent;high;M529020;x
+9002574;Minister of Armament;ナシム・マジュダラニ;45;SC;Resource Industrialist;high;M529039;x
+9002575;Minister of Armament;カイレディン・アル＝アフダブ;36;PA;laissez-faire capitalist;high;M529006;x
+9002576;Minister of Security;アブドゥル・ハミド・カラミ;39;SL;Man of the People;high;M529024;x
+9002577;Minister of Security;ナシム・マジュダラニ;44;SL;Compassionate Gentleman;high;M529039;x
+9002578;Minister of Security;カイレディン・アル＝アフダブ;36;SC;Crime Fighter;high;M529006;x
+9002579;Minister of Security;カマル・ジュムブラト;40;SC;Back Stabber;high;M529044;x
+9002580;Minister of Security;スリマヌ・ナウファイ;45;SC;Efficient Sociopath;high;M529045;x
+9002581;Minister of Security;アユーブ・タベット;36;PA;Compassionate Gentleman;high;M529002;x
+9002582;Head of Military Intelligence;バトリアルク・アル・アムーシ;40;SL;Dismal Enigma;high;M529047;x
+9002583;Head of Military Intelligence;ファディ・イブラヒム;45;SL;Political Specialist;high;M529048;x
+9002584;Head of Military Intelligence;アユーブ・タベット;36;SC;Industrial Specialist;high;M529002;x
+9002585;Head of Military Intelligence;スリマヌ・ナウファイ;43;SC;Logistics Specialist;high;M529045;x
+9002586;Head of Military Intelligence;サーデル・アル＝ムンラ;36;PA;Dismal Enigma;high;M529012;x
+9002587;Chief of Staff;アントワーヌ・ハルブ;44;SL;School of Mass Combat;high;M529052;x
+9002588;Chief of Staff;イスカンデル・ガネム;40;SC;School of Defence;high;M529053;x
+9002589;Chief of Staff;ニコラ・ルミナツォフ;36;PA;School of Psychology;high;M529054;x
+9002590;Chief of Army;ジャミ・ラフード;44;SL;Armoured Spearhead Doctrine;high;M529055;x
+9002591;Chief of Army;フアド・チェハブ;40;SC;Guns and Butter Doctrine;high;M529056;x
+9002592;Chief of Army;ラシュラシュ・アザム;36;PA;Elastic Defence Doctrine;high;M529057;x
+9002593;Chief of Navy;ルイ・フィネ;41;SL;Indirect Approach Doctrine;high;M529058;x
+9002594;Chief of Navy;ナビル・ジャド;43;SC;Open Seas Doctrine;high;M529059;x
+9002595;Chief of Navy;アブダッラー・アレフ・アル＝ヤフィ;40;PA;Decisive Naval Battle Doctrine;high;M529003;x
+9002596;Chief of Air Force;スリマヌ・ナウファイ;44;SL;Air Superiority Doctrine;high;M529045;x
+9002597;Chief of Air Force;エミール・ブスタニ;40;SC;Air Superiority Doctrine;high;M529062;x
+9002598;Chief of Air Force;ペトロ・トラド;36;PA;Army Aviation Doctrine;high;M529022;x
+9002599;Head of Government;アンリ・デンツ;36;PA;Old General;high;L24059;x
+9002600;Head of Military Intelligence;アンリ・デンツ;36;PA;Logistics Specialist;high;L24059;x
+9002601;Chief of Staff;アンリ・デンツ;36;PA;School of Defence;high;L24059;x
+9002602;Foreign Minister;ハミド・ファラニヤ;38;PA;Iron Fisted Brute;high;M529067;x
+9002603;Minister of Armament;カミル・シャムン;38;PA;laissez-faire capitalist;high;M529068;x
+9002604;Head of Military Intelligence;アーマッド・アル・フサイニ;38;PA;Dismal Enigma;high;M529069;x
+9002605;Head of State;カミーユ・シャムン;52;SC;Powerhungry Demagogue;high;M529070;x
+9002606;Head of Government;ハッサン・アル=オウェイニ;51;SC;Happy Amateur;high;M529071;x
+9002607;Head of Government;ナジム・アル=アカリ;52;SC;Smiling Oilman;high;M529072;x
+9002608;Head of Government;セブ・サラム;52;ML;Naive Optimist;high;M529073;x
+9002609;Foreign Minister;フアド・チェハブ;50;SC;General Staffer;high;M529056;x
+9002610;Head of State;イブン・ファイサル・ガジ1世;36;SC;Autocratic Charmer;high;M91001;x
+9002611;Head of Government;ヤシン・パシャ・アル・ハシミ;36;SC;Naive Optimist;high;M91002;x
+9002612;Foreign Minister;ヌリ・アス・サイード;36;SC;General Staffer;high;M91003;x
+9002613;Minister of Armament;イブン・ファイサル・ガジ1世;36;SC;laissez-faire capitalist;high;M91001;x
+9002614;Minister of Security;アリ・アブン・フセイン;36;SC;Back Stabber;high;M91005;x
+9002615;Head of Military Intelligence;ヤシン・パシャ・アル・ハシミ;36;SC;Naval Intelligence Specialist;high;M91002;x
+9002616;Chief of Staff;バクル・シドゥキ;36;SC;School of Defence;high;M91007;x
+9002617;Chief of Army;フレデリク・G・ピーク;36;SC;Elastic Defence Doctrine;high;M91008;x
+9002618;Chief of Navy;A・R・H・ナイ;36;SC;Open Seas Doctrine;high;M91009;x
+9002619;Chief of Air Force;アリ・ベン・ジャワド;36;SC;Air Superiority Doctrine;high;M91010;x
+9002620;Head of State;イブン・ファイサル・ガジ1世;36;LWR;Autocratic Charmer;high;M91001;x
+9002621;Head of State;イブン・ファイサル・ガジ1世;36;PA;Autocratic Charmer;high;M91001;x
+9002622;Head of State;イブン・ファイサル・ガジ1世;36;FA;Autocratic Charmer;high;M91001;x
+9002623;Head of State;アミール・アル・イラー;39;LWR;Stern Imperialist;high;M91035;x
+9002624;Head of State;アミール・アル・イラー;39;SC;Stern Imperialist;high;M91035;x
+9002625;Head of State;アミール・アル・イラー;39;PA;Stern Imperialist;high;M91035;x
+9002626;Head of State;アミール・アル・イラー;39;FA;Stern Imperialist;high;M91035;x
+9002627;Head of State;イブン・ガジ・ファイサル2世;46;LWR;Benevolent Gentleman;high;M91039;x
+9002628;Head of State;イブン・ガジ・ファイサル2世;46;PA;Benevolent Gentleman;high;M91039;x
+9002629;Head of State;イブン・ガジ・ファイサル2世;46;FA;Benevolent Gentleman;high;M91039;x
+9002630;Head of Government;モウサ・アル・アラミ;36;SC;Silent Workhorse;high;M91043;x
+9002631;Head of Government;タハ・パシャ・アル・ハシミ;41;PA;Happy Amateur;high;M91044;x
+9002632;Head of Government;ラゲブ・ナシャシビ;46;SC;Flamboyant Tough Guy;high;M91045;x
+9002633;Head of Government;アザム・パシャ;36;PA;Old General;high;M91046;x
+9002634;Head of Government;ジャミル・アル・ミドファイ;37;PA;Smiling Oilman;high;M91047;x
+9002635;Head of Government;ヌリ・アス・サイード;38;PA;Old General;high;M91003;x
+9002636;Head of Government;ハマディ・アル・パチャチ;44;PA;Silent Workhorse;high;M91049;x
+9002637;Head of Government;サリーヒ・ジャブル;47;PA;Political Protege;high;M91050;x
+9002638;Head of Government;ファウジ・アル・カウクジ;36;FA;Flamboyant Tough Guy;high;M91014;x
+9002639;Head of Government;ラシッド・アリ・アル・ガイラーニー;40;FA;Smiling Oilman;high;M91011;x
+9002640;Head of Government;ハジ・アミニ・アル・フセイニ;41;FA;Backroom Backstabber;high;M91013;x
+9002641;Head of Government;ヒクメト・スレイマン;36;LWR;Naive Optimist;high;M91054;x
+9002642;Head of Government;ヤヒヤ・ハムデー;40;LWR;Backroom Backstabber;high;M91021;x
+9002643;Head of Government;タウフィク・アル・スウェイディ;46;LWR;Ambitious Union Boss;high;M91056;x
+9002644;Head of Government;アルシャド・アル・ウマリ;46;LWR;Happy Amateur;high;M91027;x
+9002645;Foreign Minister;ラゲブ・ナシャシビ;36;SC;Biased Intellectual;high;M91045;x
+9002646;Foreign Minister;タハ・パシャ・アル・ハシミ;40;PA;Ideological Crusader;high;M91044;x
+9002647;Foreign Minister;モウサ・アル・アラミ;41;SC;Great Compromiser;high;M91043;x
+9002648;Foreign Minister;アザム・パシャ;36;PA;Apologetic Clerk;high;M91046;x
+9002649;Foreign Minister;タウフィク・アル・スウェイディ;37;PA;Apologetic Clerk;high;M91056;x
+9002650;Foreign Minister;アリ・ジャワド;39;PA;The Cloak N Dagger Schemer;high;M91064;x
+9002651;Foreign Minister;ジャミル・アル・ミドファイ;40;PA;Apologetic Clerk;high;M91047;x
+9002652;Foreign Minister;サリーヒ・ジャブル;41;PA;Ideological Crusader;high;M91050;x
+9002653;Foreign Minister;アブダラー・アル・タムルジ;42;PA;Iron Fisted Brute;high;M91067;x
+9002654;Foreign Minister;アブダラー・アル・ハフィズ;42;PA;Great Compromiser;high;M91068;x
+9002655;Foreign Minister;ナスラト・アル・ファリシ;43;PA;Iron Fisted Brute;high;M91069;x
+9002656;Foreign Minister;タフシン・アル・アスカリ;43;PA;Ideological Crusader;high;M91070;x
+9002657;Foreign Minister;マフムド・スブヒ・ダフタリ;43;PA;Apologetic Clerk;high;M91071;x
+9002658;Foreign Minister;アルシャド・アル・ウマリ;44;PA;General Staffer;high;M91027;x
+9002659;Foreign Minister;アフマド・アブドゥル・バキ;46;PA;The Cloak N Dagger Schemer;high;M91073;x
+9002660;Foreign Minister;ムハンメド・ファデルフォマリ;46;PA;Biased Intellectual;high;M91074;x
+9002661;Foreign Minister;ラシッド・アリ・アル・ガイラーニー;36;FA;The Cloak N Dagger Schemer;high;M91011;x
+9002662;Foreign Minister;アリ・マフムド・アル・シャイク;40;FA;Great Compromiser;high;M91019;x
+9002663;Foreign Minister;ハジ・アミニ・アル・フセイニ;40;FA;Ideological Crusader;high;M91013;x
+9002664;Foreign Minister;ムサ・ベイ・アル・シャフバンダル;41;FA;Biased Intellectual;high;M91078;x
+9002665;Foreign Minister;ナジ・アル・アシル;36;PA;Ideological Crusader;high;M91080;x
+9002666;Foreign Minister;ヒクメト・スレイマン;36;PA;Great Compromiser;high;M91054;x
+9002667;Foreign Minister;タウフィク・アル・スウェイディ;46;LWR;Apologetic Clerk;high;M91056;x
+9002668;Foreign Minister;アリ・モムターズ;46;LWR;General Staffer;high;M91083;x
+9002669;Foreign Minister;ムハンメド・ファデルフォマリ;46;LWR;Biased Intellectual;high;M91074;x
+9002670;Foreign Minister;ヤヒヤ・ハムデー;47;LWR;Iron Fisted Brute;high;M91021;x
+9002671;Minister of Armament;アブデル・ラティーフ・サラー;36;SC;Resource Industrialist;high;M91086;x
+9002672;Minister of Armament;モウサ・アル・アラミ;41;SC;laissez-faire capitalist;high;M91043;x
+9002673;Minister of Armament;エリエ・モセリ;46;SC;Administrative Genius;high;M91088;x
+9002674;Minister of Armament;ヌリ・アス・サイード;36;PA;Infantry Proponent;high;M91003;x
+9002675;Minister of Armament;ヤゴウブ・ファラジ;38;PA;laissez-faire capitalist;high;M91090;x
+9002676;Minister of Armament;ジャミル・アル・ミドファイ;41;PA;Theoretical Scientist;high;M91047;x
+9002677;Minister of Armament;ロバート・H・ブランド;42;PA;Air to Ground Proponent;high;M91092;x
+9002678;Minister of Armament;ジャマル・フセイニ;43;PA;Air Superiority Proponent;high;M91093;x
+9002679;Minister of Armament;タウフィク・アル・スウェイディ;44;PA;Submarine Proponent;high;M91056;x
+9002680;Minister of Armament;アリ・アブン・フセイン;46;PA;Corrupt Kleptocrat;high;M91005;x
+9002681;Minister of Armament;アブドゥッラー;46;PA;Military Entrepreneur;high;M91028;x
+9002682;Minister of Armament;アミール・アル・ジャヘド;36;FA;Military Entrepreneur;high;M91097;x
+9002683;Minister of Armament;ヤヒヤ・アル・ナジフ;37;FA;Submarine Proponent;high;M91098;x
+9002684;Minister of Armament;アザム・パシャ;41;FA;Infantry Proponent;high;M91046;x
+9002685;Minister of Armament;ファウジ・アル・カウクジ;40;FA;Corrupt Kleptocrat;high;M91014;x
+9002686;Minister of Armament;カリド・アル・ダラベー;36;LWR;Theoretical Scientist;high;M91030;x
+9002687;Minister of Armament;アンワル・ハティブ;46;LWR;Strategic Air Proponent;high;M91024;x
+9002688;Minister of Security;グーラム・アリ・アラナ;40;SC;Compassionate Gentleman;high;M91104;x
+9002689;Minister of Security;ラゲブ・ナシャシビ;46;SC;Crime Fighter;high;M91045;x
+9002690;Minister of Security;カメル・エレカット;36;PA;Crooked Kleptocrat;high;M91106;x
+9002691;Minister of Security;アフマド・アブドゥル・バキ;37;PA;Man of the People;high;M91073;x
+9002692;Minister of Security;スレイマン・アル・タジ;39;PA;Prince of Terror;high;M91108;x
+9002693;Minister of Security;ロバート・H・ブランド;41;PA;Silent Lawyer;high;M91092;x
+9002694;Minister of Security;ジョン・サンダーソン＝ホールデン;44;PA;Crime Fighter;high;M91110;x
+9002695;Minister of Security;ヌリ・アス・サイード;46;PA;Efficient Sociopath;high;M91003;x
+9002696;Minister of Security;ジャミル・アル・ミドファイ;36;FA;Crooked Kleptocrat;high;M91047;x
+9002697;Minister of Security;アリ・ラサク;37;FA;Man of the People;high;M91113;x
+9002698;Minister of Security;アフメド・アミール・バディ;40;FA;Efficient Sociopath;high;M91114;x
+9002699;Minister of Security;ラシッド・アリ・アル・ガイラーニー;41;FA;Prince of Terror;high;M91011;x
+9002700;Minister of Security;ハジ・アミニ・アル・フセイニ;41;FA;Efficient Sociopath;high;M91013;x
+9002701;Minister of Security;アンワル・ハティブ;36;LWR;Man of the People;high;M91024;x
+9002702;Minister of Security;ヒクメト・スレイマン;41;LWR;Compassionate Gentleman;high;M91054;x
+9002703;Head of Military Intelligence;モハンメド・アル・アジル;41;SC;Logistics Specialist;high;M91120;x
+9002704;Head of Military Intelligence;タハ・パシャ・アル・ハシミ;46;SC;Dismal Enigma;high;M91044;x
+9002705;Head of Military Intelligence;エミール・グーリ;36;PA;Technical Specialist;high;M91122;x
+9002706;Head of Military Intelligence;ジャミル・アル・ミドファイ;38;PA;Political Specialist;high;M91047;x
+9002707;Head of Military Intelligence;ジョン・バゴット・グラッブ;41;PA;Logistics Specialist;high;M91124;x
+9002708;Head of Military Intelligence;ジョン・サンダーソン＝ホールデン;41;PA;Dismal Enigma;high;M91110;x
+9002709;Head of Military Intelligence;フランシス・P・ワルタース;44;PA;Industrial Specialist;high;M91126;x
+9002710;Head of Military Intelligence;アブドゥッラー;45;PA;Political Specialist;high;M91028;x
+9002711;Head of Military Intelligence;ヌリ・アス・サイード;47;PA;Logistics Specialist;high;M91003;x
+9002712;Head of Military Intelligence;リファイ・アル・ファデル;36;FA;Political Specialist;high;M91129;x
+9002713;Head of Military Intelligence;ラシッド・アリ・アル＝ガイラーニー;40;FA;Dismal Enigma;high;M91011;x
+9002714;Head of Military Intelligence;アザム・パシャ;40;FA;Logistics Specialist;high;M91046;x
+9002715;Head of Military Intelligence;ファウジ・アル・カウクジ;46;FA;Industrial Specialist;high;M91014;x
+9002716;Head of Military Intelligence;タハ・アル・アーマニ;36;LWR;Industrial Specialist;high;M91029;x
+9002717;Head of Military Intelligence;アブダラー・モムターズ;40;LWR;Technical Specialist;high;M91026;x
+9002718;Head of Military Intelligence;スレイマン・アル・タジ;41;LWR;Political Specialist;high;M91108;x
+9002719;Head of Military Intelligence;リファイ・アル・ファデル;46;LWR;Dismal Enigma;high;M91129;x
+9002720;Chief of Staff;フレデリク・ピーク;36;SC;School of Fire Support;high;M91008;x
+9002721;Chief of Staff;ジョン・バゴット・グラッブ;41;SC;School of Psychology;high;M91124;x
+9002722;Chief of Staff;ヌリ・アス＝サイード;37;PA;School of Mass Combat;high;M91003;x
+9002723;Chief of Staff;ファウジ・アル・カウクジ;36;FA;School of Fire Support;high;M91014;x
+9002724;Chief of Staff;バクル・シドゥキ;36;LWR;School of Defence;high;M91007;x
+9002725;Chief of Staff;アルシャド・アル・ウマリ;39;LWR;School of Fire Support;high;M91027;x
+9002726;Chief of Army;ジョン・バゴット・グラッブ;46;PA;Decisive Battle Doctrine;high;M91124;x
+9002727;Chief of Army;イブン・ファイサル・ガジ1世;36;PA;Guns and Butter Doctrine;high;M91001;x
+9002728;Chief of Army;ヌリ・アス・サイード;39;PA;Armoured Spearhead Doctrine;high;M91003;x
+9002729;Chief of Army;アミール・アル・イラー;44;PA;Static Defence Doctrine;high;M91035;x
+9002730;Chief of Army;イブン・ガジ・ファイサル2世;45;PA;Static Defence Doctrine;high;M91039;x
+9002731;Chief of Army;ファウジ・アル・カウクジ;36;FA;Static Defence Doctrine;high;M91014;x
+9002732;Chief of Army;アブドゥッラー;41;FA;Elastic Defence Doctrine;high;M91028;x
+9002733;Chief of Army;アルシャド・アル・ウマリ;36;LWR;Guns and Butter Doctrine;high;M91027;x
+9002734;Chief of Navy;ハマディ・アル・パチャチ;36;PA;Decisive Naval Battle Doctrine;high;M91049;x
+9002735;Chief of Navy;ジャミル・アル・ミドファイ;46;PA;Indirect Approach Doctrine;high;M91047;x
+9002736;Chief of Navy;アリ・マフムド・アル・シャイク;36;FA;Indirect Approach Doctrine;high;M91019;x
+9002737;Chief of Navy;タハ・アル・アーマニ;36;LWR;Decisive Naval Battle Doctrine;high;M91029;x
+9002738;Chief of Air Force;アラン・ローリンソン;41;SC;Army Aviation Doctrine;high;M91164;x
+9002739;Chief of Air Force;アミール・アル・イラー;36;PA;Air Superiority Doctrine;high;M91035;x
+9002740;Chief of Air Force;アブドゥッラー・アル＝テル;40;PA;Naval Aviation Doctrine;high;M91166;x
+9002741;Chief of Air Force;ジャミル・アル・ミドファイ;44;PA;Carpet Bombing Doctrine;high;M91047;x
+9002742;Chief of Air Force;イブン・ガジ・ファイサル2世;46;PA;Vertical Envelopment Doctrine;high;M91039;x
+9002743;Chief of Air Force;ファハミ・サイド;36;FA;Air Superiority Doctrine;high;M91020;x
+9002744;Chief of Air Force;カリド・アル・ダラベー;36;LWR;Vertical Envelopment Doctrine;high;M91030;x
+9002745;Head of State;ラシッド・アリ・アル＝ガイラーニー;41;FA;Powerhungry Demagogue;high;M91011;x
+9002746;Chief of Navy;ラシッド・アリ・アル＝ガイラーニー;46;FA;Power Projection Doctrine;high;M91011;x
+9002747;Head of Government;ヒクメト・スレイマン;36;PA;Naive Optimist;high;M91054;x
+9002748;Head of Government;ラシッド・アリ・アル・ガイラーニー;40;PA;Smiling Oilman;high;M91011;x
+9002749;Head of Government;ジャミル・アル・ミドファイ;41;PA;Smiling Oilman;high;M91047;x
+9002750;Head of Government;ヌリ・アス・サイード;41;PA;Ambitious Union Boss;high;M91003;x
+9002751;Head of Government;ヌリ・アス・サイード;46;PA;Flamboyant Tough Guy;high;M91003;x
+9002752;Head of State;ラシッド・アリ・アル＝ガイラーニー;36;FA;Powerhungry Demagogue;high;M91011;x
+9002753;Head of Government;ラシッド・アリ・アル＝ガイラーニー;36;FA;Smiling Oilman;high;M91011;x
+9002754;Head of State;ヤヒヤ・ハムデー;36;ST;Barking Buffoon;high;M91021;x
+9002755;Head of Government;ヤヒヤ・ハムデー;36;ST;Backroom Backstabber;high;M91021;x
+9002756;Head of Government;ムハンマド・アス・サドル;48;PA;Naive Optimist;high;M91179;x
+9002757;Head of Government;ムザヒム・アル・バイヤジ;48;SC;Corporate Suit;high;M91180;x
+9002758;Head of Government;アリ・ジャワド;49;PA;Backroom Backstabber;high;M91064;x
+9002759;Head of Government;タウフィク・アル・スウェイディ;50;PA;Ambitious Union Boss;high;M91056;x
+9002760;Head of Government;ヌールッ=ディーン・マフムード;52;PA;Old General;high;M91183;x
+9002761;Head of Government;ムスタファ・アル・ウマリ;52;ML;Silent Workhorse;high;M91184;x
+9002762;Head of Government;ムハメド・ファーディル・アル=ジャマリ;53;SC;Happy Amateur;high;M91185;x
+9002763;Head of Military Intelligence;ヌールッ=ディーン・マフムード;45;PA;Logistics Specialist;high;M91183;x
+9002764;Head of State;イブン・ガジ・ファイサル2世;46;SC;Benevolent Gentleman;high;M91039;x

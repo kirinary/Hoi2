@@ -1,0 +1,195 @@
+event = {
+	id = 70111
+	random = no
+	country = JAP
+	trigger = {
+       }
+
+	name = "桜花作戦成功"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 1970 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+event = {
+	id = 70112
+	random = no
+	country = U06
+	trigger = {
+       }
+
+	name = "桜花作戦成功"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 1970 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+event = {
+	id = 70113
+	random = no
+	country = USA
+	trigger = {
+       }
+
+	name = "桜花作戦成功"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 1970 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+event = {
+	id = 70114
+	random = no
+	country = U02
+	trigger = {
+       }
+
+	name = "桜花作戦成功"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 1970 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+
+event = {
+	id = 70115
+	random = no
+	country = U01
+	trigger = {
+       }
+
+	name = "桜花作戦成功"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 1970 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+event = {
+	id = 70116
+	random = no
+	country = U04
+	trigger = {
+       }
+
+	name = "桜花作戦成功"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 1970 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+event = {
+	id = 70117
+	random = no
+	country = U05
+	trigger = {
+       }
+
+	name = "桜花作戦成功"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 1970 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}

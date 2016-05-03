@@ -1,0 +1,199 @@
+U10;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+9009001;Head of State;‘å–{‰c;36;PA;Stern Imperialist;High;M5001;x
+9009002;Head of Government;‰ª“cŒ[‰î;36;PA;Happy Amateur;High;M5002;x
+9009003;Foreign Minister;L“cO‹B;36;PA;Great Compromiser;High;M5003;x
+9009004;Minister of Armament;’¬“c’‰¡;36;SC;laissez-faire capitalist;High;M5004;x
+9009005;Minister of Security;Œã“¡•¶•v;36;SC;Silent Lawyer;High;M5005;x
+9009006;Head of Military Intelligence;‰ª‘º”JŸ;36;PA;Political Specialist;Very Low;M5006;x
+9009007;Chief of Staff;ŠÕ‰@‹{Úm;36;PA;School of Defence;Very Low;M5007;x
+9009008;Chief of Army;ŠÕ‰@‹{Úm;36;PA;Static Defence Doctrine;Very Low;M5007;x
+9009009;Chief of Navy;‘åŠp›¨¶;36;FA;Power Projection Doctrine;Very High;M5009;x
+9009010;Chief of Air Force;R–{ŒÜ\˜Z;36;FA;Naval Aviation Doctrine;Very High;M5010;x
+9009011;Head of State;’•ƒ‹{è´m;36;PA;Ruthless Powermonger;Very High;M5207;x
+9009025;Head of State;–ìâQO;36;SD;Barking Buffoon;High;M5011;x
+9009033;Head of Government;—Ñ‘L\˜Y;36;PA;Smiling Oilman;High;M5033;x
+9009034;Head of Government;‹ß‰q•¶–›;37;PA;Flamboyant Tough Guy;High;M5034;x
+9009035;Head of Government;ˆ¢•”Ms;38;PA;Political Protege;High;M5035;x
+9009036;Head of Government;•Ä“àŒõ­;40;PA;Ambitious Union Boss;High;M5036;x
+9009037;Head of Government;—é–ØŠÑ‘¾˜Y;45;PA;Corporate Suit;High;M5037;x
+9009038;Head of Government;“Œ‹vç–«•F;45;PA;Silent Workhorse;High;M5038;x
+9009039;Head of Government;›“àõˆê;46;PA;Naive Optimist;High;M5039;x
+9009040;Head of Government;L“cO‹B;36;FA;Happy Amateur;High;M5003;x
+9009041;Head of Government;•½Àéuˆê˜Y;39;FA;Old Admiral;High;M5041;x
+9009042;Head of Government;“ŒŠ‰p‹@;41;FA;Old General;High;M5042;x
+9009043;Head of Government;¬ˆé‘º;44;FA;Corporate Suit;High;M5043;x
+9009026;Head of Government;Œã“¡•¶•v;37;SD;Naive Optimist;High;M5005;x
+9009027;Head of Government;•ĞR“N;45;SD;Political Protege;High;M5027;x
+9009028;Head of Government;‰FŠ_ˆê¬;36;SC;Silent Workhorse;High;M5028;x
+9009029;Head of Government;—é–ØŠìO˜Y;41;SC;Happy Amateur;High;M5029;x
+9009030;Head of Government;•¼Œ´Šìd˜Y;45;SC;Naive Optimist;High;M5030;x
+9009031;Head of Government;‹g“c–Î;46;SC;Backroom Backstabber;High;M5031;x
+9009032;Head of Government;”µRˆê˜Y;54;SC;Political Protege;High;M5032;x
+9009044;Head of Government;‹{–{Œ°¡;36;LE;Smiling Oilman;High;M5012;x
+9009045;Foreign Minister;–ìâQO;37;SD;The Cloak N Dagger Schemer;Low;M5011;x
+9009046;Foreign Minister;ˆ°“c‹Ï;45;SL;Apologetic Clerk;High;M5046;x
+9009047;Foreign Minister;–F‘òŒª‹g;36;SC;Ideological Crusader;High;M5047;x
+9009048;Foreign Minister;‰ª“cŒ[‰î;36;SC;Iron Fisted Brute;High;M5002;x
+9009049;Foreign Minister;—é–ØŠìO˜Y;39;SC;The Cloak N Dagger Schemer;Medium;M5029;x
+9009050;Foreign Minister;dŒõˆ¨;41;SC;Great Compromiser;Medium;M5050;x
+9009052;Foreign Minister;‹g“c–Î;45;SC;Apologetic Clerk;Medium;M5031;x
+9009053;Foreign Minister;²“¡®•;37;PA;The Cloak N Dagger Schemer;Medium;M5053;x
+9009055;Foreign Minister;‰FŠ_ˆê¬;38;PA;Biased Intellectual;Medium;M5028;x
+9009056;Foreign Minister;‹ß‰q•¶–›;38;PA;Apologetic Clerk;Medium;M5034;x
+9009057;Foreign Minister;—L“c”ª˜Y;36;FA;Ideological Crusader;Medium;M5057;x
+9009058;Foreign Minister;ˆ¢•”Ms;39;FA;Iron Fisted Brute;Medium;M5035;x
+9009059;Foreign Minister;–ì‘º‹gO˜Y;39;PA;General Staffer;Medium;M5059;x
+9009060;Foreign Minister;¼‰ª—m‰E;40;PA;Ideological Crusader;Medium;M5060;x
+9009063;Foreign Minister;—Ñ‘L\˜Y;37;PA;General Staffer;Medium;M5033;x
+9009065;Foreign Minister;“Œ‹½–Î“¿;41;FA;Biased Intellectual;Medium;M5065;x
+9009066;Foreign Minister;’J³”V;42;FA;Apologetic Clerk;Medium;M5066;x
+9009067;Foreign Minister;dŒõˆ¨;43;FA;Great Compromiser;Medium;M5050;x
+9009068;Foreign Minister;u‰ê‹`—Y;36;LE;Biased Intellectual;Very Low;M5013;x
+9009069;Minister of Armament;‹g–ìMŸ;37;SD;laissez-faire capitalist;Very High;M5069;x
+9009070;Minister of Armament;…’J’·O˜Y;45;SD;Resource Industrialist;High;M5070;x
+9009071;Minister of Armament;¯“‡“ñ˜Y;47;SD;Administrative Genius;Medium;M5071;x
+9009072;Minister of Armament;¬ì‹½‘¾˜Y;36;SC;Resource Industrialist;Medium;M5072;x
+9009073;Minister of Armament;ŒŞ“°‘ì—Y;37;SC;Battle Fleet Proponent;Medium;M5073;x
+9009075;Minister of Armament;‹g“c–Î;41;SC;Strategic Air Proponent;Medium;M5031;x
+9009076;Minister of Armament;•¼Œ´Šìd˜Y;43;SC;Tank Proponent;High;M5030;x
+9009077;Minister of Armament;”µRˆê˜Y;44;SC;Administrative Genius;High;M5032;x
+9009078;Minister of Armament;¯“‡“ñ˜Y;45;SC;Military Entrepreneur;Very High;M5071;x
+9009079;Minister of Armament;¬Š}Œ´O‹ã˜Y;46;SC;laissez-faire capitalist;Medium;M5079;x
+9009080;Minister of Armament;ìè‘ì‹g;36;PA;Air Superiority Proponent;Medium;M5080;x
+9009081;Minister of Armament;’r“c¬•j;38;PA;Resource Industrialist;High;M5081;x
+9009082;Minister of Armament;”ª“c‰Ã–¾;38;PA;Military Entrepreneur;Medium;M5082;x
+9009083;Minister of Armament;¬—Ñ½ˆê;40;PA;laissez-faire capitalist;Medium;M5083;x
+9009084;Minister of Armament;“¡Œ´‹âŸ˜Y;41;PA;Administrative Genius;Medium;M5084;x
+9009085;Minister of Armament;ŠİM‰î;42;PA;Theoretical Scientist;Medium;M5085;x
+9009086;Minister of Armament;–L“c’åŸ˜Y;43;PA;Air to Ground Proponent;Medium;M5061;x
+9009087;Minister of Armament;¶‹ßi­O;44;PA;Submarine Proponent;Medium;M5087;x
+9009088;Minister of Armament;›“àõˆê;46;PA;Tank Proponent;High;M5039;x
+9009090;Minister of Armament;Ÿ“cåŒv;36;FA;Military Entrepreneur;High;M5090;x
+9009091;Minister of Armament;¬—ÑˆêO;41;FA;Resource Industrialist;High;M5083;x
+9009092;Minister of Armament;“ŒŠ‰p‹@;42;FA;Infantry Proponent;Medium;M5042;x
+9009093;Minister of Armament;’†“‡’m‹v•½;45;FA;Air to Sea Proponent;Medium;M5093;x
+9009094;Minister of Armament;‰Á“¡ŠO¼;43;FA;Tank Proponent;Medium;M5094;x
+9009095;Minister of Armament;“¿“c‹…ˆê;36;LWR;Resource Industrialist;Low;M5014;x
+9009096;Minister of Security;R–{’B—Y;36;SD;Compassionate Gentleman;High;M5096;x
+9009097;Minister of Security;Œã“¡•¶•v;41;SD;Silent Lawyer;High;M5005;x
+9009098;Minister of Security;–Ø‘º¬¶‰q–å;45;SD;Man of the People;High;M5098;x
+9009099;Minister of Security;‰ÍŒ´“c‰Ò‹g;36;SC;Man of the People;High;M5099;x
+9009100;Minister of Security;¬Œ´’¼;39;SC;Back Stabber;Medium;M5100;x
+9009101;Minister of Security;‘å‘º´ˆê;45;SC;Silent Lawyer;Very High;M5101;x
+9009102;Minister of Security;–xØ‘PŸ˜Y;45;SC;Crime Fighter;Medium;M5102;x
+9009103;Minister of Security;RèŠŞ;45;SC;Man of the People;Medium;M5103;x
+9009105;Minister of Security;’ªŒb”V•ã;36;PA;Crime Fighter;Very High;M5105;x
+9009106;Minister of Security;––ŸM³;37;PA;Silent Lawyer;Medium;M5106;x
+9009107;Minister of Security;”nê‰pˆê;37;PA;Prince of Terror;Medium;M5107;x
+9009108;Minister of Security;–ØŒËKˆê;38;PA;Crime Fighter;Medium;M5108;x
+9009110;Minister of Security;ˆÀˆä‰p“ñ;41;PA;Crooked Kleptocrat;High;M5110;x
+9009111;Minister of Security;¬—ÑçR‘¢;42;PA;Man of the People;High;M5111;x
+9009112;Minister of Security;“cç²¡’Ê;43;PA;Man of the People;Medium;M5112;x
+9009113;Minister of Security;“’‘òOç’j;44;PA;Silent Lawyer;Medium;M5113;x
+9009114;Minister of Security;ˆÀ•”Œ¹Šî;46;PA;Silent Lawyer;Medium;M5114;x
+9009115;Minister of Security;“¡]Œc‰î;36;FA;Prince of Terror;Medium;M5115;x
+9009116;Minister of Security;’†“‡¡’©Œá;37;FA;Man of the People;Medium;M5116;x
+9009117;Minister of Security;“c’†Ãˆë;38;FA;Back Stabber;Medium;M5117;x
+9009118;Minister of Security;•½—Ñ·l;39;FA;Silent Lawyer;Medium;M5118;x
+9009119;Minister of Security;•½Àéuˆê˜Y;40;FA;Prince of Terror;Medium;M5041;x
+9009120;Minister of Security;–L“‡–[‘¾˜Y;40;FA;Crime Fighter;Medium;M5120;x
+9009121;Minister of Security;™‹ÊG—Y;41;FA;Silent Lawyer;Low;M5109;x
+9009122;Minister of Security;’†‘º–¾l;41;FA;Crime Fighter;Medium;M5122;x
+9009123;Minister of Security;“ŒŠ‰p‹@;42;FA;Prince of Terror;Medium;M5042;x
+9009124;Minister of Security;‰Á“¡”‘¡˜Y;43;FA;Man of the People;Medium;M5124;x
+9009125;Minister of Security;‘å’B–Î—Y;44;FA;Man of the People;Medium;M5125;x
+9009126;Minister of Security;”Ñ‘ºõ;45;FA;Crime Fighter;Medium;M5126;x
+9009127;Minister of Security;–ìâQO;36;LE;Man of the People;Very High;M5015;x
+9009128;Head of Military Intelligence;–ìâQO;37;SD;Industrial Specialist;Low;M5011;x
+9009129;Head of Military Intelligence;•ĞR“N;45;SD;Naval Intelligence Specialist;Medium;M5027;x
+9009130;Head of Military Intelligence;‰FŠ_ˆê¬;36;SC;Political Specialist;Medium;M5028;x
+9009131;Head of Military Intelligence;’¬“c’‰¡;36;SC;Technical Specialist;High;M5004;x
+9009132;Head of Military Intelligence;¬ì‹½‘¾˜Y;36;SC;Dismal Enigma;Medium;M5072;x
+9009133;Head of Military Intelligence;–xØ‘PŸ˜Y;42;SC;Logistics Specialist;Medium;M5102;x
+9009134;Head of Military Intelligence;‚{l˜Y;36;PA;Industrial Specialist;Medium;M5134;x
+9009136;Head of Military Intelligence;‰Á”[¡ŒÜ˜Y;38;PA;Dismal Enigma;Medium;M5136;x
+9009137;Head of Military Intelligence;‰ªŒhƒ;38;PA;Logistics Specialist;Medium;M5137;x
+9009138;Head of Military Intelligence;‘O“c–«;40;PA;Technical Specialist;Medium;M5138;x
+9009139;Head of Military Intelligence;—é–ØŠÑ‘¾˜Y;45;PA;Political Specialist;Medium;M5037;x
+9009141;Head of Military Intelligence;–{ŠÔ‰ë°;37;FA;Dismal Enigma;Medium;M5141;x
+9009142;Head of Military Intelligence;”óŒû‹Gˆê˜Y;38;FA;Logistics Specialist;Medium;M5142;x
+9009143;Head of Military Intelligence;r–Ø’å•v;39;FA;Naval Intelligence Specialist;Medium;M5143;x
+9009144;Head of Military Intelligence;“y‹´—Eˆí;40;FA;Technical Specialist;Medium;M5144;x
+9009145;Head of Military Intelligence;¬ˆé‘º;43;FA;Industrial Specialist;Medium;M5043;x
+9009146;Head of Military Intelligence;‹{–{Œ°¡;36;LE;Industrial Specialist;Medium;M5012;x
+9009147;Chief of Staff;’†‘ò—C;37;SD;School of Psychology;Very Low;M5147;x
+9009148;Chief of Staff;’·‘º‰Í­;47;SD;School of Fire Support;Very Low;M5148;x
+9009149;Chief of Staff;—Ñ“c”k;36;SC;School of Fire Support;Very Low;M5149;x
+9009150;Chief of Staff;“c‘ãá¨ˆê˜Y;36;SC;School of Psychology;Very Low;M5150;x
+9009151;Chief of Staff;’Jìˆê’j;45;SC;School of Mass Combat;Very Low;M5151;x
+9009153;Chief of Staff;ˆ¢•”Ms;41;PA;School of Fire Support;Medium;M5035;x
+9009154;Chief of Staff;OìŒRˆê;45;PA;School of Psychology;Medium;M5154;x
+9009155;Chief of Staff;™RŒ³;36;FA;School of Defence;Medium;M5155;x
+9009156;Chief of Staff;“ŒŠ‰p‹@;41;FA;School of Psychology;Medium;M5042;x
+9009157;Chief of Staff;”~’Ã”ü¡˜Y;44;FA;School of Fire Support;Medium;M5157;x
+9009158;Chief of Staff;‘­—´”V‰î;36;LWR;School of Defence;Medium;M5017;x
+9009159;Chief of Army;¡ˆä••v;37;SD;Elastic Defence Doctrine;Medium;M5018;x
+9009160;Chief of Army;ˆî—tl˜Y;36;SC;Guns and Butter Doctrine;Medium;M5160;x
+9009161;Chief of Army;“y‹´—Eˆí;45;SC;Decisive Battle Doctrine;Medium;M5144;x
+9009163;Chief of Army;“¡‰ª•—Y;41;PA;Elastic Defence Doctrine;Very Low;M5163;x
+9009164;Chief of Army;Â’ÃŠì‹v‘¾˜Y;45;PA;Guns and Butter Doctrine;Very Low;M5164;x
+9009165;Chief of Army;™RŒ³;36;FA;Decisive Battle Doctrine;Medium;M5155;x
+9009166;Chief of Army;“ŒŠ‰p‹@;41;FA;Elastic Defence Doctrine;Medium;M5042;x
+9009167;Chief of Army;”~’Ã”ü¡˜Y;44;FA;Guns and Butter Doctrine;Medium;M5157;x
+9009169;Chief of Navy;‰Í‡–¾;37;SD;Open Seas Doctrine;Medium;M5019;x
+9009172;Chief of Navy;“¡“c®“¿;36;PA;Decisive Naval Battle Doctrine;Medium;M5172;x
+9009173;Chief of Navy;‰i–ìCg;41;PA;Power Projection Doctrine;Medium;M5173;x
+9009175;Chief of Navy;‹yìŒÃu˜Y;44;PA;Base Control Doctrine;Medium;M5175;x
+9009179;Chief of Air Force;•Ÿˆä‹`’j;36;SD;Air Superiority Doctrine;Medium;M5020;x
+9009180;Chief of Air Force;ˆäã¬”ü;36;SC;Naval Aviation Doctrine;Medium;M5180;x
+9009181;Chief of Air Force;’ËŒ´“ñlO;41;SC;Air Superiority Doctrine;Medium;M5181;x
+9009183;Chief of Air Force;‹yìŒÃu˜Y;36;PA;Naval Aviation Doctrine;Medium;M5175;x
+9009184;Chief of Air Force;“Œ‹vç–«•F;37;PA;Carpet Bombing Doctrine;Medium;M5038;x
+9009185;Chief of Air Force;–L“c’åŸ˜Y;38;PA;Vertical Envelopment Doctrine;Medium;M5061;x
+9009188;Chief of Air Force;˜a“c‘€;45;PA;Vertical Envelopment Doctrine;Medium;M5182;x
+9009189;Chief of Air Force;”¨r˜Z;36;FA;Army Aviation Doctrine;Medium;M5189;x
+9009191;Chief of Air Force;“ŒŠ‰p‹@;38;FA;Army Aviation Doctrine;Medium;M5042;x
+9009192;Chief of Air Force;R‰º•ò•¶;40;FA;Carpet Bombing Doctrine;Medium;M5192;x
+9009193;Chief of Air Force;“y”ìŒ´Œ«“ñ;41;FA;Naval Aviation Doctrine;Medium;M5193;x
+9009194;Chief of Air Force;ˆ¢“ìˆÒŠô;42;FA;Vertical Envelopment Doctrine;Medium;M5194;x
+9009195;Chief of Air Force;Œã‹{~;43;FA;Army Aviation Doctrine;Medium;M5195;x
+9009196;Chief of Air Force;›Œ´“¹‘å;44;FA;Air Superiority Doctrine;Medium;M5196;x
+9009197;Chief of Air Force;‰Í•Ó³O;45;PA;Army Aviation Doctrine;Medium;M5197;x
+9009199;Foreign Minister;“ŒŠ‰p‹@;42;FA;General Staffer;Medium;M5042;x
+9009200;Chief of Navy;R–{ŒÜ\˜Z;38;FA;Power Projection Doctrine;Very High;M5010;x
+9009201;Chief of Navy;ŒÃ‰ê•õˆê;43;FA;Decisive Naval Battle Doctrine;Very High;L101243;x
+9009202;Chief of Navy;¬‘ò¡O˜Y;37;PA;Open Seas Doctrine;High;L101273;x
+9009203;Head of Government;‹ß‰q•¶–›;40;PA;Flamboyant Tough Guy;High;M5034;x
+9009206;Foreign Minister;—é–ØŠÑ‘¾˜Y;45;PA;Biased Intellectual;High;M5037;x
+9009207;Head of State;‘å–{‰c;36;SD;Benevolent Gentleman;High;M5001;x
+9009208;Head of State;‘å–{‰c;36;ML;Benevolent Gentleman;High;M5001;x
+9009209;Head of Government;ˆ°“c‹Ï;48;SL;Smiling Oilman;High;M5046;x
+9009210;Minister of Security;Î‹´’XR;48;SC;Silent Lawyer;Medium;M5210;x
+9009211;Head of Government;Î‹´’XR;56;SC;Silent Workhorse;High;M5210;x
+9009212;Head of Government;ŠİM‰î;57;SC;Backroom Backstabber;High;M5085;x
+9009213;Head of Government;’r“c”¹l;60;SC;Corporate Suit;High;M5213;x
+9009214;Head of Government;¼”ö––L;60;SD;Flamboyant Tough Guy;High;M5214;x
+9009215;Foreign Minister;‹v•Û“cŠÑˆê˜Y;54;SD;Iron Fisted Brute;Medium;M5215;x
+9009216;Foreign Minister;ŠİM‰î;56;SC;Ideological Crusader;Medium;M5085;x
+9009217;Foreign Minister;“¡Rˆ¤ˆê˜Y;57;SC;Apologetic Clerk;Medium;M5217;x
+9009218;Foreign Minister;¬â‘P‘¾˜Y;60;SC;Biased Intellectual;Medium;M5218;x
+9009219;Foreign Minister;‘å•½³–F;62;SC;The Cloak N Dagger Schemer;Medium;M5219;x
+9009220;Minister of Armament;’r“c”¹l;50;SC;Infantry Proponent;High;M5213;x
+9009221;Minister of Armament;Œüˆä’‰°;52;SC;Strategic Air Proponent;High;M5221;x
+9009222;Minister of Armament;ˆê–œ“c®“o;54;SC;Submarine Proponent;High;M5222;x
+9009223;Minister of Armament;²“¡‰hì;58;SC;Administrative Genius;High;M5223;x
+9009224;Minister of Armament;…“cOŠì’j;60;SC;Resource Industrialist;High;M5224;x
+9009225;Minister of Armament;“c’†Šp‰h;62;SC;Corrupt Kleptocrat;High;M5225;x
+9009226;Minister of Armament;¼”ö––L;57;SD;Military Entrepreneur;Medium;M5214;x
+9009227;Minister of Armament;‰F²”üŸ«;60;SD;Theoretical Scientist;Medium;M5227;x
+9009228;Minister of Security;‘å‹´••v;50;SC;Crooked Kleptocrat;Medium;M5228;x
+9009229;Minister of Security;–Ø‘º“Ä‘¾˜Y;51;SC;Efficient Sociopath;Medium;M5229;x
+9009230;Minister of Security;Œ¢—{Œ’;52;SC;Back Stabber;Medium;M5230;x
+9009231;Minister of Security;’†‘º”~‹g;54;SC;Compassionate Gentleman;Medium;M5231;x
+9009232;Minister of Security;A–ØMq˜Y;57;SC;Silent Lawyer;Medium;M5232;x
+9009233;Minister of Security;‰Ô‘ºl˜Y;57;SD;Prince of Terror;Medium;M5233;x
+9009234;Minister of Security;X‰i’åˆê˜Y;60;SD;Crime Fighter;Medium;M5234;x
+9009235;Head of Military Intelligence;‰Á“¡è`ŒÜ˜Y;54;SC;Political Specialist;Medium;M5235;x
+9009236;Head of Military Intelligence;¬Œ´’¼;57;SC;Technical Specialist;Medium;M5236;x
+9009237;Head of Military Intelligence;‰Ô‘ºl˜Y;57;SD;Dismal Enigma;Medium;M5233;x

@@ -1,0 +1,1078 @@
+
+##############################
+# Country definition for PAK #
+##############################
+
+province =
+{ id         = 1285
+  anti_air   = 1
+  air_base   = { size = 2 current_size = 2 }
+  naval_base = { size = 1 current_size = 1 }
+}              # ÉNÉãÉi
+province =
+{ id         = 1481
+  anti_air   = 1
+  air_base   = { size = 2 current_size = 2 }
+  naval_base = { size = 1 current_size = 1 }
+}              # ÉJÉâÉ`
+
+#####################
+# Country main data #
+#####################
+
+country =
+{ tag                 = PAK
+  manpower            = 95
+  energy              = 800
+  metal               = 800
+  rare_materials      = 800
+  oil                 = 800
+  supplies            = 200
+  money               = 100
+  capital             = 1285
+  regular_id          = U04
+  transports          = 55
+  escorts             = 12
+  policy              = { democratic = 2 political_left = 3 freedom = 3 free_market = 3 professional_army = 7 defense_lobby = 8 interventionism = 6 }
+  ownedprovinces      = { 1475 1480 1481 1482 1483 1494 1592 1731 1474 }
+  controlledprovinces = { 1475 1480 1481 1482 1483 1494 1592 1731 1474 }
+  techapps            = { 10050 1010  10190 1020  1110  1120  1210  1550  1650  3010  3020  3110  3460  3810  3910  4390  50020 5010  5020  50290
+                          50300 5090  5410  5600  7010  80080 8010  8020  8030  8040  8050  8060  8070  8080  9010 
+                          9340  6050  6060  6070  6080
+                        }
+  nationalprovinces   = { 1475 1480 1481 1482 1483 1494 1592 1731 1474 }
+landunit = {
+	name = "ëÊ17ï‡ï∫étíc"
+	id = { type = 24571 id = 1 }
+	location = 1731
+	division = {
+	id = { type = 24571 id = 2 }
+	name = "ëÊ1ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 3 }
+	name = "ëÊ2ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 4 }
+	name = "ëÊ3ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 5 }
+	name = "ëÊ4ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 6 }
+	name = "ëÊ5ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 7 }
+	name = "ëÊ6ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ37ï‡ï∫étíc"
+	id = { type = 24571 id = 8 }
+	location = 1731
+	division = {
+	id = { type = 24571 id = 9 }
+	name = "ëÊ7ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 10 }
+	name = "ëÊ8ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 11 }
+	name = "ëÊ9ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 12 }
+	name = "ëÊ10ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 13 }
+	name = "ëÊ11ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 14 }
+	name = "ëÊ12ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ14ï‡ï∫étíc"
+	id = { type = 24571 id = 15 }
+	location = 1731
+	division = {
+	id = { type = 24571 id = 16 }
+	name = "ëÊ13ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 17 }
+	name = "ëÊ14ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 18 }
+	name = "ëÊ15ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 19 }
+	name = "ëÊ16ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 20 }
+	name = "ëÊ17ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 21 }
+	name = "ëÊ18ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ40ï‡ï∫étíc"
+	id = { type = 24571 id = 22 }
+	location = 1731
+	division = {
+	id = { type = 24571 id = 23 }
+	name = "ëÊ19ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 24 }
+	name = "ëÊ20ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 25 }
+	name = "ëÊ21ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 26 }
+	name = "ëÊ22ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 27 }
+	name = "ëÊ23ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 28 }
+	name = "ëÊ24ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ10ï‡ï∫étíc"
+	id = { type = 24571 id = 29 }
+	location = 1480
+	division = {
+	id = { type = 24571 id = 30 }
+	name = "ëÊ25ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 31 }
+	name = "ëÊ26ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 32 }
+	name = "ëÊ27ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 33 }
+	name = "ëÊ28ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 34 }
+	name = "ëÊ29ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 35 }
+	name = "ëÊ30ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ11ï‡ï∫étíc"
+	id = { type = 24571 id = 36 }
+	location = 1480
+	division = {
+	id = { type = 24571 id = 37 }
+	name = "ëÊ31ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 38 }
+	name = "ëÊ32ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 39 }
+	name = "ëÊ33ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 40 }
+	name = "ëÊ34ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 41 }
+	name = "ëÊ35ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 42 }
+	name = "ëÊ36ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ8ï‡ï∫étíc"
+	id = { type = 24571 id = 43 }
+	location = 1480
+	division = {
+	id = { type = 24571 id = 44 }
+	name = "ëÊ37ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 45 }
+	name = "ëÊ38ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 46 }
+	name = "ëÊ39ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 47 }
+	name = "ëÊ40ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 48 }
+	name = "ëÊ41ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 49 }
+	name = "ëÊ42ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ15ï‡ï∫étíc"
+	id = { type = 24571 id = 50 }
+	location = 1592
+	division = {
+	id = { type = 24571 id = 51 }
+	name = "ëÊ43ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 52 }
+	name = "ëÊ44ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 53 }
+	name = "ëÊ45ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 54 }
+	name = "ëÊ46ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 55 }
+	name = "ëÊ47ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 56 }
+	name = "ëÊ48ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ35ï‡ï∫étíc"
+	id = { type = 24571 id = 57 }
+	location = 1475
+	division = {
+	id = { type = 24571 id = 58 }
+	name = "ëÊ49ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 59 }
+	name = "ëÊ50ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 60 }
+	name = "ëÊ51ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 61 }
+	name = "ëÊ52ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 62 }
+	name = "ëÊ53ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 63 }
+	name = "ëÊ54ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ16ï‡ï∫étíc"
+	id = { type = 24571 id = 64 }
+	location = 1482
+	division = {
+	id = { type = 24571 id = 65 }
+	name = "ëÊ55ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 66 }
+	name = "ëÊ56ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 67 }
+	name = "ëÊ57ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 68 }
+	name = "ëÊ58ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 69 }
+	name = "ëÊ59ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 70 }
+	name = "ëÊ60ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ18ï‡ï∫étíc"
+	id = { type = 24571 id = 71 }
+	location = 1474
+	division = {
+	id = { type = 24571 id = 72 }
+	name = "ëÊ61ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 73 }
+	name = "ëÊ62ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 74 }
+	name = "ëÊ63ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 75 }
+	name = "ëÊ64ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 76 }
+	name = "ëÊ65ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 77 }
+	name = "ëÊ66ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ12ï‡ï∫étíc"
+	id = { type = 24571 id = 78 }
+	location = 1494
+	division = {
+	id = { type = 24571 id = 79 }
+	name = "ëÊ67ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 80 }
+	name = "ëÊ68ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 81 }
+	name = "ëÊ69ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 82 }
+	name = "ëÊ70ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 83 }
+	name = "ëÊ71ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 84 }
+	name = "ëÊ72ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ19ï‡ï∫étíc"
+	id = { type = 24571 id = 85 }
+	location = 1483
+	division = {
+	id = { type = 24571 id = 86 }
+	name = "ëÊ73ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 87 }
+	name = "ëÊ74ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 88 }
+	name = "ëÊ75ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 89 }
+	name = "ëÊ76ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 90 }
+	name = "ëÊ77ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 91 }
+	name = "ëÊ78ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ23ï‡ï∫étíc"
+	id = { type = 24571 id = 92 }
+	location = 1592
+	division = {
+	id = { type = 24571 id = 93 }
+	name = "ëÊ79ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 94 }
+	name = "ëÊ80ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 95 }
+	name = "ëÊ81ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 96 }
+	name = "ëÊ82ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 97 }
+	name = "ëÊ83ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 98 }
+	name = "ëÊ84ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ7ï‡ï∫étíc"
+	id = { type = 24571 id = 99 }
+	location = 1475
+	division = {
+	id = { type = 24571 id = 100 }
+	name = "ëÊ85ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 101 }
+	name = "ëÊ86ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 102 }
+	name = "ëÊ87ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 103 }
+	name = "ëÊ88ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 104 }
+	name = "ëÊ89ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 105 }
+	name = "ëÊ90ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ9ï‡ï∫étíc"
+	id = { type = 24571 id = 106 }
+	location = 1482
+	division = {
+	id = { type = 24571 id = 107 }
+	name = "ëÊ91ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 108 }
+	name = "ëÊ92ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 109 }
+	name = "ëÊ93ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 110 }
+	name = "ëÊ94ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 111 }
+	name = "ëÊ95ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 112 }
+	name = "ëÊ96ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ33ï‡ï∫étíc"
+	id = { type = 24571 id = 113 }
+	location = 1474
+	division = {
+	id = { type = 24571 id = 114 }
+	name = "ëÊ97ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 115 }
+	name = "ëÊ98ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 116 }
+	name = "ëÊ99ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 117 }
+	name = "ëÊ100ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 118 }
+	name = "ëÊ101ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 119 }
+	name = "ëÊ102ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ41ï‡ï∫étíc"
+	id = { type = 24571 id = 120 }
+	location = 1731
+	division = {
+	id = { type = 24571 id = 121 }
+	name = "ëÊ103ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 122 }
+	name = "ëÊ104ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 123 }
+	name = "ëÊ105ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 124 }
+	name = "ëÊ106ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 125 }
+	name = "ëÊ107ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 126 }
+	name = "ëÊ108ï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 22
+	experience = 0
+	}
+  }
+landunit = {
+	name = "ëÊ6ã@çbétíc"
+	id = { type = 24571 id = 127 }
+	location = 1731
+	division = {
+	id = { type = 24571 id = 128 }
+	name = "ëÊ1êÌé‘ëÂë‡"
+	type = armor
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 129 }
+	name = "ëÊ2êÌé‘ëÂë‡"
+	type = armor
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 130 }
+	name = "ëÊ3êÌé‘ëÂë‡"
+	type = armor
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 131 }
+	name = "ëÊ1ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 132 }
+	name = "ëÊ2ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 133 }
+	name = "ëÊ3ã@äBâªï‡ï∫ëÂë‡"
+	type = light_armor
+	model = 1
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ1ã@çbétíc"
+	id = { type = 24571 id = 134 }
+	location = 1731
+	division = {
+	id = { type = 24571 id = 135 }
+	name = "ëÊ4êÌé‘ëÂë‡"
+	type = armor
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 136 }
+	name = "ëÊ5êÌé‘ëÂë‡"
+	type = armor
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 137 }
+	name = "ëÊ6êÌé‘ëÂë‡"
+	type = armor
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 138 }
+	name = "ëÊ4ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 139 }
+	name = "ëÊ5ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 140 }
+	name = "ëÊ6ã@äBâªï‡ï∫ëÂë‡"
+	type = light_armor
+	model = 1
+	experience = 0
+	}
+  }
+landunit = {
+	name = "ëÊ26ã@çbétíc"
+	id = { type = 24571 id = 141 }
+	location = 1480
+	division = {
+	id = { type = 24571 id = 142 }
+	name = "ëÊ7ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 143 }
+	name = "ëÊ8ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 144 }
+	name = "ëÊ9ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 145 }
+	name = "ëÊ10ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 146 }
+	name = "ëÊ11ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 147 }
+	name = "ëÊ12ã@äBâªï‡ï∫ëÂë‡"
+	type = light_armor
+	model = 1
+	experience = 0
+	}
+}
+landunit = {
+	name = "ëÊ25ã@çbétíc"
+	id = { type = 24571 id = 148 }
+	location = 1731
+	division = {
+	id = { type = 24571 id = 149 }
+	name = "ëÊ13ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 150 }
+	name = "ëÊ14ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 151 }
+	name = "ëÊ15ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 152 }
+	name = "ëÊ16ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 153 }
+	name = "ëÊ17ã@äBâªï‡ï∫ëÂë‡"
+	type = mechanized
+	model = 1
+	experience = 0
+	}
+	division = {
+	id = { type = 24571 id = 154 }
+	name = "ëÊ18ã@äBâªï‡ï∫ëÂë‡"
+	type = light_armor
+	model = 1
+	experience = 0
+	}
+  }
+}

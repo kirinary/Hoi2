@@ -1,0 +1,965 @@
+allowed_brigades = artillery
+allowed_brigades = anti_tank
+allowed_brigades = anti_air
+allowed_brigades = rocket_artillery
+allowed_brigades = sp_artillery
+allowed_brigades = sp_rct_artillery
+allowed_brigades = tank_destroyer
+allowed_brigades = light_armor_brigade
+allowed_brigades = heavy_armor
+allowed_brigades = super_heavy_armor
+allowed_brigades = armored_car
+allowed_brigades = engineer
+allowed_brigades = police
+allowed_brigades = sp_anti_air
+allowed_brigades = medium_armor
+allowed_brigades = floatplane
+allowed_brigades = light_cag 
+allowed_brigades = amph_armor
+allowed_brigades = glider_armor
+allowed_brigades = glider_artillery
+allowed_brigades = super_heavy_artillery
+allowed_brigades = b_rsv_36
+allowed_brigades = b_rsv_37
+allowed_brigades = b_rsv_38
+# Great War Infantry Division (1918) - 1
+model =
+{ cost                = 22
+  buildtime           = 360
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 35
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 22
+  hardattack          = 27
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  manpower            = 5
+  toughness           = 40
+}
+# Early Infantry Division (1936) - 2
+model =
+{ cost                = 22
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 35
+  toughness           = 40
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 24
+  hardattack          = 30
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Infantry Division (1939) - 3
+model =
+{ cost                  = 12
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 12
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 35
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 26
+  hardattack            = 32
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1
+  fuelconsumption       = 0
+  speed_cap_art         = 6
+  speed_cap_eng         = 6
+  speed_cap_at          = 6
+  speed_cap_aa          = 6
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  toughness             = 40
+}
+# Improved Infantry Division (1941) - 4
+model =
+{ cost                  = 12
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 12
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 35
+  toughness             = 40
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 29
+  hardattack            = 35
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                  = 12
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 12
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 35
+  toughness             = 40
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 30
+  hardattack            = 36
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Infantry Division (1936) - 2
+model =
+{ cost                = 23
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 30
+  morale              = 30
+  toughness           = 45
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 32
+  hardattack          = 38
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  defensiveness       = 40
+}
+# Basic Infantry Division (1939) - 3
+model =
+{ cost                  = 13
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 14
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 40
+  toughness             = 45
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 33
+  hardattack            = 40
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1
+  fuelconsumption       = 0
+  speed_cap_art         = 6
+  speed_cap_eng         = 6
+  speed_cap_at          = 6
+  speed_cap_aa          = 6
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Infantry Division (1941) - 4
+model =
+{ cost                  = 13
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 14
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 40
+  toughness             = 45
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 35
+  hardattack            = 42
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                  = 13
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 14
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 40
+  toughness             = 45
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 37
+  hardattack            = 44
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  airattack             = 3
+}
+# Great War Infantry Division (1918) - 1
+model =
+{ cost                = 23
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  toughness           = 45
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 38
+  hardattack          = 45
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Infantry Division (1939) - 3
+model =
+{ cost                  = 14
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 15
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 45
+  toughness             = 50
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 39
+  hardattack            = 46
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1
+  fuelconsumption       = 0
+  speed_cap_art         = 6
+  speed_cap_eng         = 6
+  speed_cap_at          = 6
+  speed_cap_aa          = 6
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Infantry Division (1941) - 4
+model =
+{ cost                  = 14
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 15
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 45
+  toughness             = 50
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 40
+  hardattack            = 47
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                  = 14
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 15
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 45
+  toughness             = 50
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 41
+  hardattack            = 48
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Great War Infantry Division (1918) - 1
+model =
+{ cost                = 24
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 15
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 42
+  hardattack          = 49
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Infantry Division (1936) - 2
+model =
+{ cost                = 24
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 15
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 43
+  hardattack          = 50
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Infantry Division (1941) - 4
+model =
+{ cost                  = 14
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 16
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 50
+  toughness             = 55
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 44
+  hardattack            = 51
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                  = 14
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 16
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 50
+  toughness             = 55
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 45
+  hardattack            = 52
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Great War Infantry Division (1918) - 1
+model =
+{ cost                = 24
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 46
+  hardattack          = 53
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Infantry Division (1936) - 2
+model =
+{ cost                = 24
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 47
+  hardattack          = 54
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Infantry Division (1939) - 3
+model =
+{ cost                  = 14
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 16
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 50
+  toughness             = 55
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 48
+  hardattack            = 55
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1
+  fuelconsumption       = 0
+  speed_cap_art         = 6
+  speed_cap_eng         = 6
+  speed_cap_at          = 6
+  speed_cap_aa          = 6
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                = 25
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 16
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 55
+  toughness             = 60
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 49
+  hardattack            = 56
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Great War Infantry Division (1918) - 1
+model =
+{ cost                = 25
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 55
+  toughness           = 60
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 50
+  hardattack          = 57
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Infantry Division (1936) - 2
+model =
+{ cost                = 25
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 16
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 55
+  toughness           = 60
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 51
+  hardattack          = 58
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Infantry Division (1939) - 3
+model =
+{ cost                = 25
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 16
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 55
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 52
+  hardattack            = 59
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1
+  fuelconsumption       = 0
+  speed_cap_art         = 6
+  speed_cap_eng         = 6
+  speed_cap_at          = 6
+  speed_cap_aa          = 6
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  toughness             = 60
+}
+# Improved Infantry Division (1941) - 4
+model =
+{ cost                = 25
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 16
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 55
+  toughness             = 60
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 53
+  hardattack            = 60
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  airattack             = 3
+}
+# Great War Infantry Division (1918) - 1
+model =
+{ cost                = 26
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 18
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 54
+  hardattack          = 61
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Infantry Division (1936) - 2
+model =
+{ cost                = 26
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 18
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 20
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 55
+  hardattack          = 62
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Infantry Division (1939) - 3
+model =
+{ cost                = 27
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 18
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 60
+  toughness             = 65
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 56
+  hardattack            = 63
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1
+  fuelconsumption       = 0
+  speed_cap_art         = 6
+  speed_cap_eng         = 6
+  speed_cap_at          = 6
+  speed_cap_aa          = 6
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Infantry Division (1941) - 4
+model =
+{ cost                = 27
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 18
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 60
+  toughness             = 65
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 57
+  hardattack            = 64
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                = 27
+  buildtime           = 400
+  manpower              = 5
+  maxspeed              = 18
+  defaultorganisation   = 30
+  morale                = 30
+  defensiveness         = 60
+  toughness             = 65
+  softness              = 20
+  suppression           = 3
+  airdefence            = 3
+  softattack            = 58
+  hardattack            = 65
+  airattack             = 3
+  transportweight       = 15
+  supplyconsumption     = 1.0
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                  = 5
+  buildtime             = 60
+  manpower              = 20
+  maxspeed              = 8
+  defaultorganisation   = 100
+  morale                = 150
+  defensiveness         = 20
+  toughness             = 25
+  softness              = 20
+  suppression           = 3
+  airdefence            = 5
+  hardattack            = 20
+  airattack             = 5
+  transportweight       = 0.1
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  supplyconsumption     = 0.1
+  softattack            = 10
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                  = 5
+  buildtime             = 60
+  manpower              = 20
+  maxspeed              = 8
+  defaultorganisation   = 100
+  morale                = 150
+  defensiveness         = 20
+  toughness             = 25
+  softness              = 20
+  suppression           = 3
+  airdefence            = 5
+  hardattack            = 20
+  airattack             = 5
+  transportweight       = 0.1
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  supplyconsumption     = 0.1
+  softattack            = 10
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                  = 5
+  buildtime             = 60
+  manpower              = 20
+  maxspeed              = 8
+  defaultorganisation   = 100
+  morale                = 150
+  defensiveness         = 20
+  toughness             = 25
+  softness              = 20
+  suppression           = 3
+  airdefence            = 5
+  hardattack            = 20
+  airattack             = 5
+  transportweight       = 0.1
+  fuelconsumption       = 0
+  speed_cap_art         = 7
+  speed_cap_eng         = 7
+  speed_cap_at          = 7
+  speed_cap_aa          = 7
+  upgrade_time_factor   = 0.5
+  upgrade_cost_factor   = 1.0
+  supplyconsumption     = 0.1
+  softattack            = 10
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                  = 20
+  buildtime             = 120
+  manpower              = 40
+  maxspeed              = 8
+  defaultorganisation   = 200
+  morale                = 300
+  defensiveness         = 40
+  toughness             = 50
+  softness              = 20
+  suppression           = 6
+  airdefence            = 10
+  hardattack            = 40
+  airattack             = 0
+  transportweight       = 0.2
+  fuelconsumption       = 0
+  speed_cap_art         = 8
+  speed_cap_eng         = 8
+  speed_cap_at          = 8
+  speed_cap_aa          = 8
+  upgrade_time_factor   = 1.0
+  upgrade_cost_factor   = 2.0
+  supplyconsumption     = 0.2
+  softattack            = 20
+  equipment = { heavy_artillery = 15000 }
+}
+# Advanced Infantry Division (1943) - 5
+model =
+{ cost                  = 20
+  buildtime             = 120
+  manpower              = 40
+  maxspeed              = 8
+  defaultorganisation   = 200
+  morale                = 300
+  defensiveness         = 40
+  toughness             = 50
+  softness              = 20
+  suppression           = 6
+  airdefence            = 10
+  hardattack            = 40
+  airattack             = 0
+  transportweight       = 0.2
+  fuelconsumption       = 0
+  speed_cap_art         = 8
+  speed_cap_eng         = 8
+  speed_cap_at          = 8
+  speed_cap_aa          = 8
+  upgrade_time_factor   = 1.0
+  upgrade_cost_factor   = 2.0
+  supplyconsumption     = 0.2
+  softattack            = 20
+}

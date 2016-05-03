@@ -1,0 +1,149 @@
+DFR;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+506001;Head of State;グスタフ・ハイネマン;70;SD;Pig-headed Isolationist;High;M506001;x
+506002;Head of Government;ヴィリー・ブラント;70;SD;Flamboyant Tough Guy;High;M506002;x
+506003;Foreign Minister;ヴァルター・シェール;70;ML;The Cloak N Dagger Schemer;High;M506003;x
+506004;Minister of Armament;ヘルムート・シュミット;70;SD;Economist Minister;High;M506004;x
+506005;Minister of Security;ハンス＝ディートリッヒ・ゲンシャー;70;ML;Crime Fighter;High;M506005;x
+506006;Head of Military Intelligence;ゲルハルト・ヴェッセル;70;SD;Logistics Specialist;High;M506006;x
+506007;Chief of Staff;アルミン・ツィンマーマン;70;SD;School of Fire Support;High;M506007;x
+506008;Chief of Army;エルンスト・フェルバー;70;SD;Elastic Defence Doctrine;High;M506008;x
+506009;Chief of Navy;ハインツ・クーンレ;70;SD;Indirect Approach Doctrine;High;M506009;x
+506010;Chief of Air Force;ギュンター・ラル;70;SD;Air Superiority Doctrine;High;M506010;x
+506011;Head of State;ヴァルター・シェール;70;ML;Stern Imperialist;High;M506003;x
+506012;Head of State;カール・カルステンス;79;SC;Popular Gentleman;High;M506012;x
+506013;Head of State;リヒャルト・フォン・ヴァイツゼッカー;84;SC;Irealist Leader;High;M506013;x
+506014;Head of State;ローマン・ヘルツォーク;94;SC;Benevolent Gentleman;High;M506014;x
+506015;Head of State;ヨハネス・ラウ;99;SD;Die-hard Reformer;High;M506015;x
+506016;Head of State;ホルスト・ケーラー;99;SC;Popular Gentleman;High;M506016;x
+506017;Head of State;イェンス・ベールンゼン;99;SD;Acting Head;High;M506017;x
+506018;Head of State;クリスティアン・ヴルフ;99;SC;Barking Buffoon;High;M506018;x
+506019;Head of State;ホルスト・ゼーホーファー;99;SC;Acting Head;High;M506019;x
+506020;Head of State;ヨアヒム・ガウク;99;SC;Benevolent Gentleman;High;M506020;x
+506021;Head of Government;ヴァルター・シェール;70;ML;Party Coordinating;High;M506003;x
+506022;Head of Government;ヘルムート・シュミット;74;SD;Naive Optimist;High;M506004;x
+506023;Head of Government;ヘルムート・コール;82;SD;Silent Workhorse;High;M506023;x
+506024;Head of Government;ヘルムート・コール;82;SC;Silent Workhorse;High;M506023;x
+506025;Head of Government;ゲルハルト・シュレーダー;98;SD;Ambitious Union Boss;High;M506025;x
+506026;Head of Government;アンゲラ・メルケル;99;SC;Corporate Suit;High;M506026;x
+506027;Foreign Minister;ハンス＝ディートリッヒ・ゲンシャー;70;ML;Great Compromiser;High;M506005;x
+506028;Foreign Minister;ヘルムート・シュミット;70;SD;Biased Intellectual;High;M506004;x
+506029;Foreign Minister;クラウス・キンケル;92;ML;The Cloak N Dagger Schemer;High;M506029;x
+506030;Foreign Minister;ヨシュカ・フィッシャー;98;SL;Ideological Crusader;High;M506030;x
+506031;Foreign Minister;フランク＝ヴァルター・シュタインマイアー;99;SD;Great Compromiser;High;M506031;x
+506032;Foreign Minister;ギド・ヴェスターヴェレ;99;ML;Biased Intellectual;High;M506032;x
+506033;Minister of Armament;ハンス・アーペル;70;SD;Administrative Genius;High;M506033;x
+506034;Minister of Armament;ハンス・マットヘーファー;78;SD;laissez-faire capitalist;High;M506034;x
+506035;Minister of Armament;マンフレート・ラーンシュタイン;82;SD;Resource Industrialist;High;M506035;x
+506036;Minister of Armament;ゲルハルト・シュトルテンベルク;82;SC;Theoretical Scientist;High;M506036;x
+506037;Minister of Armament;テオドール・ヴァイゲル;89;SC;Resource Industrialist;High;M506037;x
+506038;Minister of Armament;オスカー・ラフォンテーヌ;98;SD;Theoretical Scientist;High;M506038;x
+506039;Minister of Armament;ハンス・アイヒェル;98;SD;laissez-faire capitalist;High;M506039;x
+506040;Minister of Armament;ペール・シュタインブリュック;98;SD;Economist Minister;High;M506040;x
+506041;Minister of Armament;ヴォルフガング・ショイブレ;98;SC;Military Entrepreneur;High;M506041;x
+506042;Minister of Security;ヴェルナー・マイフォーファー;70;ML;Silent Lawyer;High;M506042;x
+506043;Minister of Security;ゲルハルト・バウム;78;SC;Compassionate Gentleman;High;M506043;x
+506044;Minister of Security;ユルゲン・シュムデ;82;SD;Man of the People;High;M506044;x
+506045;Minister of Security;フリードリヒ・ツィンマーマン;82;SC;Silent Lawyer;High;M506045;x
+506046;Minister of Security;ヴォルフガング・ショイブレ;89;SC;Crime Fighter;High;M506041;x
+506047;Minister of Security;ルドルフ・ザイタース;91;SC;Man of the People;High;M506047;x
+506048;Minister of Security;マンフレート・カンター;93;SC;Silent Lawyer;High;M506048;x
+506049;Minister of Security;オットー・シリー;98;SD;Efficient Sociopath;High;M506049;x
+506050;Minister of Security;トーマス・デメジエール;99;SC;Efficient Sociopath;High;M506050;x
+506051;Minister of Security;ハンス＝ペーター・フリードリヒ;99;SC;Crime Fighter;High;M506051;x
+506052;Head of Military Intelligence;ゲルハルト・ヴェッセル;70;ML;Logistics Specialist;High;M506006;x
+506053;Head of Military Intelligence;クラウス・キンケル;70;ML;Political Specialist;High;M506029;x
+506054;Head of Military Intelligence;エーベルハルト・ブルム;82;SD;Logistics Specialist;High;M506054;x
+506055;Head of Military Intelligence;エーベルハルト・ブルム;82;ML;Logistics Specialist;High;M506054;x
+506056;Head of Military Intelligence;ヘリベルト・ヘレンブロイヒ;85;SC;Political Specialist;High;M506056;x
+506057;Head of Military Intelligence;ハンス＝ゲオルク・ヴィーク;85;ML;Dismal Enigma;High;M506057;x
+506058;Head of Military Intelligence;コンラート・ポルツナー;90;SD;Industrial Specialist;High;M506058;x
+506059;Head of Military Intelligence;ゲルハルト・ギュルリッヒ;96;SD;Technical Specialist;High;M506059;x
+506060;Head of Military Intelligence;ハンスヨルグ・ガイガー;96;SC;Political Specialist;High;M506060;x
+506061;Head of Military Intelligence;アウグスト・ハニング;98;SD;Dismal Enigma;High;M506061;x
+506062;Head of Military Intelligence;アウグスト・ハニング;98;SC;Dismal Enigma;High;M506061;x
+506063;Head of Military Intelligence;エルンスト・ウーアラウ;99;SD;Industrial Specialist;High;M506063;x
+506064;Head of Military Intelligence;ゲルハルト・シンドラー;99;ML;Logistics Specialist;High;M506064;x
+506065;Chief of Staff;ハラルド・ヴスト;76;SD;School of Defence;High;M506065;x
+506066;Chief of Staff;ハラルド・ヴスト;76;SC;School of Defence;High;M506065;x
+506067;Chief of Staff;アルミン・ツィンマーマン;70;SC;School of Fire Support;High;M506007;x
+506068;Chief of Staff;ユルゲン・ブラント;78;SD;School of Manoeuvre;High;M506068;x
+506069;Chief of Staff;ユルゲン・ブラント;78;SC;School of Manoeuvre;High;M506068;x
+506070;Chief of Staff;ヴォルフガング・アルテンブルク;83;SC;School of Psychology;High;M506070;x
+506071;Chief of Staff;ディーター・ヴェラースホフ;86;SC;School of Mass Combat;High;M506071;x
+506072;Chief of Staff;クラウス・ナウマン;91;SC;School of Fire Support;High;M506072;x
+506073;Chief of Staff;ハルトムート・バッガー;96;SC;School of Manoeuvre;High;M506073;x
+506074;Chief of Staff;ハルトムート・バッガー;96;SD;School of Manoeuvre;High;M506073;x
+506075;Chief of Staff;ハンス＝ペーター・フォン・キルヒバッハ;99;SD;School of Defence;High;M506075;x
+506076;Chief of Staff;ハラルド・クヤート;99;SD;School of Psychology;High;M506076;x
+506077;Chief of Staff;ヴォルフガング・シュナイダーハン;99;SD;School of Manoeuvre;High;M506077;x
+506078;Chief of Staff;ヴォルフガング・シュナイダーハン;99;SC;School of Manoeuvre;High;M506077;x
+506079;Chief of Staff;フォルカー・ヴィーカー;99;SC;School of Fire Support;High;M506079;x
+506080;Chief of Army;エルンスト・フェルバー;70;SC;Elastic Defence Doctrine;High;M506008;x
+506081;Chief of Army;ホルスト・ヒルデブラント;74;SD;Decisive Battle Doctrine;High;M506081;x
+506082;Chief of Army;ヨハネス・ポッペル;79;SD;Armoured Spearhead Doctrine;High;M506082;x
+506083;Chief of Army;マインハルト・グランツ;81;SD;Static Defence Doctrine;High;M506083;x
+506084;Chief of Army;マインハルト・グランツ;81;SC;Static Defence Doctrine;High;M506083;x
+506085;Chief of Army;ハンス＝ヘニング・フォン・ザントラルト;84;SC;Guns and Butter Doctrine;High;M506085;x
+506086;Chief of Army;ヘニング・フォン・オンドラツァ;87;SC;Armoured Spearhead Doctrine;High;M506086;x
+506087;Chief of Army;イェルク・シェーンボーム;91;SC;Elastic Defence Doctrine;High;M506087;x
+506088;Chief of Army;ヘルゲ・ハンゼン;92;SC;Static Defence Doctrine;High;M506088;x
+506089;Chief of Army;ハルトムート・バッガー;94;SC;Armoured Spearhead Doctrine;High;M506073;x
+506090;Chief of Army;ヘルムート・ヴィルマン;96;SC;Armoured Spearhead Doctrine;High;M506090;x
+506091;Chief of Army;ヘルムート・ヴィルマン;96;SD;Armoured Spearhead Doctrine;High;M506090;x
+506092;Chief of Army;ゲルト・グーデア;99;SD;Guns and Butter Doctrine;High;M506092;x
+506093;Chief of Army;ハンス＝オットー・ブッデ;99;SD;Elastic Defence Doctrine;High;M506093;x
+506094;Chief of Army;ハンス＝オットー・ブッデ;99;SC;Elastic Defence Doctrine;High;M506093;x
+506095;Chief of Army;ヴェルナー・フリエルス;99;SC;Static Defence Doctrine;High;M506095;x
+506096;Chief of Navy;ハインツ・クーンレ;70;SC;Indirect Approach Doctrine;High;M506009;x
+506097;Chief of Navy;ギュンター・ルター;75;SD;Open Seas Doctrine;High;M506097;x
+506098;Chief of Navy;アンスガール・ビートゲ;80;SD;Indirect Approach Doctrine;High;M506098;x
+506099;Chief of Navy;アンスガール・ビートゲ;80;SC;Indirect Approach Doctrine;High;M506098;x
+506100;Chief of Navy;ディーター・ヴェラースホフ;85;SC;Power Projection Doctrine;High;M506071;x
+506101;Chief of Navy;ハンス＝ヨアヒム・マン;91;SC;Power Projection Doctrine;High;M506101;x
+506102;Chief of Navy;ハイン＝ペーター・ヴェイヘル;95;SC;Decisive Naval Battle Doctrine;High;M506102;x
+506103;Chief of Navy;ハンス＝ルドルフ・ブーマー;98;SD;Open Seas Doctrine;High;M506103;x
+506104;Chief of Navy;ハンス・リュッソウ;99;SD;Indirect Approach Doctrine;High;M506104;x
+506105;Chief of Navy;ハンス・リュッソウ;99;SC;Indirect Approach Doctrine;High;M506104;x
+506106;Chief of Navy;ルッツ・フェルト;99;SC;Base Control Doctrine;High;M506106;x
+506107;Chief of Navy;ヴォルフガンク・ノルティンク;99;SC;Decisive Naval Battle Doctrine;High;M506107;x
+506108;Chief of Navy;アクセル・シンプ;99;SC;Power Projection Doctrine;High;M506108;x
+506109;Chief of Air Force;ギュンター・ラル;70;SC;Air Superiority Doctrine;High;M506010;x
+506110;Chief of Air Force;ゲルハルト・リンベルク;70;SD;Air Superiority Doctrine;High;M506110;x
+506111;Chief of Air Force;フリードリヒ・オブレサー;78;SD;Army Aviation Doctrine;High;M506111;x
+506112;Chief of Air Force;フリードリヒ・オブレサー;78;SC;Army Aviation Doctrine;High;M506111;x
+506113;Chief of Air Force;エーベルハルト・エイムラー;83;SC;Air Superiority Doctrine;High;M506113;x
+506114;Chief of Air Force;ホルスト・ユングクルト;87;SC;Army Aviation Doctrine;High;M506114;x
+506115;Chief of Air Force;イェルク・クーバルト;91;SC;Carpet Bombing Doctrine;High;M506115;x
+506116;Chief of Air Force;ベルンハルト・メンデ;94;SC;Air Superiority Doctrine;High;M506116;x
+506117;Chief of Air Force;ロルフ・ポルツ;97;SC;Army Aviation Doctrine;High;M506117;x
+506118;Chief of Air Force;ロルフ・ポルツ;97;SD;Army Aviation Doctrine;High;M506117;x
+506119;Chief of Air Force;ゲルハルト・バック;99;SD;Air Superiority Doctrine;High;M506119;x
+506120;Chief of Air Force;クラウス＝ペーター・シュティーグリッツ;99;SD;Carpet Bombing Doctrine;High;M506120;x
+506121;Chief of Air Force;クラウス＝ペーター・シュティーグリッツ;99;SC;Carpet Bombing Doctrine;High;M506120;x
+506122;Chief of Air Force;アールネ・クロイツィンガー＝ヤニク;99;SC;Army Aviation Doctrine;High;M506122;x
+506123;Chief of Air Force;カール・ミュルナー;99;SC;Air Superiority Doctrine;High;M506123;x
+506124;Head of State;オットー・エルンスト・レーマー;70;NS;Stern Imperialist;High;M506124;x
+506125;Head of Government;フリッツ・ドールス;70;NS;Naive Optimist;High;M506125;x
+506126;Foreign Minister;ゲルハルト・クリューガー;70;NS;Biased Intellectual;High;M506126;x
+506127;Minister of Armament;ヴォルフ・フォン・ヴェスタープ伯爵;70;NS;Economist Minister;High;M506127;x
+506128;Minister of Security;ヴォルフガング・ファルク;70;NS;Crime Fighter;High;M506128;x
+506129;Head of Military Intelligence;ティース・クリストファーゼン;70;NS;Industrial Specialist;High;M506129;x
+506130;Chief of Staff;ヘルベルト・シュヴェイガー;70;NS;School of Fire Support;High;M506130;x
+506131;Chief of Army;アウグスト・フィンケ;70;NS;Elastic Defence Doctrine;High;M506131;x
+506132;Chief of Navy;カール・ヴァルデマール・シュッツ;70;NS;Indirect Approach Doctrine;High;M506132;x
+506133;Chief of Air Force;ハンス＝ウルリヒ・ルーデル;70;NS;Army Aviation Doctrine;High;M506133;x
+506134;Head of Military Intelligence;カール・ヴァルデマール・シュッツ;70;NS;Political Specialist;High;M506132;x
+506135;Head of State;マルティン・ムスグヌク;70;FA;Die-hard Reformer;High;M506135;x
+506136;Head of Government;ゲルハルト・フレイ;70;FA;Naive Optimist;High;M506136;x
+506137;Head of State;クルト・バッハマン;70;ST;Benevolent Gentleman;High;M506137;x
+506138;Head of Government;ヘルベルト・ミース;70;ST;Ambitious Union Boss;High;M506138;x
+506139;Foreign Minister;クラウス・ライナー・レール;70;ST;Ideological Crusader;High;M506139;x
+506140;Minister of Armament;クルト・バッハマン;70;ST;laissez-faire capitalist;High;M506137;x
+506141;Minister of Security;ハインツ・シュテール;70;ST;Silent Lawyer;High;M506141;x
+506142;Head of Military Intelligence;クラウス・ライナー・レール;70;ST;Political Specialist;High;M506139;x
+506144;Chief of Army;ブルーノ・バハラー;70;ST;Elastic Defence Doctrine;High;M506144;x
+506145;Chief of Navy;ヨーゼフ・アンゲンフォルト;70;ST;Indirect Approach Doctrine;High;M506145;x
+506146;Chief of Air Force;カール・ヘンゼル;70;LWR;Air Superiority Doctrine;High;M506146;x
+506147;Minister of Armament;クルト・ミュラー;70;ST;Resource Industrialist;High;M506147;x
+506148;Head of State;ヘルベルト・ミース;74;ST;Autocratic Charmer;High;M506138;x

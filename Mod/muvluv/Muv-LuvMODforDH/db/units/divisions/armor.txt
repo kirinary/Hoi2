@@ -1,0 +1,953 @@
+allowed_brigades = artillery
+allowed_brigades = anti_tank
+allowed_brigades = anti_air
+allowed_brigades = rocket_artillery
+allowed_brigades = sp_artillery
+allowed_brigades = sp_rct_artillery
+allowed_brigades = tank_destroyer
+allowed_brigades = light_armor_brigade
+allowed_brigades = heavy_armor
+allowed_brigades = super_heavy_armor
+allowed_brigades = armored_car
+allowed_brigades = engineer
+allowed_brigades = police
+allowed_brigades = medium_armor
+allowed_brigades = floatplane
+allowed_brigades = light_cag
+allowed_brigades = amph_armor
+allowed_brigades = glider_armor
+# 0 - Great War Tank
+model =
+{ cost                = 13
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 20
+  toughness           = 25
+  softness            = 50
+  suppression         = 1
+  airdefence          = 3
+  softattack          = 8
+  hardattack          = 12
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 1 - Early Tank
+model =
+{ cost                = 13
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 25
+  toughness           = 30
+  softness            = 50
+  suppression         = 1
+  airdefence          = 3
+  softattack          = 10
+  hardattack          = 15
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 9
+  speed_cap_eng       = 9
+  speed_cap_at        = 9
+  speed_cap_aa        = 9
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 2 - Basic Medium Tank
+model =
+{ cost                = 14
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 25
+  toughness           = 30
+  softness            = 50
+  suppression         = 1
+  airdefence          = 3
+  softattack          = 13
+  hardattack          = 18
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 3 - Improved Medium Tank
+model =
+{ cost                = 14
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 11
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 25
+  toughness           = 30
+  softness            = 50
+  suppression         = 1
+  airdefence          = 3
+  softattack          = 18
+  hardattack          = 24
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 4 - Advanced Medium Tank
+model =
+{ cost                = 14
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 11
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 30
+  toughness           = 35
+  softness            = 50
+  suppression         = 1
+  airdefence          = 3
+  softattack          = 22
+  hardattack          = 28
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 5 - Semi-Modern Tank
+model =
+{ cost                = 15
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 35
+  toughness           = 40
+  softness            = 50
+  suppression         = 1
+  airdefence          = 3
+  softattack          = 28
+  hardattack          = 32
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 6 - Main battle tank
+model =
+{ cost                = 15
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 35
+  softness            = 50
+  suppression         = 1
+  airdefence          = 3
+  softattack          = 35
+  hardattack          = 42
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 7 - Adv Main battle tank
+model =
+{ cost                = 15
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  toughness           = 45
+  softness            = 50
+  suppression         = 1
+  airdefence          = 5
+  softattack          = 42
+  hardattack          = 48
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 8 - ;Modern Main battle tank
+model =
+{ cost                = 16
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  softattack          = 46
+  hardattack          = 50
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 14
+  speed_cap_eng       = 14
+  speed_cap_at        = 14
+  speed_cap_aa        = 14
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 7 - Adv Main battle tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  softattack          = 51
+  hardattack          = 55
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 8 - ;Modern Main battle tank
+model =
+{ cost                = 31
+  buildtime           = 195
+  manpower            = 7
+  maxspeed            = 20
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 36
+  toughness           = 46
+  softness            = 30
+  suppression         = 1
+  airdefence          = 9
+  softattack          = 25
+  hardattack          = 25
+  airattack           = 8
+  transportweight     = 45
+  supplyconsumption   = 2.3
+  fuelconsumption     = 7
+  speed_cap_art       = 14
+  speed_cap_eng       = 14
+  speed_cap_at        = 14
+  speed_cap_aa        = 14
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+}
+# 0 - Great War Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  toughness           = 45
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 46
+  hardattack          = 53
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 1 - Early Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 50
+  hardattack          = 56
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 9
+  speed_cap_eng       = 9
+  speed_cap_at        = 9
+  speed_cap_aa        = 9
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 2 - Basic Medium Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 54
+  hardattack          = 60
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 3 - Improved Medium Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  softattack          = 58
+  hardattack          = 64
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 4 - Advanced Medium Tank
+model =
+{ cost                = 14
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  softattack          = 54
+  hardattack          = 58
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 5 - Semi-Modern Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 35
+  toughness           = 40
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 30
+  hardattack          = 34
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 0 - Great War Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  toughness           = 45
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 40
+  hardattack          = 45
+  airattack           = 3
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  transportweight     = 15
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 1 - Early Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 47
+  hardattack          = 51
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 9
+  speed_cap_eng       = 9
+  speed_cap_at        = 9
+  speed_cap_aa        = 9
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 2 - Basic Medium Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 30
+  morale              = 30
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 51
+  hardattack          = 54
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  defensiveness       = 50
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 3 - Improved Medium Tank
+model =
+{ cost                = 26
+  buildtime           = 185
+  manpower            = 7
+  maxspeed            = 15
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 16
+  toughness           = 25
+  softness            = 30
+  suppression         = 1
+  airdefence          = 3
+  softattack          = 14
+  hardattack          = 13
+  airattack           = 3
+  transportweight     = 40
+  supplyconsumption   = 2.05
+  fuelconsumption     = 7
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+}
+# 4 - Advanced Medium Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  toughness           = 45
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 44
+  hardattack          = 51
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 5 - Semi-Modern Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  toughness           = 45
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 48
+  hardattack          = 54
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 0 - Great War Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 52
+  hardattack          = 58
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 1 - Early Tank
+model =
+{ buildtime           = 360
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 56
+  hardattack          = 62
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 9
+  speed_cap_eng       = 9
+  speed_cap_at        = 9
+  speed_cap_aa        = 9
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  cost                = 17
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 2 - Basic Medium Tank
+model =
+{ cost                = 24
+  buildtime           = 185
+  manpower            = 7
+  maxspeed            = 15
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 12
+  toughness           = 20
+  softness            = 30
+  suppression         = 1
+  airdefence          = 2
+  softattack          = 12
+  hardattack          = 11
+  airattack           = 2
+  transportweight     = 40
+  supplyconsumption   = 2.0
+  fuelconsumption     = 7
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+}
+# 3 - Improved Medium Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 45
+  hardattack          = 52
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  toughness           = 45
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 4 - Advanced Medium Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 49
+  hardattack          = 55
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  toughness           = 45
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 5 - Semi-Modern Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 53
+  hardattack          = 59
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 0 - Great War Tank
+model =
+{ cost                = 17
+  buildtime           = 360
+  manpower            = 5
+  maxspeed            = 14
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 57
+  hardattack          = 63
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  fuelconsumption     = 0
+  equipment = { manpower = 4000 TRUCKS = 100 medium_armor = 40 }
+}
+# 1 - Early Tank
+model =
+{ cost                = 20
+  buildtime           = 185
+  manpower            = 7
+  maxspeed            = 12
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 8
+  toughness           = 12
+  softness            = 30
+  suppression         = 1
+  airdefence          = 1
+  softattack          = 8
+  hardattack          = 3
+  airattack           = 2
+  transportweight     = 30
+  supplyconsumption   = 1.85
+  fuelconsumption     = 5
+  speed_cap_art       = 9
+  speed_cap_eng       = 9
+  speed_cap_at        = 9
+  speed_cap_aa        = 9
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+}
+# 2 - Basic Medium Tank
+model =
+{ cost                = 24
+  buildtime           = 185
+  manpower            = 7
+  maxspeed            = 15
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 12
+  toughness           = 20
+  softness            = 30
+  suppression         = 1
+  airdefence          = 2
+  softattack          = 12
+  hardattack          = 11
+  airattack           = 2
+  transportweight     = 40
+  supplyconsumption   = 2.0
+  fuelconsumption     = 7
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+}
+# 3 - Improved Medium Tank
+model =
+{ cost                = 26
+  buildtime           = 185
+  manpower            = 7
+  maxspeed            = 15
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 16
+  toughness           = 25
+  softness            = 30
+  suppression         = 1
+  airdefence          = 3
+  softattack          = 14
+  hardattack          = 13
+  airattack           = 3
+  transportweight     = 40
+  supplyconsumption   = 2.05
+  fuelconsumption     = 7
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+}
+# 4 - Advanced Medium Tank
+model =
+{ cost                = 27
+  buildtime           = 185
+  manpower            = 7
+  maxspeed            = 15
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 20
+  toughness           = 30
+  softness            = 30
+  suppression         = 1
+  airdefence          = 4
+  softattack          = 16
+  hardattack          = 16
+  airattack           = 4
+  transportweight     = 40
+  supplyconsumption   = 2.10
+  fuelconsumption     = 7
+  speed_cap_art       = 11
+  speed_cap_eng       = 11
+  speed_cap_at        = 11
+  speed_cap_aa        = 11
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+}
+# 5 - Semi-Modern Tank
+model =
+{ cost                = 28
+  buildtime           = 185
+  manpower            = 7
+  maxspeed            = 16
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 24
+  toughness           = 35
+  softness            = 30
+  suppression         = 1
+  airdefence          = 5
+  softattack          = 18
+  hardattack          = 18
+  airattack           = 4
+  transportweight     = 45
+  supplyconsumption   = 2.15
+  fuelconsumption     = 7
+  speed_cap_art       = 12
+  speed_cap_eng       = 12
+  speed_cap_at        = 12
+  speed_cap_aa        = 12
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+}

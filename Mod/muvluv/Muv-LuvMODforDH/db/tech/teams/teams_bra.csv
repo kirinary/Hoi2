@@ -1,0 +1,21 @@
+BRA;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+4400;アリスティデス・ギレム;T_BRA_Aristides_Guilhem;4;1930;2100;centralized_execution;large_taskforce_tactics;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4401;ブラジル海軍;T4411;3;1930;2100;decentralized_execution;naval_training;seamanship;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4402;CCNA;T4401;5;1930;2100;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4403;CCNC;T4402;5;1930;2100;aeronautics;chemistry;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4404;カッシオ・ムニス社;T4400;4;1930;2100;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4405;原子力技術開発センター;T_BRA_CentrodeDesenvolvimentodaTecnologiaNuclear;4;1952;2100;management;nuclear_engineering;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4406;国営鉄鋼公社;T4403;5;1930;2100;general_equipment;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4407;コルデイロ・デ・ファリアス;T_BRA_Cordeiro_de_Farias;6;1940;2100;artillery;general_equipment;management;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4408;国営鉱山局;T4404;4;1930;2100;industrial_engineering;management;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4409;エパミノンダス・ドス・サントス;T4413;4;1930;2100;aircraft_testing;decentralized_execution;fighter_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4410;工科学校;T_BRA_EscolaPolitecnica;4;1930;2100;electronics;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4411;エウリコ・ガスパル・ドゥトラ;T4408;4;1940;2100;centralized_execution;combined_arms_focus;large_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4412;IPT;T4406;6;1930;2100;aeronautics;electronics;industrial_engineering;management;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4413;イラ・ダス・コブラス海軍工廠;T4405;5;1930;2100;naval_artillery;naval_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4414;ホアン・マスカレナス・デ・モライス;T_BRA_Joao_Mascarenhas_de_Morais;4;1937;2100;combined_arms_focus;decentralized_execution;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4415;NMC;T4414;5;1945;2100;electronics;mechanics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4416;ネロ・モラ;T4416;6;1943;2100;aircraft_testing;bomber_tactics;centralized_execution;fighter_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4417;エンリケ・ラーゲ機構;T4407;6;1930;2100;chemistry;industrial_engineering;management;naval_artillery;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4418;サルガド・フィロ;T4412;4;1930;2100;aircraft_testing;bomber_tactics;fighter_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4419;リオデジャネイロ連邦大学;T_BRA_UniversidadeFederaldoRiodeJaneiro;4;1930;2100;chemistry;electronics;mathematics;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

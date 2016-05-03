@@ -1,0 +1,31 @@
+## 全シナリオ共通イベント
+event = "db\events_MUV-LUV\秘密兵器.txt"
+#event = "db\events_MUV-LUV\ランダムイベント.txt"
+event = "db\events_MUV-LUV\各国特殊ユニット生産.txt"
+event = "db\events_MUV-LUV\技術効果.txt"
+event = "db\events_MUV-LUV\研究チーム関連.txt"
+
+
+## BETA大戦シナリオ共通イベント
+#event = "db\events_MUV-LUV\BETA関連.txt"
+#event = "db\events_MUV-LUV\BETA補充.txt"
+event = "db\events_MUV-LUV\BETA-ハイヴ陥落.txt"
+event = "db\events_MUV-LUV\BETA-ハイヴ建設.txt"
+#event = "db\events_MUV-LUV\BETA_強襲.txt"
+event = "db\events_MUV-LUV\新規国家成立.txt"
+event = "db\events_MUV-LUV\地域壊滅.txt"
+event = "db\events_MUV-LUV\地域陥落.txt"
+event = "db\events_MUV-LUV\BETA_制限解除.txt"
+
+##1973
+event = "db\events_MUV-LUV\Mobilization.txt"
+event = "db\events_MUV-LUV\1973ai.txt"
+event = "db\events_MUV-LUV\BETARestriction1973.txt"
+event = "db\events_MUV-LUV\BETAproduction1973.txt"
+#event = "db\events_MUV-LUV\BETAcession.txt"
+event = "db\events_MUV-LUV\国際協力.txt"
+#event = "db\events_MUV-LUV\各国国際立場変更.txt"
+event = "db\events_MUV-LUV\ライセンス生産.txt"
+
+##test
+event = "db\events_MUV-LUV\1973test.txt"

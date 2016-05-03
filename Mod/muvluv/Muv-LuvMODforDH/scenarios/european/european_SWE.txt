@@ -1,0 +1,28 @@
+##############################################################
+##
+## 欧州大戦イベント_スウェーデン(24001~24100)
+##
+##############################################################
+##
+## id = 24001   スカンディナヴィア防衛線
+##
+##############################################################
+event = {
+	id = 24001
+	random = no
+	country = SWE
+	trigger = { exists = U12 }
+
+	name = "スカンディナヴィア防衛線"
+	desc = "EVT_23701_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "かかってこい！相手になってやる！"
+		command = { type = surprise which = land value = 30 }
+		command = { type = ground_def_eff value = 0.4 when = 1}
+	}
+}

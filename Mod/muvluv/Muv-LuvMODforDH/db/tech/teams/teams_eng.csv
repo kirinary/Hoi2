@@ -1,0 +1,27 @@
+ENG;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+17400;サンドハースト王立陸軍士官学校;sandhurst;8;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17401;BAEランドシステムズ;BAEland;8;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17402;GKN Sankey;gknsankey;6;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17403;BAE Ordnance&Munitions;BAEordnance;7;1000;2999;general_equipment;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17404;アウグスタウェストランド;agustawestland;8;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17405;BAEエアロスペース;BAEaerospace;8;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17406;国防情報参謀部;DIStaff;9;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17407;スミスグループ;smithsgroup;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17408;QinetiQ;qinetiq;8;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17409;BAEエレクトロニクス;BAEelectronics;9;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17410;MBDA;mbdamissile;8;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17411;タレス;thaleseng;8;1000;2999;management;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17412;イギリス原子力公社;UKAEA;5;1000;2999;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17413;AWE;aweaponsest;5;1000;2999;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17414;イギリス国立宇宙センター;britishspace;6;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17415;イギリス陸軍;britisharmy;7;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17416;王立海兵隊;royalmarines;9;1000;2999;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17417;常設統合司令部;pjhq;8;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17418;王立空軍;royalairforce;8;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17419;艦隊航空隊;fleetairarm;8;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17420;王立海軍;royalnavy;9;1000;2999;carrier_tactics;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17421;BVTサーフェス･フリート;bvtsurface;9;1000;2999;small_taskforce_tactics;naval_artillery;submarine_tactics;naval_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17422;スワンハンター;swanhunter;7;1000;2007;naval_artillery;naval_engineering;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17423;BAE Submarine Solutions;baesubmarine;7;1000;2999;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17424;イギリス海軍補助艦隊;rnaux;7;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17425;潜水艦隊司令部;rnsubmarine;5;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

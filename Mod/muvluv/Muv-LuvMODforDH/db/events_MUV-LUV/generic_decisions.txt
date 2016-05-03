@@ -1,0 +1,641 @@
+################################
+# Generic set of decisions
+################################
+#### Create Public Jobs
+event = {
+	id = 9000021
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	decision = { 
+		money = 3000
+		OR = { 
+			NOT = { policy = { type = free_market value = 8 } }
+		}
+	}
+
+	decision_trigger = {
+		money = 6000
+		atwar = no
+	}
+
+	trigger = {
+		money = 6000
+		OR = { 
+			NOT = { policy = { type = free_market value = 8 } }
+			headofstate = 240001 # FDR
+		}
+	}
+   
+	name = "9000021name"
+	desc = "9000021desc" 
+	style = 2
+	picture = "public_jobs"
+	decision_picture = "decision_public_jobs"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {
+		name = "9000021text"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -6000 }
+		command = { type = domestic which = free_market value = -1 }
+		command = { type = construct which = ic where = -4 value = 1 }
+	}
+}
+#### Issue Currency
+event = {
+	id = 9000022
+	random = no
+	persistent = yes
+
+	decision = { 
+		NOT = { money = 30 }
+		atwar = no
+	}
+
+	decision_trigger = {
+		NOT = { money = 10 }
+	}
+
+	trigger = {
+		ai = no
+		NOT = { money = 10 }
+	}
+   
+	name = "9000022name"
+	desc = "9000022desc" 
+	style = 2
+	picture = "issue_currency"
+	decision_picture = "decision_issue_currency"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 180
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {
+		name = "9000022text"
+		command = { type = dissent value = -1 }
+		command = { type = money value = 1000 }
+		command = { type = industrial_modifier which = total value = -1 }
+	}
+}
+#### Money Devaluation
+event = {
+	id = 9000023
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	decision = { 
+		money = 1000
+		atwar = no
+	}
+
+	decision_trigger = {
+		money = 3000
+	}
+
+	trigger = {
+		ai = no
+		money = 3000
+		NOT = { dissent = 5 }
+	}
+   
+	name = "9000023name"
+	desc = "9000023desc"
+	style = 2
+	picture = "money_devaluation"
+	decision_picture = "decision_money_devaluation"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 180
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {
+		name = "9000023text"
+		command = { type = dissent value = 3 }
+		command = { type = money value = -3000 }
+		command = { type = industrial_modifier which = total value = 0.5 }
+	}
+}
+
+#### Allow Foreign Volunteers
+event = {
+	id = 9000025
+	random = no
+
+	decision = { 
+		government = democratic
+		atwar = yes
+	}
+
+	decision_trigger = {
+		government = democratic
+		NOT = { manpower = 100 }
+		atwar = yes
+	}
+
+	trigger = {
+		random = 20
+		government = democratic
+		NOT = { manpower = 100 }
+		atwar = yes
+	}
+   
+	name = "9000025name"
+	desc = "9000025desc" 
+	style = 2
+	picture = "foreign_volunteers"
+	decision_picture = "decision_foreign_volunteers"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 180
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {
+		name = "9000025text"
+		command = { type = manpowerpool value = 1 when = 1 }
+		command = { type = relative_manpower value = 0.01 }
+		command = { type = morale which = land value = -2 }
+		#command = { type = unit when = morale value = -0.500 }
+	}
+}
+#### Purchase Licensed Unit
+event = {
+	id = 9000026
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+		decision = { 
+		NOT = { ic = 40 }
+		#NOT = { army = 20 }
+		manpower = 10
+	}
+
+	decision_trigger = {
+		NOT = { ic = 40 }
+		money = 4000
+		#NOT = { army = 20 }
+	}
+
+	trigger = {
+		random = 60
+		NOT = { ic = 40 }
+		money = 6000
+		#NOT = { army = 20 }
+	}
+   
+	name = "9000026name"
+	desc = "9000026desc" 
+	style = 2
+	picture = "licensed_unit"
+	decision_picture = "decision_licensed_unit"
+
+	date = { day = 1 month = january year = 1920 }
+	offset = 150
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {  trigger = { money = 4000 year = 1939 NOT = {motorized = { country = -1 value = 3 } } }
+		ai_chance = 25
+		name = "9000026a"
+		command = { type = money value = -4000 }
+		command = { type = manpowerpool value = -10 }
+	  	command = { type = add_division value = motorized }
+	}
+	action = {  trigger = { money = 6000 NOT = { armor = { country = -1 value = 3 } } }
+		ai_chance = 25
+		name = "9000026b"
+		command = { type = money value = -6000 }
+		command = { type = manpowerpool value = -10 }
+	  	command = { type = add_division value = armor }
+	}
+	action = {  trigger = { money = 5000 NOT = { interceptor = { country = -1 value = 4 } } }
+		ai_chance = 25
+		name = "9000026c"
+		command = { type = money value = -5000 }
+		command = { type = manpowerpool value = -5 }
+	  	command = { type = add_division value = interceptor }
+	}
+	action = {  trigger = { money = 5000 NOT =  { tactical_bomber = { country = -1 value = 4 } } }
+		ai_chance = 25
+		name = "9000026d"
+		command = { type = money value = -5000 }
+		command = { type = manpowerpool value = -5 }
+	  	command = { type = add_division value = tactical_bomber }
+	}
+}
+#### Press Censorship
+event = {
+	id = 9000027
+	random = no
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	decision = { 
+		government = democratic
+		atwar = yes
+	}
+
+	decision_trigger = {
+		government = democratic
+		atwar = yes
+		money = 500
+	}
+
+	trigger = {
+		OR = {
+			random = 80
+			dissent = 3
+		}
+		government = democratic
+		atwar = yes
+		money = 500
+	}
+   
+	name = "9000027name"
+	desc = "9000027desc" 
+	style = 2
+	picture = "censorship"
+	decision_picture = "decision_censorship"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {
+		name = "9000027text"
+		command = { type = domestic which = democratic value = -1 }
+		command = { type = dissent value = -3 }
+		#command = { type = dissent value = -0.1000 } # Should be 10%
+		command = { type = money value = -500 }
+	}
+}
+#### War Propaganda
+event = {
+	id = 9000028
+	random = no
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	decision = { 
+		atwar = yes
+		NOT = { local_flag = MOB9 }
+	}
+
+	decision_trigger = {
+		atwar = yes
+		money = 500
+	}
+
+	trigger = {
+		OR = {
+			random = 80
+			dissent = 3
+		}
+		atwar = yes
+		money = 500
+		NOT = { local_flag = MOB9 }
+	}
+   
+	name = "9000028name"
+	desc = "9000028desc" 
+	style = 2
+	picture = "war_propaganda"
+	decision_picture = "decision_war_propaganda"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 60
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {
+		name = "9000028text"
+		command = { type = domestic which = freedom value = -1 }
+		command = { type = dissent value = -3 }
+		command = { type = manpowerpool value = 0.1 when = 1 }
+		command = { type = money value = -500 }
+	}
+}
+#### Ersatz Conversion
+event = {
+	id = 9000029
+	random = no
+	persistent = yes
+	tag = { GER ITA JAP U08 U09 }
+
+	decision = { 
+		money = 100
+		energy = 4000
+		NOT = { rare_materials = 100 }
+	}
+
+	decision_trigger = {
+		money = 100
+		energy = 5000
+		NOT = { rare_materials = 50 }
+	}
+
+	trigger = {
+		NOT = { dissent = 5 }
+		NOT = { rare_materials = 50 }
+		money = 100
+		energy = 5000
+	}
+   
+	name = "9000029name"
+	desc = "9000029desc" 
+	style = 2
+	picture = "ersatz_conversion"
+	decision_picture = "decision_ersatz_conversion"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 1963 }
+
+	action = {
+		name = "9000029text"
+		command = { type = dissent value = 2 }
+		command = { type = money value = -100 }
+		command = { type = energypool value = -5000 }
+		command = { type = rarematerialspool value = 500 }
+	}
+}
+#### Invest in National Infrastructures
+event = {
+	id = 9000030
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	decision = { 
+		money = 800
+		NOT = { policy = { type = free_market value = 8 } }
+	}
+
+	decision_trigger = { 
+		money = 1000
+	}
+
+	trigger = {
+		random = 20
+		money = 1000
+		#NOT = { policy = { type = free_market value = 8 } }
+	}
+   
+	name = "9000030name"
+	desc = "9000030desc" 
+	style = 2
+	picture = "invest_infrastructures"
+	decision_picture = "decision_invest_infrastructures"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {  trigger = { money = 1000 }
+		ai_chance = 30
+		name = "9000030a"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -1000 }
+		command = { type = tc_mod value = 0.5 }
+	}
+	action = {  trigger = { money = 2000 }
+		ai_chance = 30
+		name = "9000030b"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -2000 }
+		command = { type = tc_mod value = 1 }
+	}
+	action = {  trigger = { money = 4000 }
+		ai_chance = 40
+		name = "9000030c"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -4000 }
+		command = { type = tc_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}
+}
+#### Invest in National Research
+event = {
+	id = 9000031
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	decision = { 
+		money = 800
+		NOT = { policy = { type = free_market value = 8 } }
+	}
+
+	decision_trigger = { 
+		money = 1000
+	}
+
+	trigger = {
+		random = 60
+		money = 1000
+		#NOT = { policy = { type = free_market value = 8 } }
+	}
+   
+	name = "9000031name"
+	desc = "9000031desc" 
+	style = 2
+	picture = "invest_research"
+	decision_picture = "decision_invest_research"
+
+	date = { day = 1 month = january year = 1914 }
+	offset = 120
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {  trigger = { money = 1000 }
+		ai_chance = 30
+		name = "9000031a"
+		command = { type = dissent value = -0.5 }
+		command = { type = money value = -1000 }
+		command = { type = research_mod value = 0.5 }
+	}
+	action = {  trigger = { money = 2000 }
+		ai_chance = 30
+		name = "9000031b"
+		command = { type = dissent value = -1 }
+		command = { type = money value = -2000 }
+		command = { type = research_mod value = 1 }
+	}
+	action = {  trigger = { money = 4000 }
+		ai_chance = 40
+		name = "9000031c"
+		command = { type = dissent value = -2 }
+		command = { type = money value = -4000 }
+		command = { type = research_mod value = 2.5 }
+		command = { type = domestic which = free_market value = -1 }
+	}
+}
+#### Purge the Army
+event = {
+	id = 9000032
+	random = no
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	decision = { 
+		NOT = { government = democratic }
+		policy = { type = defense_lobby value = 3 }
+		NOT = { AND = { country = SOV event = 2007025 } }
+	}
+
+	decision_trigger = { 
+		NOT = { government = democratic }
+		policy = { type = defense_lobby value = 3 }
+	}
+
+	trigger = {
+		random = 1
+		NOT = { government = democratic }
+		policy = { type = defense_lobby value = 3 }
+	}
+   
+	name = "9000032name"
+	desc = "9000032desc" 
+	style = 2
+	picture = "purge_army"
+	decision_picture = "decision_purge_army"
+
+	date = { day = 1 month = january year = 1900 }
+	offset = 180
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {
+		name = "9000032text"
+		command = { trigger = { NOT = { country = SOV } } type = dissent value = 2 }
+		command = { type = morale which = land value = 3 }
+		command = { trigger = { NOT = { country = SOV } } type = trigger which = 9000036 }
+		command = { trigger = { country = SOV } type = trigger which = 2007025 }
+	}
+}
+event = {
+	id = 9000036
+	random = no
+	persistent = yes
+	one_action = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	name = "9000036name"
+	desc = "9000032desc" 
+	style = 2
+	picture = "purge_army"
+
+	action = {
+		ai_chance = 25
+		name = "9000032text"
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { }
+	}
+	action = {
+		ai_chance = 25
+		name = "9000032text"
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { }
+	}
+	action = {
+		ai_chance = 25
+		name = "9000032text"
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { }
+	}
+	action = {
+		ai_chance = 25
+		name = "9000032text"
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { type = sleepleader which = -1 }
+		command = { }
+	}
+}
+#### Wargames
+event = {
+	id = 9000033
+	random = no
+	persistent = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	decision = { 
+		money = 600
+		policy = { type = defense_lobby value = 3 }
+	}
+
+	decision_trigger = { 
+		money = 1000
+	}
+
+	trigger = {
+		random = 50
+		money = 1000
+		policy = { type = defense_lobby value = 3 }
+	}
+   
+	name = "9000033name"
+	desc = "9000033desc" 
+	style = 2
+	picture = "wargames"
+	decision_picture = "decision_wargames"
+
+	date = { day = 1 month = january year = 1900 }
+	offset = 90
+	deathdate = { day = 30 month = december year = 2100 }
+
+	action = {
+		name = "9000033text"
+		command = { type = money value = -1000 }
+		command = { type = trigger which = 9000035 }
+	}
+}
+event = {
+	id = 9000035
+	random = no
+	persistent = yes
+	one_action = yes
+	TAG =  { AFG ALB ALG ANG ARA ARG ARM AST AUS AZB BEL BEN BLR BOL BOS BRA BRU BUL BUR CAL CAM CAN CGX CHC CHI CHL CMB COL CON COS CRO CSA CSX CUB CXB CYN CYP CZE DDR DEN DFR EAF ECU EGY ENG EQA EST ETH EUS FIN FLA FRA GAB GEO GER GLD GRE GUA GUI GUY HOL HON HUN ICL IDC IND INO IRE IRQ ISR ITA JAP JOR KAZ KOR KUR KYG LAO LAT LBY LEB LIT LUX MAD MAL MAN MEN MEX MLY MON MOR MOZ MTN NAM NIC NIG NOR NZL OMN OTT PAK PAL PAN PAR PER PHI POL POR PRI PRK PRU QUE RHO ROM RSI RUS SAF SAL SAR SAU SCA SCH SCO SER SIA SIB SIE SIK SLO SLV SOM SOV SPA SPR SUD SWE SYR TAJ TAN TEX TRA TRK TUN TUR UKR URU USA UZB VEN VIE WLL YEM YUG U01 U02 U03 U04 U08 U09 U10 U11 UTC UER UPE }
+	name = "9000033name"
+	desc = "9000033desc" 
+	style = 2
+	picture = "wargames"
+
+
+	action = {
+		ai_chance = 33
+		name = "9000033text"
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { }
+	}
+	action = {
+		ai_chance = 34
+		name = "9000033text"
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { }
+	}
+	action = {
+		ai_chance = 33
+		name = "9000033text"
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { type = add_leader_skill which = -1 value = 1 }
+		command = { }
+	}
+}
+

@@ -1,0 +1,184 @@
+name       = "1973_SCENARIO"
+panel      = "scenarios/data/scenario_1973.bmp"
+header =
+{ name             = "The_BETA_earth_invasion"
+  startdate        = { year = 1973 }
+  selectable       = { U95 CHC CHI U97 U96 ARA SIB SIK TEX GUY MAD SCO RSI MAL U94 QUE GUI SIE LIB MEN KUR IDC GLD U93 BEN CAL NIG FLA EUS CAM VIC GAB EQA CON WLL TRA EAF RHO CYP MAN CYN CXB CSX CSA CGX SOM ETH MOR ALG TUN LBY SUD EGY OMN YEM JOR SAU LEB SYR ISR IRQ AFG PER TUR FIN SWE NOR ENG IRE ICL POR SPA ALB ARG AST AUS BOL BRA BEL BRU BUL BUR CAN CHL CMB COL COS CUB CZE DDR DEN DFR DOM ECU FRA GRE GUA HAI HOL HON HUN IND INO ITA JAP KOR NEP BHU LAO LUX MEX MLY MON NIC NZL PAK PAN PAR PHI POL PRU ROM SAF SAL SCH SIA SOV U06 URU USA VEN VIE YUG }
+  JAP              = { desc = JAP_90_DESC }
+  SOV              = { desc = SOV_90_DESC }
+  USA              = { desc = USA_90_DESC }
+  CHC              = { desc = CHC_90_DESC }
+  IND              = { desc = IND_90_DESC }
+  ENG              = { desc = ENG_90_DESC }
+  DDR              = { desc = DDR_90_DESC }
+  DFR              = { desc = DFR_90_DESC }
+  U06              = { desc = U06_90_DESC }
+  set_ai_aggresive = 2
+  set_difficulty   = 2
+  set_gamespeed    = 7
+}
+globaldata =
+{ startdate = { year = 1973 month = 3 day = 18 }
+  allies =
+  { id          = { type = 15000 id = 1 }
+    participant = { USA ENG FRA DFR ITA SPA ICL HOL CAN DEN NOR BEL POR LUX KOR JAP TUR GRE }
+  }
+  axis =
+  { id          = { type = 15000 id = 2 }
+    participant = { U12 }
+  }
+  alliance =
+  { id          = { type = 15000 id = 10 }
+    participant = { SOV BUL DDR HUN ROM POL CZE MON }
+  }
+  enddate   = { year = 2100 month = 11 day = 28 }
+}
+
+# Includes for global data
+include = "db\events_MUV-LUV1973.txt"
+
+# Victory points distribution
+include = "scenarios\1973\vp.inc"
+
+# Include files for each country tag used in the scenario
+include = "scenarios\1973\U95.inc"
+include = "scenarios\1973\CHC.inc"
+include = "scenarios\1973\CHI.inc"
+include = "scenarios\1973\U97.inc"
+include = "scenarios\1973\U96.inc"
+include = "scenarios\1973\ARA.inc"
+include = "scenarios\1973\SIB.inc"
+include = "scenarios\1973\SIK.inc"
+include = "scenarios\1973\TEX.inc"
+include = "scenarios\1973\GUY.inc"
+include = "scenarios\1973\MAD.inc"
+include = "scenarios\1973\SCO.inc"
+include = "scenarios\1973\RSI.inc"
+include = "scenarios\1973\MAL.inc"
+include = "scenarios\1973\U94.inc"
+include = "scenarios\1973\QUE.inc"
+include = "scenarios\1973\GUI.inc"
+include = "scenarios\1973\SIE.inc"
+include = "scenarios\1973\LIB.inc"
+include = "scenarios\1973\MEN.inc"
+include = "scenarios\1973\KUR.inc"
+include = "scenarios\1973\GLD.inc"
+include = "scenarios\1973\U93.inc"
+include = "scenarios\1973\BEN.inc"
+include = "scenarios\1973\CAL.inc"
+include = "scenarios\1973\NIG.inc"
+include = "scenarios\1973\FLA.inc"
+include = "scenarios\1973\EUS.inc"
+include = "scenarios\1973\CAM.inc"
+include = "scenarios\1973\VIC.inc"
+include = "scenarios\1973\GAB.inc"
+include = "scenarios\1973\EQA.inc"
+include = "scenarios\1973\Congo.inc"
+include = "scenarios\1973\WLL.inc"
+include = "scenarios\1973\TRA.inc"
+include = "scenarios\1973\EAF.inc"
+include = "scenarios\1973\RHO.inc"
+include = "scenarios\1973\CYP.inc"
+include = "scenarios\1973\MAN.inc"
+include = "scenarios\1973\CYN.inc"
+include = "scenarios\1973\CXB.inc"
+include = "scenarios\1973\CSX.inc"
+include = "scenarios\1973\CSA.inc"
+include = "scenarios\1973\CGX.inc"
+include = "scenarios\1973\SOM.inc"
+include = "scenarios\1973\ETH.inc"
+include = "scenarios\1973\MOR.inc"
+include = "scenarios\1973\ALG.inc"
+include = "scenarios\1973\TUN.inc"
+include = "scenarios\1973\LBY.inc"
+include = "scenarios\1973\SUD.inc"
+include = "scenarios\1973\EGY.inc"
+include = "scenarios\1973\OMN.inc"
+include = "scenarios\1973\YEM.inc"
+include = "scenarios\1973\JOR.inc"
+include = "scenarios\1973\SAU.inc"
+include = "scenarios\1973\LEB.inc"
+include = "scenarios\1973\SYR.inc"
+include = "scenarios\1973\ISR.inc"
+include = "scenarios\1973\AFG.inc"
+include = "scenarios\1973\ALB.inc"
+include = "scenarios\1973\ARG.inc"
+include = "scenarios\1973\AST.inc"
+include = "scenarios\1973\AUS.inc"
+include = "scenarios\1973\BEL.inc"
+include = "scenarios\1973\BHU.inc"
+include = "scenarios\1973\BOL.inc"
+include = "scenarios\1973\BRA.inc"
+include = "scenarios\1973\BRU.inc"
+include = "scenarios\1973\BUL.inc"
+include = "scenarios\1973\BUR.inc"
+include = "scenarios\1973\CAN.inc"
+include = "scenarios\1973\CHL.inc"
+include = "scenarios\1973\CMB.inc"
+include = "scenarios\1973\COL.inc"
+include = "scenarios\1973\COS.inc"
+include = "scenarios\1973\CUB.inc"
+include = "scenarios\1973\CZE.inc"
+include = "scenarios\1973\DDR.inc"
+include = "scenarios\1973\DEN.inc"
+include = "scenarios\1973\DFR.inc"
+include = "scenarios\1973\DOM.inc"
+include = "scenarios\1973\ECU.inc"
+include = "scenarios\1973\ENG.inc"
+include = "scenarios\1973\FIN.inc"
+include = "scenarios\1973\FRA.inc"
+include = "scenarios\1973\GRE.inc"
+include = "scenarios\1973\GUA.inc"
+include = "scenarios\1973\HAI.inc"
+include = "scenarios\1973\HOL.inc"
+include = "scenarios\1973\HON.inc"
+include = "scenarios\1973\HUN.inc"
+include = "scenarios\1973\ICL.inc"
+include = "scenarios\1973\IDC.inc"
+include = "scenarios\1973\IND.inc"
+include = "scenarios\1973\INO.inc"
+include = "scenarios\1973\IRE.inc"
+include = "scenarios\1973\IRQ.inc"
+include = "scenarios\1973\ITA.inc"
+include = "scenarios\1973\JAP.inc"
+include = "scenarios\1973\KOR.inc"
+include = "scenarios\1973\LAO.inc"
+include = "scenarios\1973\LUX.inc"
+include = "scenarios\1973\MEX.inc"
+include = "scenarios\1973\MLY.inc"
+include = "scenarios\1973\MON.inc"
+include = "scenarios\1973\NEP.inc"
+include = "scenarios\1973\NIC.inc"
+include = "scenarios\1973\NOR.inc"
+include = "scenarios\1973\NZL.inc"
+include = "scenarios\1973\PAK.inc"
+include = "scenarios\1973\PAN.inc"
+include = "scenarios\1973\PAR.inc"
+include = "scenarios\1973\PER.inc"
+include = "scenarios\1973\PHI.inc"
+include = "scenarios\1973\POL.inc"
+include = "scenarios\1973\POR.inc"
+include = "scenarios\1973\PRU.inc"
+include = "scenarios\1973\ROM.inc"
+include = "scenarios\1973\SAF.inc"
+include = "scenarios\1973\SAL.inc"
+include = "scenarios\1973\SCH.inc"
+include = "scenarios\1973\SIA.inc"
+include = "scenarios\1973\SOV.inc"
+include = "scenarios\1973\SPA.inc"
+include = "scenarios\1973\SWE.inc"
+include = "scenarios\1973\TUR.inc"
+#include = "scenarios\1973\U01.inc"
+#include = "scenarios\1973\U02.inc"
+#include = "scenarios\1973\U03.inc"
+#include = "scenarios\1973\U05.inc"
+include = "scenarios\1973\U06.inc"
+include = "scenarios\1973\URU.inc"
+include = "scenarios\1973\USA.inc"
+include = "scenarios\1973\VEN.inc"
+include = "scenarios\1973\VIE.inc"
+include = "scenarios\1973\YUG.inc"
+include = "scenarios\1973\U12.inc"
+
+# Data for provinces, currently not owned by any nation
+include = "scenarios\1973\provinces.inc"

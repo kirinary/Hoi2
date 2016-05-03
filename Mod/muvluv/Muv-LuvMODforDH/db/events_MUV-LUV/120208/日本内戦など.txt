@@ -1,0 +1,284 @@
+event = {
+	id = 34051
+	random = no
+        country = JAP
+	trigger = {
+                or ={        control = { province = 2629 data = -2 }
+			     control = { province = 2630 data = -2 }
+			     control = { province = 2631 data = -2 }
+			     control = { province = 2632 data = -2 }
+		             control = { province = 2633 data = -2 }
+			     control = { province = 2634 data = -2 }
+			     control = { province = 2635 data = -2 }
+	 }
+       }
+
+	name = "BETA九州上陸"
+	desc = "遂にBETAが九州に上陸した！これからBETAを日本列島から駆逐するために死闘を戦わねばならなくなるだろう。 "
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんということだ・・・"
+                command = { type = local_setflag which = BETAkyusyu }
+ }
+}
+
+
+event = {
+	id = 34052
+	random = no
+        country = JAP
+	trigger = {
+                   event = 34051
+                   owned = { province = 2629 data = -1 }
+                   owned = { province = 2630 data = -1 }
+	           owned = { province = 2631 data = -1 }
+		   owned = { province = 2632 data = -1 }
+		   owned = { province = 2633 data = -1 }
+                   owned = { province = 2634 data = -1 }
+		   owned = { province = 2635 data = -1 }
+       }
+
+	name = "九州奪還"
+	desc = "九州に上陸したBETAを遂に撃退した！"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "よくやった！"
+                command = { type = local_setflag which = JapanCivil }
+                command = { type = local_clrflag which = BETAkyusyu }
+ }
+}
+
+
+event = {
+	id = 34053
+	random = no
+        country = JAP
+	trigger = {
+                  local_flag = JapanCivil
+       }
+
+	name = "戦略研究会"
+	desc = "情報部からの報告によると帝国軍将校による勉強会「戦略研究会」の活動が活発になっているようだ。"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 50
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ただの勉強会ではないか"
+                command = { }
+ }
+}
+
+event = {
+	id = 34054
+	random = no
+        country = JAP
+	trigger = {
+                  event = 34053
+       }
+
+	name = "戦略研究会"
+	desc = "情報部からの報告によると帝国軍将校による勉強会「戦略研究会」の活動がさらに活発になっているようだ。"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 30
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "警戒しよう"
+                command = { }
+ }
+}
+
+
+
+event = {
+	id = 34055
+	random = no
+        country = JAP
+	trigger = {
+                  event = 34054
+       }
+
+	name = "政情不安"
+	desc = "反米感情や綾峰中将事件を発端とする政情不安が広まりつつある。"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 30
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "何とかしなければ"
+                command = { type = dissent value = 3 }
+ }
+}
+
+event = {
+	id = 35001
+	random = no
+        country = JAP
+	trigger = {
+                  event = 130011#朝鮮南部壊滅(Local_fall)
+                  alliance = { country = JAP country = U06 }
+	}
+
+	name = "光州作戦の悲劇"
+	desc = "EVT_20001_DESC "
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんということだ・・・"
+		command = { type = trigger which = 35002 } 
+ }
+}
+
+
+event = {
+	id = 35002
+	random = no
+        country = JAP
+	trigger = {
+	}
+
+	name = "彩峰中将事件"
+	desc = "脱EVT_20001_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "国連に彩峰中将を引き渡す。"
+		command = { type = dissent value = 15 } 
+                command = { type = relation which = U06 value = -25 }
+ }
+        action_b = {
+                name = "引き渡さずに国内法で処罰する" #反乱日本帝国タグ:U10
+                command = { type = local_setflag which = JapanCivilWar }
+                command = { type = relation which = U06 value = -70 }
+		command = { type = dissent value = 5 } 
+ }
+}
+
+
+event = {
+	id = 35003
+	random = no
+        country = JAP
+	trigger = {
+                  event = 34055
+                  local_flag = JapanCivilWar
+                  not = {
+                    and = { ispuppet = JAP
+                            local_flag = BETAkyusyu
+                          }
+                        }
+	}
+
+	name = "12･5事件"
+	desc = "EVT_20001_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "直ちに鎮圧せよ！"
+		command = { type = civil_war which = U10 } 
+ }
+}
+
+event = {
+	id = 35004
+	random = no
+        country = JAP
+	trigger = {
+                   event = 35003
+	}
+
+	name = "沙霧尚哉と月詠真那(つくよみ　まな)"
+	desc = "EVT_20001_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "沙霧尚哉が月詠真那により戦死、クーデター軍瓦解"
+                ai_chance = 100 #これで日本がU10を併合した場合、プレイヤーがU10だったらゲームが落ちるからどうしましょう
+		command = { type = inherit which = U10 } 
+ }
+        action_b = {
+                name = "沙霧尚哉の勝利"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 35005
+	random = no
+        country = JAP
+	trigger = {
+                  event = 35003
+                  not = { exists = U10 }
+	}
+
+	name = "12･5事件終結"
+	desc = "EVT_20001_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "被害は甚大なものとなった・・・"
+		command = { type = dissent value = -3 } 
+ }
+}
+
+
+event = {
+	id = 35006
+	random = no
+        country = U10
+	trigger = {
+                  event = 35003
+                  not = { exists = JAP }
+	}
+
+	name = "12･5事件終結"
+	desc = "EVT_20001_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "新たなる日本を！"
+		command = { type = dissent value = -3 } 
+ }
+}

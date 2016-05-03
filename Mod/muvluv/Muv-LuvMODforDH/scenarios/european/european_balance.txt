@@ -1,0 +1,88 @@
+##############################################################
+##
+## 欧州大戦イベント_バランス調整(24101~24200)
+##
+##############################################################
+##
+## id = 24101   難易度選択
+## id = 24102   高難易度
+## id = 24103   中難易度
+##
+##############################################################
+event = {
+	id = 24101
+	random = no
+	trigger = { ai = no }
+
+	name = "難易度選択"
+	desc = "難易度を選んでください。"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "高難易度"
+		command = { type = setflag which = HighLevel }
+	}
+	action_b = {
+		name = "中難易度"
+		command = { type = setflag which = MiddleLevel }
+	}
+	action_c = {
+		name = "低難易度"
+		command = { }
+	}
+}
+
+event = {
+	id = 24102
+	random = no 
+	country = U12
+	trigger = {
+                flag = HighLevel
+	}
+	name = "高難易度"
+	desc = "初期調整"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.2 when = 1 }
+                command = { type = surprise which = land value = 30 }
+                command = { type = morale which = land value = 50 }
+                command = { type = toughness which = land value = 40 }
+                command = { type = defensiveness which = land value = 40 }
+                command = { type = soft_attack which = land value = 10 }
+                command = { type = hard_attack which = land value = 10 }
+	}
+}
+
+event = {
+	id = 24103
+	random = no 
+	country = U12
+	trigger = {
+                flag = MiddleLevel
+	}
+	name = "中難易度"
+	desc = "初期調整"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+                #command = { type = ground_def_eff value = 0.2 when = 1 }
+                command = { type = surprise which = land value = 10 }
+                command = { type = morale which = land value = 20 }
+                command = { type = toughness which = land value = 10 }
+                command = { type = defensiveness which = land value = 10 }
+                command = { type = soft_attack which = land value = 5 }
+                command = { type = hard_attack which = land value = 5 }
+	}
+}

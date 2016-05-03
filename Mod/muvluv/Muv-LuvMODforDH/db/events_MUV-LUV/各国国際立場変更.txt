@@ -1,0 +1,490 @@
+##############################################################
+##
+## 各国国際立場変更イベント(11001~12000)
+##
+##############################################################
+##
+## 日本帝国
+## id = 11001	前線国家
+## id = 11002	後方国家
+##
+## ソビエト連合
+## id = 11003	前線国家
+## id = 11004	後方国家
+##
+## 欧州連合
+## id = 11005	前線国家
+## id = 11006	後方国家
+##
+## 中東連合
+## id = 11007	前線国家
+## id = 11008	後方国家
+##
+## アフリカ連合
+## id = 11009	前線国家
+## id = 11010	後方国家
+##
+## 統一中華戦線
+## id = 11011	前線国家
+## id = 11012	後方国家
+##
+## 大東亜連合
+## id = 11013	前線国家
+## id = 11014	後方国家
+##
+## オーストラリア
+## id = 11015	前線国家
+## id = 11016	後方国家
+##
+## アメリカ合衆国
+## id = 11017	前線国家
+## id = 11018	後方国家
+##
+## 南アフリカ
+## id = 11019	前線国家
+## id = 11020	後方国家
+##
+## 中米連邦
+## id = 11021	前線国家
+## id = 11022	後方国家
+##
+## 南米連合
+## id = 11023	前線国家
+## id = 11024	後方国家
+##
+## その他(前線確定)
+## id = 11990	前線国家
+## id = 11991	後方国家
+##
+## その他(後方確定)
+## id = 11992	前線国家
+## id = 11993	後方国家
+##
+##############################################################
+
+event = {
+	id = 11001
+	random = yes
+	country = JAP
+	trigger = {
+			OR = {
+				flag = Sadogashima_Hive
+				flag = Yokohama_Hive
+				flag = Blagoveshchensk_Hive
+			}
+	}
+
+	name = "前線国家に認定"
+	desc = "EVT_11001_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = 15 }
+		command = { type = free_supplies value = 30 }
+		command = { type = free_money value = 1 }
+	}
+}
+
+event = {
+	id = 11002
+	random = yes
+	country = JAP
+	trigger = {
+			NOT = {
+				flag = Cheorwon_Hive
+				flag = Sadogashima_Hive
+				flag = Yokohama_Hive
+				flag = Blagoveshchensk_Hive
+			}
+	}
+
+	name = "後方国家に認定"
+	desc = "EVT_11002_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = -15 }
+		command = { type = free_supplies value = -15 }
+		command = { type = free_money value = -0.5 }
+	}
+}
+
+event = {
+	id = 11003
+	random = yes
+	country = SOV
+	trigger = {
+			OR = {
+				flag = Uralsk_Hive
+				flag = Velsk_Hive
+				flag = Minsk_Hive
+				flag = Ekibastuz_Hive
+				flag = Surgut_Hive
+				flag = Noginsk_Hive
+				flag = Krasnoyarsk_Hive
+				flag = Blagoveshchensk_Hive
+				flag = Olyokminsk_Hive
+				flag = Khatanga_Hive
+				flag = Verkhoyansk_Hive
+				flag = Evensk_Hive
+			}
+	}
+
+	name = "前線国家に認定"
+	desc = "EVT_11001_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = 15 }
+		command = { type = free_supplies value = 30 }
+		command = { type = free_money value = 1 }
+	}
+}
+
+event = {
+	id = 11004
+	random = yes
+	country = SOV
+	trigger = {
+			NOT = {
+				flag = Uralsk_Hive
+				flag = Velsk_Hive
+				flag = Minsk_Hive
+				flag = Ekibastuz_Hive
+				flag = Surgut_Hive
+				flag = Noginsk_Hive
+				flag = Krasnoyarsk_Hive
+				flag = Blagoveshchensk_Hive
+				flag = Olyokminsk_Hive
+				flag = Khatanga_Hive
+				flag = Verkhoyansk_Hive
+				flag = Evensk_Hive
+			}
+	}
+
+	name = "後方国家に認定"
+	desc = "EVT_11002_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = -15 }
+		command = { type = free_supplies value = -15 }
+		command = { type = free_money value = -0.5 }
+	}
+}
+
+event = {
+	id = 11005
+	random = yes
+	country = U02
+	trigger = {
+			OR = {
+				flag = Uralsk_Hive
+				flag = Velsk_Hive
+				flag = Surgut_Hive
+				flag = Anbar_Hive
+				flag = Lyon_Hive
+				flag = Budapest_Hive
+				flag = Rovaniemi_Hive
+			}
+	}
+
+	name = "前線国家に認定"
+	desc = "EVT_11001_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = 15 }
+		command = { type = free_supplies value = 30 }
+		command = { type = free_money value = 1 }
+	}
+}
+
+event = {
+	id = 11006
+	random = yes
+	country = U02
+	trigger = {
+			NOT = {
+				flag = Uralsk_Hive
+				flag = Velsk_Hive
+				flag = Surgut_Hive
+				flag = Anbar_Hive
+				flag = Lyon_Hive
+				flag = Budapest_Hive
+				flag = Rovaniemi_Hive
+			}
+	}
+
+	name = "後方国家に認定"
+	desc = "EVT_11002_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = -15 }
+		command = { type = free_supplies value = -15 }
+		command = { type = free_money value = -0.5 }
+	}
+}
+
+event = {
+	id = 11007
+	random = yes
+	country = U03
+	trigger = {
+			OR = {
+				flag = Anbar_Hive
+				flag = Mashhad_Hive
+				flag = Budapest_Hive
+				flag = Uralsk_Hive
+				flag = Kashgar_Hive
+				flag = Bhopal_Hive
+			}
+	}
+
+	name = "前線国家に認定"
+	desc = "EVT_11001_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = 15 }
+		command = { type = free_supplies value = 30 }
+		command = { type = free_money value = 1 }
+	}
+}
+
+event = {
+	id = 11008
+	random = yes
+	country = U03
+	trigger = {
+			NOT = {
+				flag = Anbar_Hive
+				flag = Mashhad_Hive
+				flag = Budapest_Hive
+				flag = Uralsk_Hive
+				flag = Kashgar_Hive
+				flag = Bhopal_Hive
+			}
+	}
+
+	name = "後方国家に認定"
+	desc = "EVT_11002_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = -15 }
+		command = { type = free_supplies value = -15 }
+		command = { type = free_money value = -0.5 }
+	}
+}
+
+event = {
+	id = 11009
+	random = yes
+	country = U01
+	trigger = {
+			OR = {
+				flag = Anbar_Hive
+			}
+	}
+
+	name = "前線国家に認定"
+	desc = "EVT_11001_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = 15 }
+		command = { type = free_supplies value = 30 }
+		command = { type = free_money value = 1 }
+	}
+}
+
+event = {
+	id = 11010
+	random = yes
+	country = U01
+	trigger = {
+			NOT = {
+				flag = Anbar_Hive
+			}
+	}
+
+	name = "後方国家に認定"
+	desc = "EVT_11002_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = -15 }
+		command = { type = free_supplies value = -15 }
+		command = { type = free_money value = -0.5 }
+	}
+}
+
+event = {
+	id = 11011
+	random = yes
+	country = U05
+	trigger = {
+			OR = {
+				flag = Kashgar_Hive
+				flag = Dunhuang_Hive
+				flag = Chongqing_Hive
+				flag = Cheorwon_Hive
+				flag = Blagoveshchensk_Hive
+				flag = Ulanbator_Hive
+				flag = Mandalay_Hive
+				flag = Bhopal_Hive
+				flag = Ekibastuz_Hive
+				flag = Mashhad_Hive
+			}
+	}
+
+	name = "前線国家に認定"
+	desc = "EVT_11001_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = 15 }
+		command = { type = free_supplies value = 30 }
+		command = { type = free_money value = 1 }
+	}
+}
+
+event = {
+	id = 11012
+	random = yes
+	country = U05
+	trigger = {
+			NOT = {
+				flag = Kashgar_Hive
+				flag = Dunhuang_Hive
+				flag = Chongqing_Hive
+				flag = Cheorwon_Hive
+				flag = Blagoveshchensk_Hive
+				flag = Ulanbator_Hive
+				flag = Mandalay_Hive
+				flag = Bhopal_Hive
+				flag = Ekibastuz_Hive
+				flag = Mashhad_Hive
+			}
+	}
+
+	name = "後方国家に認定"
+	desc = "EVT_11002_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = -15 }
+		command = { type = free_supplies value = -15 }
+		command = { type = free_money value = -0.5 }
+	}
+}
+
+event = {
+	id = 11013
+	random = yes
+	country = U04
+	trigger = {
+			OR = {
+				flag = Bhopal_Hive
+				flag = Mandalay_Hive
+				flag = Chongqing_Hive
+				flag = Dunhuang_Hive
+				flag = Kashgar_Hive
+				flag = Mashhad_Hive
+			}
+	}
+
+	name = "前線国家に認定"
+	desc = "EVT_11001_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = 15 }
+		command = { type = free_supplies value = 30 }
+		command = { type = free_money value = 1 }
+	}
+}
+
+event = {
+	id = 11014
+	random = yes
+	country = -1
+	trigger = {
+			NOT = {
+				flag = Bhopal_Hive
+				flag = Mandalay_Hive
+				flag = Chongqing_Hive
+				flag = Dunhuang_Hive
+				flag = Kashgar_Hive
+				flag = Mashhad_Hive
+			}
+	}
+
+	name = "後方国家に認定"
+	desc = "EVT_11002_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "了解"
+		command = { type = free_ic value = -15 }
+		command = { type = free_supplies value = -15 }
+		command = { type = free_money value = -0.5 }
+	}
+}

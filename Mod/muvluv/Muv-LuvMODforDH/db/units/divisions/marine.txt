@@ -1,0 +1,968 @@
+allowed_brigades = artillery
+allowed_brigades = anti_tank
+allowed_brigades = anti_air
+allowed_brigades = rocket_artillery
+allowed_brigades = sp_artillery
+allowed_brigades = sp_rct_artillery
+allowed_brigades = tank_destroyer
+allowed_brigades = light_armor_brigade
+allowed_brigades = heavy_armor
+allowed_brigades = super_heavy_armor
+allowed_brigades = armored_car
+allowed_brigades = engineer
+allowed_brigades = police
+allowed_brigades = sp_anti_air
+allowed_brigades = medium_armor
+allowed_brigades = floatplane
+allowed_brigades = light_cag
+allowed_brigades = amph_armor
+allowed_brigades = glider_armor
+allowed_brigades = glider_artillery
+allowed_brigades = super_heavy_artillery
+allowed_brigades = b_rsv_36
+allowed_brigades = b_rsv_37
+allowed_brigades = b_rsv_38
+# Early Marine Division - 1
+model =
+{ cost                = 15
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  toughness           = 45
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  hardattack          = 27
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  softattack          = 22
+}
+# Basic Marine Division - 2
+model =
+{ cost                = 15
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  toughness           = 45
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  softattack          = 23
+  hardattack          = 29
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Marine Division - 3
+model =
+{ cost                = 15
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  toughness           = 45
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  softattack          = 25
+  hardattack          = 30
+  airattack           = 4
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Marine Division - 4
+model =
+{ cost                = 15
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  softness            = 50
+  suppression         = 3
+  airdefence          = 5
+  softattack          = 26
+  hardattack          = 31
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  toughness           = 45
+}
+# Semimodern Marine Division - 5
+model =
+{ cost                = 15
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 40
+  toughness           = 45
+  softness            = 50
+  suppression         = 3
+  airdefence          = 6
+  softattack          = 29
+  hardattack          = 35
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 0.9
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Modern Marine Division - 6
+model =
+{ cost                = 16
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 32
+  hardattack          = 37
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  toughness           = 50
+}
+# Advanced Marine Division - 4
+model =
+{ cost                = 16
+  buildtime           = 380
+  manpower            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  softattack          = 33
+  hardattack          = 39
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 0.9
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  maxspeed            = 5
+  airdefence          = 3
+}
+# Semimodern Marine Division - 5
+model =
+{ cost                = 16
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 35
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  hardattack          = 40
+}
+# Modern Marine Division - 6
+model =
+{ cost                = 16
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 36
+  hardattack          = 41
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Marine Division - 1
+model =
+{ cost                = 16
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 45
+  toughness           = 50
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 39
+  hardattack          = 45
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Marine Division - 2
+model =
+{ cost                = 17
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 6
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 42
+  hardattack          = 47
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Marine Division - 3
+model =
+{ cost                = 17
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 6
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 43
+  hardattack          = 49
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Marine Division - 4
+model =
+{ cost                = 17
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 6
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 45
+  hardattack          = 50
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Marine Division - 1
+model =
+{ cost                = 17
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 6
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 46
+  hardattack          = 51
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Marine Division - 2
+model =
+{ cost                = 17
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 6
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 49
+  hardattack          = 55
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Marine Division - 3
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 52
+  hardattack          = 57
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 0.9
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  toughness           = 60
+}
+# Advanced Marine Division - 4
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  toughness           = 60
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 53
+  hardattack          = 59
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  defensiveness       = 55
+}
+# Early Marine Division - 1
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 55
+  toughness           = 60
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 55
+  hardattack          = 60
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Marine Division - 2
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 55
+  toughness           = 60
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 56
+  hardattack          = 61
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Marine Division - 3
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 55
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 59
+  hardattack          = 65
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  toughness           = 60
+}
+# Advanced Marine Division - 4
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 62
+  hardattack          = 67
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Marine Division - 1
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 63
+  hardattack          = 69
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Marine Division - 2
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 65
+  hardattack          = 70
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Marine Division - 3
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 66
+  hardattack          = 71
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Marine Division - 4
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 7
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 60
+  toughness           = 65
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 69
+  hardattack          = 75
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Marine Division - 1
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 8
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 65
+  toughness           = 70
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 72
+  hardattack          = 77
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Marine Division - 2
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 8
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 65
+  toughness           = 70
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 73
+  hardattack          = 79
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Marine Division - 3
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 8
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 65
+  toughness           = 70
+  softness            = 50
+  suppression         = 3
+  softattack          = 75
+  hardattack          = 80
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+  airdefence          = 3
+}
+# Advanced Marine Division - 4
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 8
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 65
+  toughness           = 70
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 76
+  hardattack          = 81
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Marine Division - 3
+model =
+{ cost                = 18
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 8
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 65
+  toughness           = 70
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 79
+  hardattack          = 85
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Advanced Marine Division - 4
+model =
+{ cost                = 15
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 25
+  toughness           = 30
+  softness            = 50
+  suppression         = 3
+  airdefence          = 6
+  softattack          = 14
+  hardattack          = 5
+  airattack           = 5
+  transportweight     = 15
+  supplyconsumption   = 0.9
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Early Marine Division - 1
+model =
+{ cost                = 15
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 4
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 15
+  toughness           = 12
+  softness            = 50
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 8
+  hardattack          = 1
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 5
+  speed_cap_eng       = 5
+  speed_cap_at        = 5
+  speed_cap_aa        = 5
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Basic Marine Division - 2
+model =
+{ cost                = 15
+  buildtime           = 380
+  manpower            = 5
+  maxspeed            = 5
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 18
+  toughness           = 18
+  softness            = 50
+  suppression         = 3
+  airdefence          = 4
+  softattack          = 10
+  hardattack          = 2
+  airattack           = 3
+  transportweight     = 15
+  supplyconsumption   = 0.1
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 360 EQUIPMENT = 36 }
+}
+# Improved Marine Division - 3
+model =
+{ cost                = 30
+  buildtime           = 120
+  manpower            = 40
+  maxspeed            = 15
+  morale              = 300
+  defensiveness       = 50
+  toughness           = 60
+  softness            = 50
+  suppression         = 200
+  airdefence          = 10
+  airattack           = 0
+  transportweight     = 0.2
+  supplyconsumption   = 0.2
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 10.0
+  upgrade_cost_factor = 2.0
+  defaultorganisation = 200
+  softattack          = 40
+  hardattack          = 60
+  equipment = { heavy_artillery = 11000 }
+}
+# Advanced Marine Division - 4
+model =
+{ cost                = 15
+  buildtime           = 60
+  manpower            = 50
+  maxspeed            = 15
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 55
+  toughness           = 60
+  softness            = 50
+  suppression         = 3
+  airdefence          = 6
+  softattack          = 30
+  hardattack          = 40
+  airattack           = 0
+  transportweight     = 0.1
+  supplyconsumption   = 0.1
+  fuelconsumption     = 0
+  speed_cap_art       = 6
+  speed_cap_eng       = 6
+  speed_cap_at        = 6
+  speed_cap_aa        = 6
+  upgrade_time_factor = 5.0
+  upgrade_cost_factor = 1.0
+}

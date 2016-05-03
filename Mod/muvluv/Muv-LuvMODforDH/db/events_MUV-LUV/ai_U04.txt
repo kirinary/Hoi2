@@ -1,0 +1,18 @@
+event = {
+	id = 65001
+	random = no 
+	country = U04
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = U04_1998L.ai }
+	}
+}
