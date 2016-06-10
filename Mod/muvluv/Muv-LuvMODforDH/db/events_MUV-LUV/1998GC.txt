@@ -1030,17 +1030,8 @@ event = {
 	random = no
         country = JAP
 	trigger = {
-                  or = {
-                   and = {
-                    control = { province = 1185 data = U06 }
-                    event = 70002
-                          }
-                   and = {
-                    event = 70001
-                    event = 500131
-                    control = { province = 1185 data = U06 }
-                         }
-                        }
+                  flag = Sadogashima_Hive
+                  control = { province = 1185 data = -3 }
        }
 	name = "b21†ìí¬Œ÷"
 	desc = "EVT_50107_DESC"

@@ -2408,7 +2408,7 @@ technology =
     component = { id = 30295 name = TECH_CMP_NAVAL_329_5_NAME type = technical_efficiency difficulty = 8 }
     required  = { 7610 }
     effects =
-    { command = { type = new_model which = battleship value = 23 }
+    { command = { type = new_model which = battleship value = 28 }
     }
   }
   # å¥éqóÕêÌäÕáUå^
@@ -2425,8 +2425,8 @@ technology =
     component = { id = 30305 name = TECH_CMP_NAVAL_330_5_NAME type = technical_efficiency difficulty = 8 }
     required  = { 30290 }
     effects =
-    { command = { type = new_model which = battleship value = 24 }
-      command = { type = scrap_model which = battleship value = 23 }
+    { command = { type = new_model which = battleship value = 29 }
+      command = { type = scrap_model which = battleship value = 28 }
     }
   }
   # å¥éqóÕêÌäÕáVå^
@@ -2443,8 +2443,8 @@ technology =
     component = { id = 30315 name = TECH_CMP_NAVAL_331_5_NAME type = technical_efficiency difficulty = 8 }
     required  = { 30300 }
     effects =
-    { command = { type = new_model which = battleship value = 25 }
-      command = { type = scrap_model which = battleship value = 24 }
+    { command = { type = new_model which = battleship value = 30 }
+      command = { type = scrap_model which = battleship value = 29 }
     }
   }
   # å¥éqóÕêˆêÖäÕáTå^

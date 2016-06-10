@@ -183,7 +183,7 @@ model =
   equipment = { manpower = 36 EQUIPMENT = 36 }
   cost                = 16
 }
-# 要撃級
+# 要撃級 6
 model =
 { cost                = 20
   buildtime           = 60
@@ -209,7 +209,7 @@ model =
   upgrade_cost_factor = 0
   airdefence          = 10
 }
-# 6
+# 7
 model =
 { buildtime           = 300
   manpower            = 5
@@ -236,7 +236,7 @@ model =
   equipment = { manpower = 36 EQUIPMENT = 36 }
   cost                = 17
 }
-# 7
+# 8
 model =
 { cost                = 17
   buildtime           = 300
@@ -263,7 +263,7 @@ model =
   equipment = { manpower = 36 EQUIPMENT = 36 }
   hardattack          = 34
 }
-# 8
+# 9
 model =
 { cost                = 17
   buildtime           = 300
@@ -290,7 +290,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 9
+# 10
 model =
 { cost                = 18
   buildtime           = 300
@@ -317,7 +317,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 10
+# 11
 model =
 { cost                = 18
   buildtime           = 300
@@ -344,7 +344,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 11
+# 12
 model =
 { cost                = 19
   buildtime           = 300
@@ -371,7 +371,7 @@ model =
   equipment = { manpower = 36 EQUIPMENT = 36 }
   toughness           = 45
 }
-# 12
+# 13
 model =
 { cost                = 19
   buildtime           = 300
@@ -398,7 +398,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 13
+# 14
 model =
 { cost                = 19
   buildtime           = 300
@@ -425,7 +425,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 14
+# 15
 model =
 { cost                = 19
   buildtime           = 300
@@ -452,7 +452,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 15
+# 16
 model =
 { cost                = 19
   buildtime           = 300
@@ -479,7 +479,7 @@ model =
   equipment = { manpower = 36 EQUIPMENT = 36 }
   softattack          = 43
 }
-# 16
+# 17
 model =
 { cost                = 20
   buildtime           = 300
@@ -506,7 +506,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 17
+# 18
 model =
 { cost                = 20
   buildtime           = 300
@@ -533,7 +533,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 18
+# 19
 model =
 { cost                = 20
   buildtime           = 300
@@ -560,7 +560,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 19
+# 20
 model =
 { cost                = 20
   buildtime           = 300
@@ -587,7 +587,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 20
+# 21
 model =
 { cost                = 20
   buildtime           = 300
@@ -614,7 +614,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 21
+# 22
 model =
 { cost                = 21
   buildtime           = 300
@@ -641,7 +641,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 22
+# 23
 model =
 { cost                = 21
   buildtime           = 300
@@ -668,7 +668,7 @@ model =
   equipment = { manpower = 36 EQUIPMENT = 36 }
   airattack           = 3
 }
-# 23
+# 24
 model =
 { cost                = 21
   buildtime           = 300
@@ -695,7 +695,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 24
+# 25
 model =
 { cost                = 21
   buildtime           = 300
@@ -722,7 +722,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 25
+# 26
 model =
 { cost                = 21
   buildtime           = 300
@@ -749,7 +749,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 26
+# 母艦級 27
 model =
 { cost                = 21
   buildtime           = 300
@@ -776,7 +776,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { manpower = 36 EQUIPMENT = 36 }
 }
-# 母艦級
+# 28 無人
 model =
 { cost                = 4
   buildtime           = 300
@@ -790,7 +790,7 @@ model =
   suppression         = 3
   airdefence          = 3
   softattack          = 30
-  hardattack          = 0
+  hardattack          = 30
   airattack           = 10
   transportweight     = 10
   supplyconsumption   = 0.2
@@ -803,7 +803,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { EQUIPMENT = 36 }
 }
-# 28 無人
+# 29 無人
 model =
 { cost                = 25
   buildtime           = 360
@@ -830,7 +830,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { EQUIPMENT = 36 }
 }
-# 29 無人
+# 30 無人
 model =
 { cost                = 25
   buildtime           = 360
@@ -857,7 +857,7 @@ model =
   upgrade_cost_factor = 1.0
   equipment = { EQUIPMENT = 36 }
 }
-# 30 無人
+# 31
 model =
 { cost                = 25
   buildtime           = 360

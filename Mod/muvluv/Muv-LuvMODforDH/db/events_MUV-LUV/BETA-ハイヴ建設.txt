@@ -171,7 +171,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U13 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1500 value = 2 }
+		command = { type = construct which = infrastructure where = 1500 value = 20 }
 		command = { type = construct which = ic where = 1500 value = 10 }
 		command = { type = construct which = coastal_fort where = 1500 value = 10 }
 		#command = { type = construct which = land_fort where = 1500 value = 10 }
@@ -211,7 +211,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U14 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1568 value = 2 }
+		command = { type = construct which = infrastructure where = 1568 value = 20 }
 		command = { type = construct which = ic where = 1568 value = 10 }
 		command = { type = construct which = coastal_fort where = 1568 value = 10 }
 		#command = { type = construct which = land_fort where = 1568 value = 10 }
@@ -251,7 +251,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U15 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1156 value = 2 }
+		command = { type = construct which = infrastructure where = 1156 value = 20 }
 		command = { type = construct which = ic where = 1156 value = 10 }
 		command = { type = construct which = coastal_fort where = 1156 value = 10 }
 		#command = { type = construct which = land_fort where = 1156 value = 10 }
@@ -291,7 +291,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U16 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 212 value = 2 }
+		command = { type = construct which = infrastructure where = 212 value = 20 }
 		command = { type = construct which = ic where = 212 value = 10 }
 		command = { type = construct which = coastal_fort where = 212 value = 10 }
 		#command = { type = construct which = land_fort where = 212 value = 10 }
@@ -331,7 +331,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U17 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1551 value = 2 }
+		command = { type = construct which = infrastructure where = 1551 value = 20 }
 		command = { type = construct which = ic where = 1551 value = 10 }
 		command = { type = construct which = coastal_fort where = 1551 value = 10 }
 		#command = { type = construct which = land_fort where = 1551 value = 10 }
@@ -371,7 +371,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U18 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1557 value = 2 }
+		command = { type = construct which = infrastructure where = 1557 value = 20 }
 		command = { type = construct which = ic where = 1557 value = 10 }
 		command = { type = construct which = coastal_fort where = 1557 value = 10 }
 		#command = { type = construct which = land_fort where = 1557 value = 10 }
@@ -411,7 +411,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U19 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 136 value = 2 }
+		command = { type = construct which = infrastructure where = 136 value = 20 }
 		command = { type = construct which = ic where = 136 value = 10 }
 		command = { type = construct which = coastal_fort where = 136 value = 10 }
 		#command = { type = construct which = land_fort where = 136 value = 10 }
@@ -451,7 +451,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U20 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1864 value = 2 }
+		command = { type = construct which = infrastructure where = 1864 value = 20 }
 		command = { type = construct which = ic where = 1864 value = 10 }
 		command = { type = construct which = coastal_fort where = 1864 value = 10 }
 		#command = { type = construct which = land_fort where = 1864 value = 10 }
@@ -491,7 +491,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U21 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1557 value = 2 }
+		command = { type = construct which = infrastructure where = 1557 value = 20 }
 		command = { type = construct which = ic where = 1557 value = 10 }
 		command = { type = construct which = coastal_fort where = 1557 value = 10 }
 		#command = { type = construct which = land_fort where = 1557 value = 10 }
@@ -531,7 +531,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U22 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 457 value = 2 }
+		command = { type = construct which = infrastructure where = 457 value = 20 }
 		command = { type = construct which = ic where = 457 value = 10 }
 		command = { type = construct which = coastal_fort where = 457 value = 10 }
 		#command = { type = construct which = land_fort where = 457 value = 10 }
@@ -571,7 +571,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U23 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 529 value = 2 }
+		command = { type = construct which = infrastructure where = 529 value = 20 }
 		command = { type = construct which = ic where = 529 value = 10 }
 		command = { type = construct which = coastal_fort where = 529 value = 10 }
 		#command = { type = construct which = land_fort where = 529 value = 10 }
@@ -611,7 +611,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U24 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 722 value = 2 }
+		command = { type = construct which = infrastructure where = 722 value = 20 }
 		command = { type = construct which = ic where = 722 value = 10 }
 		command = { type = construct which = coastal_fort where = 722 value = 10 }
 		#command = { type = construct which = land_fort where = 722 value = 10 }
@@ -651,7 +651,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U25 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1441 value = 2 }
+		command = { type = construct which = infrastructure where = 1441 value = 20 }
 		command = { type = construct which = ic where = 1441 value = 10 }
 		command = { type = construct which = coastal_fort where = 1441 value = 10 }
 		#command = { type = construct which = land_fort where = 1441 value = 10 }
@@ -691,7 +691,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U26 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1560 value = 2 }
+		command = { type = construct which = infrastructure where = 1560 value = 20 }
 		command = { type = construct which = ic where = 1560 value = 10 }
 		command = { type = construct which = coastal_fort where = 1560 value = 10 }
 		#command = { type = construct which = land_fort where = 1560 value = 10 }
@@ -731,7 +731,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U27 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 2551 value = 2 }
+		command = { type = construct which = infrastructure where = 2551 value = 20 }
 		command = { type = construct which = ic where = 2551 value = 10 }
 		command = { type = construct which = coastal_fort where = 2551 value = 10 }
 		#command = { type = construct which = land_fort where = 2551 value = 10 }
@@ -771,7 +771,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U28 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1300 value = 2 }
+		command = { type = construct which = infrastructure where = 1300 value = 20 }
 		command = { type = construct which = ic where = 1300 value = 10 }
 		command = { type = construct which = coastal_fort where = 1300 value = 10 }
 		#command = { type = construct which = land_fort where = 1300 value = 10 }
@@ -811,7 +811,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U29 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1404 value = 2 }
+		command = { type = construct which = infrastructure where = 1404 value = 20 }
 		command = { type = construct which = ic where = 1404 value = 10 }
 		command = { type = construct which = coastal_fort where = 1404 value = 10 }
 		#command = { type = construct which = land_fort where = 1404 value = 10 }
@@ -851,7 +851,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U30 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1525 value = 2 }
+		command = { type = construct which = infrastructure where = 1525 value = 20 }
 		command = { type = construct which = ic where = 1525 value = 10 }
 		command = { type = construct which = coastal_fort where = 1525 value = 10 }
 		#command = { type = construct which = land_fort where = 1525 value = 10 }
@@ -891,7 +891,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U31 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1199 value = 2 }
+		command = { type = construct which = infrastructure where = 1199 value = 20 }
 		command = { type = construct which = ic where = 1199 value = 10 }
 		command = { type = construct which = coastal_fort where = 1199 value = 10 }
 		#command = { type = construct which = land_fort where = 1199 value = 10 }
@@ -931,7 +931,7 @@ event = {
         action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U32 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1185 value = 2 }
+		command = { type = construct which = infrastructure where = 1185 value = 20 }
 		command = { type = construct which = ic where = 1185 value = 10 }
 		command = { type = construct which = coastal_fort where = 1185 value = 10 }
 		#command = { type = construct which = land_fort where = 1185 value = 10 }
@@ -971,7 +971,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U33 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1193 value = 2 }
+		command = { type = construct which = infrastructure where = 1193 value = 20 }
 		command = { type = construct which = ic where = 1193 value = 10 }
 		command = { type = construct which = coastal_fort where = 1193 value = 10 }
 		#command = { type = construct which = land_fort where = 1193 value = 10 }
@@ -1010,7 +1010,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U34 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 2660 value = 2 }
+		command = { type = construct which = infrastructure where = 2660 value = 20 }
 		command = { type = construct which = ic where = 2660 value = 10 }
 		command = { type = construct which = coastal_fort where = 2660 value = 10 }
 		#command = { type = construct which = land_fort where = 2660 value = 10 }
@@ -1049,7 +1049,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U35 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 2659 value = 2 }
+		command = { type = construct which = infrastructure where = 2659 value = 20 }
 		command = { type = construct which = ic where = 2659 value = 10 }
 		command = { type = construct which = coastal_fort where = 2659 value = 10 }
 		#command = { type = construct which = land_fort where = 2659 value = 10 }
@@ -1088,7 +1088,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U36 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 2651 value = 2 }
+		command = { type = construct which = infrastructure where = 2651 value = 20 }
 		command = { type = construct which = ic where = 2651 value = 10 }
 		command = { type = construct which = coastal_fort where = 2651 value = 10 }
 		#command = { type = construct which = land_fort where = 2651 value = 10 }
@@ -1128,7 +1128,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U37 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 19 value = 2 }
+		command = { type = construct which = infrastructure where = 19 value = 20 }
 		command = { type = construct which = ic where = 19 value = 10 }
 		command = { type = construct which = coastal_fort where = 19 value = 10 }
 		#command = { type = construct which = land_fort where = 19 value = 10 }
@@ -1169,7 +1169,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U38 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 30 value = 2 }
+		command = { type = construct which = infrastructure where = 30 value = 20 }
 		command = { type = construct which = ic where = 30 value = 10 }
 		command = { type = construct which = coastal_fort where = 30 value = 10 }
 		#command = { type = construct which = land_fort where = 30 value = 10 }
@@ -1209,7 +1209,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U39 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1 value = 2 }
+		command = { type = construct which = infrastructure where = 1 value = 20 }
 		command = { type = construct which = ic where = 1 value = 10 }
 		command = { type = construct which = coastal_fort where = 1 value = 10 }
 		#command = { type = construct which = land_fort where = 1 value = 10 }
@@ -1249,7 +1249,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U40 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 800 value = 2 }
+		command = { type = construct which = infrastructure where = 800 value = 20 }
 		command = { type = construct which = ic where = 800 value = 10 }
 		command = { type = construct which = coastal_fort where = 800 value = 10 }
 		#command = { type = construct which = land_fort where = 800 value = 10 }
@@ -1289,7 +1289,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U41 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 538 value = 2 }
+		command = { type = construct which = infrastructure where = 538 value = 20 }
 		command = { type = construct which = ic where = 538 value = 10 }
 		command = { type = construct which = coastal_fort where = 538 value = 10 }
 		#command = { type = construct which = land_fort where = 538 value = 10 }
@@ -1329,7 +1329,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U42 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1867 value = 2 }
+		command = { type = construct which = infrastructure where = 1867 value = 20 }
 		command = { type = construct which = ic where = 1867 value = 10 }
 		command = { type = construct which = coastal_fort where = 1867 value = 10 }
 		#command = { type = construct which = land_fort where = 1867 value = 10 }
@@ -1369,7 +1369,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U43 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 525 value = 2 }
+		command = { type = construct which = infrastructure where = 525 value = 20 }
 		command = { type = construct which = ic where = 525 value = 10 }
 		command = { type = construct which = coastal_fort where = 525 value = 10 }
 		#command = { type = construct which = land_fort where = 525 value = 10 }
@@ -1409,7 +1409,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U44 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 939 value = 2 }
+		command = { type = construct which = infrastructure where = 939 value = 20 }
 		command = { type = construct which = ic where = 939 value = 10 }
 		command = { type = construct which = coastal_fort where = 939 value = 10 }
 		#command = { type = construct which = land_fort where = 939 value = 10 }
@@ -1449,7 +1449,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U45 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1046 value = 2 }
+		command = { type = construct which = infrastructure where = 1046 value = 20 }
 		command = { type = construct which = ic where = 1046 value = 10 }
 		command = { type = construct which = coastal_fort where = 1046 value = 10 }
 		#command = { type = construct which = land_fort where = 1046 value = 10 }
@@ -1489,7 +1489,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U46 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1144 value = 2 }
+		command = { type = construct which = infrastructure where = 1144 value = 20 }
 		command = { type = construct which = ic where = 1144 value = 10 }
 		command = { type = construct which = coastal_fort where = 1144 value = 10 }
 		#command = { type = construct which = land_fort where = 1144 value = 10 }
@@ -1529,7 +1529,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U47 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1120 value = 2 }
+		command = { type = construct which = infrastructure where = 1120 value = 20 }
 		command = { type = construct which = ic where = 1120 value = 10 }
 		command = { type = construct which = coastal_fort where = 1120 value = 10 }
 		#command = { type = construct which = land_fort where = 1120 value = 10 }
@@ -1569,7 +1569,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U48 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1012 value = 2 }
+		command = { type = construct which = infrastructure where = 1012 value = 20 }
 		command = { type = construct which = ic where = 1012 value = 10 }
 		command = { type = construct which = coastal_fort where = 1012 value = 10 }
 		#command = { type = construct which = land_fort where = 1012 value = 10 }
@@ -1609,7 +1609,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U49 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 981 value = 2 }
+		command = { type = construct which = infrastructure where = 981 value = 20 }
 		command = { type = construct which = ic where = 981 value = 10 }
 		command = { type = construct which = coastal_fort where = 981 value = 10 }
 		#command = { type = construct which = land_fort where = 981 value = 10 }
@@ -1649,7 +1649,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U50 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 932 value = 2 }
+		command = { type = construct which = infrastructure where = 932 value = 20 }
 		command = { type = construct which = ic where = 932 value = 10 }
 		command = { type = construct which = coastal_fort where = 932 value = 10 }
 		#command = { type = construct which = land_fort where = 932 value = 10 }
@@ -1689,7 +1689,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U51 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 949 value = 2 }
+		command = { type = construct which = infrastructure where = 949 value = 20 }
 		command = { type = construct which = ic where = 949 value = 10 }
 		command = { type = construct which = coastal_fort where = 949 value = 10 }
 		#command = { type = construct which = land_fort where = 949 value = 10 }
@@ -1729,7 +1729,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U52 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1137 value = 2 }
+		command = { type = construct which = infrastructure where = 1137 value = 20 }
 		command = { type = construct which = ic where = 1137 value = 10 }
 		command = { type = construct which = coastal_fort where = 1137 value = 10 }
 		#command = { type = construct which = land_fort where = 1137 value = 10 }
@@ -1769,7 +1769,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U53 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1353 value = 2 }
+		command = { type = construct which = infrastructure where = 1353 value = 20 }
 		command = { type = construct which = ic where = 1353 value = 10 }
 		command = { type = construct which = coastal_fort where = 1353 value = 10 }
 		#command = { type = construct which = land_fort where = 1353 value = 10 }
@@ -1809,7 +1809,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U54 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1645 value = 2 }
+		command = { type = construct which = infrastructure where = 1645 value = 20 }
 		command = { type = construct which = ic where = 1645 value = 10 }
 		command = { type = construct which = coastal_fort where = 1645 value = 10 }
 		#command = { type = construct which = land_fort where = 1645 value = 10 }
@@ -1849,7 +1849,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U55 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1678 value = 2 }
+		command = { type = construct which = infrastructure where = 1678 value = 20 }
 		command = { type = construct which = ic where = 1678 value = 10 }
 		command = { type = construct which = coastal_fort where = 1678 value = 10 }
 		#command = { type = construct which = land_fort where = 1678 value = 10 }
@@ -1889,7 +1889,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U56 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1737 value = 2 }
+		command = { type = construct which = infrastructure where = 1737 value = 20 }
 		command = { type = construct which = ic where = 1737 value = 10 }
 		command = { type = construct which = coastal_fort where = 1737 value = 10 }
 		#command = { type = construct which = land_fort where = 1737 value = 10 }
@@ -1929,7 +1929,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U57 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1323 value = 2 }
+		command = { type = construct which = infrastructure where = 1323 value = 20 }
 		command = { type = construct which = ic where = 1323 value = 10 }
 		command = { type = construct which = coastal_fort where = 1323 value = 10 }
 		#command = { type = construct which = land_fort where = 1323 value = 10 }
@@ -1969,7 +1969,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U58 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1727 value = 2 }
+		command = { type = construct which = infrastructure where = 1727 value = 20 }
 		command = { type = construct which = ic where = 1727 value = 10 }
 		command = { type = construct which = coastal_fort where = 1727 value = 10 }
 		#command = { type = construct which = land_fort where = 1727 value = 10 }
@@ -2009,7 +2009,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U59 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1703 value = 2 }
+		command = { type = construct which = infrastructure where = 1703 value = 20 }
 		command = { type = construct which = ic where = 1703 value = 10 }
 		command = { type = construct which = coastal_fort where = 1703 value = 10 }
 		#command = { type = construct which = land_fort where = 1703 value = 10 }
@@ -2049,7 +2049,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U60 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1870 value = 2 }
+		command = { type = construct which = infrastructure where = 1870 value = 20 }
 		command = { type = construct which = ic where = 1870 value = 10 }
 		command = { type = construct which = coastal_fort where = 1870 value = 10 }
 		#command = { type = construct which = land_fort where = 1870 value = 10 }
@@ -2089,7 +2089,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U61 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1624 value = 2 }
+		command = { type = construct which = infrastructure where = 1624 value = 20 }
 		command = { type = construct which = ic where = 1624 value = 10 }
 		command = { type = construct which = coastal_fort where = 1624 value = 10 }
 		#command = { type = construct which = land_fort where = 1624 value = 10 }
@@ -2129,7 +2129,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U62 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 663 value = 2 }
+		command = { type = construct which = infrastructure where = 663 value = 20 }
 		command = { type = construct which = ic where = 663 value = 10 }
 		command = { type = construct which = coastal_fort where = 663 value = 10 }
 		#command = { type = construct which = land_fort where = 663 value = 10 }
@@ -2169,7 +2169,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U63 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1517 value = 2 }
+		command = { type = construct which = infrastructure where = 1517 value = 20 }
 		command = { type = construct which = ic where = 1517 value = 10 }
 		command = { type = construct which = coastal_fort where = 1517 value = 10 }
 		#command = { type = construct which = land_fort where = 1517 value = 10 }
@@ -2208,7 +2208,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U64 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1523 value = 2 }
+		command = { type = construct which = infrastructure where = 1523 value = 20 }
 		command = { type = construct which = ic where = 1523 value = 10 }
 		command = { type = construct which = coastal_fort where = 1523 value = 10 }
 		#command = { type = construct which = land_fort where = 1523 value = 10 }
@@ -2248,7 +2248,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U65 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1180 value = 2 }
+		command = { type = construct which = infrastructure where = 1180 value = 20 }
 		command = { type = construct which = ic where = 1180 value = 10 }
 		command = { type = construct which = coastal_fort where = 1180 value = 10 }
 		#command = { type = construct which = land_fort where = 1180 value = 10 }
@@ -2288,7 +2288,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U66 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 1170 value = 2 }
+		command = { type = construct which = infrastructure where = 1170 value = 20 }
 		command = { type = construct which = ic where = 1170 value = 10 }
 		command = { type = construct which = coastal_fort where = 1170 value = 10 }
 		#command = { type = construct which = land_fort where = 1170 value = 10 }
@@ -2328,7 +2328,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U67 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 908 value = 2 }
+		command = { type = construct which = infrastructure where = 908 value = 20 }
 		command = { type = construct which = ic where = 908 value = 10 }
 		command = { type = construct which = coastal_fort where = 908 value = 10 }
 		#command = { type = construct which = land_fort where = 908 value = 10 }
@@ -2368,7 +2368,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U68 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 769 value = 2 }
+		command = { type = construct which = infrastructure where = 769 value = 20 }
 		command = { type = construct which = ic where = 769 value = 10 }
 		command = { type = construct which = coastal_fort where = 769 value = 10 }
 		#command = { type = construct which = land_fort where = 769 value = 10 }
@@ -2408,7 +2408,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U69 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 588 value = 2 }
+		command = { type = construct which = infrastructure where = 588 value = 20 }
 		command = { type = construct which = ic where = 588 value = 10 }
 		command = { type = construct which = coastal_fort where = 588 value = 10 }
 		#command = { type = construct which = land_fort where = 588 value = 10 }
@@ -2448,7 +2448,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U70 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 733 value = 2 }
+		command = { type = construct which = infrastructure where = 733 value = 20 }
 		command = { type = construct which = ic where = 733 value = 10 }
 		command = { type = construct which = coastal_fort where = 733 value = 10 }
 		#command = { type = construct which = land_fort where = 733 value = 10 }
@@ -2488,7 +2488,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U71 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 789 value = 2 }
+		command = { type = construct which = infrastructure where = 789 value = 20 }
 		command = { type = construct which = ic where = 789 value = 10 }
 		command = { type = construct which = coastal_fort where = 789 value = 10 }
 		#command = { type = construct which = land_fort where = 789 value = 10 }
@@ -2528,7 +2528,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U72 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 715 value = 2 }
+		command = { type = construct which = infrastructure where = 715 value = 20 }
 		command = { type = construct which = ic where = 715 value = 10 }
 		command = { type = construct which = coastal_fort where = 715 value = 10 }
 		#command = { type = construct which = land_fort where = 715 value = 10 }
@@ -2568,7 +2568,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U73 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 620 value = 2 }
+		command = { type = construct which = infrastructure where = 620 value = 20 }
 		command = { type = construct which = ic where = 620 value = 10 }
 		command = { type = construct which = coastal_fort where = 620 value = 10 }
 		#command = { type = construct which = land_fort where = 620 value = 10 }
@@ -2608,7 +2608,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U74 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 647 value = 2 }
+		command = { type = construct which = infrastructure where = 647 value = 20 }
 		command = { type = construct which = ic where = 647 value = 10 }
 		command = { type = construct which = coastal_fort where = 647 value = 10 }
 		#command = { type = construct which = land_fort where = 647 value = 10 }
@@ -2648,7 +2648,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U75 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 606 value = 2 }
+		command = { type = construct which = infrastructure where = 606 value = 20 }
 		command = { type = construct which = ic where = 606 value = 10 }
 		command = { type = construct which = coastal_fort where = 606 value = 10 }
 		#command = { type = construct which = land_fort where = 606 value = 10 }
@@ -2688,7 +2688,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U76 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 747 value = 2 }
+		command = { type = construct which = infrastructure where = 747 value = 20 }
 		command = { type = construct which = ic where = 747 value = 10 }
 		command = { type = construct which = coastal_fort where = 747 value = 10 }
 		#command = { type = construct which = land_fort where = 747 value = 10 }
@@ -2728,7 +2728,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U77 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 656 value = 2 }
+		command = { type = construct which = infrastructure where = 656 value = 20 }
 		command = { type = construct which = ic where = 656 value = 10 }
 		command = { type = construct which = coastal_fort where = 656 value = 10 }
 		#command = { type = construct which = land_fort where = 656 value = 10 }
@@ -2768,7 +2768,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U78 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 888 value = 2 }
+		command = { type = construct which = infrastructure where = 888 value = 20 }
 		command = { type = construct which = ic where = 888 value = 10 }
 		command = { type = construct which = coastal_fort where = 888 value = 10 }
 		#command = { type = construct which = land_fort where = 888 value = 10 }
@@ -2808,7 +2808,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U79 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 820 value = 2 }
+		command = { type = construct which = infrastructure where = 820 value = 20 }
 		command = { type = construct which = ic where = 820 value = 10 }
 		command = { type = construct which = coastal_fort where = 820 value = 10 }
 		#command = { type = construct which = land_fort where = 820 value = 10 }
@@ -2848,7 +2848,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U80 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 883 value = 2 }
+		command = { type = construct which = infrastructure where = 883 value = 20 }
 		command = { type = construct which = ic where = 883 value = 10 }
 		command = { type = construct which = coastal_fort where = 883 value = 10 }
 		#command = { type = construct which = land_fort where = 883 value = 10 }
@@ -2888,7 +2888,7 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U81 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 854 value = 2 }
+		command = { type = construct which = infrastructure where = 854 value = 20 }
 		command = { type = construct which = ic where = 854 value = 10 }
 		command = { type = construct which = coastal_fort where = 854 value = 10 }
 		#command = { type = construct which = land_fort where = 854 value = 10 }

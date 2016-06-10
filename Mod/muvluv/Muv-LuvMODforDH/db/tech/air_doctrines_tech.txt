@@ -1843,10 +1843,10 @@ technology =
     component = { id = 9675 name = TECH_CMP_AD_67_5_NAME type = decentralized_execution difficulty = 5 }
     required  = { 9340 }
     effects =
-    { command = { type = max_organization which = strategic_bomber value = 5 }
+    { command = { type = max_organization which = tactical_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = strategic_bomber value = 5 }
+      command = { type = morale which = tactical_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -1870,10 +1870,10 @@ technology =
     component = { id = 9685 name = TECH_CMP_AD_68_5_NAME type = centralized_execution difficulty = 5 }
     required  = { 9340 }
     effects =
-    { command = { type = max_organization which = tactical_bomber value = 5 }
+    { command = { type = max_organization which = strategic_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = tactical_bomber value = 5 }
+      command = { type = morale which = strategic_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -1900,7 +1900,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -1927,7 +1927,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -1954,7 +1954,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -1981,7 +1981,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2008,7 +2008,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2035,7 +2035,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2062,7 +2062,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2089,7 +2089,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2116,7 +2116,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2143,7 +2143,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2170,7 +2170,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = strategic_bomber value = 5 }
+      command = { type = morale which = tactical_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -2197,7 +2197,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = strategic_bomber value = 5 }
+      command = { type = morale which = tactical_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -2224,7 +2224,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = strategic_bomber value = 5 }
+      command = { type = morale which = tactical_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -2251,7 +2251,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = strategic_bomber value = 5 }
+      command = { type = morale which = tactical_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -2278,7 +2278,7 @@ technology =
     { command = { type = max_organization which = tactical_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = strategic_bomber value = 5 }
+      command = { type = morale which = tactical_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -2305,7 +2305,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2332,7 +2332,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2359,7 +2359,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2386,7 +2386,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2413,7 +2413,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2440,7 +2440,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2467,7 +2467,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2494,7 +2494,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2521,7 +2521,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2548,7 +2548,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 3 }
       command = { type = max_organization which = cag value = 1 }
       command = { type = max_organization which = cavalry_brigade value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 3 }
       command = { type = morale which = cag value = 1 }
       command = { type = morale which = cavalry_brigade value = 1 }
     }
@@ -2575,7 +2575,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = tactical_bomber value = 5 }
+      command = { type = morale which = strategic_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -2602,7 +2602,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = tactical_bomber value = 5 }
+      command = { type = morale which = strategic_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -2629,7 +2629,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = tactical_bomber value = 5 }
+      command = { type = morale which = strategic_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -2656,7 +2656,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = tactical_bomber value = 5 }
+      command = { type = morale which = strategic_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -2683,7 +2683,7 @@ technology =
     { command = { type = max_organization which = strategic_bomber value = 5 }
       command = { type = max_organization which = cag value = 2 }
       command = { type = max_organization which = cavalry_brigade value = 2 }
-      command = { type = morale which = tactical_bomber value = 5 }
+      command = { type = morale which = strategic_bomber value = 5 }
       command = { type = morale which = cag value = 2 }
       command = { type = morale which = cavalry_brigade value = 2 }
     }
@@ -3251,10 +3251,10 @@ technology =
     component = { id = 90195 name = TECH_CMP_AD_919_5_NAME type = electronics difficulty = 5 }
     required  = { 9670 }
     effects =
-    { command = { type = max_organization which = strategic_bomber value = 3 }
-      command = { type = max_organization which = tactical_bomber value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
-      command = { type = morale which = tactical_bomber value = 1 }
+    { command = { type = max_organization which = tactical_bomber value = 3 }
+      command = { type = max_organization which = strategic_bomber value = 1 }
+      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 1 }
       command = { type = deactivate which = 90240 }
     }
   }
@@ -3277,10 +3277,10 @@ technology =
     component = { id = 90205 name = TECH_CMP_AD_920_5_NAME type = electronics difficulty = 5 }
     required  = { 90190 }
     effects =
-    { command = { type = max_organization which = strategic_bomber value = 3 }
-      command = { type = max_organization which = tactical_bomber value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
-      command = { type = morale which = tactical_bomber value = 1 }
+    { command = { type = max_organization which = tactical_bomber value = 3 }
+      command = { type = max_organization which = strategic_bomber value = 1 }
+      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 1 }
     }
   }
   # êÌèpîöåÇèdéãáV
@@ -3302,10 +3302,10 @@ technology =
     component = { id = 90215 name = TECH_CMP_AD_921_5_NAME type = electronics difficulty = 5 }
     required  = { 90200 }
     effects =
-    { command = { type = max_organization which = strategic_bomber value = 3 }
-      command = { type = max_organization which = tactical_bomber value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
-      command = { type = morale which = tactical_bomber value = 1 }
+    { command = { type = max_organization which = tactical_bomber value = 3 }
+      command = { type = max_organization which = strategic_bomber value = 1 }
+      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 1 }
     }
   }
   # êÌèpîöåÇèdéãáW
@@ -3327,10 +3327,10 @@ technology =
     component = { id = 90225 name = TECH_CMP_AD_922_5_NAME type = electronics difficulty = 5 }
     required  = { 90210 }
     effects =
-    { command = { type = max_organization which = strategic_bomber value = 3 }
-      command = { type = max_organization which = tactical_bomber value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
-      command = { type = morale which = tactical_bomber value = 1 }
+    { command = { type = max_organization which = tactical_bomber value = 3 }
+      command = { type = max_organization which = strategic_bomber value = 1 }
+      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 1 }
     }
   }
   # êÌèpîöåÇèdéãáX
@@ -3352,10 +3352,10 @@ technology =
     component = { id = 90235 name = TECH_CMP_AD_923_5_NAME type = electronics difficulty = 5 }
     required  = { 90220 }
     effects =
-    { command = { type = max_organization which = strategic_bomber value = 3 }
-      command = { type = max_organization which = tactical_bomber value = 1 }
-      command = { type = morale which = strategic_bomber value = 3 }
-      command = { type = morale which = tactical_bomber value = 1 }
+    { command = { type = max_organization which = tactical_bomber value = 3 }
+      command = { type = max_organization which = strategic_bomber value = 1 }
+      command = { type = morale which = tactical_bomber value = 3 }
+      command = { type = morale which = strategic_bomber value = 1 }
     }
   }
   # êÌó™îöåÇèdéãáT
@@ -3377,10 +3377,10 @@ technology =
     component = { id = 90245 name = TECH_CMP_AD_924_5_NAME type = electronics difficulty = 5 }
     required  = { 9670 }
     effects =
-    { command = { type = max_organization which = tactical_bomber value = 3 }
-      command = { type = max_organization which = strategic_bomber value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
-      command = { type = morale which = strategic_bomber value = 1 }
+    { command = { type = max_organization which = strategic_bomber value = 3 }
+      command = { type = max_organization which = tactical_bomber value = 1 }
+      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 1 }
       command = { type = deactivate which = 90190 }
     }
   }
@@ -3403,10 +3403,10 @@ technology =
     component = { id = 90255 name = TECH_CMP_AD_925_5_NAME type = electronics difficulty = 5 }
     required  = { 90240 }
     effects =
-    { command = { type = max_organization which = tactical_bomber value = 3 }
-      command = { type = max_organization which = strategic_bomber value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
-      command = { type = morale which = strategic_bomber value = 1 }
+    { command = { type = max_organization which = strategic_bomber value = 3 }
+      command = { type = max_organization which = tactical_bomber value = 1 }
+      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 1 }
     }
   }
   # êÌó™îöåÇèdéãáV
@@ -3428,10 +3428,10 @@ technology =
     component = { id = 90265 name = TECH_CMP_AD_926_5_NAME type = electronics difficulty = 5 }
     required  = { 90250 }
     effects =
-    { command = { type = max_organization which = tactical_bomber value = 3 }
-      command = { type = max_organization which = strategic_bomber value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
-      command = { type = morale which = strategic_bomber value = 1 }
+    { command = { type = max_organization which = strategic_bomber value = 3 }
+      command = { type = max_organization which = tactical_bomber value = 1 }
+      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 1 }
     }
   }
   # êÌó™îöåÇèdéãáW
@@ -3453,10 +3453,10 @@ technology =
     component = { id = 90275 name = TECH_CMP_AD_927_5_NAME type = electronics difficulty = 5 }
     required  = { 90260 }
     effects =
-    { command = { type = max_organization which = tactical_bomber value = 3 }
-      command = { type = max_organization which = strategic_bomber value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
-      command = { type = morale which = strategic_bomber value = 1 }
+    { command = { type = max_organization which = strategic_bomber value = 3 }
+      command = { type = max_organization which = tactical_bomber value = 1 }
+      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 1 }
     }
   }
   # êÌó™îöåÇèdéãáX
@@ -3478,10 +3478,10 @@ technology =
     component = { id = 90285 name = TECH_CMP_AD_928_5_NAME type = electronics difficulty = 5 }
     required  = { 90270 }
     effects =
-    { command = { type = max_organization which = tactical_bomber value = 3 }
-      command = { type = max_organization which = strategic_bomber value = 1 }
-      command = { type = morale which = tactical_bomber value = 3 }
-      command = { type = morale which = strategic_bomber value = 1 }
+    { command = { type = max_organization which = strategic_bomber value = 3 }
+      command = { type = max_organization which = tactical_bomber value = 1 }
+      command = { type = morale which = strategic_bomber value = 3 }
+      command = { type = morale which = tactical_bomber value = 1 }
     }
   }
 }

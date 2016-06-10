@@ -6,7 +6,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -50,7 +50,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -94,7 +94,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -138,7 +138,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -182,7 +182,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -226,7 +226,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -270,7 +270,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -490,7 +490,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 50
+                       army = 80
                        }
 		ai = yes
                 #technology = 7020
@@ -534,7 +534,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 50
+                       army = 80
                        }
 		ai = yes
                 #technology = 7020
@@ -666,7 +666,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -710,7 +710,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 200
+                       army = 250
                        }
 		ai = yes
                 #technology = 7020
@@ -754,7 +754,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -1057,7 +1057,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
 	}

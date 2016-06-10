@@ -3365,22 +3365,30 @@ TOVV_TRICKLEBACK;暫時撤退修正;Trickleback Modifier;;;;;;;;;X
 ##;;;;;;;;;;;X
 EE_MAX_AMPHIB_MOD_TITLE;最大上陸規模;;;;;;;;;;X
 ##;;;;;;;;;;;X
-##;;;;;;;;;;;X
-SPA36;スペイン（国粋派）;;;;;;;;;;X
-U08_14;ドイツ帝国;;;;;;;;;;X
-U09_14;オーストリア＝ハンガリー帝国;;;;;;;;;;X
-ITA14;イタリア王国;;;;;;;;;;X
-RUS14;ロシア帝国;;;;;;;;;;X
-SER14;セルビア王国;;;;;;;;;;X
-MTN14;モンテネグロ王国;;;;;;;;;;X
-OTT14;オスマン帝国;;;;;;;;;;X
-GRE14;ギリシア王国;;;;;;;;;;X
-ROM14;ルーマニア王国;;;;;;;;;;X
-BUL14;ブルガリア王国;;;;;;;;;;X
-ALB14;アルバニア公国;;;;;;;;;;X
-TAJ14;トルキスタン自治政府;;;;;;;;;;X
-CHI14;中華民国北洋政府;;;;;;;;;;X
-PROV_CHANGCHUN;長春（チャンチュン）;Changchun;;;;;;;;;X
-PROV_PETROVGRAD;ペーテルヴァーラド;Petrovrad;;;;;;;;;X
+## Darkest Hour 1.04;;;;;;;;;;;X
+DISENGAGE_FROM_COMBAT_TEXT;戦場からの撤退;Disengage from combat;;;;;;;;;X
+MISSION_DISENGAGE_FROM_COMBAT_TOOLTIP;自部隊が不利な場合、可能な限り早く戦場から撤退する。;Disengage from combat as soon as possible;;;;;;;;;X
+MISSION_DISENGAGE_FROM_COMBAT;戦場からの撤退\n;Will disengage from combat.\n;;;;;;;;;X
+DIST_PROV_HEADER;\n--------------------------\nプロヴィンス間の距離\n『情報』\n -『基準距離』と『推定移動距離』が異なる場合があります。\n -実際のユニット移動距離は『推定移動距離』を参照。\n--------------------------\nｧB基準距離ｧｧ\n%s <-> %s\n;\n--------------------------\nDistance Between Provinces\n%s <-> %s\n;;;;;;;;;X
+DIST_PROV_DIRECT;陸/空路 ： %d km\n;Distance: %d km\n;;;;;;;;;X
+DIST_PROV_NAVAL;海路 ： %d km\n;Naval Distance: %d km\n;;;;;;;;;X
+DIST_PROV_UNIT;\n--------------------------\n選択軍団名称 ： %s\n推定移動距離 ： %d km\n推定移動時間 ： %d 時間\n推定到着日時 ： %s\n;\n--------------------------\nUnit Path: %s\nPath Distance: %d km\nTravel Time: %d hour(s)\nETA: %s\n;;;;;;;;;X
+EE_PROVINCE;ﾌﾟﾛｳﾞｨﾝｽ;Province;;;;;;;;;X
+EE_AREA;ｴﾘｱ(地域);Area;;;;;;;;;X
+EE_REGION;ﾘｰｼﾞｮﾝ(地方);Region;;;;;;;;;X
+EE_CONTINENT;ｺﾝﾃｨﾈﾝﾄ(大陸);Continent;;;;;;;;;X
+EE_REMOVE_UNITS;%s解散対象『%s』／『%s(種別：%s)』に存在する全てを解散する。;%sRemove all %s units from %s (%s).;;;;;;;;;X
+TCNOT_ALLIANCE_LEADER;%sは%sの盟主ではない。\n;%s is not leading %s.\n;;;;;;;;;X
+TC_ALLIANCE_LEADER;%sは%sの盟主である。\n;%s is leading %s.\n;;;;;;;;;X
+TC_ALLIANCE_LEADER_ANY;任意の同盟;any alliance;;;;;;;;;X
+TC_ALLIANCE_LEADER_MINOR;小同盟;a minor alliance;;;;;;;;;X
+LOSSES_INFLICTED_HEADER;\n--------------------------\n戦果報告\n<装備種類> ： ｧJ<戦果>ｧｧ\n--------------------------\n;\n--------------------------\nInflicted Losses\n--------------------------\n;;;;;;;;;X
+LOSSES_TAKEN_HEADER;\n--------------------------\n損失報告\n<装備種類> ： ｧR<損失>ｧｧ\n--------------------------\n;\n--------------------------\nTaken Losses\n--------------------------\n;;;;;;;;;X
+LOSSES_NEUTRAL_HEADER;\n--------------------------\n結果報告\n<装備種類> ： ｧW<結果>ｧｧ\n--------------------------\n;\n--------------------------\nInflicted Losses\n--------------------------\n;;;;;;;;;X
+LOSSES_INFLICTED_LINE;%s ： ｧJ%dｧｧ\n;%s: ｧJ%dｧｧ\n;;;;;;;;;X
+LOSSES_TAKEN_LINE;%s ： ｧR%dｧｧ\n;%s: ｧR%dｧｧ\n;;;;;;;;;X
+LOSSES_NEUTRAL_LINE;%s ： ｧW%dｧｧ\n;%s: ｧW%dｧｧ\n;;;;;;;;;X
+CRB_ENCIRCLE_BONUS;退却先のない包囲されたユニットは、防御時に僅かなボーナスを得ることがあります。;An encircled unit receives a slight bonus to its effectiveness in defending itself (no place to retreat).;;;;;;;;;X
+UNIT_MAY_NOTFIRE;このユニットは応戦できません。;This unit can not fire in combat.;;;;;;;;;X
 #EOF;;;;;;;;;;;X
 #EOF;;;;;;;;;;;X

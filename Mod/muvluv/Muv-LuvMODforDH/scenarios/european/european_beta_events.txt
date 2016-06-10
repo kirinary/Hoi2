@@ -261,7 +261,7 @@ event = {
                 command = { type = independence which = U22 value = 1 when = 0 }
 		command = { type = construct which = infrastructure where = 457 value = 2 }
 		command = { type = construct which = ic where = 457 value = 10 }
-		command = { type = construct which = coastal_fort where = 457 value = 10 }
+		#command = { type = construct which = coastal_fort where = 457 value = 10 }
 		#command = { type = construct which = land_fort where = 457 value = 10 }
 		command = { type = construct which = flak where = 457 value = 10 }
 		command = { type = construct which = air_base where = 457 value = 10 }
@@ -757,7 +757,7 @@ event = {
                 command = { type = independence which = U23 value = 1 when = 0 }
 		command = { type = construct which = infrastructure where = 529 value = 2 }
 		command = { type = construct which = ic where = 529 value = 10 }
-		command = { type = construct which = coastal_fort where = 529 value = 10 }
+		#command = { type = construct which = coastal_fort where = 529 value = 10 }
 		#command = { type = construct which = land_fort where = 529 value = 10 }
 		command = { type = construct which = flak where = 529 value = 10 }
 		command = { type = construct which = air_base where = 529 value = 10 }

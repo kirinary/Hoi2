@@ -118,7 +118,7 @@ construction = {
 	AA_provs  = {                          
 	} 
 	                           
-	coastal_fort   = yes            
+	coastal_fort   = no
 	max_coastal_level = 10                
 	coastal_fort_provs = {                
 	}  
