@@ -1,0 +1,440 @@
+##############################################################
+##
+## BETA関連(34001~35000)_BETA
+##
+##############################################################
+##
+## BETA捕獲イベント
+## id =	34001	BETA捕獲計画
+## id =	34002	BETA捕獲成功
+## id =	34003	BETA捕獲失敗
+##
+## ハイヴフェイズ変更
+## id =	34004	ハイヴフェイズ２
+## id =	34005	ハイヴフェイズ３
+## id =	34006	ハイヴフェイズ４
+## id =	34007	ハイヴフェイズ５
+## id =	34008	ハイヴフェイズ６
+## id =	34009	ハイヴフェイズ７
+## id =	34010	ハイヴフェイズ８
+## id =	34011	ハイヴフェイズ９
+## id =	34012	ハイヴフェイズ１０
+##
+## 
+## id =	34013	輸送級テスト開始
+## id =	34014	輸送級テスト
+## id =	34015
+## id =	34016
+## id =	34017
+## id =	34018
+## id =	34019
+## id =	34020
+## id =	34021
+## id =	34022
+## id =	34023
+## id =	34024
+## id =	34025
+## id =	34026
+## id =	34027
+## id =	34028
+## id =	34029
+## id =	34030
+## id =	34031
+## id =	34032
+## id =	34033
+## id =	34034
+## id =	34035
+## id =	34036
+## id =	34037
+## id =	34038
+## id =	34039
+## id =	34040
+## id =	34041
+## id =	34042
+## id =	34043
+## id =	34044
+## id =	34045
+## id =	34046
+## id =	34047
+## id =	34048
+## id =	34049
+## id =	34050
+##
+##############################################################
+
+# BETA捕獲
+#event = {
+#	id = 34001
+#	random = no
+#       country = -1
+#	trigger = {
+#                technology = 7010
+#                 supplies = 3000
+#                 atwar = U12#
+#	}
+#
+#	name = "BETA捕獲計画"
+#	desc = "EVT_34001_DESC"
+#	style = 0
+#
+#	date = { day = 13 month = 1 year = 1990 }
+#	offset = 7
+#	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+#	
+#	action_a = {
+#		name = "計画を承認する"
+#               ai_chance = 90
+#                command = { type = supplies value = -1000 }
+#                command = { type = local_setflag which = capture }
+#                command = { type = money value = -200 }
+# 	 }
+#         action_b = {
+#                 name = "計画を白紙に戻す"
+#                 ai_chance = 10
+#                 command = { }
+#	 }
+#}
+
+#event = {
+#	id = 34002
+#	random = yes
+#	trigger = {
+#			local_flag = Capture
+#			random = 10%
+#	}
+#
+#	name = "BETA捕獲成功"
+#	desc = "EVT_34002_DESC"
+#	style = 0
+#
+#	action_a = {
+#		name = "すばらしい！"
+#		command = { type = research_mod value = 0.5 }
+#               command = { type = rarematerialspool value = 300 }
+#                command = { type = supplies value = -100 }
+# 	}
+#}
+
+
+#event = {
+#	id = 34003
+#	random = yes
+#	trigger = {
+#			local_flag = Capture
+#			random = 5%
+#	}
+#
+#	name = "BETA捕獲失敗"
+#	desc = "EVT_34003_DESC"
+#       style = 0
+#
+#	action_a = {
+#		name = "なんということだ・・・"
+#		command = { type = manpowerpool value = -3 }
+#               command = { type = dissent value = 1 }
+#                command = { type = supplies value = -100 }
+# 	}
+#}
+
+# ハイヴフェイズ
+
+event = {
+	id = 34004
+	random = yes
+        country = -1
+	trigger = {
+			technology = 7020
+		 	local_flag = Phase_1
+	}
+
+	name = "AI_EVENT" # ハイヴフェイズ2
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 34005 value = 900 }
+                command = { type = new_model which = Garrison value = 12 }
+                command = { type = scrap_model which = Garrison value = 11 }
+ 	 }
+}
+
+event = {
+	id = 34005
+	random = yes
+        country = -1
+	trigger = {
+                	technology = 7020
+		 	local_flag = Phase_2
+	}
+
+	name = "AI_EVENT" # ハイヴフェイズ3
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 34006 value = 1800 }
+                command = { type = new_model which = Garrison value = 13 }
+                command = { type = scrap_model which = Garrison value = 12 }
+ 	 }
+}
+
+event = {
+	id = 34006
+	random = yes
+        country = -1
+	trigger = {
+                 	technology = 7020
+		 	local_flag = Phase_3
+	}
+
+	name = "AI_EVENT" # ハイヴフェイズ4
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 34007 value = 2880 }
+                command = { type = new_model which = Garrison value = 14 }
+                command = { type = scrap_model which = Garrison value = 13 }
+ 	 }
+}
+
+event = {
+	id = 34007
+	random = yes
+        country = -1
+	trigger = {
+                 	technology = 7020
+		 	local_flag = Phase_4
+	}
+
+	name = "AI_EVENT" # ハイヴフェイズ5
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 34008 value = 3960 }
+                command = { type = new_model which = Garrison value = 15 }
+                command = { type = scrap_model which = Garrison value = 14 }
+ 	 }
+}
+
+event = {
+	id = 34008
+	random = yes
+        country = -1
+	trigger = {
+                 	technology = 7020
+		 	local_flag = Phase_5
+	}
+
+	name = "AI_EVENT" # ハイヴフェイズ6
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 34009 value = 1800 }
+                command = { type = new_model which = Garrison value = 16 }
+                command = { type = scrap_model which = Garrison value = 15 }
+ 	 }
+}
+
+event = {
+	id = 34009
+	random = yes
+        country = -1
+	trigger = {
+                 	technology = 7020
+		 	local_flag = Phase_6
+	}
+
+	name = "AI_EVENT" # ハイヴフェイズ7
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 34010 value = 2160 }
+                command = { type = new_model which = Garrison value = 17 }
+                command = { type = scrap_model which = Garrison value = 16 }
+ 	 }
+}
+
+event = {
+	id = 34010
+	random = yes
+        country = -1
+	trigger = {
+                 	technology = 7020
+		 	local_flag = Phase_7
+	}
+
+	name = "AI_EVENT" # ハイヴフェイズ8
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 34011 value = 2520 }
+                command = { type = new_model which = Garrison value = 18 }
+                command = { type = scrap_model which = Garrison value = 17 }
+ 	 }
+}
+
+event = {
+	id = 34011
+	random = yes
+        country = -1
+	trigger = {
+                 	technology = 7020
+		 	local_flag = Phase_8
+	}
+
+	name = "AI_EVENT" # ハイヴフェイズ9
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 34012 value = 2880 }
+                command = { type = new_model which = Garrison value = 19 }
+                command = { type = scrap_model which = Garrison value = 18 }
+ 	 }
+}
+
+event = {
+	id = 34012
+	random = yes
+        country = -1
+	trigger = {
+                 	technology = 7020
+		 	local_flag = Phase_9
+	}
+
+	name = "AI_EVENT" # ハイヴフェイズ10
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 20 }
+                command = { type = scrap_model which = Garrison value = 19 }
+ 	 }
+}
+
+event = {
+	id = 34013
+	random = no
+        country = -1
+	trigger = {
+                 	ai = no
+                        nuke = 100
+	}
+
+	name = "輸送級テスト開始"
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 34014 }
+ 	 }
+}
+
+event = {
+	id = 34014
+	random = no
+        country = U27
+	trigger = {
+                 	ai = yes
+	}
+
+	name = "輸送級テスト"
+	desc = "-"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2073 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = inherit which = U05 }
+                command = { type = enable_task which = sea_transport }
+                command = { type = enable_task which = amphibious_assault }
+		command = { type = ai which = U27_1998Ltest.ai }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+                command = { type = add_division value = transport when = 33 }
+ 	 }
+}

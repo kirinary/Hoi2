@@ -1,0 +1,1499 @@
+event = {
+	id = 50001
+	random = no
+        country = JAP
+	trigger = {
+                    control = { province = 1200 data = -2 }
+       }
+
+	name = "ŒõBìí"
+	desc = "EVT_50001_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "“P‘Ş‚ğx‰‡‚·‚é‚Ì‚¾I"
+                command = { }
+ }
+}
+
+
+event = {
+	id = 50002
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50001
+                    NOT = {
+                            event = 50003
+                          }
+       }
+
+	name = "ŒõBìí¬Œ÷"
+	desc = "EVT_50002_DESC"
+	style = 0
+
+	date = { day = 0 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"
+                command = { type = dissent value = -10 }
+                command = { type = manpowerpool value = 150 }
+                command = { type = supplies value = 5000 }
+                command = { type = morale which = land when = now value = 10 }
+ }
+}
+
+
+event = {
+	id = 50003
+	random = no
+        country = JAP
+	trigger = {
+                    control = { province = 1197 data = -2 }
+                    NOT = {
+                            event = 50002
+                          }
+       }
+
+	name = "ŒõBìí‚Ì”ßŒ€"
+	desc = "EVT_50003_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚È‚ñ‚Ä‚±‚Æ‚¾EEE"
+                command = { type = dissent value = 3 }
+ }
+}
+
+
+event = {
+	id = 50004
+	random = no
+        country = JAP
+	trigger = {
+                    OR = {
+                    event = 50002
+                    event = 50003
+                         }
+       }
+
+	name = "BETA“ú–{–{“yã—¤"
+	desc = "EVT_50004_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 10
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚©‚©‚Á‚Ä‚±‚¢I‘Šè‚É‚È‚Á‚Ä‚â‚éI"
+                command = { type = trigger which = 50005 }
+                #command = { type = control which = U12 value = 2631 }
+ }
+}
+
+
+
+event = {
+	id = 50005
+	random = no
+        country = U31
+	trigger = {
+                    event = 50004
+       }
+
+	name = "BETA“ú–{–{“yã—¤"
+	desc = "EVT_50004_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "—¹‰ğ"
+		command = { type = add_corps value = land where = 2631 }#²‰êŒ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 2631 } # 10
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+                command = { type = supplies value = 50000 where = 2631 }
+                command = { type = oilpool value = 5000 where = 2631 }
+		command = { type = add_corps value = land where = 2632 }#’·èŒ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 2632 } # 10
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+                command = { type = supplies value = 50000 where = 2632 }
+                command = { type = oilpool value = 5000 where = 2632 }
+		command = { type = add_corps value = land where = 2634 }#ŒF–{Œ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+                command = { type = supplies value = 50000 where = 2634 }
+                command = { type = oilpool value = 5000 where = 2634 }
+ }
+}
+
+event = {
+	id = 500051
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50005
+                    random = 20
+       }
+
+	name = "BETA•Ÿ‰ª‹­P"
+	desc = "BETA‚ª•Ÿ‰ª‚Éã—¤‚µ‚½I"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 5
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚©‚©‚Á‚Ä‚±‚¢I‘Šè‚É‚È‚Á‚Ä‚â‚éI"
+                command = { type = trigger which = 500052 }
+ }
+}
+
+
+
+event = {
+	id = 500052
+	random = no
+        country = U31
+	trigger = {
+                    event = 500051
+       }
+
+	name = "BETA•Ÿ‰ª‹­P"
+	desc = "EVT_50006_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "—¹‰ğ"
+		command = { type = add_corps value = land where = 2629 } # •Ÿ‰ª
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 2629 } # 10
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+                command = { type = supplies value = 50000 where = 2629 }
+                command = { type = oilpool value = 5000 where = 2629 }
+ }
+}
+
+
+event = {
+	id = 500053
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50005
+                    random = 60
+                    control = { province = 2624 data = U12 }
+       }
+
+	name = "BETARŒû‹­P"
+	desc = "BETA‚ªRŒû‚Éã—¤‚µ‚½I"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 5
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚©‚©‚Á‚Ä‚±‚¢I‘Šè‚É‚È‚Á‚Ä‚â‚éI"
+                command = { type = trigger which = 500054 }
+ }
+}
+
+
+
+event = {
+	id = 500054
+	random = no
+        country = U31
+	trigger = {
+                    event = 500053
+       }
+
+	name = "BETARŒû‹­P"
+	desc = "EVT_50006_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "—¹‰ğ"
+		command = { type = add_corps value = land where = 2624 } # RŒû
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 2624 } # 10
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+                command = { type = supplies value = 50000 where = 2624 }
+                command = { type = oilpool value = 5000 where = 2624 }
+ }
+}
+
+
+event = {
+	id = 50006
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50005
+                    random = 60
+       }
+
+	name = "BETA’†‘’n•û‹­P"
+	desc = "EVT_50006_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 5
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚©‚©‚Á‚Ä‚±‚¢I‘Šè‚É‚È‚Á‚Ä‚â‚éI"
+                command = { type = trigger which = 50007 }
+ }
+}
+
+
+
+event = {
+	id = 50007
+	random = no
+        country = U31
+	trigger = {
+                    event = 50006
+       }
+
+	name = "BETA’†‘’n•û‹­P"
+	desc = "EVT_50006_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "—¹‰ğ"
+		command = { type = add_corps value = land where = 2620 } # ’¹æŒ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 2620 } # 10
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+                command = { type = supplies value = 50000 where = 2620 }
+                command = { type = oilpool value = 5000 where = 2620 }
+		command = { type = add_corps value = land where = 2622 } # “‡ªŒ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 2622 }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+                command = { type = supplies value = 50000 where = 2622 }
+                command = { type = oilpool value = 5000 where = 2622 }
+		command = { type = add_corps value = land where = 2623 } # L“‡Œ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 2624 } # RŒûŒ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+                command = { type = supplies value = 50000 where = 2624 }
+                command = { type = oilpool value = 5000 where = 2624 }
+ }
+}
+
+
+
+event = {
+	id = 50008
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50006
+                    random = 10
+       }
+
+	name = "BETAl‘’n•û‹­P"
+	desc = "EVT_50008_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚©‚©‚Á‚Ä‚±‚¢I‘Šè‚É‚È‚Á‚Ä‚â‚éI"
+                command = { type = trigger which = 50009 }
+ }
+}
+
+
+
+event = {
+	id = 50009
+	random = no
+        country = U31
+	trigger = {
+                    event = 50008
+       }
+
+	name = "BETAl‘’n•û‹­P"
+	desc = "EVT_50008_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 5
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "—¹‰ğ"
+		command = { type = add_corps value = land where = 2625 } # ìŒ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where = 2625 } # 10
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+                command = { type = supplies value = 50000 where = 2625 }
+                command = { type = oilpool value = 5000 where = 2625 }
+ }
+}
+
+
+event = {
+	id = 50010
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50004
+                    random = 3
+       }
+
+	name = "²“n“‡‚ÉBETA‚ªÚ‹ß"
+	desc = "EVT_50010_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 10
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "Œx‰ú‚ğ‹­‚ß‚æ‚¤"
+                command = { }
+ }
+}
+
+
+event = {
+	id = 50011
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50010
+                    random = 30
+       }
+
+	name = "²“n“‡‹­P"
+	desc = "EVT_50011_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 5
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚©‚©‚Á‚Ä—ˆ‚¢I‘Šè‚É‚È‚Á‚Ä‚â‚éI"
+                command = { type = trigger which = 50012 }
+ }
+}
+
+event = {
+	id = 50012
+	random = no
+        country = U31
+	trigger = {
+                    event = 50011
+       }
+
+	name = "²“n“‡‹­P"
+	desc = "EVT_50011_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "—¹‰ğ"
+		command = { type = add_corps value = land where = 1185 } # ²“n“‡
+		command = { type = add_division which = ²“n“‡UŒ‚1 value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division which = ²“n“‡UŒ‚2 value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division which = ²“n“‡UŒ‚3 value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division which = ²“n“‡UŒ‚4 value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division which = ²“n“‡UŒ‚5 value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division which = ²“n“‡UŒ‚6 value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division which = ²“n“‡UŒ‚7 value = marine when = 33 where = heavy_armor }
+		command = { type = add_division which = ²“n“‡UŒ‚8 value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division which = ²“n“‡UŒ‚9 value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division which = ²“n“‡UŒ‚10 value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_corps value = land where =1185 } # 10
+		command = { type = add_division which = ²“n“‡UŒ‚11 value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division which = ²“n“‡UŒ‚12 value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division which = ²“n“‡UŒ‚13 value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division which = ²“n“‡UŒ‚14 value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division which = ²“n“‡UŒ‚15 value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division which = ²“n“‡UŒ‚16 value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division which = ²“n“‡UŒ‚17 value = marine when = 33 where = heavy_armor }
+		command = { type = add_division which = ²“n“‡UŒ‚18 value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division which = ²“n“‡UŒ‚19 value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division which = ²“n“‡UŒ‚20 value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+
+
+event = {
+	id = 50013
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50012
+                    control = { province = 1185 data = -2 }
+       }
+
+	name = "²“n“‡Š×—"
+	desc = "EVT_50013_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚È‚ñ‚Ä‚±‚Æ‚¾EEE"
+                command = { }
+ }
+}
+
+
+###################################################################################################
+#####—ÕƒnƒCƒ”ŒšİƒCƒxƒ“ƒg@‚»‚Ì‚¤‚¿ˆÚİ—\’è©ˆÚİŠ®—¹@Œ»İ²“n“‡NUƒ†ƒjƒbƒgíœ‚Ì‚İ#####
+###################################################################################################
+event = {
+	id = 500131
+	random = no
+	country = U31
+	trigger = {
+		event = 37020
+	}
+
+	name = "²“n“‡ƒnƒCƒ”‚ÌŒšİ"
+	desc = "²“n“‡ƒnƒCƒ”‚ªŠ®¬‚µ‚½B"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "Œš’zI—¹"
+                command = { type = remove_division which = "²“n“‡UŒ‚1" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚2" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚3" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚4" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚5" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚6" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚7" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚8" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚9" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚10" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚11" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚12" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚13" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚14" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚15" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚16" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚17" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚18" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚19" value = U31 }
+                command = { type = remove_division which = "²“n“‡UŒ‚20" value = U31 }
+	}
+}
+
+##############################################################################################################
+
+
+event = {
+	id = 50014
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50013
+       }
+
+	name = "’¥•º”N—î’²®–@ˆÄ"
+	desc = "EVT_50014_DESC"
+	style = 0
+
+	date = { day = 0 month = 11 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "–@ˆÄ‚ğ‰ÂŒˆ‚·‚é"
+                ai_chance = 90
+                command = { type = dissent value = 3 }
+                command = { type = manpowerpool value = 150 }
+ }
+        action_b = {
+                name = "–@ˆÄ‚ğ”ÛŒˆ‚·‚é"
+                ai_chance = 10
+                command = { }
+ }
+}
+
+
+event = {
+	id = 50015
+	random = no
+        country = JAP
+	trigger = {
+                    flag = Sadogashima_Hive
+       }
+
+        name = "BETAVŠƒã—¤"
+	desc = "EVT_50015_DESC"
+	style = 0
+
+	date = { day = 0 month = 1 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚©‚©‚Á‚Ä—ˆ‚¢I‘Šè‚É‚È‚Á‚Ä‚â‚éI"
+                command = { type = trigger which = 50016 }
+ }
+}
+
+
+event = {
+	id = 50016
+	random = no
+        country = U32
+	trigger = {
+                    event = 50015
+       }
+
+	name = "BETAVŠƒã—¤"
+	desc = "EVT_50015_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "—¹‰ğ"
+		command = { type = add_corps value = land where = 1184 } # VŠƒŒ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+
+
+event = {
+	id = 50017
+	random = no
+        country = JAP
+	trigger = {
+                    flag = Sadogashima_Hive
+       }
+
+	name = "BETAVŠƒã—¤"
+	desc = "EVT_50015_DESC"
+	style = 0
+
+	date = { day = 10 month = 10 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚©‚©‚Á‚Ä—ˆ‚¢I‘Šè‚É‚È‚Á‚Ä‚â‚éI"
+                command = { type = trigger which = 50018 }
+ }
+}
+
+
+event = {
+	id = 50018
+	random = no
+        country = U32
+	trigger = {
+                    event = 50017
+       }
+
+	name = "BETAVŠƒã—¤"
+	desc = "EVT_50015_DESC"
+	style = 0
+
+	date = { day = 0 month = 6 year = 1998 }
+	offset = 20
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "—¹‰ğ"
+		command = { type = add_corps value = land where = 1184 } # VŠƒŒ§
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # —vÇ‹‰
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # —vŒ‚‹‰
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } # “ËŒ‚‹‰
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  } # dŒõü‹‰
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+ }
+}
+
+#############################################################
+######ƒIƒ‹ƒ^ƒlƒCƒeƒBƒ”Œv‰æŠÖ˜A‚Æ‚©#####
+#############################################################
+
+event = {
+	id = 50101
+	random = no
+        country = JAP
+	trigger = {
+                    control = { province = 2631 data = -2 }#²‰êŒ§
+       }
+	name = "–¾¯ìí"
+	desc = "EVT_50101_DESC"
+	style = 0
+
+	date = { day = 4 month = 7 year = 1999 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ìí‚ğŠJn‚·‚é"
+		command = { type = add_division value = hq when = 3 where = artillery } 
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = enable_task which = nuke }
+		command = { type = task_efficiency which = nuke value = 500.0 }
+		command = { type = nuclear_carrier which = flying_bomb }
+		command = { type = nuclear_carrier which = flying_rocket }
+		command = { type = activate_division which = 10003 value = 1 where = 1174 when = 1 }
+		command = { type = activate_division which = 10003 value = 2 where = 1174 when = 1 }
+                command = { type = manpowerpool value = -150 }
+                command = { type = money value = -500 }
+                command = { type = supplies value = -3000 }
+ }
+}
+
+
+event = {
+	id = 50102
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50101
+                    control = { province = 1193 data = -3 }#_“ŞìŒ§
+                    control = { province = 1192 data = -3 }#“Œ‹“s
+                    control = { province = 2615 data = -3 }#‹“s•{
+                    control = { province = 2631 data = -3 }#²‰êŒ§
+       }
+	name = "–¾¯ìí¬Œ÷"
+	desc = "EVT_50102_DESC"
+	style = 0
+
+	date = { day = 4 month = 7 year = 1999 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+                command = { type = dissent value = -20 }
+                command = { type = morale which = land when = now value = 5 }
+ }
+}
+
+
+event = {
+	id = 50103
+	random = no
+        country = JAP
+	trigger = {
+                    control = { province = 1193 data = -3 }#_“ŞìŒ§
+       }
+	name = "‰¡•lŠî’nŒšİŠJn"
+	desc = "EVT_50103_DESC"
+	style = 0
+
+	date = { day = 0 month = 3 year = 1999 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "Œšİ‚ğŠJn‚·‚é"
+                command = { type = supplies value = -3000 }
+                command = { type = setflag which = yokohamaB }
+ }
+}
+
+
+
+event = {
+	id = 50104
+	random = no
+        country = JAP
+	trigger = {
+                    flag = yokohamaB
+       }
+	name = "EVT_50104_NAME"
+	desc = "EVT_50104_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2000 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "Œ”m‚ÉŠú‘Ò‚µ‚æ‚¤"
+                command = { type = research_mod value = 5 }
+ }
+}
+
+
+event = {
+	id = 50105
+	random = no
+        country = JAP
+	trigger = {
+                    flag = yokohamaB
+       }
+	name = "HI-MAERFŒv‰æÚû"
+	desc = "EVT_50105_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"
+		command = { }
+ }
+}
+
+
+
+event = {
+	id = 50106
+	random = no
+        country = JAP
+	trigger = {
+                    flag = Sadogashima_Hive
+                    #event = 50105
+       }
+	name = "b21†ìí"
+	desc = "EVT_50106_DESC"
+	style = 0
+	picture = "kyousyuu"
+
+	date = { day = 23 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "²“n“‡‚ğ’DŠÒ‚·‚é‚Ì‚¾I"
+		command = { type = add_corps value = land where = 1192 }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_corps value = land where = 1192 }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_corps value = land where = 1192 }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_corps value = land where = 1192 } 
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = motorized when = 25 }
+		command = { type = add_corps value = air where = 1192 } 
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_corps value = air where = 1192 } 
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_corps value = air where = 1192 } 
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_corps value = air where = 1192 } 
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+                command = { type = manpowerpool value = -60 }
+                command = { type = supplies value = -5000 }
+                command = { type = money value = -300 }
+ }
+}
+
+event = {
+	id = 50107
+	random = no
+        country = JAP
+	trigger = {
+                  or = {
+                   and = {
+                    control = { province = 1185 data = U06 }
+                    event = 70002
+                          }
+                   and = {
+                    event = 70001
+                    event = 500131
+                    control = { province = 1185 data = U06 }
+                         }
+                        }
+       }
+	name = "b21†ìí¬Œ÷"
+	desc = "EVT_50107_DESC"
+	style = 0
+
+	date = { day = 23 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"
+                command = { type = dissent value = -20 }
+                command = { type = morale which = land when = now value = 20 }
+ }
+}
+
+
+event = {
+	id = 50108
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50107
+                    random = 80
+       }
+	name = "²“n“‡ƒnƒCƒ”¶‚«c‚è‹­P"
+	desc = "EVT_50108_DESC"
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 5
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚È‚ñ‚Ä‚±‚Æ‚¾EEE"
+                command = { type = manpowerpool value = -30 }
+                command = { type = supplies value = -2000 }
+ }
+}
+
+
+event = {
+	id = 50109
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50107
+       }
+	name = "÷‰Ôìí"
+	desc = "EVT_50109_DESC"
+	style = 0
+	picture = "XG-70"
+
+	date = { day = 29 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "l—Ş‚Ì‘—Í‚ğ‚ ‚°‚é‚Ì‚¾I"
+		command = { type = add_corps value = land where = 1192 }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_corps value = land where = 1192 } 
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_division value = paratrooper when = 12 where = artillery }
+		command = { type = add_corps value = air where = 1192 } 
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_corps value = air where = 1192 } 
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_corps value = air where = 1192 } 
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_corps value = air where = 1192 } 
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+		command = { type = add_division value = d_rsv_34 when = 0 }
+                command = { type = manpowerpool value = -60 }
+                command = { type = supplies value = -5000 }
+                command = { type = money value = -300 }
+ }
+}
+
+
+event = {
+	id = 50110
+	random = no
+        country = JAP
+	trigger = {
+                    event = 50109
+#                    land_combat = 1431
+                   garrison = { country = -3 province = 1431 type = land }
+       }
+	name = "A-01“Ë“ü"
+	desc = "EVT_50110_DESC"
+	style = 0
+	picture = "XG-70"
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "”Ş‚ç‚É‚·‚×‚Ä‚ğ‘õ‚·"
+		#command = { type = new_model which = cavalry value = 2 }
+		#command = { type = new_model which = cavalry value = 9 }
+		#command = { type = new_model which = cavalry value = 16 }
+		#command = { type = new_model which = cavalry value = 23 }
+		#command = { type = scrap_model which = cavalry value = 1 }
+		#command = { type = scrap_model which = cavalry value = 8 }
+		#command = { type = scrap_model which = cavalry value = 15 }
+		#command = { type = scrap_model which = cavalry value = 22 }
+		#command = { type = new_model which = motorized value = 26 }
+		#command = { type = scrap_model which = motorized value = 25 }
+		command = { type = activate_division which = 10001 value = 3001 where = 1431 when = 1 }
+		command = { type = activate_division which = 10001 value = 3002 where = 1431 when = 1 }
+		command = { type = activate_division which = 10001 value = 3003 where = 1431 when = 1 }
+		command = { type = activate_division which = 10001 value = 3004 where = 1431 when = 1 }
+		command = { type = activate_division which = 10001 value = 3005 where = 1431 when = 1 }
+		command = { type = activate_division which = 10001 value = 3006 where = 1431 when = 1 }
+ }
+}
+
+
+event = {
+	id = 50111
+	random = no
+	country = JAP
+	trigger = {
+                  event = 50110
+                  control = { province = 1431 data = -3 }
+       }
+
+	name = "÷‰Ôìí¬Œ÷"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+                command = { type = sleepevent which = 50118 }
+ }
+}
+
+
+event = {
+	id = 50112
+	random = no
+	country = U06
+	trigger = {
+                  event = 50110
+                  control = { province = 1431 data = -3 }
+       }
+
+	name = "÷‰Ôìí¬Œ÷"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+event = {
+	id = 50113
+	random = no
+	country = USA
+	trigger = {
+                  event = 50110
+                  control = { province = 1431 data = -3 }
+       }
+
+	name = "÷‰Ôìí¬Œ÷"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+event = {
+	id = 50114
+	random = no
+	country = U02
+	trigger = {
+                  event = 50110
+                  control = { province = 1431 data = -3 }
+       }
+
+	name = "÷‰Ôìí¬Œ÷"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+
+event = {
+	id = 50115
+	random = no
+	country = U01
+	trigger = {
+                  event = 50110
+                  control = { province = 1431 data = -3 }
+       }
+
+	name = "÷‰Ôìí¬Œ÷"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+event = {
+	id = 50116
+	random = no
+	country = U04
+	trigger = {
+                  event = 50110
+                  control = { province = 1431 data = -3 }
+       }
+
+	name = "÷‰Ôìí¬Œ÷"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+event = {
+	id = 50117
+	random = no
+	country = U05
+	trigger = {
+                  event = 50110
+                  control = { province = 1431 data = -3 }
+       }
+
+	name = "÷‰Ôìí¬Œ÷"
+	desc = "EVT_50111_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "‘å•ÏŒ‹\I"                
+                command = { type = dissent value = -50 }
+                command = { type = surprise which = land value = 50 }
+                command = { type = surprise which = air value = 50 }
+                command = { type = surprise which = naval value = 50 }
+                command = { type = morale which = land when = now value = 30 }
+                command = { type = morale which = air when = now value = 30 }
+                command = { type = morale which = naval when = now value = 30 }
+ }
+}
+
+
+
+event = {
+	id = 50118
+	random = no
+	country = JAP
+	trigger = {
+                  event = 50110
+               NOT = {   
+#                  land_combat = 1431
+                   garrison = { country = -3 province = 1431 type = land }
+                  control = { province = 1431 data = -3 }
+                      }
+       }
+
+	name = "÷‰Ôìí¸”s"
+	desc = "EVT_50118_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "‚È‚ñ‚Ä‚±‚Æ‚¾EEE"                
+                command = { type = dissent value = 6 }
+                command = { type = setflag which = Trident }
+                command = { type = sleepevent which = 50111 }
+                command = { type = sleepevent which = 50112 }
+                command = { type = sleepevent which = 50113 }
+                command = { type = sleepevent which = 50114 }
+                command = { type = sleepevent which = 50115 }
+                command = { type = sleepevent which = 50116 }
+                command = { type = sleepevent which = 50117 }
+ }
+}
+
+
+event = {
+	id = 50119
+	random = no
+	country = USA
+	trigger = {
+                  flag = Trident
+                  event = 50316
+       }
+
+	name = "ƒgƒ‰ƒCƒfƒ“ƒgìí”­“®"
+	desc = "EVT_50119_DESC" 
+	style = 0
+
+	date = { day = 28 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "ìí‚ğ”­“®‚·‚é"
+		command = { type = enable_task which = nuke }
+		#command = { type = task_efficiency which = nuke value = 500.0 }
+		command = { type = nuclear_carrier which = flying_bomb }
+		command = { type = nuclear_carrier which = flying_rocket }                
+                command = { type = activate_division which = 23003 value = 1 where = 606 }
+                command = { type = activate_division which = 23003 value = 2 where = 606 }
+                command = { type = activate_division which = 23003 value = 3 where = 606 }
+                command = { type = activate_division which = 23003 value = 4 where = 606 }
+                command = { type = activate_division which = 23003 value = 5 where = 606 }
+                command = { type = activate_division which = 23003 value = 6 where = 606 }
+                command = { type = activate_division which = 23003 value = 7 where = 606 }
+                command = { type = activate_division which = 23003 value = 8 where = 606 }
+                command = { type = activate_division which = 23003 value = 9 where = 606 }
+                command = { type = activate_division which = 23003 value = 10 where = 606 }
+                command = { type = activate_division which = 23003 value = 11 where = 606 }
+                command = { type = activate_division which = 23003 value = 12 where = 606 }
+                command = { type = activate_division which = 23003 value = 13 where = 606 }
+                command = { type = activate_division which = 23003 value = 14 where = 606 }
+                command = { type = activate_division which = 23003 value = 15 where = 606 }
+                command = { type = activate_division which = 23003 value = 16 where = 606 }
+                command = { type = activate_division which = 23003 value = 17 where = 606 }
+                command = { type = activate_division which = 23003 value = 18 where = 606 }
+                command = { type = activate_division which = 23003 value = 19 where = 606 }
+                command = { type = activate_division which = 23003 value = 20 where = 606 }
+                command = { type = activate_division which = 23003 value = 21 where = 606 }
+                command = { type = activate_division which = 23003 value = 22 where = 606 }
+                command = { type = activate_division which = 23003 value = 23 where = 606 }
+                command = { type = activate_division which = 23003 value = 24 where = 606 }
+                command = { type = activate_division which = 23003 value = 25 where = 606 }
+                command = { type = activate_division which = 23003 value = 26 where = 606 }
+                command = { type = activate_division which = 23003 value = 27 where = 606 }
+                command = { type = activate_division which = 23003 value = 28 where = 606 }
+                command = { type = activate_division which = 23003 value = 29 where = 606 }
+                command = { type = activate_division which = 23003 value = 30 where = 606 }
+                command = { type = activate_division which = 23003 value = 31 where = 606 }
+                command = { type = activate_division which = 23003 value = 32 where = 606 }
+                command = { type = activate_division which = 23003 value = 33 where = 606 }
+                command = { type = activate_division which = 23003 value = 34 where = 606 }
+                command = { type = activate_division which = 23003 value = 35 where = 606 }
+                command = { type = activate_division which = 23003 value = 36 where = 606 }
+                command = { type = activate_division which = 23003 value = 37 where = 606 }
+                command = { type = activate_division which = 23003 value = 38 where = 606 }
+                command = { type = activate_division which = 23003 value = 39 where = 606 }
+                command = { type = activate_division which = 23003 value = 40 where = 606 }
+                command = { type = activate_division which = 23003 value = 41 where = 606 }
+                command = { type = activate_division which = 23003 value = 42 where = 606 }
+                command = { type = activate_division which = 23003 value = 43 where = 606 }
+                command = { type = activate_division which = 23003 value = 44 where = 606 }
+                command = { type = activate_division which = 23003 value = 45 where = 606 }
+                command = { type = activate_division which = 23003 value = 46 where = 606 }
+                command = { type = activate_division which = 23003 value = 47 where = 606 }
+                command = { type = activate_division which = 23003 value = 48 where = 606 }
+                command = { type = activate_division which = 23003 value = 49 where = 606 }
+                command = { type = activate_division which = 23003 value = 50 where = 606 }
+                command = { type = activate_division which = 23003 value = 51 where = 606 }
+                command = { type = activate_division which = 23003 value = 52 where = 606 }
+ }
+}

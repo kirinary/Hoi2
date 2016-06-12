@@ -1,0 +1,189 @@
+#model0
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 2
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 1
+}
+
+#model1
+model =
+{ cost                = 4
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 2
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 2
+}
+
+#model2
+model =
+{ cost                = 5
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 2
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 3
+}
+
+#model3
+model =
+{ cost                = 5
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 3
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 4
+}
+
+#model4
+model =
+{ cost                = 6
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 3
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 5
+}
+
+#model5
+model =
+{ cost                = 6.3
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 3.3
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 5
+}
+
+#model6
+model =
+{ cost                = 6.3
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 3.7
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 6
+}
+
+#model7
+model =
+{ cost                = 6.3
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 3.9
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 6
+}
+
+#model8
+model =
+{ cost                = 6.3
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 4.1
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 7
+}
+
+#model9
+model =
+{ cost                = 6.3
+  buildtime           = 60
+  manpower            = 1
+  defensiveness       = 0
+  toughness           = 0
+  defaultorganisation = 0
+  softness            = 4.4
+  softattack          = 0
+  suppression         = 0
+  fuelconsumption     = 0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  supplyconsumption   = 0.2
+  hardattack          = 0
+  maxspeed            = 7
+}

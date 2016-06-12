@@ -1,0 +1,6 @@
+BRU;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+30000;ブルネイ海兵隊;T_BRU_BoatSection;1;1960;2100;decentralized_execution;small_taskforce_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+30001;ブルネイ王国軍;T_BRU_MalayRegiment;1;1930;2100;centralized_execution;infantry_focus;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+30002;ブルネイ・シェル・ペトローリアム社;T_BRU_Brunei_Petroleum;2;1930;2100;management;chemistry;general_equipment;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+30003;ブルネイ王国海軍;T_BRU_TenteraLautDirajaBrunei;1;1960;2100;aeronautics;electronics;technical_efficiency;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+30004;ダルッサラーム大学;T30000;1;1930;2100;mechanics;chemistry;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

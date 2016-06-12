@@ -1,0 +1,212 @@
+#########################################################
+#		各国戦術機設計思想反映MOD
+#########################################################
+#
+#EVENT 1801	実行確認
+#EVENT 1802	戦域支配戦術機(米国)
+#EVENT 1803	高性能近接戦闘戦術機(日本帝国)
+#EVENT 1804	ALL・TSF・DOCTRINE(欧州連合)
+#EVENT 1805	密集近接戦特化戦術機(ソ連)
+#EVENT 1806	高機動格闘戦術機(統一中華戦線)
+#EVENT 1807	低コスト戦術機(大東亜連合)
+#EVENT 1808	高速機動砲撃戦術機(中東連合)
+#
+#########################################################
+
+event = {
+        id = 1801
+	random = no
+	country = -1
+
+        trigger = { ai = no }
+
+	name = "各国戦術機特徴付けオプション"
+        desc = "EVT_1801_DESC"
+        style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+action_a = {	
+		name = "実行"
+		command = { type = setflag which = tsf_option }
+	}
+action_b = {
+		name = "不要"
+		command = {  }
+	}
+}
+
+event = {
+        id = 1802
+	random = no
+	country = USA
+
+        trigger = { flag = tsf_option }
+
+        name = "戦域支配戦術機"
+        desc = "EVT_1802_DESC"
+        style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+action_a = {
+		name = "OK"
+		command = { type = speed which = paratrooper value = 1 }
+		command = { type = soft_attack which = paratrooper value = 1 }
+		command = { type = speed which = infantry value = 1 }
+		command = { type = soft_attack which = infantry value = 1 }
+		command = { type = build_time which = paratrooper when = on_upgrade where = relative value = -10 }
+	}
+}
+
+event = {
+        id = 1803
+	random = no
+	country = JAP
+
+        trigger = { flag = tsf_option }
+
+        name = "高性能近接戦闘戦術機"
+        desc = "EVT_1803_DESC"
+        style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+action_a = {
+		name = "OK"
+		command = { type = soft_attack which = paratrooper value = 2 }
+		command = { type = soft_attack which = infantry value = 2 }
+		command = { type = hard_attack which = infantry value = 1 }
+		command = { type = soft_attack which = cavalry value = 2 }
+		command = { type = hard_attack which = cavalry value = 2 }
+		command = { type = build_time which = cavalry when = on_upgrade where = relative value = 5 }
+		command = { type = build_cost which = cavalry where = relative when = on_upgrade value = 20 }
+	}
+}
+
+event = {
+        id = 1804
+	random = no
+	country = U02
+
+        trigger = { flag = tsf_option }
+
+        name = "ALL・TSF・DOCTRINE"
+        desc = "EVT_1804_DESC"
+        style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+action_a = {
+		name = "OK"
+		command = { type = build_time which = paratrooper when = on_upgrade where = relative value = -10 }
+		command = { type = build_time which = infantry when = on_upgrade where = relative value = -10 }
+		command = { type = build_cost which = land where = relative when = on_upgrade value = -10 }
+		command = { type = soft_attack which = paratrooper value = 1 }
+		command = { type = soft_attack which = infantry value = 2 }
+	}
+}
+
+event = {
+        id = 1805
+	random = no
+	country = SOV
+
+        trigger = { flag = tsf_option }
+
+        name = "密集近接戦特化戦術機"
+        desc = "EVT_1805_DESC"
+        style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+action_a = {
+		name = "OK"
+		command = { type = soft_attack which = paratrooper value = 2 }
+		command = { type = hard_attack which = paratrooper value = 2 }
+		command = { type = soft_attack which = infantry value = 2 }
+		command = { type = hard_attack which = infantry value = 2 }
+		command = { type = build_cost which = paratrooper when = on_upgrade where = relative value = -10 }
+	}
+}
+
+event = {
+	id = 1806
+	random = no
+	country = U05
+
+	trigger = { flag = tsf_option }
+
+	name = "高機動格闘戦術機"
+	desc = "EVT_1806_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+action_a = {
+		name = "OK"
+		command = { type = soft_attack which = paratrooper value = 2 }
+		command = { type = soft_attack which = infantry value = 2 }
+		command = { type = build_cost which = land where = relative when = on_upgrade value = -5 }
+	}
+}
+
+event = {
+       	id = 1807
+	random = no
+	country = U04
+
+        trigger = { flag = tsf_option }
+
+        name = "低コスト戦術機"
+        desc = "EVT_1807_DESC"
+        style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+action_a = {
+		name = "OK"
+		command = { type = build_time which = paratrooper when = on_upgrade where = relative value = -20 }
+		command = { type = build_cost which = paratrooper where = relative when = on_upgrade value = -10 }
+	}
+}
+
+event = {
+        id = 1808
+	random = no
+	country = U03
+
+        trigger = { flag = tsf_option }
+
+        name = "高速機動砲撃戦術機"
+        desc = "EVT_1808_DESC"
+        style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+action_a = {
+		name = "OK"
+		command = { type = speed which = paratrooper value = 1 }
+		command = { type = defensiveness which = paratrooper value = 1 }
+		command = { type = desert_attack which = paratrooper value = 10 }
+		command = { type = desert_defense which = paratrooper value = 10 }
+		command = { type = desert_attack which = infantry value = 10 }
+		command = { type = desert_defense which = infantry value = 10 }
+	}
+}

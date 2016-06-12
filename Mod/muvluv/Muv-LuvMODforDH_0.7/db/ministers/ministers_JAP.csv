@@ -1,0 +1,191 @@
+JAP;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+5000;Head of State;—Tm;70;SC;Not rule without the reigning;Very High;M5001;x
+5002;Head of Government;“c’†Šp‰h;72;SC;Flamboyant Tough Guy;High;M5002;x
+5003;Foreign Minister;‘å•½³–F;72;SC;The Cloak N Dagger Schemer;High;M5003;x
+5004;Minister of Armament;ˆ¤’m„ˆê;72;SC;Administrative Genius;High;M5004;x
+5005;Minister of Security;“c’†ˆÉOŸ;72;SC;Efficient Sociopath;High;M5005;x
+5006;Head of Military Intelligence;]è^Ÿ;72;SC;Political Specialist;High;M5006;x
+5007;Chief of Staff;ˆßŠ}x—Y;72;SC;School of Psychology;High;M5007;x
+5008;Chief of Army;’†‘º—´•½;72;SC;Armoured Spearhead Doctrine;High;M5008;x
+5009;Chief of Navy;Î“cÌ—Y;72;SC;Open Seas Doctrine;High;M5009;x
+5010;Chief of Air Force;ÎìŠÑ”V;72;SC;Air Superiority Doctrine;High;M5010;x
+5011;Head of State;—Tm;70;SD;Not rule without the reigning;Very High;M5001;x
+5012;Head of State;–¾m;70;SC;Not rule without the reigning;Very High;M5012;x
+5013;Head of State;–¾m;70;SD;Not rule without the reigning;Very High;M5012;x
+5014;Head of State;•“cŠ°ˆê;70;LWR;Ruthless Powermonger;High;M5014;x
+5015;Head of State;–ìâ™ÒO;70;ST;Barking Buffoon;High;M5015;x
+5016;Head of Government;O–Ø••v;74;SC;Ambitious Union Boss;High;M5016;x
+5017;Head of Government;•Ÿ“cæà•v;76;SC;Silent Workhorse;High;M5017;x
+5018;Head of Government;‘å•½³–F;78;SC;Industrial Prime;High;M5003;x
+5019;Head of Government;ˆÉ“Œ³‹`;80;SC;Silent Workhorse;High;M5019;x
+5020;Head of Government;—é–Ø‘PK;80;SC;Naive Optimist;High;M5020;x
+5021;Head of Government;’†‘]ªNO;82;SC;Party Coordinating;High;M5021;x
+5022;Head of Government;’|‰º“o;87;SC;Naive Optimist;High;M5022;x
+5023;Head of Government;‰F–ì@—C;89;SC;Excellent Leader;High;M5023;x
+5024;Head of Government;ŠC•”r÷;89;SC;Happy Amateur;High;M5024;x
+5025;Head of Government;‹{àVŠìˆê;91;SC;Naive Optimist;High;M5025;x
+5026;Head of Government;×ìŒìê¤;93;ML;Happy Amateur;High;M5026;x
+5027;Head of Government;‰H“cy;94;SC;Ambitious Union Boss;High;M5027;x
+5028;Head of Government;‘ºR•xs;94;SD;Flamboyant Tough Guy;High;M5028;x
+5029;Head of Government;‹´–{—´‘¾˜Y;96;SC;Flamboyant Tough Guy;High;M5029;x
+5030;Head of Government;¬ŸºŒbO;98;SC;Silent Workhorse;High;M5030;x
+5031;Head of Government;XŠì˜N;2000;SC;Naive Optimist;High;M5031;x
+5032;Head of Government;¬òƒˆê˜Y;2006;ML;Flamboyant Tough Guy;High;M5032;x
+5033;Head of Government;ˆÀ•”WO;2007;SC;Silent Workhorse;High;M5033;x
+5034;Head of Government;•Ÿ“cN•v;2007;ML;Silent Workhorse;High;M5034;x
+5035;Head of Government;–ƒ¶‘¾˜Y;2008;SC;Flamboyant Tough Guy;High;M5035;x
+5036;Head of Government;’JŠ_’õˆê;2009;ML;Ambitious Union Boss;High;M5036;x
+5037;Head of Government;”µR—R‹I•v;2009;SL;Corporate Suit;High;M5037;x
+5038;Head of Government;›’¼l;2010;SL;Ambitious Union Boss;High;M5038;x
+5039;Head of Government;–ì“c‰À•F;2011;SL;Ambitious Union Boss;High;M5039;x
+5040;Head of Government;¬‘òˆê˜Y;93;SL;Backroom Backstabber;High;M5038;x
+5041;Head of Government;uˆÊ˜a•v;2000;SD;Naive Optimist;High;M5041;x
+5042;Head of Government;ÎŒ´T‘¾˜Y;90;PA;Party Coordinating;High;M5042;x
+5043;Head of Government;‹“ˆ“¿‘¾˜N;70;FA;Flamboyant Tough Guy;High;M5043;x
+5044;Head of Government;’·’Jì‰pŒ›;70;LWR;Ambitious Union Boss;High;M5044;x
+5045;Foreign Minister;–Ø‘ºr•v;74;SC;Ideological Crusader;High;M5045;x
+5046;Foreign Minister;‹{àVŠìˆê;74;SC;Apologetic Clerk;High;M5025;x
+5047;Foreign Minister;¬â‘P‘¾˜Y;76;SC;Great Compromiser;High;M5047;x
+5048;Foreign Minister;”µRˆĞˆê˜Y;76;SC;General Staffer;High;M5048;x
+5049;Foreign Minister;‰€“c’¼;77;SC;Biased Intellectual;Medium;M5049;x
+5050;Foreign Minister;‘å—ˆ²•˜Y;79;SC;Great Compromiser;Medium;M5050;x
+5051;Foreign Minister;ˆÉ“Œ³‹`;80;SC;Ideological Crusader;Medium;M5019;x
+5052;Foreign Minister;ŸN“à‹`—Y;81;SC;Biased Intellectual;Medium;M5052;x
+5053;Foreign Minister;ˆÀ”{W‘¾˜Y;82;SC;The Cloak N Dagger Schemer;Medium;M5053;x
+5054;Foreign Minister;‘q¬³;86;SC;Apologetic Clerk;Medium;M5054;x
+5055;Foreign Minister;‰F–ì@—C;87;SC;Great Compromiser;Medium;M5023;x
+5056;Foreign Minister;O’Ë”;89;SC;Biased Intellectual;Medium;M5056;x
+5057;Foreign Minister;’†R‘¾˜Y;89;SC;Great Compromiser;Medium;M5057;x
+5058;Foreign Minister;“n•Ó”ü’q—Y;91;SC;Biased Intellectual;Medium;M5058;x
+5059;Foreign Minister;•“¡‰Ã•¶;93;SC;Ideological Crusader;Medium;M5059;x
+5060;Foreign Minister;‰H“cy;93;SC;Ideological Crusader;Medium;M5027;x
+5061;Foreign Minister;Š`àVO¡;94;SC;The Cloak N Dagger Schemer;Medium;M5061;x
+5062;Foreign Minister;‰Í–ì—m•½;94;SC;Apologetic Clerk;Medium;M5062;x
+5063;Foreign Minister;’r“cs•F;96;SC;Ideological Crusader;Medium;M5063;x
+5065;Foreign Minister;¬ŸºŒbO;97;SC;Great Compromiser;Medium;M5030;x
+5066;Foreign Minister;‚‘º³•F;98;SC;Biased Intellectual;Medium;M5066;x
+5067;Foreign Minister;“c’†^‹Iq;2001;ML;The Cloak N Dagger Schemer;Low;M5067;x
+5068;Foreign Minister;¬òƒˆê˜Y;2002;ML;Ideological Crusader;High;M5032;x
+5069;Foreign Minister;ìŒû‡q;2002;ML;Apologetic Clerk;High;M5069;x
+5070;Foreign Minister;’¬‘ºMF;2004;ML;Apologetic Clerk;High;M5070;x
+5071;Foreign Minister;–ƒ¶‘¾˜Y;2005;SC;Ideological Crusader;High;M5035;x
+5072;Foreign Minister;’†‘]ªO•¶;2008;SC;Great Compromiser;High;M5072;x
+5073;Foreign Minister;‰ª“c–ç;2009;SL;The Cloak N Dagger Schemer;High;M5073;x
+5074;Foreign Minister;‘OŒ´½i;2010;SL;Biased Intellectual;High;M5074;x
+5075;Foreign Minister;}–ìK’j;2011;SL;Ideological Crusader;High;M5075;x
+5076;Foreign Minister;¼–{„–¾;2011;SL;Great Compromiser;High;M5076;x
+5077;Foreign Minister;Œº—tŒõˆê˜Y;2011;SL;Iron Fisted Brute;High;M5077;x
+5078;Foreign Minister;Šİ“c•¶—Y;2012;SC;Biased Intellectual;High;M5078;x
+5079;Foreign Minister;•û’åq;70;SD;Great Compromiser;High;M5079;x
+5080;Foreign Minister;Îˆäˆèq;70;LWR;Biased Intellectual;High;M5080;x
+5081;Foreign Minister;ó”öŒcˆê˜Y;98;SL;Apologetic Clerk;Medium;M5081;x
+5082;Foreign Minister;Æ‰®Š°“¿;98;SD;Apologetic Clerk;Medium;M5082;x
+5083;Foreign Minister;•½Àæà•v;80;SC;Iron Fisted Brute;Medium;M5083;x
+5084;Foreign Minister;‰–è‹±‹v;2006;SC;Biased Intellectual;Medium;M5084;x
+5085;Foreign Minister;ˆÉ“¡M‘¾˜Y;2008;SL;Great Compromiser;Medium;M5085;x
+5086;Foreign Minister;–ìâ™ÒO;70;ST;The Cloak N Dagger Schemer;High;M5015;x
+5087;Minister of Armament;“c’†Šp‰h;73;SC;corrupt patriotism;High;M5002;x
+5088;Minister of Armament;•Ÿ“cæà•v;73;SC;laissez-faire capitalist;High;M5017;x
+5089;Minister of Armament;‘å•½³–F;74;SC;Resource Industrialist;High;M5003;x
+5090;Minister of Armament;–VG’j;76;SC;Business Person;High;M5090;x
+5091;Minister of Armament;‘ºR’B—Y;77;SC;Administrative Genius;High;M5091;x
+5092;Minister of Armament;‹àqˆê•½;78;SC;Resource Industrialist;High;M5092;x
+5093;Minister of Armament;’|‰º“o;79;SC;laissez-faire capitalist;High;M5022;x
+5094;Minister of Armament;“n•Ó”ü’q—Y;80;SC;Corrupt Kleptocrat;High;M5058;x
+5095;Minister of Armament;‹{àVŠìˆê;86;SC;Resource Industrialist;High;M5025;x
+5096;Minister of Armament;‹´–{—´‘¾˜Y;89;SC;Administrative Genius;High;M5029;x
+5097;Minister of Armament;ŠC•”r÷;91;SC;laissez-faire capitalist;High;M5024;x
+5098;Minister of Armament;‰H“cy;91;SC;laissez-faire capitalist;High;M5027;x
+5099;Minister of Armament;—Ñ‹`˜Y;92;SC;Administrative Genius;High;M5099;x
+5100;Minister of Armament;“¡ˆä—T‹v;93;SL;laissez-faire capitalist;High;M5100;x
+5101;Minister of Armament;•‘º³‹`;94;SL;laissez-faire capitalist;High;M5101;x
+5102;Minister of Armament;‹v•Û˜j;96;SD;Infantry Proponent;High;M5102;x
+5103;Minister of Armament;O’Ë”;96;SC;Resource Industrialist;High;M5103;x
+5104;Minister of Armament;¼‰iŒõ;98;SC;laissez-faire capitalist;High;M5104;x
+5105;Minister of Armament;‰–ì³\˜Y;2001;SC;Administrative Genius;High;M5105;x
+5106;Minister of Armament;’JŠ_’õˆê;2003;ML;Theoretical Scientist;High;M5036;x
+5107;Minister of Armament;”ögKŸ;2006;SC;Economic Bureaucracy;High;M5107;x
+5108;Minister of Armament;Šz‰ê•Ÿu˜Y;2007;SC;Military Entrepreneur;High;M5108;x
+5109;Minister of Armament;ˆÉ•¶–¾;2008;ML;Economic Bureaucracy;High;M5109;x
+5110;Minister of Armament;’†ìºˆê;2008;SC;Administrative Genius;High;M5110;x
+5111;Minister of Armament;—^Ó–ìŠ];2009;ML;Administrative Genius;Medium;M5111;x
+5112;Minister of Armament;›’¼l;2010;SL;laissez-faire capitalist;Medium;M5038;x
+5113;Minister of Armament;–ì“c‰À•F;2010;SL;laissez-faire capitalist;Medium;M5039;x
+5114;Minister of Armament;ˆÀZ~;2011;SL;Military Entrepreneur;Medium;M5114;x
+5115;Minister of Armament;é“‡Œõ—Í;2012;SL;laissez-faire capitalist;Medium;M5115;x
+5116;Minister of Armament;–ƒ¶‘¾˜Y;2012;SC;Resource Industrialist;Medium;M5035;x
+5117;Minister of Armament;“n•Óü;96;SL;laissez-faire capitalist;High;M5117;x
+5118;Minister of Armament;á—ÑG÷;2001;SD;Administrative Genius;High;M5118;x
+5119;Minister of Armament;‰Á“¡hˆê;70;SD;Theoretical Scientist;Medium;M5119;x
+5120;Minister of Armament;îçŒi;77;ML;Resource Industrialist;Medium;M5120;x
+5121;Minister of Armament;•½Àæà•v;80;SC;Resource Industrialist;Medium;M5083;x
+5122;Minister of Armament;Ÿºã’å—Y;89;SD;Resource Industrialist;High;M5122;x
+5123;Minister of Armament;s“c’‰‹`;70;SD;Administrative Genius;High;M5123;x
+5124;Minister of Armament;R–{‹`—²;70;LWR;Theoretical Scientist;Medium;M5124;x
+5125;Minister of Armament;–ÈŠÑ–¯•ã;86;SC;Business Person;Medium;M5125;x
+5126;Minister of Armament;“c’†kˆê;85;SL;Theoretical Scientist;Medium;M5126;x
+5127;Minister of Armament;’|’†•½‘ ;2001;ML;Economist Minister;High;M5127;x
+5128;Minister of Security;’†‘º”~‹g;56;SC;Silent Lawyer;High;M5128;x
+5129;Minister of Security;•l–ì´Œá;74;SC;Crime Fighter;High;M5129;x
+5130;Minister of Security;ˆî—tC;74;SC;Prince of Terror;High;M5130;x
+5131;Minister of Security;•Ÿ“cˆê;76;SC;Crime Fighter;High;M5131;x
+5132;Minister of Security;£ŒËRO’j;77;SC;Man of the People;High;M5132;x
+5133;Minister of Security;ŒÃˆäŠìÀ;78;SC;Compassionate Gentleman;High;M5133;x
+5134;Minister of Security;‘qÎ’‰—Y;79;SC;Back Stabber;High;M5134;x
+5135;Minister of Security;‰œ–ì½—º;80;SC;Former Agent;High;M5135;x
+5136;Minister of Security;â“c“¹‘¾;81;SC;Compassionate Gentleman;High;M5136;x
+5137;Minister of Security;`–ìÍ;82;SC;Former Agent;High;M5137;x
+5138;Minister of Security;Z‰hì;83;SC;Crime Fighter;High;M5138;x
+5139;Minister of Security;“ˆè‹Ï;84;SC;Prince of Terror;High;M5139;x
+5140;Minister of Security;—é–ØÈŒá;85;SC;Silent Lawyer;High;M5140;x
+5141;Minister of Security;‰““¡—v;86;SC;Silent Lawyer;High;M5141;x
+5142;Minister of Security;—Ñ“c—I‹I•v;87;SC;Man of the People;High;M5142;x
+5143;Minister of Security;’·’Jìs;88;SC;Man of the People;High;M5143;x
+5144;Minister of Security;‚’Ò³ŒÈ;88;SC;Silent Lawyer;High;M5144;x
+5145;Minister of Security;’Jì˜aân;89;SC;Crime Fighter;High;M5145;x
+5146;Minister of Security;Œã“¡³•v;90;SC;Silent Lawyer;High;M5146;x
+5147;Minister of Security;’·’JìM;90;SC;Compassionate Gentleman;High;M5147;x
+5148;Minister of Security;ŠRÃ˜Z;90;SC;Back Stabber;High;M5148;x
+5149;Minister of Security;¶“¡Œb;91;SC;Crime Fighter;High;M5149;x
+5150;Minister of Security;“cŒ´—²;92;SC;Silent Lawyer;High;M5150;x
+5151;Minister of Security;Œã“¡“c³°;92;SC;Former Agent;High;M5151;x
+5152;Minister of Security;Oƒ–ŒÍ;93;ML;Silent Lawyer;High;M5152;x
+5153;Minister of Security;‰i–ì–Î–å;94;SC;Crime Fighter;High;M5153;x
+5154;Minister of Security;’†ˆäŸ¨;94;SL;Crooked Kleptocrat;High;M5154;x
+5155;Minister of Security;‘O“cŒM’j;94;SC;Crime Fighter;High;M5155;x
+5156;Minister of Security;“c‘ò’q¡;95;SC;Crooked Kleptocrat;High;M5156;x
+5157;Minister of Security;‹{àVO;95;SC;Silent Lawyer;High;M5157;x
+5158;Minister of Security;’·”ö—§q;96;SC;Compassionate Gentleman;High;M5158;x
+5159;Minister of Security;¼‰YŒ÷;96;SC;Crime Fighter;High;M5159;x
+5160;Minister of Security;‰ºˆî—tk‹g;97;SC;Former Agent;High;M5160;x
+5161;Minister of Security;’†‘º³O˜Y;98;SC;Efficient Sociopath;High;M5161;x
+5162;Minister of Security;w“àF—Y;99;SC;Man of the People;High;M5162;x
+5163;Minister of Security;‰Pˆä“úo’j;99;SC;Silent Lawyer;High;M5163;x
+5164;Minister of Security;•Û‰ª‹»¡;2000;SC;Crooked Kleptocrat;High;M5164;x
+5165;Minister of Security;‚‘º³•F;2000;SC;Crime Fighter;High;M5066;x
+5166;Minister of Security;XRáÁ‹|;2001;ML;Man of the People;High;M5166;x
+5167;Minister of Security;–ì‘ò‘¾O;2003;ML;Crime Fighter;High;M5167;x
+5168;Minister of Security;“ì–ì’mœ¨q;2004;ML;Man of the People;High;M5168;x
+5169;Minister of Security;™‰Y³Œ’;2005;ML;Compassionate Gentleman;High;M5169;x
+5170;Minister of Security;’·¨r‰“;2006;SC;Efficient Sociopath;High;M5170;x
+5171;Minister of Security;”µR–M•v;2007;ML;Efficient Sociopath;High;M5171;x
+5172;Minister of Security;X‰p‰î;2008;SC;Crime Fighter;High;M5172;x
+5173;Minister of Security;ç—tŒiq;2009;SD;Man of the People;High;M5173;x
+5174;Minister of Security;–ö“c–«;2010;SL;Silent Lawyer;High;M5174;x
+5175;Minister of Security;å’J—Rl;2010;SL;Efficient Sociopath;High;M5175;x
+5176;Minister of Security;]“cŒÜŒ;2010;SD;Prince of Terror;High;M5176;x
+5177;Minister of Security;•½‰ªG•v;2011;SL;Efficient Sociopath;High;M5177;x
+5178;Minister of Security;¬ì•q•v;2011;SL;Back Stabber;High;M5178;x
+5179;Minister of Security;‘êÀ;2012;SL;Crime Fighter;High;M5179;x
+5180;Minister of Security;“c’†ŒcH;2012;SL;Crooked Kleptocrat;High;M5180;x
+5181;Minister of Security;¬•½’‰³;2012;SL;Silent Lawyer;High;M5181;x
+5182;Minister of Security;’JŠ_’õˆê;2012;ML;Crime Fighter;High;M5036;x
+5183;Minister of Security;ˆ¢•”’mq;2003;SL;Compassionate Gentleman;High;M5183;x
+5184;Minister of Security;‰ª–{ŒöO;1985;LWR;Prince of Terror;Medium;M5184;x
+5185;Minister of Security;OD’B;90;SC;Silent Lawyer;Medium;M5185;x
+5186;Minister of Security;–ìâ™ÒO;70;ST;Efficient Sociopath;Very High;M5015;x
+5187;Head of Military Intelligence;’¬‘º‹àŒÜ;73;SC;Dismal Enigma;High;M5187;x
+5188;Head of Military Intelligence;•Ÿ“cˆê;74;SC;Political Specialist;High;M5131;x
+5189;Head of Military Intelligence;“V–ìŒö‹`;76;SC;Political Specialist;High;M5189;x
+5190;Head of Military Intelligence;¬ì•½“ñ;76;SC;Industrial Specialist;High;M5190;x

@@ -1,0 +1,209 @@
+# 0 - Naval FC Escort 0
+model = {
+	cost 				= 0.2
+	buildtime			= 60
+	manpower 			= 0.1
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 1
+	subdetectioncapability		= 0
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 2
+	distance			= 0.01
+	supplyconsumption 		= 0.05
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+# 1 - Naval FC Escort 1
+model = {
+	cost 				= 0.5
+	buildtime			= 65
+	manpower 			= 0.1
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 1
+	subdetectioncapability		= 0
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 3
+	distance			= 0.02
+	supplyconsumption 		= 0.05
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+# 2 - Naval FC Escort 2
+model = {
+	cost 				= 1.5
+	buildtime			= 70
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 2
+	subdetectioncapability		= 0
+	airdefence			= 0
+	seaattack			= 1
+	convoyattack			= 1
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 4
+	distance			= 0.03
+	supplyconsumption 		= 0.05
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+# 3 - Naval FC Escort 3
+model = {
+	cost 				= 1.5
+	buildtime			= 80
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 2
+	subdetectioncapability		= 1
+	airdefence			= 0
+	seaattack			= 1
+	convoyattack			= 1
+	subattack			= 0
+	airattack			= 1
+	shorebombardment		= 5
+	distance			= 0.04
+	supplyconsumption 		= 0.05
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+# 4 - Naval FC Escort 4
+model = {
+	cost 				= 2
+	buildtime			= 80
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 2
+	subdetectioncapability		= 1
+	airdefence			= 0
+	seaattack			= 2
+	convoyattack			= 2
+	subattack			= 0
+	airattack			= 1
+	shorebombardment		= 6
+	distance			= 0.05
+	supplyconsumption 		= 0.06
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+# 5 - Naval FC Escort 5
+model = {
+	cost 				= 2
+	buildtime			= 80
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 2
+	subdetectioncapability		= 1
+	airdefence			= 0
+	seaattack			= 2
+	convoyattack			= 2
+	subattack			= 0
+	airattack			= 1
+	shorebombardment		= 8
+	distance			= 0.06
+	supplyconsumption 		= 0.07
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+# 6 - Naval FC Escort 6
+model = {
+	cost 				= 2.5
+	buildtime			= 80
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 2
+	subdetectioncapability		= 1
+	airdefence			= 0
+	seaattack			= 3
+	convoyattack			= 3
+	subattack			= 0
+	airattack			= 1
+	shorebombardment		= 10
+	distance			= 0.07
+	supplyconsumption 		= 0.08
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+# 7 - Naval FC Escort 7
+model = {
+	cost 				= 2.5
+	buildtime			= 80
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 2
+	subdetectioncapability		= 1
+	airdefence			= 0
+	seaattack			= 3
+	convoyattack			= 3
+	subattack			= 0
+	airattack			= 1
+	shorebombardment		= 11
+	distance			= 0.08
+	supplyconsumption 		= 0.09
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+# 8 - Naval FC Escort 8
+model = {
+	cost 				= 2.5
+	buildtime			= 80
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 2
+	subdetectioncapability		= 1
+	airdefence			= 0
+	seaattack			= 4
+	convoyattack			= 4
+	subattack			= 0
+	airattack			= 1
+	shorebombardment		= 12
+	distance			= 0.08
+	supplyconsumption 		= 0.09
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+# 9 - Naval FC Escort 9
+model = {
+	cost 				= 2.5
+	buildtime			= 80
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 2
+	subdetectioncapability		= 1
+	airdefence			= 0
+	seaattack			= 4
+	convoyattack			= 4
+	subattack			= 0
+	airattack			= 1
+	shorebombardment		= 13
+	distance			= 0.08
+	supplyconsumption 		= 0.09
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+########################################
+

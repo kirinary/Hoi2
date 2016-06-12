@@ -1,0 +1,1213 @@
+##############################################################
+##
+## バランス調整イベント(5501~5600)
+##
+##############################################################
+##
+## id = 5501	防衛兵力配置(USA)
+## id = 5502	防衛兵力配置(U06)
+## id = 5503	本土防衛計画策定(JAP) ##ここから日本本土侵攻関連
+## id = 5504	本土防衛軍再編(JAP)
+## id = 5505	本土防衛軍再編(JAP)
+## id = 5506	首都防衛設備増強(JAP)
+## id = 5507	訓練兵の投入(JAP)
+## id = 5508	ユーラシア封じ込め戦略(JAP)
+## id = 5509	在日国連軍増派(U06)
+## id = 5510	在日国連軍増派(U06)
+## id = 5511	AI_EVENT(USA)#日本本土部隊アンロック
+## id = 5512	AI_EVENT(U06)#日本本土部隊アンロック
+## id = 5513	AI_EVENT(USA)#イギリス部隊アンロック
+## id = 5514	AI_EVENT(U06)#イギリス部隊アンロック
+## id = 5515	AI_EVENT(USA)#チュニジア部隊アンロック
+## id = 5516	AI_EVENT(USA)#シンガポール部隊アンロック
+## id = 5517	AI_EVENT(U06)#シチリア部隊アンロック
+## id = 5518	AI_EVENT(U06)#フィリピン部隊アンロック
+## id = 5519	G弾使用(明星作戦イベント関連)
+## id = 5520	京都防衛戦
+## id = 5521	機動トーチカ配備
+## id = 5522	機動トーチカ配備
+## id = 5523	AI用日本強化イベント
+## id = 5524	AI用日本強化イベント
+## id = 5525	U30(ブラゴエスチェンスクハイヴ)調整
+## id = 5526	AI用EU強化イベント
+## id = 5527	AI用日本神奈川陥落時イベント
+## id = 5528	AI用日本仙台死守イベント
+###############################################################
+
+event = {
+	id = 5501
+	random = no
+        country = USA
+	trigger = {
+                    ai = yes
+       }
+	name = "防衛兵力配置"
+	desc = "EVT_5501_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+                ####イギリス
+		command = { type = activate_division which = 23001 value = 5648 where = 17 when = 1 }
+		command = { type = activate_division which = 23001 value = 5649 where = 17 when = 1 }
+		command = { type = activate_division which = 23001 value = 5650 where = 17 when = 1 }
+		command = { type = activate_division which = 23001 value = 5651 where = 20 when = 1 }
+		command = { type = activate_division which = 23001 value = 5652 where = 20 when = 1 }
+		command = { type = activate_division which = 23001 value = 5653 where = 20 when = 1 }
+		command = { type = activate_division which = 23001 value = 5654 where = 21 when = 1 }
+		command = { type = activate_division which = 23001 value = 5655 where = 21 when = 1 }
+		command = { type = activate_division which = 23001 value = 5656 where = 21 when = 1 }
+                command = { type = lock_division which = 23001 value = 5648 }
+                command = { type = lock_division which = 23001 value = 5649 }
+                command = { type = lock_division which = 23001 value = 5650 }
+                command = { type = lock_division which = 23001 value = 5651 }
+                command = { type = lock_division which = 23001 value = 5652 }
+                command = { type = lock_division which = 23001 value = 5653 }
+                command = { type = lock_division which = 23001 value = 5654 }
+                command = { type = lock_division which = 23001 value = 5655 }
+                command = { type = lock_division which = 23001 value = 5656 }
+                ####チュニジア
+		command = { type = activate_division which = 23001 value = 5657 where = 939 when = 1 }
+		command = { type = activate_division which = 23001 value = 5658 where = 939 when = 1 }
+		command = { type = activate_division which = 23001 value = 5659 where = 939 when = 1 }
+                command = { type = lock_division which = 23001 value = 5657 }
+                command = { type = lock_division which = 23001 value = 5658 }
+                command = { type = lock_division which = 23001 value = 5659 }
+                ####シンガポール
+		command = { type = activate_division which = 23001 value = 5660 where = 1348 when = 1 }
+		command = { type = activate_division which = 23001 value = 5661 where = 1348 when = 1 }
+		command = { type = activate_division which = 23001 value = 5662 where = 1348 when = 1 }
+                command = { type = lock_division which = 23001 value = 5660 }
+                command = { type = lock_division which = 23001 value = 5661 }
+                command = { type = lock_division which = 23001 value = 5662 }
+                ####日本
+		command = { type = activate_division which = 23001 value = 5663 where = 2615 when = 1 }
+		command = { type = activate_division which = 23001 value = 5664 where = 2615 when = 1 }
+		command = { type = activate_division which = 23001 value = 5665 where = 2615 when = 1 }
+		command = { type = activate_division which = 23001 value = 5666 where = 2615 when = 1 }
+		command = { type = activate_division which = 23001 value = 5667 where = 2615 when = 1 }
+		command = { type = activate_division which = 23001 value = 5668 where = 2615 when = 1 }
+		command = { type = activate_division which = 23001 value = 5669 where = 2615 when = 1 }
+		command = { type = activate_division which = 23001 value = 5670 where = 2615 when = 1 }
+		command = { type = activate_division which = 23001 value = 5671 where = 2615 when = 1 }
+                command = { type = lock_division which = 23001 value = 5663 }
+                command = { type = lock_division which = 23001 value = 5664 }
+                command = { type = lock_division which = 23001 value = 5665 }
+                command = { type = lock_division which = 23001 value = 5666 }
+                command = { type = lock_division which = 23001 value = 5667 }
+                command = { type = lock_division which = 23001 value = 5668 }
+                command = { type = lock_division which = 23001 value = 5669 }
+                command = { type = lock_division which = 23001 value = 5670 }
+                command = { type = lock_division which = 23001 value = 5671 }
+                #command = { type = industrial_modifier which = total value = -30 }
+ }
+}
+
+
+event = {
+	id = 5502
+	random = no
+        country = U06
+	trigger = {
+                    ai = yes
+       }
+	name = "防衛兵力配置"
+	desc = "EVT_5501_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+                ####イギリス
+		command = { type = activate_division which = 27001 value = 6717 where = 17 when = 1 }
+		command = { type = activate_division which = 27001 value = 6718 where = 17 when = 1 }
+		command = { type = activate_division which = 27001 value = 6719 where = 17 when = 1 }
+		command = { type = activate_division which = 27001 value = 6720 where = 20 when = 1 }
+		command = { type = activate_division which = 27001 value = 6721 where = 20 when = 1 }
+		command = { type = activate_division which = 27001 value = 6722 where = 20 when = 1 }
+                command = { type = lock_division which = 27001 value = 6717 }
+                command = { type = lock_division which = 27001 value = 6718 }
+                command = { type = lock_division which = 27001 value = 6719 }
+                command = { type = lock_division which = 27001 value = 6720 }
+                command = { type = lock_division which = 27001 value = 6721 }
+                command = { type = lock_division which = 27001 value = 6722 }
+                ####シチリア
+		command = { type = activate_division which = 27001 value = 6723 where = 525 when = 1 }
+		command = { type = activate_division which = 27001 value = 6724 where = 525 when = 1 }
+		command = { type = activate_division which = 27001 value = 6725 where = 525 when = 1 }
+                command = { type = lock_division which = 27001 value = 6723 }
+                command = { type = lock_division which = 27001 value = 6724 }
+                command = { type = lock_division which = 27001 value = 6725 }
+                ####フィリピン
+		command = { type = activate_division which = 27001 value = 6726 where = 1738 when = 1 }
+		command = { type = activate_division which = 27001 value = 6727 where = 1738 when = 1 }
+		command = { type = activate_division which = 27001 value = 6728 where = 1738 when = 1 }
+		command = { type = activate_division which = 27001 value = 6729 where = 1737 when = 1 }
+		command = { type = activate_division which = 27001 value = 6730 where = 1737 when = 1 }
+		command = { type = activate_division which = 27001 value = 6731 where = 1737 when = 1 }
+		command = { type = activate_division which = 27001 value = 6732 where = 1740 when = 1 }
+		command = { type = activate_division which = 27001 value = 6733 where = 1740 when = 1 }
+		command = { type = activate_division which = 27001 value = 6734 where = 1740 when = 1 }
+                command = { type = lock_division which = 27001 value = 6726 }
+                command = { type = lock_division which = 27001 value = 6727 }
+                command = { type = lock_division which = 27001 value = 6728 }
+                command = { type = lock_division which = 27001 value = 6729 }
+                command = { type = lock_division which = 27001 value = 6730 }
+                command = { type = lock_division which = 27001 value = 6731 }
+                command = { type = lock_division which = 27001 value = 6732 }
+                command = { type = lock_division which = 27001 value = 6733 }
+                command = { type = lock_division which = 27001 value = 6734 }
+                ####日本
+		command = { type = activate_division which = 27001 value = 6735 where = 2615 when = 1 }
+		command = { type = activate_division which = 27001 value = 6736 where = 2615 when = 1 }
+		command = { type = activate_division which = 27001 value = 6737 where = 2615 when = 1 }
+		command = { type = activate_division which = 27001 value = 6738 where = 2615 when = 1 }
+		command = { type = activate_division which = 27001 value = 6739 where = 2615 when = 1 }
+		command = { type = activate_division which = 27001 value = 6740 where = 2615 when = 1 }
+                command = { type = lock_division which = 27001 value = 6735 }
+                command = { type = lock_division which = 27001 value = 6736 }
+                command = { type = lock_division which = 27001 value = 6736 }
+                command = { type = lock_division which = 27001 value = 6738 }
+                command = { type = lock_division which = 27001 value = 6739 }
+                command = { type = lock_division which = 27001 value = 6740 }
+                #command = { type = industrial_modifier which = total value = -30 }
+ }
+}
+
+
+###################################################################################
+#####日本本土侵攻関連#####
+###################################################################################
+
+event = {
+	id = 5503
+	random = no
+	country = JAP
+	trigger = {
+                  OR = {
+                       event = 50002
+                       event = 50003
+                      }
+	}
+
+	name = "本土防衛計画策定"
+	desc = "EVT_5503_DESC"
+
+	date = { day = 5 month = 3 year = 1998 }
+	offset = 10
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を策定する"
+                ai_chance = 100
+		command = { type = money value = -500 }
+		command = { type = supplies value = -5000 }
+                command = { type = setflag which = HDA }
+	}
+       action_b = {
+               name = "その必要はない"
+               ai_chance = 0
+               command = { }
+       }
+}
+
+
+event = {
+	id = 5504
+	random = no
+	country = JAP
+	trigger = {
+                  flag = HDA
+                  ai = no
+	}
+
+	name = "本土防衛軍再編"
+	desc = "EVT_5504_DESC"
+
+	date = { day = 12 month = 5 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "実行する"
+                ai_chance = 100
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = supplies value = -1000 }
+		command = { type = manpowerpool value = -150 }
+	}
+       action_b = {
+               name = "その必要はない"
+               ai_chance = 0
+               command = { }
+       }
+}
+
+
+event = {
+	id = 5505
+	random = no
+	country = JAP
+	trigger = {
+                  flag = HDA
+                  ai = yes
+	}
+
+	name = "本土防衛軍再編"
+	desc = "EVT_5504_DESC"
+
+	date = { day = 12 month = 5 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "実行する"
+                ai_chance = 100
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 9 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = supplies value = -1000 }
+		command = { type = manpowerpool value = -150 }
+	}
+       action_b = {
+               name = "その必要はない"
+               ai_chance = 0
+               command = { }
+       }
+}
+
+
+event = {
+	id = 5506
+	random = no
+	country = JAP
+	trigger = {
+                  flag = HDA
+	}
+
+	name = "首都防衛設備増強"
+	desc = "EVT_5506_DESC"
+
+	date = { day = 12 month = 4 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "実行する"
+                ai_chance = 100
+		command = { type = construct which = land_fort where = 2615 value = 5 }
+		#command = { type = construct which = infrastructure where = 2615 value = 0.2 }
+		command = { type = supplies value = -1000 }
+	}
+       action_b = {
+               name = "その必要はない"
+               ai_chance = 0
+               command = { }
+       }
+}
+
+
+event = {
+	id = 5507
+	random = no
+	country = JAP
+	trigger = {
+                  flag = HDA
+                  event = 50004
+                  or = {  control = { province = 2619 data = -2 }
+                         control = { province = 2618 data = -2 }
+                         control = { province = 2612 data = -2 }
+                        }
+	}
+
+	name = "訓練兵の投入"
+	desc = "EVT_5507_DESC"
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "実行する"
+                ai_chance = 100
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = supplies value = -1000 }
+		command = { type = manpowerpool value = -350 }
+	}
+       action_b = {
+               name = "その必要はない"
+               ai_chance = 0
+               command = { }
+       }
+}
+
+
+event = {
+	id = 5508
+	random = no
+	country = U06
+	trigger = {
+                  OR = {
+                       event = 50002
+                       event = 50003
+                      }
+	}
+
+	name = "ユーラシア封じ込め戦略"
+	desc = "EVT_5508_DESC"
+
+	date = { day = 6 month = 11 year = 1998 }
+	offset = 10
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "戦略を決定する"
+                ai_chance = 100
+		command = { type = money value = -500 }
+		command = { type = supplies value = -5000 }
+                command = { type = setflag which = CON }
+	}
+       action_b = {
+               name = "その必要はない"
+               ai_chance = 0
+               command = { }
+       }
+}
+
+
+event = {
+	id = 5509
+	random = no
+	country = U06
+	trigger = {
+                  flag = CON
+                  control = { province = 1174 data = -3 }
+                  ai = no
+	}
+
+	name = "在日国連軍増派"
+	desc = "EVT_5509_DESC"
+
+	date = { day = 12 month = 5 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "実行する"
+                ai_chance = 100
+                command = { type = add_corps which = 極東国連軍第11軍 value = land where = 1174 }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = supplies value = -1000 }
+		command = { type = manpowerpool value = -150 }
+	}
+       action_b = {
+               name = "その必要はない"
+               ai_chance = 0
+               command = { }
+       }
+}
+
+
+event = {
+	id = 5510
+	random = no
+	country = U06
+	trigger = {
+                  flag = CON
+                  control = { province = 1174 data = -3 }
+                  ai = yes
+	}
+
+	name = "在日国連軍増派"
+	desc = "EVT_5509_DESC"
+
+	date = { day = 12 month = 5 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "実行する"
+                ai_chance = 100
+                command = { type = add_corps which = 極東国連軍第11軍 value = land where = 1174 }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = add_division value = paratrooper when = 4 where = artillery }
+		command = { type = supplies value = -1000 }
+		command = { type = manpowerpool value = -150 }
+	}
+       action_b = {
+               name = "その必要はない"
+               ai_chance = 0
+               command = { }
+       }
+}
+
+
+event = {
+	id = 5511
+	random = no
+        country = USA
+	trigger = {
+                    ai = yes
+                or = {  control = { province = 2619 data = -2 }
+                         control = { province = 2618 data = -2 }
+                         control = { province = 2612 data = -2 }
+                        }
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+                command = { type = unlock_division which = 23001 value = 5663 }
+                command = { type = unlock_division which = 23001 value = 5664 }
+                command = { type = unlock_division which = 23001 value = 5665 }
+                command = { type = unlock_division which = 23001 value = 5666 }
+                command = { type = unlock_division which = 23001 value = 5667 }
+                command = { type = unlock_division which = 23001 value = 5668 }
+                command = { type = unlock_division which = 23001 value = 5669 }
+                command = { type = unlock_division which = 23001 value = 5670 }
+                command = { type = unlock_division which = 23001 value = 5671 }
+ }
+}
+
+
+event = {
+	id = 5512
+	random = no
+        country = U06
+	trigger = {
+                    ai = yes
+                or = {  control = { province = 2619 data = -2 }
+                         control = { province = 2618 data = -2 }
+                         control = { province = 2612 data = -2 }
+                        }
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+                command = { type = unlock_division which = 27001 value = 6735 }
+                command = { type = unlock_division which = 27001 value = 6736 }
+                command = { type = unlock_division which = 27001 value = 6736 }
+                command = { type = unlock_division which = 27001 value = 6738 }
+                command = { type = unlock_division which = 27001 value = 6739 }
+                command = { type = unlock_division which = 27001 value = 6740 }
+ }
+}
+
+
+event = {
+	id = 5513
+	random = no
+        country = USA
+	trigger = {
+                    ai = yes
+                    OR = {
+#                    land_combat = 17
+ #                   land_combat = 20
+#                    land_combat = 21
+                         }
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+                command = { type = unlock_division which = 23001 value = 5648 }
+                command = { type = unlock_division which = 23001 value = 5649 }
+                command = { type = unlock_division which = 23001 value = 5650 }
+                command = { type = unlock_division which = 23001 value = 5651 }
+                command = { type = unlock_division which = 23001 value = 5652 }
+                command = { type = unlock_division which = 23001 value = 5653 }
+                command = { type = unlock_division which = 23001 value = 5654 }
+                command = { type = unlock_division which = 23001 value = 5655 }
+                command = { type = unlock_division which = 23001 value = 5656 }
+ }
+}
+
+event = {
+	id = 5514
+	random = no
+        country = USA
+	trigger = {
+                    ai = yes
+                    OR = {
+#                    land_combat = 17
+#                    land_combat = 20
+                         }
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+                command = { type = unlock_division which = 27001 value = 6717 }
+                command = { type = unlock_division which = 27001 value = 6718 }
+                command = { type = unlock_division which = 27001 value = 6719 }
+                command = { type = unlock_division which = 27001 value = 6720 }
+                command = { type = unlock_division which = 27001 value = 6721 }
+                command = { type = unlock_division which = 27001 value = 6722 }
+ }
+}
+
+event = {
+	id = 5515
+	random = no
+        country = USA
+	trigger = {
+                    ai = yes
+#                    land_combat = 939
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+                command = { type = unlock_division which = 23001 value = 5657 }
+                command = { type = unlock_division which = 23001 value = 5658 }
+                command = { type = unlock_division which = 23001 value = 5659 }
+ }
+}
+
+event = {
+	id = 5516
+	random = no
+        country = USA
+	trigger = {
+                    ai = yes
+#                    land_combat = 1348
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+                command = { type = unlock_division which = 23001 value = 5660 }
+                command = { type = unlock_division which = 23001 value = 5661 }
+                command = { type = unlock_division which = 23001 value = 5662 }
+ }
+}
+
+event = {
+	id = 5517
+	random = no
+        country = U06
+	trigger = {
+                    ai = yes
+#                    land_combat = 525
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+                command = { type = unlock_division which = 27001 value = 6723 }
+                command = { type = unlock_division which = 27001 value = 6724 }
+                command = { type = unlock_division which = 27001 value = 6725 }
+ }
+}
+
+event = {
+	id = 5518
+	random = no
+        country = U06
+	trigger = {
+                    ai = yes
+                   OR = {
+#                    land_combat = 1737
+#                    land_combat = 1738
+#                    land_combat = 1740
+                        }
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "OK"
+		command = { type = unlock_division which = 27001 value = 6726 }
+		command = { type = unlock_division which = 27001 value = 6727 }
+		command = { type = unlock_division which = 27001 value = 6728 }
+		command = { type = unlock_division which = 27001 value = 6729 }
+		command = { type = unlock_division which = 27001 value = 6730 }
+		command = { type = unlock_division which = 27001 value = 6731 }
+		command = { type = unlock_division which = 27001 value = 6732 }
+		command = { type = unlock_division which = 27001 value = 6733 }
+		command = { type = unlock_division which = 27001 value = 6734 }
+ }
+}
+
+event = {
+	id = 5519
+	random = no
+        country = JAP
+	trigger = {
+                      event = 50101
+                      NOT = {
+                          nuke = 2
+                          }
+       }
+	name = "G弾使用"
+	desc = "EVT_5519_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+                command = { type = dissent value = 20 }
+                command = { type = relation which = USA value = -50 }
+ }
+}
+
+
+event = {
+	id = 5520
+	random = no
+        country = JAP
+	trigger = {
+#                    land_combat = 2615
+                    event = 50004
+       }
+	name = "京都防衛戦"
+	desc = "EVT_5520_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "京都を守り抜くのだ！"
+                command = { type = add_corps which = "スティルランス連隊" value = land where = 2615 }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+ }
+}
+
+
+event = {
+	id = 5521
+	random = no
+        country = -1
+	trigger = {
+                  ai = no
+       }
+	name = "機動トーチカ配備"
+	desc = "バランス調整として機動トーチカを配備しますか？"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "配備する"
+                ai_chance = 100
+                command = { type = trigger which = 5522 }
+ }
+        action_b = {
+		name = "配備しない"
+                ai_chance = 0
+                command = { type = sleepevent which = 5522 }
+ }
+}
+
+event = {
+	id = 5522
+	random = no
+	trigger = {
+                  event = 5521
+       }
+	name = "機動トーチカ配備"
+	desc = "機動トーチカを配備します。"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = free_supplies value = 100 }
+                command = { type = add_corps which = "第1シベリアトーチカ" value = land where = 2646 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+                command = { type = add_corps which = "第2シベリアトーチカ" value = land where = 2648 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+                command = { type = add_corps which = "第1シチリアトーチカ" value = land where = 526 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+                command = { type = add_corps which = "第1フィリピントーチカ" value = land where = 1738 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+		command = { type = add_division value = garrison when = 25 }
+ }
+}
+
+event = {
+	id = 5523
+	random = no
+        country = JAP
+	trigger = {
+                    flag = HDA
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = paratrooper when = 7 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = light_armor when = 4 where = artillery }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+ }
+}
+
+event = {
+	id = 5524
+	random = no
+        country = JAP
+	trigger = {
+                         control = { province = 2613 data = -2 }
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+ }
+}
+
+event = {
+	id = 5525
+	random = no
+        country = U30
+	trigger = {
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = morale which = land value = 50 }
+                command = { type = toughness which = land value = 20 }
+                command = { type = defensiveness which = land value = 20 }
+                command = { type = soft_attack which = land value = 10 }
+                command = { type = hard_attack which = land value = 10 }
+ }
+}
+
+event = {
+	id = 5526
+	random = no
+        country = U02
+	trigger = {
+                         control = { province = 20 data = -2 }
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+ }
+}
+
+event = {
+	id = 5527
+	random = no
+        country = JAP
+	trigger = {
+                         control = { province = 1193 data = -2 }
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 1 org = 1.0 value = 0.50 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+ }
+}
+
+event = {
+	id = 5528
+	random = no
+        country = JAP
+	trigger = {
+                         control = { province = 1183 data = -1 }
+                         control = { province = 1193 data = -2 }
+       }
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+		#command = { type = construct which = land_fort where = 1183 value = 10 }
+                command = { type = add_corps value = land where = 1183 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+		command = { type = add_division value = militia when = 7 }
+ }
+}

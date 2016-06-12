@@ -1,0 +1,933 @@
+name       = "european_name"
+panel      = "scenarios/data/european.bmp"
+header =
+{ name             = "european"
+  DFR              = { desc = DFR_90_DESC picture = "scenarios\data\propaganda_U02.bmp" }
+  ENG              = { desc = DFR_90_DESC picture = "scenarios\data\propaganda_U02.bmp" }
+  FRA              = { desc = DFR_90_DESC picture = "scenarios\data\propaganda_U02.bmp" }
+  U06              = { desc = U06_90_DESC picture = "scenarios\data\propaganda_U06.bmp" }
+  USA              = { desc = USA_90_DESC picture = "scenarios\data\propaganda_USA.bmp" }
+  ITA              = { desc = DFR_90_DESC picture = "scenarios\data\propaganda_U02.bmp" }
+  SPA              = { desc = DFR_90_DESC picture = "scenarios\data\propaganda_U02.bmp" }
+  DDR              = { desc = DDR_90_DESC picture = "scenarios\data\propaganda_U06.bmp" }
+  ROM              = { desc = DFR_90_DESC picture = "scenarios\data\propaganda_U02.bmp" }
+  CZE              = { desc = DFR_90_DESC picture = "scenarios\data\propaganda_U02.bmp" }
+  #U12              = { desc = european_U12_DESC picture = "scenarios\data\propaganda_U02.bmp" bottom = yes }
+  selectable       = { USA ENG FRA DFR ITA SPA HOL DEN NOR BEL POR LUX TUR GRE DDR BUL HUN ROM CZE IRE U02 SWE }
+  set_ai_aggresive = 6
+  set_difficulty   = 2
+  set_gamespeed    = 7
+  startdate        = { year = 1983 }
+}
+globaldata =
+{ startdate = { year = 1983 month = 2 day = 0 }
+  allies =
+  { id          = { type = 15000 id = 1 }
+    participant = { USA ENG FRA DFR ITA SPA HOL DEN NOR BEL POR LUX TUR GRE SWE SCH AUS IRE U02 }
+  }
+  axis =
+  { id          = { type = 15000 id = 2 }
+    participant = { U12 U16 U19 }
+  }
+  alliance =
+  { id          = { type = 15000 id = 10 }
+    participant = { DDR BUL HUN ROM CZE }
+  }
+  war =
+  { id        = { type = 9430 id = 1 }
+    date      = { year = 1973 month = 0 day = 0 }
+    enddate   = { year = 2100 month = 11 day = 29 }
+    attackers =
+    { id          = { type = 9430 id = 2 }
+      participant = { U12 U16 U19 }
+    }
+    defenders =
+    { id          = { type = 9430 id = 3 }
+      participant = { USA ENG FRA DFR ITA SPA HOL DEN NOR BEL POR LUX TUR GRE SWE SCH AUS IRE U02 }
+    }
+  }
+  war =
+  { id        = { type = 9431 id = 1 }
+    date      = { year = 1973 month = october day = 0 }
+    enddate   = { year = 2100 month = january day = 0 }
+    attackers =
+    { id          = { type = 9431 id = 2 }
+      participant = { U12 U16 U19 }
+    }
+    defenders =
+    { id          = { type = 9431 id = 3 }
+      participant = { DDR BUL HUN ROM CZE }
+    }
+  }
+  war =
+  { id        = { type = 9435 id = 1 }
+    date      = { year = 1973 month = october day = 0 }
+    enddate   = { year = 2100 month = january day = 0 }
+    attackers =
+    { id          = { type = 9435 id = 2 }
+      participant = { U12 U16 U19 }
+    }
+    defenders =
+    { id          = { type = 9435 id = 3 }
+      participant = { YUG }
+    }
+  }
+  war =
+  { id        = { type = 9436 id = 1 }
+    date      = { year = 1973 month = october day = 0 }
+    enddate   = { year = 2100 month = january day = 0 }
+    attackers =
+    { id          = { type = 9436 id = 2 }
+      participant = { U12 U16 U19 }
+    }
+    defenders =
+    { id          = { type = 9436 id = 3 }
+      participant = { ALB }
+    }
+  }
+  war =
+  { id        = { type = 9437 id = 1 }
+    date      = { year = 1973 month = october day = 0 }
+    enddate   = { year = 2100 month = january day = 0 }
+    attackers =
+    { id          = { type = 9437 id = 2 }
+      participant = { U12 U16 U19 }
+    }
+    defenders =
+    { id          = { type = 9437 id = 3 }
+      participant = { U06 }
+    }
+  }
+  enddate =
+  { year  = 2030
+    month = 0
+    day   = 0
+  }
+}
+map =
+{ no     = all
+  # バルト諸国
+  yes    = 193
+  yes    = 194
+  yes    = 195
+  yes    = 196
+  yes    = 197
+  yes    = 198
+  yes    = 199
+  yes    = 202
+  yes    = 203
+  yes    = 204
+  yes    = 205
+  yes    = 206
+  yes    = 207
+  yes    = 214
+  yes    = 509
+  yes    = 511
+  yes    = 577
+  yes    = 1886
+  yes    = 2606
+  # ポーランド
+  yes    = 208
+  yes    = 211
+  yes    = 222
+  yes    = 229
+  yes    = 305
+  yes    = 306
+  yes    = 479
+  yes    = 480
+  yes    = 481
+  yes    = 483
+  yes    = 484
+  yes    = 485
+  yes    = 486
+  yes    = 487
+  yes    = 488
+  yes    = 489
+  yes    = 500
+  yes    = 501
+  yes    = 502
+  yes    = 503
+  yes    = 504
+  yes    = 505
+  yes    = 506
+  yes    = 507
+  yes    = 508
+  yes    = 1875
+  yes    = 1876
+  yes    = 1884
+  # ダンツィヒ周辺
+  yes    = 303
+  yes    = 304
+  yes    = 307
+  yes    = 1811
+  # ロシア領の飛び地
+  yes    = 510
+  yes    = 223
+  # ウクライナ
+  yes    = 155
+  yes    = 161
+  yes    = 226
+  yes    = 227
+  yes    = 228
+  yes    = 231
+  yes    = 232
+  yes    = 233
+  yes    = 234
+  yes    = 235
+  yes    = 236
+  yes    = 237
+  yes    = 238
+  yes    = 239
+  yes    = 240
+  yes    = 241
+  yes    = 242
+  yes    = 243
+  yes    = 244
+  yes    = 245
+  yes    = 246
+  yes    = 247
+  yes    = 248
+  yes    = 249
+  yes    = 250
+  yes    = 251
+  yes    = 252
+  yes    = 253
+  yes    = 254
+  yes    = 258
+  yes    = 259
+  yes    = 260
+  yes    = 261
+  yes    = 262
+  yes    = 263
+  yes    = 265
+  yes    = 266
+  yes    = 267
+  yes    = 268
+  yes    = 282
+  yes    = 1152
+  yes    = 1154
+  yes    = 1565
+  yes    = 1571
+  yes    = 1827
+  # ベラルーシ
+  yes    = 95
+  yes    = 102
+  yes    = 209
+  yes    = 210
+  yes    = 212
+  yes    = 213
+  yes    = 217
+  yes    = 218
+  yes    = 220
+  yes    = 221
+  yes    = 225
+  yes    = 272
+  yes    = 273
+  yes    = 274
+  yes    = 562
+  yes    = 1153
+  yes    = 1566
+  yes    = 1874
+  yes    = 1885
+  # チェコスロバキア
+  yes    = 53
+  yes    = 466
+  yes    = 467
+  yes    = 468
+  yes    = 469
+  yes    = 470
+  yes    = 471
+  yes    = 472
+  yes    = 474
+  yes    = 475
+  yes    = 476
+  yes    = 477
+  yes    = 478
+  yes    = 490
+  yes    = 499
+  yes    = 1887
+  yes    = 1888
+  yes    = 1889
+  yes    = 1566
+  yes    = 1874
+  yes    = 1885
+  # ルーマニア
+  yes    = 230
+  yes    = 423
+  yes    = 424
+  yes    = 425
+  yes    = 426
+  yes    = 427
+  yes    = 428
+  yes    = 429
+  yes    = 430
+  yes    = 431
+  yes    = 432
+  yes    = 433
+  yes    = 434
+  yes    = 435
+  yes    = 436
+  yes    = 495
+  yes    = 496
+  yes    = 498
+  yes    = 1173
+  yes    = 1401
+  yes    = 1402
+  yes    = 1403
+  yes    = 1449
+  yes    = 1899
+  yes    = 2449
+  yes    = 2450
+  yes    = 2602
+  yes    = 2603
+  yes    = 2604
+  yes    = 2605
+  # ハンガリー
+  yes    = 224
+  yes    = 456
+  yes    = 457
+  yes    = 458
+  yes    = 491
+  yes    = 492
+  yes    = 497
+  yes    = 1890
+  yes    = 2447
+  # バルカン半島
+  yes    = 291
+  yes    = 380
+  yes    = 381
+  yes    = 382
+  yes    = 383
+  yes    = 384
+  yes    = 385
+  yes    = 386
+  yes    = 387
+  yes    = 388
+  yes    = 389
+  yes    = 390
+  yes    = 391
+  yes    = 392
+  yes    = 393
+  yes    = 394
+  yes    = 395
+  yes    = 396
+  yes    = 398
+  yes    = 399
+  yes    = 400
+  yes    = 401
+  yes    = 402
+  yes    = 403
+  yes    = 405
+  yes    = 410
+  yes    = 411
+  yes    = 412
+  yes    = 413
+  yes    = 414
+  yes    = 415
+  yes    = 416
+  yes    = 417
+  yes    = 418
+  yes    = 419
+  yes    = 420
+  yes    = 421
+  yes    = 422
+  yes    = 451
+  yes    = 452
+  yes    = 453
+  yes    = 454
+  yes    = 455
+  yes    = 459
+  yes    = 493
+  yes    = 494
+  yes    = 563
+  yes    = 653
+  yes    = 664
+  yes    = 665
+  yes    = 1057
+  yes    = 1168
+  yes    = 1169
+  yes    = 1891
+  yes    = 1892
+  yes    = 1893
+  yes    = 1894
+  yes    = 1895
+  yes    = 1896
+  yes    = 1897
+  yes    = 1911
+  yes    = 2319
+  yes    = 2321
+  yes    = 2323
+  yes    = 2324
+  # オーストリア
+  yes    = 373
+  yes    = 377
+  yes    = 460
+  yes    = 461
+  yes    = 462
+  yes    = 463
+  yes    = 464
+  yes    = 465
+  yes    = 2327
+  yes    = 2328
+  yes    = 2329
+  # ベネルクス
+  yes    = 45
+  yes    = 46
+  yes    = 47
+  yes    = 48
+  yes    = 49
+  yes    = 50
+  yes    = 51
+  yes    = 52
+  yes    = 65
+  yes    = 68
+  yes    = 69
+  yes    = 70
+  yes    = 71
+  yes    = 77
+  yes    = 78
+  yes    = 79
+  yes    = 1019
+  yes    = 1082
+  # 東ドイツ
+  yes    = 84
+  yes    = 298
+  yes    = 299
+  yes    = 300
+  yes    = 301
+  yes    = 296
+  yes    = 297
+  yes    = 310
+  yes    = 309
+  yes    = 302
+  yes    = 308
+  yes    = 1595
+  yes    = 1623
+  yes    = 1779
+  yes    = 1810
+  yes    = 311
+  yes    = 546
+  yes    = 473
+  yes    = 482
+  # 西ドイツ
+  yes    = 80
+  yes    = 81
+  yes    = 82
+  yes    = 83
+  yes    = 85
+  yes    = 86
+  yes    = 87
+  yes    = 88
+  yes    = 89
+  yes    = 90
+  yes    = 312
+  yes    = 313
+  yes    = 314
+  yes    = 315
+  yes    = 375
+  yes    = 376
+  yes    = 374
+  yes    = 76
+  yes    = 67
+  yes    = 75
+  yes    = 74
+  yes    = 66
+  yes    = 547
+  yes    = 970
+  yes    = 989
+  yes    = 1014
+  yes    = 1015
+  yes    = 1016
+  yes    = 1018
+  yes    = 1400
+  yes    = 1405
+  # イタリア
+  yes    = 31
+  yes    = 368
+  yes    = 369
+  yes    = 370
+  yes    = 371
+  yes    = 378
+  yes    = 379
+  yes    = 512
+  yes    = 513
+  yes    = 514
+  yes    = 515
+  yes    = 516
+  yes    = 517
+  yes    = 518
+  yes    = 519
+  yes    = 520
+  yes    = 521
+  yes    = 522
+  yes    = 523
+  yes    = 524
+  yes    = 525
+  yes    = 526
+  yes    = 531
+  yes    = 534
+  yes    = 542
+  yes    = 543
+  yes    = 544
+  yes    = 545
+  yes    = 666
+  yes    = 668
+  yes    = 1408
+  yes    = 1835
+  yes    = 2325
+  yes    = 2326
+  # フランス
+  yes    = 18
+  yes    = 32
+  yes    = 33
+  yes    = 34
+  yes    = 35
+  yes    = 36
+  yes    = 37
+  yes    = 38
+  yes    = 39
+  yes    = 40
+  yes    = 41
+  yes    = 42
+  yes    = 43
+  yes    = 44
+  yes    = 54
+  yes    = 55
+  yes    = 56
+  yes    = 57
+  yes    = 58
+  yes    = 59
+  yes    = 60
+  yes    = 61
+  yes    = 62
+  yes    = 63
+  yes    = 64
+  yes    = 72
+  yes    = 73
+  yes    = 316
+  yes    = 317
+  yes    = 318
+  yes    = 319
+  yes    = 320
+  yes    = 321
+  yes    = 322
+  yes    = 323
+  yes    = 324
+  yes    = 325
+  yes    = 326
+  yes    = 327
+  yes    = 328
+  yes    = 358
+  yes    = 359
+  yes    = 360
+  yes    = 361
+  yes    = 362
+  yes    = 363
+  yes    = 364
+  yes    = 365
+  yes    = 366
+  yes    = 367
+  yes    = 527
+  yes    = 528
+  yes    = 529
+  yes    = 841
+  yes    = 1022
+  yes    = 1643
+  yes    = 1676
+  yes    = 2242
+  yes    = 2509
+  yes    = 2514
+  yes    = 2555
+  yes    = 2557
+  # デンマーク
+  yes    = 91
+  yes    = 92
+  yes    = 120
+  yes    = 122
+  yes    = 292
+  yes    = 293
+  yes    = 294
+  yes    = 295
+  # ノルウェー
+  yes    = 104
+  yes    = 107
+  yes    = 108
+  yes    = 109
+  yes    = 110
+  yes    = 111
+  yes    = 112
+  yes    = 114
+  yes    = 116
+  yes    = 117
+  yes    = 118
+  yes    = 124
+  yes    = 125
+  yes    = 128
+  yes    = 129
+  # スウェーデン
+  yes    = 93
+  yes    = 96
+  yes    = 97
+  yes    = 98
+  yes    = 99
+  yes    = 100
+  yes    = 101
+  yes    = 105
+  yes    = 106
+  yes    = 113
+  yes    = 115
+  yes    = 119
+  yes    = 121
+  yes    = 126
+  yes    = 127
+  # フィンランド
+  yes    = 103
+  yes    = 130
+  yes    = 131
+  yes    = 132
+  yes    = 136
+  yes    = 137
+  yes    = 138
+  yes    = 139
+  yes    = 140
+  yes    = 141
+  yes    = 142
+  yes    = 143
+  yes    = 144
+  yes    = 145
+  yes    = 146
+  yes    = 147
+  yes    = 148
+  yes    = 149
+  # スペイン
+  yes    = 329
+  yes    = 330
+  yes    = 331
+  yes    = 332
+  yes    = 333
+  yes    = 334
+  yes    = 335
+  yes    = 338
+  yes    = 339
+  yes    = 340
+  yes    = 341
+  yes    = 342
+  yes    = 343
+  yes    = 346
+  yes    = 347
+  yes    = 348
+  yes    = 349
+  yes    = 350
+  yes    = 351
+  yes    = 352
+  yes    = 353
+  yes    = 354
+  yes    = 355
+  yes    = 356
+  yes    = 357
+  yes    = 535
+  yes    = 536
+  yes    = 537
+  yes    = 356
+  yes    = 357
+  yes    = 961
+  yes    = 962
+  yes    = 1157
+  yes    = 1161
+  yes    = 1162
+  yes    = 1531
+  yes    = 1532
+  yes    = 1537
+  yes    = 1714
+  yes    = 1726
+  yes    = 1734
+  yes    = 2243
+  yes    = 2244
+  # ポルトガル
+  yes    = 335
+  yes    = 336
+  yes    = 337
+  yes    = 344
+  yes    = 345
+  yes    = 965
+  yes    = 1036
+  yes    = 1163
+  yes    = 1563
+  yes    = 1867
+  # スイス
+  yes    = 372 
+  yes    = 530
+  yes    = 532
+  yes    = 533
+  # イングランド
+  yes    = 10
+  yes    = 11
+  yes    = 12
+  yes    = 13
+  yes    = 14
+  yes    = 15
+  yes    = 16
+  yes    = 17
+  yes    = 19
+  yes    = 20
+  yes    = 21
+  yes    = 22
+  yes    = 23
+  yes    = 1160
+  yes    = 1164
+  yes    = 1409
+  yes    = 1720
+  yes    = 2245
+  # スコットランド
+  yes    = 3
+  yes    = 5
+  yes    = 6
+  yes    = 7
+  yes    = 8
+  yes    = 9
+  yes    = 1165
+  yes    = 1166
+  # アイルランド
+  yes    = 24
+  yes    = 25
+  yes    = 26
+  yes    = 27
+  yes    = 28
+  yes    = 29
+  yes    = 30
+  # アイスランド
+  yes    = 1
+  # フェロー諸島USA
+  yes    = 2
+  # フィンランド＝バルト接続
+  yes    = 123
+  yes    = 187
+  yes    = 188
+  # トルコ
+  yes    = 408
+  yes    = 409
+  yes    = 437
+  yes    = 438
+  yes    = 439
+  yes    = 440
+  yes    = 441
+  yes    = 442
+  yes    = 443
+  yes    = 444
+  yes    = 445
+  yes    = 446
+  yes    = 447
+  yes    = 448
+  yes    = 449
+  yes    = 450
+  yes    = 1158
+  yes    = 1159
+  yes    = 1851
+  yes    = 1852
+  yes    = 1853
+  yes    = 1854
+  yes    = 1855
+  yes    = 2322
+  # 北アフリカ
+  yes    = 957
+  yes    = 2331
+  yes    = 955
+  yes    = 2332
+  yes    = 954
+  yes    = 956
+  yes    = 953
+  yes    = 950
+  yes    = 949
+  yes    = 946
+  yes    = 945
+  yes    = 941
+  yes    = 940
+  yes    = 939
+  yes    = 938
+  yes    = 936
+  # sea
+  yes    = 2392
+  yes    = 2393
+  yes    = 2489
+  yes    = 2491
+  yes    = 2494
+  yes    = 2901
+  yes    = 2401
+  yes    = 2403
+  yes    = 2404
+  yes    = 2405
+  yes    = 2406
+  yes    = 2407
+  yes    = 2408
+  yes    = 2409
+  yes    = 2410
+  yes    = 2411
+  yes    = 2412
+  yes    = 2413
+  yes    = 2414
+  yes    = 2415
+  yes    = 2416
+  yes    = 2417
+  yes    = 2418
+  yes    = 2419
+  yes    = 2420
+  yes    = 2596
+  yes    = 2597
+  yes    = 2302
+  yes    = 2303
+  yes    = 2304
+  yes    = 2357
+  yes    = 2423
+  yes    = 2424
+  yes    = 2425
+  yes    = 2426
+  yes    = 2427
+  yes    = 2428
+  yes    = 2429
+  yes    = 2593
+  yes    = 2595
+  yes    = 2439
+  yes    = 2440
+  yes    = 2441
+  yes    = 2442
+  yes    = 2443
+  yes    = 2444
+  yes    = 2445
+  yes    = 2446
+  yes    = 2448
+  yes    = 2451
+  yes    = 2452
+  yes    = 2454
+  yes    = 2463
+  yes    = 2464
+  yes    = 2493
+  yes    = 2430
+  yes    = 2431
+  yes    = 2432
+  yes    = 2433
+  yes    = 2434
+  yes    = 2435
+  yes    = 2436
+  yes    = 2437
+  yes    = 2438
+  yes    = 397
+  yes    = 2465
+  yes    = 2466
+  yes    = 2467
+  yes    = 2468
+  yes    = 2492
+  yes    = 290
+  yes    = 2376
+  yes    = 2378
+  yes    = 2379
+  yes    = 2380
+  yes    = 2381
+  yes    = 2382
+  yes    = 2383
+  yes    = 2384
+  yes    = 2385
+  yes    = 2386
+  yes    = 2387
+  yes    = 2388
+  yes    = 2389
+  yes    = 2390
+  yes    = 2391
+  yes    = 2368
+  yes    = 2369
+  yes    = 2374
+  yes    = 2375
+  yes    = 2598
+  yes    = 2599
+  yes    = 2400
+  yes    = 2402
+  yes    = 2403
+  yes    = 2404
+  yes    = 2405
+  yes    = 2406
+  yes    = 2407
+  yes    = 2408
+  yes    = 2409
+  yes    = 2410
+  yes    = 2411
+  yes    = 2412
+  yes    = 2413
+  yes    = 2414
+  yes    = 2395
+  yes    = 2396
+  yes    = 2397
+  yes    = 2398
+  yes    = 2471
+  yes    = 2402
+  yes    = 2472
+  yes    = 2473
+  yes    = 2474
+  yes    = 2475
+  yes    = 2476
+  yes    = 2477
+  yes    = 2478
+  yes    = 2479
+  yes    = 2480
+  yes    = 2481
+  yes    = 2482
+  yes    = 2483
+  yes    = 2484
+  yes    = 2394
+  yes    = 2399
+  yes    = 2600
+  yes    = 2490
+}
+# Includes for global data
+#event      = "db/events_MUV-LUV/各国特殊ユニット生産.txt"
+event      = "db/events_MUV-LUV/地域壊滅.txt"
+#event      = "db/events_MUV-LUV/BETA補充.txt"
+event      = "db/events_MUV-LUV/秘密兵器.txt"
+event      = "db/events_MUV-LUV/研究チーム関連.txt"
+event      = "scenarios/european/european_beta_events.txt"
+event      = "scenarios/european/european_balance.txt"
+event      = "scenarios/european/european_AI.txt"
+event      = "scenarios/european/european_DFR.txt"
+event      = "scenarios/european/european_ENG.txt"
+event      = "scenarios/european/european_FRA.txt"
+event      = "scenarios/european/european_USA.txt"
+event      = "scenarios/european/european_SWE.txt"
+event      = "scenarios/european/european_NOR.txt"
+event      = "scenarios/european/european_DEN.txt"
+event      = "scenarios/european/european_U02.txt"
+
+# Victory points distribution
+include = "scenarios\european\vp.inc"
+
+# Include files for each country tag used in the scenario
+include = "scenarios\european\U02.inc"
+include = "scenarios\european\U06.inc"
+include = "scenarios\european\USA.inc"
+include = "scenarios\european\U12.inc"
+include = "scenarios\european\U16.inc"
+include = "scenarios\european\U19.inc"
+include = "scenarios\european\ALB.inc"
+include = "scenarios\european\AUS.inc"
+include = "scenarios\european\BEL.inc"
+include = "scenarios\european\BUL.inc"
+include = "scenarios\european\CZE.inc"
+include = "scenarios\european\DDR.inc"
+include = "scenarios\european\DFR.inc"
+include = "scenarios\european\DEN.inc"
+include = "scenarios\european\ENG.inc"
+include = "scenarios\european\FRA.inc"
+include = "scenarios\european\GRE.inc"
+include = "scenarios\european\HOL.inc"
+include = "scenarios\european\HUN.inc"
+include = "scenarios\european\IRE.inc"
+include = "scenarios\european\ITA.inc"
+include = "scenarios\european\LUX.inc"
+include = "scenarios\european\NOR.inc"
+include = "scenarios\european\POR.inc"
+include = "scenarios\european\ROM.inc"
+include = "scenarios\european\SCH.inc"
+include = "scenarios\european\SPA.inc"
+include = "scenarios\european\SWE.inc"
+include = "scenarios\european\YUG.inc"
+include = "scenarios\european\TUR.inc"
+
+# Data for provinces, currently not owned by any nation
+#include = "scenarios\2001\provinces.inc"

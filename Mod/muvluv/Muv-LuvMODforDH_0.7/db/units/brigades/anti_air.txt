@@ -1,0 +1,36 @@
+# 0 - Basic
+model          = { cost = 3 buildtime = 40 manpower = 2 defensiveness = 1 hardattack = 1 airattack = 2 airdefence = 2 maxspeed = 0 supplyconsumption = 0.12 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 1 - Improved
+model          = { cost = 3 buildtime = 40 manpower = 2 defensiveness = 1 hardattack = 1 airattack = 3 airdefence = 3 supplyconsumption = 0.14 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 2 - Advanced
+model          = { cost = 3 buildtime = 40 manpower = 2 defensiveness = 1 hardattack = 2 airattack = 4 airdefence = 4 supplyconsumption = 0.16 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 3 - Semi-Modern
+model          = { cost = 3 buildtime = 40 manpower = 2 defensiveness = 2 hardattack = 4 airattack = 4 airdefence = 4 supplyconsumption = 0.18 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 4 - Modern
+model          = { cost = 3 buildtime = 40 manpower = 2 defensiveness = 3 hardattack = 4 airattack = 4 airdefence = 4 supplyconsumption = 0.18 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 softattack = 2 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 5 - Rocket AA
+model          = { cost = 3 buildtime = 45 manpower = 2 defensiveness = 2 hardattack = 4 airattack = 5 airdefence = 5 supplyconsumption = 0.20 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 softattack = 3 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 0 - Basic
+model          = { cost = 3 buildtime = 50 manpower = 2 defensiveness = 1 hardattack = 5 airattack = 6 airdefence = 6 maxspeed = 0 supplyconsumption = 0.12 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 softattack = 3 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 1 - Improved
+model          = { cost = 3 buildtime = 50 manpower = 2 defensiveness = 1 hardattack = 6 airattack = 7 supplyconsumption = 0.14 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 airdefence = 7 softattack = 4 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 2 - Advanced
+model          = { cost = 3 buildtime = 50 manpower = 2 defensiveness = 1 hardattack = 6 airattack = 8 airdefence = 8 supplyconsumption = 0.16 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 softattack = 5 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 3 - Semi-Modern
+model          = { cost = 3 buildtime = 50 manpower = 2 defensiveness = 2 hardattack = 6 airattack = 10 airdefence = 10 supplyconsumption = 0.18 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 softattack = 6 equipment = { manpower = 100 TRUCKS = 20 ANTI_AIR = 20 } }
+# 4 - Modern
+model          = { cost = 5 buildtime = 48 manpower = 2 defensiveness = 3 hardattack = 3 airattack = 5 airdefence = 5 supplyconsumption = 0.18 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 5 - Rocket AA
+model          = { cost = 5.5 buildtime = 50 manpower = 2 defensiveness = 2 hardattack = 2 airattack = 7 airdefence = 7 supplyconsumption = 0.20 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 0 - Basic
+model          = { cost = 5 buildtime = 40 manpower = 2 defensiveness = 1 hardattack = 1 airattack = 1 airdefence = 2 maxspeed = -1 supplyconsumption = 0.12 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 1 - Improved
+model          = { cost = 5 buildtime = 42 manpower = 2 defensiveness = 1 hardattack = 1 airattack = 2 airdefence = 3 supplyconsumption = 0.14 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 2 - Advanced
+model          = { cost = 5 buildtime = 44 manpower = 2 defensiveness = 1 hardattack = 2 airattack = 3 airdefence = 3 supplyconsumption = 0.16 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 3 - Semi-Modern
+model          = { cost = 5 buildtime = 46 manpower = 2 defensiveness = 2 hardattack = 3 airattack = 4 airdefence = 4 supplyconsumption = 0.18 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 4 - Modern
+model          = { cost = 5 buildtime = 48 manpower = 2 defensiveness = 3 hardattack = 3 airattack = 5 airdefence = 5 supplyconsumption = 0.18 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 5 - Rocket AA
+model          = { cost = 5.5 buildtime = 50 manpower = 2 defensiveness = 2 hardattack = 2 airattack = 7 airdefence = 7 supplyconsumption = 0.20 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }

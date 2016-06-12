@@ -1,0 +1,233 @@
+# 0 - Imporved Armour
+model = {
+	cost 				= 0.25
+	buildtime			= 230
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 1
+	seadefence			= 2
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 200
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+# 1 - Imporved Armour
+model = {
+	cost 				= 0.3
+	buildtime			= 260
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 2
+	seadefence			= 3
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 500
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+# 2 - Imporved Armour
+model = {
+	cost 				= 0.35
+	buildtime			= 260
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 3
+	seadefence			= 4
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 600
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+# 3 - Imporved Armour
+model = {
+	cost 				= 0.4
+	buildtime			= 260
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 4
+	seadefence			= 5
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 700
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+# 4 - Imporved Armour
+model = {
+	cost 				= 0.45
+	buildtime			= 260
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 5
+	seadefence			= 6
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 800
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+# 5 - Imporved Armour
+model = {
+	cost 				= 0.5
+	buildtime			= 260
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 6
+	seadefence			= 7
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 900
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+# 6 - Imporved Armour
+model = {
+	cost 				= 0.55
+	buildtime			= 260
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 7
+	seadefence			= 8
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 1000
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+# 7 - Imporved Armour
+model = {
+	cost 				= 0.6
+	buildtime			= 260
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 8
+	seadefence			= 9
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 1100
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+# 8 - Imporved Armour
+model = {
+	cost 				= 0.65
+	buildtime			= 260
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 9
+	seadefence			= 10
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 1200
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+# 9 - Imporved Armour
+model = {
+	cost 				= 0.7
+	buildtime			= 260
+	manpower 			= 0
+	surfacedetectioncapability	= 0
+	airdetectioncapability		= 0
+	subdetectioncapability		= 0
+	airdefence			= 10
+	seadefence			= 11
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 0
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0
+	fuelconsumption			= 0
+	range			= 1300
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.5
+}
+
+
+########################################
+

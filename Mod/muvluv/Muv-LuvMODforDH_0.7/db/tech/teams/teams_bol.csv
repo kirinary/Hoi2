@@ -1,0 +1,14 @@
+BOL;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+5000;ボリビア海軍;T_BOL_Armada_Boliviana;2;1930;2100;naval_training;seamanship;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5001;ボリビア石油公社;T5000;2;1930;2100;chemistry;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5002;ボリビア鉱山公社;T5001;3;1930;2100;industrial_engineering;management;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5003;ダビッド・トロ・ルイロバ;T5005;3;1930;2100;centralized_execution;individual_courage;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5004;ダビッド・トロ・ルイロバ;T5005;3;1930;2100;aircraft_testing;fighter_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5005;鉄道国営会社;T5002;3;1930;2100;electronics;general_equipment;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5006;エンリケ・ペナランダ;T5006;2;1930;2100;centralized_execution;infantry_focus;large_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5007;エウセビオ・アラヤ;T5007;2;1930;2100;centralized_execution;large_taskforce_tactics;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5008;ボリビア空軍;T_BOL_FuerzaAereaBoliviana;2;1930;2100;aeronautics;chemistry;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5009;ホッホシルト社;T5003;4;1930;2100;general_equipment;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5010;国防省;T5010;3;1930;2100;centralized_execution;fighter_tactics;infantry_focus;piloting;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5011;パティーノス社;T5004;4;1930;2100;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5012;オルロ技術大学;T_BOL_UniversidadTecnicadeOruro;2;1930;2100;electronics;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

@@ -1,0 +1,3064 @@
+##### ―ユニット― #####;;;;;;;;;;X 
+##### ―陸上兵器― #####;;;;;;;;;;X
+#### 戦術歩行戦闘機/改修機;;;;;;;;;;X
+## 第一世代;;;;;;;;;;X
+MODEL_JAP_0_0;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_JAP_0_1;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_JAP_0_2;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_JAP_0_3;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_JAP_0_4;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_USA_0_0;F-4E_Phantom;;;;;;;;;;X
+MODEL_USA_0_1;F-4E_Phantom;;;;;;;;;;X
+MODEL_USA_0_2;F-4E_Phantom;;;;;;;;;;X
+MODEL_USA_0_3;F-4E_Phantom;;;;;;;;;;X
+MODEL_USA_0_4;F-4E_Phantom;;;;;;;;;;X
+MODEL_SOV_0_0;MiG-23_Chiborashuka;;;;;;;;;;X
+MODEL_SOV_0_1;MiG-23_Chiborashuka;;;;;;;;;;X
+MODEL_SOV_0_2;MiG-23_Chiborashuka;;;;;;;;;;X
+MODEL_SOV_0_3;MiG-23_Chiborashuka;;;;;;;;;;X
+MODEL_SOV_0_4;MiG-23_Chiborashuka;;;;;;;;;;X
+MODEL_U01_0_0;F-4E_Phantom;;;;;;;;;;X
+MODEL_U01_0_1;F-4E_Phantom;;;;;;;;;;X
+MODEL_U01_0_2;F-4E_Phantom;;;;;;;;;;X
+MODEL_U01_0_3;F-4E_Phantom;;;;;;;;;;X
+MODEL_U01_0_4;F-4E_Phantom;;;;;;;;;;X
+MODEL_U02_0_0;F-5E/G/I_IDS_Tornade;;;;;;;;;;X
+MODEL_U02_0_1;F-5E/G/I_IDS Tornade;;;;;;;;;;X
+MODEL_U02_0_2;F-5E/G/I_IDS_Tornade;;;;;;;;;;X
+MODEL_U02_0_3;F-5E/G/I_IDS_Tornade;;;;;;;;;;X
+MODEL_U02_0_4;F-5E/G/I_IDS_Tornade;;;;;;;;;;X
+MODEL_U04_0_0;F-4E_Phantom;;;;;;;;;;X
+MODEL_U04_0_1;F-4E_Phantom;;;;;;;;;;X
+MODEL_U04_0_2;F-4E_Phantom;;;;;;;;;;X
+MODEL_U04_0_3;F-4E_Phantom;;;;;;;;;;X
+MODEL_U04_0_4;F-4E_Phantom;;;;;;;;;;X
+MODEL_U05_0_0;殲撃8型;;;;;;;;;;X
+MODEL_U05_0_1;殲撃8型;;;;;;;;;;X
+MODEL_U05_0_2;殲撃8型;;;;;;;;;;X
+MODEL_U05_0_3;殲撃8型;;;;;;;;;;X
+MODEL_U05_0_4;殲撃8型;;;;;;;;;;X
+MODEL_U06_0_0;F-4E_Phantom;;;;;;;;;;X
+MODEL_U06_0_1;F-4E_Phantom;;;;;;;;;;X
+MODEL_U06_0_2;F-4E_Phantom;;;;;;;;;;X
+MODEL_U06_0_3;F-4E_Phantom;;;;;;;;;;X
+MODEL_U06_0_4;F-4E_Phantom;;;;;;;;;;X
+MODEL_DDR_0_0;MiG-23_Chiborashuka;;;;;;;;;;X
+MODEL_DDR_0_1;MiG-23_Chiborashuka;;;;;;;;;;X
+MODEL_DDR_0_2;MiG-23_Chiborashuka;;;;;;;;;;X
+MODEL_DDR_0_3;MiG-23_Chiborashuka;;;;;;;;;;X
+MODEL_DDR_0_4;MiG-23_Chiborashuka;;;;;;;;;;X
+## 第二世代;;;;;;;;;;X
+MODEL_JAP_0_5;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_JAP_0_6;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_JAP_0_7;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_JAP_0_8;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_JAP_0_9;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_USA_0_5;F-15_Strike Eagle;;;;;;;;;;X
+MODEL_USA_0_6;F-15_Strike Eagle;;;;;;;;;;X
+MODEL_USA_0_7;F-15_Strike Eagle;;;;;;;;;;X
+MODEL_USA_0_8;F-15_Strike Eagle;;;;;;;;;;X
+MODEL_USA_0_9;F-15_Strike Eagle;;;;;;;;;;X
+MODEL_SOV_0_5;Su-37_Cheruminatoru;;;;;;;;;;X
+MODEL_SOV_0_6;Su-37_Cheruminatoru;;;;;;;;;;X
+MODEL_SOV_0_7;Su-37_Cheruminatoru;;;;;;;;;;X
+MODEL_SOV_0_8;Su-37_Cheruminatoru;;;;;;;;;;X
+MODEL_SOV_0_9;Su-37_Cheruminatoru;;;;;;;;;;X
+MODEL_U01_0_5;Mirage 2000;;;;;;;;;;X
+MODEL_U01_0_6;Mirage 2000;;;;;;;;;;X
+MODEL_U01_0_7;Mirage 2000;;;;;;;;;;X
+MODEL_U01_0_8;Mirage 2000;;;;;;;;;;X
+MODEL_U01_0_9;Mirage 2000;;;;;;;;;;X
+MODEL_U02_0_5;Mirage_2000;;;;;;;;;;X
+MODEL_U02_0_6;Mirage_2000;;;;;;;;;;X
+MODEL_U02_0_7;Mirage_2000;;;;;;;;;;X
+MODEL_U02_0_8;Mirage_2000;;;;;;;;;;X
+MODEL_U02_0_9;Mirage_2000;;;;;;;;;;X
+MODEL_U04_0_5;MiG-29_Fulcrum;;;;;;;;;;X
+MODEL_U04_0_6;MiG-29_Fulcrum;;;;;;;;;;X
+MODEL_U04_0_7;MiG-29_Fulcrum;;;;;;;;;;X
+MODEL_U04_0_8;MiG-29_Fulcrum;;;;;;;;;;X
+MODEL_U04_0_9;MiG-29_Fulcrum;;;;;;;;;;X
+MODEL_U05_0_5;殲撃11型;;;;;;;;;;X
+MODEL_U05_0_6;殲撃11型;;;;;;;;;;X
+MODEL_U05_0_7;殲撃11型;;;;;;;;;;X
+MODEL_U05_0_8;殲撃11型;;;;;;;;;;X
+MODEL_U05_0_9;殲撃11型;;;;;;;;;;X
+## 第三世代;;;;;;;;;;X
+MODEL_JAP_0_10;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_JAP_0_11;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_JAP_0_12;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_JAP_0_13;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_JAP_0_14;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_USA_0_10;F-22_Raptor;;;;;;;;;;X
+MODEL_USA_0_11;F-22_Raptor;;;;;;;;;;X
+MODEL_USA_0_12;F-22_Raptor;;;;;;;;;;X
+MODEL_USA_0_13;F-22_Raptor;;;;;;;;;;X
+MODEL_USA_0_14;F-22_Raptor;;;;;;;;;;X
+MODEL_SOV_0_10;MiG-35_Super_Fulcrum;;;;;;;;;;X
+MODEL_SOV_0_11;MiG-35_Super_Fulcrum;;;;;;;;;;X
+MODEL_SOV_0_12;MiG-35_Super_Fulcrum;;;;;;;;;;X
+MODEL_SOV_0_13;MiG-35_Super_Fulcrum;;;;;;;;;;X
+MODEL_SOV_0_14;MiG-35_Super_Fulcrum;;;;;;;;;;X
+MODEL_U02_0_10;Rafale;;;;;;;;;;X
+MODEL_U02_0_11;Rafale;;;;;;;;;;X
+MODEL_U02_0_12;Rafale;;;;;;;;;;X
+MODEL_U02_0_13;Rafale;;;;;;;;;;X
+MODEL_U02_0_14;Rafale;;;;;;;;;;X
+MODEL_U05_0_10;殲撃20型;;;;;;;;;;X
+MODEL_U05_0_11;殲撃20型;;;;;;;;;;X
+MODEL_U05_0_12;殲撃20型;;;;;;;;;;X
+MODEL_U05_0_13;殲撃20型;;;;;;;;;;X
+MODEL_U05_0_14;殲撃20型;;;;;;;;;;X
+## 第四世代;;;;;;;;;;X
+MODEL_JAP_0_15;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_JAP_0_16;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_JAP_0_17;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_JAP_0_18;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_JAP_0_19;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_USA_0_15;F-32_Excalibur;;;;;;;;;;X
+MODEL_USA_0_16;F-32_Excalibur;;;;;;;;;;X
+MODEL_USA_0_17;F-32_Excalibur;;;;;;;;;;X
+MODEL_USA_0_18;F-32_Excalibur;;;;;;;;;;X
+MODEL_USA_0_19;F-32_Excalibur;;;;;;;;;;X
+MODEL_SOV_0_15;T-50;;;;;;;;;;X
+MODEL_SOV_0_16;T-50;;;;;;;;;;X
+MODEL_SOV_0_17;T-50;;;;;;;;;;X
+MODEL_SOV_0_18;T-50;;;;;;;;;;X
+MODEL_SOV_0_19;T-50;;;;;;;;;;X
+MODEL_U01_0_15;F-32_Excalibur;;;;;;;;;;X
+MODEL_U01_0_16;F-32_Excalibur;;;;;;;;;;X
+MODEL_U01_0_17;F-32_Excalibur;;;;;;;;;;X
+MODEL_U01_0_18;F-32_Excalibur;;;;;;;;;;X
+MODEL_U01_0_19;F-32_Excalibur;;;;;;;;;;X
+MODEL_U02_0_15;F-32_Excalibur;;;;;;;;;;X
+MODEL_U02_0_16;F-32_Excalibur;;;;;;;;;;X
+MODEL_U02_0_17;F-32_Excalibur;;;;;;;;;;X
+MODEL_U02_0_18;F-32_Excalibur;;;;;;;;;;X
+MODEL_U02_0_19;F-32_Excalibur;;;;;;;;;;X
+MODEL_U05_0_15;殲撃26型;;;;;;;;;;X
+MODEL_U05_0_16;殲撃26型;;;;;;;;;;X
+MODEL_U05_0_17;殲撃26型;;;;;;;;;;X
+MODEL_U05_0_18;殲撃26型;;;;;;;;;;X
+MODEL_U05_0_19;殲撃26型;;;;;;;;;;X
+## 第五世代;;;;;;;;;;X
+MODEL_JAP_0_20;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_JAP_0_21;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_JAP_0_22;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_JAP_0_23;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_JAP_0_24;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_USA_0_20;F-37_Standalone;;;;;;;;;;X
+MODEL_USA_0_21;F-37_Standalone;;;;;;;;;;X
+MODEL_USA_0_22;F-37_Standalone;;;;;;;;;;X
+MODEL_USA_0_23;F-37_Standalone;;;;;;;;;;X
+MODEL_USA_0_24;F-37_Standalone;;;;;;;;;;X
+MODEL_SOV_0_20;MiG-37_Free_Style;;;;;;;;;;X
+MODEL_SOV_0_21;MiG-37_Free_Style;;;;;;;;;;X
+MODEL_SOV_0_22;MiG-37_Free_Style;;;;;;;;;;X
+MODEL_SOV_0_23;MiG-37_Free_Style;;;;;;;;;;X
+MODEL_SOV_0_24;MiG-37_Free_Style;;;;;;;;;;X
+MODEL_U01_0_20;F-37_Standalone;;;;;;;;;;X
+MODEL_U01_0_21;F-37_Standalone;;;;;;;;;;X
+MODEL_U01_0_22;F-37_Standalone;;;;;;;;;;X
+MODEL_U01_0_23;F-37_Standalone;;;;;;;;;;X
+MODEL_U01_0_24;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_0_20;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_0_21;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_0_21;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_0_23;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_0_24;F-37_Standalone;;;;;;;;;;X
+MODEL_U05_0_20;殲撃30型;;;;;;;;;;X
+MODEL_U05_0_21;殲撃30型;;;;;;;;;;X
+MODEL_U05_0_22;殲撃30型;;;;;;;;;;X
+MODEL_U05_0_23;殲撃30型;;;;;;;;;;X
+MODEL_U05_0_24;殲撃30型;;;;;;;;;;X
+## 第六世代;;;;;;;;;;X
+MODEL_JAP_0_25;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_JAP_0_26;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_JAP_0_27;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_JAP_0_28;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_JAP_0_29;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_USA_0_25;F-45_Stratofortress;;;;;;;;;;X
+MODEL_USA_0_26;F-45_Stratofortress;;;;;;;;;;X
+MODEL_USA_0_27;F-45_Stratofortress;;;;;;;;;;X
+MODEL_USA_0_28;F-45_Stratofortress;;;;;;;;;;X
+MODEL_USA_0_29;F-45_Stratofortress;;;;;;;;;;X
+MODEL_SOV_0_25;MiG-50_Gray_Fox;;;;;;;;;;X
+MODEL_SOV_0_26;MiG-50_Gray_Fox;;;;;;;;;;X
+MODEL_SOV_0_27;MiG-50_Gray_Fox;;;;;;;;;;X
+MODEL_SOV_0_28;MiG-50_Gray_Fox;;;;;;;;;;X
+MODEL_SOV_0_29;MiG-50_Gray_Fox;;;;;;;;;;X
+MODEL_U01_0_25;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U01_0_26;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U01_0_27;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U01_0_28;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U01_0_29;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_0_25;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_0_26;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_0_27;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_0_28;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_0_29;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U05_0_25;殲撃34型;;;;;;;;;;X
+MODEL_U05_0_26;殲撃34型;;;;;;;;;;X
+MODEL_U05_0_27;殲撃34型;;;;;;;;;;X
+MODEL_U05_0_28;殲撃34型;;;;;;;;;;X
+MODEL_U05_0_29;殲撃34型;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 無人機/斯衛軍/戦略合神機;;;;;;;;;;X
+## 無人機＿第四～第六世代;;;;;;;;;;X
+## 斯衛軍_R型;;;;;;;;;;X
+MODEL_JAP_1_0;TSF-TYPE82R/F-4J改 瑞鶴;;;;;;;;;;X
+MODEL_JAP_1_1;TSF-TYPE82R/F-4J改 瑞鶴改;;;;;;;;;;X
+MODEL_JAP_1_2;TSF-TYPE00R 武御雷;;;;;;;;;;X
+MODEL_JAP_1_3;TSF-TYPE06R 天叢雲;;;;;;;;;;X
+MODEL_JAP_1_4;TSF-TYPE13R 月読;;;;;;;;;;X
+MODEL_JAP_1_5;TSF-TYPE25R 八咫烏;;;;;;;;;;X
+MODEL_USA_1_2;F-22 StrikeRaptor;;;;;;;;;;X
+## 斯衛軍_F型;;;;;;;;;;X
+MODEL_JAP_1_7;TSF-TYPE82F/F-4J改 瑞鶴;;;;;;;;;;X
+MODEL_JAP_1_8;TSF-TYPE82F/F-4J改 瑞鶴改;;;;;;;;;;X
+MODEL_JAP_1_9;TSF-TYPE00F 武御雷;;;;;;;;;;X
+MODEL_JAP_1_10;TSF-TYPE06F 天叢雲;;;;;;;;;;X
+MODEL_JAP_1_11;TSF-TYPE13F 月読;;;;;;;;;;X
+MODEL_JAP_1_12;TSF-TYPE25F 八咫烏;;;;;;;;;;X
+## 斯衛軍_A型;;;;;;;;;;X
+MODEL_JAP_1_14;TSF-TYPE82A/F-4J改 瑞鶴;;;;;;;;;;X
+MODEL_JAP_1_15;TSF-TYPE82F/F-4J改 瑞鶴改;;;;;;;;;;X
+MODEL_JAP_1_16;TSF-TYPE00A 武御雷;;;;;;;;;;X
+MODEL_JAP_1_17;TSF-TYPE06A 天叢雲;;;;;;;;;;X
+MODEL_JAP_1_18;TSF-TYPE13A 月読;;;;;;;;;;X
+MODEL_JAP_1_19;TSF-TYPE25A 八咫烏;;;;;;;;;;X
+MODEL_USA_1_16;YF-23N;;;;;;;;;;X
+## 斯衛軍_C型;;;;;;;;;;X
+MODEL_JAP_1_21;TSF-TYPE82C/F-4J改 瑞鶴;;;;;;;;;;X
+MODEL_JAP_1_22;TSF-TYPE82F/F-4J改 瑞鶴改;;;;;;;;;;X
+MODEL_JAP_1_23;TSF-TYPE00C 武御雷;;;;;;;;;;X
+MODEL_JAP_1_24;TSF-TYPE06C 天叢雲;;;;;;;;;;X
+MODEL_JAP_1_25;TSF-TYPE13C 月読;;;;;;;;;;X
+MODEL_JAP_1_26;TSF-TYPE25C 八咫烏;;;;;;;;;;X
+## 戦略合神機;;;;;;;;;;X
+MODEL_JAP_1_30;SCG-TYPE12 火之迦具鎚;;;;;;;;;;X
+MODEL_JAP_1_31;SCG-TYPE18 軻遇突智;;;;;;;;;;X
+MODEL_JAP_1_32;SCG-TYPE24 火遠理命;;;;;;;;;;X
+MODEL_JAP_1_33;SCG-TYPE30 火須勢理命;;;;;;;;;;X
+MODEL_JAP_1_34;SCG-TYPE35 火牟須比;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 戦略航空機動要塞/全環境適応型戦術機;;;;;;;;;;X
+MODEL_JAP_2_25;XG-70b 凄乃皇弐型;;;;;;;;;;X
+MODEL_JAP_2_26;XG-70d 凄乃皇四型;;;;;;;;;;X
+MODEL_JAP_2_27;XG-70E 凄乃皇伍型;;;;;;;;;;X
+MODEL_JAP_2_28;XG-70F 凄乃皇六型;;;;;;;;;;X
+MODEL_JAP_2_29;XG-70E 凄乃皇伍型;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 機械化装甲歩兵;;;;;;;;;;X
+MODEL_JAP_3_0;45年式機械化歩兵;;;;;;;;;;X
+MODEL_JAP_3_1;69年式機械化装甲歩兵;;;;;;;;;;X
+MODEL_JAP_3_2;75年式機械化装甲歩兵;;;;;;;;;;X
+MODEL_JAP_3_3;84年式機械化装甲歩兵;;;;;;;;;;X
+MODEL_JAP_3_4;90年式機械化装甲歩兵;;;;;;;;;;X
+MODEL_JAP_3_5;98年式機械化装甲歩兵;;;;;;;;;;X
+MODEL_JAP_3_6;04年式機械化装甲歩兵;;;;;;;;;;X
+MODEL_JAP_3_7;09年式機械化装甲歩兵;;;;;;;;;;X
+MODEL_JAP_3_8;14年式機械化装甲歩兵;;;;;;;;;;X
+MODEL_JAP_3_9;21年式機械化装甲歩兵;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 歩兵戦闘車;;;;;;;;;;X
+## 有人機;;;;;;;;;;X
+MODEL_JAP_4_0;Mk.Ⅲ バレンタイン;;;;;;;;;;X
+MODEL_JAP_4_1;73式歩兵戦闘車;;;;;;;;;;X
+MODEL_JAP_4_2;78式歩兵戦闘車;;;;;;;;;;X
+MODEL_JAP_4_3;84式歩兵戦闘車;;;;;;;;;;X
+MODEL_JAP_4_4;90式歩兵戦闘車;;;;;;;;;;X
+MODEL_JAP_4_5;98式歩兵戦闘車;;;;;;;;;;X
+MODEL_JAP_4_6;09式歩兵戦闘車;;;;;;;;;;X
+MODEL_JAP_4_7;18式歩兵戦闘車;;;;;;;;;;X
+MODEL_JAP_4_8;26式歩兵戦闘車;;;;;;;;;;X
+MODEL_JAP_4_9;35式歩兵戦闘車;;;;;;;;;;X
+MODEL_USA_4_0;M2ブラッドレー;;;;;;;;;;X
+MODEL_USA_4_1;M2ブラッドレー;;;;;;;;;;X
+MODEL_USA_4_2;M2ブラッドレー;;;;;;;;;;X
+MODEL_USA_4_3;M2ブラッドレー;;;;;;;;;;X
+MODEL_USA_4_4;M2ブラッドレー;;;;;;;;;;X
+MODEL_USA_4_5;LAV-25;;;;;;;;;;X
+MODEL_USA_4_6;LAV-25;;;;;;;;;;X
+MODEL_USA_4_7;LAV-25;;;;;;;;;;X
+MODEL_USA_4_8;LAV-25;;;;;;;;;;X
+MODEL_USA_4_9;LAV-25;;;;;;;;;;X
+MODEL_SOV_4_0;BMP-2;;;;;;;;;;X
+MODEL_SOV_4_1;BMP-3;;;;;;;;;;X
+MODEL_SOV_4_2;BMP-3M;;;;;;;;;;X
+MODEL_SOV_4_3;BMP-3F;;;;;;;;;;X
+MODEL_SOV_4_4;BTR-T;;;;;;;;;;X
+MODEL_SOV_4_5;BTR-T;;;;;;;;;;X
+MODEL_SOV_4_6;BTR-T;;;;;;;;;;X
+MODEL_SOV_4_7;BTR-T;;;;;;;;;;X
+MODEL_SOV_4_8;BTR-T;;;;;;;;;;X
+MODEL_SOV_4_9;BTR-T;;;;;;;;;;X
+MODEL_U02_4_0;マルダー1A1;;;;;;;;;;X
+MODEL_U02_4_1;マルダー1A2;;;;;;;;;;X
+MODEL_U02_4_2;ウォーリア装甲戦闘車;;;;;;;;;;X
+MODEL_U02_4_3;ウォーリア装甲戦闘車;;;;;;;;;;X
+MODEL_U02_4_4;AMX-10P;;;;;;;;;;X
+MODEL_U02_4_5;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+MODEL_U02_4_6;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+MODEL_U02_4_7;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+MODEL_U02_4_8;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+MODEL_U02_4_9;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+MODEL_USA_4_11;機甲騎兵連隊Ⅰ;;;;;;;;;;x
+MODEL_USA_4_12;機甲騎兵連隊Ⅱ;;;;;;;;;;x
+MODEL_USA_4_13;機甲騎兵連隊Ⅲ;;;;;;;;;;x
+MODEL_USA_4_14;機甲騎兵連隊Ⅳ;;;;;;;;;;x
+MODEL_USA_4_15;機甲騎兵連隊Ⅴ;;;;;;;;;;x
+MODEL_USA_4_16;機甲騎兵連隊Ⅵ;;;;;;;;;;x
+MODEL_USA_4_17;機甲騎兵連隊Ⅶ;;;;;;;;;;x
+MODEL_USA_4_18;機甲騎兵連隊Ⅷ;;;;;;;;;;x
+MODEL_USA_4_19;機甲騎兵連隊Ⅸ;;;;;;;;;;x
+MODEL_USA_4_20;機甲騎兵連隊Ⅹ;;;;;;;;;;x
+MODEL_JAP_4_11;戦車連隊戦闘団Ⅰ;;;;;;;;;;x
+MODEL_JAP_4_12;戦車連隊戦闘団Ⅱ;;;;;;;;;;x
+MODEL_JAP_4_13;戦車連隊戦闘団Ⅲ;;;;;;;;;;x
+MODEL_JAP_4_14;戦車連隊戦闘団Ⅳ;;;;;;;;;;x
+MODEL_JAP_4_15;戦車連隊戦闘団Ⅴ;;;;;;;;;;x
+MODEL_JAP_4_16;戦車連隊戦闘団Ⅵ;;;;;;;;;;x
+MODEL_JAP_4_17;戦車連隊戦闘団Ⅶ;;;;;;;;;;x
+MODEL_JAP_4_18;戦車連隊戦闘団Ⅷ;;;;;;;;;;x
+MODEL_JAP_4_19;戦車連隊戦闘団Ⅸ;;;;;;;;;;x
+MODEL_JAP_4_20;戦車連隊戦闘団Ⅹ;;;;;;;;;;x
+MODEL_U02_4_11;近衛騎兵連隊Ⅰ;;;;;;;;;;x
+MODEL_U02_4_12;近衛騎兵連隊Ⅱ;;;;;;;;;;x
+MODEL_U02_4_13;近衛騎兵連隊Ⅲ;;;;;;;;;;x
+MODEL_U02_4_14;近衛騎兵連隊Ⅳ;;;;;;;;;;x
+MODEL_U02_4_15;近衛騎兵連隊Ⅴ;;;;;;;;;;x
+MODEL_U02_4_16;近衛騎兵連隊Ⅵ;;;;;;;;;;x
+MODEL_U02_4_17;近衛騎兵連隊Ⅶ;;;;;;;;;;x
+MODEL_U02_4_18;近衛騎兵連隊Ⅷ;;;;;;;;;;x
+MODEL_U02_4_19;近衛騎兵連隊Ⅸ;;;;;;;;;;x
+MODEL_U02_4_20;近衛騎兵連隊Ⅹ;;;;;;;;;;x
+MODEL_SOV_4_11;親衛戦車連隊Ⅰ;;;;;;;;;;x
+MODEL_SOV_4_12;親衛戦車連隊Ⅱ;;;;;;;;;;x
+MODEL_SOV_4_13;親衛戦車連隊Ⅲ;;;;;;;;;;x
+MODEL_SOV_4_14;親衛戦車連隊Ⅳ;;;;;;;;;;x
+MODEL_SOV_4_15;親衛戦車連隊Ⅴ;;;;;;;;;;x
+MODEL_SOV_4_16;親衛戦車連隊Ⅵ;;;;;;;;;;x
+MODEL_SOV_4_17;親衛戦車連隊Ⅶ;;;;;;;;;;x
+MODEL_SOV_4_18;親衛戦車連隊Ⅷ;;;;;;;;;;x
+MODEL_SOV_4_19;親衛戦車連隊Ⅸ;;;;;;;;;;x
+MODEL_SOV_4_20;親衛戦車連隊Ⅹ;;;;;;;;;;x
+MODEL_U04_4_0;バイオニクス歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_1;バイオニクス歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_2;バイオニクス歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_3;バイオニクス歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_4;バイオニクス歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_5;バイオニクス歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_6;バイオニクス歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_7;バイオニクス歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_8;バイオニクス歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_9;バイオニクス歩兵戦闘車;;;;;;;;;;X
+## 無人機;;;;;;;;;;X
+MODEL_JAP_4_32;14式無人戦闘車両;;;;;;;;;;X
+MODEL_JAP_4_33;20式無人戦闘車両;;;;;;;;;;X
+MODEL_JAP_4_34;25式無人戦闘車両;;;;;;;;;;X
+MODEL_USA_4_32;LAV-25無人戦闘車両;;;;;;;;;;X
+MODEL_USA_4_33;LAV-25無人戦闘車両;;;;;;;;;;X
+MODEL_USA_4_34;LAV-25無人戦闘車両;;;;;;;;;;X
+MODEL_SOV_4_32;BTR-T無人戦闘車両;;;;;;;;;;X
+MODEL_SOV_4_33;BTR-T無人戦闘車両;;;;;;;;;;X
+MODEL_SOV_4_34;BTR-T無人戦闘車両;;;;;;;;;;X
+MODEL_U02_4_32;無人プーマ装甲歩兵戦闘車;;;;;;;;;;X
+MODEL_U02_4_33;無人プーマ装甲歩兵戦闘車;;;;;;;;;;X
+MODEL_U02_4_34;無人プーマ装甲歩兵戦闘車;;;;;;;;;;X
+MODEL_U04_4_32;バイオニクス歩兵戦闘車無人型;;;;;;;;;;X
+MODEL_U04_4_33;バイオニクス歩兵戦闘車無人型;;;;;;;;;;X
+MODEL_U04_4_34;バイオニクス歩兵戦闘車無人型;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 戦車各種;;;;;;;;;;X
+## 主力戦車;;;;;;;;;;X
+MODEL_JAP_5_0;M4A3E8 シャーマン;;;;;;;;;;X
+MODEL_JAP_5_1;73式戦車;;;;;;;;;;X
+MODEL_JAP_5_2;73式戦車改;;;;;;;;;;X
+MODEL_JAP_5_3;84式戦車;;;;;;;;;;X
+MODEL_JAP_5_4;90式戦車;;;;;;;;;;X
+MODEL_JAP_5_5;90式戦車改;;;;;;;;;;X
+MODEL_JAP_5_6;09式戦車;;;;;;;;;;X
+MODEL_JAP_5_7;18式戦車;;;;;;;;;;X
+MODEL_JAP_5_8;26式戦車;;;;;;;;;;X
+MODEL_JAP_5_9;35式戦車;;;;;;;;;;X
+MODEL_USA_5_0;M46パットン;;;;;;;;;;X
+MODEL_USA_5_1;M47パットン;;;;;;;;;;X
+MODEL_USA_5_2;M48パットン;;;;;;;;;;X
+MODEL_USA_5_3;M60パットン;;;;;;;;;;X
+MODEL_USA_5_4;M1エイブラムス;;;;;;;;;;X
+MODEL_USA_5_5;M1エイブラムス;;;;;;;;;;X
+MODEL_USA_5_6;M1エイブラムス;;;;;;;;;;X
+MODEL_USA_5_7;M1エイブラムス;;;;;;;;;;X
+MODEL_USA_5_8;M1エイブラムス;;;;;;;;;;X
+MODEL_USA_5_9;M1エイブラムス;;;;;;;;;;X
+MODEL_SOV_5_0;T-54/55;;;;;;;;;;X
+MODEL_SOV_5_1;T-64R ;;;;;;;;;;X
+MODEL_SOV_5_2;T-72AV;;;;;;;;;;X
+MODEL_SOV_5_3;T-72AV;;;;;;;;;;X
+MODEL_SOV_5_4;T-80UK;;;;;;;;;;X
+MODEL_SOV_5_5;T-80UM-1;;;;;;;;;;X
+MODEL_SOV_5_6;T-90;;;;;;;;;;X
+MODEL_SOV_5_7;T-90;;;;;;;;;;X
+MODEL_SOV_5_8;T-90;;;;;;;;;;X
+MODEL_SOV_5_9;T-90;;;;;;;;;;X
+MODEL_U02_5_0;センチュリオンMK5;;;;;;;;;;X
+MODEL_U02_5_1;レオパルト1A;;;;;;;;;;X
+MODEL_U02_5_2;レオパルト1A1 ;;;;;;;;;;X
+MODEL_U02_5_3;レオパルト1A2;;;;;;;;;;X
+MODEL_U02_5_4;レオパルト1A3 ;;;;;;;;;;X
+MODEL_U02_5_5;レオパルト2AV ;;;;;;;;;;X
+MODEL_U02_5_6;レオパルト2A-4 ;;;;;;;;;;X
+MODEL_U02_5_7;レオパルト2A-5;;;;;;;;;;X
+MODEL_U02_5_8;レオパルト2A-6;;;;;;;;;;X
+MODEL_U02_5_9;レオパルト2A7+ ;;;;;;;;;;X
+MODEL_U04_5_0;アージュン戦車;;;;;;;;;;X
+MODEL_U04_5_1;アージュン戦車;;;;;;;;;;X
+MODEL_U04_5_2;アージュン戦車;;;;;;;;;;X
+MODEL_U04_5_3;アージュン戦車;;;;;;;;;;X
+MODEL_U04_5_4;アージュン戦車;;;;;;;;;;X
+MODEL_U04_5_5;アージュン戦車;;;;;;;;;;X
+MODEL_U04_5_6;アージュン戦車;;;;;;;;;;X
+MODEL_U04_5_7;アージュン戦車;;;;;;;;;;X
+MODEL_U04_5_8;アージュン戦車;;;;;;;;;;X
+MODEL_U04_5_9;アージュン戦車;;;;;;;;;;X
+## 電磁投射砲戦車;;;;;;;;;;X 
+MODEL_JAP_5_11;06式電磁投射戦車;;;;;;;;;;X
+MODEL_JAP_5_12;10式電磁投射戦車;;;;;;;;;;X
+MODEL_JAP_5_13;15式電磁投射戦車;;;;;;;;;;X
+MODEL_JAP_5_14;21式電磁投射戦車;;;;;;;;;;X
+MODEL_USA_5_11;M60パットン電磁投射戦車;;;;;;;;;;X
+MODEL_USA_5_12;M60パットン電磁投射戦車;;;;;;;;;;X
+MODEL_USA_5_13;M60パットン電磁投射戦車;;;;;;;;;;X
+MODEL_USA_5_14;M60パットン電磁投射戦車;;;;;;;;;;X
+MODEL_SOV_5_11;T-72電磁投射砲搭載型;;;;;;;;;;X
+MODEL_SOV_5_12;T-72電磁投射砲搭載型;;;;;;;;;;X
+MODEL_SOV_5_13;T-72電磁投射砲搭載型;;;;;;;;;;X
+MODEL_SOV_5_14;T-72電磁投射砲搭載型;;;;;;;;;;X
+MODEL_U02_5_11;センチュリオンMK5電磁投型;;;;;;;;;;X
+MODEL_U02_5_12;センチュリオンMK5電磁投型;;;;;;;;;;X
+MODEL_U02_5_13;センチュリオンMK5電磁投型;;;;;;;;;;X
+MODEL_U02_5_14;センチュリオンMK5電磁投型;;;;;;;;;;X
+MODEL_U04_5_11;アージュン戦車電磁投射型;;;;;;;;;;X
+MODEL_U04_5_12;アージュン戦車電磁投射型;;;;;;;;;;X
+MODEL_U04_5_13;アージュン戦車電磁投射型;;;;;;;;;;X
+MODEL_U04_5_14;アージュン戦車電磁投射型;;;;;;;;;;X
+## ミサイル戦車;;;;;;;;;;X 
+MODEL_JAP_5_16;98式ミサイル戦車;;;;;;;;;;X
+MODEL_JAP_5_17;02式ミサイル戦車;;;;;;;;;;X
+MODEL_JAP_5_18;08式ミサイル戦車;;;;;;;;;;X
+MODEL_JAP_5_19;15式ミサイル戦車;;;;;;;;;;X
+MODEL_USA_5_16;M60パットンミサイル戦車;;;;;;;;;;X
+MODEL_USA_5_17;M60パットンミサイル戦車;;;;;;;;;;X
+MODEL_USA_5_18;M60パットンミサイル戦車;;;;;;;;;;X
+MODEL_USA_5_19;M60パットンミサイル戦車;;;;;;;;;;X
+MODEL_SOV_5_16;T-72ミサイル搭載型;;;;;;;;;;X
+MODEL_SOV_5_17;T-72ミサイル搭載型;;;;;;;;;;X
+MODEL_SOV_5_18;T-72ミサイル搭載型;;;;;;;;;;X
+MODEL_SOV_5_19;T-72ミサイル搭載型;;;;;;;;;;X
+MODEL_U02_5_16;センチュリオンMK6ミサイル搭載型;;;;;;;;;;X
+MODEL_U02_5_17;センチュリオンMK6ミサイル搭載型;;;;;;;;;;X
+MODEL_U02_5_18;センチュリオンMK6ミサイル搭載型;;;;;;;;;;X
+MODEL_U02_5_19;センチュリオンMK6ミサイル搭載型;;;;;;;;;;X
+MODEL_U04_5_16;アージュン戦車ミサイル投射型;;;;;;;;;;X
+MODEL_U04_5_17;アージュン戦車ミサイル投射型;;;;;;;;;;X
+MODEL_U04_5_18;アージュン戦車ミサイル投射型;;;;;;;;;;X
+MODEL_U04_5_19;アージュン戦車ミサイル投射型;;;;;;;;;;X
+## プラズマ戦車;;;;;;;;;;X
+MODEL_JAP_5_21;06式プラズマ戦車;;;;;;;;;;X
+MODEL_JAP_5_22;10式プラズマ戦車;;;;;;;;;;X
+MODEL_JAP_5_23;15式プラズマ戦車;;;;;;;;;;X
+MODEL_JAP_5_24;21式プラズマ戦車;;;;;;;;;;X
+MODEL_USA_5_21;M60パットンプラズマ戦車;;;;;;;;;;X
+MODEL_USA_5_22;M60パットンプラズマ戦車;;;;;;;;;;X
+MODEL_USA_5_23;M60パットンプラズマ戦車;;;;;;;;;;X
+MODEL_USA_5_24;M60パットンプラズマ戦車;;;;;;;;;;X
+MODEL_SOV_5_21;T-72プラズマ砲搭載型;;;;;;;;;;X
+MODEL_SOV_5_22;T-72プラズマ砲搭載型;;;;;;;;;;X
+MODEL_SOV_5_23;T-72プラズマ砲搭載型;;;;;;;;;;X
+MODEL_SOV_5_24;T-72プラズマ砲搭載型;;;;;;;;;;X
+MODEL_U02_5_21;センチュリオンMK7プラズマ戦車;;;;;;;;;;X
+MODEL_U02_5_22;センチュリオンMK7プラズマ戦車;;;;;;;;;;X
+MODEL_U02_5_23;センチュリオンMK7プラズマ戦車;;;;;;;;;;X
+MODEL_U02_5_24;センチュリオンMK7プラズマ戦車;;;;;;;;;;X
+MODEL_U04_5_21;アージュン戦車プラズマ投射型;;;;;;;;;;X
+MODEL_U04_5_22;アージュン戦車プラズマ投射型;;;;;;;;;;X
+MODEL_U04_5_23;アージュン戦車プラズマ投射型;;;;;;;;;;X
+MODEL_U04_5_24;アージュン戦車プラズマ投射型;;;;;;;;;;X
+## 粒子戦車;;;;;;;;;;X
+MODEL_JAP_5_26;06式粒子戦車;;;;;;;;;;X
+MODEL_JAP_5_27;10式粒子戦車;;;;;;;;;;X
+MODEL_JAP_5_28;15式粒子戦車;;;;;;;;;;X
+MODEL_JAP_5_29;21式粒子戦車;;;;;;;;;;X
+MODEL_USA_5_26;M60パットン粒子戦車;;;;;;;;;;X
+MODEL_USA_5_27;M60パットン粒子戦車;;;;;;;;;;X
+MODEL_USA_5_28;M60パットン粒子戦車;;;;;;;;;;X
+MODEL_USA_5_29;M60パットン粒子戦車;;;;;;;;;;X
+MODEL_SOV_5_26;T-72荷電粒子砲搭載型;;;;;;;;;;X
+MODEL_SOV_5_27;T-72荷電粒子砲搭載型;;;;;;;;;;X
+MODEL_SOV_5_28;T-72荷電粒子砲搭載型;;;;;;;;;;X
+MODEL_SOV_5_29;T-72荷電粒子砲搭載型;;;;;;;;;;X
+MODEL_U02_5_26;センチュリオンMK8粒子戦車;;;;;;;;;;X
+MODEL_U02_5_27;センチュリオンMK8粒子戦車;;;;;;;;;;X
+MODEL_U02_5_28;センチュリオンMK8粒子戦車;;;;;;;;;;X
+MODEL_U02_5_29;センチュリオンMK8粒子戦車;;;;;;;;;;X
+MODEL_U04_5_26;アージュン戦車粒子投射型;;;;;;;;;;X
+MODEL_U04_5_27;アージュン戦車粒子投射型;;;;;;;;;;X
+MODEL_U04_5_28;アージュン戦車粒子投射型;;;;;;;;;;X
+MODEL_U04_5_29;アージュン戦車粒子投射型;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 戦術歩行戦闘機;;;;;;;;;;X
+## 第一世代;;;;;;;;;;X
+MODEL_JAP_6_0;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_JAP_6_1;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_JAP_6_2;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_JAP_6_3;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_JAP_6_4;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_USA_6_0;F-4_Phantom;;;;;;;;;;X
+MODEL_USA_6_1;F-4_Phantom;;;;;;;;;;X
+MODEL_USA_6_2;F-4_Phantom;;;;;;;;;;X
+MODEL_USA_6_3;F-4_Phantom;;;;;;;;;;X
+MODEL_USA_6_4;F-4_Phantom;;;;;;;;;;X
+MODEL_SOV_6_0;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_SOV_6_1;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_SOV_6_2;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_SOV_6_3;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_SOV_6_4;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_U02_6_0;F-5_Freedom_Fighter;;;;;;;;;;X
+MODEL_U02_6_1;F-5_Freedom_Fighter;;;;;;;;;;X
+MODEL_U02_6_2;F-5_Freedom_Fighter;;;;;;;;;;X
+MODEL_U02_6_3;F-5_Freedom_Fighter;;;;;;;;;;X
+MODEL_U02_6_4;F-5_Freedom_Fighter;;;;;;;;;;X
+MODEL_U04_6_0;F-4_Phantom;;;;;;;;;;X
+MODEL_U04_6_1;F-4_Phantom;;;;;;;;;;X
+MODEL_U04_6_2;F-4_Phantom;;;;;;;;;;X
+MODEL_U04_6_3;F-4_Phantom;;;;;;;;;;X
+MODEL_U04_6_4;F-4_Phantom;;;;;;;;;;X
+MODEL_U05_6_0;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_U05_6_1;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_U05_6_2;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_U05_6_3;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_U05_6_4;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_DDR_6_0;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_DDR_6_1;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_DDR_6_2;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_DDR_6_3;MiG-21_Balalaika;;;;;;;;;;X
+MODEL_DDR_6_4;MiG-21_Balalaika;;;;;;;;;;X
+## 第二世代;;;;;;;;;;X
+MODEL_JAP_6_5;TSF-TYPE89/F-15J 陽炎;;;;;;;;;;X
+MODEL_JAP_6_6;TSF-TYPE89/F-15J 陽炎;;;;;;;;;;X
+MODEL_JAP_6_7;TSF-TYPE89/F-15J 陽炎;;;;;;;;;;X
+MODEL_JAP_6_8;TSF-TYPE89/F-15J-C 陽炎改;;;;;;;;;;X
+MODEL_JAP_6_9;TSF-TYPE89/F-15J-C 陽炎改;;;;;;;;;;X
+MODEL_USA_6_5;F-15_Eagle;;;;;;;;;;X
+MODEL_USA_6_6;F-15_Eagle;;;;;;;;;;X
+MODEL_USA_6_7;F-15_Eagle;;;;;;;;;;X
+MODEL_USA_6_8;F-15_Eagle;;;;;;;;;;X
+MODEL_USA_6_9;F-15_Active Eagle;;;;;;;;;;X
+MODEL_SOV_6_5;Su-27_Juraburiku;;;;;;;;;;X
+MODEL_SOV_6_6;Su-27_Juraburiku;;;;;;;;;;X
+MODEL_SOV_6_7;Su-27_Juraburiku;;;;;;;;;;X
+MODEL_SOV_6_8;Su-27_Juraburiku;;;;;;;;;;X
+MODEL_SOV_6_9;Su-27_Juraburiku;;;;;;;;;;X
+MODEL_U02_6_5;F-5E_ADV_Tornade;;;;;;;;;;X
+MODEL_U02_6_6;F-5E_ADV_Tornade;;;;;;;;;;X
+MODEL_U02_6_7;F-5E_ADV_Tornade;;;;;;;;;;X
+MODEL_U02_6_8;F-5E_ADV_Tornade;;;;;;;;;;X
+MODEL_U02_6_9;F-5E_ADV_Tornade;;;;;;;;;;X
+MODEL_U04_6_5;F-16_Fighting Falcon;;;;;;;;;;X
+MODEL_U04_6_6;F-16_Fighting Falcon;;;;;;;;;;X
+MODEL_U04_6_7;F-16_Fighting Falcon;;;;;;;;;;X
+MODEL_U04_6_8;F-16_Fighting Falcon;;;;;;;;;;X
+MODEL_U04_6_9;F-16_Fighting Falcon;;;;;;;;;;X
+MODEL_U05_6_5;殲撃10型;;;;;;;;;;X
+MODEL_U05_6_6;殲撃10型;;;;;;;;;;X
+MODEL_U05_6_7;殲撃10型;;;;;;;;;;X
+MODEL_U05_6_8;殲撃10型;;;;;;;;;;X
+MODEL_U05_6_9;殲撃10型;;;;;;;;;;X
+MODEL_U06_6_5;F-15_Strike_Eagle;;;;;;;;;;X
+MODEL_U06_6_6;F-15_Strike_Eagle;;;;;;;;;;X
+MODEL_U06_6_7;F-15_Strike_Eagle;;;;;;;;;;X
+MODEL_U06_6_8;F-15_Strike_Eagle;;;;;;;;;;X
+MODEL_U06_6_9;F-15_Strike_Eagle;;;;;;;;;;X
+## 第三世代;;;;;;;;;;X 
+MODEL_JAP_6_10;TSF-TYPE94 不知火;;;;;;;;;;X
+MODEL_JAP_6_11;TSF-TYPE94 不知火;;;;;;;;;;X
+MODEL_JAP_6_12;TSF-TYPE94-1C 不知火壱型丙;;;;;;;;;;X
+MODEL_JAP_6_13;TSF-TYPE01 不知火弐型;;;;;;;;;;X
+MODEL_JAP_6_14;TSF-TYPE01 不知火弐型;;;;;;;;;;X
+MODEL_JAP_6_33;TSF-TYPE03/F-22J 隼;;;;;;;;;;X #ライセンス生産
+MODEL_USA_6_10;F-22_Raptor;;;;;;;;;;X
+MODEL_USA_6_11;F-22_Raptor;;;;;;;;;;X
+MODEL_USA_6_12;F-22_Raptor;;;;;;;;;;X
+MODEL_USA_6_13;F-22_Raptor;;;;;;;;;;X
+MODEL_USA_6_14;F-22_Raptor;;;;;;;;;;X
+MODEL_SOV_6_10;Su-47_Byerukuto;;;;;;;;;;X
+MODEL_SOV_6_11;Su-47_Byerukuto;;;;;;;;;;X
+MODEL_SOV_6_12;Su-47_Byerukuto;;;;;;;;;;X
+MODEL_SOV_6_13;Su-47_Byerukuto;;;;;;;;;;X
+MODEL_SOV_6_14;Su-47_Byerukuto;;;;;;;;;;X
+MODEL_U02_6_10;EF-2000_Typhoon;;;;;;;;;;X
+MODEL_U02_6_11;EF-2000_Typhoon;;;;;;;;;;X
+MODEL_U02_6_12;EF-2000_Typhoon;;;;;;;;;;X
+MODEL_U02_6_13;EF-2000_Typhoon;;;;;;;;;;X
+MODEL_U02_6_14;EF-2000_Typhoon;;;;;;;;;;X
+MODEL_U04_6_10;F-35_Lightning II;;;;;;;;;;X
+MODEL_U04_6_11;F-35_Lightning II;;;;;;;;;;X
+MODEL_U04_6_12;F-35_Lightning II;;;;;;;;;;X
+MODEL_U04_6_13;F-35_Lightning II;;;;;;;;;;X
+MODEL_U04_6_14;F-35_Lightning II;;;;;;;;;;X
+MODEL_U05_6_10;殲撃20型;;;;;;;;;;X
+MODEL_U05_6_11;殲撃20型;;;;;;;;;;X
+MODEL_U05_6_12;殲撃20型;;;;;;;;;;X
+MODEL_U05_6_13;殲撃20型;;;;;;;;;;X
+MODEL_U05_6_14;殲撃20型;;;;;;;;;;X
+## 第四世代;;;;;;;;;;X 
+MODEL_JAP_6_15;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_JAP_6_16;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_JAP_6_17;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_JAP_6_18;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_JAP_6_19;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_USA_6_15;F-32_Excalibur;;;;;;;;;;X
+MODEL_USA_6_16;F-32_Excalibur;;;;;;;;;;X
+MODEL_USA_6_17;F-32_Excalibur;;;;;;;;;;X
+MODEL_USA_6_18;F-32_Excalibur;;;;;;;;;;X
+MODEL_USA_6_19;F-32_Excalibur;;;;;;;;;;X
+MODEL_SOV_6_20;PAK FA-50_Pakufa;;;;;;;;;;X
+MODEL_SOV_6_21;PAK FA-50_Pakufa;;;;;;;;;;X
+MODEL_SOV_6_22;PAK FA-50_Pakufa;;;;;;;;;;X
+MODEL_SOV_6_23;PAK FA-50_Pakufa;;;;;;;;;;X
+MODEL_SOV_6_24;PAK FA-50_Pakufa;;;;;;;;;;X
+MODEL_U02_6_15;F-32_Excalibur;;;;;;;;;;X
+MODEL_U02_6_16;F-32_Excalibur;;;;;;;;;;X
+MODEL_U02_6_17;F-32_Excalibur;;;;;;;;;;X
+MODEL_U02_6_18;F-32_Excalibur;;;;;;;;;;X
+MODEL_U02_6_19;F-32_Excalibur;;;;;;;;;;X
+MODEL_U04_6_15;F-32_Excalibur;;;;;;;;;;X
+MODEL_U04_6_16;F-32_Excalibur;;;;;;;;;;X
+MODEL_U04_6_17;F-32_Excalibur;;;;;;;;;;X
+MODEL_U04_6_18;F-32_Excalibur;;;;;;;;;;X
+MODEL_U04_6_19;F-32_Excalibur;;;;;;;;;;X
+MODEL_U05_6_15;殲撃26型;;;;;;;;;;X
+MODEL_U05_6_16;殲撃26型;;;;;;;;;;X
+MODEL_U05_6_17;殲撃26型;;;;;;;;;;X
+MODEL_U05_6_18;殲撃26型;;;;;;;;;;X
+MODEL_U05_6_19;殲撃26型;;;;;;;;;;X
+## 第五世代;;;;;;;;;;X
+MODEL_JAP_6_20;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_JAP_6_21;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_JAP_6_22;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_JAP_6_23;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_JAP_6_24;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_USA_6_20;F-37_Standalone;;;;;;;;;;X
+MODEL_USA_6_21;F-37_Standalone;;;;;;;;;;X
+MODEL_USA_6_22;F-37_Standalone;;;;;;;;;;X
+MODEL_USA_6_23;F-37_Standalone;;;;;;;;;;X
+MODEL_USA_6_24;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_6_20;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_6_21;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_6_22;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_6_23;F-37_Standalone;;;;;;;;;;X
+MODEL_U02_6_24;F-37_Standalone;;;;;;;;;;X
+MODEL_U04_6_20;F-37_Standalone;;;;;;;;;;X
+MODEL_U04_6_21;F-37_Standalone;;;;;;;;;;X
+MODEL_U04_6_22;F-37_Standalone;;;;;;;;;;X
+MODEL_U04_6_23;F-37_Standalone;;;;;;;;;;X
+MODEL_U04_6_24;F-37_Standalone;;;;;;;;;;X
+MODEL_U05_6_20;殲撃30型;;;;;;;;;;X
+MODEL_U05_6_21;殲撃30型;;;;;;;;;;X
+MODEL_U05_6_22;殲撃30型;;;;;;;;;;X
+MODEL_U05_6_23;殲撃30型;;;;;;;;;;X
+MODEL_U05_6_24;殲撃30型;;;;;;;;;;X
+## 第六世代;;;;;;;;;;X 
+MODEL_JAP_6_25;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_JAP_6_26;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_JAP_6_27;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_JAP_6_28;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_JAP_6_29;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_USA_6_25;F-45_Stratofortress;;;;;;;;;;X
+MODEL_USA_6_26;F-45_Stratofortress;;;;;;;;;;X
+MODEL_USA_6_27;F-45_Stratofortress;;;;;;;;;;X
+MODEL_USA_6_28;F-45_Stratofortress;;;;;;;;;;X
+MODEL_USA_6_29;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_6_25;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_6_26;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_6_27;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_6_28;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U02_6_29;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U04_6_25;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U04_6_26;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U04_6_27;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U04_6_28;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U04_6_29;F-45_Stratofortress;;;;;;;;;;X
+MODEL_U05_6_25;殲撃34型;;;;;;;;;;X
+MODEL_U05_6_26;殲撃34型;;;;;;;;;;X
+MODEL_U05_6_27;殲撃34型;;;;;;;;;;X
+MODEL_U05_6_28;殲撃34型;;;;;;;;;;X
+MODEL_U05_6_29;殲撃34型;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 強襲歩行攻撃機;;;;;;;;;;X
+## 第一世代;;;;;;;;;;X
+MODEL_JAP_7_0;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_JAP_7_1;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_JAP_7_2;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_JAP_7_3;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_JAP_7_4;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_USA_7_0;A-6 Intruder;;;;;;;;;;X
+MODEL_USA_7_1;A-6 Intruder;;;;;;;;;;X
+MODEL_USA_7_2;A-6 Intruder;;;;;;;;;;X
+MODEL_USA_7_3;A-6 Intruder;;;;;;;;;;X
+MODEL_USA_7_4;A-6 Intruder;;;;;;;;;;X
+## 第二世代;;;;;;;;;;X
+MODEL_JAP_7_5;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_JAP_7_6;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_JAP_7_7;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_JAP_7_8;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_JAP_7_9;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_U01_7_5;A-6C_Cobra;;;;;;;;;;X
+MODEL_U01_7_6;A-6C_Cobra;;;;;;;;;;X
+MODEL_U01_7_7;A-6C_Cobra;;;;;;;;;;X
+MODEL_U01_7_8;A-6C_Cobra;;;;;;;;;;X
+MODEL_U01_7_9;A-6C_Cobra;;;;;;;;;;X
+## 第三世代;;;;;;;;;;X 
+MODEL_JAP_7_10;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_JAP_7_11;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_JAP_7_12;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_JAP_7_13;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_JAP_7_14;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_U01_7_10;A-12_Avenger;;;;;;;;;;X
+MODEL_U01_7_11;A-12_Avenger;;;;;;;;;;X
+MODEL_U01_7_12;A-12_Avenger;;;;;;;;;;X
+MODEL_U01_7_13;A-12_Avenger;;;;;;;;;;X
+MODEL_U01_7_14;A-12_Avenger;;;;;;;;;;X
+## 第四世代;;;;;;;;;;X
+MODEL_JAP_7_15;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_JAP_7_16;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_JAP_7_17;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_JAP_7_18;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_JAP_7_19;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_U01_7_15;A-15_Reactive_barrier;;;;;;;;;;X
+MODEL_U01_7_16;A-15_Reactive_barrier;;;;;;;;;;X
+MODEL_U01_7_17;A-15_Reactive_barrier;;;;;;;;;;X
+MODEL_U01_7_18;A-15_Reactive_barrier;;;;;;;;;;X
+MODEL_U01_7_19;A-15_Reactive_barrier;;;;;;;;;;X
+## 第五世代;;;;;;;;;;X
+MODEL_JAP_7_20;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_JAP_7_21;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_JAP_7_22;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_JAP_7_23;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_JAP_7_24;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_U01_7_20;A-17_Voodoo;;;;;;;;;;X
+MODEL_U01_7_21;A-17_Voodoo;;;;;;;;;;X
+MODEL_U01_7_22;A-17_Voodoo;;;;;;;;;;X
+MODEL_U01_7_23;A-17_Voodoo;;;;;;;;;;X
+MODEL_U01_7_24;A-17_Voodoo;;;;;;;;;;X
+## 第六世代;;;;;;;;;;X
+MODEL_JAP_7_25;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_JAP_7_26;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_JAP_7_27;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_JAP_7_28;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_JAP_7_29;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_U01_7_25;A-25_Delta Dagger;;;;;;;;;;X
+MODEL_U01_7_26;A-25_Delta Dagger;;;;;;;;;;X
+MODEL_U01_7_27;A-25_Delta Dagger;;;;;;;;;;X
+MODEL_U01_7_28;A-25_Delta Dagger;;;;;;;;;;X
+MODEL_U01_7_29;A-25_Delta Dagger;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 戦術歩行攻撃機;;;;;;;;;;X
+## 第一世代;;;;;;;;;;X
+MODEL_JAP_8_0;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_JAP_8_1;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_JAP_8_2;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_JAP_8_3;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_JAP_8_4;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_USA_8_0;A-10A_ThunderboltⅡ;;;;;;;;;;X
+MODEL_USA_8_1;A-10A_ThunderboltⅡ;;;;;;;;;;X
+MODEL_USA_8_2;A-10A_ThunderboltⅡ;;;;;;;;;;X
+MODEL_USA_8_3;A-10A_ThunderboltⅡ;;;;;;;;;;X
+MODEL_USA_8_4;A-10A_ThunderboltⅡ;;;;;;;;;;X
+MODEL_U02_8_0;J-35/JA-35 Draken;;;;;;;;;;X
+MODEL_U02_8_1;J-35/JA-35 Draken;;;;;;;;;;X
+MODEL_U02_8_2;J-35/JA-35 Draken;;;;;;;;;;X
+MODEL_U02_8_3;J-35/JA-35 Draken;;;;;;;;;;X
+MODEL_U02_8_4;J-35/JA-35 Draken;;;;;;;;;;X
+## 第二世代;;;;;;;;;;X
+MODEL_JAP_8_5;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_JAP_8_6;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_JAP_8_7;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_JAP_8_8;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_JAP_8_9;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_USA_8_5;A-10C_Blackbird;;;;;;;;;;X
+MODEL_USA_8_6;A-10C_Blackbird;;;;;;;;;;X
+MODEL_USA_8_7;A-10C_Blackbird;;;;;;;;;;X
+MODEL_USA_8_8;A-10C_Blackbird;;;;;;;;;;X
+MODEL_USA_8_9;A-10C_Blackbird;;;;;;;;;;X
+MODEL_U02_8_5;JA-37 Viggen;;;;;;;;;;X
+MODEL_U02_8_6;JA-37 Viggen;;;;;;;;;;X
+MODEL_U02_8_7;JA-37 Viggen;;;;;;;;;;X
+MODEL_U02_8_8;JA-37 Viggen;;;;;;;;;;X
+MODEL_U02_8_9;JA-37 Viggen;;;;;;;;;;X
+## 第三世代;;;;;;;;;;X 
+MODEL_JAP_8_10;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_JAP_8_11;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_JAP_8_12;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_JAP_8_13;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_JAP_8_14;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_USA_8_10;A-18_Aardvark;;;;;;;;;;X
+MODEL_USA_8_11;A-18_Aardvark;;;;;;;;;;X
+MODEL_USA_8_12;A-18_Aardvark;;;;;;;;;;X
+MODEL_USA_8_13;A-18_Aardvark;;;;;;;;;;X
+MODEL_USA_8_14;A-18_Aardvark;;;;;;;;;;X
+MODEL_U02_8_10;JAS-39 Gripen;;;;;;;;;;X
+MODEL_U02_8_11;JAS-39 Gripen;;;;;;;;;;X
+MODEL_U02_8_12;JAS-39 Gripen;;;;;;;;;;X
+MODEL_U02_8_13;JAS-39 Gripen;;;;;;;;;;X
+MODEL_U02_8_14;JAS-39 Gripen;;;;;;;;;;X
+## 第四世代;;;;;;;;;;X 
+MODEL_JAP_8_15;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_JAP_8_16;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_JAP_8_17;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_JAP_8_18;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_JAP_8_19;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_USA_8_15;A-24A_Missileer;;;;;;;;;;X
+MODEL_USA_8_16;A-24A_Missileer;;;;;;;;;;X
+MODEL_USA_8_17;A-24A_Missileer;;;;;;;;;;X
+MODEL_USA_8_18;A-24A_Missileer;;;;;;;;;;X
+MODEL_USA_8_19;A-24A_Missileer;;;;;;;;;;X
+## 第五世代;;;;;;;;;;X
+MODEL_JAP_8_20;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_JAP_8_21;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_JAP_8_22;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_JAP_8_23;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_JAP_8_24;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_USA_8_20;A-28_Delta_Dart;;;;;;;;;;X
+MODEL_USA_8_21;A-28_Delta_Dart;;;;;;;;;;X
+MODEL_USA_8_22;A-28_Delta_Dart;;;;;;;;;;X
+MODEL_USA_8_23;A-28_Delta_Dart;;;;;;;;;;X
+MODEL_USA_8_24;A-28_Delta_Dart;;;;;;;;;;X
+## 第六世代;;;;;;;;;;X 
+MODEL_JAP_8_25;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_JAP_8_26;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_JAP_8_27;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_JAP_8_28;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_JAP_8_29;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_USA_8_25;A-34_Thunderchief;;;;;;;;;;X
+MODEL_USA_8_26;A-34_Thunderchief;;;;;;;;;;X
+MODEL_USA_8_27;A-34_Thunderchief;;;;;;;;;;X
+MODEL_USA_8_28;A-34_Thunderchief;;;;;;;;;;X
+MODEL_USA_8_29;A-34_Thunderchief;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 自走支援担保;;;;;;;;;;X
+MODEL_JAP_9_0;自走支援担保Ⅰ;;;;;;;;;;X
+MODEL_JAP_9_1;自走支援担保Ⅱ;;;;;;;;;;X
+MODEL_JAP_9_2;自走支援担保Ⅲ;;;;;;;;;;X
+MODEL_JAP_9_3;自走支援担保Ⅳ;;;;;;;;;;X
+MODEL_JAP_9_4;自走支援担保Ⅴ;;;;;;;;;;X
+MODEL_JAP_9_5;自走支援担保Ⅵ;;;;;;;;;;X
+MODEL_JAP_9_6;自走支援担保Ⅶ;;;;;;;;;;X
+MODEL_JAP_9_7;自走支援担保Ⅷ;;;;;;;;;;X
+MODEL_JAP_9_8;自走支援担保Ⅸ;;;;;;;;;;X
+MODEL_JAP_9_9;自走支援担保Ⅹ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 司令部/指揮車両/指揮官機;;;;;;;;;;X
+## 第一世代;;;;;;;;;;X
+MODEL_JAP_10_0;45式指揮通信車;;;;;;;;;;X
+MODEL_JAP_10_1;63式指揮通信車;;;;;;;;;;X
+MODEL_JAP_10_2;73式指揮通信車;;;;;;;;;;X
+MODEL_JAP_10_3;86式指揮通信車;;;;;;;;;;X
+MODEL_JAP_10_4;96式指揮通信車;;;;;;;;;;X
+MODEL_JAP_10_5;05式指揮通信車;;;;;;;;;;X
+MODEL_JAP_10_6;11式指揮通信車;;;;;;;;;;X
+MODEL_JAP_10_7;19式指揮通信車;;;;;;;;;;X
+MODEL_JAP_10_8;26式指揮通信車;;;;;;;;;;X
+MODEL_JAP_10_9;32式指揮通信車;;;;;;;;;;X
+MODEL_USA_10_0;VPC;;;;;;;;;;X
+MODEL_USA_10_1;VPC;;;;;;;;;;X
+MODEL_USA_10_2;VPC;;;;;;;;;;X
+MODEL_USA_10_3;VPC;;;;;;;;;;X
+MODEL_USA_10_4;VPC;;;;;;;;;;X
+MODEL_USA_10_5;VPC;;;;;;;;;;X
+MODEL_USA_10_6;VPC;;;;;;;;;;X
+MODEL_USA_10_7;VPC;;;;;;;;;;X
+MODEL_USA_10_8;VPC;;;;;;;;;;X
+MODEL_USA_10_9;VPC;;;;;;;;;;X
+MODEL_U04_10_0;M1130ストライカーCV ;;;;;;;;;;X
+MODEL_U04_10_1;M1130ストライカーCV ;;;;;;;;;;X
+MODEL_U04_10_2;M1130ストライカーCV ;;;;;;;;;;X
+MODEL_U04_10_3;M1130ストライカーCV ;;;;;;;;;;X
+MODEL_U04_10_4;M1130ストライカーCV ;;;;;;;;;;X
+MODEL_U04_10_5;M1130ストライカーCV ;;;;;;;;;;X
+MODEL_U04_10_6;M1130ストライカーCV ;;;;;;;;;;X
+MODEL_U04_10_7;M1130ストライカーCV ;;;;;;;;;;X
+MODEL_U04_10_8;M1130ストライカーCV ;;;;;;;;;;X
+MODEL_U04_10_9;M1130ストライカーCV ;;;;;;;;;;X
+### 指揮官機;;;;;;;;;;X
+## 第一世代;;;;;;;;;;X
+MODEL_JAP_10_11;TSF-TYPE77/F-4J-F 撃震弐型;;;;;;;;;;X
+MODEL_JAP_10_12;TSF-TYPE77/F-4J-F 撃震弐型;;;;;;;;;;X
+MODEL_JAP_10_13;TSF-TYPE77/F-4J-F 撃震弐型;;;;;;;;;;X
+MODEL_USA_10_11;F-4F;;;;;;;;;;X
+MODEL_USA_10_12;F-4F;;;;;;;;;;X
+MODEL_USA_10_13;F-4F;;;;;;;;;;X
+MODEL_U05_10_11;J-8;;;;;;;;;;X
+MODEL_U05_10_12;J-8;;;;;;;;;;X
+MODEL_U05_10_13;J-8;;;;;;;;;;X
+## 第二世代;;;;;;;;;;X
+MODEL_JAP_10_14;TSF-TYPE89/F-15J-F 陽炎壱型;;;;;;;;;;X
+MODEL_JAP_10_15;TSF-TYPE89/F-15J-F 陽炎壱型;;;;;;;;;;X
+MODEL_JAP_10_16;TSF-TYPE89/F-15J-F 陽炎壱型;;;;;;;;;;X
+MODEL_USA_10_14;F-15S_SilentEagle;;;;;;;;;;X
+MODEL_USA_10_15;F-15S_SilentEagle;;;;;;;;;;X
+MODEL_USA_10_16;F-15S_SilentEagle;;;;;;;;;;X
+MODEL_U05_10_14;J-10;;;;;;;;;;X
+MODEL_U05_10_15;J-10;;;;;;;;;;X
+MODEL_U05_10_16;J-10;;;;;;;;;;X
+## 第三世代;;;;;;;;;;X
+MODEL_JAP_10_17;TSF-TYPE94-F 不知火改;;;;;;;;;;X
+MODEL_JAP_10_18;TSF-TYPE94-F 不知火改;;;;;;;;;;X
+MODEL_JAP_10_19;TSF-TYPE94-F 不知火改;;;;;;;;;;X
+MODEL_USA_10_17;F-35S;;;;;;;;;;X
+MODEL_USA_10_18;F-35S;;;;;;;;;;X
+MODEL_USA_10_19;F-35S;;;;;;;;;;X
+MODEL_U05_10_17;J-20;;;;;;;;;;X
+MODEL_U05_10_18;J-20;;;;;;;;;;X
+MODEL_U05_10_19;J-20;;;;;;;;;;X
+## 第四世代;;;;;;;;;;X 
+MODEL_JAP_10_20;TSF-TYPE04-F 紫燕;;;;;;;;;;X
+MODEL_JAP_10_21;TSF-TYPE04-F 紫燕;;;;;;;;;;X
+MODEL_JAP_10_22;TSF-TYPE04-F 紫燕;;;;;;;;;;X
+MODEL_USA_10_20;F-25N;;;;;;;;;;X
+MODEL_USA_10_21;F-25N;;;;;;;;;;X
+MODEL_USA_10_22;F-25N;;;;;;;;;;X
+MODEL_U05_10_20;J-26;;;;;;;;;;X
+MODEL_U05_10_21;J-26;;;;;;;;;;X
+MODEL_U05_10_22;J-26;;;;;;;;;;X
+## 第五世代;;;;;;;;;;X
+MODEL_JAP_10_23;TSF-TYPE17-F 幻凰;;;;;;;;;;X
+MODEL_JAP_10_24;TSF-TYPE17-F 幻凰;;;;;;;;;;X
+MODEL_JAP_10_25;TSF-TYPE17-F 幻凰;;;;;;;;;;X
+MODEL_USA_10_23;F-27N;;;;;;;;;;X
+MODEL_USA_10_24;F-27N;;;;;;;;;;X
+MODEL_USA_10_25;F-27N;;;;;;;;;;X
+MODEL_U05_10_23;J-30;;;;;;;;;;X
+MODEL_U05_10_24;J-30;;;;;;;;;;X
+MODEL_U05_10_25;J-30;;;;;;;;;;X
+## 第六世代;;;;;;;;;;X 
+MODEL_JAP_10_26;TSF-TYPE28-F 閃雷;;;;;;;;;;X
+MODEL_JAP_10_27;TSF-TYPE28-F 閃雷;;;;;;;;;;X
+MODEL_JAP_10_28;TSF-TYPE28-F 閃雷;;;;;;;;;;X
+MODEL_USA_10_26;F-45;;;;;;;;;;X
+MODEL_USA_10_27;F-45;;;;;;;;;;X
+MODEL_USA_10_28;F-45;;;;;;;;;;X
+MODEL_U05_10_26;J-34;;;;;;;;;;X
+MODEL_U05_10_27;J-34;;;;;;;;;;X
+MODEL_U05_10_28;J-34;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 練習機/高等練習機
+## 練習機
+MODEL_JAP_11_0;TSF-TYPE72 T-1;;;;;;;;;;X
+MODEL_JAP_11_1;TSF-TYPE84 T-2;;;;;;;;;;X
+MODEL_JAP_11_2;TSF-TYPE94 T-3;;;;;;;;;;X
+MODEL_JAP_11_3;TSF-TYPE04 T-4;;;;;;;;;;X
+MODEL_JAP_11_4;TSF-TYPE17 T-5;;;;;;;;;;X
+MODEL_JAP_11_5;TSF-TYPE28 T-6;;;;;;;;;;X
+MODEL_USA_11_0;T-1;;;;;;;;;;X
+MODEL_USA_11_1;T-2;;;;;;;;;;X
+MODEL_USA_11_2;T-3;;;;;;;;;;X
+MODEL_USA_11_3;T-4;;;;;;;;;;X
+MODEL_USA_11_4;T-5;;;;;;;;;;X
+MODEL_USA_11_5;T-6;;;;;;;;;;X
+MODEL_SOV_11_0;YaK-7;;;;;;;;;;X
+MODEL_SOV_11_1;YaK-11;;;;;;;;;;X
+MODEL_SOV_11_2;YaK-18;;;;;;;;;;X
+MODEL_SOV_11_3;Yak-130;;;;;;;;;;X
+MODEL_SOV_11_4;YaK-152;;;;;;;;;;X
+MODEL_SOV_11_5;MiG-AT;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+## 高等練習機;;;;;;;;;;X
+# 第三世代;;;;;;;;;;X
+MODEL_JAP_11_7;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_JAP_11_8;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_JAP_11_9;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_JAP_11_10;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_JAP_11_11;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_USA_11_7;ATG Javelin;;;;;;;;;;X
+MODEL_USA_11_8;ATG Javelin;;;;;;;;;;X
+MODEL_USA_11_9;ATG Javelin;;;;;;;;;;X
+MODEL_USA_11_10;ATG Javelin;;;;;;;;;;X
+MODEL_USA_11_11;ATG Javelin;;;;;;;;;;X
+MODEL_SOV_11_7;YaK-52;;;;;;;;;;X
+MODEL_SOV_11_8;YaK-52;;;;;;;;;;X
+MODEL_SOV_11_9;YaK-52;;;;;;;;;;X
+MODEL_SOV_11_10;YaK-52;;;;;;;;;;X
+MODEL_SOV_11_11;YaK-52;;;;;;;;;;X
+MODEL_U01_11_7;ATG Javelin;;;;;;;;;;X
+MODEL_U01_11_8;ATG Javelin;;;;;;;;;;X
+MODEL_U01_11_9;ATG Javelin;;;;;;;;;;X
+MODEL_U01_11_10;ATG Javelin;;;;;;;;;;X
+MODEL_U01_11_11;ATG Javelin;;;;;;;;;;X
+MODEL_U02_11_7;ATG Javelin;;;;;;;;;;X
+MODEL_U02_11_8;ATG Javelin;;;;;;;;;;X
+MODEL_U02_11_9;ATG Javelin;;;;;;;;;;X
+MODEL_U02_11_10;ATG Javelin;;;;;;;;;;X
+MODEL_U02_11_11;ATG Javelin;;;;;;;;;;X
+# 第四世代;;;;;;;;;;X
+MODEL_JAP_11_12;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_JAP_11_13;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_JAP_11_14;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_JAP_11_15;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_JAP_11_16;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_USA_11_12;UV-18;;;;;;;;;;X
+MODEL_USA_11_13;UV-18;;;;;;;;;;X
+MODEL_USA_11_14;UV-18;;;;;;;;;;X
+MODEL_USA_11_15;UV-18;;;;;;;;;;X
+MODEL_USA_11_16;UV-18;;;;;;;;;;X
+MODEL_SOV_11_12;YaK-55;;;;;;;;;;X
+MODEL_SOV_11_13;YaK-55;;;;;;;;;;X
+MODEL_SOV_11_14;YaK-55;;;;;;;;;;X
+MODEL_SOV_11_15;YaK-55;;;;;;;;;;X
+MODEL_SOV_11_16;YaK-55;;;;;;;;;;X
+MODEL_U01_11_12;UV-18;;;;;;;;;;X
+MODEL_U01_11_13;UV-18;;;;;;;;;;X
+MODEL_U01_11_14;UV-18;;;;;;;;;;X
+MODEL_U01_11_15;UV-18;;;;;;;;;;X
+MODEL_U01_11_16;UV-18;;;;;;;;;;X
+MODEL_U02_11_12;UV-18;;;;;;;;;;X
+MODEL_U02_11_13;UV-18;;;;;;;;;;X
+MODEL_U02_11_14;UV-18;;;;;;;;;;X
+MODEL_U02_11_15;UV-18;;;;;;;;;;X
+MODEL_U02_11_16;UV-18;;;;;;;;;;X
+# 第五世代;;;;;;;;;;X
+MODEL_JAP_11_17;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_JAP_11_18;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_JAP_11_19;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_JAP_11_20;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_JAP_11_21;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_USA_11_17;Goshawk;;;;;;;;;;X
+MODEL_USA_11_18;Goshawk;;;;;;;;;;X
+MODEL_USA_11_19;Goshawk;;;;;;;;;;X
+MODEL_USA_11_20;Goshawk;;;;;;;;;;X
+MODEL_USA_11_21;Goshawk;;;;;;;;;;X
+MODEL_SOV_11_17;MiG-15UTI;;;;;;;;;;X
+MODEL_SOV_11_18;MiG-15UTI;;;;;;;;;;X
+MODEL_SOV_11_19;MiG-15UTI;;;;;;;;;;X
+MODEL_SOV_11_20;MiG-15UTI;;;;;;;;;;X
+MODEL_SOV_11_21;MiG-15UTI;;;;;;;;;;X
+MODEL_U01_11_17;Goshawk;;;;;;;;;;X
+MODEL_U01_11_18;Goshawk;;;;;;;;;;X
+MODEL_U01_11_19;Goshawk;;;;;;;;;;X
+MODEL_U01_11_20;Goshawk;;;;;;;;;;X
+MODEL_U01_11_21;Goshawk;;;;;;;;;;X
+MODEL_U02_11_17;Goshawk;;;;;;;;;;X
+MODEL_U02_11_18;Goshawk;;;;;;;;;;X
+MODEL_U02_11_19;Goshawk;;;;;;;;;;X
+MODEL_U02_11_20;Goshawk;;;;;;;;;;X
+MODEL_U02_11_21;Goshawk;;;;;;;;;;X
+# 第六世代;;;;;;;;;;X
+MODEL_JAP_11_22;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_JAP_11_23;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_JAP_11_24;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_JAP_11_25;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_JAP_11_26;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_USA_11_22;Mescalero;;;;;;;;;;X
+MODEL_USA_11_23;Mescalero;;;;;;;;;;X
+MODEL_USA_11_24;Mescalero;;;;;;;;;;X
+MODEL_USA_11_25;Mescalero;;;;;;;;;;X
+MODEL_USA_11_26;Mescalero;;;;;;;;;;X
+MODEL_SOV_11_22;Po-2_ポリカールポフ;;;;;;;;;;X
+MODEL_SOV_11_23;Po-2_ポリカールポフ;;;;;;;;;;X
+MODEL_SOV_11_24;Po-2_ポリカールポフ;;;;;;;;;;X
+MODEL_SOV_11_25;Po-2_ポリカールポフ;;;;;;;;;;X
+MODEL_SOV_11_26;Po-2_ポリカールポフ;;;;;;;;;;X
+MODEL_U01_11_22;Mescalero;;;;;;;;;;X
+MODEL_U01_11_23;Mescalero;;;;;;;;;;X
+MODEL_U01_11_24;Mescalero;;;;;;;;;;X
+MODEL_U01_11_25;Mescalero;;;;;;;;;;X
+MODEL_U01_11_26;Mescalero;;;;;;;;;;X
+MODEL_U02_11_22;Mescalero;;;;;;;;;;X
+MODEL_U02_11_23;Mescalero;;;;;;;;;;X
+MODEL_U02_11_24;Mescalero;;;;;;;;;;X
+MODEL_U02_11_25;Mescalero;;;;;;;;;;X
+MODEL_U02_11_26;Mescalero;;;;;;;;;;X
+# ユニークユニット
+MODEL_JAP_11_28;TSF-TYPE05 超撃震;;;;;;;;;;X
+MODEL_JAP_11_29;TSF-TYPE05 超撃震;;;;;;;;;;X
+MODEL_JAP_11_30;TSF-TYPE05 超撃震;;;;;;;;;;X
+MODEL_JAP_11_32;TSF-TYPE10 不知火参式;;;;;;;;;;X
+MODEL_JAP_11_33;TSF-TYPE10 不知火参式;;;;;;;;;;X
+MODEL_JAP_11_34;TSF-TYPE10 不知火参式;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##### ―航空兵器― #####
+### 多用途戦闘機;;;;;;;;;;X
+MODEL_JAP_12_0;J-7W 震電;;;;;;;;;;X
+MODEL_JAP_12_1;多用途戦闘機Ⅱ;;;;;;;;;;X
+MODEL_JAP_12_2;多用途戦闘機Ⅲ;;;;;;;;;;X
+MODEL_JAP_12_3;多用途戦闘機Ⅳ;;;;;;;;;;X
+MODEL_JAP_12_4;多用途戦闘機Ⅴ;;;;;;;;;;X
+MODEL_JAP_12_5;多用途戦闘機Ⅵ;;;;;;;;;;X
+MODEL_JAP_12_6;多用途戦闘機Ⅶ;;;;;;;;;;X
+MODEL_JAP_12_7;多用途戦闘機Ⅷ;;;;;;;;;;X
+MODEL_JAP_12_8;多用途戦闘機Ⅸ;;;;;;;;;;X
+MODEL_JAP_12_9;多用途戦闘機Ⅹ;;;;;;;;;;X
+MODEL_USA_12_0;F-22 ラプター;;;;;;;;;;X
+MODEL_USA_12_1;F-22 ラプター;;;;;;;;;;X
+MODEL_USA_12_2;F-22 ラプター;;;;;;;;;;X
+MODEL_USA_12_3;F-22 ラプター;;;;;;;;;;X
+MODEL_USA_12_4;F-22 ラプター;;;;;;;;;;X
+MODEL_USA_12_5;F-22 ラプター;;;;;;;;;;X
+MODEL_USA_12_6;F-22 ラプター;;;;;;;;;;X
+MODEL_USA_12_7;F-22 ラプター;;;;;;;;;;X
+MODEL_USA_12_8;F-22 ラプター;;;;;;;;;;X
+MODEL_USA_12_9;F-22 ラプター;;;;;;;;;;X
+MODEL_SOV_12_0;MiG-29 ;;;;;;;;;;X
+MODEL_SOV_12_1;MiG-29 ;;;;;;;;;;X
+MODEL_SOV_12_2;MiG-29 ;;;;;;;;;;X
+MODEL_SOV_12_3;MiG-29 ;;;;;;;;;;X
+MODEL_SOV_12_4;MiG-29 ;;;;;;;;;;X
+MODEL_SOV_12_5;MiG-29 ;;;;;;;;;;X
+MODEL_SOV_12_6;MiG-29 ;;;;;;;;;;X
+MODEL_SOV_12_7;MiG-29 ;;;;;;;;;;X
+MODEL_SOV_12_8;MiG-29 ;;;;;;;;;;X
+MODEL_SOV_12_9;MiG-29 ;;;;;;;;;;X
+MODEL_U02_12_0;EF-2000 タイフーン;;;;;;;;;;X
+MODEL_U02_12_1;EF-2000 タイフーン;;;;;;;;;;X
+MODEL_U02_12_2;EF-2000 タイフーン;;;;;;;;;;X
+MODEL_U02_12_3;EF-2000 タイフーン;;;;;;;;;;X
+MODEL_U02_12_4;EF-2000 タイフーン;;;;;;;;;;X
+MODEL_U02_12_5;EF-2000 タイフーン;;;;;;;;;;X
+MODEL_U02_12_6;EF-2000 タイフーン;;;;;;;;;;X
+MODEL_U02_12_7;EF-2000 タイフーン;;;;;;;;;;X
+MODEL_U02_12_8;EF-2000 タイフーン;;;;;;;;;;X
+MODEL_U02_12_9;EF-2000 タイフーン;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 要撃戦闘機/無人戦闘機;;;;;;;;;;X
+## 有人機;;;;;;;;;;X
+MODEL_JAP_13_0;F-4;;;;;;;;;;X
+MODEL_JAP_13_1;要撃戦闘機Ⅱ;;;;;;;;;;X
+MODEL_JAP_13_2;要撃戦闘機Ⅲ;;;;;;;;;;X
+MODEL_JAP_13_3;要撃戦闘機Ⅳ;;;;;;;;;;X
+MODEL_JAP_13_4;要撃戦闘機Ⅴ;;;;;;;;;;X
+MODEL_JAP_13_5;要撃戦闘機Ⅵ;;;;;;;;;;X
+MODEL_JAP_13_6;要撃戦闘機Ⅶ;;;;;;;;;;X
+MODEL_JAP_13_7;要撃戦闘機Ⅷ;;;;;;;;;;X
+MODEL_JAP_13_8;要撃戦闘機Ⅸ;;;;;;;;;;X
+MODEL_JAP_13_9;要撃戦闘機Ⅹ;;;;;;;;;;X
+MODEL_USA_13_0;F-15_Active Eagle;;;;;;;;;;X
+MODEL_USA_13_1;F-15_Active Eagle;;;;;;;;;;X
+MODEL_USA_13_2;F-15_Active Eagle;;;;;;;;;;X
+MODEL_USA_13_3;F-15_Active Eagle;;;;;;;;;;X
+MODEL_USA_13_4;F-15_Active Eagle;;;;;;;;;;X
+MODEL_USA_13_5;F-15_Active Eagle;;;;;;;;;;X
+MODEL_USA_13_6;F-15_Active Eagle;;;;;;;;;;X
+MODEL_USA_13_7;F-15_Active Eagle;;;;;;;;;;X
+MODEL_USA_13_8;F-15_Active Eagle;;;;;;;;;;X
+MODEL_USA_13_9;F-15_Active Eagle;;;;;;;;;;X
+MODEL_SOV_13_0;Su-27;;;;;;;;;;X
+MODEL_SOV_13_1;Su-27;;;;;;;;;;X
+MODEL_SOV_13_2;Su-27;;;;;;;;;;X
+MODEL_SOV_13_3;Su-27;;;;;;;;;;X
+MODEL_SOV_13_4;Su-27;;;;;;;;;;X
+MODEL_SOV_13_5;Su-27;;;;;;;;;;X
+MODEL_SOV_13_6;Su-27;;;;;;;;;;X
+MODEL_SOV_13_7;Su-27;;;;;;;;;;X
+MODEL_SOV_13_8;Su-27;;;;;;;;;;X
+MODEL_SOV_13_9;Su-27;;;;;;;;;;X
+MODEL_U02_13_0;JAS39 グリペン;;;;;;;;;;X
+MODEL_U02_13_1;JAS39 グリペン;;;;;;;;;;X
+MODEL_U02_13_2;JAS39 グリペン;;;;;;;;;;X
+MODEL_U02_13_3;JAS39 グリペン;;;;;;;;;;X
+MODEL_U02_13_4;JAS39 グリペン;;;;;;;;;;X
+MODEL_U02_13_5;JAS39 グリペン;;;;;;;;;;X
+MODEL_U02_13_6;JAS39 グリペン;;;;;;;;;;X
+MODEL_U02_13_7;JAS39 グリペン;;;;;;;;;;X
+MODEL_U02_13_8;JAS39 グリペン;;;;;;;;;;X
+MODEL_U02_13_9;JAS39 グリペン;;;;;;;;;;X
+## 無人機;;;;;;;;;;X
+MODEL_JAP_13_32;無人戦闘機Ⅰ;;;;;;;;;;X
+MODEL_JAP_13_33;無人戦闘機Ⅱ;;;;;;;;;;X
+MODEL_JAP_13_34;無人戦闘機Ⅲ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 戦略爆撃機;;;;;;;;;;X/戦術用戦略爆撃機
+## 戦略爆撃機;;;;;;;;;;X
+MODEL_JAP_14_0;G-10N 富嶽;;;;;;;;;;X
+MODEL_JAP_14_1;戦略爆撃機Ⅱ;;;;;;;;;;X
+MODEL_JAP_14_2;戦略爆撃機Ⅲ;;;;;;;;;;X
+MODEL_JAP_14_3;戦略爆撃機Ⅳ;;;;;;;;;;X
+MODEL_JAP_14_4;戦略爆撃機Ⅴ;;;;;;;;;;X
+MODEL_JAP_14_5;戦略爆撃機Ⅵ;;;;;;;;;;X
+MODEL_JAP_14_6;戦略爆撃機Ⅶ;;;;;;;;;;X
+MODEL_JAP_14_7;戦略爆撃機Ⅷ;;;;;;;;;;X
+MODEL_JAP_14_8;戦略爆撃機Ⅸ;;;;;;;;;;X
+MODEL_JAP_14_9;戦略爆撃機Ⅹ;;;;;;;;;;X
+MODEL_USA_14_0;B－2スピリット;;;;;;;;;;X
+MODEL_USA_14_1;B－2スピリット;;;;;;;;;;X
+MODEL_USA_14_2;B－2スピリット;;;;;;;;;;X
+MODEL_USA_14_3;B－2スピリット;;;;;;;;;;X
+MODEL_USA_14_4;B－2スピリット;;;;;;;;;;X
+MODEL_USA_14_5;B－2スピリット;;;;;;;;;;X
+MODEL_USA_14_6;B－2スピリット;;;;;;;;;;X
+MODEL_USA_14_7;B－2スピリット;;;;;;;;;;X
+MODEL_USA_14_8;B－2スピリット;;;;;;;;;;X
+MODEL_USA_14_9;B－2スピリット;;;;;;;;;;X
+MODEL_SOV_14_0;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_1;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_2;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_3;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_4;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_5;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_6;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_7;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_8;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_9;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_U02_14_0;アブロ-698 バルカン;;;;;;;;;;X
+MODEL_U02_14_1;アブロ-698 バルカン;;;;;;;;;;X
+MODEL_U02_14_2;アブロ-698 バルカン;;;;;;;;;;X
+MODEL_U02_14_3;アブロ-698 バルカン;;;;;;;;;;X
+MODEL_U02_14_4;アブロ-698 バルカン;;;;;;;;;;X
+MODEL_U02_14_5;アブロ-698 バルカン;;;;;;;;;;X
+MODEL_U02_14_6;アブロ-698 バルカン;;;;;;;;;;X
+MODEL_U02_14_7;アブロ-698 バルカン;;;;;;;;;;X
+MODEL_U02_14_8;アブロ-698 バルカン;;;;;;;;;;X
+MODEL_U02_14_9;アブロ-698 バルカン;;;;;;;;;;X
+## 戦術用戦略爆撃機;;;;;;;;;;X
+MODEL_JAP_14_11;戦術型戦略爆撃機Ⅰ;;;;;;;;;;X
+MODEL_JAP_14_12;戦術型戦略爆撃機Ⅱ;;;;;;;;;;X
+MODEL_JAP_14_13;戦術型戦略爆撃機Ⅲ;;;;;;;;;;X
+MODEL_JAP_14_14;戦術型戦略爆撃機Ⅳ;;;;;;;;;;X
+MODEL_JAP_14_15;戦術型戦略爆撃機Ⅴ;;;;;;;;;;X
+MODEL_JAP_14_16;戦術型戦略爆撃機Ⅵ;;;;;;;;;;X
+MODEL_JAP_14_17;戦術型戦略爆撃機Ⅶ;;;;;;;;;;X
+MODEL_JAP_14_18;戦術型戦略爆撃機Ⅷ;;;;;;;;;;X
+MODEL_USA_14_11;B-52 ストラスフォートレス;;;;;;;;;;X
+MODEL_USA_14_12;B-52 ストラスフォートレス;;;;;;;;;;X
+MODEL_USA_14_13;B-52 ストラスフォートレス;;;;;;;;;;X
+MODEL_USA_14_14;B-52 ストラスフォートレス;;;;;;;;;;X
+MODEL_USA_14_15;B-52 ストラスフォートレス;;;;;;;;;;X
+MODEL_USA_14_16;B-52 ストラスフォートレス;;;;;;;;;;X
+MODEL_USA_14_17;B-52 ストラスフォートレス;;;;;;;;;;X
+MODEL_USA_14_18;B-52 ストラスフォートレス;;;;;;;;;;X
+MODEL_SOV_14_11;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_12;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_13;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_14;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_15;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_16;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_17;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+MODEL_SOV_14_18;ツポレフ Tu-95/142ベア;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 戦術爆撃機/戦闘爆撃機;;;;;;;;;;X
+## 戦術爆撃機;;;;;;;;;;X
+MODEL_JAP_15_0;P1Y2-S 極光;;;;;;;;;;X
+MODEL_JAP_15_1;戦術爆撃機Ⅱ;;;;;;;;;;X
+MODEL_JAP_15_2;戦術爆撃機Ⅲ;;;;;;;;;;X
+MODEL_JAP_15_3;戦術爆撃機Ⅳ;;;;;;;;;;X
+MODEL_JAP_15_4;戦術爆撃機Ⅴ;;;;;;;;;;X
+MODEL_JAP_15_5;戦術爆撃機Ⅵ;;;;;;;;;;X
+MODEL_JAP_15_6;戦術爆撃機Ⅶ;;;;;;;;;;X
+MODEL_JAP_15_7;戦術爆撃機Ⅷ;;;;;;;;;;X
+MODEL_JAP_15_8;戦術爆撃機Ⅸ;;;;;;;;;;X
+MODEL_JAP_15_9;戦術爆撃機Ⅹ;;;;;;;;;;X
+MODEL_USA_15_0;F-111 アークバード;;;;;;;;;;X
+MODEL_USA_15_1;F-111 アークバード;;;;;;;;;;X
+MODEL_USA_15_2;F-111 アークバード;;;;;;;;;;X
+MODEL_USA_15_3;F-111 アークバード;;;;;;;;;;X
+MODEL_USA_15_4;F-111 アークバード;;;;;;;;;;X
+MODEL_USA_15_5;F-111 アークバード;;;;;;;;;;X
+MODEL_USA_15_6;F-111 アークバード;;;;;;;;;;X
+MODEL_USA_15_7;F-111 アークバード;;;;;;;;;;X
+MODEL_USA_15_8;F-111 アークバード;;;;;;;;;;X
+MODEL_USA_15_9;F-111 アークバード;;;;;;;;;;X
+MODEL_SOV_15_0;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_15_1;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_15_2;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_15_3;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_15_4;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_15_5;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_15_6;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_15_7;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_15_8;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_15_9;MiG-27 フロッガー;;;;;;;;;;X
+## 戦闘爆撃機;;;;;;;;;;X
+MODEL_JAP_15_11;戦闘爆撃機Ⅰ;;;;;;;;;;X
+MODEL_JAP_15_12;戦闘爆撃機Ⅱ;;;;;;;;;;X
+MODEL_JAP_15_13;戦闘爆撃機Ⅲ;;;;;;;;;;X
+MODEL_JAP_15_14;戦闘爆撃機Ⅳ;;;;;;;;;;X
+MODEL_JAP_15_15;戦闘爆撃機Ⅴ;;;;;;;;;;X
+MODEL_JAP_15_16;戦闘爆撃機Ⅵ;;;;;;;;;;X
+MODEL_JAP_15_17;戦闘爆撃機Ⅶ;;;;;;;;;;X
+MODEL_JAP_15_18;戦闘爆撃機Ⅷ;;;;;;;;;;X
+MODEL_USA_15_11;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_15_12;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_15_13;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_15_14;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_15_15;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_15_16;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_15_17;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_15_18;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_SOV_15_11;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_15_12;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_15_13;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_15_14;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_15_15;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_15_16;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_15_17;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_15_18;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_U02_15_11;SEPECAT ジャギュア;;;;;;;;;;X
+MODEL_U02_15_12;SEPECAT ジャギュア;;;;;;;;;;X
+MODEL_U02_15_13;SEPECAT ジャギュア;;;;;;;;;;X
+MODEL_U02_15_14;SEPECAT ジャギュア;;;;;;;;;;X
+MODEL_U02_15_15;SEPECAT ジャギュア;;;;;;;;;;X
+MODEL_U02_15_16;SEPECAT ジャギュア;;;;;;;;;;X
+MODEL_U02_15_17;SEPECAT ジャギュア;;;;;;;;;;X
+MODEL_U02_15_18;SEPECAT ジャギュア;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+## 攻撃機;;;;;;;;;;X
+MODEL_JAP_16_0;B-7A 流星;;;;;;;;;;X
+MODEL_JAP_16_1;攻撃機Ⅱ;;;;;;;;;;X
+MODEL_JAP_16_2;攻撃機Ⅲ;;;;;;;;;;X
+MODEL_JAP_16_3;攻撃機Ⅳ;;;;;;;;;;X
+MODEL_JAP_16_4;攻撃機Ⅴ;;;;;;;;;;X
+MODEL_JAP_16_5;攻撃機Ⅵ;;;;;;;;;;X
+MODEL_JAP_16_6;攻撃機Ⅶ;;;;;;;;;;X
+MODEL_JAP_16_7;攻撃機Ⅷ;;;;;;;;;;X
+MODEL_JAP_16_8;攻撃機Ⅸ;;;;;;;;;;X
+MODEL_JAP_16_9;攻撃機Ⅹ;;;;;;;;;;X
+MODEL_USA_16_0;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_USA_16_1;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_USA_16_2;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_USA_16_3;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_USA_16_4;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_USA_16_5;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_USA_16_6;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_USA_16_7;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_USA_16_8;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_USA_16_9;A-10 サンダーボルトⅡ;;;;;;;;;;X
+MODEL_SOV_16_0;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_16_1;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_16_2;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_16_3;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_16_4;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_16_5;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_16_6;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_16_7;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_16_8;MiG-27 フロッガー;;;;;;;;;;X
+MODEL_SOV_16_9;MiG-27 フロッガー;;;;;;;;;;X
+## 戦闘攻撃機;;;;;;;;;;X
+MODEL_JAP_16_11;戦闘攻撃機Ⅰ;;;;;;;;;;X
+MODEL_JAP_16_12;戦闘攻撃機Ⅱ;;;;;;;;;;X
+MODEL_JAP_16_13;戦闘攻撃機Ⅲ;;;;;;;;;;X
+MODEL_JAP_16_14;戦闘攻撃機Ⅳ;;;;;;;;;;X
+MODEL_JAP_16_15;戦闘攻撃機Ⅴ;;;;;;;;;;X
+MODEL_JAP_16_16;戦闘攻撃機Ⅵ;;;;;;;;;;X
+MODEL_JAP_16_17;戦闘攻撃機Ⅶ;;;;;;;;;;X
+MODEL_JAP_16_18;戦闘攻撃機Ⅷ;;;;;;;;;;X
+MODEL_USA_16_11;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_16_12;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_16_13;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_16_14;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_16_15;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_16_16;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_16_17;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_USA_16_18;F-16 ファイティングファルコン;;;;;;;;;;X
+MODEL_SOV_16_11;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_16_12;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_16_13;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_16_14;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_16_15;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_16_16;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_16_17;Su-25 フロッグフット;;;;;;;;;;X
+MODEL_SOV_16_18;Su-25 フロッグフット;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 戦闘ヘリ;;;;;;;;;;X/無人爆撃機;;;;;;;;;;X
+## 戦闘ヘリ;;;;;;;;;;X
+MODEL_JAP_17_0;川崎 OH-1「ニンジャ」;;;;;;;;;;X
+MODEL_JAP_17_1;戦闘ヘリⅡ;;;;;;;;;;X
+MODEL_JAP_17_2;戦闘ヘリⅢ;;;;;;;;;;X
+MODEL_JAP_17_3;戦闘ヘリⅣ;;;;;;;;;;X
+MODEL_JAP_17_4;戦闘ヘリⅤ;;;;;;;;;;X
+MODEL_JAP_17_5;戦闘ヘリⅥ;;;;;;;;;;X
+MODEL_JAP_17_6;戦闘ヘリⅦ;;;;;;;;;;X
+MODEL_JAP_17_7;戦闘ヘリⅧ;;;;;;;;;;X
+MODEL_JAP_17_8;戦闘ヘリⅨ;;;;;;;;;;X
+MODEL_JAP_17_9;戦闘ヘリⅩ;;;;;;;;;;X
+MODEL_USA_17_0;AH-64 アパッチ;;;;;;;;;;X
+MODEL_USA_17_1;AH-64 アパッチ;;;;;;;;;;X
+MODEL_USA_17_2;AH-64 アパッチ;;;;;;;;;;X
+MODEL_USA_17_3;AH-64 アパッチ;;;;;;;;;;X
+MODEL_USA_17_4;AH-64 アパッチ;;;;;;;;;;X
+MODEL_USA_17_5;AH-64D アパッチ・ロングボウ;;;;;;;;;;X
+MODEL_USA_17_6;AH-64D アパッチ・ロングボウ;;;;;;;;;;X
+MODEL_USA_17_7;AH-64D アパッチ・ロングボウ;;;;;;;;;;X
+MODEL_USA_17_8;AH-64D アパッチ・ロングボウ;;;;;;;;;;X
+MODEL_USA_17_9;AH-64D アパッチ・ロングボウ;;;;;;;;;;X
+MODEL_SOV_17_0;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_SOV_17_1;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_SOV_17_2;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_SOV_17_3;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_SOV_17_4;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_SOV_17_5;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_SOV_17_6;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_SOV_17_7;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_SOV_17_8;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_SOV_17_9;Ka-50チョールナヤ・アクーラ;;;;;;;;;;X
+MODEL_U02_17_0;PAH-2/EC665 ティーガー;;;;;;;;;;X
+MODEL_U02_17_1;PAH-2/EC665 ティーガー;;;;;;;;;;X
+MODEL_U02_17_2;PAH-2/EC665 ティーガー;;;;;;;;;;X
+MODEL_U02_17_3;PAH-2/EC665 ティーガー;;;;;;;;;;X
+MODEL_U02_17_4;PAH-2/EC665 ティーガー;;;;;;;;;;X
+MODEL_U02_17_5;PAH-2/EC665 ティーガー;;;;;;;;;;X
+MODEL_U02_17_6;PAH-2/EC665 ティーガー;;;;;;;;;;X
+MODEL_U02_17_7;PAH-2/EC665 ティーガー;;;;;;;;;;X
+MODEL_U02_17_8;PAH-2/EC665 ティーガー;;;;;;;;;;X
+MODEL_U02_17_9;PAH-2/EC665 ティーガー;;;;;;;;;;X
+## 無人機;;;;;;;;;;X
+MODEL_JAP_17_32;無人爆撃機Ⅰ;;;;;;;;;;X
+MODEL_JAP_17_33;無人爆撃機Ⅱ;;;;;;;;;;X
+MODEL_JAP_17_34;無人爆撃機Ⅲ;;;;;;;;;;X
+MODEL_USA_17_32;RQ-1 プレデター;;;;;;;;;;X
+MODEL_USA_17_33;RQ-1 プレデター;;;;;;;;;;X
+MODEL_USA_17_34;RQ-1 プレデター;;;;;;;;;;X
+MODEL_U02_17_32;RQ-1 プレデター;;;;;;;;;;X
+MODEL_U02_17_33;RQ-1 プレデター;;;;;;;;;;X
+MODEL_U02_17_34;RQ-1 プレデター;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 輸送機/再突入型駆逐艦;;;;;;;;;;X
+## 輸送機;;;;;;;;;;X
+MODEL_JAP_18_0;輸送機Ⅰ;;;;;;;;;;X
+MODEL_JAP_18_1;輸送機Ⅱ;;;;;;;;;;X
+MODEL_JAP_18_2;輸送機Ⅲ;;;;;;;;;;X
+MODEL_JAP_18_3;川崎 C-1;;;;;;;;;;X
+MODEL_JAP_18_4;輸送機Ⅴ;;;;;;;;;;X
+MODEL_JAP_18_5;輸送機Ⅵ;;;;;;;;;;X
+MODEL_JAP_18_6;輸送機Ⅶ;;;;;;;;;;X
+MODEL_JAP_18_7;輸送機Ⅷ;;;;;;;;;;X
+MODEL_JAP_18_8;輸送機Ⅸ;;;;;;;;;;X
+MODEL_JAP_18_9;輸送機Ⅹ;;;;;;;;;;X
+MODEL_USA_18_0;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_USA_18_1;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_USA_18_2;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_USA_18_3;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_USA_18_4;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_USA_18_5;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_USA_18_6;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_USA_18_7;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_USA_18_8;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_USA_18_9;C-130 ハーキュリーズ;;;;;;;;;;X
+MODEL_SOV_18_0;An－225 ムリヤ;;;;;;;;;;X
+MODEL_SOV_18_1;An－225 ムリヤ;;;;;;;;;;X
+MODEL_SOV_18_2;An－225 ムリヤ;;;;;;;;;;X
+MODEL_SOV_18_3;An－225 ムリヤ;;;;;;;;;;X
+MODEL_SOV_18_4;An－225 ムリヤ;;;;;;;;;;X
+MODEL_SOV_18_5;An－225 ムリヤ;;;;;;;;;;X
+MODEL_SOV_18_6;An－225 ムリヤ;;;;;;;;;;X
+MODEL_SOV_18_7;An－225 ムリヤ;;;;;;;;;;X
+MODEL_SOV_18_8;An－225 ムリヤ;;;;;;;;;;X
+MODEL_SOV_18_9;An－225 ムリヤ;;;;;;;;;;X
+## 再突入型駆逐艦;;;;;;;;;;X
+MODEL_JAP_18_11;再突入型駆逐艦Ⅰ;;;;;;;;;;X
+MODEL_JAP_18_12;再突入型駆逐艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_18_13;再突入型駆逐艦Ⅲ;;;;;;;;;;X
+MODEL_JAP_18_14;再突入型駆逐艦Ⅳ;;;;;;;;;;X
+MODEL_JAP_18_15;再突入型駆逐艦Ⅴ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 戦術ミサイル;;;;;;;;;;X
+## 地対地戦術ミサイル;;;;;;;;;;X
+MODEL_JAP_19_0;飛行爆弾;;;;;;;;;;X
+MODEL_JAP_19_1;対地型戦術ミサイルⅠ;;;;;;;;;;X
+MODEL_JAP_19_2;対地型戦術ミサイルⅡ;;;;;;;;;;X
+MODEL_JAP_19_3;対地型戦術ミサイルⅢ;;;;;;;;;;X
+MODEL_JAP_19_4;対地型戦術ミサイルⅣ;;;;;;;;;;X
+MODEL_JAP_19_5;対地型戦術ミサイルⅤ;;;;;;;;;;X
+MODEL_JAP_19_6;対地型戦術ミサイルⅥ;;;;;;;;;;X
+MODEL_JAP_19_7;対地型戦術ミサイルⅦ;;;;;;;;;;X
+MODEL_JAP_19_8;対地型戦術ミサイルⅧ;;;;;;;;;;X
+## 地対艦戦術ミサイル;;;;;;;;;;X
+MODEL_JAP_19_10;対艦型戦術ミサイルⅠ;;;;;;;;;;X
+MODEL_JAP_19_11;対艦型戦術ミサイルⅡ;;;;;;;;;;X
+MODEL_JAP_19_12;対艦型戦術ミサイルⅢ;;;;;;;;;;X
+MODEL_JAP_19_13;対艦型戦術ミサイルⅣ;;;;;;;;;;X
+MODEL_JAP_19_14;対艦型戦術ミサイルⅤ;;;;;;;;;;X
+MODEL_JAP_19_15;対艦型戦術ミサイルⅥ;;;;;;;;;;X
+MODEL_JAP_19_16;対艦型戦術ミサイルⅦ;;;;;;;;;;X
+MODEL_JAP_19_17;対艦型戦術ミサイルⅧ;;;;;;;;;;X
+## AL弾頭弾;;;;;;;;;;X
+MODEL_JAP_19_19;AL弾頭弾Ⅰ;;;;;;;;;;X
+MODEL_JAP_19_20;AL弾頭弾Ⅱ;;;;;;;;;;X
+MODEL_JAP_19_21;AL弾頭弾Ⅲ;;;;;;;;;;X
+MODEL_JAP_19_22;AL弾頭弾Ⅳ;;;;;;;;;;X
+MODEL_JAP_19_23;AL弾頭弾Ⅴ;;;;;;;;;;X
+## 戦術型核ミサイル;;;;;;;;;;X
+MODEL_JAP_19_25;戦術用核ミサイルⅠ;;;;;;;;;;X
+MODEL_JAP_19_26;戦術用核ミサイルⅡ;;;;;;;;;;X
+MODEL_JAP_19_27;戦術用核ミサイルⅢ;;;;;;;;;;X
+MODEL_JAP_19_28;戦術用核ミサイルⅣ;;;;;;;;;;X
+MODEL_JAP_19_29;戦術用核ミサイルⅤ;;;;;;;;;;X
+MODEL_JAP_19_30;戦術用核ミサイルⅥ;;;;;;;;;;X
+MODEL_JAP_19_31;戦術用核ミサイルⅦ;;;;;;;;;;X
+MODEL_JAP_19_32;戦術用核ミサイルⅧ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 戦略ミサイル;;;;;;;;;;X
+## 戦略ミサイル;;;;;;;;;;X
+MODEL_JAP_20_0;戦略ミサイルⅠ;;;;;;;;;;X
+MODEL_JAP_20_1;戦略ミサイルⅡ;;;;;;;;;;X
+MODEL_JAP_20_2;戦略ミサイルⅢ;;;;;;;;;;X
+MODEL_JAP_20_3;戦略ミサイルⅣ;;;;;;;;;;X
+MODEL_JAP_20_4;戦略ミサイルⅤ;;;;;;;;;;X
+## 軌道爆撃;;;;;;;;;;X
+MODEL_JAP_20_6;軌道爆撃Ⅰ;;;;;;;;;;X
+MODEL_JAP_20_7;軌道爆撃Ⅱ;;;;;;;;;;X
+MODEL_JAP_20_8;軌道爆撃Ⅲ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##### ―海上兵器― #####;;;;;;;;;;X
+### 戦艦;;;;;;;;;;X
+## 戦艦;;;;;;;;;;X
+MODEL_JAP_21_0;大和級;;;;;;;;;;X
+MODEL_JAP_21_1;改大和級;;;;;;;;;;X
+MODEL_JAP_21_2;超大和級;;;;;;;;;;X
+MODEL_JAP_21_3;紀伊級;;;;;;;;;;X
+MODEL_JAP_21_4;大和級;;;;;;;;;;X
+MODEL_JAP_21_5;大和級;;;;;;;;;;X
+MODEL_JAP_21_6;大和級;;;;;;;;;;X
+MODEL_JAP_21_7;大和級;;;;;;;;;;X
+MODEL_JAP_21_8;大和級;;;;;;;;;;X
+MODEL_JAP_21_9;大和級;;;;;;;;;;X
+MODEL_USA_21_0;アイオワ級戦艦;;;;;;;;;;X
+MODEL_USA_21_1;アイオワ級戦艦;;;;;;;;;;X
+MODEL_USA_21_2;アイオワ級戦艦;;;;;;;;;;X
+MODEL_USA_21_3;アイオワ級戦艦;;;;;;;;;;X
+MODEL_USA_21_4;アイオワ級戦艦;;;;;;;;;;X
+MODEL_USA_21_5;アイオワ級戦艦;;;;;;;;;;X
+MODEL_USA_21_6;アイオワ級戦艦;;;;;;;;;;X
+MODEL_USA_21_7;アイオワ級戦艦;;;;;;;;;;X
+MODEL_USA_21_8;アイオワ級戦艦;;;;;;;;;;X
+MODEL_USA_21_9;アイオワ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_0;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_1;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_2;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_3;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_4;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_5;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_6;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_7;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_8;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_9;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_ENG_21_0;KGV級戦艦;;;;;;;;;;X
+MODEL_ENG_21_1;ライオン級戦艦;;;;;;;;;;X
+MODEL_FRA_21_0;リシュリュー級戦艦;;;;;;;;;;X
+MODEL_FRA_21_1;ガスコーニュ級戦艦;;;;;;;;;;X
+MODEL_U02_21_0;KGV級戦艦;;;;;;;;;;X
+MODEL_U02_21_1;KGV級戦艦;;;;;;;;;;X
+MODEL_U02_21_2;KGV級戦艦;;;;;;;;;;X
+MODEL_U02_21_3;KGV級戦艦;;;;;;;;;;X
+MODEL_U02_21_4;KGV級戦艦;;;;;;;;;;X
+MODEL_U02_21_5;KGV級戦艦;;;;;;;;;;X
+MODEL_U02_21_6;KGV級戦艦;;;;;;;;;;X
+MODEL_U02_21_7;KGV級戦艦;;;;;;;;;;X
+MODEL_U02_21_8;KGV級戦艦;;;;;;;;;;X
+MODEL_U02_21_9;KGV級戦艦;;;;;;;;;;X
+## 超大型戦艦;;;;;;;;;;X
+MODEL_JAP_21_10;紀伊級;;;;;;;;;;X
+MODEL_JAP_21_11;紀伊級;;;;;;;;;;X
+MODEL_JAP_21_12;紀伊級;;;;;;;;;;X
+MODEL_JAP_21_13;紀伊級;;;;;;;;;;X
+MODEL_JAP_21_14;紀伊級;;;;;;;;;;X
+MODEL_USA_21_10;モンタナ級戦艦;;;;;;;;;;X
+MODEL_USA_21_11;モンタナ級戦艦;;;;;;;;;;X
+MODEL_USA_21_12;モンタナ級戦艦;;;;;;;;;;X
+MODEL_USA_21_13;モンタナ級戦艦;;;;;;;;;;X
+MODEL_USA_21_14;モンタナ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_10;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_11;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_12;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_13;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_SOV_21_14;ソビエツキー・ソユーズ級戦艦;;;;;;;;;;X
+MODEL_U02_21_10;ヴァンガード級戦艦;;;;;;;;;;X
+MODEL_U02_21_11;ヴァンガード級戦艦;;;;;;;;;;X
+MODEL_U02_21_12;ヴァンガード級戦艦;;;;;;;;;;X
+MODEL_U02_21_13;ヴァンガード級戦艦;;;;;;;;;;X
+MODEL_U02_21_14;ヴァンガード級戦艦;;;;;;;;;;X
+## ミサイル戦艦;;;;;;;;;;X
+MODEL_JAP_21_15;大和級;;;;;;;;;;X
+MODEL_JAP_21_16;大和級;;;;;;;;;;X
+MODEL_JAP_21_17;大和級;;;;;;;;;;X
+MODEL_JAP_21_18;大和級;;;;;;;;;;X
+MODEL_JAP_21_19;大和級;;;;;;;;;;X
+MODEL_USA_21_15;アイオワ級ミサイル戦艦;;;;;;;;;;X
+MODEL_USA_21_16;アイオワ級ミサイル戦艦;;;;;;;;;;X
+MODEL_USA_21_17;アイオワ級ミサイル戦艦;;;;;;;;;;X
+MODEL_USA_21_18;アイオワ級ミサイル戦艦;;;;;;;;;;X
+MODEL_USA_21_19;アイオワ級ミサイル戦艦;;;;;;;;;;X
+MODEL_SOV_21_15;ソビエツキー・ソユーズ級ミサイル戦艦;;;;;;;;;;X
+MODEL_SOV_21_16;ソビエツキー・ソユーズ級ミサイル戦艦;;;;;;;;;;X
+MODEL_SOV_21_17;ソビエツキー・ソユーズ級ミサイル戦艦;;;;;;;;;;X
+MODEL_SOV_21_18;ソビエツキー・ソユーズ級ミサイル戦艦;;;;;;;;;;X
+MODEL_SOV_21_19;ソビエツキー・ソユーズ級ミサイル戦艦;;;;;;;;;;X
+MODEL_U02_21_15;ヴァンガード級ミサイル戦艦;;;;;;;;;;X
+MODEL_U02_21_16;ヴァンガード級ミサイル戦艦;;;;;;;;;;X
+MODEL_U02_21_17;ヴァンガード級ミサイル戦艦;;;;;;;;;;X
+MODEL_U02_21_18;ヴァンガード級ミサイル戦艦;;;;;;;;;;X
+MODEL_U02_21_19;ヴァンガード級ミサイル戦艦;;;;;;;;;;X
+## 原子力ミサイル戦艦;;;;;;;;;;X
+MODEL_JAP_21_20;紀伊級;;;;;;;;;;X
+MODEL_JAP_21_21;紀伊級;;;;;;;;;;X
+MODEL_JAP_21_22;紀伊級;;;;;;;;;;X
+MODEL_USA_21_20;アイオワ級原子力ミサイル戦艦;;;;;;;;;;X
+MODEL_USA_21_21;アイオワ級原子力ミサイル戦艦;;;;;;;;;;X
+MODEL_USA_21_22;アイオワ級原子力ミサイル戦艦;;;;;;;;;;X
+MODEL_SOV_21_20;ソビエツキー・ソユーズ級原子力ミサイル戦艦;;;;;;;;;;X
+MODEL_SOV_21_21;ソビエツキー・ソユーズ級原子力ミサイル戦艦;;;;;;;;;;X
+MODEL_SOV_21_22;ソビエツキー・ソユーズ級原子力ミサイル戦艦;;;;;;;;;;X
+MODEL_U02_21_20;ヴァンガード級原子力ミサイル戦艦;;;;;;;;;;X
+MODEL_U02_21_21;ヴァンガード級原子力ミサイル戦艦;;;;;;;;;;X
+MODEL_U02_21_22;ヴァンガード級原子力ミサイル戦艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### ミサイル艇;;;;;;;;;;X
+MODEL_JAP_22_0;隼級;;;;;;;;;;X
+MODEL_JAP_22_1;若鷹級;;;;;;;;;;X
+MODEL_JAP_22_2;海燕級;;;;;;;;;;X
+MODEL_JAP_22_3;白鯨級;;;;;;;;;;X
+MODEL_JAP_22_4;黒鮪級;;;;;;;;;;X
+MODEL_JAP_22_5;風鷲級;;;;;;;;;;X
+MODEL_JAP_22_6;若鴉級;;;;;;;;;;X
+MODEL_JAP_22_7;獅子級;;;;;;;;;;X
+MODEL_JAP_22_8;海豚級;;;;;;;;;;X
+MODEL_JAP_22_9;白鶴級;;;;;;;;;;X
+MODEL_USA_22_0;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_22_1;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_22_2;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_22_3;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_22_4;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_22_5;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_22_6;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_22_7;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_22_8;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_22_9;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_0;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_1;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_2;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_3;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_4;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_5;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_6;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_7;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_8;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_SOV_22_9;ビェールクト型巡洋艦;;;;;;;;;;X
+MODEL_ENG_22_0;ホイットビィ級フリゲート;;;;;;;;;;X
+MODEL_ENG_22_1;ロスシー級フリゲート;;;;;;;;;;X
+MODEL_ENG_22_2;リアンダー級フリゲート;;;;;;;;;;X
+MODEL_ENG_22_3;22型フリゲート;;;;;;;;;;X
+MODEL_ENG_22_4;23型フリゲート;;;;;;;;;;X
+MODEL_ENG_22_5;26型フリゲート;;;;;;;;;;X
+MODEL_U02_22_0;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_22_1;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_22_2;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_22_3;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_22_4;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_22_5;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_22_6;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_22_7;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_22_8;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_22_9;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 巡洋艦;;;;;;;;;;X
+## 巡洋艦;;;;;;;;;;X
+MODEL_JAP_23_0;榛名型;;;;;;;;;;X
+MODEL_JAP_23_1;最上型;;;;;;;;;;X
+MODEL_JAP_23_2;最上型;;;;;;;;;;X
+MODEL_JAP_23_3;最上型;;;;;;;;;;X
+MODEL_JAP_23_4;最上型;;;;;;;;;;X
+MODEL_JAP_23_5;巡洋艦Ⅵ;;;;;;;;;;X
+MODEL_JAP_23_6;巡洋艦Ⅶ;;;;;;;;;;X
+MODEL_JAP_23_7;巡洋艦Ⅷ;;;;;;;;;;X
+MODEL_JAP_23_8;巡洋艦Ⅸ;;;;;;;;;;X
+MODEL_JAP_23_9;巡洋艦Ⅹ;;;;;;;;;;X
+MODEL_USA_23_0;ガルベストン級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_1;リーヒ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_2;ベルナップ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_3;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_4;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_5;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_6;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_7;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_8;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_9;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_0;スヴェルドロフ級巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_1;キンダ級巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_2;クレスタ級巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_3;スラヴァ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_4;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_5;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_6;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_7;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_8;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_9;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_23_0;G3型巡洋艦;;;;;;;;;;X
+MODEL_U02_23_1;G3型巡洋艦;;;;;;;;;;X
+MODEL_U02_23_2;G3型巡洋艦;;;;;;;;;;X
+MODEL_U02_23_3;G3型巡洋艦;;;;;;;;;;X
+MODEL_U02_23_4;G3型巡洋艦;;;;;;;;;;X
+MODEL_U02_23_5;G3型巡洋艦;;;;;;;;;;X
+MODEL_U02_23_6;G3型巡洋艦;;;;;;;;;;X
+MODEL_U02_23_7;G3型巡洋艦;;;;;;;;;;X
+MODEL_U02_23_8;G3型巡洋艦;;;;;;;;;;X
+MODEL_U02_23_9;G3型巡洋艦;;;;;;;;;;X
+## 原子力巡洋艦;;;;;;;;;;X
+MODEL_JAP_23_10;剣級;;;;;;;;;;X
+MODEL_JAP_23_11;原子力巡洋艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_23_12;原子力巡洋艦Ⅲ;;;;;;;;;;X
+MODEL_USA_23_10;タイコンデガロン級原子力巡洋艦;;;;;;;;;;X
+MODEL_USA_23_11;タイコンデガロン級原子力巡洋艦;;;;;;;;;;X
+MODEL_USA_23_12;タイコンデガロン級原子力巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_10;スターリングラード級重巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_11;スターリングラード級重巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_12;スターリングラード級重巡洋艦;;;;;;;;;;X
+MODEL_U02_23_10;G3型原子力巡洋艦;;;;;;;;;;X
+MODEL_U02_23_11;G3型原子力巡洋艦;;;;;;;;;;X
+MODEL_U02_23_12;G3型原子力巡洋艦;;;;;;;;;;X
+## ミサイル巡洋艦;;;;;;;;;;X
+MODEL_JAP_23_13;伊吹級;;;;;;;;;;X
+MODEL_JAP_23_14;ミサイル巡洋艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_23_15;ミサイル巡洋艦Ⅲ;;;;;;;;;;X
+MODEL_JAP_23_16;ミサイル巡洋艦Ⅳ;;;;;;;;;;X
+MODEL_JAP_23_17;ミサイル巡洋艦Ⅴ;;;;;;;;;;X
+MODEL_USA_23_13;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_14;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_15;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_16;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_17;タイコンデロガ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_13;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_14;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_15;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_16;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_17;キーロフ級ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_23_13;G3型ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_23_14;G3型ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_23_15;G3型ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_23_16;G3型ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_23_17;G3型ミサイル巡洋艦;;;;;;;;;;X
+## 原子力ミサイル巡洋艦;;;;;;;;;;X
+MODEL_JAP_23_18;三笠級;;;;;;;;;;X
+MODEL_JAP_23_19;原子力ミサイル巡洋艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_23_20;原子力ミサイル巡洋艦Ⅲ;;;;;;;;;;X
+MODEL_USA_23_18;タイコンデガロン級原子力ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_19;タイコンデガロン級原子力ミサイル巡洋艦;;;;;;;;;;X
+MODEL_USA_23_20;タイコンデガロン級原子力ミサイル巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_18;スターリングラード級重巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_19;スターリングラード級重巡洋艦;;;;;;;;;;X
+MODEL_SOV_23_20;スターリングラード級重巡洋艦;;;;;;;;;;X
+MODEL_U02_23_18;G3型原子力ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_23_19;G3型原子力ミサイル巡洋艦;;;;;;;;;;X
+MODEL_U02_23_20;G3型原子力ミサイル巡洋艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### ロケット砲艦;;;;;;;;;;X
+MODEL_JAP_24_0;対馬級;;;;;;;;;;X
+MODEL_JAP_24_1;ロケット砲艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_24_2;ロケット砲艦Ⅲ;;;;;;;;;;X
+MODEL_JAP_24_3;ロケット砲艦Ⅳ;;;;;;;;;;X
+MODEL_JAP_24_4;ロケット砲艦Ⅴ;;;;;;;;;;X
+MODEL_JAP_24_5;ロケット砲艦Ⅵ;;;;;;;;;;X
+MODEL_JAP_24_6;ロケット砲艦Ⅶ;;;;;;;;;;X
+MODEL_JAP_24_7;ロケット砲艦Ⅷ;;;;;;;;;;X
+MODEL_JAP_24_8;ロケット砲艦Ⅸ;;;;;;;;;;X
+MODEL_JAP_24_9;ロケット砲艦Ⅹ;;;;;;;;;;X
+MODEL_USA_24_0;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_USA_24_1;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_USA_24_2;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_USA_24_3;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_USA_24_4;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_USA_24_5;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_USA_24_6;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_USA_24_7;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_USA_24_8;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_USA_24_9;スプルーアンス級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_0;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_1;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_2;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_3;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_4;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_5;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_6;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_7;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_8;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_SOV_24_9;クロンシュタット級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_0;G3級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_1;G3級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_2;G3級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_3;G3級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_4;G3級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_5;G3級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_6;G3級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_7;G3級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_8;G3級ロケット砲艦;;;;;;;;;;X
+MODEL_U02_24_9;G3級ロケット砲艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+## 駆逐艦;;;;;;;;;;X
+MODEL_JAP_25_0;春風型;;;;;;;;;;X
+MODEL_JAP_25_1;綾波型;;;;;;;;;;X
+MODEL_JAP_25_2;初雪型;;;;;;;;;;X
+MODEL_JAP_25_3;朝霧型;;;;;;;;;;X
+MODEL_JAP_25_4;村雨型;;;;;;;;;;X
+MODEL_JAP_25_5;高波型;;;;;;;;;;X
+MODEL_JAP_25_6;秋月型;;;;;;;;;;X
+MODEL_JAP_25_7;駆逐艦Ⅷ;;;;;;;;;;X
+MODEL_JAP_25_8;駆逐艦Ⅸ;;;;;;;;;;X
+MODEL_JAP_25_9;駆逐艦Ⅹ;;;;;;;;;;X
+MODEL_USA_25_0;ミッチャー級駆逐艦;;;;;;;;;;X
+MODEL_USA_25_1;フォレスト・シャーマン級駆逐艦;;;;;;;;;;X
+MODEL_USA_25_2;チャールズ・F・アダムズ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_USA_25_3;スプルーアンス級駆逐艦;;;;;;;;;;X
+MODEL_USA_25_4;アーレイ・バーク級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_USA_25_5;アーレイ・バーク級ミサイル駆逐艦 ;;;;;;;;;;X
+MODEL_USA_25_6;アーレイ・バーク級ミサイル駆逐艦 ;;;;;;;;;;X
+MODEL_USA_25_7;ズムウォルト級ミサイル駆逐艦 ;;;;;;;;;;X
+MODEL_USA_25_8;ズムウォルト級ミサイル駆逐艦 ;;;;;;;;;;X
+MODEL_USA_25_9;ズムウォルト級ミサイル駆逐艦 ;;;;;;;;;;X
+MODEL_SOV_25_0;ベドーヴイ級駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_1;カシン級駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_2;ウダロイ級駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_3;ウダロイ級駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_4;ウダロイ級駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_5;ウダロイ級駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_6;ウダロイ級駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_7;ウダロイ級駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_8;ウダロイ級駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_9;ウダロイ級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_0;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_1;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_2;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_3;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_4;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_5;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_6;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_7;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_8;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_U02_25_9;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_ENG_25_0;デアリング級駆逐艦;;;;;;;;;;X
+MODEL_ENG_25_1;カウンティ級駆逐艦;;;;;;;;;;X
+MODEL_ENG_25_2;82型駆逐艦;;;;;;;;;;X
+MODEL_ENG_25_3;42型駆逐艦;;;;;;;;;;X
+MODEL_ENG_25_4;45型駆逐艦;;;;;;;;;;X
+MODEL_FRA_25_0;スルクフ級駆逐艦;;;;;;;;;;X
+MODEL_FRA_25_1;シュフラン級駆逐艦;;;;;;;;;;X
+MODEL_FRA_25_2;トゥールヴィル級駆逐艦;;;;;;;;;;X
+MODEL_FRA_25_3;ジョルジュ・レイグ級駆逐艦;;;;;;;;;;X
+MODEL_FRA_25_4;アキテーヌ級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_0;デリー級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_1;デリー級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_2;デリー級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_3;デリー級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_4;デリー級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_5;デリー級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_6;デリー級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_7;デリー級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_8;デリー級駆逐艦;;;;;;;;;;X
+MODEL_U04_25_9;デリー級駆逐艦;;;;;;;;;;X
+## 原子力駆逐艦;;;;;;;;;;X
+MODEL_JAP_25_10;太刀風級;;;;;;;;;;X
+MODEL_JAP_25_11;原子力駆逐艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_25_12;原子力駆逐艦Ⅲ;;;;;;;;;;X
+MODEL_USA_25_10;スプルーアンス級原子力駆逐艦;;;;;;;;;;X
+MODEL_USA_25_11;スプルーアンス級原子力駆逐艦;;;;;;;;;;X
+MODEL_USA_25_12;スプルーアンス級原子力駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_10;ウイダロ級原子力駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_11;ウイダロ級原子力駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_12;ウイダロ級原子力駆逐艦;;;;;;;;;;X
+MODEL_U02_25_10;デアリング級原子力駆逐艦;;;;;;;;;;X
+MODEL_U02_25_11;デアリング級原子力駆逐艦;;;;;;;;;;X
+MODEL_U02_25_12;デアリング級原子力駆逐艦;;;;;;;;;;X
+## ミサイル駆逐艦;;;;;;;;;;X
+MODEL_JAP_25_13;旗風型;;;;;;;;;;X
+MODEL_JAP_25_14;金剛型;;;;;;;;;;X
+MODEL_JAP_25_15;愛宕型;;;;;;;;;;X
+MODEL_JAP_25_16;ミサイル駆逐艦Ⅳ;;;;;;;;;;X
+MODEL_JAP_25_17;ミサイル駆逐艦Ⅴ;;;;;;;;;;X
+MODEL_USA_25_13;アーレイ・バーク級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_USA_25_14;アーレイ・バーク級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_USA_25_15;アーレイ・バーク級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_USA_25_16;アーレイ・バーク級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_USA_25_17;アーレイ・バーク級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_13;ウイダロ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_14;ウイダロ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_15;ウイダロ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_16;ウイダロ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_17;ウイダロ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U02_25_13;デアリング級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U02_25_14;デアリング級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U02_25_15;デアリング級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U02_25_16;デアリング級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U02_25_17;デアリング級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U04_25_13;コルカタ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U04_25_14;コルカタ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U04_25_15;コルカタ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U04_25_16;コルカタ級ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U04_25_17;コルカタ級ミサイル駆逐艦;;;;;;;;;;X
+## 原子力ミサイル駆逐艦;;;;;;;;;;X
+MODEL_JAP_25_18;朝露級;;;;;;;;;;X
+MODEL_JAP_25_19;原子力ミサイル駆逐艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_25_20;原子力ミサイル駆逐艦Ⅲ;;;;;;;;;;X
+MODEL_USA_25_18;アーレイ・バーク級原子力ミサイル駆逐艦;;;;;;;;;;X
+MODEL_USA_25_19;アーレイ・バーク級原子力ミサイル駆逐艦;;;;;;;;;;X
+MODEL_USA_25_20;アーレイ・バーク級原子力ミサイル駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_18;ウイダロ級原子力ミサイル駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_19;ウイダロ級原子力ミサイル駆逐艦;;;;;;;;;;X
+MODEL_SOV_25_20;ウイダロ級原子力ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U02_25_18;デアリング級原子力ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U02_25_19;デアリング級原子力ミサイル駆逐艦;;;;;;;;;;X
+MODEL_U02_25_20;デアリング級原子力ミサイル駆逐艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 航空母艦/原子力空母;;;;;;;;;;X
+## 航空母艦;;;;;;;;;;X
+MODEL_JAP_26_0;雲龍型;;;;;;;;;;X
+MODEL_JAP_26_1;航空母艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_26_2;航空母艦Ⅲ;;;;;;;;;;X
+MODEL_JAP_26_3;航空母艦Ⅳ;;;;;;;;;;X
+MODEL_JAP_26_4;航空母艦Ⅴ;;;;;;;;;;X
+MODEL_JAP_26_5;航空母艦Ⅵ;;;;;;;;;;X
+MODEL_JAP_26_6;航空母艦Ⅶ;;;;;;;;;;X
+MODEL_JAP_26_7;航空母艦Ⅷ;;;;;;;;;;X
+MODEL_JAP_26_8;航空母艦Ⅸ;;;;;;;;;;X
+MODEL_JAP_26_9;航空母艦Ⅹ;;;;;;;;;;X
+MODEL_USA_26_0;エセックス/ミッドウェイ級航空母艦;;;;;;;;;;X
+MODEL_USA_26_1;フォレスタル級航空母艦;;;;;;;;;;X
+MODEL_USA_26_2;キティホーク級航空母艦;;;;;;;;;;X
+MODEL_USA_26_3;エンタープライズ級航空母艦;;;;;;;;;;X
+MODEL_USA_26_4;ニミッツ級航空母艦;;;;;;;;;;X
+MODEL_USA_26_5;ニミッツ級航空母艦;;;;;;;;;;X
+MODEL_USA_26_6;ニミッツ級航空母艦;;;;;;;;;;X
+MODEL_USA_26_7;ニミッツ級航空母艦;;;;;;;;;;X
+MODEL_USA_26_8;ニミッツ級航空母艦;;;;;;;;;;X
+MODEL_USA_26_9;ニミッツ級航空母艦;;;;;;;;;;X
+MODEL_SOV_26_0;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_SOV_26_1;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_SOV_26_2;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_SOV_26_3;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_SOV_26_4;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_SOV_26_5;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_SOV_26_6;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_SOV_26_7;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_SOV_26_8;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_SOV_26_9;アドミラル・クズネツォフ級重航空巡洋艦;;;;;;;;;;X
+MODEL_ENG_26_0;オーディシャス級航空母艦;;;;;;;;;;X
+MODEL_ENG_26_1;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_ENG_26_2;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_ENG_26_3;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_ENG_26_4;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_ENG_26_5;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_ENG_26_6;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_ENG_26_7;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_ENG_26_8;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_ENG_26_9;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_FRA_26_1;クレマンソー級航空母艦;;;;;;;;;;X
+MODEL_U02_26_0;オーディシャス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_1;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_2;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_3;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_4;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_5;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_6;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_7;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_8;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_9;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+## 原子力空母;;;;;;;;;;X
+MODEL_JAP_26_10;大鷹級;;;;;;;;;;X
+MODEL_JAP_26_11;原子力空母Ⅱ;;;;;;;;;;X
+MODEL_JAP_26_12;原子力空母Ⅲ;;;;;;;;;;X
+MODEL_USA_26_10;エンタープライズ級航空母艦;;;;;;;;;;X
+MODEL_USA_26_11;ニミッツ級航空母艦;;;;;;;;;;X
+MODEL_USA_26_12;ジェラルド･R･フォード級航空母艦;;;;;;;;;;X
+MODEL_SOV_26_10;ウリヤノフスク級原子力空母;;;;;;;;;;X
+MODEL_SOV_26_11;ウリヤノフスク級原子力空母;;;;;;;;;;X
+MODEL_SOV_26_12;ウリヤノフスク級原子力空母;;;;;;;;;;X
+MODEL_U02_26_10;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_11;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+MODEL_U02_26_12;クイーン・エリザベス級航空母艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### ヘリ空母;;;;;;;;;;X
+## ヘリ空母;;;;;;;;;;X
+MODEL_JAP_27_0;日向型;;;;;;;;;;X
+MODEL_JAP_27_1;出雲型;;;;;;;;;;X
+MODEL_JAP_27_2;ヘリ空母Ⅲ;;;;;;;;;;X
+MODEL_JAP_27_3;ヘリ空母Ⅳ;;;;;;;;;;X
+MODEL_JAP_27_4;ヘリ空母Ⅴ;;;;;;;;;;X
+MODEL_JAP_27_5;ヘリ空母Ⅵ;;;;;;;;;;X
+MODEL_JAP_27_6;ヘリ空母Ⅶ;;;;;;;;;;X
+MODEL_JAP_27_7;ヘリ空母Ⅷ;;;;;;;;;;X
+MODEL_JAP_27_8;ヘリ空母Ⅸ;;;;;;;;;;X
+MODEL_JAP_27_9;ヘリ空母Ⅹ;;;;;;;;;;X
+MODEL_USA_27_0;イオージマ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_27_1;イオージマ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_27_2;イオージマ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_27_3;タワラ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_27_4;タワラ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_27_5;ワスプ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_27_6;ワスプ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_27_7;アメリカ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_27_8;アメリカ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_27_9;アメリカ級強襲揚陸艦;;;;;;;;;;X
+MODEL_SOV_27_0;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_1;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_2;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_3;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_4;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_5;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_6;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_7;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_8;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_9;キエフ級航空母艦;;;;;;;;;;X
+MODEL_U02_27_0;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_1;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_2;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_3;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_4;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_5;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_6;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_7;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_8;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_9;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_FRA_27_0;ジャンヌ・ダルク級ヘリ母艦;;;;;;;;;;X
+MODEL_U04_27_0;セントー級航空母艦;;;;;;;;;;X
+MODEL_U04_27_1;セントー級航空母艦;;;;;;;;;;X
+MODEL_U04_27_2;セントー級航空母艦;;;;;;;;;;X
+MODEL_U04_27_3;セントー級航空母艦;;;;;;;;;;X
+MODEL_U04_27_4;セントー級航空母艦;;;;;;;;;;X
+MODEL_U04_27_5;セントー級航空母艦;;;;;;;;;;X
+MODEL_U04_27_6;セントー級航空母艦;;;;;;;;;;X
+MODEL_U04_27_7;セントー級航空母艦;;;;;;;;;;X
+MODEL_U04_27_8;セントー級航空母艦;;;;;;;;;;X
+MODEL_U04_27_9;セントー級航空母艦;;;;;;;;;;X
+## 原子力ヘリ空母;;;;;;;;;;X
+MODEL_JAP_27_10;赤城級;;;;;;;;;;X
+MODEL_JAP_27_11;原子力ヘリ空母Ⅱ;;;;;;;;;;X
+MODEL_JAP_27_12;原子力ヘリ空母Ⅲ;;;;;;;;;;X
+MODEL_USA_27_10;アメリカ級原子力ヘリ空母;;;;;;;;;;X
+MODEL_USA_27_11;アメリカ級原子力ヘリ空母;;;;;;;;;;X
+MODEL_USA_27_12;アメリカ級原子力ヘリ空母;;;;;;;;;;X
+MODEL_SOV_27_10;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_11;キエフ級航空母艦;;;;;;;;;;X
+MODEL_SOV_27_12;キエフ級航空母艦;;;;;;;;;;X
+MODEL_U02_27_10;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_11;インヴィンシブル級航空母艦;;;;;;;;;;X
+MODEL_U02_27_12;インヴィンシブル級航空母艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 潜水艦;;;;;;;;;;X
+## 巡洋型潜水艦;;;;;;;;;;X
+MODEL_JAP_28_0;朝潮型;;;;;;;;;;X
+MODEL_JAP_28_1;渦潮型;;;;;;;;;;X
+MODEL_JAP_28_2;有潮型;;;;;;;;;;X
+MODEL_JAP_28_3;春潮型;;;;;;;;;;X
+MODEL_JAP_28_4;親潮型;;;;;;;;;;X
+MODEL_JAP_28_5;蒼龍型;;;;;;;;;;X
+MODEL_JAP_28_6;巡洋型潜水艦Ⅶ;;;;;;;;;;X
+MODEL_JAP_28_7;巡洋型潜水艦Ⅷ;;;;;;;;;;X
+MODEL_JAP_28_8;巡洋型潜水艦Ⅸ;;;;;;;;;;X
+MODEL_JAP_28_9;巡洋型潜水艦Ⅹ;;;;;;;;;;X
+MODEL_USA_28_0;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_USA_28_1;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_USA_28_2;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_USA_28_3;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_USA_28_4;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_USA_28_5;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_USA_28_6;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_USA_28_7;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_USA_28_8;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_USA_28_9;ソード・フィッシュ級潜水艦;;;;;;;;;;X
+MODEL_SOV_28_0;エコー1型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_1;エコー2型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_2;チャーリー1型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_3;チャーリー2型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_4;オスカー型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_5;ヤーセン型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_6;ヤーセン型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_7;ヤーセン型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_8;ヤーセン型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_9;ヤーセン型潜水艦;;;;;;;;;;X
+MODEL_U02_28_0;アップホルダー級潜水艦;;;;;;;;;;X
+MODEL_U02_28_1;アップホルダー級潜水艦;;;;;;;;;;X
+MODEL_U02_28_2;アップホルダー級潜水艦;;;;;;;;;;X
+MODEL_U02_28_3;アップホルダー級潜水艦;;;;;;;;;;X
+MODEL_U02_28_4;アップホルダー級潜水艦;;;;;;;;;;X
+MODEL_U02_28_5;アップホルダー級潜水艦;;;;;;;;;;X
+MODEL_U02_28_6;アップホルダー級潜水艦;;;;;;;;;;X
+MODEL_U02_28_7;アップホルダー級潜水艦;;;;;;;;;;X
+MODEL_U02_28_8;アップホルダー級潜水艦;;;;;;;;;;X
+MODEL_U02_28_9;アップホルダー級潜水艦;;;;;;;;;;X
+## 攻撃型潜水艦;;;;;;;;;;X
+MODEL_JAP_28_10;親潮型;;;;;;;;;;X
+MODEL_JAP_28_11;朝潮型;;;;;;;;;;X
+MODEL_JAP_28_12;親潮型;;;;;;;;;;X
+MODEL_JAP_28_13;蒼龍型;;;;;;;;;;X
+MODEL_JAP_28_14;蒼龍型;;;;;;;;;;X
+MODEL_USA_28_10;シーウルフ級攻撃型潜水艦;;;;;;;;;;X
+MODEL_USA_28_11;シーウルフ級攻撃型潜水艦;;;;;;;;;;X
+MODEL_USA_28_12;シーウルフ級攻撃型潜水艦;;;;;;;;;;X
+MODEL_USA_28_13;シーウルフ級攻撃型潜水艦;;;;;;;;;;X
+MODEL_USA_28_14;シーウルフ級攻撃型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_10;ノヴェンバー型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_11;ヴィクター型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_12;アクラ型原子力潜水艦;;;;;;;;;;X
+MODEL_SOV_28_13;アルファ型潜水艦;;;;;;;;;;X
+MODEL_SOV_28_14;ヤーセン型潜水艦;;;;;;;;;;X
+MODEL_U02_28_10;アスチュート級原子力潜水艦;;;;;;;;;;X
+MODEL_U02_28_11;アスチュート級原子力潜水艦;;;;;;;;;;X
+MODEL_U02_28_12;アスチュート級原子力潜水艦;;;;;;;;;;X
+MODEL_U02_28_13;アスチュート級原子力潜水艦;;;;;;;;;;X
+MODEL_U02_28_14;アスチュート級原子力潜水艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 原子力潜水艦;;;;;;;;;;X
+MODEL_JAP_29_0;蒼龍級;;;;;;;;;;X
+MODEL_JAP_29_1;原子力潜水艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_29_2;原子力潜水艦Ⅲ;;;;;;;;;;X
+MODEL_USA_29_0;シーウルフ級攻撃型潜水艦;;;;;;;;;;X
+MODEL_USA_29_1;シーウルフ級攻撃型潜水艦;;;;;;;;;;X
+MODEL_USA_29_2;シーウルフ級攻撃型潜水艦;;;;;;;;;;X
+MODEL_U02_29_0;アスチュート級原子力潜水艦;;;;;;;;;;X
+MODEL_U02_29_1;アスチュート級原子力潜水艦;;;;;;;;;;X
+MODEL_U02_29_2;アスチュート級原子力潜水艦;;;;;;;;;;X
+MODEL_SOV_29_0;ヤーセン型原子力潜水艦;;;;;;;;;;X
+MODEL_SOV_29_1;ヤーセン型原子力潜水艦;;;;;;;;;;X
+MODEL_SOV_29_2;ヤーセン型原子力潜水艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 輸送艦/揚陸艦;;;;;;;;;;X
+## 輸送艦;;;;;;;;;;X
+MODEL_JAP_30_0;輸送艦Ⅰ;;;;;;;;;;X
+MODEL_JAP_30_1;輸送艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_30_2;輸送艦Ⅲ;;;;;;;;;;X
+MODEL_USA_30_0;サン・アントニオ級ドック型輸送揚陸艦;;;;;;;;;;X
+MODEL_USA_30_1;サン・アントニオ級ドック型輸送揚陸艦;;;;;;;;;;X
+MODEL_USA_30_2;サン・アントニオ級ドック型輸送揚陸艦;;;;;;;;;;X
+MODEL_U02_30_0;ポイント級;;;;;;;;;;X
+MODEL_U02_30_1;ポイント級;;;;;;;;;;X
+MODEL_U02_30_2;ポイント級;;;;;;;;;;X
+MODEL_SOV_30_0;イワン・ロゴフ級大型揚陸艦;;;;;;;;;;X
+MODEL_SOV_30_1;イワン・ロゴフ級大型揚陸艦;;;;;;;;;;X
+MODEL_SOV_30_2;イワン・ロゴフ級大型揚陸艦;;;;;;;;;;X
+## 揚陸艦;;;;;;;;;;X
+MODEL_JAP_30_3;揚陸艦Ⅰ;;;;;;;;;;X
+MODEL_JAP_30_4;揚陸艦Ⅱ;;;;;;;;;;X
+MODEL_JAP_30_5;揚陸艦Ⅲ;;;;;;;;;;X
+MODEL_JAP_30_6;揚陸艦Ⅳ;;;;;;;;;;X
+MODEL_JAP_30_7;揚陸艦Ⅴ;;;;;;;;;;X
+MODEL_USA_30_3;ワスプ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_30_4;ワスプ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_30_5;ワスプ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_30_6;ワスプ級強襲揚陸艦;;;;;;;;;;X
+MODEL_USA_30_7;ワスプ級強襲揚陸艦;;;;;;;;;;X
+MODEL_U02_30_3;ベイ級ドック型補助揚陸艦;;;;;;;;;;X
+MODEL_U02_30_4;ベイ級ドック型補助揚陸艦;;;;;;;;;;X
+MODEL_U02_30_5;ベイ級ドック型補助揚陸艦;;;;;;;;;;X
+MODEL_U02_30_6;ベイ級ドック型補助揚陸艦;;;;;;;;;;X
+MODEL_U02_30_7;ベイ級ドック型補助揚陸艦;;;;;;;;;;X
+MODEL_SOV_30_3;イワン・ロゴフ級大型揚陸艦;;;;;;;;;;X
+MODEL_SOV_30_4;イワン・ロゴフ級大型揚陸艦;;;;;;;;;;X
+MODEL_SOV_30_5;イワン・ロゴフ級大型揚陸艦;;;;;;;;;;X
+MODEL_SOV_30_6;イワン・ロゴフ級大型揚陸艦;;;;;;;;;;X
+MODEL_SOV_30_7;イワン・ロゴフ級大型揚陸艦;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##### ―旅団― #####;;;;;;;;;;X
+##### ―陸上兵器― #####;;;;;;;;;;X
+### 自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_JAP_1_0;74式自走105mm自走榴弾砲Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_1_1;自走榴弾砲Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_1_2;自走榴弾砲Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_1_3;自走榴弾砲Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_1_4;自走榴弾砲Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_1_5;自走榴弾砲Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_1_6;自走榴弾砲Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_1_7;自走榴弾砲Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_1_8;自走榴弾砲Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_1_9;自走榴弾砲Ⅹ;;;;;;;;;;X
+BRIG_MODEL_USA_1_0;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_USA_1_1;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_USA_1_2;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_USA_1_3;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_USA_1_4;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_USA_1_5;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_USA_1_6;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_USA_1_7;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_USA_1_8;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_USA_1_9;M109 155mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_0;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_1;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_2;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_3;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_4;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_5;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_6;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_7;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_8;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_SOV_1_9;2S19ムスタ-S 152mm自走榴弾砲;;;;;;;;;;X
+BRIG_MODEL_U02_1_0;AS-90;;;;;;;;;;X
+BRIG_MODEL_U02_1_1;AS-90;;;;;;;;;;X
+BRIG_MODEL_U02_1_2;AS-90;;;;;;;;;;X
+BRIG_MODEL_U02_1_3;AS-90;;;;;;;;;;X
+BRIG_MODEL_U02_1_4;AS-90;;;;;;;;;;X
+BRIG_MODEL_U02_1_5;PzH 2000;;;;;;;;;;X
+BRIG_MODEL_U02_1_6;PzH 2000;;;;;;;;;;X
+BRIG_MODEL_U02_1_7;PzH 2000;;;;;;;;;;X
+BRIG_MODEL_U02_1_8;PzH 2000;;;;;;;;;;X
+BRIG_MODEL_U02_1_9;PzH 2000;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 自走式荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_JAP_2_0;99式自走式荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_JAP_2_1;自走式荷電粒子砲Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_2_2;自走式荷電粒子砲Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_2_3;自走式荷電粒子砲Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_2_4;自走式荷電粒子砲Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_2_5;自走式荷電粒子砲Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_2_6;自走式荷電粒子砲Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_2_7;自走式荷電粒子砲Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_2_8;自走式荷電粒子砲Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_2_9;自走式荷電粒子砲Ⅹ;;;;;;;;;;X
+BRIG_MODEL_USA_2_0;自走式荷電粒子砲Ⅰ;;;;;;;;;;X
+BRIG_MODEL_USA_2_1;自走式荷電粒子砲Ⅱ;;;;;;;;;;X
+BRIG_MODEL_USA_2_2;自走式荷電粒子砲Ⅲ;;;;;;;;;;X
+BRIG_MODEL_USA_2_3;自走式荷電粒子砲Ⅳ;;;;;;;;;;X
+BRIG_MODEL_USA_2_4;自走式荷電粒子砲Ⅴ;;;;;;;;;;X
+BRIG_MODEL_USA_2_5;自走式荷電粒子砲Ⅵ;;;;;;;;;;X
+BRIG_MODEL_USA_2_6;自走式荷電粒子砲Ⅶ;;;;;;;;;;X
+BRIG_MODEL_USA_2_7;自走式荷電粒子砲Ⅷ;;;;;;;;;;X
+BRIG_MODEL_USA_2_8;自走式荷電粒子砲Ⅸ;;;;;;;;;;X
+BRIG_MODEL_USA_2_9;自走式荷電粒子砲Ⅹ;;;;;;;;;;X
+BRIG_MODEL_SOV_2_0;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_2_1;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_2_2;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_2_3;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_2_4;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_2_5;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_2_6;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_2_7;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_2_8;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_2_9;2S19ムスタ-S荷電粒子砲搭載型;;;;;;;;;;X
+BRIG_MODEL_U02_2_0;PzH 2000荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_U02_2_1;PzH 2000荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_U02_2_2;PzH 2000荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_U02_2_3;PzH 2000荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_U02_2_4;PzH 2000荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_U02_2_5;PzH 2000荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_U02_2_6;PzH 2000荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_U02_2_7;PzH 2000荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_U02_2_8;PzH 2000荷電粒子砲;;;;;;;;;;X
+BRIG_MODEL_U02_2_9;PzH 2000荷電粒子砲;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### MLRS;;;;;;;;;;X
+BRIG_MODEL_JAP_3_0;MLRSⅠ;;;;;;;;;;X
+BRIG_MODEL_JAP_3_1;MLRSⅡ;;;;;;;;;;X
+BRIG_MODEL_JAP_3_2;MLRSⅢ;;;;;;;;;;X
+BRIG_MODEL_JAP_3_3;MLRSⅣ;;;;;;;;;;X
+BRIG_MODEL_JAP_3_4;MLRSⅤ;;;;;;;;;;X
+BRIG_MODEL_JAP_3_5;MLRSⅥ;;;;;;;;;;X
+BRIG_MODEL_JAP_3_6;MLRSⅦ;;;;;;;;;;X
+BRIG_MODEL_JAP_3_7;MLRSⅧ;;;;;;;;;;X
+BRIG_MODEL_JAP_3_8;MLRSⅨ;;;;;;;;;;X
+BRIG_MODEL_JAP_3_9;MLRSⅩ;;;;;;;;;;X
+BRIG_MODEL_USA_3_0;MLRSⅠ;;;;;;;;;;X
+BRIG_MODEL_USA_3_1;MLRSⅡ;;;;;;;;;;X
+BRIG_MODEL_USA_3_2;MLRSⅢ;;;;;;;;;;X
+BRIG_MODEL_USA_3_3;MLRSⅣ;;;;;;;;;;X
+BRIG_MODEL_USA_3_4;MLRSⅤ;;;;;;;;;;X
+BRIG_MODEL_USA_3_5;HIMARS;;;;;;;;;;X
+BRIG_MODEL_USA_3_6;HIMARS;;;;;;;;;;X
+BRIG_MODEL_USA_3_7;HIMARS;;;;;;;;;;X
+BRIG_MODEL_USA_3_8;HIMARS;;;;;;;;;;X
+BRIG_MODEL_USA_3_9;HIMARS;;;;;;;;;;X
+BRIG_MODEL_SOV_3_0;BM-21グラート;;;;;;;;;;X
+BRIG_MODEL_SOV_3_1;BM-21グラート;;;;;;;;;;X
+BRIG_MODEL_SOV_3_2;BM-21グラート;;;;;;;;;;X
+BRIG_MODEL_SOV_3_3;BM-21グラート;;;;;;;;;;X
+BRIG_MODEL_SOV_3_4;BM-30スメーチ;;;;;;;;;;X
+BRIG_MODEL_SOV_3_5;BM-30スメーチ;;;;;;;;;;X
+BRIG_MODEL_SOV_3_6;BM-30スメーチ;;;;;;;;;;X
+BRIG_MODEL_SOV_3_7;BM-30スメーチ;;;;;;;;;;X
+BRIG_MODEL_SOV_3_8;BM-30スメーチ;;;;;;;;;;X
+BRIG_MODEL_SOV_3_9;BM-30スメーチ;;;;;;;;;;X
+BRIG_MODEL_U02_3_0;MLRSⅠ;;;;;;;;;;X
+BRIG_MODEL_U02_3_1;MLRSⅡ;;;;;;;;;;X
+BRIG_MODEL_U02_3_2;MLRSⅢ;;;;;;;;;;X
+BRIG_MODEL_U02_3_3;MLRSⅣ;;;;;;;;;;X
+BRIG_MODEL_U02_3_4;MLRSⅤ;;;;;;;;;;X
+BRIG_MODEL_U02_3_5;HIMARS;;;;;;;;;;X
+BRIG_MODEL_U02_3_6;HIMARS;;;;;;;;;;X
+BRIG_MODEL_U02_3_7;HIMARS;;;;;;;;;;X
+BRIG_MODEL_U02_3_8;HIMARS;;;;;;;;;;X
+BRIG_MODEL_U02_3_9;HIMARS;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 自走式電子投射砲;;;;;;;;;;X
+BRIG_MODEL_JAP_5_0;99式自走式電子投射砲;;;;;;;;;;X
+BRIG_MODEL_JAP_5_1;自走式電子投射砲Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_5_2;自走式電子投射砲Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_5_3;自走式電子投射砲Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_5_4;自走式電子投射砲Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_5_5;自走式電子投射砲Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_5_6;自走式電子投射砲Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_5_7;自走式電子投射砲Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_5_8;自走式電子投射砲Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_5_9;自走式電子投射砲Ⅹ;;;;;;;;;;X
+BRIG_MODEL_USA_5_0;自走式電子投射砲Ⅰ;;;;;;;;;;X
+BRIG_MODEL_USA_5_1;自走式電子投射砲Ⅱ;;;;;;;;;;X
+BRIG_MODEL_USA_5_2;自走式電子投射砲Ⅲ;;;;;;;;;;X
+BRIG_MODEL_USA_5_3;自走式電子投射砲Ⅳ;;;;;;;;;;X
+BRIG_MODEL_USA_5_4;自走式電子投射砲Ⅴ;;;;;;;;;;X
+BRIG_MODEL_USA_5_5;自走式電子投射砲Ⅵ;;;;;;;;;;X
+BRIG_MODEL_USA_5_6;自走式電子投射砲Ⅶ;;;;;;;;;;X
+BRIG_MODEL_USA_5_7;自走式電子投射砲Ⅷ;;;;;;;;;;X
+BRIG_MODEL_USA_5_8;自走式電子投射砲Ⅸ;;;;;;;;;;X
+BRIG_MODEL_USA_5_9;自走式電子投射砲Ⅹ;;;;;;;;;;X
+BRIG_MODEL_SOV_5_0;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_5_1;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_5_2;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_5_3;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_5_4;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_5_5;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_5_6;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_5_7;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_5_8;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_SOV_5_9;2S19ムスタ-S電子投射砲搭載型;;;;;;;;;;X
+BRIG_MODEL_U02_5_0;PzH 2000電子投射砲;;;;;;;;;;X
+BRIG_MODEL_U02_5_1;PzH 2000電子投射砲;;;;;;;;;;X
+BRIG_MODEL_U02_5_2;PzH 2000電子投射砲;;;;;;;;;;X
+BRIG_MODEL_U02_5_3;PzH 2000電子投射砲;;;;;;;;;;X
+BRIG_MODEL_U02_5_4;PzH 2000電子投射砲;;;;;;;;;;X
+BRIG_MODEL_U02_5_5;PzH 2000電子投射砲;;;;;;;;;;X
+BRIG_MODEL_U02_5_6;PzH 2000電子投射砲;;;;;;;;;;X
+BRIG_MODEL_U02_5_7;PzH 2000電子投射砲;;;;;;;;;;X
+BRIG_MODEL_U02_5_8;PzH 2000電子投射砲;;;;;;;;;;X
+BRIG_MODEL_U02_5_9;PzH 2000電子投射砲;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### VBL装甲車;;;;;;;;;;X
+BRIG_MODEL_JAP_6_0;VBL装甲車Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_6_1;VBL装甲車Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_6_2;VBL装甲車Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_6_3;VBL装甲車Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_6_4;VBL装甲車Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_6_5;VBL装甲車Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_6_6;VBL装甲車Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_6_7;VBL装甲車Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_6_8;VBL装甲車Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_6_9;VBL装甲車Ⅹ;;;;;;;;;;X
+BRIG_MODEL_USA_6_0;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_USA_6_1;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_USA_6_2;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_USA_6_3;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_USA_6_4;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_USA_6_5;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_USA_6_6;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_USA_6_7;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_USA_6_8;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_USA_6_9;LAV-AT;;;;;;;;;;X
+BRIG_MODEL_SOV_6_0;BTR-T;;;;;;;;;;X
+BRIG_MODEL_SOV_6_1;BTR-T;;;;;;;;;;X
+BRIG_MODEL_SOV_6_2;BTR-T;;;;;;;;;;X
+BRIG_MODEL_SOV_6_3;BTR-T;;;;;;;;;;X
+BRIG_MODEL_SOV_6_4;BTR-T;;;;;;;;;;X
+BRIG_MODEL_SOV_6_5;BTR-T;;;;;;;;;;X
+BRIG_MODEL_SOV_6_6;BTR-T;;;;;;;;;;X
+BRIG_MODEL_SOV_6_7;BTR-T;;;;;;;;;;X
+BRIG_MODEL_SOV_6_8;BTR-T;;;;;;;;;;X
+BRIG_MODEL_SOV_6_9;BTR-T;;;;;;;;;;X
+BRIG_MODEL_U02_6_0;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+BRIG_MODEL_U02_6_1;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+BRIG_MODEL_U02_6_2;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+BRIG_MODEL_U02_6_3;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+BRIG_MODEL_U02_6_4;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+BRIG_MODEL_U02_6_5;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+BRIG_MODEL_U02_6_6;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+BRIG_MODEL_U02_6_7;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+BRIG_MODEL_U02_6_8;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+BRIG_MODEL_U02_6_9;プーマ装甲歩兵戦闘車;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 多脚運搬車両;;;;;;;;;;X
+BRIG_MODEL_JAP_10_0;多脚運搬車両Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_10_1;多脚運搬車両Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_10_2;多脚運搬車両Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_10_3;多脚運搬車両Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_10_4;多脚運搬車両Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_10_5;多脚運搬車両Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_10_6;多脚運搬車両Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_10_7;多脚運搬車両Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_10_8;多脚運搬車両Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_10_9;多脚運搬車両Ⅹ;;;;;;;;;;X
+BRIG_MODEL_USA_10_0;多脚運搬車両Ⅰ;;;;;;;;;;X
+BRIG_MODEL_USA_10_1;多脚運搬車両Ⅱ;;;;;;;;;;X
+BRIG_MODEL_USA_10_2;多脚運搬車両Ⅲ;;;;;;;;;;X
+BRIG_MODEL_USA_10_3;多脚運搬車両Ⅳ;;;;;;;;;;X
+BRIG_MODEL_USA_10_4;多脚運搬車両Ⅴ;;;;;;;;;;X
+BRIG_MODEL_USA_10_5;多脚運搬車両Ⅵ;;;;;;;;;;X
+BRIG_MODEL_USA_10_6;多脚運搬車両Ⅶ;;;;;;;;;;X
+BRIG_MODEL_USA_10_7;多脚運搬車両Ⅷ;;;;;;;;;;X
+BRIG_MODEL_USA_10_8;多脚運搬車両Ⅸ;;;;;;;;;;X
+BRIG_MODEL_USA_10_9;多脚運搬車両Ⅹ;;;;;;;;;;X
+BRIG_MODEL_SOV_10_0;BRDM-2;;;;;;;;;;X
+BRIG_MODEL_SOV_10_1;BRDM-2;;;;;;;;;;X
+BRIG_MODEL_SOV_10_2;BRDM-2;;;;;;;;;;X
+BRIG_MODEL_SOV_10_3;BRDM-2;;;;;;;;;;X
+BRIG_MODEL_SOV_10_4;BRDM-2;;;;;;;;;;X
+BRIG_MODEL_SOV_10_5;BRDM-2;;;;;;;;;;X
+BRIG_MODEL_SOV_10_6;BRDM-2;;;;;;;;;;X
+BRIG_MODEL_SOV_10_7;BRDM-2;;;;;;;;;;X
+BRIG_MODEL_SOV_10_8;BRDM-2;;;;;;;;;;X
+BRIG_MODEL_SOV_10_9;BRDM-2;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 自走式対空砲;;;;;;;;;;X
+BRIG_MODEL_JAP_11_0;87式自走高射機関砲;;;;;;;;;;X
+BRIG_MODEL_JAP_11_1;自走式対空砲Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_11_2;自走式対空砲Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_11_3;自走式対空砲Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_11_4;自走式対空砲Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_11_5;自走式対空砲Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_11_6;自走式対空砲Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_11_7;自走式対空砲Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_11_8;自走式対空砲Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_11_9;自走式対空砲Ⅹ;;;;;;;;;;X
+BRIG_MODEL_USA_11_0;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_USA_11_1;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_USA_11_2;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_USA_11_3;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_USA_11_4;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_USA_11_5;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_USA_11_6;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_USA_11_7;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_USA_11_8;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_USA_11_9;M247サージェント・ヨーク;;;;;;;;;;X
+BRIG_MODEL_SOV_11_0;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_SOV_11_1;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_SOV_11_2;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_SOV_11_3;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_SOV_11_4;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_SOV_11_5;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_SOV_11_6;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_SOV_11_7;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_SOV_11_8;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_SOV_11_9;2K22 ツングースカ;;;;;;;;;;X
+BRIG_MODEL_U02_11_0;ゲパルト自走対空砲;;;;;;;;;;X
+BRIG_MODEL_U02_11_1;ゲパルト自走対空砲;;;;;;;;;;X
+BRIG_MODEL_U02_11_2;ゲパルト自走対空砲;;;;;;;;;;X
+BRIG_MODEL_U02_11_3;ゲパルト自走対空砲;;;;;;;;;;X
+BRIG_MODEL_U02_11_4;ゲパルト自走対空砲;;;;;;;;;;X
+BRIG_MODEL_U02_11_5;ゲパルト自走対空砲;;;;;;;;;;X
+BRIG_MODEL_U02_11_6;ゲパルト自走対空砲;;;;;;;;;;X
+BRIG_MODEL_U02_11_7;ゲパルト自走対空砲;;;;;;;;;;X
+BRIG_MODEL_U02_11_8;ゲパルト自走対空砲;;;;;;;;;;X
+BRIG_MODEL_U02_11_9;ゲパルト自走対空砲;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 憲兵;;;;;;;;;;X
+BRIG_MODEL_JAP_12_0;憲兵Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_12_1;憲兵Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_12_2;憲兵Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_12_3;憲兵Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_12_4;憲兵Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_12_5;憲兵Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_12_6;憲兵Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_12_7;憲兵Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_12_8;憲兵Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_12_9;憲兵Ⅹ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##### ―海上兵器― #####;;;;;;;;;;X
+### 艦載戦術機隊;;;;;;;;;;X
+BRIG_MODEL_JAP_14_0;艦載戦術機隊Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_14_1;艦載戦術機隊Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_14_2;艦載戦術機隊Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_14_3;艦載戦術機隊Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_14_4;艦載戦術機隊Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_14_5;艦載戦術機隊Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_14_6;艦載戦術機隊Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_14_7;艦載戦術機隊Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_14_8;艦載戦術機隊Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_14_9;艦載戦術機隊Ⅹ;;;;;;;;;;X
+BRIG_MODEL_USA_14_0;F/A18 ホーネット;;;;;;;;;;X
+BRIG_MODEL_USA_14_1;F/A18 ホーネット;;;;;;;;;;X
+BRIG_MODEL_USA_14_2;F/A18 ホーネット;;;;;;;;;;X
+BRIG_MODEL_USA_14_3;F/A18 ホーネット;;;;;;;;;;X
+BRIG_MODEL_USA_14_4;F/A18 ホーネット;;;;;;;;;;X
+BRIG_MODEL_USA_14_5;F/A18E/F スーパーホーネット;;;;;;;;;;X
+BRIG_MODEL_USA_14_6;F-35C ライトニングⅡ;;;;;;;;;;X
+BRIG_MODEL_USA_14_7;F-35C ライトニングⅡ;;;;;;;;;;X
+BRIG_MODEL_USA_14_8;F-35C ライトニングⅡ;;;;;;;;;;X
+BRIG_MODEL_USA_14_9;F-35C ライトニングⅡ;;;;;;;;;;X
+BRIG_MODEL_SOV_14_0;艦載戦術機隊Ⅰ;;;;;;;;;;X
+BRIG_MODEL_SOV_14_1;艦載戦術機隊Ⅱ;;;;;;;;;;X
+BRIG_MODEL_SOV_14_2;艦載戦術機隊Ⅲ;;;;;;;;;;X
+BRIG_MODEL_SOV_14_3;艦載戦術機隊Ⅳ;;;;;;;;;;X
+BRIG_MODEL_SOV_14_4;艦載戦術機隊Ⅴ;;;;;;;;;;X
+BRIG_MODEL_SOV_14_5;Su-33;;;;;;;;;;X
+BRIG_MODEL_SOV_14_6;艦載戦術機隊Ⅶ;;;;;;;;;;X
+BRIG_MODEL_SOV_14_7;艦載戦術機隊Ⅷ;;;;;;;;;;X
+BRIG_MODEL_SOV_14_8;艦載戦術機隊Ⅸ;;;;;;;;;;X
+BRIG_MODEL_SOV_14_9;艦載戦術機隊Ⅹ;;;;;;;;;;X
+BRIG_MODEL_U02_14_0;艦載戦術機隊Ⅰ;;;;;;;;;;X
+BRIG_MODEL_U02_14_1;艦載戦術機隊Ⅱ;;;;;;;;;;X
+BRIG_MODEL_U02_14_2;F-8E;;;;;;;;;;X
+BRIG_MODEL_U02_14_3;F-8E;;;;;;;;;;X
+BRIG_MODEL_U02_14_4;RafaleM;;;;;;;;;;X
+BRIG_MODEL_U02_14_5;RafaleM;;;;;;;;;;X
+BRIG_MODEL_U02_14_6;艦載戦術機隊Ⅶ;;;;;;;;;;X
+BRIG_MODEL_U02_14_7;艦載戦術機隊Ⅷ;;;;;;;;;;X
+BRIG_MODEL_U02_14_8;艦載戦術機隊Ⅸ;;;;;;;;;;X
+BRIG_MODEL_U02_14_9;艦載戦術機隊Ⅹ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 対潜兵装;;;;;;;;;;X
+BRIG_MODEL_JAP_16_0;対潜兵装Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_16_1;対潜兵装Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_16_2;対潜兵装Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_16_3;対潜兵装Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_16_4;対潜兵装Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_16_5;対潜兵装Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_16_6;対潜兵装Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_16_7;対潜兵装Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_16_8;対潜兵装Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_16_9;対潜兵装Ⅹ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 対潜ヘリ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_0;対潜ヘリⅠ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_1;対潜ヘリⅡ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_2;SH-60J ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_3;対潜ヘリⅣ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_4;対潜ヘリⅤ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_5;対潜ヘリⅥ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_6;対潜ヘリⅦ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_7;対潜ヘリⅧ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_8;対潜ヘリⅨ;;;;;;;;;;X
+BRIG_MODEL_JAP_17_9;対潜ヘリⅩ;;;;;;;;;;X
+BRIG_MODEL_USA_17_0;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_17_1;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_17_2;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_17_3;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_17_4;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_17_5;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_17_6;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_17_7;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_17_8;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_17_9;SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_U02_17_0;アグスタウェストランド AW101;;;;;;;;;;X
+BRIG_MODEL_U02_17_1;アグスタウェストランド AW102;;;;;;;;;;X
+BRIG_MODEL_U02_17_2;アグスタウェストランド AW103;;;;;;;;;;X
+BRIG_MODEL_U02_17_3;アグスタウェストランド AW104;;;;;;;;;;X
+BRIG_MODEL_U02_17_4;アグスタウェストランド AW105;;;;;;;;;;X
+BRIG_MODEL_U02_17_5;アグスタウェストランド AW106;;;;;;;;;;X
+BRIG_MODEL_U02_17_6;アグスタウェストランド AW107;;;;;;;;;;X
+BRIG_MODEL_U02_17_7;アグスタウェストランド AW108;;;;;;;;;;X
+BRIG_MODEL_U02_17_8;アグスタウェストランド AW109;;;;;;;;;;X
+BRIG_MODEL_U02_17_9;アグスタウェストランド AW110;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 対艦兵装;;;;;;;;;;X
+BRIG_MODEL_JAP_18_0;対艦兵装Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_18_1;対艦兵装Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_18_2;対艦兵装Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_18_3;対艦兵装Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_18_4;対艦兵装Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_18_5;対艦兵装Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_18_6;対艦兵装Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_18_7;対艦兵装Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_18_8;対艦兵装Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_18_9;対艦兵装Ⅹ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 対地兵装;;;;;;;;;;X
+BRIG_MODEL_JAP_19_0;対地兵装Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_19_1;対地兵装Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_19_2;対地兵装Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_19_3;対地兵装Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_19_4;対地兵装Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_19_5;対地兵装Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_19_6;対地兵装Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_19_7;対地兵装Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_19_8;対地兵装Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_19_9;対地兵装Ⅹ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### V/STOL;;;;;;;;;;X
+BRIG_MODEL_JAP_20_0;A/V8BJ;;;;;;;;;;X
+BRIG_MODEL_JAP_20_1;V/STOLⅡ;;;;;;;;;;X
+BRIG_MODEL_JAP_20_2;V/STOLⅢ;;;;;;;;;;X
+BRIG_MODEL_JAP_20_3;V/STOLⅣ;;;;;;;;;;X
+BRIG_MODEL_JAP_20_4;V/STOLⅤ;;;;;;;;;;X
+BRIG_MODEL_JAP_20_5;V/STOLⅥ;;;;;;;;;;X
+BRIG_MODEL_JAP_20_6;V/STOLⅦ;;;;;;;;;;X
+BRIG_MODEL_JAP_20_7;V/STOLⅧ;;;;;;;;;;X
+BRIG_MODEL_JAP_20_8;V/STOLⅨ;;;;;;;;;;X
+BRIG_MODEL_JAP_20_9;V/STOLⅩ;;;;;;;;;;X
+BRIG_MODEL_USA_20_0;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_USA_20_1;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_USA_20_2;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_USA_20_3;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_USA_20_4;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_USA_20_5;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_USA_20_6;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_USA_20_7;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_USA_20_8;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_USA_20_9;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_SOV_20_0;Yak-38;;;;;;;;;;X
+BRIG_MODEL_SOV_20_1;Yak-37;;;;;;;;;;X
+BRIG_MODEL_SOV_20_2;Yak-36;;;;;;;;;;X
+BRIG_MODEL_SOV_20_3;Yak-35;;;;;;;;;;X
+BRIG_MODEL_SOV_20_4;Yak-34;;;;;;;;;;X
+BRIG_MODEL_SOV_20_5;Yak-33;;;;;;;;;;X
+BRIG_MODEL_SOV_20_6;Yak-32;;;;;;;;;;X
+BRIG_MODEL_SOV_20_7;Yak-31;;;;;;;;;;X
+BRIG_MODEL_SOV_20_8;Yak-30;;;;;;;;;;X
+BRIG_MODEL_SOV_20_9;Yak-29;;;;;;;;;;X
+BRIG_MODEL_U02_20_0;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_U02_20_1;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_U02_20_2;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_U02_20_3;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_U02_20_4;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_U02_20_5;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_U02_20_6;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_U02_20_7;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_U02_20_8;AV-8B ハリアー II;;;;;;;;;;X
+BRIG_MODEL_U02_20_9;AV-8B ハリアー II;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 対空兵装;;;;;;;;;;X
+BRIG_MODEL_JAP_22_0;対空兵装Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_22_1;対空兵装Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_22_2;対空兵装Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_22_3;対空兵装Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_22_4;対空兵装Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_22_5;対空兵装Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_22_6;対空兵装Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_22_7;対空兵装Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_22_8;対空兵装Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_22_9;対空兵装Ⅹ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 艦載レーダー;;;;;;;;;;X
+BRIG_MODEL_JAP_23_0;艦載レーダーⅠ;;;;;;;;;;X
+BRIG_MODEL_JAP_23_1;艦載レーダーⅡ;;;;;;;;;;X
+BRIG_MODEL_JAP_23_2;艦載レーダーⅢ;;;;;;;;;;X
+BRIG_MODEL_JAP_23_3;艦載レーダーⅣ;;;;;;;;;;X
+BRIG_MODEL_JAP_23_4;艦載レーダーⅤ;;;;;;;;;;X
+BRIG_MODEL_JAP_23_5;艦載レーダーⅥ;;;;;;;;;;X
+BRIG_MODEL_JAP_23_6;艦載レーダーⅦ;;;;;;;;;;X
+BRIG_MODEL_JAP_23_7;艦載レーダーⅧ;;;;;;;;;;X
+BRIG_MODEL_JAP_23_8;艦載レーダーⅨ;;;;;;;;;;X
+BRIG_MODEL_JAP_23_9;艦載レーダーⅩ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 火器管制システム;;;;;;;;;;X
+BRIG_MODEL_JAP_24_0;火器管制システムⅠ;;;;;;;;;;X
+BRIG_MODEL_JAP_24_1;火器管制システムⅡ;;;;;;;;;;X
+BRIG_MODEL_JAP_24_2;火器管制システムⅢ;;;;;;;;;;X
+BRIG_MODEL_JAP_24_3;火器管制システムⅣ;;;;;;;;;;X
+BRIG_MODEL_JAP_24_4;火器管制システムⅤ;;;;;;;;;;X
+BRIG_MODEL_JAP_24_5;火器管制システムⅥ;;;;;;;;;;X
+BRIG_MODEL_JAP_24_6;火器管制システムⅦ;;;;;;;;;;X
+BRIG_MODEL_JAP_24_7;火器管制システムⅧ;;;;;;;;;;X
+BRIG_MODEL_JAP_24_8;火器管制システムⅨ;;;;;;;;;;X
+BRIG_MODEL_JAP_24_9;火器管制システムⅩ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 強化型船体;;;;;;;;;;X
+BRIG_MODEL_JAP_25_0;強化型船体Ⅰ;;;;;;;;;;X
+BRIG_MODEL_JAP_25_1;強化型船体Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_25_2;強化型船体Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_25_3;強化型船体Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_25_4;強化型船体Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_25_5;強化型船体Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_25_6;強化型船体Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_25_7;強化型船体Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_25_8;強化型船体Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_25_9;強化型船体Ⅹ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### 迎撃システム;;;;;;;;;;X
+BRIG_MODEL_JAP_26_0;迎撃システムⅠ;;;;;;;;;;X
+BRIG_MODEL_JAP_26_1;迎撃システムⅡ;;;;;;;;;;X
+BRIG_MODEL_JAP_26_2;迎撃システムⅢ;;;;;;;;;;X
+BRIG_MODEL_JAP_26_3;迎撃システムⅣ;;;;;;;;;;X
+BRIG_MODEL_JAP_26_4;迎撃システムⅤ;;;;;;;;;;X
+BRIG_MODEL_JAP_26_5;迎撃システムⅥ;;;;;;;;;;X
+BRIG_MODEL_JAP_26_6;迎撃システムⅦ;;;;;;;;;;X
+BRIG_MODEL_JAP_26_7;迎撃システムⅧ;;;;;;;;;;X
+BRIG_MODEL_JAP_26_8;迎撃システムⅨ;;;;;;;;;;X
+BRIG_MODEL_JAP_26_9;迎撃システムⅩ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+### ヘリ空母航空隊;;;;;;;;;;X
+BRIG_MODEL_JAP_31_0;A/V8BJ/SH-60J ;;;;;;;;;;X
+BRIG_MODEL_JAP_31_1;ヘリ空母航空隊Ⅱ;;;;;;;;;;X
+BRIG_MODEL_JAP_31_2;ヘリ空母航空隊Ⅲ;;;;;;;;;;X
+BRIG_MODEL_JAP_31_3;ヘリ空母航空隊Ⅳ;;;;;;;;;;X
+BRIG_MODEL_JAP_31_4;ヘリ空母航空隊Ⅴ;;;;;;;;;;X
+BRIG_MODEL_JAP_31_5;ヘリ空母航空隊Ⅵ;;;;;;;;;;X
+BRIG_MODEL_JAP_31_6;ヘリ空母航空隊Ⅶ;;;;;;;;;;X
+BRIG_MODEL_JAP_31_7;ヘリ空母航空隊Ⅷ;;;;;;;;;;X
+BRIG_MODEL_JAP_31_8;ヘリ空母航空隊Ⅸ;;;;;;;;;;X
+BRIG_MODEL_JAP_31_9;ヘリ空母航空隊Ⅹ;;;;;;;;;;X
+BRIG_MODEL_USA_31_0;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_31_1;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_31_2;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_31_3;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_31_4;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_31_5;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_31_6;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_31_7;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_31_8;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_USA_31_9;A/V8B/AH-1Z/SH-60 シーホーク;;;;;;;;;;X
+BRIG_MODEL_SOV_31_0;Yak-38/Ka-27;;;;;;;;;;;
+BRIG_MODEL_SOV_31_1;Yak-38/Ka-26;;;;;;;;;;X
+BRIG_MODEL_SOV_31_2;Yak-38/Ka-25;;;;;;;;;;X
+BRIG_MODEL_SOV_31_3;Yak-38/Ka-24;;;;;;;;;;X
+BRIG_MODEL_SOV_31_4;Yak-38/Ka-23;;;;;;;;;;X
+BRIG_MODEL_SOV_31_5;Yak-38/Ka-22;;;;;;;;;;X
+BRIG_MODEL_SOV_31_6;Yak-38/Ka-21;;;;;;;;;;X
+BRIG_MODEL_SOV_31_7;Yak-38/Ka-20;;;;;;;;;;X
+BRIG_MODEL_SOV_31_8;Yak-38/Ka-19;;;;;;;;;;X
+BRIG_MODEL_SOV_31_9;Yak-38/Ka-18;;;;;;;;;;X
+BRIG_MODEL_U02_31_0;AV-8B ハリアー II ;;;;;;;;;;X
+BRIG_MODEL_U02_31_1;AV-8B ハリアー II ;;;;;;;;;;X
+BRIG_MODEL_U02_31_2;AV-8B ハリアー II ;;;;;;;;;;X
+BRIG_MODEL_U02_31_3;AV-8B ハリアー II ;;;;;;;;;;X
+BRIG_MODEL_U02_31_4;AV-8B ハリアー II ;;;;;;;;;;X
+BRIG_MODEL_U02_31_5;AV-8B ハリアー II ;;;;;;;;;;X
+BRIG_MODEL_U02_31_6;AV-8B ハリアー II ;;;;;;;;;;X
+BRIG_MODEL_U02_31_7;AV-8B ハリアー II ;;;;;;;;;;X
+BRIG_MODEL_U02_31_8;AV-8B ハリアー II ;;;;;;;;;;X
+BRIG_MODEL_U02_31_9;AV-8B ハリアー II ;;;;;;;;;;X
+### 日本皇国用;;;;;;;;;;X
+MODEL_U10_0_0;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_U10_0_1;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_U10_0_2;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_U10_0_3;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_U10_0_4;TSF-TYPE77/F-4J-C 撃震改;;;;;;;;;;X
+MODEL_U10_0_5;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_U10_0_6;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_U10_0_7;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_U10_0_8;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_U10_0_9;TSF-TYPE77/F-15SEJ 月虹;;;;;;;;;;X
+MODEL_U10_0_10;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_U10_0_11;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_U10_0_12;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_U10_0_13;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_U10_0_14;TSF-TYPE02 紫電;;;;;;;;;;X
+MODEL_U10_0_15;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_U10_0_16;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_U10_0_17;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_U10_0_18;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_U10_0_19;TSF-TYPE07-RE 大鷹;;;;;;;;;;X
+MODEL_U10_0_20;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_U10_0_21;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_U10_0_22;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_U10_0_23;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_U10_0_24;TSF-TYPE23-RE 心神;;;;;;;;;;X
+MODEL_U10_0_25;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_U10_0_26;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_U10_0_27;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_U10_0_28;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_U10_0_29;TSF-TYPE31-RE 瑞風;;;;;;;;;;X
+MODEL_U10_1_0;TSF-TYPE82R/F-4J改 瑞鶴;;;;;;;;;;X
+MODEL_U10_1_1;TSF-TYPE82R/F-4J改 瑞鶴改;;;;;;;;;;X
+MODEL_U10_1_2;TSF-TYPE00R 武御雷;;;;;;;;;;X
+MODEL_U10_1_3;TSF-TYPE06R 天叢雲;;;;;;;;;;X
+MODEL_U10_1_4;TSF-TYPE13R 月読;;;;;;;;;;X
+MODEL_U10_1_5;TSF-TYPE25R 八咫烏;;;;;;;;;;X
+MODEL_U10_1_7;TSF-TYPE82F/F-4J改 瑞鶴;;;;;;;;;;X
+MODEL_U10_1_8;TSF-TYPE82F/F-4J改 瑞鶴改;;;;;;;;;;X
+MODEL_U10_1_9;TSF-TYPE00F 武御雷;;;;;;;;;;X
+MODEL_U10_1_10;TSF-TYPE06F 天叢雲;;;;;;;;;;X
+MODEL_U10_1_11;TSF-TYPE13F 月読;;;;;;;;;;X
+MODEL_U10_1_14;TSF-TYPE82A/F-4J改 瑞鶴;;;;;;;;;;X
+MODEL_U10_1_15;TSF-TYPE82F/F-4J改 瑞鶴改;;;;;;;;;;X
+MODEL_U10_1_16;TSF-TYPE00A 武御雷;;;;;;;;;;X
+MODEL_U10_1_17;TSF-TYPE06A 天叢雲;;;;;;;;;;X
+MODEL_U10_1_18;TSF-TYPE13A 月読;;;;;;;;;;X
+MODEL_U10_1_19;TSF-TYPE25A 八咫烏;;;;;;;;;;X
+MODEL_U10_1_21;TSF-TYPE82C/F-4J改 瑞鶴;;;;;;;;;;X
+MODEL_U10_1_22;TSF-TYPE82F/F-4J改 瑞鶴改;;;;;;;;;;X
+MODEL_U10_1_23;TSF-TYPE00C 武御雷;;;;;;;;;;X
+MODEL_U10_1_24;TSF-TYPE06C 天叢雲;;;;;;;;;;X
+MODEL_U10_1_25;TSF-TYPE13C 月読;;;;;;;;;;X
+MODEL_U10_1_26;TSF-TYPE25C 八咫烏;;;;;;;;;;X
+MODEL_U10_1_30;SCG-TYPE12 火之迦具鎚;;;;;;;;;;X
+MODEL_U10_1_31;SCG-TYPE18 軻遇突智;;;;;;;;;;X
+MODEL_U10_1_32;SCG-TYPE24 火遠理命;;;;;;;;;;X
+MODEL_U10_1_33;SCG-TYPE30 火須勢理命;;;;;;;;;;X
+MODEL_U10_1_34;SCG-TYPE35 火牟須比;;;;;;;;;;X
+MODEL_U10_2_25;XG-70b 凄乃皇弐型;;;;;;;;;;X
+MODEL_U10_2_26;XG-70d 凄乃皇四型;;;;;;;;;;X
+MODEL_U10_2_27;XG-70E 凄乃皇伍型;;;;;;;;;;X
+MODEL_U10_2_28;XG-70F 凄乃皇六型;;;;;;;;;;X
+MODEL_U10_2_29;XG-70E 凄乃皇伍型;;;;;;;;;;X
+MODEL_U10_4_1;73式歩兵戦闘車;;;;;;;;;;X
+MODEL_U10_4_2;78式歩兵戦闘車;;;;;;;;;;X
+MODEL_U10_4_3;84式歩兵戦闘車;;;;;;;;;;X
+MODEL_U10_4_4;90式歩兵戦闘車;;;;;;;;;;X
+MODEL_U10_4_5;98式歩兵戦闘車;;;;;;;;;;X
+MODEL_U10_4_6;09式歩兵戦闘車;;;;;;;;;;X
+MODEL_U10_4_7;18式歩兵戦闘車;;;;;;;;;;X
+MODEL_U10_4_8;26式歩兵戦闘車;;;;;;;;;;X
+MODEL_U10_4_9;35式歩兵戦闘車;;;;;;;;;;X
+MODEL_U10_6_0;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_U10_6_1;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_U10_6_2;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_U10_6_3;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_U10_6_4;TSF-TYPE77/F-4J 撃震;;;;;;;;;;X
+MODEL_U10_6_5;TSF-TYPE89/F-15J 陽炎;;;;;;;;;;X
+MODEL_U10_6_6;TSF-TYPE89/F-15J 陽炎;;;;;;;;;;X
+MODEL_U10_6_7;TSF-TYPE89/F-15J 陽炎;;;;;;;;;;X
+MODEL_U10_6_8;TSF-TYPE89/F-15J-C 陽炎改;;;;;;;;;;X
+MODEL_U10_6_9;TSF-TYPE89/F-15J-C 陽炎改;;;;;;;;;;X
+MODEL_U10_6_10;TSF-TYPE94 不知火;;;;;;;;;;X
+MODEL_U10_6_11;TSF-TYPE94 不知火;;;;;;;;;;X
+MODEL_U10_6_12;TSF-TYPE94-1C 不知火壱型丙;;;;;;;;;;X
+MODEL_U10_6_13;TSF-TYPE01 不知火弐型;;;;;;;;;;X
+MODEL_U10_6_14;TSF-TYPE01 不知火弐型;;;;;;;;;;X
+MODEL_U10_6_15;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_U10_6_16;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_U10_6_17;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_U10_6_18;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_U10_6_19;TSF-TYPE04 秋月;;;;;;;;;;X
+MODEL_U10_6_20;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_U10_6_21;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_U10_6_22;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_U10_6_23;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_U10_6_24;TSF-TYPE17 暁;;;;;;;;;;X
+MODEL_U10_6_25;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_U10_6_26;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_U10_6_27;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_U10_6_28;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_U10_6_29;TSF-TYPE28 叢雲;;;;;;;;;;X
+MODEL_U10_7_0;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_U10_7_1;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_U10_7_2;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_U10_7_3;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_U10_7_4;TSF-TYPE81/A-6J 海神;;;;;;;;;;X
+MODEL_U10_7_5;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_U10_7_6;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_U10_7_7;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_U10_7_8;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_U10_7_9;TSF-TYPE81/A-6J-C 伊邪那岐;;;;;;;;;;X
+MODEL_U10_7_10;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_U10_7_11;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_U10_7_12;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_U10_7_13;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_U10_7_14;TSF-TYPE99/A-12J 八雷神;;;;;;;;;;X
+MODEL_U10_7_15;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_U10_7_16;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_U10_7_17;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_U10_7_18;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_U10_7_19;TSF-TYPE06 伊邪那美;;;;;;;;;;X
+MODEL_U10_7_20;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_U10_7_21;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_U10_7_22;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_U10_7_23;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_U10_7_24;TSF-TYPE18 素戔嗚尊;;;;;;;;;;X
+MODEL_U10_7_25;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_U10_7_26;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_U10_7_27;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_U10_7_28;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_U10_7_29;TSF-TYPE30 月夜見;;;;;;;;;;X
+MODEL_U10_8_0;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_U10_8_1;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_U10_8_2;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_U10_8_3;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_U10_8_4;TSF-TYPE82 凄鉄;;;;;;;;;;X
+MODEL_U10_8_5;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_U10_8_6;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_U10_8_7;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_U10_8_8;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_U10_8_9;TSF-TYPE90 飛燕;;;;;;;;;;X
+MODEL_U10_8_10;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_U10_8_11;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_U10_8_12;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_U10_8_13;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_U10_8_14;TSF-TYPE00 水無月;;;;;;;;;;X
+MODEL_U10_8_15;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_U10_8_16;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_U10_8_17;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_U10_8_18;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_U10_8_19;TSF-TYPE09 村雨;;;;;;;;;;X
+MODEL_U10_8_20;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_U10_8_21;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_U10_8_22;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_U10_8_23;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_U10_8_24;TSF-TYPE19 秋風;;;;;;;;;;X
+MODEL_U10_8_25;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_U10_8_26;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_U10_8_27;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_U10_8_28;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_U10_8_29;TSF-TYPE30 鳳凰;;;;;;;;;;X
+MODEL_U10_10_11;TSF-TYPE77/F-4J-F 撃震弐型;;;;;;;;;;X
+MODEL_U10_10_12;TSF-TYPE77/F-4J-F 撃震弐型;;;;;;;;;;X
+MODEL_U10_10_13;TSF-TYPE77/F-4J-F 撃震弐型;;;;;;;;;;X
+MODEL_U10_10_14;TSF-TYPE89/F-15J-F 陽炎壱型;;;;;;;;;;X
+MODEL_U10_10_15;TSF-TYPE89/F-15J-F 陽炎壱型;;;;;;;;;;X
+MODEL_U10_10_16;TSF-TYPE89/F-15J-F 陽炎壱型;;;;;;;;;;X
+MODEL_U10_10_17;TSF-TYPE94-F 不知火改;;;;;;;;;;X
+MODEL_U10_10_18;TSF-TYPE94-F 不知火改;;;;;;;;;;X
+MODEL_U10_10_19;TSF-TYPE94-F 不知火改;;;;;;;;;;X
+MODEL_U10_10_20;TSF-TYPE04-F 紫燕;;;;;;;;;;X
+MODEL_U10_10_21;TSF-TYPE04-F 紫燕;;;;;;;;;;X
+MODEL_U10_10_22;TSF-TYPE04-F 紫燕;;;;;;;;;;X
+MODEL_U10_10_23;TSF-TYPE17-F 幻凰;;;;;;;;;;X
+MODEL_U10_10_24;TSF-TYPE17-F 幻凰;;;;;;;;;;X
+MODEL_U10_10_25;TSF-TYPE17-F 幻凰;;;;;;;;;;X
+MODEL_U10_10_26;TSF-TYPE28-F 閃雷;;;;;;;;;;X
+MODEL_U10_10_27;TSF-TYPE28-F 閃雷;;;;;;;;;;X
+MODEL_U10_10_28;TSF-TYPE28-F 閃雷;;;;;;;;;;X
+MODEL_U10_11_7;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_U10_11_8;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_U10_11_9;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_U10_11_10;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_U10_11_11;TSF-TYPE97 吹雪;;;;;;;;;;X
+MODEL_U10_11_12;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_U10_11_13;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_U10_11_14;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_U10_11_15;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_U10_11_16;TSF-TYPE05 雪風;;;;;;;;;;X
+MODEL_U10_11_17;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_U10_11_18;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_U10_11_19;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_U10_11_20;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_U10_11_21;TSF-TYPE18 時雨;;;;;;;;;;X
+MODEL_U10_11_22;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_U10_11_23;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_U10_11_24;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_U10_11_25;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_U10_11_26;TSF-TYPE28 疾風;;;;;;;;;;X
+MODEL_U10_11_28;TSF-TYPE05 超撃震;;;;;;;;;;X
+MODEL_U10_11_29;TSF-TYPE05 超撃震;;;;;;;;;;X
+MODEL_U10_11_30;TSF-TYPE05 超撃震;;;;;;;;;;X
+MODEL_U10_11_32;TSF-TYPE10 不知火参式;;;;;;;;;;X
+MODEL_U10_11_33;TSF-TYPE10 不知火参式;;;;;;;;;;X
+MODEL_U10_11_34;TSF-TYPE10 不知火参式;;;;;;;;;;X
+MODEL_U10_21_0;大和級;;;;;;;;;;X
+MODEL_U10_21_1;改大和級;;;;;;;;;;X
+MODEL_U10_21_2;超大和級;;;;;;;;;;X
+MODEL_U10_21_3;紀伊級;;;;;;;;;;X
+MODEL_U10_21_4;大和級;;;;;;;;;;X
+MODEL_U10_21_5;大和級;;;;;;;;;;X
+MODEL_U10_21_6;大和級;;;;;;;;;;X
+MODEL_U10_21_7;大和級;;;;;;;;;;X
+MODEL_U10_21_8;大和級;;;;;;;;;;X
+MODEL_U10_21_9;大和級;;;;;;;;;;X
+MODEL_U10_21_10;紀伊級;;;;;;;;;;X
+MODEL_U10_21_11;紀伊級;;;;;;;;;;X
+MODEL_U10_21_12;紀伊級;;;;;;;;;;X
+MODEL_U10_21_13;紀伊級;;;;;;;;;;X
+MODEL_U10_21_14;紀伊級;;;;;;;;;;X
+MODEL_U10_21_15;大和級;;;;;;;;;;X
+MODEL_U10_21_16;大和級;;;;;;;;;;X
+MODEL_U10_21_17;大和級;;;;;;;;;;X
+MODEL_U10_21_18;大和級;;;;;;;;;;X
+MODEL_U10_21_19;大和級;;;;;;;;;;X
+MODEL_U10_21_20;紀伊級;;;;;;;;;;X
+MODEL_U10_21_21;紀伊級;;;;;;;;;;X
+MODEL_U10_21_22;紀伊級;;;;;;;;;;X
+MODEL_U10_22_0;隼級;;;;;;;;;;X
+MODEL_U10_22_1;若鷹級;;;;;;;;;;X
+MODEL_U10_22_2;海燕級;;;;;;;;;;X
+MODEL_U10_22_3;白鯨級;;;;;;;;;;X
+MODEL_U10_22_4;黒鮪級;;;;;;;;;;X
+MODEL_U10_22_5;風鷲級;;;;;;;;;;X
+MODEL_U10_22_6;若鴉級;;;;;;;;;;X
+MODEL_U10_22_7;獅子級;;;;;;;;;;X
+MODEL_U10_22_8;海豚級;;;;;;;;;;X
+MODEL_U10_22_9;白鶴級;;;;;;;;;;X
+MODEL_U10_23_0;最上級;;;;;;;;;;X
+MODEL_U10_23_1;巡洋艦Ⅱ;;;;;;;;;;X
+MODEL_U10_23_2;巡洋艦Ⅲ;;;;;;;;;;X
+MODEL_U10_23_3;巡洋艦Ⅳ;;;;;;;;;;X
+MODEL_U10_23_4;巡洋艦Ⅴ;;;;;;;;;;X
+MODEL_U10_23_5;巡洋艦Ⅵ;;;;;;;;;;X
+MODEL_U10_23_6;巡洋艦Ⅶ;;;;;;;;;;X
+MODEL_U10_23_7;巡洋艦Ⅷ;;;;;;;;;;X
+MODEL_U10_23_8;巡洋艦Ⅸ;;;;;;;;;;X
+MODEL_U10_23_9;巡洋艦Ⅹ;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+##;;;;;;;;;;X
+#EOF;;;;;;;;;;;X
+#EOF;;;;;;;;;;;X

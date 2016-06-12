@@ -1,0 +1,47 @@
+SOV;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+4001;Head of State;レオニード・ブレジネフ;70;LE;Stern Imperialist;High;M4001;x
+4002;Head of Government;アレクセイ・コスイギン;70;LE;Silent Workhorse;High;M4002;x
+4003;Foreign Minister;アンドレイ・グロムイコ;70;LE;The Cloak N Dagger Schemer;High;M4003;x
+4004;Minister of Armament;ヴァシリー・ガルブーゾフ;70;LE;Resource Industrialist;High;M4004;x
+4005;Minister of Security;ニコライ・シチョーロコフ;70;LE;Crooked Kleptocrat;High;M4005;x
+4006;Head of Military Intelligence;ピョートル・イワシュチン;70;LE;Dismal Enigma;High;M4006;x
+4007;Chief of Staff;ヴィクトル・クリコフ;70;LE;School of Fire Support;High;M4007;x
+4008;Chief of Army;アンドレイ・グレチコ;70;LE;Elastic Defence Doctrine;High;M4008;x
+4009;Chief of Navy;セルゲイ・ゴルシコフ;70;LE;Open Seas Doctrine;High;M4009;x
+4010;Chief of Air Force;パーヴェル・クタホフ;70;LE;Air Superiority Doctrine;High;M4010;x
+4011;Head of State;ユーリ・アンドロポフ;82;LE;Die-hard Reformer;High;M4011;x
+4012;Head of State;コンスタンティン・チェルネンコ;84;LE;Benevolent Gentleman;High;M4012;x
+4013;Head of State;ミハイル・ゴルバチョフ;84;LE;Die-hard Reformer;High;M4013;x
+4014;Head of Government;ニコライ・チーホノフ;80;LE;Party Coordinating;High;M4014;x
+4015;Head of Government;ニコライ・ルイシコフ;85;LE;Naive Optimist;High;M4015;x
+4016;Head of Government;ヴァレンチン・パヴロフ;91;LE;Industrial Prime;High;M4016;x
+4017;Head of Government;イヴァン・シラーエフ ;91;LE;Industrial Prime;High;M4017;x
+4018;Foreign Minister;エドゥアルド・シェヴァルドナゼ;82;LE;Ideological Crusader;High;M4018;x
+4019;Foreign Minister;アレクサンドル・ベススメルトヌイフ;90;LE;Great Compromiser;High;M4019;x
+4020;Foreign Minister;ボリス・パンキン;91;LE;Biased Intellectual;High;M4020;x
+4021;Minister of Armament;ボリス・ゴステフ;85;LE;Resource Industrialist;High;M4021;x
+4022;Minister of Armament;ヴァレンチン・パブロフ;89;LE;Resource Industrialist;High;M4016;x
+4023;Minister of Armament;ウラディミール・オルロフ;91;LE;laissez-faire capitalist;High;M4023;x
+4024;Minister of Armament;ウラディミール・ライェフスキー;91;LE;laissez-faire capitalist;High;M4024;x
+4025;Minister of Security;ヴィタリー・フェドルチュク;82;LE;Prince of Terror;High;M4025;x
+4026;Minister of Security;アレクサンドル・ウラソフ;86;LE;Silent Lawyer;High;M4026;x
+4027;Minister of Security;ヴァジム・バカーチン;88;LE;Man of the People;High;M4027;x
+4028;Minister of Security;ボリス・プーゴ;90;LE;Crime Fighter;High;M4028;x
+4029;Minister of Security;ヴィクトル・バランニコフ;91;LE;Former Agent;High;M4029;x
+4030;Head of Military Intelligence;ウラドレン・ミハイロフ;87;LE;Logistics Specialist;High;M4030;x
+4031;Chief of Staff;ニコライ・オガルコフ;70;LE;School of Defence;High;M4031;x
+4032;Chief of Staff;セルゲイ・アフロメーエフ;77;LE;School of Manoeuvre;High;M4032;x
+4033;Chief of Staff;ミハイル・モイセーエフ;84;LE;School of Manoeuvre;High;M4033;x
+4034;Chief of Staff;ウラジーミル・ロボフ;91;LE;School of Fire Support;High;M4034;x
+4035;Chief of Army;ドミトリー・ウスチノフ;76;LE;Guns and Butter Doctrine;High;M4035;x
+4036;Chief of Army;セルゲイ・ソコロフ;84;LE;Armoured Spearhead Doctrine;High;M4036;x
+4037;Chief of Army;ドミトリー・ヤゾフ;87;LE;Decisive Battle Doctrine;High;M4037;x
+4038;Chief of Army;ミハイル・モイセーエフ;91;LE;Armoured Spearhead Doctrine;High;M4033;x
+4039;Chief of Army;エフゲニー・シャポシニコフ;91;LE;Elastic Defence Doctrine;High;M4039;x
+4040;Chief of Navy;セルゲイ・ゴルシコフ;85;LE;Indirect Approach Doctrine;High;M4040;x
+4041;Chief of Air Force;アレクサンデル・イェフィモフ;84;LE;Army Aviation Doctrine;High;M4041;x
+4042;Chief of Air Force;エフゲニー・シャポシニコフ;90;LE;Air Superiority Doctrine;High;M4039;x
+4043;Chief of Air Force;ヴァシーリー・マルゲロフ;70;LE;Vertical Envelopment Doctrine;High;M4043;x
+4044;Chief of Air Force;ドミトリー・スホルコフ;78;LE;Vertical Envelopment Doctrine;High;M4044;x
+4045;Chief of Air Force;パーヴェル・グラチョフ;91;LE;Vertical Envelopment Doctrine;High;M4045;x

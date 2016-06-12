@@ -1,0 +1,495 @@
+##############################################################
+##
+## —\Z‰ï‹cƒCƒxƒ“ƒg(1701~1800)
+##
+##############################################################
+##
+## id = 1701	—\Z‰ï‹cŠJÃ
+## ŒR–d‹
+## id = 1702	ŒR–Œn“‰ï‹c			
+## id = 1703	—¤ŒRd‹
+## id = 1704	ŠCŒRd‹
+## id = 1705	‹óŒRd‹
+## ŒoÏd‹
+## id = 1706	ŒoÏŒn“‰ï‹c
+## id = 1707	‘Œ¹ŠJ”­
+## id = 1708	{İŒn“
+## id = 1709	•¨‘Œn“
+## Œ¤‹†d‹
+## id = 1710	Œ¤‹†Œn“‰ï‹c
+## ‘Oüd‹	
+## id = 1711	‘OüŒn“‰ï‹c
+## ‰ï‹cŒø‰ÊI—¹
+## id = 1712	—¤ŒRd‹
+## id = 1713	ŠCŒRd‹
+## id = 1714	‹óŒRd‹
+## id = 1715	‘Œ¹ŠJ”­
+## id = 1716	{İŒn“
+## id = 1717	•¨‘Œn“
+## id = 1718	‘æˆêˆÄ
+## id = 1719	‘æ“ñˆÄ	
+## id = 1720	‘æOˆÄ
+## id = 1721	wŠö“§d‹
+## id = 1722	m‹Cd‹
+## id = 1723	ƒoƒ‰ƒ“ƒX
+## ‘Œ¹ŠJ”­¬Œ÷-Šm—¦-
+## id = 1724	ƒGƒlƒ‹ƒM\	
+## id = 1725	“S
+## id = 1726	Šó­‘Œ¹
+## id = 1727	Î–û
+## id = 1728
+## id = 1729
+## id = 1730
+##
+##############################################################
+
+event = {
+	id = 1701
+	random = yes
+	country = -1
+	trigger = {
+		ai = no
+		technology = 7010
+	}
+
+	name = "—\Z‰ï‹c"
+	desc = "EVT_1701_DESC"
+	picture = "earth"
+
+	date = { day = 14 month = 4 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ŒR”õd‹"
+                command = { type = trigger which = 1702 }
+	}
+	action_b = {
+		name = "ŒoÏd‹"
+                command = { type = trigger which = 1706 }
+	}
+	action_c = {
+		name = "Œ¤‹†d‹"
+                command = { type = trigger which = 1710 }
+	}
+	action_d = {
+		name = "‘Oüd‹"
+                command = { type = trigger which = 1711 }
+	}
+}
+
+event = {
+	id = 1702
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "ŒR–Œn“‰ï‹c"
+	desc = "EVT_1702_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "—¤ŒRd‹"
+                command = { type = trigger which = 1703 }
+	}
+	action_b = {
+		name = "ŠCŒRd‹"
+                command = { type = trigger which = 1704 }
+	}
+	action_c = {
+		name = "‹óŒRE‰F’ˆŒRd‹"
+                command = { type = trigger which = 1705 }
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1701 }
+	}
+}
+
+event = {
+	id = 1703
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "—¤ŒRd‹"
+	desc = "EVT_1703_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "íp‹@Œn“"
+                command = { type = local_setflag which = Tactical_aircraft_system }
+		command = { type = build_time when = on_upgrade which = infantry value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = cavalry value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = motorized value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = paratrooper value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = marine value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = bergsjaeger value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = hq value = -5 where = relative }
+                command = { type = free_money value = -1 }
+	}
+	action_b = {
+		name = "íÔŒn“"
+                command = { type = local_setflag which = Tank_system }
+      		command = { type = build_time when = on_upgrade which = armor value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = light_armor value = -5 where = relative }
+                command = { type = free_money value = -1 }
+	}
+	action_c = {
+		name = "•à•ºŒn“"
+                command = { type = local_setflag which = Infantry_system }
+      		command = { type = build_time when = on_upgrade which = mechanized value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = garrison value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = militia value = -5 where = relative }
+                command = { type = free_money value = -1 }
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1702 }
+	}
+}
+
+event = {
+	id = 1704
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "ŠCŒRd‹"
+	desc = "EVT_1704_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‘åŒ^ŠÍŒn“"
+                command = { type = local_setflag which = Large_ship_system }
+      		command = { type = build_time when = on_upgrade which = carrier value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = escort_carrier value = -5 where = relative }
+		command = { type = build_time when = on_upgrade which = battleship value = -5 where = relative }
+                command = { type = free_money value = -1 }
+	}
+	action_b = {
+		name = "¬Œ^ŠÍŒn“"
+                command = { type = local_setflag which = Small_system_warship }
+      		command = { type = build_time when = on_upgrade which = light_cruiser value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = heavy_cruiser value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = battlecruiser value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = destroyer value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = transport value = -5 where = relative }
+                command = { type = free_money value = -1 }
+	}
+	action_c = {
+		name = "ö…ŠÍŒn“"
+                command = { type = local_setflag which = Submarine_system }
+      		command = { type = build_time when = on_upgrade which = submarine value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = nuclear_submarine value = -5 where = relative }
+                command = { type = free_money value = -1 }
+
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1702 }
+	}
+}
+
+event = {
+	id = 1705
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "‹óŒRd‹"
+	desc = "EVT_1705_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "í“¬‹@Œn“"
+                command = { type = local_setflag which = Lineage_fighter }
+		command = { type = build_time when = on_upgrade which = multi_role value = -5 where = relative }
+     	 	command = { type = build_time when = on_upgrade which = interceptor value = -5 where = relative }
+                command = { type = free_money value = -1 }
+	}
+	action_b = {
+		name = "”šŒ‚‹@Œn“"
+                command = { type = local_setflag which = Bomber_system }
+     		command = { type = build_time when = on_upgrade which = strategic_bomber value = -5 where = relative }
+     		command = { type = build_time when = on_upgrade which = tactical_bomber value = -5 where = relative }
+      		command = { type = build_time when = on_upgrade which = naval_bomber value = -5 where = relative }
+    		command = { type = build_time when = on_upgrade which = cas value = -5 where = relative }
+                command = { type = free_money value = -1 }
+	}
+	action_c = {
+		name = "ƒ~ƒTƒCƒ‹/—A‘—‹@‹@Œn“"
+                command = { type = local_setflag which = Transport_aircraft_missile_system }
+    		command = { type = build_time when = on_upgrade which = transport_plane value = -5 where = relative }
+     	 	command = { type = build_time when = on_upgrade which = flying_bomb value = -5 where = relative }
+     	 	command = { type = build_time when = on_upgrade which = flying_rocket value = -5 where = relative }
+                command = { type = free_money value = -1 }
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1702 }
+	}
+}
+
+event = {
+	id = 1706
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "ŒoÏŒn“‰ï‹c"
+	desc = "EVT_1706_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‘Œ¹ŠJ”­"
+                command = { type = trigger which = 1707 }
+	}
+	action_b = {
+		name = "{İŒn“"
+                command = { type = trigger which = 1708 }
+	}
+	action_c = {
+		name = "¶YŒn“"
+                command = { type = trigger which = 1709 }
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1701 }
+	}
+}
+
+event = {
+	id = 1707
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "‘Œ¹ŠJ”­"
+	desc = "EVT_1707_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ƒGƒlƒ‹ƒM["
+                command = { type = local_setflag which = Energy_development }
+                command = { type = free_money value = -1 }
+	}
+	action_b = {
+		name = "z•¨"
+                command = { type = local_setflag which = Mineral_development }
+                command = { type = free_money value = -1 }
+	}
+	action_c = {
+		name = "Î–û"
+                command = { type = local_setflag which = Oil_development }
+                command = { type = free_money value = -1 }
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1706 }
+	}
+}
+
+event = {
+	id = 1708
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "{İŒn“"
+	desc = "EVT_1708_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ŒR–Œn"
+                command = { type = local_setflag which = Military_facility }
+                command = { type = building_prod_mod which = coastal_fort value = 10 }
+                command = { type = building_prod_mod which = land_fort value = 10 }
+                command = { type = building_prod_mod which = flak value = 10 }
+                command = { type = building_prod_mod which = air_base value = 10 }
+                command = { type = building_prod_mod which = naval_base value = 10 }
+                command = { type = building_prod_mod which = radar_station value = 10 }
+                command = { type = building_prod_mod which = rocket_test value = 10 }
+                command = { type = free_money value = -1 }
+	}
+	action_b = {
+		name = "‘Œ¹Œn"
+                command = { type = local_setflag which = Resource_facility }
+                command = { type = free_money value = -1 }
+	}
+	action_c = {
+		name = "Ğ‰ï‘–{Œn"
+                command = { type = local_setflag which = Social_capital }
+                command = { type = building_prod_mod which = ic value = 10 }
+                command = { type = building_prod_mod which = infrastructure value = 10 }
+                command = { type = convoy_prod_mod which = escorts value = 10 }
+                command = { type = convoy_prod_mod which = transports value = 10 }
+                command = { type = free_money value = -1 }
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1706 }
+	}
+}
+
+event = {
+	id = 1709
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "¶YŒn“"
+	desc = "EVT_1709_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "H‹Æ"
+                command = { type = local_setflag which = Industrial_investment }
+                command = { type = industrial_modifier which = total value = 15 }
+                command = { type = free_money value = -1 }
+	}
+	action_b = {
+		name = "•¨‘"
+                command = { type = local_setflag which = Investment_goods }
+                command = { type = industrial_modifier which = supplies value = 15 }
+                command = { type = free_money value = -1 }
+	}
+	action_c = {
+		name = "‘‹à"
+                command = { type = local_setflag which = Investment_funds }
+                command = { type = free_money value = 2 }
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1706 }
+	}
+}
+
+event = {
+	id = 1710
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "Œ¤‹†d‹"
+	desc = "EVT_1710_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‘æˆêˆÄ"
+                command = { type = local_setflag which = Industrial_investment }
+                command = { type = free_money value = -1.5 }
+                command = { type = research_mod value = 5 }
+	}
+	action_b = {
+		name = "‘æ“ñˆÄ"
+                command = { type = local_setflag which = Investment_goods }
+                command = { type = free_money value = -2 }
+                command = { type = research_mod value = 10 }
+	}
+	action_c = {
+		name = "‘æOˆÄ"
+                command = { type = local_setflag which = Investment_funds }
+                command = { type = free_money value = -3 }
+                command = { type = research_mod value = 15 }
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1701 }
+	}
+}
+
+event = {
+	id = 1711
+	random = yes
+	country = -1
+	trigger = {
+		technology = 7010
+	}
+
+	name = "‘Oüd‹"
+	desc = "EVT_1711_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "wŠö“§d‹"
+                command = { type = local_setflag which = Industrial_investment }
+		command = { type = max_organization which = land when = now value = 10 }
+                command = { type = free_money value = -1 }
+	}
+	action_b = {
+		name = "m‹Cd‹"
+                command = { type = local_setflag which = Investment_goods }
+		command = { type = morale which = land when = now value = 10 }
+                command = { type = free_money value = -1 }
+	}
+	action_c = {
+		name = "ƒoƒ‰ƒ“ƒX"
+                command = { type = local_setflag which = Investment_funds }
+		command = { type = max_organization which = land when = now value = 5 }
+		command = { type = morale which = land when = now value = 5 }
+                command = { type = free_money value = -1 }
+	}
+	action_d = {
+		name = "ˆê‚Â‘O‚É–ß‚é"
+                command = { type = trigger which = 1701 }
+	}
+}

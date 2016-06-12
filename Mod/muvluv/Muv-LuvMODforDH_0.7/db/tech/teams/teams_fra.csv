@@ -1,0 +1,25 @@
+FRA;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+5701;ユーロコプター;eurocopter;8;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5702;DGSE;dgsefra;7;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5703;MBDA;mbdamissile;8;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5704;タレス;thaleseng;8;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5705;EADSエレクトロニクス;eadselectronics;7;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5706;シュナイダーエレクトリック;schneiderelectric;8;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5707;ブル;groupebull;7;1000;2999;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5708;原子力･代替エネルギー庁;comeatom;7;1000;2999;nuclear_physics;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5709;フランス陸軍;armeedeterre;8;1000;2999;training;large_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5710;海兵隊;tdmarines;6;1000;2999;decentralized_execution;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5711;統合参謀本部;frchstaff;8;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5712;フランス空軍;frairforce;8;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5713;海軍航空隊;frnavalair;7;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5714;ネクスターインダストリーズ;giatfr;8;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5715;MAS;stetiene;6;1000;2999;general_equipment;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5716;ダッソー;T5702;8;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5717;EADS;T5701;9;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5718;ESA;europeanspaceagency;7;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5719;フランス海軍;frenchnavy;8;1000;2999;carrier_tactics;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5720;DCNS;T5705;9;1000;2999;naval_engineering;naval_artillery;seamanship;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5721;潜水艦隊;frenchsub;7;1000;2999;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5722;海軍兵站局;franavlog;7;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5723;CMN;normandie;4;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5724;アトランティーク造船所;atlantique;5;1000;2999;naval_artillery;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

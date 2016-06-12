@@ -1,0 +1,943 @@
+##############################################################
+##
+## “ú–{’é‘ƒtƒŒ[ƒo[ƒCƒxƒ“ƒg(20001~21000)
+##
+##############################################################
+## 
+## ”ŠO‘‚Æ‚ÌŠÖŒW
+## id = 20001	“ˆê’†‰Øíü‚Æ‚ÌŠÖŒW{
+## id = 20002	‰¢B˜A‡‚Æ‚ÌŠÖŒW{
+## id = 20003	ƒAƒƒŠƒJ‡O‘‚Æ‚ÌŠÖŒW{
+## id = 20004	‘Û˜A‡‚Æ‚ÌŠÖŒW{
+## id = 20005	ƒ\ƒrƒGƒg˜A–M‚Æ‚ÌŠÖŒW{
+## id = 20006	‘å“ŒˆŸ˜A‡‚Æ‚ÌŠÖŒW{
+## id = 20007	ƒI[ƒXƒgƒ‰ƒŠƒA‚Æ‚ÌŠÖŒW{
+## id = 20008	ƒAƒtƒŠƒJ˜A‡‚Æ‚ÌŠÖŒW{
+## id = 20009	’†“Œ˜A‡‚Æ‚ÌŠÖŒW{
+## id = 20010	“ˆê’†‰Øíü‚Æ‚ÌŠÖŒW|
+## id = 20011	‰¢B˜A‡‚Æ‚ÌŠÖŒW|
+## id = 20012	ƒAƒƒŠƒJ‡O‘‚Æ‚ÌŠÖŒW|
+## id = 20013	‘Û˜A‡‚Æ‚ÌŠÖŒW|
+## id = 20014	ƒ\ƒrƒGƒg˜A–M‚Æ‚ÌŠÖŒW|
+## id = 20015	‘å“ŒˆŸ˜A‡‚Æ‚ÌŠÖŒW|
+## id = 20016	ƒI[ƒXƒgƒ‰ƒŠƒA‚Æ‚ÌŠÖŒW|
+## id = 20017	ƒAƒtƒŠƒJ˜A‡‚Æ‚ÌŠÖŒW|
+## id = 20018	’†“Œ˜A‡‚Æ‚ÌŠÖŒW|
+##
+## ŠÖ˜AƒCƒxƒ“ƒg
+## id = 20019	ªˆÎ‘å«ŒR‚Ì‰‰à
+## id = 20020	¶Y‹’“_‚ÌˆÚ“]Œv‰æ
+## id = 20021	¶Y‹’“_‚ÌˆÚ“]I—¹
+## id = 20022	¶Y‹’“_‚ÌˆÚ“]¸”s
+## id = 20023	z‰qŒR“ÁêìíŒQ‚Ì‘nİ
+## id = 20024	“ÁêìíŒR”z”õ‚P
+## id = 20025	“ÁêìíŒR”z”õ‚Q
+## id = 20026	“ÁêìíŒR”z”õ‚R
+## id = 20027	“ÁêìíŒR—û“x‚P
+## id = 20028	“ÁêìíŒR—û“x‚Q
+## id = 20029	“ÁêìíŒR—û“x‚R
+## id = 20030	“ú–{—ñ“‡‰ü‘¢Œv‰æ
+## id = 20031	“ú–{—ñ“‡‰ü‘¢Œv‰æ-Œo‰ß•ñ1-
+## id = 20032	“ú–{—ñ“‡‰ü‘¢Œv‰æ-Œo‰ß•ñ2-
+## id = 20033	“ú–{—ñ“‡‰ü‘¢Œv‰æ-Œo‰ß•ñ3-
+## id = 20034	“ú–{—ñ“‡‰ü‘¢Œv‰æI—¹
+## id = 20035
+## id = 20036
+## id = 20037
+## id = 20038
+## id = 20039
+## id = 20040
+## id = 20041
+## id = 20042
+## id = 20043
+## id = 20044
+## id = 20045
+## id = 20046
+## id = 20047
+## id = 20048
+## id = 20049
+## id = 20050
+## 
+## “ú–{“àíƒCƒxƒ“ƒg
+## id = 35001	Ê•ô’†«–Œ
+## id = 35002	12¥5–Œ
+## id = 35003	¹–¶®Æ‚ÆŒ‰r^“ß
+## id = 35004	12¥5–ŒIŒ‹
+## id = 35005	“ú–{c‘Œš‘
+## id = 35006	“ú–{’é‘ŒR‚Ì—£”½
+## id = 35007	“ú–{’é‘‚Ì•ö‰ó
+## id = 35008	“àíIŒ‹
+## id = 35010	‘˜A‰Á–¿–â‘è
+##############################################################
+
+## Še‘‚Æ‚Ì—Z˜a
+event = {
+	id = 20001
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "“ˆê’†‰Øíü‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20001_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U05 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 20002
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "‰¢B˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20002_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U02 value = 10 } 
+ 	}
+}
+
+event = {
+	id = 20003
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "ƒAƒƒŠƒJ‡O‘‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20003_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = USA value = 10 } 
+ 	}
+}
+
+event = {
+	id = 20004
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "‘Û˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20004_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U06 value = 10 } 
+	}
+}
+
+event = {
+	id = 20005
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "ƒ\ƒrƒGƒg˜A–M‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20005_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = SOV value = 10 } 
+        }
+}
+
+event = {
+	id = 20006
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "‘å“ŒˆŸ˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20006_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U04 value = 10 } 
+        }
+}
+
+event = {
+	id = 20007
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "ƒI[ƒXƒgƒ‰ƒŠƒA‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20007_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = AST value = 10 } 
+        }
+}
+
+event = {
+	id = 20008
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "ƒAƒtƒŠƒJ˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20008_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U01 value = 10 } 
+        }
+}
+
+event = {
+	id = 20009
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "’†“Œ˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20009_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U03 value = 10 } 
+        }
+}
+
+event = {
+	id = 20010
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "“ˆê’†‰Øíü‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20010_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U05 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 20011
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "‰¢B˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20011_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U02 value = -10 } 
+ 	}
+}
+
+event = {
+	id = 20012
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "ƒAƒƒŠƒJ‡O‘‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20012_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = USA value = -10 } 
+ 	}
+}
+
+event = {
+	id = 20013
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "‘Û˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20013_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U06 value = -10 } 
+	}
+}
+
+event = {
+	id = 20014
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "ƒ\ƒrƒGƒg˜A–M‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20014_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = SOV value = -10 } 
+        }
+}
+
+event = {
+	id = 20015
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "‘å“ŒˆŸ˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20015_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U04 value = -10 } 
+        }
+}
+
+event = {
+	id = 20016
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "ƒI[ƒXƒgƒ‰ƒŠƒA‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20016_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = AST value = -10 } 
+        }
+}
+
+event = {
+	id = 20017
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "ƒAƒtƒŠƒJ˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20017_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U01 value = -10 } 
+        }
+}
+
+event = {
+	id = 20018
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "’†“Œ˜A‡‚Æ‚ÌŠÖŒW"
+	desc = "EVT_20018_DESC"
+	style = 0
+
+	action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = relation which = U03 value = -10 } 
+        }
+}
+
+event = {
+	id = 20019
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "­ˆĞ‘å«ŒR‚Ì‰‰à"
+	desc = "EVT_20019_DESC"
+	style = 0
+
+	action_a = {
+		name = "“ú–{’é‘–œÎI"
+		command = { type = dissent value = -3 } 
+ 	}
+}
+
+event = {
+	id = 20020
+	random = yes
+	country = JAP
+	trigger = {
+	}
+
+	name = "z‰qŒR‚ÌŠˆ–ô"
+	desc = "EVT_20020_DESC"
+	style = 0
+
+	action_a = {
+		name = "¡Œã‚àz‰qŒR‚ÌŠˆ–ô‚ÉŠú‘Ò‚µ‚æ‚¤"
+		command = { type = dissent value = -1 } 
+ 	}
+}
+
+event = {
+	id = 20021
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "¶Y‹’“_‚ÌˆÚ“]Œv‰æ"
+	desc = "EVT_20021_DESC"
+	style = 0
+
+	date = { day = 14 month = 2 year = 1985 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "Œv‰æ‚ğÀ{‚·‚é"
+		command = { type = trigger which = 20022 value = 90 }
+	}
+	action_b = {
+		name = "Œv‰æ‚ğÀ{‚µ‚È‚¢"
+		command = { }
+	}
+}
+
+event = {
+	id = 20022
+	random = no
+	country = JAP
+	trigger = {
+			event = 20022
+	}
+
+	name = "¶Y‹’“_‚ÌˆÚ“]I—¹"
+	desc = "EVT_20022_DESC"
+	style = 0
+
+	date = { day = 14 month = 4 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‚æ‚µI"
+		command = { type = construct which = ic where = 2618 value = -10 }
+		command = { type = construct which = ic where = 2615 value = -14 }
+		command = { type = construct which = ic where = 2623 value = -5 }
+		command = { type = construct which = ic where = 2627 value = -3 }
+		command = { type = construct which = ic where = 2632 value = -3 }
+		command = { type = construct which = ic where = 2626 value = -3 }
+		command = { type = construct which = ic where = 2635 value = -2 }
+		command = { type = free_ic value = 30 }
+	}
+}
+
+event = {
+	id = 20023
+	random = no
+	country = JAP
+
+	trigger = {
+ 			technology = 2110
+ 			technology = 2310
+ 			technology = 2360
+                        event = 1502
+	}
+
+	name = "z‰qŒR“ÁêìíŒR"
+	desc = "EVT_20023_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 15
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+	action_a = {
+		name = "İ—§‚µ‚æ‚¤" 
+                ai_chance = 20
+                command = { type = local_setflag which = IG }
+		command = { type = trigger which = 20025 value = 30 }
+	}
+        action_b = {
+                name = "‚»‚ñ‚È—]—T‚Í‚È‚¢"
+                ai_chance = 80
+                command = { }
+        }
+}
+
+event = {
+	id = 20024
+	random = no
+	country = JAP
+
+	trigger = {
+                  local_flag = IG
+	}
+
+	name = "z‰qŒR“ÁêìíŒR"
+	desc = "EVT_20024_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 10
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+	action_a = {
+		name = "”z”õŠJn" 
+		command = { type = add_division which = "“V”VŒä’†å_" value = Cavalry when = 5 where = artillery }
+        command = { type = supplies value = -1000 }
+        command = { type = supplies value = -50 }
+		command = { type = manpowerpool value = -5 }
+		command = { type = trigger which = 20025 value = 30 }
+		command = { type = trigger which = 20027 value = 3 }
+	}
+}
+
+event = {
+	id = 20025
+	random = no
+	country = JAP
+
+	trigger = {
+                  local_flag = IG
+                  event = 20024
+	}
+
+	name = "z‰qŒR“ÁêìíŒR"
+	desc = "EVT_20025_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+	action_a = {
+		name = "”z”õŠJn" 
+		command = { type = add_division which = "‚ŒäY‘ƒ“ú_" value = Cavalry when = 5 where = artillery }
+        command = { type = supplies value = -1000 }
+        command = { type = supplies value = -50 }
+		command = { type = manpowerpool value = -5 }
+		command = { type = trigger which = 20026 value = 40 }
+		command = { type = trigger which = 20028 value = 3 }
+	}
+}
+
+event = {
+	id = 20026
+	random = no
+	country = JAP
+
+	trigger = {
+                  local_flag = IG
+                  event = 20025
+	}
+
+	name = "z‰qŒR“ÁêìíŒR"
+	desc = "EVT_20026_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2100 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+	action_a = {
+		name = "”z”õŠJn" 
+		command = { type = add_division which = "_Y‘ƒ“ú_" value = Cavalry when = 5 where = artillery }
+        command = { type = supplies value = -1000 }
+        command = { type = supplies value = -50 }
+		command = { type = manpowerpool value = -5 }
+		command = { type = local_clrflag which = IG }
+		command = { type = trigger which = 20029 value = 3 }
+	}
+}
+
+#event = {
+#	id = 20027
+#	random = no
+#	country = JAP
+#
+#	trigger = {
+#	}
+#
+#	name = "z‰qŒR“ÁêìíŒR"
+#	desc = "EVT_20027_DESC"
+#	style = 0
+#	date = { day = 0 month = 0 year = 2100 }
+#	offset = 10
+#	deathdate = { day = 29 month = 11 year = 2100 }
+#
+#	action_a = {
+#		name = "‚æ‚µI" 
+#		command = { type = set_unit_xp which = "“V”VŒä’†å_" value = 100 }
+#	}
+#}
+
+#event = {
+#	id = 20028
+#	random = no
+#	country = JAP
+#
+#	trigger = {
+#	}
+#
+#	name = "z‰qŒR“ÁêìíŒR"
+#	desc = "EVT_20028_DESC"
+#	style = 0
+#
+#	date = { day = 0 month = 0 year = 2100 }
+#	offset = 1
+#	deathdate = { day = 29 month = 11 year = 2100 }
+#
+#	action_a = {
+#		name = "‚æ‚µI" 
+#		command = { type = set_unit_xp which = "‚ŒäY‘ƒ“ú_" value = 100 }
+#	}
+#}
+
+#event = {
+#	id = 20029
+#	random = no
+#	country = JAP
+#
+#	trigger = {
+#	}
+#
+#	name = "z‰qŒR“ÁêìíŒR"
+#	desc = "EVT_20029_DESC"
+#	style = 0
+#
+#	date = { day = 0 month = 0 year = 2100 }
+#	offset = 1
+#	deathdate = { day = 29 month = 11 year = 2100 }
+#
+#	action_a = {
+#		name = "‚æ‚µI" 
+#		command = { type = set_unit_xp which = "_Y‘ƒ“ú_" value = 100 }
+#	}
+#}
+
+
+event = {
+	id = 35001
+	random = no
+        country = JAP
+	trigger = {
+                  event = 50003
+	}
+
+	name = "Ê•ô’†«–Œ"
+	desc = "EVT_35001_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1900 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‘˜A‚ÉÊ•ô’†«‚ğˆø‚«“n‚·B"
+		command = { type = dissent value = 15 } 
+                command = { type = relation which = U06 value = -25 }
+ }
+        action_b = {
+                name = "ˆø‚«“n‚³‚¸‚É‘“à–@‚Åˆ”±‚·‚é" #”½—“ú–{’é‘ƒ^ƒO:U10
+                command = { type = setflag which = JapanCivilWar }
+                command = { type = relation which = U06 value = -70 }
+		command = { type = dissent value = 5 } 
+ }
+}
+
+
+event = {
+	id = 35002
+	random = no
+        country = JAP
+	trigger = {
+                   flag = JapanCivilWar
+                    control = { province = 1193 data = -3 }#_“ŞìŒ§
+                    control = { province = 1192 data = -3 }#“Œ‹“s
+                    control = { province = 2615 data = -3 }#‹“s•{
+                    control = { province = 2631 data = -3 }#²‰êŒ§
+                  not = {
+                    ispuppet = JAP
+                        }
+	}
+
+	name = "12¥5–Œ"
+	desc = "EVT_35002_DESC"
+	style = 0
+
+	date = { day = 4 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "’¼‚¿‚É’Áˆ³‚¹‚æI"
+                command = { }
+		#command = { type = civil_war which = U10 } 
+ }
+}
+
+event = {
+	id = 35003
+	random = no
+        country = JAP
+	trigger = {
+                   event = 35002
+                   not = {
+                   dissent = 10
+                          }
+	}
+
+	name = "¹–¶®Æ‚ÆŒ‰r^“ß"
+	desc = "EVT_35003_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "¹–¶®Æ‚Ìí€"
+                ai_chance = 100
+		#command = { type = inherit which = U10 } 
+                command = { type = setflag which = JapanCivilWar2 }
+ }
+        action_b = {
+                name = "¹–¶®Æ‚ÌŸ—˜"
+                ai_chance = 0
+                command = { type = setflag which = JapanCivilWar3 }
+ }
+}
+
+event = {
+	id = 35004
+	random = no
+        country = JAP
+	trigger = {
+                  flag = JapanCivilWar2
+                  event = 35003
+                  not = { exists = U10 }
+	}
+
+	name = "12¥5–ŒIŒ‹"
+	desc = "EVT_35004_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "”íŠQ‚Ír‘å‚È‚à‚Ì‚Æ‚È‚Á‚½EEE"
+		command = { type = dissent value = -3 }
+ }
+}event = {
+	id = 35005
+	random = no
+        country = JAP
+	trigger = {
+                  flag = JapanCivilWar3
+	}
+
+	name = "“ú–{c‘Œš‘"
+	desc = "EVT_35005_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚È‚ñ‚Ä‚±‚Æ‚¾I"
+		        command = { type = civil_war which = U10 }
+		        command = { type = secedeprovince which = U10 value = 1193 }
+		        command = { type = control which = U10 value = 1193 }
+		        command = { type = secedeprovince which = U10 value = 2607 }
+		        command = { type = control which = U10 value = 2607 }
+ }
+}
+
+event = {
+	id = 35006
+	random = no
+        country = JAP
+	trigger = {
+                  event = 35005
+                  flag = JapanCivilWar3
+	}
+
+	name = "“ú–{’é‘ŒR‚Ì—£”½"
+	desc = "EVT_35006_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 10
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚È‚ñ‚¾‚ÆIH"
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+		command = { type = switch_allegiance which = -1 where = U10 }
+ }
+}
+
+event = {
+	id = 35007
+	random = no
+        country = U10
+	trigger = {
+                  event = 35006
+                  lost_national = { country = JAP value = 85 }
+	}
+
+	name = "“ú–{’é‘‚Ì•ö‰ó"
+	desc = "EVT_35007_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 10
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‚·‚Î‚ç‚µ‚¢I"
+		command = { type = inherit which = JAP }
+ }
+}
+
+event = {
+	id = 35008
+	random = no
+        country = U10
+	trigger = {
+                  event = 35007
+                  not = { 
+                         exists = JAP
+                         }
+	}
+
+	name = "“àíIŒ‹"
+	desc = "EVT_35008_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "V‚½‚È‚é“ú–{‚ğI"
+		command = { type = dissent value = -3 }
+                command = { type = set_domestic which = democratic value = 1 }
+                command = { type = set_domestic which = political_left value = 1 }
+                command = { type = set_domestic which = freedom value = 1 }
+                command = { type = set_domestic which = free_market value = 1 }
+                command = { type = set_domestic which = professional_army value = 1 }
+                command = { type = set_domestic which = defense_lobby value = 10 }
+                command = { type = set_domestic which = interventionism value = 10 }
+ }
+}
+
+
+event = {
+	id = 35009
+	random = no
+        country = USA
+	trigger = {
+                  event = 35008
+                  not = { 
+                         exists = JAP
+                         }
+	}
+
+	name = "“àíIŒ‹"
+	desc = "EVT_35009_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "“ú–{c‘‚ğ³”F‚·‚é"
+                ai_chance = 80
+		command = { type = peace which = U06 value = 0 }
+ }
+        action_b = {
+		name = "”½‹tÒ‚Ì‘‚È‚Ç–Å‚Ú‚¹"
+                ai_chance = 20
+		command = { }
+ }
+}
+
+event = {
+	id = 35010
+	random = no
+        country = U10
+	trigger = {
+                  event = 35008
+                  war = { country = U10 country = USA }
+                  war = { country = U10 country = U06 }
+	}
+
+	name = "‘˜A‰Á–¿–â‘è"
+	desc = "EVT_35009_DESC"
+	style = 0
+
+	date = { day = 5 month = 11 year = 2001 }
+	offset = 10
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "‘˜A‚É‰Á–¿‚·‚é"
+                ai_chance = 100
+		command = { type = alliance which = U06 }
+		command = { type = war which = U12 }
+ }
+        action_b = {
+		name = "‘˜A‚ÍM—p‚È‚ç‚È‚¢I"
+                ai_chance = 0
+		command = { }
+ }
+}

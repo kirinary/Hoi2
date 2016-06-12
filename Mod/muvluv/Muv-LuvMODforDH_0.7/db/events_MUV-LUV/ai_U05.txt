@@ -1,0 +1,42 @@
+event = {
+	id = 62001
+	random = no 
+	country = U05
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = U05_1998L.ai }
+	}
+}
+
+event = {
+	id = 62002
+	random = no 
+	country = U05
+	trigger = {
+		ai = yes
+                event = 62001
+            OR = {
+                   event = 70117
+                   event = 50117
+                  }
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = switch/U05_Counterattack.ai }
+	}
+}

@@ -1,0 +1,58 @@
+# 0 - Great War Light Field Artillery
+model          = { cost = 3 buildtime = 40 manpower = 2 defensiveness = 2 maxspeed = 0 softattack = 2 hardattack = 1 supplyconsumption = 0.1 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 
+                   equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+# 1 - Great War Medium Field Artillery
+model          = { cost = 3 buildtime = 40 manpower = 2 defensiveness = 2 maxspeed = 0 softattack = 3 hardattack = 1  supplyconsumption = 0.32 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0
+                   equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+# 2 - Great War Heavy Field Artillery
+model          = { cost = 3 buildtime = 10 manpower = 2 defensiveness = 2 maxspeed = 0 softattack = 4 hardattack = 1 supplyconsumption = 0.44 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0
+                   equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+# 3 - Early Field Artillery
+model          = { cost = 3 buildtime = 45 manpower = 2 defensiveness = 3 maxspeed = 0 softattack = 4 hardattack = 2
+ supplyconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+# 4 - Basic Field Artillery
+model          = { cost = 3 buildtime = 45 manpower = 2 defensiveness = 4 maxspeed = 0 softattack = 5
+ supplyconsumption = 0.44 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 hardattack = 3 equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+# 5 - Improved Field Artillery
+model          = { cost = 3 buildtime = 45 manpower = 2 defensiveness = 4 maxspeed = 0 softattack = 6 hardattack = 3
+ supplyconsumption = 0.48 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+# 6 - Advanced Field Artillery
+model          = { cost = 3 buildtime = 50 manpower = 2 defensiveness = 5 maxspeed = 0 softattack = 6 hardattack = 4 supplyconsumption = 0.52 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+# 7 - Semi-Modern Field Artillery
+model          = { cost = 3 buildtime = 50 manpower = 2 defensiveness = 5 maxspeed = 0 softattack = 7 hardattack = 4 supplyconsumption = 0.56 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+# 8 - Great War Light Field Artillery
+model          = { cost = 3 buildtime = 55 manpower = 2 defensiveness = 2 maxspeed = 0 softattack = 8 hardattack = 5  supplyconsumption = 0.24 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+# 9 - Great War Medium Field Artillery
+model          = { cost = 3 buildtime = 55 manpower = 2 defensiveness = 2 maxspeed = 0 softattack = 8 hardattack = 6  supplyconsumption = 0.32 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 equipment = { manpower = 100 TRUCKS = 20 ARTILLERY = 20 } }
+#
+#
+#
+#
+# 2 - Great War Heavy Field Artillery
+model          = { cost = 6 buildtime = 80 manpower = 2 defensiveness = 2 maxspeed = -2 softattack = 4 hardattack = 1 supplyconsumption = 0.44 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 3 - Early Field Artillery
+model          = { cost = 5 buildtime = 60 manpower = 2 defensiveness = 3 maxspeed = -1 softattack = 4 hardattack = 2 supplyconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 4 - Basic Field Artillery
+model          = { cost = 5 buildtime = 60 manpower = 2 defensiveness = 4 maxspeed = -1 softattack = 5 hardattack = 2 supplyconsumption = 0.44 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 5 - Improved Field Artillery
+model          = { cost = 6 buildtime = 60 manpower = 2 defensiveness = 4 maxspeed = -1 softattack = 6 hardattack = 2 supplyconsumption = 0.48 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 6 - Advanced Field Artillery
+model          = { cost = 7 buildtime = 60 manpower = 2 defensiveness = 5 maxspeed = -1 softattack = 7 hardattack = 2 supplyconsumption = 0.52 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 7 - Semi-Modern Field Artillery
+model          = { cost = 7 buildtime = 60 manpower = 2 defensiveness = 5 maxspeed = -1 softattack = 8 hardattack = 3 supplyconsumption = 0.56 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 0 - Great War Light Field Artillery
+model          = { cost = 5 buildtime = 45 manpower = 2 defensiveness = 2 maxspeed = -1 softattack = 2 hardattack = 1 supplyconsumption = 0.24 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 1 - Great War Medium Field Artillery
+model          = { cost = 5 buildtime = 60 manpower = 2 defensiveness = 2 maxspeed = -1 softattack = 3 hardattack = 1 supplyconsumption = 0.32 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 2 - Great War Heavy Field Artillery
+model          = { cost = 6 buildtime = 80 manpower = 2 defensiveness = 2 maxspeed = -2 softattack = 4 hardattack = 1 supplyconsumption = 0.44 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 3 - Early Field Artillery
+model          = { cost = 5 buildtime = 60 manpower = 2 defensiveness = 3 maxspeed = -1 softattack = 4 hardattack = 2 supplyconsumption = 0.4 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 4 - Basic Field Artillery
+model          = { cost = 5 buildtime = 60 manpower = 2 defensiveness = 4 maxspeed = -1 softattack = 5 hardattack = 2 supplyconsumption = 0.44 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 5 - Improved Field Artillery
+model          = { cost = 6 buildtime = 60 manpower = 2 defensiveness = 4 maxspeed = -1 softattack = 6 hardattack = 2 supplyconsumption = 0.48 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 6 - Advanced Field Artillery
+model          = { cost = 7 buildtime = 60 manpower = 2 defensiveness = 5 maxspeed = -1 softattack = 7 hardattack = 2 supplyconsumption = 0.52 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }
+# 7 - Semi-Modern Field Artillery
+model          = { cost = 7 buildtime = 60 manpower = 2 defensiveness = 5 maxspeed = -1 softattack = 8 hardattack = 3 supplyconsumption = 0.56 upgrade_time_factor = 0.5 upgrade_cost_factor = 1.0 }

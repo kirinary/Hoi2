@@ -1,0 +1,2537 @@
+##############################################################
+##
+## ハイヴ陥落イベント(38001~39000)_BETA
+##
+##############################################################
+##
+## id =	38001	カシュガルハイヴの陥落
+## id =	38002	マシュマハドハイヴの陥落
+## id =	38003	ウラリスクハイヴの陥落
+## id =	38004	ヴェリスクハイヴの陥落
+## id =	38005	ミンスクハイヴの陥落
+## id =	38006	エキストゥバスハイヴの陥落
+## id =	38007	スルグードハイヴの陥落
+## id =	38008	ロヴァニエミハイヴの陥落
+## id =	38009	アンバールハイヴの陥落
+## id =	38010	ノギンスクハイヴの陥落
+## id =	38011	ブタペストハイヴの陥落
+## id =	38012	リヨンハイヴの陥落
+## id =	38013	ボパールハイヴの陥落
+## id =	38014	敦煌ハイヴの陥落
+## id =	38015	クラスノヤルスクハイヴの陥落
+## id =	38016	重慶ハイヴの陥落
+## id =	38017	マンダレーハイヴの陥落
+## id =	38018	ウランバートルハイヴの陥落
+## id =	38019	ブラゴエスチェンスクハイヴの陥落
+## id =	38020	鉄原ハイヴの陥落
+## id =	38021	佐渡島ハイヴの陥落
+## id =	38022	横浜ハイヴの陥落
+## id =	38023	オリョクミンスクハイヴの陥落
+## id =	38024	ハタンガハイヴの陥落
+## id =	38025	ヴェルホヤンスクハイヴの陥落
+## id =	38026	エヴェンスクハイヴの陥落
+## id =	38027	ロンドンドハイヴの陥落
+## id =	38028	ダブリンハイヴの陥落
+## id =	38029	レイキャヴィハイヴの陥落
+## id =	38030	グリーンランドハイヴの陥落
+## id =	38031	バミューダハイヴの陥落
+## id =	38032	アゾレスハイヴの陥落
+## id =	38033	パレルモハイヴの陥落
+## id =	38034	カルタハイヴの陥落
+## id =	38035	アディスアベバハイヴの陥落
+## id =	38036	エリザベートヴィルハイヴの陥落
+## id =	38037	ヨハネスブルクハイヴの陥落
+## id =	38038	ガシャカハイヴの陥落
+## id =	38039	ダカールハイヴの陥落
+## id =	38040	トリポリハイヴの陥落
+## id =	38041	アルジェハイヴの陥落
+## id =	38042	タマタブハイヴの陥落
+## id =	38043	シンガポールハイヴの陥落
+## id =	38044	バコンハイヴの陥落
+## id =	38045	メンディハイヴの陥落
+## id =	38046	マニラハイヴの陥落
+## id =	38047	台北ハイヴの陥落
+## id =	38048	キャンベラハイヴの陥落
+## id =	38049	ダーウィンハイヴの陥落
+## id =	38050	ニュープリマスハイヴの陥落
+## id =	38051	グアムハイヴの陥落
+## id =	38052	ホノルルハイヴの陥落
+## id =	38053	コロンボハイヴの陥落
+## id =	38054	オハハイヴの陥落
+## id =	38055	秋田ハイヴの陥落
+## id =	38056	カムチャッカハイヴの陥落
+## id =	38057	ベセルハイヴの陥落
+## id =	38058	エドモントンハイヴの陥落
+## id =	38059	オタワハイヴの陥落
+## id =	38060	ソルトレイクハイヴの陥落
+## id =	38061	リンカーンハイヴの陥落
+## id =	38062	ダラスハイヴの陥落
+## id =	38063	シカゴハイヴの陥落
+## id =	38064	マコンハイヴの陥落
+## id =	38065	ワシントンハイヴの陥落
+## id =	38066	レオンハイヴの陥落
+## id =	38067	カマグエイハイヴの陥落
+## id =	38068	パナマハイヴの陥落
+## id =	38069	マナカブルハイヴの陥落
+## id =	38070	ゴイアスハイヴの陥落
+## id =	38071	メンドーサハイヴの陥落
+##
+##############################################################
+
+event = {
+	id = 38001
+	random = no
+	country = U06
+	trigger = {
+                flag = Kashgar_Hive
+                technology = 7010
+			control = { province = 1431 data = -1 }
+	}
+
+	name = "カシュガルハイヴの陥落"
+	desc = "EVT_38001_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }               
+		command = { type = construct which = infrastructure where = 1431 value = -100 }
+		command = { type = construct which = ic where = 1431 value = -10 }
+		command = { type = construct which = coastal_fort where = 1431 value = -10 }
+		command = { type = construct which = land_fort where = 1431 value = -10 }
+		command = { type = construct which = flak where = 1431 value = -10 }
+		command = { type = construct which = air_base where = 1431 value = -10 }
+		command = { type = construct which = naval_base where = 1431 value = -10 }
+		command = { type = construct which = radar_station where = 1431 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1431 value = -10 }
+		command = { type = construct which = rocket_test where = 1431 value = -10 }
+                command = { type = clrflag which = Kashgar_Hive }
+	}
+}
+
+event = {
+	id = 38002
+	random = no
+	country = U06
+	trigger = {
+                flag = Mashhad_Hive
+                technology = 7010
+			control = { province  = 1500 data = -1 }
+	}
+
+	name = "マシュハドハイヴの陥落"
+	desc = "EVT_38002_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }               
+		command = { type = construct which = infrastructure where = 1500 value = -100 }
+		command = { type = construct which = ic where = 1500 value = -10 }
+		command = { type = construct which = coastal_fort where = 1500 value = -10 }
+		command = { type = construct which = land_fort where = 1500 value = -10 }
+		command = { type = construct which = flak where = 1500 value = -10 }
+		command = { type = construct which = air_base where = 1500 value = -10 }
+		command = { type = construct which = naval_base where = 1500 value = -10 }
+		command = { type = construct which = radar_station where = 1500 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1500 value = -10 }
+		command = { type = construct which = rocket_test where = 1500 value = -10 }
+                command = { type = clrflag which = Mashhad_Hive }
+	}
+}
+
+event = {
+	id = 38003
+	random = no
+	country = U06
+	trigger = {
+                flag = Uralsk_Hive                
+                technology = 7010
+			control = { province  = 1568 data = -1 }
+	}
+
+	name = "ウラリスクハイヴの陥落"
+	desc = "EVT_38003_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1568 value = -100 }
+		command = { type = construct which = ic where = 1568 value = -10 }
+		command = { type = construct which = coastal_fort where = 1568 value = -10 }
+		command = { type = construct which = land_fort where = 1568 value = -10 }
+		command = { type = construct which = flak where = 1568 value = -10 }
+		command = { type = construct which = air_base where = 1568 value = -10 }
+		command = { type = construct which = naval_base where = 1568 value = -10 }
+		command = { type = construct which = radar_station where = 1568 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1568 value = -10 }
+		command = { type = construct which = rocket_test where = 1568 value = -10 }
+                command = { type = clrflag which = Uralsk_Hive }
+	}
+}
+
+
+event = {
+	id = 38004
+	random = no
+	country = U06
+	trigger = {
+                flag = Velsk_Hive                
+                technology = 7010
+			control = { province  = 1156 data = -1 }
+	}
+
+	name = "ヴェリスクハイヴの陥落"
+	desc = "EVT_38004_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1156 value = -100 }
+		command = { type = construct which = ic where = 1156 value = -10 }
+		command = { type = construct which = coastal_fort where = 1156 value = -10 }
+		command = { type = construct which = land_fort where = 1156 value = -10 }
+		command = { type = construct which = flak where = 1156 value = -10 }
+		command = { type = construct which = air_base where = 1156 value = -10 }
+		command = { type = construct which = naval_base where = 1156 value = -10 }
+		command = { type = construct which = radar_station where = 1156 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1156 value = -10 }
+		command = { type = construct which = rocket_test where = 1156 value = -10 }
+                command = { type = clrflag which = Velsk_Hive }
+	}
+}
+
+
+event = {
+	id = 38005
+	random = no
+	country = U06
+	trigger = {
+                flag = Minsk_Hive                
+                technology = 7010
+			control = { province  = 212 data = -1 }
+	}
+
+	name = "ミンスクハイヴの陥落"
+	desc = "EVT_38005_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 212 value = -100 }
+		command = { type = construct which = ic where = 212 value = -10 }
+		command = { type = construct which = coastal_fort where = 212 value = -10 }
+		command = { type = construct which = land_fort where = 212 value = -10 }
+		command = { type = construct which = flak where = 212 value = -10 }
+		command = { type = construct which = air_base where = 212 value = -10 }
+		command = { type = construct which = naval_base where = 212 value = -10 }
+		command = { type = construct which = radar_station where = 212 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 212 value = -10 }
+		command = { type = construct which = rocket_test where = 212 value = -10 }
+                command = { type = clrflag which = Minsk_Hive }
+	}
+}
+
+event = {
+	id = 38006
+	random = no
+	country = U06
+	trigger = {
+                flag = Ekibastuz_Hive                
+                technology = 7010
+			control = { province  = 1551 data = -1 }
+	}
+
+	name = "エキバストゥズハイヴの陥落"
+	desc = "EVT_38006_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1551 value = -100 }
+		command = { type = construct which = ic where = 1551 value = -10 }
+		command = { type = construct which = coastal_fort where = 1551 value = -10 }
+		command = { type = construct which = land_fort where = 1551 value = -10 }
+		command = { type = construct which = flak where = 1551 value = -10 }
+		command = { type = construct which = air_base where = 1551 value = -10 }
+		command = { type = construct which = naval_base where = 1551 value = -10 }
+		command = { type = construct which = radar_station where = 1551 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1551 value = -10 }
+		command = { type = construct which = rocket_test where = 1551 value = -10 }
+                command = { type = clrflag which = Ekibastuz_Hive }
+	}
+}
+
+
+event = {
+	id = 38007
+	random = no
+	country = U06
+	trigger = {
+                flag = Surgut_Hive
+                technology = 7010
+			control = { province  = 1557 data = -1 }
+	}
+
+	name = "スルグートハイヴの陥落"
+	desc = "EVT_38007_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1557 value = -100 }
+		command = { type = construct which = ic where = 1557 value = -10 }
+		command = { type = construct which = coastal_fort where = 1557 value = -10 }
+		command = { type = construct which = land_fort where = 1557 value = -10 }
+		command = { type = construct which = flak where = 1557 value = -10 }
+		command = { type = construct which = air_base where = 1557 value = -10 }
+		command = { type = construct which = naval_base where = 1557 value = -10 }
+		command = { type = construct which = radar_station where = 1557 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1557 value = -10 }
+		command = { type = construct which = rocket_test where = 1557 value = -10 }
+                command = { type = clrflag which = Surgut_Hive }
+	}
+}
+
+
+event = {
+	id = 38008
+	random = no
+	country = U06
+	trigger = {
+                flag = Rovaniemi_Hive
+                technology = 7010
+			control = { province  = 130 data = -1 }
+	}
+
+	name = "ロヴァニエミハイヴの陥落"
+	desc = "EVT_38008_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 130 value = -100 }
+		command = { type = construct which = ic where = 130 value = -10 }
+		command = { type = construct which = coastal_fort where = 130 value = -10 }
+		command = { type = construct which = land_fort where = 130 value = -10 }
+		command = { type = construct which = flak where = 130 value = -10 }
+		command = { type = construct which = air_base where = 130 value = -10 }
+		command = { type = construct which = naval_base where = 130 value = -10 }
+		command = { type = construct which = radar_station where = 130 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 130 value = -10 }
+		command = { type = construct which = rocket_test where = 130 value = -10 }
+                command = { type = clrflag which = Rovaniemi_Hive }
+	}
+}
+
+
+event = {
+	id = 38009
+	random = no
+	country = U06
+	trigger = {
+                flag = Anbar_Hive
+                technology = 7010
+			control = { province  = 1864 data = -1 }
+	}
+
+	name = "アンバールハイヴの陥落"
+	desc = "EVT_38009_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1864 value = -100 }
+		command = { type = construct which = ic where = 1864 value = -10 }
+		command = { type = construct which = coastal_fort where = 1864 value = -10 }
+		command = { type = construct which = land_fort where = 1864 value = -10 }
+		command = { type = construct which = flak where = 1864 value = -10 }
+		command = { type = construct which = air_base where = 1864 value = -10 }
+		command = { type = construct which = naval_base where = 1864 value = -10 }
+		command = { type = construct which = radar_station where = 1864 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1864 value = -10 }
+		command = { type = construct which = rocket_test where = 1864 value = -10 }
+                command = { type = clrflag which = Anbar_Hive }
+	}
+}
+
+
+event = {
+	id = 38011
+	random = no
+	country = U06
+	trigger = {
+                flag = Budapest_Hive
+                technology = 7010
+			control = { province  = 457 data = -1 }
+	}
+
+	name = "ブダペストハイヴの陥落"
+	desc = "EVT_38011_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 457 value = -100 }
+		command = { type = construct which = ic where = 457 value = -10 }
+		command = { type = construct which = coastal_fort where = 457 value = -10 }
+		command = { type = construct which = land_fort where = 457 value = -10 }
+		command = { type = construct which = flak where = 457 value = -10 }
+		command = { type = construct which = air_base where = 457 value = -10 }
+		command = { type = construct which = naval_base where = 457 value = -10 }
+		command = { type = construct which = radar_station where = 457 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 457 value = -10 }
+		command = { type = construct which = rocket_test where = 457 value = -10 }
+                command = { type = clrflag which = Budapest_Hive }
+	}
+}
+
+
+event = {
+	id = 38012
+	random = no
+	country = U06
+	trigger = {
+                flag = Lyon_Hive
+                technology = 7010
+			control = { province  = 529 data = -1 }
+	}
+
+	name = "リヨンハイヴの陥落"
+	desc = "EVT_38012_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 529 value = -100 }
+		command = { type = construct which = ic where = 529 value = -10 }
+		command = { type = construct which = coastal_fort where = 529 value = -10 }
+		command = { type = construct which = land_fort where = 529 value = -10 }
+		command = { type = construct which = flak where = 529 value = -10 }
+		command = { type = construct which = air_base where = 529 value = -10 }
+		command = { type = construct which = naval_base where = 529 value = -10 }
+		command = { type = construct which = radar_station where = 529 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 529 value = -10 }
+		command = { type = construct which = rocket_test where = 529 value = -10 }
+                command = { type = clrflag which = Lyon_Hive }
+	}
+}
+
+event = {
+	id = 38013
+	random = no
+	country = U06
+	trigger = {
+                flag = Bhopal_Hive
+                technology = 7010
+			control = { province  = 722 data = -1 }
+	}
+
+	name = "ボパールハイヴの陥落"
+	desc = "EVT_38013_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 722 value = -100 }
+		command = { type = construct which = ic where = 722 value = -10 }
+		command = { type = construct which = coastal_fort where = 722 value = -10 }
+		command = { type = construct which = land_fort where = 722 value = -10 }
+		command = { type = construct which = flak where = 722 value = -10 }
+		command = { type = construct which = air_base where = 722 value = -10 }
+		command = { type = construct which = naval_base where = 722 value = -10 }
+		command = { type = construct which = radar_station where = 722 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 722 value = -10 }
+		command = { type = construct which = rocket_test where = 722 value = -10 }
+                command = { type = clrflag which = Bhopal_Hive }
+	}
+}
+
+event = {
+	id = 38014
+	random = no
+	country = U06
+	trigger = {
+                flag = Dunhuang_Hive
+                technology = 7010
+			control = { province  = 1441 data = -1 }
+	}
+
+	name = "敦煌ハイヴの陥落"
+	desc = "EVT_38014_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1441 value = -100 }
+		command = { type = construct which = ic where = 1441 value = -10 }
+		command = { type = construct which = coastal_fort where = 1441 value = -10 }
+		command = { type = construct which = land_fort where = 1441 value = -10 }
+		command = { type = construct which = flak where = 1441 value = -10 }
+		command = { type = construct which = air_base where = 1441 value = -10 }
+		command = { type = construct which = naval_base where = 1441 value = -10 }
+		command = { type = construct which = radar_station where = 1441 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1441 value = -10 }
+		command = { type = construct which = rocket_test where = 1441 value = -10 }
+                command = { type = clrflag which = Dunhuang_Hive }
+	}
+}
+
+
+event = {
+	id = 38015
+	random = no
+	country = U06
+	trigger = {
+                flag = Krasnoyarsk_Hive
+                  technology = 7010
+			control = { province  = 1560 data = -1 }
+	}
+
+	name = "クラスノヤルスクハイヴの陥落"
+	desc = "EVT_38015_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1560 value = -100 }
+		command = { type = construct which = ic where = 1560 value = -10 }
+		command = { type = construct which = coastal_fort where = 1560 value = -10 }
+		command = { type = construct which = land_fort where = 1560 value = -10 }
+		command = { type = construct which = flak where = 1560 value = -10 }
+		command = { type = construct which = air_base where = 1560 value = -10 }
+		command = { type = construct which = naval_base where = 1560 value = -10 }
+		command = { type = construct which = radar_station where = 1560 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1560 value = -10 }
+		command = { type = construct which = rocket_test where = 1560 value = -10 }
+                command = { type = clrflag which = Krasnoyarsk_Hive }
+	}
+}
+
+
+event = {
+	id = 38016
+	random = no
+	country = U06
+	trigger = {
+                flag = Chongqing_Hive
+                technology = 7010
+			control = { province  = 2551 data = -1 }
+	}
+
+	name = "重慶ハイヴの陥落"
+	desc = "EVT_38016_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 2551 value = -100 }
+		command = { type = construct which = ic where = 2551 value = -10 }
+		command = { type = construct which = coastal_fort where = 2551 value = -10 }
+		command = { type = construct which = land_fort where = 2551 value = -10 }
+		command = { type = construct which = flak where = 2551 value = -10 }
+		command = { type = construct which = air_base where = 2551 value = -10 }
+		command = { type = construct which = naval_base where = 2551 value = -10 }
+		command = { type = construct which = radar_station where = 2551 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 2551 value = -10 }
+		command = { type = construct which = rocket_test where = 2551 value = -10 }
+                command = { type = clrflag which = Chongqing_Hive }
+	}
+}
+
+
+event = {
+	id = 38017
+	random = no
+	country = U06
+	trigger = {
+                flag = Mandalay_Hive
+                technology = 7010
+			control = { province  = 1300 data = -1 }
+	}
+
+	name = "マンダレーハイヴの陥落"
+	desc = "EVT_38017_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1300 value = -100 }
+		command = { type = construct which = ic where = 1300 value = -10 }
+		command = { type = construct which = coastal_fort where = 1300 value = -10 }
+		command = { type = construct which = land_fort where = 1300 value = -10 }
+		command = { type = construct which = flak where = 1300 value = -10 }
+		command = { type = construct which = air_base where = 1300 value = -10 }
+		command = { type = construct which = naval_base where = 1300 value = -10 }
+		command = { type = construct which = radar_station where = 1300 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1300 value = -10 }
+		command = { type = construct which = rocket_test where = 1300 value = -10 }
+                command = { type = clrflag which = Mandalay_Hive }
+	}
+}
+
+
+event = {
+	id = 38018
+	random = no
+	country = U06
+	trigger = {
+                flag = Ulanbator_Hive
+                technology = 7010
+			control = { province  = 1404 data = -1 }
+	}
+
+	name = "ウランバートルハイヴの陥落"
+	desc = "EVT_38018_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1404 value = -100 }
+		command = { type = construct which = ic where = 1404 value = -10 }
+		command = { type = construct which = coastal_fort where = 1404 value = -10 }
+		command = { type = construct which = land_fort where = 1404 value = -10 }
+		command = { type = construct which = flak where = 1404 value = -10 }
+		command = { type = construct which = air_base where = 1404 value = -10 }
+		command = { type = construct which = naval_base where = 1404 value = -10 }
+		command = { type = construct which = radar_station where = 1404 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1404 value = -10 }
+		command = { type = construct which = rocket_test where = 1404 value = -10 }
+                command = { type = clrflag which = Ulanbator_Hive }
+	}
+}
+
+
+event = {
+	id = 38019
+	random = no
+	country = U06
+	trigger = {
+                flag = Blagoveshchensk_Hive
+                technology = 7010
+			control = { province  = 1528 data = -1 }
+	}
+
+	name = "ブラゴエスチェンスクハイヴの陥落"
+	desc = "EVT_38019_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1528 value = -100 }
+		command = { type = construct which = ic where = 1528 value = -10 }
+		command = { type = construct which = coastal_fort where = 1528 value = -10 }
+		command = { type = construct which = land_fort where = 1528 value = -10 }
+		command = { type = construct which = flak where = 1528 value = -10 }
+		command = { type = construct which = air_base where = 1528 value = -10 }
+		command = { type = construct which = naval_base where = 1528 value = -10 }
+		command = { type = construct which = radar_station where = 1528 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1528 value = -10 }
+		command = { type = construct which = rocket_test where = 1528 value = -10 }
+                command = { type = clrflag which = Blagoveshchensk_Hive }
+	}
+}
+
+
+event = {
+	id = 38020
+	random = no
+	country = U06
+	trigger = {
+                flag = Cheorwon_Hive
+                technology = 7010
+			control = { province  = 1199 data = -1 }
+	}
+
+	name = "鉄原ハイヴの陥落"
+	desc = "EVT_38020_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1199 value = -100 }
+		command = { type = construct which = ic where = 1199 value = -10 }
+		command = { type = construct which = coastal_fort where = 1199 value = -10 }
+		command = { type = construct which = land_fort where = 1199 value = -10 }
+		command = { type = construct which = flak where = 1199 value = -10 }
+		command = { type = construct which = air_base where = 1199 value = -10 }
+		command = { type = construct which = naval_base where = 1199 value = -10 }
+		command = { type = construct which = radar_station where = 1199 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1199 value = -10 }
+		command = { type = construct which = rocket_test where = 1199 value = -10 }
+                command = { type = clrflag which = Cheorwon_Hive }
+	}
+}
+
+event = {
+	id = 38021
+	random = no
+	country = U06
+	trigger = {
+                flag = Sadogashima_Hive
+                technology = 7010
+			control = { province  = 1185 data = -1 }
+	}
+
+	name = "佐渡島ハイヴの陥落"
+	desc = "EVT_38021_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1185 value = -100 }
+		command = { type = construct which = ic where = 1185 value = -10 }
+		command = { type = construct which = coastal_fort where = 1185 value = -10 }
+		command = { type = construct which = land_fort where = 1185 value = -10 }
+		command = { type = construct which = flak where = 1185 value = -10 }
+		command = { type = construct which = air_base where = 1185 value = -10 }
+		command = { type = construct which = naval_base where = 1185 value = -10 }
+		command = { type = construct which = radar_station where = 1185 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1185 value = -10 }
+		command = { type = construct which = rocket_test where = 1185 value = -10 }
+                command = { type = clrflag which = Sadogashima_Hive }
+	}
+}
+
+event = {
+	id = 38022
+	random = no
+	country = U06
+	trigger = {
+                flag = Yokohama_Hive
+                technology = 7010
+			control = { province  = 1193 data = -1 }
+	}
+
+	name = "横浜ハイヴの陥落"
+	desc = "EVT_38022_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1193 value = -100 }
+		command = { type = construct which = ic where = 1193 value = -10 }
+		command = { type = construct which = coastal_fort where = 1193 value = -10 }
+		command = { type = construct which = land_fort where = 1193 value = -10 }
+		command = { type = construct which = flak where = 1193 value = -10 }
+		command = { type = construct which = air_base where = 1193 value = -10 }
+		command = { type = construct which = naval_base where = 1193 value = -10 }
+		command = { type = construct which = radar_station where = 1193 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1193 value = -10 }
+		command = { type = construct which = rocket_test where = 1193 value = -10 }
+                command = { type = clrflag which = Yokohama_Hive }
+	}
+}
+
+event = {
+	id = 38023
+	random = no
+	country = U06
+	trigger = {
+                flag = Olyokminsk_Hive
+                technology = 7010
+			control = { province  = 2660 data = -1 }
+	}
+
+	name = "オリョクミンスクハイヴの陥落"
+	desc = "EVT_38023_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 2660 value = -100 }
+		command = { type = construct which = ic where = 2660 value = -10 }
+		command = { type = construct which = coastal_fort where = 2660 value = -10 }
+		command = { type = construct which = land_fort where = 2660 value = -10 }
+		command = { type = construct which = flak where = 2660 value = -10 }
+		command = { type = construct which = air_base where = 2660 value = -10 }
+		command = { type = construct which = naval_base where = 2660 value = -10 }
+		command = { type = construct which = radar_station where = 2660 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 2660 value = -10 }
+		command = { type = construct which = rocket_test where = 2660 value = -10 }
+                command = { type = clrflag which = Olyokminsk_Hive }
+	}
+}
+
+
+#event = {
+#	id = 38024
+#	random = no
+#	country = U06
+#	trigger = {
+#               technology = 7010
+#	   	NOT = {
+#			control = { province  = 1549 data = -1 }
+#                }
+#	}
+#
+#	name = "ハタンガハイヴの陥落"
+#	desc = "EVT_38024_DESC"
+#
+#	date = { day = 14 month = 2 year = 1900 }
+#	offset = 1
+#	deathdate = { day = 29 month = 11 year = 3001 }
+#
+#	action_a = {
+#		name = "大変結構！"
+#               command = { type = dissent value = -10 }
+#                command = { type = supplies value = 5000 }
+#                command = { type = construct which = land_fort where = 1549 value = -10 }
+#	}
+#}
+
+
+event = {
+	id = 38025
+	random = no
+	country = U06
+	trigger = {
+                flag = Verkhoyansk_Hive
+                technology = 7010
+			control = { province  = 2659 data = -1 }
+	}
+
+	name = "ヴェルホヤンスクハイヴの陥落"
+	desc = "EVT_38025_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 2659 value = -100 }
+		command = { type = construct which = ic where = 2659 value = -10 }
+		command = { type = construct which = coastal_fort where = 2659 value = -10 }
+		command = { type = construct which = land_fort where = 2659 value = -10 }
+		command = { type = construct which = flak where = 2659 value = -10 }
+		command = { type = construct which = air_base where = 2659 value = -10 }
+		command = { type = construct which = naval_base where = 2659 value = -10 }
+		command = { type = construct which = radar_station where = 2659 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 2659 value = -10 }
+		command = { type = construct which = rocket_test where = 2659 value = -10 }
+                command = { type = clrflag which = Verkhoyansk_Hive }
+	}
+}
+
+
+event = {
+	id = 38026
+	random = no
+	country = U06
+	trigger = {
+                flag = Evensk_Hive
+                technology = 7010
+			control = { province  = 2651 data = -1 }
+	}
+
+	name = "エヴェンスクハイヴの陥落"
+	desc = "EVT_38026_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 2651 value = -100 }
+		command = { type = construct which = ic where = 2651 value = -10 }
+		command = { type = construct which = coastal_fort where = 2651 value = -10 }
+		command = { type = construct which = land_fort where = 2651 value = -10 }
+		command = { type = construct which = flak where = 2651 value = -10 }
+		command = { type = construct which = air_base where = 2651 value = -10 }
+		command = { type = construct which = naval_base where = 2651 value = -10 }
+		command = { type = construct which = radar_station where = 2651 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 2651 value = -10 }
+		command = { type = construct which = rocket_test where = 2651 value = -10 }
+                command = { type = clrflag which = Evensk_Hive }
+	}
+}
+
+
+event = {
+	id = 38027
+	random = no
+	country = U06
+	trigger = {
+                flag = London_Hive
+                technology = 7010
+			control = { province  = 19 data = -1 }
+	}
+
+	name = "ロンドンハイヴの陥落"
+	desc = "EVT_38027_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 19 value = -100 }
+		command = { type = construct which = ic where = 19 value = -10 }
+		command = { type = construct which = coastal_fort where = 19 value = -10 }
+		command = { type = construct which = land_fort where = 19 value = -10 }
+		command = { type = construct which = flak where = 19 value = -10 }
+		command = { type = construct which = air_base where = 19 value = -10 }
+		command = { type = construct which = naval_base where = 19 value = -10 }
+		command = { type = construct which = radar_station where = 19 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 19 value = -10 }
+		command = { type = construct which = rocket_test where = 19 value = -10 }
+                command = { type = clrflag which = London_Hive }
+	}
+}
+
+event = {
+	id = 38028
+	random = no
+	country = U06
+	trigger = {
+                flag = Dublin_Hive
+                technology = 7010
+			control = { province  = 30 data = -1 }
+	}
+
+	name = "ダブリンハイヴの陥落"
+	desc = "EVT_38028_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 30 value = -100 }
+		command = { type = construct which = ic where = 30 value = -10 }
+		command = { type = construct which = coastal_fort where = 30 value = -10 }
+		command = { type = construct which = land_fort where = 30 value = -10 }
+		command = { type = construct which = flak where = 30 value = -10 }
+		command = { type = construct which = air_base where = 30 value = -10 }
+		command = { type = construct which = naval_base where = 30 value = -10 }
+		command = { type = construct which = radar_station where = 30 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 30 value = -10 }
+		command = { type = construct which = rocket_test where = 30 value = -10 }
+                command = { type = clrflag which = Dublin_Hive }
+	}
+}
+
+event = {
+	id = 38029
+	random = no
+	country = U06
+	trigger = {
+                flag = Reykjavik_Hive
+                technology = 7010
+			control = { province  = 1 data = -1 }
+	}
+
+	name = "レイキャビクハイヴの陥落"
+	desc = "EVT_38029_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1 value = -100 }
+		command = { type = construct which = ic where = 1 value = -10 }
+		command = { type = construct which = coastal_fort where = 1 value = -10 }
+		command = { type = construct which = land_fort where = 1 value = -10 }
+		command = { type = construct which = flak where = 1 value = -10 }
+		command = { type = construct which = air_base where = 1 value = -10 }
+		command = { type = construct which = naval_base where = 1 value = -10 }
+		command = { type = construct which = radar_station where = 1 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1 value = -10 }
+		command = { type = construct which = rocket_test where = 1 value = -10 }
+                command = { type = clrflag which = Reykjavik_Hive }
+	}
+}
+
+event = {
+	id = 38030
+	random = no
+	country = U06
+	trigger = {
+                flag = Greenland_Hive
+                technology = 7010
+			control = { province  = 800 data = -1 }
+	}
+
+	name = "グリーンランドハイヴの陥落"
+	desc = "EVT_38030_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 800 value = -100 }
+		command = { type = construct which = ic where = 800 value = -10 }
+		command = { type = construct which = coastal_fort where = 800 value = -10 }
+		command = { type = construct which = land_fort where = 800 value = -10 }
+		command = { type = construct which = flak where = 800 value = -10 }
+		command = { type = construct which = air_base where = 800 value = -10 }
+		command = { type = construct which = naval_base where = 800 value = -10 }
+		command = { type = construct which = radar_station where = 800 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 800 value = -10 }
+		command = { type = construct which = rocket_test where = 800 value = -10 }
+                command = { type = clrflag which = Greenland_Hive }
+	}
+}
+
+event = {
+	id = 38031
+	random = no
+	country = U06
+	trigger = {
+                flag = Bermuda_Hive
+                technology = 7010
+			control = { province  = 538 data = -1 }
+	}
+
+	name = "バミューダハイヴの陥落"
+	desc = "EVT_38031_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 538 value = -100 }
+		command = { type = construct which = ic where = 538 value = -10 }
+		command = { type = construct which = coastal_fort where = 538 value = -10 }
+		command = { type = construct which = land_fort where = 538 value = -10 }
+		command = { type = construct which = flak where = 538 value = -10 }
+		command = { type = construct which = air_base where = 538 value = -10 }
+		command = { type = construct which = naval_base where = 538 value = -10 }
+		command = { type = construct which = radar_station where = 538 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 538 value = -10 }
+		command = { type = construct which = rocket_test where = 538 value = -10 }
+                command = { type = clrflag which = Bermuda_Hive }
+	}
+}
+
+event = {
+	id = 38032
+	random = no
+	country = U06
+	trigger = {
+                flag = Azores_Hive
+                technology = 7010
+			control = { province  = 1867 data = -1 }
+	}
+
+	name = "アゾレスハイヴの陥落"
+	desc = "EVT_38032_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1867 value = -100 }
+		command = { type = construct which = ic where = 1867 value = -10 }
+		command = { type = construct which = coastal_fort where = 1867 value = -10 }
+		command = { type = construct which = land_fort where = 1867 value = -10 }
+		command = { type = construct which = flak where = 1867 value = -10 }
+		command = { type = construct which = air_base where = 1867 value = -10 }
+		command = { type = construct which = naval_base where = 1867 value = -10 }
+		command = { type = construct which = radar_station where = 1867 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1867 value = -10 }
+		command = { type = construct which = rocket_test where = 1867 value = -10 }
+                command = { type = clrflag which = Azores_Hive }
+	}
+}
+
+event = {
+	id = 38033
+	random = no
+	country = U06
+	trigger = {
+                flag = Palermo_Hive
+                technology = 7010
+			control = { province  = 525 data = -1 }
+	}
+
+	name = "パレルモハイヴの陥落"
+	desc = "EVT_38033_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 525 value = -100 }
+		command = { type = construct which = ic where = 525 value = -10 }
+		command = { type = construct which = coastal_fort where = 525 value = -10 }
+		command = { type = construct which = land_fort where = 525 value = -10 }
+		command = { type = construct which = flak where = 525 value = -10 }
+		command = { type = construct which = air_base where = 525 value = -10 }
+		command = { type = construct which = naval_base where = 525 value = -10 }
+		command = { type = construct which = radar_station where = 525 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 525 value = -10 }
+		command = { type = construct which = rocket_test where = 525 value = -10 }
+                command = { type = clrflag which = Palermo_Hive }
+	}
+}
+
+event = {
+	id = 38034
+	random = no
+	country = U06
+	trigger = {
+                flag = Carthage_Hive
+                technology = 7010
+			control = { province  = 939 data = -1 }
+	}
+
+	name = "カルタハイヴの陥落"
+	desc = "EVT_38034_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 939 value = -100 }
+		command = { type = construct which = ic where = 939 value = -10 }
+		command = { type = construct which = coastal_fort where = 939 value = -10 }
+		command = { type = construct which = land_fort where = 939 value = -10 }
+		command = { type = construct which = flak where = 939 value = -10 }
+		command = { type = construct which = air_base where = 939 value = -10 }
+		command = { type = construct which = naval_base where = 939 value = -10 }
+		command = { type = construct which = radar_station where = 939 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 939 value = -10 }
+		command = { type = construct which = rocket_test where = 939 value = -10 }
+                command = { type = clrflag which = Carthage_Hive }
+	}
+}
+
+event = {
+	id = 38035
+	random = no
+	country = U06
+	trigger = {
+                flag = Adisuabeba_Hive
+                technology = 7010
+			control = { province  = 1046 data = -1 }
+	}
+
+	name = "アディスアベバハイヴの陥落"
+	desc = "EVT_38035_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1046 value = -100 }
+		command = { type = construct which = ic where = 1046 value = -10 }
+		command = { type = construct which = coastal_fort where = 1046 value = -10 }
+		command = { type = construct which = land_fort where = 1046 value = -10 }
+		command = { type = construct which = flak where = 1046 value = -10 }
+		command = { type = construct which = air_base where = 1046 value = -10 }
+		command = { type = construct which = naval_base where = 1046 value = -10 }
+		command = { type = construct which = radar_station where = 1046 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1046 value = -10 }
+		command = { type = construct which = rocket_test where = 1046 value = -10 }
+                command = { type = clrflag which = Adisuabeba_Hive }
+	}
+}
+
+event = {
+	id = 38036
+	random = no
+	country = U06
+	trigger = {
+                flag = ElisabethVille_Hive
+                technology = 7010
+			control = { province  = 1144 data = -1 }
+	}
+
+	name = "エリザベートヴィルハイヴの陥落"
+	desc = "EVT_38036_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1144 value = -100 }
+		command = { type = construct which = ic where = 1144 value = -10 }
+		command = { type = construct which = coastal_fort where = 1144 value = -10 }
+		command = { type = construct which = land_fort where = 1144 value = -10 }
+		command = { type = construct which = flak where = 1144 value = -10 }
+		command = { type = construct which = air_base where = 1144 value = -10 }
+		command = { type = construct which = naval_base where = 1144 value = -10 }
+		command = { type = construct which = radar_station where = 1144 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1144 value = -10 }
+		command = { type = construct which = rocket_test where = 1144 value = -10 }
+                command = { type = clrflag which = ElisabethVille_Hive }
+	}
+}
+
+event = {
+	id = 38037
+	random = no
+	country = U06
+	trigger = {
+                flag = Johannesburg_Hive
+                technology = 7010
+			control = { province  = 1120 data = -1 }
+	}
+
+	name = "ヨハネスブルクハイヴの陥落"
+	desc = "EVT_38037_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1120 value = -100 }
+		command = { type = construct which = ic where = 1120 value = -10 }
+		command = { type = construct which = coastal_fort where = 1120 value = -10 }
+		command = { type = construct which = land_fort where = 1120 value = -10 }
+		command = { type = construct which = flak where = 1120 value = -10 }
+		command = { type = construct which = air_base where = 1120 value = -10 }
+		command = { type = construct which = naval_base where = 1120 value = -10 }
+		command = { type = construct which = radar_station where = 1120 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1120 value = -10 }
+		command = { type = construct which = rocket_test where = 1120 value = -10 }
+                command = { type = clrflag which = Johannesburg_Hive }
+	}
+}
+
+event = {
+	id = 38038
+	random = no
+	country = U06
+	trigger = {
+                flag = Gashaka_Hive
+                technology = 7010
+			control = { province  = 1012 data = -1 }
+	}
+
+	name = "ガシャカハイヴの陥落"
+	desc = "EVT_38038_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1012 value = -100 }
+		command = { type = construct which = ic where = 1012 value = -10 }
+		command = { type = construct which = coastal_fort where = 1012 value = -10 }
+		command = { type = construct which = land_fort where = 1012 value = -10 }
+		command = { type = construct which = flak where = 1012 value = -10 }
+		command = { type = construct which = air_base where = 1012 value = -10 }
+		command = { type = construct which = naval_base where = 1012 value = -10 }
+		command = { type = construct which = radar_station where = 1012 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1012 value = -10 }
+		command = { type = construct which = rocket_test where = 1012 value = -10 }
+                command = { type = clrflag which = Gashaka_Hive }
+	}
+}
+
+event = {
+	id = 38039
+	random = no
+	country = U06
+	trigger = {
+                flag = Dakar_Hive
+                technology = 7010
+			control = { province  = 981 data = -1 }
+	}
+
+	name = "ダカールハイヴの陥落"
+	desc = "EVT_38039_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 981 value = -100 }
+		command = { type = construct which = ic where = 981 value = -10 }
+		command = { type = construct which = coastal_fort where = 981 value = -10 }
+		command = { type = construct which = land_fort where = 981 value = -10 }
+		command = { type = construct which = flak where = 981 value = -10 }
+		command = { type = construct which = air_base where = 981 value = -10 }
+		command = { type = construct which = naval_base where = 981 value = -10 }
+		command = { type = construct which = radar_station where = 981 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 981 value = -10 }
+		command = { type = construct which = rocket_test where = 981 value = -10 }
+                command = { type = clrflag which = Dakar_Hive }
+	}
+}
+
+event = {
+	id = 38040
+	random = no
+	country = U06
+	trigger = {
+                flag = Tripoli_Hive
+                technology = 7010
+			control = { province  = 932 data = -1 }
+	}
+
+	name = "トリポリハイヴの陥落"
+	desc = "EVT_38040_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 932 value = -100 }
+		command = { type = construct which = ic where = 932 value = -10 }
+		command = { type = construct which = coastal_fort where = 932 value = -10 }
+		command = { type = construct which = land_fort where = 932 value = -10 }
+		command = { type = construct which = flak where = 932 value = -10 }
+		command = { type = construct which = air_base where = 932 value = -10 }
+		command = { type = construct which = naval_base where = 932 value = -10 }
+		command = { type = construct which = radar_station where = 932 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 932 value = -10 }
+		command = { type = construct which = rocket_test where = 932 value = -10 }
+                command = { type = clrflag which = Tripoli_Hive }
+	}
+}
+
+event = {
+	id = 38041
+	random = no
+	country = U06
+	trigger = {
+                flag = Alger_Hive
+                technology = 7010
+			control = { province  = 949 data = -1 }
+	}
+
+	name = "アルジェハイヴの陥落"
+	desc = "EVT_38041_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 949 value = -100 }
+		command = { type = construct which = ic where = 949 value = -10 }
+		command = { type = construct which = coastal_fort where = 949 value = -10 }
+		command = { type = construct which = land_fort where = 949 value = -10 }
+		command = { type = construct which = flak where = 949 value = -10 }
+		command = { type = construct which = air_base where = 949 value = -10 }
+		command = { type = construct which = naval_base where = 949 value = -10 }
+		command = { type = construct which = radar_station where = 949 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 949 value = -10 }
+		command = { type = construct which = rocket_test where = 949 value = -10 }
+                command = { type = clrflag which = Alger_Hive }
+	}
+}
+
+event = {
+	id = 38042
+	random = no
+	country = U06
+	trigger = {
+                flag = Tamatave_Hive
+                technology = 7010
+			control = { province  = 1137 data = -1 }
+	}
+
+	name = "タマタブハイヴの陥落"
+	desc = "EVT_38042_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1137 value = -100 }
+		command = { type = construct which = ic where = 1137 value = -10 }
+		command = { type = construct which = coastal_fort where = 1137 value = -10 }
+		command = { type = construct which = land_fort where = 1137 value = -10 }
+		command = { type = construct which = flak where = 1137 value = -10 }
+		command = { type = construct which = air_base where = 1137 value = -10 }
+		command = { type = construct which = naval_base where = 1137 value = -10 }
+		command = { type = construct which = radar_station where = 1137 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1137 value = -10 }
+		command = { type = construct which = rocket_test where = 1137 value = -10 }
+                command = { type = clrflag which = Tamatave_Hive }
+	}
+}
+
+event = {
+	id = 38043
+	random = no
+	country = U06
+	trigger = {
+                flag = Singapore_Hive
+                technology = 7010
+			control = { province  = 1353 data = -1 }
+	}
+
+	name = "シンガポールハイヴの陥落"
+	desc = "EVT_38043_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1353 value = -100 }
+		command = { type = construct which = ic where = 1353 value = -10 }
+		command = { type = construct which = coastal_fort where = 1353 value = -10 }
+		command = { type = construct which = land_fort where = 1353 value = -10 }
+		command = { type = construct which = flak where = 1353 value = -10 }
+		command = { type = construct which = air_base where = 1353 value = -10 }
+		command = { type = construct which = naval_base where = 1353 value = -10 }
+		command = { type = construct which = radar_station where = 1353 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1353 value = -10 }
+		command = { type = construct which = rocket_test where = 1353 value = -10 }
+                command = { type = clrflag which = Singapore_Hive }
+	}
+}
+
+event = {
+	id = 38044
+	random = no
+	country = U06
+	trigger = {
+                flag = Pakon_Hive
+                technology = 7010
+			control = { province  = 1645 data = -1 }
+	}
+
+	name = "パコンハイヴの陥落"
+	desc = "EVT_38044_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1645 value = -100 }
+		command = { type = construct which = ic where = 1645 value = -10 }
+		command = { type = construct which = coastal_fort where = 1645 value = -10 }
+		command = { type = construct which = land_fort where = 1645 value = -10 }
+		command = { type = construct which = flak where = 1645 value = -10 }
+		command = { type = construct which = air_base where = 1645 value = -10 }
+		command = { type = construct which = naval_base where = 1645 value = -10 }
+		command = { type = construct which = radar_station where = 1645 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1645 value = -10 }
+		command = { type = construct which = rocket_test where = 1645 value = -10 }
+                command = { type = clrflag which = Pakon_Hive }
+	}
+}
+
+event = {
+	id = 38045
+	random = no
+	country = U06
+	trigger = {
+                flag = Mendi_Hive
+                technology = 7010
+			control = { province  = 1678 data = -1 }
+	}
+
+	name = "メンディハイヴの陥落"
+	desc = "EVT_38045_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1678 value = -100 }
+		command = { type = construct which = ic where = 1678 value = -10 }
+		command = { type = construct which = coastal_fort where = 1678 value = -10 }
+		command = { type = construct which = land_fort where = 1678 value = -10 }
+		command = { type = construct which = flak where = 1678 value = -10 }
+		command = { type = construct which = air_base where = 1678 value = -10 }
+		command = { type = construct which = naval_base where = 1678 value = -10 }
+		command = { type = construct which = radar_station where = 1678 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1678 value = -10 }
+		command = { type = construct which = rocket_test where = 1678 value = -10 }
+                command = { type = clrflag which = Mendi_Hive }
+	}
+}
+
+event = {
+	id = 38046
+	random = no
+	country = U06
+	trigger = {
+                flag = Manila_Hive
+                technology = 7010
+			control = { province  = 1737 data = -1 }
+	}
+
+	name = "マニラハイヴの陥落"
+	desc = "EVT_38046_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1737 value = -100 }
+		command = { type = construct which = ic where = 1737 value = -10 }
+		command = { type = construct which = coastal_fort where = 1737 value = -10 }
+		command = { type = construct which = land_fort where = 1737 value = -10 }
+		command = { type = construct which = flak where = 1737 value = -10 }
+		command = { type = construct which = air_base where = 1737 value = -10 }
+		command = { type = construct which = naval_base where = 1737 value = -10 }
+		command = { type = construct which = radar_station where = 1737 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1737 value = -10 }
+		command = { type = construct which = rocket_test where = 1737 value = -10 }
+                command = { type = clrflag which = Manila_Hive }
+	}
+}
+
+event = {
+	id = 38047
+	random = no
+	country = U06
+	trigger = {
+                flag = Taipei_Hive
+                technology = 7010
+			control = { province  = 1323 data = -1 }
+	}
+
+	name = "台北ハイヴの陥落"
+	desc = "EVT_38047_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1323 value = -100 }
+		command = { type = construct which = ic where = 1323 value = -10 }
+		command = { type = construct which = coastal_fort where = 1323 value = -10 }
+		command = { type = construct which = land_fort where = 1323 value = -10 }
+		command = { type = construct which = flak where = 1323 value = -10 }
+		command = { type = construct which = air_base where = 1323 value = -10 }
+		command = { type = construct which = naval_base where = 1323 value = -10 }
+		command = { type = construct which = radar_station where = 1323 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1323 value = -10 }
+		command = { type = construct which = rocket_test where = 1323 value = -10 }
+                command = { type = clrflag which = Taipei_Hive }
+	}
+}
+
+event = {
+	id = 38048
+	random = no
+	country = U06
+	trigger = {
+                flag = Canberra_Hive
+                technology = 7010
+			control = { province  = 1727 data = -1 }
+	}
+
+	name = "キャンベラハイヴの陥落"
+	desc = "EVT_38048_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1727 value = -100 }
+		command = { type = construct which = ic where = 1727 value = -10 }
+		command = { type = construct which = coastal_fort where = 1727 value = -10 }
+		command = { type = construct which = land_fort where = 1727 value = -10 }
+		command = { type = construct which = flak where = 1727 value = -10 }
+		command = { type = construct which = air_base where = 1727 value = -10 }
+		command = { type = construct which = naval_base where = 1727 value = -10 }
+		command = { type = construct which = radar_station where = 1727 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1727 value = -10 }
+		command = { type = construct which = rocket_test where = 1727 value = -10 }
+                command = { type = clrflag which = Canberra_Hive }
+	}
+}
+
+event = {
+	id = 38049
+	random = no
+	country = U06
+	trigger = {
+                flag = Darwin_Hive
+                technology = 7010
+			control = { province  = 1703 data = -1 }
+	}
+
+	name = "ダーウィンハイヴの陥落"
+	desc = "EVT_38049_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1703 value = -100 }
+		command = { type = construct which = ic where = 1703 value = -10 }
+		command = { type = construct which = coastal_fort where = 1703 value = -10 }
+		command = { type = construct which = land_fort where = 1703 value = -10 }
+		command = { type = construct which = flak where = 1703 value = -10 }
+		command = { type = construct which = air_base where = 1703 value = -10 }
+		command = { type = construct which = naval_base where = 1703 value = -10 }
+		command = { type = construct which = radar_station where = 1703 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1703 value = -10 }
+		command = { type = construct which = rocket_test where = 1703 value = -10 }
+                command = { type = clrflag which = Darwin_Hive }
+	}
+}
+
+event = {
+	id = 38050
+	random = no
+	country = U06
+	trigger = {
+                flag = NewPlymouth_Hive
+                technology = 7010
+			control = { province  = 1870 data = -1 }
+	}
+
+	name = "ニュープリマスハイヴの陥落"
+	desc = "EVT_38050_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1870 value = -100 }
+		command = { type = construct which = ic where = 1870 value = -10 }
+		command = { type = construct which = coastal_fort where = 1870 value = -10 }
+		command = { type = construct which = land_fort where = 1870 value = -10 }
+		command = { type = construct which = flak where = 1870 value = -10 }
+		command = { type = construct which = air_base where = 1870 value = -10 }
+		command = { type = construct which = naval_base where = 1870 value = -10 }
+		command = { type = construct which = radar_station where = 1870 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1870 value = -10 }
+		command = { type = construct which = rocket_test where = 1870 value = -10 }
+                command = { type = clrflag which = NewPlymouth_Hive }
+	}
+}
+
+event = {
+	id = 38051
+	random = no
+	country = U06
+	trigger = {
+                flag = Guam_Hive
+                technology = 7010
+			control = { province  = 1624 data = -1 }
+	}
+
+	name = "グアムハイヴの陥落"
+	desc = "EVT_38051_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1624 value = -100 }
+		command = { type = construct which = ic where = 1624 value = -10 }
+		command = { type = construct which = coastal_fort where = 1624 value = -10 }
+		command = { type = construct which = land_fort where = 1624 value = -10 }
+		command = { type = construct which = flak where = 1624 value = -10 }
+		command = { type = construct which = air_base where = 1624 value = -10 }
+		command = { type = construct which = naval_base where = 1624 value = -10 }
+		command = { type = construct which = radar_station where = 1624 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1624 value = -10 }
+		command = { type = construct which = rocket_test where = 1624 value = -10 }
+                command = { type = clrflag which = Guam_Hive }
+	}
+}
+
+event = {
+	id = 38052
+	random = no
+	country = U06
+	trigger = {
+                flag = Honolulu_Hive
+                technology = 7010
+			control = { province  = 663 data = -1 }
+	}
+
+	name = "ホノルルハイヴの陥落"
+	desc = "EVT_38052_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 663 value = -100 }
+		command = { type = construct which = ic where = 663 value = -10 }
+		command = { type = construct which = coastal_fort where = 663 value = -10 }
+		command = { type = construct which = land_fort where = 663 value = -10 }
+		command = { type = construct which = flak where = 663 value = -10 }
+		command = { type = construct which = air_base where = 663 value = -10 }
+		command = { type = construct which = naval_base where = 663 value = -10 }
+		command = { type = construct which = radar_station where = 663 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 663 value = -10 }
+		command = { type = construct which = rocket_test where = 663 value = -10 }
+                command = { type = clrflag which = Honolulu_Hive }
+	}
+}
+
+event = {
+	id = 38053
+	random = no
+	country = U06
+	trigger = {
+                flag = Colombo_Hive
+                technology = 7010
+			control = { province  = 1517 data = -1 }
+	}
+
+	name = "コロンボハイヴの陥落"
+	desc = "EVT_38053_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1517 value = -100 }
+		command = { type = construct which = ic where = 1517 value = -10 }
+		command = { type = construct which = coastal_fort where = 1517 value = -10 }
+		command = { type = construct which = land_fort where = 1517 value = -10 }
+		command = { type = construct which = flak where = 1517 value = -10 }
+		command = { type = construct which = air_base where = 1517 value = -10 }
+		command = { type = construct which = naval_base where = 1517 value = -10 }
+		command = { type = construct which = radar_station where = 1517 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1517 value = -10 }
+		command = { type = construct which = rocket_test where = 1517 value = -10 }
+                command = { type = clrflag which = Colombo_Hive }
+	}
+}
+
+event = {
+	id = 38054
+	random = no
+	country = U06
+	trigger = {
+                flag = Okha_Hive
+                technology = 7010
+			control = { province  = 1523 data = -1 }
+	}
+
+	name = "オハハイヴの陥落"
+	desc = "EVT_38054_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1523 value = -100 }
+		command = { type = construct which = ic where = 1523 value = -10 }
+		command = { type = construct which = coastal_fort where = 1523 value = -10 }
+		command = { type = construct which = land_fort where = 1523 value = -10 }
+		command = { type = construct which = flak where = 1523 value = -10 }
+		command = { type = construct which = air_base where = 1523 value = -10 }
+		command = { type = construct which = naval_base where = 1523 value = -10 }
+		command = { type = construct which = radar_station where = 1523 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1523 value = -10 }
+		command = { type = construct which = rocket_test where = 1523 value = -10 }
+                command = { type = clrflag which = Okha_Hive }
+	}
+}
+
+event = {
+	id = 38055
+	random = no
+	country = U06
+	trigger = {
+                flag = Akita_Hive
+                technology = 7010
+			control = { province  = 1180 data = -1 }
+	}
+
+	name = "秋田ハイヴの陥落"
+	desc = "EVT_38055_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1180 value = -100 }
+		command = { type = construct which = ic where = 1180 value = -10 }
+		command = { type = construct which = coastal_fort where = 1180 value = -10 }
+		command = { type = construct which = land_fort where = 1180 value = -10 }
+		command = { type = construct which = flak where = 1180 value = -10 }
+		command = { type = construct which = air_base where = 1180 value = -10 }
+		command = { type = construct which = naval_base where = 1180 value = -10 }
+		command = { type = construct which = radar_station where = 1180 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1180 value = -10 }
+		command = { type = construct which = rocket_test where = 1180 value = -10 }
+                command = { type = clrflag which = Akita_Hive }
+	}
+}
+
+event = {
+	id = 38056
+	random = no
+	country = U06
+	trigger = {
+                flag = Kamchatka_Hive
+                technology = 7010
+			control = { province  = 1170 data = -1 }
+	}
+
+	name = "カムチャッカハイヴの陥落"
+	desc = "EVT_38056_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 1170 value = -100 }
+		command = { type = construct which = ic where = 1170 value = -10 }
+		command = { type = construct which = coastal_fort where = 1170 value = -10 }
+		command = { type = construct which = land_fort where = 1170 value = -10 }
+		command = { type = construct which = flak where = 1170 value = -10 }
+		command = { type = construct which = air_base where = 1170 value = -10 }
+		command = { type = construct which = naval_base where = 1170 value = -10 }
+		command = { type = construct which = radar_station where = 1170 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1170 value = -10 }
+		command = { type = construct which = rocket_test where = 1170 value = -10 }
+                command = { type = clrflag which = Kamchatka_Hive }
+	}
+}
+
+event = {
+	id = 38057
+	random = no
+	country = U06
+	trigger = {
+                flag = Bethel_Hive
+                technology = 7010
+			control = { province  = 908 data = -1 }
+	}
+
+	name = "ベセルハイヴの陥落"
+	desc = "EVT_38057_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 908 value = -100 }
+		command = { type = construct which = ic where = 908 value = -10 }
+		command = { type = construct which = coastal_fort where = 908 value = -10 }
+		command = { type = construct which = land_fort where = 908 value = -10 }
+		command = { type = construct which = flak where = 908 value = -10 }
+		command = { type = construct which = air_base where = 908 value = -10 }
+		command = { type = construct which = naval_base where = 908 value = -10 }
+		command = { type = construct which = radar_station where = 908 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 908 value = -10 }
+		command = { type = construct which = rocket_test where = 908 value = -10 }
+                command = { type = clrflag which = Bethel_Hive }
+	}
+}
+
+event = {
+	id = 38058
+	random = no
+	country = U06
+	trigger = {
+                flag = Edmonton_Hive
+                technology = 7010
+			control = { province  = 796 data = -1 }
+	}
+
+	name = "エドモントンハイヴの陥落"
+	desc = "EVT_38058_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 796 value = -100 }
+		command = { type = construct which = ic where = 796 value = -10 }
+		command = { type = construct which = coastal_fort where = 796 value = -10 }
+		command = { type = construct which = land_fort where = 796 value = -10 }
+		command = { type = construct which = flak where = 796 value = -10 }
+		command = { type = construct which = air_base where = 796 value = -10 }
+		command = { type = construct which = naval_base where = 796 value = -10 }
+		command = { type = construct which = radar_station where = 796 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 796 value = -10 }
+		command = { type = construct which = rocket_test where = 796 value = -10 }
+                command = { type = clrflag which = Edmonton_Hive }
+	}
+}
+
+event = {
+	id = 38059
+	random = no
+	country = U06
+	trigger = {
+                flag = Ottawa_Hive
+                technology = 7010
+			control = { province  = 588 data = -1 }
+	}
+
+	name = "オタワハイヴの陥落"
+	desc = "EVT_38059_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 588 value = -100 }
+		command = { type = construct which = ic where = 588 value = -10 }
+		command = { type = construct which = coastal_fort where = 588 value = -10 }
+		command = { type = construct which = land_fort where = 588 value = -10 }
+		command = { type = construct which = flak where = 588 value = -10 }
+		command = { type = construct which = air_base where = 588 value = -10 }
+		command = { type = construct which = naval_base where = 588 value = -10 }
+		command = { type = construct which = radar_station where = 588 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 588 value = -10 }
+		command = { type = construct which = rocket_test where = 588 value = -10 }
+                command = { type = clrflag which = Ottawa_Hive }
+	}
+}
+
+event = {
+	id = 38060
+	random = no
+	country = U06
+	trigger = {
+                flag = SaltLake_Hive
+                technology = 7010
+			control = { province  = 733 data = -1 }
+	}
+
+	name = "ソルトレイクハイヴの陥落"
+	desc = "EVT_38060_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 733 value = -100 }
+		command = { type = construct which = ic where = 733 value = -10 }
+		command = { type = construct which = coastal_fort where = 733 value = -10 }
+		command = { type = construct which = land_fort where = 733 value = -10 }
+		command = { type = construct which = flak where = 733 value = -10 }
+		command = { type = construct which = air_base where = 733 value = -10 }
+		command = { type = construct which = naval_base where = 733 value = -10 }
+		command = { type = construct which = radar_station where = 733 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 733 value = -10 }
+		command = { type = construct which = rocket_test where = 733 value = -10 }
+                command = { type = clrflag which = SaltLake_Hive }
+	}
+}
+
+event = {
+	id = 38061
+	random = no
+	country = U06
+	trigger = {
+                flag = Lincoln_Hive
+                technology = 7010
+			control = { province  = 789 data = -1 }
+	}
+
+	name = "リンカーンハイヴの陥落"
+	desc = "EVT_38061_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 789 value = -100 }
+		command = { type = construct which = ic where = 789 value = -10 }
+		command = { type = construct which = coastal_fort where = 789 value = -10 }
+		command = { type = construct which = land_fort where = 789 value = -10 }
+		command = { type = construct which = flak where = 789 value = -10 }
+		command = { type = construct which = air_base where = 789 value = -10 }
+		command = { type = construct which = naval_base where = 789 value = -10 }
+		command = { type = construct which = radar_station where = 789 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 789 value = -10 }
+		command = { type = construct which = rocket_test where = 789 value = -10 }
+                command = { type = clrflag which = Lincoln_Hive }
+	}
+}
+
+event = {
+	id = 38062
+	random = no
+	country = U06
+	trigger = {
+                flag = Dallas_Hive
+                technology = 7010
+			control = { province  = 715 data = -1 }
+	}
+
+	name = "ダラスハイヴの陥落"
+	desc = "EVT_38062_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 715 value = -100 }
+		command = { type = construct which = ic where = 715 value = -10 }
+		command = { type = construct which = coastal_fort where = 715 value = -10 }
+		command = { type = construct which = land_fort where = 715 value = -10 }
+		command = { type = construct which = flak where = 715 value = -10 }
+		command = { type = construct which = air_base where = 715 value = -10 }
+		command = { type = construct which = naval_base where = 715 value = -10 }
+		command = { type = construct which = radar_station where = 715 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 715 value = -10 }
+		command = { type = construct which = rocket_test where = 715 value = -10 }
+                command = { type = clrflag which = Dallas_Hive }
+	}
+}
+
+event = {
+	id = 38063
+	random = no
+	country = U06
+	trigger = {
+                flag = Chicago_Hive
+                technology = 7010
+			control = { province  = 620 data = -1 }
+	}
+
+	name = "シカゴハイヴの陥落"
+	desc = "EVT_38063_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 620 value = -100 }
+		command = { type = construct which = ic where = 620 value = -10 }
+		command = { type = construct which = coastal_fort where = 620 value = -10 }
+		command = { type = construct which = land_fort where = 620 value = -10 }
+		command = { type = construct which = flak where = 620 value = -10 }
+		command = { type = construct which = air_base where = 620 value = -10 }
+		command = { type = construct which = naval_base where = 620 value = -10 }
+		command = { type = construct which = radar_station where = 620 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 620 value = -10 }
+		command = { type = construct which = rocket_test where = 620 value = -10 }
+                command = { type = clrflag which = Chicago_Hive }
+	}
+}
+
+event = {
+	id = 38064
+	random = no
+	country = U06
+	trigger = {
+                flag = Macon_Hive
+                technology = 7010
+			control = { province  = 647 data = -1 }
+	}
+
+	name = "マコンハイヴの陥落"
+	desc = "EVT_38064_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 647 value = -100 }
+		command = { type = construct which = ic where = 647 value = -10 }
+		command = { type = construct which = coastal_fort where = 647 value = -10 }
+		command = { type = construct which = land_fort where = 647 value = -10 }
+		command = { type = construct which = flak where = 647 value = -10 }
+		command = { type = construct which = air_base where = 647 value = -10 }
+		command = { type = construct which = naval_base where = 647 value = -10 }
+		command = { type = construct which = radar_station where = 647 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 647 value = -10 }
+		command = { type = construct which = rocket_test where = 647 value = -10 }
+                command = { type = clrflag which = Macon_Hive }
+	}
+}
+
+event = {
+	id = 38065
+	random = no
+	country = U06
+	trigger = {
+                flag = Washington_Hive
+                technology = 7010
+			control = { province  = 606 data = -1 }
+	}
+
+	name = "ワシントンハイヴの陥落"
+	desc = "EVT_38065_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 606 value = -100 }
+		command = { type = construct which = ic where = 606 value = -10 }
+		command = { type = construct which = coastal_fort where = 606 value = -10 }
+		command = { type = construct which = land_fort where = 606 value = -10 }
+		command = { type = construct which = flak where = 606 value = -10 }
+		command = { type = construct which = air_base where = 606 value = -10 }
+		command = { type = construct which = naval_base where = 606 value = -10 }
+		command = { type = construct which = radar_station where = 606 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 606 value = -10 }
+		command = { type = construct which = rocket_test where = 606 value = -10 }
+                command = { type = clrflag which = Washington_Hive }
+	}
+}
+
+event = {
+	id = 38066
+	random = no
+	country = U06
+	trigger = {
+                flag = Leon_Hive
+                technology = 7010
+			control = { province  = 747 data = -1 }
+	}
+
+	name = "レオンハイヴの陥落"
+	desc = "EVT_38066_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 747 value = -100 }
+		command = { type = construct which = ic where = 747 value = -10 }
+		command = { type = construct which = coastal_fort where = 747 value = -10 }
+		command = { type = construct which = land_fort where = 747 value = -10 }
+		command = { type = construct which = flak where = 747 value = -10 }
+		command = { type = construct which = air_base where = 747 value = -10 }
+		command = { type = construct which = naval_base where = 747 value = -10 }
+		command = { type = construct which = radar_station where = 747 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 747 value = -10 }
+		command = { type = construct which = rocket_test where = 747 value = -10 }
+                command = { type = clrflag which = Leon_Hive }
+	}
+}
+
+event = {
+	id = 38067
+	random = no
+	country = U06
+	trigger = {
+                flag = Camaguey_Hive
+                technology = 7010
+			control = { province  = 656 data = -1 }
+	}
+
+	name = "カマグエイハイヴの陥落"
+	desc = "EVT_38067_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 656 value = -100 }
+		command = { type = construct which = ic where = 656 value = -10 }
+		command = { type = construct which = coastal_fort where = 656 value = -10 }
+		command = { type = construct which = land_fort where = 656 value = -10 }
+		command = { type = construct which = flak where = 656 value = -10 }
+		command = { type = construct which = air_base where = 656 value = -10 }
+		command = { type = construct which = naval_base where = 656 value = -10 }
+		command = { type = construct which = radar_station where = 656 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 656 value = -10 }
+		command = { type = construct which = rocket_test where = 656 value = -10 }
+                command = { type = clrflag which = Camaguey_Hive }
+	}
+}
+
+event = {
+	id = 38068
+	random = no
+	country = U06
+	trigger = {
+                flag = Panama_Hive
+                technology = 7010
+			control = { province  = 888 data = -1 }
+	}
+
+	name = "パナマハイヴの陥落"
+	desc = "EVT_38068_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 888 value = -100 }
+		command = { type = construct which = ic where = 888 value = -10 }
+		command = { type = construct which = coastal_fort where = 888 value = -10 }
+		command = { type = construct which = land_fort where = 888 value = -10 }
+		command = { type = construct which = flak where = 888 value = -10 }
+		command = { type = construct which = air_base where = 888 value = -10 }
+		command = { type = construct which = naval_base where = 888 value = -10 }
+		command = { type = construct which = radar_station where = 888 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 888 value = -10 }
+		command = { type = construct which = rocket_test where = 888 value = -10 }
+                command = { type = clrflag which = Panama_Hive }
+	}
+}
+
+event = {
+	id = 38069
+	random = no
+	country = U06
+	trigger = {
+                flag = Manakapuru_Hive
+                technology = 7010
+			control = { province  = 820 data = -1 }
+	}
+
+	name = "マナカプルハイヴの陥落"
+	desc = "EVT_38069_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 820 value = -100 }
+		command = { type = construct which = ic where = 820 value = -10 }
+		command = { type = construct which = coastal_fort where = 820 value = -10 }
+		command = { type = construct which = land_fort where = 820 value = -10 }
+		command = { type = construct which = flak where = 820 value = -10 }
+		command = { type = construct which = air_base where = 820 value = -10 }
+		command = { type = construct which = naval_base where = 820 value = -10 }
+		command = { type = construct which = radar_station where = 820 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 820 value = -10 }
+		command = { type = construct which = rocket_test where = 820 value = -10 }
+                command = { type = clrflag which = Manakapuru_Hive }
+	}
+}
+
+event = {
+	id = 38070
+	random = no
+	country = U06
+	trigger = {
+                flag = Goias_Hive
+                technology = 7010
+			control = { province  = 883 data = -1 }
+	}
+
+	name = "ゴイアスハイヴの陥落"
+	desc = "EVT_38070_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 883 value = -100 }
+		command = { type = construct which = ic where = 883 value = -10 }
+		command = { type = construct which = coastal_fort where = 883 value = -10 }
+		command = { type = construct which = land_fort where = 883 value = -10 }
+		command = { type = construct which = flak where = 883 value = -10 }
+		command = { type = construct which = air_base where = 883 value = -10 }
+		command = { type = construct which = naval_base where = 883 value = -10 }
+		command = { type = construct which = radar_station where = 883 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 883 value = -10 }
+		command = { type = construct which = rocket_test where = 883 value = -10 }
+                command = { type = clrflag which = Goias_Hive }
+	}
+}
+
+event = {
+	id = 38071
+	random = no
+	country = U06
+	trigger = {
+                flag = Mendoza_Hive
+                technology = 7010
+			control = { province  = 854 data = -1 }
+	}
+
+	name = "メンドーサハイヴの陥落"
+	desc = "EVT_38071_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = dissent value = -10 }
+                command = { type = supplies value = 5000 }
+		command = { type = construct which = infrastructure where = 854 value = -100 }
+		command = { type = construct which = ic where = 854 value = -10 }
+		command = { type = construct which = coastal_fort where = 854 value = -10 }
+		command = { type = construct which = land_fort where = 854 value = -10 }
+		command = { type = construct which = flak where = 854 value = -10 }
+		command = { type = construct which = air_base where = 854 value = -10 }
+		command = { type = construct which = naval_base where = 854 value = -10 }
+		command = { type = construct which = radar_station where = 854 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 854 value = -10 }
+		command = { type = construct which = rocket_test where = 854 value = -10 }
+                command = { type = clrflag which = Mendoza_Hive }
+	}
+}

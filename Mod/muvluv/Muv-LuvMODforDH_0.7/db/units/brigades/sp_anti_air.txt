@@ -1,0 +1,80 @@
+# 0 - ‹’“_–h‰q—p“ÁŽí•º‘•I
+model = {
+	cost 				= 4.2
+	buildtime	 		= 60
+	manpower 			= 2.0
+	toughness 			= 2
+	defensiveness 			= 10
+	maxspeed 			= -1.0
+	softness			= -6
+	softattack			= 1
+	hardattack			= 1
+	supplyconsumption		= 0.12
+	fuelconsumption			= 0.3
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+# 1 - ‹’“_–h‰q—p“ÁŽí•º‘•‡U
+model = {
+	cost = 4.2
+	buildtime = 60
+	manpower = 2.0
+	toughness = 2
+	defensiveness = 11
+	maxspeed = -1.0
+	softness			= -8
+	softattack			= 2
+	hardattack			= 2
+	supplyconsumption = 0.14
+	fuelconsumption = 0.3
+	upgrade_time_factor = 0.5
+	upgrade_cost_factor = 1.0
+}
+# 2 - ‹’“_–h‰q—p“ÁŽí•º‘•‡V
+model = {
+	cost = 4.2
+	buildtime = 60
+	manpower = 2.0
+	toughness = 3
+	defensiveness = 13
+	maxspeed = -1.0
+	softness			= -10
+	softattack			= 2
+	hardattack			= 2
+	supplyconsumption = 0.14
+	fuelconsumption = 0.3
+	upgrade_time_factor = 0.5
+	upgrade_cost_factor = 1.0
+}
+# 3 - ‹’“_–h‰q—p“ÁŽí•º‘•‡W
+model = {
+	cost = 4.2
+	buildtime = 60
+	manpower = 2.0
+	toughness = 5
+	defensiveness = 15
+	maxspeed = -1.0
+	softness			= -12
+	softattack			= 2
+	hardattack			= 2
+	supplyconsumption = 0.14
+	fuelconsumption = 0.3
+	upgrade_time_factor = 0.5
+	upgrade_cost_factor = 1.0
+}
+# 4 - ‹’“_–h‰q—p“ÁŽí•º‘•‡X
+model = {
+	cost = 4.2
+	buildtime = 60
+	manpower = 2.0
+	toughness = 7
+	defensiveness = 17
+	maxspeed = -1.0
+	softness			= -14
+	softattack			= 2
+	hardattack			= 2
+	supplyconsumption = 0.14
+	fuelconsumption = 0.3
+	upgrade_time_factor = 0.5
+	upgrade_cost_factor = 1.0
+}

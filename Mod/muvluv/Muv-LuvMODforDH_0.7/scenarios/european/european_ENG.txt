@@ -1,0 +1,138 @@
+##############################################################
+##
+## 欧州大戦イベント_イギリス(23201~23300)
+##
+##############################################################
+##
+## id = 23201   女王命令第3号
+## id = 23202   トライデント投入
+##
+##############################################################
+
+event = {
+	id = 23201
+	random = no
+	country = ENG
+	decision = { 
+	              OR = {
+                     control = { province = 72 data = -2 }
+                     control = { province = 73 data = -2 } #ハンブルク
+                       }
+	           } #ディシジョンウインドウに表示する条件
+	decision_trigger = { 
+	               OR = {
+                     control = { province = 72 data = -2 }
+                     control = { province = 73 data = -2 }
+                        }
+                    } #ディシジョンが選択可能になる条件
+	trigger = { 
+                     control = { province = 72 data = -2 }
+                  } #イベントが発動するトリガー条件、ディシジョンの場合はAI用。
+	
+	name = "女王命令第3号"
+	desc = "EVT_23201_DESC"
+	style = 0
+	
+	decision_picture = "decision_atomic_research"
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 1
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "核兵器の投入を許可する"
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+ }
+}
+
+event = {
+	id = 23202
+	random = no
+	country = ENG
+	decision = { 
+	              OR = {
+                     control = { province = 300 data = -2 }
+                     control = { province = 88 data = -2 } #ハンブルク
+                       }
+	           } #ディシジョンウインドウに表示する条件
+	decision_trigger = { 
+	               OR = {
+                     control = { province = 300 data = -2 }
+                     control = { province = 88 data = -2 }
+                        }
+                    } #ディシジョンが選択可能になる条件
+	trigger = { 
+                     control = { province = 300 data = -2 }
+                  } #イベントが発動するトリガー条件、ディシジョンの場合はAI用。
+       persistent = yes
+	
+	name = "トライデント投入"
+	desc = "EVT_23202_DESC"
+	style = 0
+	
+	decision_picture = "decision_atomic_research"
+	date = { day = 0 month = 0 year = 1970 } 
+	offset = 30
+	deathdate = { day = 0 month = 0 year = 2100 }
+	
+	action_a = {
+	name = "核兵器の投入を許可する"
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = supplies value = -1500 }
+ }
+}

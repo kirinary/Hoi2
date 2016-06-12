@@ -1,0 +1,650 @@
+##############################################################
+##
+## 動員イベント(101~900)
+##
+##############################################################
+## ソ連
+## id = 101	緊急動員
+## id = 102	戦術核投入
+## id = 103	カテゴリーⅠ動員
+## id = 104	東欧駐留軍投入
+## id = 105	東独駐留軍投入
+## id = 106	カテゴリーⅡ動員
+## id = 107     カテゴリーⅡ動員完了
+## id = 108     カテゴリーⅢ動員
+## id = 109     カテゴリーⅢ動員完了
+## id = 110     WTO軍全面動員(ソ連)
+## id = 111     WTO軍全面動員(東ドイツ)
+## id = 112     WTO軍全面動員(ポーランド)
+## id = 113     WTO軍全面動員(チェコスロヴァキア)
+## id = 114     WTO軍全面動員(ルーマニア)
+## id = 115     WTO軍全面動員(ブルガリア)
+## id = 116     WTO軍全面動員(ハンガリー)
+## 西ドイツ
+## id = 501     郷土防衛軍動員
+###############################################################
+
+event = {
+	id = 101
+	random = no
+        country = SOV
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "緊急動員"
+	desc = "EVT_101_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "BETAを殲滅せよ！"
+                ai_chance = 100
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.05 }
+                command = { type = manpowerpool value = -400 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 0
+		command = { }
+ }
+}
+
+event = {
+	id = 102
+	random = no
+        country = SOV
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "戦術核投入"
+	desc = "EVT_102_DESC"
+	style = 0
+
+	date = { day = 2 month = 5 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "やむを得ない"
+                ai_chance = 100
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+                command = { type = add_division value = flying_bomb when = 25 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 0
+		command = { }
+ }
+}
+
+event = {
+	id = 103
+	random = no
+        country = SOV
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "カテゴリーⅠ動員"
+	desc = "EVT_103_DESC"
+	style = 0
+
+	date = { day = 26 month = 5 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "我々の力を見せつけてやる！"
+                ai_chance = 100
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.05 }
+                command = { type = manpowerpool value = -200 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 0
+		command = { }
+ }
+}
+
+event = {
+	id = 104
+	random = no
+        country = SOV
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "東欧駐留軍投入"
+	desc = "EVT_104_DESC"
+	style = 0
+
+	date = { day = 28 month = 6 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "我々の力を見せつけてやる！"
+                ai_chance = 100
+                ##ポーランド駐留軍
+                command = { type = unlock_division which = 19501 value = 38 }
+                command = { type = unlock_division which = 19501 value = 39 }
+                command = { type = unlock_division which = 19501 value = 40 }
+                command = { type = unlock_division which = 19501 value = 42 }
+                command = { type = unlock_division which = 19501 value = 43 }
+                command = { type = unlock_division which = 19501 value = 44 }
+                ##ハンガリー駐留軍
+                command = { type = unlock_division which = 19501 value = 46 }
+                command = { type = unlock_division which = 19501 value = 47 }
+                command = { type = unlock_division which = 19501 value = 48 }
+                command = { type = unlock_division which = 19501 value = 50 }
+                command = { type = unlock_division which = 19501 value = 51 }
+                command = { type = unlock_division which = 19501 value = 52 }
+                command = { type = unlock_division which = 19501 value = 246 }
+                command = { type = unlock_division which = 19501 value = 247 }
+                command = { type = unlock_division which = 19501 value = 248 }
+                command = { type = unlock_division which = 19501 value = 250 }
+                command = { type = unlock_division which = 19501 value = 251 }
+                command = { type = unlock_division which = 19501 value = 252 }
+                ##チェコスロヴァキア駐留軍
+                command = { type = unlock_division which = 19501 value = 54 }
+                command = { type = unlock_division which = 19501 value = 55 }
+                command = { type = unlock_division which = 19501 value = 56 }
+                command = { type = unlock_division which = 19501 value = 58 }
+                command = { type = unlock_division which = 19501 value = 59 }
+                command = { type = unlock_division which = 19501 value = 60 }
+                command = { type = unlock_division which = 19501 value = 254 }
+                command = { type = unlock_division which = 19501 value = 255 }
+                command = { type = unlock_division which = 19501 value = 256 }
+                command = { type = unlock_division which = 19501 value = 258 }
+                command = { type = unlock_division which = 19501 value = 259 }
+                command = { type = unlock_division which = 19501 value = 260 }
+                command = { type = unlock_division which = 19501 value = 262 }
+                command = { type = unlock_division which = 19501 value = 263 }
+                command = { type = unlock_division which = 19501 value = 264 }
+                command = { type = supplies value = -1000 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 0
+		command = { }
+ }
+}
+
+event = {
+	id = 105
+	random = no
+        country = SOV
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "東独駐留軍投入"
+	desc = "EVT_105_DESC"
+	style = 0
+
+	date = { day = 26 month = 7 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "我々の力を見せつけてやる！"
+                ai_chance = 100
+                command = { type = unlock_division which = 19501 value = 2 }
+                command = { type = unlock_division which = 19501 value = 3 }
+                command = { type = unlock_division which = 19501 value = 4 }
+                command = { type = unlock_division which = 19501 value = 6 }
+                command = { type = unlock_division which = 19501 value = 7 }
+                command = { type = unlock_division which = 19501 value = 8 }
+                command = { type = unlock_division which = 19501 value = 10 }
+                command = { type = unlock_division which = 19501 value = 11 }
+                command = { type = unlock_division which = 19501 value = 12 }
+                command = { type = unlock_division which = 19501 value = 14 }
+                command = { type = unlock_division which = 19501 value = 15 }
+                command = { type = unlock_division which = 19501 value = 16 }
+                command = { type = unlock_division which = 19501 value = 18 }
+                command = { type = unlock_division which = 19501 value = 19 }
+                command = { type = unlock_division which = 19501 value = 20 }
+                command = { type = unlock_division which = 19501 value = 22 }
+                command = { type = unlock_division which = 19501 value = 23 }
+                command = { type = unlock_division which = 19501 value = 24 }
+                command = { type = unlock_division which = 19501 value = 26 }
+                command = { type = unlock_division which = 19501 value = 27 }
+                command = { type = unlock_division which = 19501 value = 28 }
+                command = { type = unlock_division which = 19501 value = 30 }
+                command = { type = unlock_division which = 19501 value = 31 }
+                command = { type = unlock_division which = 19501 value = 32 }
+                command = { type = unlock_division which = 19501 value = 34 }
+                command = { type = unlock_division which = 19501 value = 35 }
+                command = { type = unlock_division which = 19501 value = 36 }
+                command = { type = unlock_division which = 19501 value = 206 }
+                command = { type = unlock_division which = 19501 value = 207 }
+                command = { type = unlock_division which = 19501 value = 208 }
+                command = { type = unlock_division which = 19501 value = 210 }
+                command = { type = unlock_division which = 19501 value = 211 }
+                command = { type = unlock_division which = 19501 value = 212 }
+                command = { type = unlock_division which = 19501 value = 214 }
+                command = { type = unlock_division which = 19501 value = 215 }
+                command = { type = unlock_division which = 19501 value = 216 }
+                command = { type = unlock_division which = 19501 value = 218 }
+                command = { type = unlock_division which = 19501 value = 219 }
+                command = { type = unlock_division which = 19501 value = 220 }
+                command = { type = unlock_division which = 19501 value = 222 }
+                command = { type = unlock_division which = 19501 value = 223 }
+                command = { type = unlock_division which = 19501 value = 224 }
+                command = { type = unlock_division which = 19501 value = 226 }
+                command = { type = unlock_division which = 19501 value = 227 }
+                command = { type = unlock_division which = 19501 value = 228 }
+                command = { type = unlock_division which = 19501 value = 230 }
+                command = { type = unlock_division which = 19501 value = 231 }
+                command = { type = unlock_division which = 19501 value = 232 }
+                command = { type = unlock_division which = 19501 value = 234 }
+                command = { type = unlock_division which = 19501 value = 235 }
+                command = { type = unlock_division which = 19501 value = 236 }
+                command = { type = unlock_division which = 19501 value = 238 }
+                command = { type = unlock_division which = 19501 value = 239 }
+                command = { type = unlock_division which = 19501 value = 240 }
+                command = { type = unlock_division which = 19501 value = 242 }
+                command = { type = unlock_division which = 19501 value = 243 }
+                command = { type = unlock_division which = 19501 value = 244 }
+                command = { type = supplies value = -1000 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 0
+		command = { }
+ }
+}
+
+event = {
+	id = 106
+	random = no
+        country = SOV
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "カテゴリーⅡ動員"
+	desc = "EVT_106_DESC"
+	style = 0
+
+	date = { day = 10 month = 8 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "動員を開始せよ！"
+                ai_chance = 100
+                command = { type = setflag which = category2 }
+                command = { type = manpowerpool value = -400 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 0
+		command = { }
+ }
+}
+
+event = {
+	id = 107
+	random = no
+        country = SOV
+	trigger = {
+                    flag = category2
+       }
+	name = "カテゴリーⅡ動員完了"
+	desc = "EVT_107_DESC"
+	style = 0
+
+	date = { day = 10 month = 9 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.2 }
+ }
+}
+
+event = {
+	id = 108
+	random = no
+        country = SOV
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "カテゴリーⅢ動員"
+	desc = "EVT_108_DESC"
+	style = 0
+
+	date = { day = 20 month = 9 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "動員を開始せよ！"
+                ai_chance = 100
+                command = { type = setflag which = category3 }
+                command = { type = manpowerpool value = -400 }
+ }
+        action_b = {
+		name = "その必要はない"
+                ai_chance = 0
+		command = { }
+ }
+}
+
+event = {
+	id = 109
+	random = no
+        country = SOV
+	trigger = {
+                    flag = category3
+       }
+	name = "カテゴリーⅢ動員完了"
+	desc = "EVT_109_DESC"
+	style = 0
+
+	date = { day = 20 month = 10 year = 1973 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.2 }
+ }
+}
+
+event = {
+	id = 110
+	random = no
+        country = SOV
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "WTO軍全面動員"
+	desc = "EVT_110_DESC"
+	style = 0
+
+	date = { day = 8 month = 1 year = 1974 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.1 }
+                command = { type = wartime_ic_mod value = 5 }
+                command = { type = manpowerpool value = -200 }
+                command = { type = supplies value = -3000 }
+ }
+}
+
+event = {
+	id = 111
+	random = no
+        country = DDR
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "WTO軍全面動員"
+	desc = "EVT_110_DESC"
+	style = 0
+
+	date = { day = 8 month = 1 year = 1974 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.1 }
+                command = { type = wartime_ic_mod value = 5 }
+                command = { type = manpowerpool value = -200 }
+                command = { type = supplies value = -3000 }
+ }
+}
+
+event = {
+	id = 112
+	random = no
+        country = POL
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "WTO軍全面動員"
+	desc = "EVT_110_DESC"
+	style = 0
+
+	date = { day = 8 month = 1 year = 1974 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.1 }
+                command = { type = wartime_ic_mod value = 5 }
+                command = { type = manpowerpool value = -200 }
+                command = { type = supplies value = -3000 }
+ }
+}
+
+event = {
+	id = 113
+	random = no
+        country = CZE
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "WTO軍全面動員"
+	desc = "EVT_110_DESC"
+	style = 0
+
+	date = { day = 8 month = 1 year = 1974 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.1 }
+                command = { type = wartime_ic_mod value = 5 }
+                command = { type = manpowerpool value = -200 }
+                command = { type = supplies value = -3000 }
+ }
+}
+
+event = {
+	id = 114
+	random = no
+        country = ROM
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "WTO軍全面動員"
+	desc = "EVT_110_DESC"
+	style = 0
+
+	date = { day = 8 month = 1 year = 1974 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.1 }
+                command = { type = wartime_ic_mod value = 5 }
+                command = { type = manpowerpool value = -200 }
+                command = { type = supplies value = -3000 }
+ }
+}
+
+event = {
+	id = 115
+	random = no
+        country = BUL
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "WTO軍全面動員"
+	desc = "EVT_110_DESC"
+	style = 0
+
+	date = { day = 8 month = 1 year = 1974 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.1 }
+                command = { type = wartime_ic_mod value = 5 }
+                command = { type = manpowerpool value = -200 }
+                command = { type = supplies value = -3000 }
+ }
+}
+
+event = {
+	id = 116
+	random = no
+        country = HUN
+	trigger = {
+                    control = { province = 1431 data = U12 }
+       }
+	name = "WTO軍全面動員"
+	desc = "EVT_110_DESC"
+	style = 0
+
+	date = { day = 8 month = 1 year = 1974 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+                command = { type = strength which = land when = 1 where = 0 org = 1.0 value = 0.1 }
+                command = { type = wartime_ic_mod value = 5 }
+                command = { type = manpowerpool value = -200 }
+                command = { type = supplies value = -3000 }
+ }
+}
+
+event = {
+	id = 501
+	random = no
+        country = DFR
+	trigger = {
+                    or = {
+                    control = { province = 89 data = -2 }
+                    control = { province = 87 data = -2 }
+                    control = { province = 86 data = -2 }
+                    control = { province = 82 data = -2 }
+                    control = { province = 547 data = -2 }
+                    control = { province = 83 data = -2 }
+                    control = { province = 375 data = -2 }
+                    control = { province = 465 data = -2 }
+                    control = { province = 464 data = -2 }
+                    control = { province = 463 data = -2 }
+                    control = { province = 2329 data = -2 }
+                    control = { province = 460 data = -2 }
+                    control = { province = 461 data = -2 }
+                    control = { province = 668 data = -2 }
+                    control = { province = 2326 data = -2 }
+                    control = { province = 2325 data = -2 }
+                          }
+       }
+	name = "郷土防衛軍動員"
+	desc = "EVT_23110_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1970 }
+	offset = 3
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "動員する"
+                ai_chance = 100
+                command = { type = supplies value = -5000 }
+		command = { type = manpowerpool value = -100 }
+                ####第51旅団
+		command = { type = activate_division which = 10010 value = 5001 where = 90 when = 1 }
+		command = { type = activate_division which = 10010 value = 5002 where = 90 when = 1 }
+		command = { type = activate_division which = 10010 value = 5003 where = 90 when = 1 }
+		command = { type = activate_division which = 10010 value = 5004 where = 90 when = 1 }
+                ####第61旅団
+		command = { type = activate_division which = 10010 value = 5005 where = 89 when = 1 }
+		command = { type = activate_division which = 10010 value = 5006 where = 89 when = 1 }
+		command = { type = activate_division which = 10010 value = 5007 where = 89 when = 1 }
+                ####第52旅団
+		command = { type = activate_division which = 10010 value = 5008 where = 86 when = 1 }
+		command = { type = activate_division which = 10010 value = 5009 where = 86 when = 1 }
+		command = { type = activate_division which = 10010 value = 5010 where = 86 when = 1 }
+		command = { type = activate_division which = 10010 value = 5011 where = 86 when = 1 }
+                ####第62旅団
+		command = { type = activate_division which = 10010 value = 5012 where = 82 when = 1 }
+		command = { type = activate_division which = 10010 value = 5013 where = 82 when = 1 }
+		command = { type = activate_division which = 10010 value = 5014 where = 82 when = 1 }
+                ####第53旅団
+		command = { type = activate_division which = 10010 value = 5015 where = 76 when = 1 }
+		command = { type = activate_division which = 10010 value = 5016 where = 76 when = 1 }
+		command = { type = activate_division which = 10010 value = 5017 where = 76 when = 1 }
+		command = { type = activate_division which = 10010 value = 5018 where = 76 when = 1 }
+                ####第63旅団
+		command = { type = activate_division which = 10010 value = 5019 where = 313 when = 1 }
+		command = { type = activate_division which = 10010 value = 5020 where = 313 when = 1 }
+		command = { type = activate_division which = 10010 value = 5021 where = 313 when = 1 }
+                ####第54旅団
+		command = { type = activate_division which = 10010 value = 5022 where = 1015 when = 1 }
+		command = { type = activate_division which = 10010 value = 5023 where = 1015 when = 1 }
+		command = { type = activate_division which = 10010 value = 5024 where = 1015 when = 1 }
+		command = { type = activate_division which = 10010 value = 5025 where = 1015 when = 1 }
+                ####第64旅団
+		command = { type = activate_division which = 10010 value = 5026 where = 989 when = 1 }
+		command = { type = activate_division which = 10010 value = 5027 where = 989 when = 1 }
+		command = { type = activate_division which = 10010 value = 5028 where = 989 when = 1 }
+                ####第55旅団
+		command = { type = activate_division which = 10010 value = 5029 where = 314 when = 1 }
+		command = { type = activate_division which = 10010 value = 5030 where = 314 when = 1 }
+		command = { type = activate_division which = 10010 value = 5031 where = 314 when = 1 }
+		command = { type = activate_division which = 10010 value = 5032 where = 314 when = 1 }
+                ####第65旅団
+		command = { type = activate_division which = 10010 value = 5033 where = 374 when = 1 }
+		command = { type = activate_division which = 10010 value = 5034 where = 374 when = 1 }
+		command = { type = activate_division which = 10010 value = 5035 where = 374 when = 1 }
+                ####第56旅団
+		command = { type = activate_division which = 10010 value = 5036 where = 376 when = 1 }
+		command = { type = activate_division which = 10010 value = 5037 where = 376 when = 1 }
+		command = { type = activate_division which = 10010 value = 5038 where = 376 when = 1 }
+		command = { type = activate_division which = 10010 value = 5039 where = 376 when = 1 }
+                ####第66旅団
+		command = { type = activate_division which = 10010 value = 5040 where = 312 when = 1 }
+		command = { type = activate_division which = 10010 value = 5041 where = 312 when = 1 }
+		command = { type = activate_division which = 10010 value = 5042 where = 312 when = 1 }
+ }
+        action_b = {
+		name = "その必要は無い"
+                ai_chance = 0
+ }
+}

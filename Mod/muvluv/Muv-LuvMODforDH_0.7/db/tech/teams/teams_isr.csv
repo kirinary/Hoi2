@@ -1,0 +1,20 @@
+ISR;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+7900;イスラエル指揮幕僚大学;cscollegeisr;8;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7901;IWI;iwiisr;7;1000;2999;general_equipment;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7902;IMI;IMI;9;1000;2999;mechanics;general_equipment;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7903;ソルタムシステムズ;soltamisr;8;1000;2999;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7904;プラサム;plasamisr;7;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7905;イスラエル･エアロスペース･インダストリーズ;iaiisr;7;1000;2999;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7906;イスラエル総保安庁;shinbet;9;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7907;Hatehof;hatehof;6;1000;2999;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7908;ビシェイ;vishay;8;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7909;ラファエルシステムズ;T7902;7;1000;2999;management;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7910;エルビットシステムズ;elbitisr;9;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7911;ELTA;eltaisr;8;1000;2999;electronics;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7912;イスラエル国防軍;T7908;9;1000;2999;training;large_unit_tactics;decentralized_execution;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7913;参謀本部;davidstar;8;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7914;工兵軍団;isrengineer;8;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7915;イスラエル航空宇宙軍;T7906;9;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7916;イスラエル海軍;isrseacorps;6;1000;2999;large_taskforce_tactics;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7917;ネゲヴ核研究センター;T7900;7;1000;2999;nuclear_physics;nuclear_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7918;IsraelShipyards;T7904;6;1000;2999;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

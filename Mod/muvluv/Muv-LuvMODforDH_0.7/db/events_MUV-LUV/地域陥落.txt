@@ -1,0 +1,6962 @@
+##############################################################
+##
+## 地方陥落イベント(13001~14000)
+##
+##############################################################
+## 
+## 日本帝国
+## id = 13001	九州地方の陥落
+## id = 13002	四国地方の陥落
+## id = 13003	中国地方の陥落
+## id = 13004	近畿地方の陥落
+## id = 13005	中部地方の陥落
+## id = 13006	関東地方の陥落
+## id = 13007	東北地方の陥落
+## id = 13008	北海道地方の陥落
+## id = 13009	樺太地方の陥落
+##
+## 高麗連邦
+## id =	13010	朝鮮南部の陥落
+## id =	13011	朝鮮北部の陥落
+##
+## フィリピン
+## id =	13012	ルソン島の陥落
+## id =	13013	フィリピン東部の陥落
+## id =	13014	フィリピン西部の陥落
+## id =	13015	ミンダナオ島の陥落
+##
+## 統一中華戦線
+## id =	13016	遼寧省の陥落
+## id =	13017	台湾省の陥落
+## id =	13018	吉林省の陥落
+## id =	13019	黒竜江省の陥落
+## id =	13020	察哈爾省の陥落
+## id =	13021	河北省の陥落
+## id =	13022	山西省の陥落
+## id =	13023	綏遠省の陥落
+## id =	13024	陜西省の陥落
+## id =	13025	甘粛省の陥落
+## id =	13026	青海省の陥落
+## id =	13027	山東省の陥落
+## id =	13028	江蘇省の陥落
+## id =	13029	安徽省の陥落
+## id =	13030	河南省の陥落
+## id =	13031	チベットの陥落
+## id =	13032	湖北省の陥落
+## id =	13033	浙江省の陥落
+## id =	13034	四川省の陥落
+## id =	13035	福建省の陥落
+## id =	13036	江西省の陥落
+## id =	13037	湖南省の陥落
+## id =	13038	貴州省の陥落
+## id =	13039	広東省の陥落
+## id =	13040	海南島の陥落
+## id =	13041	広西省の陥落
+## id =	13042	雲南省の陥落
+## id =	13043	新疆省の陥落
+##
+## モンゴル
+## id =	13044	モンゴル地域の陥落
+##
+## ベトナム
+## id =	13045	ベトナム地域の陥落
+##
+## ラオス	
+## id =	13046	ラオス地域の陥落
+##
+## カンボジア	
+## id =	13047	カンボジア地域の陥落
+##
+## タイ
+## id =	13048	シャム地域の陥落
+## id =	13049	クラ半島地域の陥落
+##
+## マレーシア
+## id =	13050	マラッカ地域の陥落
+## id =	13051	ボルネオ北部の陥落
+##
+## ビルマ	
+## id =	13052	ビルマ南部の陥落
+## id =	13053	ビルマ北部の陥落
+##
+## ブルネイ
+## id =	13054	ブルネイの陥落
+##
+## インドネシア
+## id =	13055	スマトラ地域の陥落
+## id =	13056	ボルネオ北部の陥落
+## id =	13057	ボルネオ南部の陥落
+## id =	13058	ジャワ西部の陥落
+## id =	13059	ジャワ東部の陥落
+## id =	13060	セレベス島の陥落
+## id =	13061	バブール地域の陥落
+## id =	13062	アガッツ地域の陥落
+## id =	13063	サルミ地域の陥落
+##
+## オーストラリア
+## id =	13064	ニューギニア北東部の陥落
+## id =	13065	パプア地域の陥落
+## id =	13066	オーストラリア西部の陥落
+## id =	13067	オーストラリア中部の陥落
+## id =	13068	オーストラリア北東部の陥落
+## id =	13069	オーストラリア南東部の陥落
+##
+## インド
+## id =	13070	東ベンガル地域の陥落
+## id =	13071	ヒマラヤ地域の陥落
+## id =	13072	オリッサ地域の陥落
+## id =	13073	ナグプル地域の陥落
+## id =	13074	デリー地域の陥落
+## id =	13075	ラジャスタン地域の陥落
+## id =	13076	ボンベイの陥落
+## id =	13077	西ガーツ地域の陥落
+## id =	13078	セイロン地域の陥落	
+## id =	13079	デカン地域の陥落
+## id =	13080	ガート東部地域の陥落
+## id =	13081	ウェストベンガル地域の陥落
+##
+## パキスタン
+## id =	13082	カシミール地域の陥落
+## id =	13083	パキスタン地域の陥落
+##
+## ソビエト連邦
+## id =	13084	アラスカ北部の陥落
+## id =	13085	カムチャッカ地域の陥落
+## id =	13086	マガダン地域の陥落
+## id =	13087	ヤクーツク地域の陥落
+## id =	13088	アムール地域の陥落
+## id =	13089	ハバロフスク地域の陥落
+## id =	13090	プリモルスク地域の陥落
+## id =	13091	ザバイカル地域の陥落
+## id =	13092	イルクーツク地域の陥落
+## id =	13093	クラスノヤルスク北部の陥落
+## id =	13094	トムスク地域の陥落
+## id =	13095	ノヴォシビルスク地域の陥落
+## id =	13096	オムスク地域の陥落
+## id =	13097	メスコンポディニク地域の陥落
+## id =	13098	カザフスタン地域の陥落
+## id =	13099	キルギルスタン地域の陥落
+## id =	13100	タジキスタン地域の陥落
+## id =	13101	トルキスタン地域の陥落
+## id =	13102	ウズベキスタン地域の陥落
+## id =	13103	トルメクスタン地域の陥落
+## id =	13104	スヴェルドオフスク地域の陥落
+## id =	13105	ペルミ地域の陥落
+## id =	13106	キュメン地域の陥落
+## id =	13107	ウファ地域の陥落
+## id =	13108  キルギス地域の陥落
+## id =	13109 	アルハンゲリスク地域の陥落
+## id =	13110	キーロフ地域の陥落
+## id =	13111	コストロマ地域の陥落
+## id =	13112	ウラジミール地域の陥落
+## id =	13113	サランスク地域の陥落
+## id =	13114	カザン地域の陥落
+## id =	13115	クイビシェフ地域の陥落
+## id =	13116	ペンザ地域の陥落
+## id =	13117	タンボフ地域の陥落
+## id =	13118  ロストフ地域の陥落
+## id =	13119 	スターリングラード地域の陥落
+## id =	13120	アストラハン地域の陥落
+## id =	13121	クラスノダール地域の陥落
+## id =	13122	ジョージア地域の陥落
+## id =	13123	アルメニア地域の陥落
+## id =	13124	ラップランド地域の陥落
+## id =	13125	カレリア地域の陥落
+## id =	13126	ゴーリキ地域の陥落
+## id =	13127	レニングラード地域の陥落
+## id =	13128  ノヴゴロド地域の陥落
+## id =	13129 	プスコフ地域の陥落
+## id =	13130	スモンレスク地域の陥落
+## id =	13131	ヴェリキエルキ地域の陥落
+## id =	13132	モスクワ地域の陥落
+## id =	13133	ミンスク地域の陥落
+## id =	13134	ロガチュフ地域の陥落
+## id =	13135	リャザン地域の陥落
+## id =	13136	キエフ地域の陥落
+## id =	13137	クルスク地域の陥落
+## id =	13138  ハリコフ地域の陥落
+## id =	13139 	ドンプロペトロフシク地域の陥落
+## id =	13140	クリム地域の陥落
+## id =	13141	オデッサ地域の陥落
+## id =	13142	トランスコスリア地域の陥落
+##
+## 欧州連合
+## id =	13143	フィンランド中部の陥落
+## id =	13144	フィンランド南部の陥落
+## id =	13145	オステルボッテン地域の陥落
+## id =	13146	ラップランド地域の陥落
+## id =	13147	ノルウェー北部の陥落
+## id =	13148  ノルウェー中部の陥落
+## id =	13149 	ノルウェー中南部の陥落
+## id =	13150	ノルウェー南部の陥落
+## id =	13151	イェーヴレノルランド地域の陥落
+## id =	13152	ネーデル・ノルランド地域の陥落
+## id =	13153	イョーストラスヴェアランド地域の陥落
+## id =	13154	ヴェストラスヴェアランド地域の陥落
+## id =	13155	イェータランド地域の陥落
+## id =	13156	エストニア地域の陥落
+## id =	13157	ラトヴィア地域の陥落
+## id =	13158  リトアニア地域の陥落
+## id =	13159 	メーメル地域の陥落
+## id =	13160	グラドノ地域の陥落
+## id =	13161	ブレストリトフスク地域の陥落
+## id =	13162	プロイセン東部地域の陥落
+## id =	13163	ワルシャワ地域の陥落
+## id =	13164	リボフ地域の陥落
+## id =	13165	ベッサラビア地域の陥落
+## id =	13166	ポズナン地域の陥落
+## id =	13167	クラクフ地域の陥落
+## id =	13168  スロヴァキア地域の陥落
+## id =	13169 	ハンガリー西部の陥落
+## id =	13170	ハンガリー東部の陥落
+## id =	13171	トランシルバニア地域の陥落
+## id =	13172	ルーマニア北部の陥落
+## id =	13173	ルーマニア南部の陥落
+## id =	13174	ブルガリア地域の陥落
+## id =	13175	トラキア地域の陥落
+## id =	13176	アッチカ地域の陥落
+## id =	13177	アルバニア地域の陥落
+## id =	13178  セルビア南部の陥落
+## id =	13179 	セルビア北部の陥落
+## id =	13180	ボスニア地域の陥落
+## id =	13181	クロアチア地域の陥落
+## id =	13182	ブランデンブルク地域の陥落
+## id =	13183	ザクセン地域の陥落
+## id =	13184	ボヘミア地域の陥落
+## id =	13185	オーストリア地域の陥落
+## id =	13186	デンマーク地域の陥落
+## id =	13187	メクレンブルク地域の陥落
+## id =	13188  ハノーファ地域の陥落
+## id =	13189 	オランダ地域の陥落
+## id =	13190	フランドル地域の陥落
+## id =	13191	ワロニア地域の陥落
+## id =	13192	ヴェストファーレン地域の陥落
+## id =	13193	ロレーヌ・アルザス地域の陥落
+## id =	13194	ヘッセン地域の陥落
+## id =	13195	バーデンウェルランベルグ地域の陥落
+## id =	13196	ババリア地域の陥落
+## id =	13197	チロル地域の陥落
+## id =	13198  ヴェネチア地域の陥落
+## id =	13199 	スイス地域の陥落
+## id =	13200	イタリア北部の陥落
+## id =	13201	アペニノ地域の陥落
+## id =	13202	イタリア中部の陥落
+## id =	13203	イタリア南部の陥落
+## id =	13204	バ・ド・カレー地域の陥落
+## id =	13205	シロンパニュ地域の陥落
+## id =	13206	ノルマンディ地域の陥落
+## id =	13207	トロワ地域の陥落
+## id =	13208  ブルゴーニュ地域の陥落
+## id =	13209 	プロバンス・アルプ地域の陥落
+## id =	13210	ブリタニー地域の陥落
+## id =	13211	ロアール地域の陥落
+## id =	13212	リムーザン地域の陥落
+## id =	13213	ピレネー地域の陥落
+## id =	13214	アキテーヌ地域の陥落
+## id =	13215	カタルーニャ地域の陥落
+## id =	13216	カンタブリカ地域の陥落
+## id =	13217	スペイン地域の陥落
+## id =	13218	スペイン中部の陥落
+## id =	13219	レバント地域の陥落
+## id =	13220	アンダルシア東部の陥落
+## id =	13221	アンダルシア西部の陥落
+## id =	13222	ポルトガル地域の陥落
+## id =	13223	イングランド東部の陥落
+## id =	13224	イングランド西部の陥落
+## id =	13225	イングランド北部の陥落
+## id =	13226	スコットランド南部の陥落
+## id =	13227	スコットランド北部の陥落
+## id =	13228	北アイルランド地域の陥落
+## id =	13229	エール地域の陥落
+## id =	13230	アイスランド地域の陥落
+## id =	13231	グリーンランド地域の陥落
+##
+## 中東連合
+## id =	13232	アフガニスタン地域の陥落
+## id =	13233	ペルシア東部の陥落
+## id =	13234	ペルシア南部の陥落
+## id =	13235	ペルシア北部の陥落
+## id =	13236	アナトリア東部の陥落
+## id =	13237	アナトリア北部沿岸の陥落
+## id =	13238	トルコ中部の陥落
+## id =	13239	ホスポラス地域の陥落
+## id =	13240	アナトリア南部沿岸地域の陥落
+## id =	13241	レバノン・シリア地域の陥落
+## id =	13242	イラク地域の陥落
+## id =	13243	ペルシア湾岸部地域の陥落
+## id =	13244	イエメン地域の陥落
+## id =	13245	アラビア砂漠地域の陥落
+## id =	13246	ヒジャーズ地域の陥落
+## id =	13247	トランスヨルダン地域の陥落
+## id =	13248	パレスチナ地域の陥落
+##
+## アフリカ連合	
+## id =	13249	  
+## id =	13250	 
+## id =	13251	
+## id =	13252	 
+## id =	13253	 
+## id =	13254	 
+## id =	13255	 
+## id =	13256	 
+## id =	13257	 
+## id =	13258	 
+## id =	13259	  
+## id =	13260	 
+## id =	13261	
+## id =	13262	 
+## id =	13263	 
+## id =	13264	 
+## id =	13265	 
+## id =	13266	 
+## id =	13267	 
+## id =	13268	 
+## id =	13269	  
+## id =	13270	 
+## id =	13271	
+## id =	13272	 
+## id =	13273	 
+## id =	13274	 
+## id =	13275	 
+## id =	13276	 
+## id =	13277	 
+## id =	13278	 
+## id =	13279	  
+## id =	13280	 
+## id =	13281	
+## id =	13282	 
+## id =	13283	 
+## id =	13284	 
+## id =	13285	 
+## id =	13286	 
+## id =	13287	 
+## id =	13288	 
+## id =	13289	  
+## id =	13290	 
+## id =	13291	
+## id =	13292	 
+## id =	13293	 
+## id =	13294	 
+## id =	13295	 
+## id =	13296	 
+## id =	13297	 
+## id =	13298	 
+## id =	13299	  
+##
+##############################################################
+
+event = {
+	id = 13001
+	random = no
+	country = JAP
+	trigger = {
+			control = { province = 2629 data = -2 }
+			control = { province = 2630 data = -2 }
+			control = { province = 2631 data = -2 }
+			control = { province = 2632 data = -2 }
+			control = { province = 2633 data = -2 }
+			control = { province = 2634 data = -2 }
+			control = { province = 2635 data = -2 }
+	}
+
+	name = "九州地方の陥落"
+	desc = "EVT_13001_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13002
+	random = no
+	country = JAP
+	trigger = {
+			control = { province = 2625 data = -2 }
+			control = { province = 2626 data = -2 }
+			control = { province = 2627 data = -2 }
+			control = { province = 2628 data = -2 }
+	}
+
+	name = "四国地方の陥落"
+	desc = "EVT_13002_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13003
+	random = no
+	country = JAP
+	trigger = {
+			control = { province = 2620 data = -2 }
+			control = { province = 2621 data = -2 }
+			control = { province = 2622 data = -2 }
+			control = { province = 2623 data = -2 }
+			control = { province = 2624 data = -2 }
+	}
+
+	name = "中国地方の陥落"
+	desc = "EVT_13003_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13004
+	random = no
+	country = JAP
+	trigger = {
+			control = { province = 2613 data = -2 }
+			control = { province = 2614 data = -2 }
+			control = { province = 2615 data = -2 }
+			control = { province = 2616 data = -2 }
+			control = { province = 2617 data = -2 }
+			control = { province = 2618 data = -2 }
+			control = { province = 2619 data = -2 }
+	}
+
+	name = "近畿地方の陥落"
+	desc = "EVT_13004_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13005
+	random = no
+	country = JAP
+	trigger = {
+			control = { province = 1184 data = -2 }
+			control = { province = 1185 data = -2 }
+			control = { province = 1436 data = -2 }
+			control = { province = 2607 data = -2 }
+			control = { province = 2608 data = -2 }
+			control = { province = 2609 data = -2 }
+			control = { province = 2610 data = -2 }
+			control = { province = 2611 data = -2 }
+			control = { province = 2612 data = -2 }
+	}
+
+	name = "中部地方の陥落"
+	desc = "EVT_13005_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13006
+	random = no
+	country = JAP
+	trigger = {
+			control = { province = 1187 data = -2 }
+			control = { province = 1188 data = -2 }
+			control = { province = 1189 data = -2 }
+			control = { province = 1190 data = -2 }
+			control = { province = 1191 data = -2 }
+			control = { province = 1192 data = -2 }
+			control = { province = 1193 data = -2 }
+	}
+
+	name = "関東地方の陥落"
+	desc = "EVT_13006_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13007
+	random = no
+	country = JAP
+	trigger = {
+			control = { province = 1174 data = -2 }
+			control = { province = 1180 data = -2 }
+			control = { province = 1181 data = -2 }
+			control = { province = 1182 data = -2 }
+			control = { province = 1183 data = -2 }
+			control = { province = 1186 data = -2 }
+	}
+
+	name = "東北地方の陥落"
+	desc = "EVT_13007_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13008
+	random = no
+	country = JAP
+	trigger = {
+			control = { province = 1177 data = -2 }
+			control = { province = 1178 data = -2 }
+			control = { province = 1179 data = -2 }
+	}
+
+	name = "北海道地方の陥落"
+	desc = "EVT_13008_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13009
+	random = no
+	country = JAP
+	trigger = {
+			control = { province = 1177 data = -2 }
+			control = { province = 1178 data = -2 }
+			control = { province = 1179 data = -2 }
+	}
+
+	name = "樺太地方の陥落"
+	desc = "EVT_13009_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13010
+	random = no
+	country = KOR
+	trigger = {
+			control = { province = 1195 data = -2 }
+			control = { province = 1196 data = -2 }
+			control = { province = 1197 data = -2 }
+			control = { province = 1198 data = -2 }
+			control = { province = 1199 data = -2 }
+			control = { province = 2219 data = -2 }
+			control = { province = 2226 data = -2 }
+	}
+
+	name = "朝鮮南部の陥落"
+	desc = "EVT_13010_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13011
+	random = no
+	country = KOR
+	trigger = {
+			control = { province = 2231 data = -2 }
+			control = { province = 2236 data = -2 }
+			control = { province = 1200 data = -2 }
+			control = { province = 1201 data = -2 }
+			control = { province = 1393 data = -2 }
+			control = { province = 1391 data = -2 }
+			control = { province = 1392 data = -2 }
+			control = { province = 1379 data = -2 }
+	}
+
+	name = "朝鮮北部の陥落"
+	desc = "EVT_13011_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13012
+	random = no
+	country = PHI
+	trigger = {
+			control = { province = 1740 data = -2 }
+			control = { province = 1741 data = -2 }
+			control = { province = 1738 data = -2 }
+			control = { province = 1739 data = -2 }
+			control = { province = 1737 data = -2 }
+			control = { province = 1742 data = -2 }
+	}
+
+	name = "ルソン島の陥落"
+	desc = "EVT_13012_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13013
+	random = no
+	country = PHI
+	trigger = {
+			control = { province = 1744 data = -2 }
+			control = { province = 1745 data = -2 }
+			control = { province = 1747 data = -2 }
+			control = { province = 1746 data = -2 }
+	}
+
+	name = "フィリピン東部の陥落"
+	desc = "EVT_13013_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13014
+	random = no
+	country = PHI
+	trigger = {
+			control = { province = 1736 data = -2 }
+			control = { province = 1735 data = -2 }
+	}
+
+	name = "フィリピン西部の陥落"
+	desc = "EVT_13014_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13015
+	random = no
+	country = PHI
+	trigger = {
+			control = { province = 1749 data = -2 }
+			control = { province = 1750 data = -2 }
+			control = { province = 1748 data = -2 }
+			control = { province = 1743 data = -2 }
+	}
+
+	name = "ミンダナオ島の陥落"
+	desc = "EVT_13015_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13016
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1202 data = -2 }
+			control = { province = 1394 data = -2 }
+			control = { province = 2349 data = -2 }
+			control = { province = 2346 data = -2 }
+			control = { province = 2345 data = -2 }
+			control = { province = 2341 data = -2 }
+			control = { province = 2340 data = -2 }
+			control = { province = 2344 data = -2 }
+			control = { province = 1395 data = -2 }
+			control = { province = 2348 data = -2 }
+			control = { province = 2347 data = -2 }
+			control = { province = 2317 data = -2 }
+			control = { province = 1396 data = -2 }
+	}
+
+	name = "遼寧省の陥落"
+	desc = "EVT_13016_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13017
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1322 data = -2 }
+			control = { province = 1923 data = -2 }
+			control = { province = 1323 data = -2 }
+			control = { province = 1324 data = -2 }
+			control = { province = 2638 data = -2 }
+	}
+
+	name = "台湾省の陥落"
+	desc = "EVT_13017_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13018
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 2338 data = -2 }
+			control = { province = 2333 data = -2 }
+			control = { province = 1377 data = -2 }
+			control = { province = 2487 data = -2 }
+			control = { province = 1390 data = -2 }
+			control = { province = 2241 data = -2 }
+			control = { province = 1389 data = -2 }
+			control = { province = 2511 data = -2 }
+			control = { province = 1387 data = -2 }
+			control = { province = 2337 data = -2 }
+	}
+
+	name = "吉林省の陥落"
+	desc = "EVT_13018_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13019
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1378 data = -2 }
+			control = { province = 1375 data = -2 }
+			control = { province = 1374 data = -2 }
+			control = { province = 2485 data = -2 }
+			control = { province = 2281 data = -2 }
+			control = { province = 1379 data = -2 }
+			control = { province = 1380 data = -2 }
+			control = { province = 2486 data = -2 }
+			control = { province = 1530 data = -2 }
+			control = { province = 1381 data = -2 }
+			control = { province = 1382 data = -2 }
+	}
+
+	name = "黒竜江省の陥落"
+	desc = "EVT_13019_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13020
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 2246 data = -2 }
+			control = { province = 1386 data = -2 }
+			control = { province = 1388 data = -2 }
+			control = { province = 1398 data = -2 }
+	}
+
+	name = "察哈爾省の陥落"
+	desc = "EVT_13020_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13021
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1203 data = -2 }
+			control = { province = 1397 data = -2 }
+			control = { province = 2318 data = -2 }
+			control = { province = 2527 data = -2 }
+			control = { province = 1204 data = -2 }
+			control = { province = 1205 data = -2 }
+			control = { province = 1206 data = -2 }
+			control = { province = 2526 data = -2 }
+			control = { province = 1210 data = -2 }
+			control = { province = 2525 data = -2 }
+			control = { province = 2576 data = -2 }
+			control = { province = 1211 data = -2 }
+			control = { province = 1212 data = -2 }
+			control = { province = 2523 data = -2 }
+	}
+
+	name = "黒竜江省の陥落"
+	desc = "EVT_13021_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13022
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1209 data = -2 }
+			control = { province = 2520 data = -2 }
+			control = { province = 1225 data = -2 }
+			control = { province = 2518 data = -2 }
+			control = { province = 2517 data = -2 }
+			control = { province = 1226 data = -2 }
+	}
+
+	name = "山西省の陥落"
+	desc = "EVT_13022_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13023
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1207 data = -2 }
+			control = { province = 1208 data = -2 }
+			control = { province = 1272 data = -2 }
+			control = { province = 1273 data = -2 }
+			control = { province = 2504 data = -2 }
+			control = { province = 1439 data = -2 }
+	}
+
+	name = "綏遠省の陥落"
+	desc = "EVT_13023_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13024
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1271 data = -2 }
+			control = { province = 1270 data = -2 }
+			control = { province = 1269 data = -2 }
+			control = { province = 1267 data = -2 }
+			control = { province = 2505 data = -2 }
+			control = { province = 1268 data = -2 }
+			control = { province = 2507 data = -2 }
+	}
+
+	name = "陜西省の陥落"
+	desc = "EVT_13024_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13025
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1275 data = -2 }
+			control = { province = 1274 data = -2 }
+			control = { province = 1277 data = -2 }
+			control = { province = 2503 data = -2 }
+			control = { province = 1276 data = -2 }
+			control = { province = 1440 data = -2 }
+	}
+
+	name = "甘粛省の陥落"
+	desc = "EVT_13025_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13026
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1443 data = -2 }
+			control = { province = 1442 data = -2 }
+			control = { province = 1444 data = -2 }
+	}
+
+	name = "青海省の陥落"
+	desc = "EVT_13026_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13027
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1213 data = -2 }
+			control = { province = 2534 data = -2 }
+			control = { province = 2528 data = -2 }
+			control = { province = 2531 data = -2 }
+			control = { province = 2533 data = -2 }
+			control = { province = 1216 data = -2 }
+			control = { province = 2522 data = -2 }
+			control = { province = 1214 data = -2 }
+			control = { province = 2529 data = -2 }
+			control = { province = 2530 data = -2 }
+			control = { province = 1215 data = -2 }
+	}
+
+	name = "山東省の陥落"
+	desc = "EVT_13027_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13028
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1217 data = -2 }
+			control = { province = 1220 data = -2 }
+			control = { province = 1966 data = -2 }
+			control = { province = 1219 data = -2 }
+			control = { province = 2556 data = -2 }
+			control = { province = 1235 data = -2 }
+			control = { province = 1236 data = -2 }
+			control = { province = 1237 data = -2 }
+	}
+
+	name = "江蘇省の陥落"
+	desc = "EVT_13028_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13029
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1218 data = -2 }
+			control = { province = 2558 data = -2 }
+			control = { province = 1221 data = -2 }
+			control = { province = 1964 data = -2 }
+			control = { province = 1233 data = -2 }
+			control = { province = 1965 data = -2 }
+			control = { province = 1234 data = -2 }
+			control = { province = 2574 data = -2 }
+			control = { province = 2523 data = -2 }
+	}
+
+	name = "安徽省の陥落"
+	desc = "EVT_13029_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13030
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1224 data = -2 }
+			control = { province = 2516 data = -2 }
+			control = { province = 1227 data = -2 }
+			control = { province = 1228 data = -2 }
+			control = { province = 1223 data = -2 }
+			control = { province = 1222 data = -2 }
+			control = { province = 2513 data = -2 }
+			control = { province = 1228 data = -2 }
+			control = { province = 2515 data = -2 }
+			control = { province = 1229 data = -2 }
+			control = { province = 2508 data = -2 }
+			control = { province = 1230 data = -2 }
+	}
+
+	name = "河南省の陥落"
+	desc = "EVT_13030_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13031
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1283 data = -2 }
+			control = { province = 1406 data = -2 }
+			control = { province = 1453 data = -2 }
+			control = { province = 1450 data = -2 }
+			control = { province = 1452 data = -2 }
+			control = { province = 1451 data = -2 }
+			control = { province = 1448 data = -2 }
+	}
+
+	name = "チベットの陥落"
+	desc = "EVT_13031_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13032
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1939 data = -2 }
+			control = { province = 1253 data = -2 }
+			control = { province = 1232 data = -2 }
+			control = { province = 1231 data = -2 }
+			control = { province = 1910 data = -2 }
+			control = { province = 2502 data = -2 }
+			control = { province = 1266 data = -2 }
+			control = { province = 1996 data = -2 }
+			control = { province = 1997 data = -2 }
+			control = { province = 1995 data = -2 }
+			control = { province = 1264 data = -2 }
+	}
+
+	name = "河北省の陥落"
+	desc = "EVT_13032_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13033
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 2571 data = -2 }
+			control = { province = 1238 data = -2 }
+			control = { province = 2570 data = -2 }
+			control = { province = 2572 data = -2 }
+			control = { province = 1241 data = -2 }
+			control = { province = 1239 data = -2 }
+			control = { province = 1240 data = -2 }
+	}
+
+	name = "浙江省の陥落"
+	desc = "EVT_13033_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13034
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 2561 data = -2 }
+			control = { province = 1265 data = -2 }
+			control = { province = 1263 data = -2 }
+			control = { province = 2551 data = -2 }
+			control = { province = 1279 data = -2 }
+			control = { province = 2550 data = -2 }
+			control = { province = 1280 data = -2 }
+			control = { province = 1360 data = -2 }
+			control = { province = 1361 data = -2 }
+			control = { province = 2560 data = -2 }
+			control = { province = 2559 data = -2 }
+			control = { province = 1281 data = -2 }
+			control = { province = 1903 data = -2 }
+			control = { province = 1282 data = -2 }
+	}
+
+	name = "四川省の陥落"
+	desc = "EVT_13034_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13035
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1244 data = -2 }
+			control = { province = 1243 data = -2 }
+			control = { province = 1246 data = -2 }
+			control = { province = 1937 data = -2 }
+			control = { province = 1245 data = -2 }
+			control = { province = 1247 data = -2 }
+			control = { province = 1936 data = -2 }
+	}
+
+	name = "福建省の陥落"
+	desc = "EVT_13035_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13036
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 2568 data = -2 }
+			control = { province = 2567 data = -2 }
+			control = { province = 1242 data = -2 }
+			control = { province = 1941 data = -2 }
+			control = { province = 2569 data = -2 }
+			control = { province = 1252 data = -2 }
+			control = { province = 1251 data = -2 }
+			control = { province = 1254 data = -2 }
+			control = { province = 1938 data = -2 }
+			control = { province = 1250 data = -2 }
+	}
+
+	name = "江西省の陥落"
+	desc = "EVT_13036_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13037
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1921 data = -2 }
+			control = { province = 1256 data = -2 }
+			control = { province = 1257 data = -2 }
+			control = { province = 1914 data = -2 }
+			control = { province = 1259 data = -2 }
+			control = { province = 1255 data = -2 }
+			control = { province = 1922 data = -2 }
+			control = { province = 1260 data = -2 }
+			control = { province = 1261 data = -2 }
+			control = { province = 1913 data = -2 }
+	}
+
+	name = "湖南省の陥落"
+	desc = "EVT_13037_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13038
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 2311 data = -2 }
+			control = { province = 1365 data = -2 }
+			control = { province = 2000 data = -2 }
+			control = { province = 1363 data = -2 }
+			control = { province = 1984 data = -2 }
+			control = { province = 1364 data = -2 }
+			control = { province = 1262 data = -2 }
+			control = { province = 1993 data = -2 }
+	}
+
+	name = "貴州省の陥落"
+	desc = "EVT_13038_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13039
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1248 data = -2 }
+			control = { province = 1249 data = -2 }
+			control = { province = 1314 data = -2 }
+			control = { province = 1912 data = -2 }
+			control = { province = 1880 data = -2 }
+			control = { province = 1313 data = -2 }
+			control = { province = 1315 data = -2 }
+			control = { province = 1312 data = -2 }
+			control = { province = 570 data = -2 }
+			control = { province = 568 data = -2 }
+			control = { province = 1317 data = -2 }
+			control = { province = 1316 data = -2 }
+			control = { province = 1318 data = -2 }
+			control = { province = 1320 data = -2 }
+			control = { province = 696 data = -2 }
+	}
+
+	name = "広東省の陥落"
+	desc = "EVT_13039_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13040
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1321 data = -2 }
+			control = { province = 746 data = -2 }
+	}
+
+	name = "海南島の陥落"
+	desc = "EVT_13040_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13041
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1311 data = -2 }
+			control = { province = 559 data = -2 }
+			control = { province = 1258 data = -2 }
+			control = { province = 1310 data = -2 }
+			control = { province = 557 data = -2 }
+			control = { province = 1309 data = -2 }
+			control = { province = 1319 data = -2 }
+			control = { province = 695 data = -2 }
+			control = { province = 674 data = -2 }
+			control = { province = 1325 data = -2 }
+			control = { province = 720 data = -2 }
+	}
+
+	name = "広西省の陥落"
+	desc = "EVT_13041_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13042
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1362 data = -2 }
+			control = { province = 1308 data = -2 }
+			control = { province = 1327 data = -2 }
+			control = { province = 1983 data = -2 }
+			control = { province = 1307 data = -2 }
+			control = { province = 1293 data = -2 }
+			control = { province = 1918 data = -2 }
+			control = { province = 1928 data = -2 }
+			control = { province = 1978 data = -2 }
+			control = { province = 1294 data = -2 }
+			control = { province = 1905 data = -2 }
+	}
+
+	name = "雲南省の陥落"
+	desc = "EVT_13042_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13043
+	random = no
+	country = U05
+	trigger = {
+			control = { province = 1435 data = -2 }
+			control = { province = 1433 data = -2 }
+			control = { province = 1421 data = -2 }
+			control = { province = 1432 data = -2 }
+			control = { province = 1445 data = -2 }
+			control = { province = 1446 data = -2 }
+			control = { province = 1447 data = -2 }
+			control = { province = 1431 data = -2 }
+	}
+
+	name = "新疆省の陥落"
+	desc = "EVT_13043_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13044
+	random = no
+	country = MON
+	trigger = {
+			control = { province = 1385 data = -2 }
+			control = { province = 1404 data = -2 }
+			control = { province = 1438 data = -2 }
+			control = { province = 1419 data = -2 }
+			control = { province = 1434 data = -2 }
+			control = { province = 1420 data = -2 }
+	}
+
+	name = "モンゴル地域の陥落"
+	desc = "EVT_13044_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13045
+	random = no
+	country = VIE
+	trigger = {
+			control = { province = 1326 data = -2 }
+			control = { province = 1328 data = -2 }
+			control = { province = 1333 data = -2 }
+			control = { province = 1334 data = -2 }
+			control = { province = 1335 data = -2 }
+			control = { province = 1337 data = -2 }
+			control = { province = 1338 data = -2 }
+	}
+
+	name = "ベトナム地域の陥落"
+	desc = "EVT_13045_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13046
+	random = no
+	country = LAO
+	trigger = {
+			control = { province = 1306 data = -2 }
+			control = { province = 1589 data = -2 }
+			control = { province = 1329 data = -2 }
+			control = { province = 1332 data = -2 }
+			control = { province = 1336 data = -2 }
+	}
+
+	name = "ラオス地域の陥落"
+	desc = "EVT_13046_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13047
+	random = no
+	country = LAO
+	trigger = {
+			control = { province = 1341 data = -2 }
+			control = { province = 1340 data = -2 }
+			control = { province = 1339 data = -2 }
+	}
+
+	name = "カンボジア地域の陥落"
+	desc = "EVT_13047_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13048
+	random = no
+	country = SIA
+	trigger = {
+			control = { province = 1331 data = -2 }
+			control = { province = 1342 data = -2 }
+			control = { province = 1343 data = -2 }
+			control = { province = 1344 data = -2 }
+			control = { province = 1330 data = -2 }
+			control = { province = 1303 data = -2 }
+	}
+
+	name = "シャム地域の陥落"
+	desc = "EVT_13048_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13049
+	random = no
+	country = SIA
+	trigger = {
+			control = { province = 1345 data = -2 }
+			control = { province = 1347 data = -2 }
+			control = { province = 1348 data = -2 }
+			control = { province = 1289 data = -2 }
+	}
+
+	name = "クラ半島の陥落"
+	desc = "EVT_13049_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13050
+	random = no
+	country = MLY
+	trigger = {
+			control = { province = 1554 data = -2 }
+			control = { province = 1349 data = -2 }
+			control = { province = 1553 data = -2 }
+			control = { province = 1350 data = -2 }
+			control = { province = 1352 data = -2 }
+			control = { province = 1351 data = -2 }
+	}
+
+	name = "マラッカ地域の陥落"
+	desc = "EVT_13050_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13051
+	random = no
+	country = MLY
+	trigger = {
+			control = { province = 1647 data = -2 }
+			control = { province = 1644 data = -2 }
+	}
+
+	name = "ボルネオ北部の陥落"
+	desc = "EVT_13051_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13052
+	random = no
+	country = BUR
+	trigger = {
+			control = { province = 1297 data = -2 }
+			control = { province = 1298 data = -2 }
+			control = { province = 1300 data = -2 }
+			control = { province = 1304 data = -2 }
+			control = { province = 1305 data = -2 }
+			control = { province = 1301 data = -2 }
+			control = { province = 1299 data = -2 }
+			control = { province = 1302 data = -2 }
+			control = { province = 1346 data = -2 }
+	}
+
+	name = "ビルマ南部の陥落"
+	desc = "EVT_13052_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13053
+	random = no
+	country = BUR
+	trigger = {
+			control = { province = 1291 data = -2 }
+			control = { province = 1290 data = -2 }
+			control = { province = 1292 data = -2 }
+			control = { province = 1296 data = -2 }
+			control = { province = 1295 data = -2 }
+	}
+
+	name = "ビルマ北部の陥落"
+	desc = "EVT_13053_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13054
+	random = no
+	country = BRU
+	trigger = {
+			control = { province = 1646 data = -2 }
+	}
+
+	name = "ブルネイ地域の陥落"
+	desc = "EVT_13054_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13055
+	random = no
+	country = INO
+	trigger = {
+			control = { province = 1355 data = -2 }
+			control = { province = 1663 data = -2 }
+			control = { province = 1616 data = -2 }
+			control = { province = 1357 data = -2 }
+			control = { province = 1356 data = -2 }
+			control = { province = 1359 data = -2 }
+			control = { province = 1358 data = -2 }
+			control = { province = 1661 data = -2 }
+			control = { province = 1354 data = -2 }
+	}
+
+	name = "スマトラ地域の陥落"
+	desc = "EVT_13055_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13056
+	random = no
+	country = INO
+	trigger = {
+			control = { province = 1648 data = -2 }
+			control = { province = 1762 data = -2 }
+			control = { province = 1645 data = -2 }
+	}
+
+	name = "ボルネオ島北部の陥落"
+	desc = "EVT_13056_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13057
+	random = no
+	country = INO
+	trigger = {
+			control = { province = 1649 data = -2 }
+			control = { province = 1650 data = -2 }
+			control = { province = 1641 data = -2 }
+			control = { province = 1642 data = -2 }
+			control = { province = 1615 data = -2 }
+	}
+
+	name = "ボルネオ島南部の陥落"
+	desc = "EVT_13057_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13058
+	random = no
+	country = INO
+	trigger = {
+			control = { province = 1628 data = -2 }
+			control = { province = 1613 data = -2 }
+			control = { province = 1629 data = -2 }
+			control = { province = 1630 data = -2 }
+			control = { province = 1612 data = -2 }
+			control = { province = 1373 data = -2 }
+	}
+
+	name = "ジャワ島西部の陥落"
+	desc = "EVT_13058_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13059
+	random = no
+	country = INO
+	trigger = {
+			control = { province = 1631 data = -2 }
+			control = { province = 661 data = -2 }
+			control = { province = 1632 data = -2 }
+			control = { province = 1633 data = -2 }
+	}
+
+	name = "ジャワ島東部の陥落"
+	desc = "EVT_13059_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13060
+	random = no
+	country = INO
+	trigger = {
+			control = { province = 1640 data = -2 }
+			control = { province = 1651 data = -2 }
+			control = { province = 1652 data = -2 }
+			control = { province = 1653 data = -2 }
+	}
+
+	name = "セレベス島の陥落"
+	desc = "EVT_13060_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13061
+	random = no
+	country = INO
+	trigger = {
+			control = { province = 1659 data = -2 }
+			control = { province = 1660 data = -2 }
+	}
+
+	name = "バブールの陥落"
+	desc = "EVT_13061_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13062
+	random = no
+	country = INO
+	trigger = {
+			control = { province = 1674 data = -2 }
+			control = { province = 1673 data = -2 }
+			control = { province = 1662 data = -2 }
+	}
+
+	name = "アガッツ地域の陥落"
+	desc = "EVT_13062_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13063
+	random = no
+	country = INO
+	trigger = {
+			control = { province = 1664 data = -2 }
+			control = { province = 1665 data = -2 }
+			control = { province = 2111 data = -2 }
+	}
+
+	name = "サルミ地域の陥落"
+	desc = "EVT_13063_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13064
+	random = no
+	country = AST
+	trigger = {
+			control = { province = 1681 data = -2 }
+			control = { province = 1666 data = -2 }
+			control = { province = 1667 data = -2 }
+			control = { province = 1672 data = -2 }
+	}
+
+	name = "ニューギニア島北部の陥落"
+	desc = "EVT_13064_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13065
+	random = no
+	country = AST
+	trigger = {
+			control = { province = 1678 data = -2 }
+			control = { province = 1679 data = -2 }
+			control = { province = 1675 data = -2 }
+			control = { province = 1680 data = -2 }
+			control = { province = 1677 data = -2 }
+	}
+
+	name = "パプア地域の陥落"
+	desc = "EVT_13065_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13066
+	random = no
+	country = AST
+	trigger = {
+			control = { province = 1706 data = -2 }
+			control = { province = 1707 data = -2 }
+			control = { province = 1708 data = -2 }
+			control = { province = 1709 data = -2 }
+			control = { province = 1716 data = -2 }
+			control = { province = 1710 data = -2 }
+			control = { province = 1711 data = -2 }
+			control = { province = 1712 data = -2 }
+			control = { province = 1713 data = -2 }
+	}
+
+	name = "オーストラリア西部地域の陥落"
+	desc = "EVT_13066_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13067
+	random = no
+	country = AST
+	trigger = {
+			control = { province = 1702 data = -2 }
+			control = { province = 1703 data = -2 }
+			control = { province = 1704 data = -2 }
+			control = { province = 1719 data = -2 }
+			control = { province = 1717 data = -2 }
+			control = { province = 1718 data = -2 }
+			control = { province = 1733 data = -2 }
+	}
+
+	name = "オーストラリア中部地域の陥落"
+	desc = "EVT_13067_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13068
+	random = no
+	country = AST
+	trigger = {
+			control = { province = 1693 data = -2 }
+			control = { province = 1696 data = -2 }
+			control = { province = 1699 data = -2 }
+			control = { province = 1698 data = -2 }
+			control = { province = 1700 data = -2 }
+			control = { province = 1722 data = -2 }
+	}
+
+	name = "オーストラリア北東地域の陥落"
+	desc = "EVT_13068_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13069
+	random = no
+	country = AST
+	trigger = {
+			control = { province = 1725 data = -2 }
+			control = { province = 1715 data = -2 }
+			control = { province = 1724 data = -2 }
+			control = { province = 1723 data = -2 }
+			control = { province = 1727 data = -2 }
+			control = { province = 1730 data = -2 }
+			control = { province = 1732 data = -2 }
+	}
+
+	name = "オーストラリア南東地域の陥落"
+	desc = "EVT_13069_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13070
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 2104 data = -2 }
+			control = { province = 1287 data = -2 }
+			control = { province = 2592 data = -2 }
+			control = { province = 1454 data = -2 }
+			control = { province = 1284 data = -2 }
+	}
+
+	name = "東ベンガル地域の陥落"
+	desc = "EVT_13070_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13071
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 1455 data = -2 }
+			control = { province = 1456 data = -2 }
+			control = { province = 2043 data = -2 }
+			control = { province = 1473 data = -2 }
+			control = { province = 1472 data = -2 }
+			control = { province = 2199 data = -2 }
+	}
+
+	name = "ヒマラヤ地域の陥落"
+	desc = "EVT_13071_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13072
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 2094 data = -2 }
+			control = { province = 1459 data = -2 }
+			control = { province = 1519 data = -2 }
+			control = { province = 1701 data = -2 }
+			control = { province = 2091 data = -2 }
+			control = { province = 635 data = -2 }
+			control = { province = 1458 data = -2 }
+			control = { province = 1508 data = -2 }
+			control = { province = 2124 data = -2 }
+			control = { province = 791 data = -2 }
+			control = { province = 1461 data = -2 }
+			control = { province = 2198 data = -2 }
+	}
+
+	name = "オリッサ地域の陥落"
+	desc = "EVT_13072_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13073
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 2133 data = -2 }
+			control = { province = 1471 data = -2 }
+			control = { province = 599 data = -2 }
+			control = { province = 1460 data = -2 }
+			control = { province = 1467 data = -2 }
+			control = { province = 611 data = -2 }
+			control = { province = 722 data = -2 }
+			control = { province = 714 data = -2 }
+			control = { province = 1463 data = -2 }
+			control = { province = 785 data = -2 }
+	}
+
+	name = "ナグプル地域の陥落"
+	desc = "EVT_13073_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13074
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 2092 data = -2 }
+			control = { province = 685 data = -2 }
+			control = { province = 1470 data = -2 }
+			control = { province = 687 data = -2 }
+			control = { province = 1476 data = -2 }
+			control = { province = 1477 data = -2 }
+			control = { province = 1469 data = -2 }
+	}
+
+	name = "デリー地域の陥落"
+	desc = "EVT_13074_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13075
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 1468 data = -2 }
+			control = { province = 1478 data = -2 }
+			control = { province = 1592 data = -2 }
+			control = { province = 1479 data = -2 }
+			control = { province = 1721 data = -2 }
+			control = { province = 1466 data = -2 }
+			control = { province = 593 data = -2 }
+			control = { province = 1465 data = -2 }
+	}
+
+	name = "ラジャスタン地域の陥落"
+	desc = "EVT_13075_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13076
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 1464 data = -2 }
+			control = { province = 631 data = -2 }
+			control = { province = 669 data = -2 }
+			control = { province = 1462 data = -2 }
+			control = { province = 781 data = -2 }
+			control = { province = 697 data = -2 }
+			control = { province = 1699 data = -2 }
+			control = { province = 597 data = -2 }
+			control = { province = 1505 data = -2 }
+			control = { province = 726 data = -2 }
+	}
+
+	name = "ボンベイ地域の陥落"
+	desc = "EVT_13076_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13077
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 1506 data = -2 }
+			control = { province = 703 data = -2 }
+			control = { province = 2175 data = -2 }
+			control = { province = 1512 data = -2 }
+			control = { province = 1513 data = -2 }
+			control = { province = 775 data = -2 }
+			control = { province = 774 data = -2 }
+			control = { province = 773 data = -2 }
+			control = { province = 1758 data = -2 }
+			control = { province = 1514 data = -2 }
+	}
+
+	name = "西ガーツ地域の陥落"
+	desc = "EVT_13077_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13078
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 1591 data = -2 }
+			control = { province = 1517 data = -2 }
+			control = { province = 1516 data = -2 }
+	}
+
+	name = "セイロン地域の陥落"
+	desc = "EVT_13078_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13079
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 769 data = -2 }
+			control = { province = 729 data = -2 }
+			control = { province = 1507 data = -2 }
+			control = { province = 771 data = -2 }
+			control = { province = 702 data = -2 }
+			control = { province = 1510 data = -2 }
+			control = { province = 1511 data = -2 }
+	}
+
+	name = "デカン地域の陥落"
+	desc = "EVT_13079_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13080
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 2099 data = -2 }
+			control = { province = 1695 data = -2 }
+			control = { province = 1509 data = -2 }
+			control = { province = 1694 data = -2 }
+			control = { province = 777 data = -2 }
+			control = { province = 2106 data = -2 }
+			control = { province = 1515 data = -2 }
+	}
+
+	name = "ガート東部地域の陥落"
+	desc = "EVT_13080_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13081
+	random = no
+	country = IND
+	trigger = {
+			control = { province = 1288 data = -2 }
+			control = { province = 1286 data = -2 }
+			control = { province = 1590 data = -2 }
+			control = { province = 1285 data = -2 }
+	}
+
+	name = "ウェストベンガル地域の陥落"
+	desc = "EVT_13081_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13082
+	random = no
+	country = PAK
+	trigger = {
+			control = { province = 736 data = -2 }
+			control = { province = 1705 data = -2 }
+			control = { province = 1474 data = -2 }
+			control = { province = 1430 data = -2 }
+			control = { province = 1728 data = -2 }
+			control = { province = 1731 data = -2 }
+	}
+
+	name = "カシミール地域の陥落"
+	desc = "EVT_13082_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13083
+	random = no
+	country = PAK
+	trigger = {
+			control = { province = 1483 data = -2 }
+			control = { province = 1482 data = -2 }
+			control = { province = 1475 data = -2 }
+			control = { province = 1494 data = -2 }
+			control = { province = 1481 data = -2 }
+			control = { province = 1480 data = -2 }
+	}
+
+	name = "パキスタン地域の陥落"
+	desc = "EVT_13083_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13084
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 2642 data = -2 }
+			control = { province = 2641 data = -2 }
+			control = { province = 1399 data = -2 }
+			control = { province = 550 data = -2 }
+			control = { province = 908 data = -2 }
+	}
+
+	name = "アラスカ北部の陥落"
+	desc = "EVT_13084_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13085
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 2649 data = -2 }
+			control = { province = 2647 data = -2 }
+			control = { province = 2648 data = -2 }
+			control = { province = 1170 data = -2 }
+			control = { province = 2646 data = -2 }
+			control = { province = 1171 data = -2 }
+			control = { province = 1172 data = -2 }
+	}
+
+	name = "カムチャッカ地域の陥落"
+	desc = "EVT_13085_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13086
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 2653 data = -2 }
+			control = { province = 2650 data = -2 }
+			control = { province = 2651 data = -2 }
+			control = { province = 2652 data = -2 }
+			control = { province = 1167 data = -2 }
+			control = { province = 1411 data = -2 }
+	}
+
+	name = "マガダン地域の陥落"
+	desc = "EVT_13086_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13087
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 2654 data = -2 }
+			control = { province = 2655 data = -2 }
+			control = { province = 2656 data = -2 }
+			control = { province = 1524 data = -2 }
+			control = { province = 2658 data = -2 }
+			control = { province = 2659 data = -2 }
+			control = { province = 2657 data = -2 }
+			control = { province = 1521 data = -2 }
+			control = { province = 1522 data = -2 }
+			control = { province = 1383 data = -2 }
+	}
+
+	name = "ヤクーツク地域の陥落"
+	desc = "EVT_13087_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13088
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1525 data = -2 }
+			control = { province = 1526 data = -2 }
+			control = { province = 1529 data = -2 }
+			control = { province = 1528 data = -2 }
+	}
+
+	name = "アムール地域の陥落"
+	desc = "EVT_1308_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13089
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1410 data = -2 }
+			control = { province = 1527 data = -2 }
+			control = { province = 1368 data = -2 }
+			control = { province = 1366 data = -2 }
+	}
+
+	name = "ハバロフスク地域の陥落"
+	desc = "EVT_13089_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13090
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1175 data = -2 }
+			control = { province = 1367 data = -2 }
+			control = { province = 1370 data = -2 }
+			control = { province = 1369 data = -2 }
+			control = { province = 1371 data = -2 }
+			control = { province = 1372 data = -2 }
+	}
+
+	name = "プリモルスク地域の陥落"
+	desc = "EVT_13090_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13091
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1384 data = -2 }
+			control = { province = 1520 data = -2 }
+			control = { province = 1413 data = -2 }
+			control = { province = 1412 data = -2 }
+	}
+
+	name = "ザバイカル地域の陥落"
+	desc = "EVT_13091_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13092
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 2660 data = -2 }
+			control = { province = 1415 data = -2 }
+			control = { province = 1416 data = -2 }
+			control = { province = 1414 data = -2 }
+	}
+
+	name = "イルクーツク地域の陥落"
+	desc = "EVT_13092_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13093
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1535 data = -2 }
+			control = { province = 1547 data = -2 }
+	}
+
+	name = "クラスノヤルスク北部の陥落"
+	desc = "EVT_13093_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13094
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1417 data = -2 }
+			control = { province = 1538 data = -2 }
+			control = { province = 1562 data = -2 }
+			control = { province = 1561 data = -2 }
+			control = { province = 1560 data = -2 }
+			control = { province = 1418 data = -2 }
+	}
+
+	name = "クラスノヤルスク南部の陥落"
+	desc = "EVT_13094_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13095
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1557 data = -2 }
+			control = { province = 1539 data = -2 }
+			control = { province = 1541 data = -2 }
+			control = { province = 1545 data = -2 }
+	}
+
+	name = "トムスク地域の陥落"
+	desc = "EVT_13095_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13096
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1542 data = -2 }
+			control = { province = 1543 data = -2 }
+			control = { province = 1544 data = -2 }
+			control = { province = 1546 data = -2 }
+			control = { province = 1559 data = -2 }
+			control = { province = 1540 data = -2 }
+	}
+
+	name = "ノヴォシビルスク地域の陥落"
+	desc = "EVT_13096_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13097
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1538 data = -2 }
+			control = { province = 1593 data = -2 }
+			control = { province = 1552 data = -2 }
+			control = { province = 1594 data = -2 }
+	}
+
+	name = "オムスク地域の陥落"
+	desc = "EVT_13097_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13098
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1550 data = -2 }
+			control = { province = 1551 data = -2 }
+			control = { province = 1582 data = -2 }
+			control = { province = 1581 data = -2 }
+			control = { province = 1576 data = -2 }
+			control = { province = 1578 data = -2 }
+			control = { province = 1580 data = -2 }
+	}
+
+	name = "メルコンポティニク地域の陥落"
+	desc = "EVT_13098_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13099
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1423 data = -2 }
+			control = { province = 1556 data = -2 }
+			control = { province = 1422 data = -2 }
+			control = { province = 1424 data = -2 }
+			control = { province = 1555 data = -2 }
+	}
+
+	name = "カザフスタン地域の陥落"
+	desc = "EVT_13099_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13100
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1429 data = -2 }
+			control = { province = 1428 data = -2 }
+	}
+
+	name = "キルギルスタン地域の陥落"
+	desc = "EVT_13100_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13101
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1487 data = -2 }
+			control = { province = 1485 data = -2 }
+			control = { province = 1427 data = -2 }
+	}
+
+	name = "タジキスタン地域の陥落"
+	desc = "EVT_13101_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13102
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1425 data = -2 }
+			control = { province = 1588 data = -2 }
+			control = { province = 1426 data = -2 }
+			control = { province = 1587 data = -2 }
+			control = { province = 1586 data = -2 }
+	}
+
+	name = "トルキスタン地域の陥落"
+	desc = "EVT_13102_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13103
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1488 data = -2 }
+			control = { province = 1489 data = -2 }
+			control = { province = 1585 data = -2 }
+			control = { province = 1584 data = -2 }
+	}
+
+	name = "ウズベキスタン地域の陥落"
+	desc = "EVT_13103_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13104
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1491 data = -2 }
+			control = { province = 1490 data = -2 }
+	}
+
+	name = "トルメクスタン地域の陥落"
+	desc = "EVT_13104_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13105
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1549 data = -2 }
+			control = { province = 1575 data = -2 }
+	}
+
+	name = "スヴェルドロフスク地域の陥落"
+	desc = "EVT_13105_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13106
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1573 data = -2 }
+			control = { province = 1572 data = -2 }
+			control = { province = 1567 data = -2 }
+	}
+
+	name = "キュメン地域の陥落"
+	desc = "EVT_13106_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13107
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1570 data = -2 }
+			control = { province = 1577 data = -2 }
+			control = { province = 1150 data = -2 }
+			control = { province = 1828 data = -2 }
+	}
+
+	name = "ウファ地域の陥落"
+	desc = "EVT_13107_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13108
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1579 data = -2 }
+			control = { province = 1569 data = -2 }
+			control = { province = 1583 data = -2 }
+			control = { province = 1568 data = -2 }
+	}
+
+	name = "キルギス地域の陥落"
+	desc = "EVT_13108_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13109
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1771 data = -2 }
+			control = { province = 154 data = -2 }
+			control = { province = 1534 data = -2 }
+			control = { province = 153 data = -2 }
+			control = { province = 1156 data = -2 }
+			control = { province = 165 data = -2 }
+	}
+
+	name = "アルハンゲリスク地域の陥落"
+	desc = "EVT_13109_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13110
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1536 data = -2 }
+			control = { province = 1840 data = -2 }
+			control = { province = 1774 data = -2 }
+			control = { province = 1782 data = -2 }
+	}
+
+	name = "キーロフ地域の陥落"
+	desc = "EVT_13110_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13111
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1533 data = -2 }
+			control = { province = 1841 data = -2 }
+			control = { province = 166 data = -2 }
+			control = { province = 171 data = -2 }
+			control = { province = 170 data = -2 }
+	}
+
+	name = "コストロマ地域の陥落"
+	desc = "EVT_13111_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13112
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 177 data = -2 }
+			control = { province = 167 data = -2 }
+			control = { province = 178 data = -2 }
+			control = { province = 179 data = -2 }
+	}
+
+	name = "ウラジミール地域の陥落"
+	desc = "EVT_13112_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13113
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 168 data = -2 }
+			control = { province = 169 data = -2 }
+			control = { province = 1777 data = -2 }
+	}
+
+	name = "サランスク地域の陥落"
+	desc = "EVT_13113_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13114
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1783 data = -2 }
+			control = { province = 1776 data = -2 }
+			control = { province = 1780 data = -2 }
+			control = { province = 1775 data = -2 }
+			control = { province = 1781 data = -2 }
+	}
+
+	name = "カザン地域の陥落"
+	desc = "EVT_13114_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13115
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1778 data = -2 }
+			control = { province = 1839 data = -2 }
+			control = { province = 1830 data = -2 }
+			control = { province = 1829 data = -2 }
+			control = { province = 1832 data = -2 }
+	}
+
+	name = "クイビシェフ地域の陥落"
+	desc = "EVT_13115_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13116
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 158 data = -2 }
+			control = { province = 1831 data = -2 }
+			control = { province = 280 data = -2 }
+	}
+
+	name = "ペンザ地域の陥落"
+	desc = "EVT_13116_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13117
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 156 data = -2 }
+			control = { province = 284 data = -2 }
+			control = { province = 281 data = -2 }
+			control = { province = 157 data = -2 }
+			control = { province = 264 data = -2 }
+			control = { province = 160 data = -2 }
+	}
+
+	name = "タンボフ地域の陥落"
+	desc = "EVT_13117_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13118
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 265 data = -2 }
+			control = { province = 159 data = -2 }
+			control = { province = 268 data = -2 }
+			control = { province = 271 data = -2 }
+			control = { province = 269 data = -2 }
+	}
+
+	name = "ロストフ地域の陥落"
+	desc = "EVT_13118_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13119
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1834 data = -2 }
+			control = { province = 1836 data = -2 }
+			control = { province = 163 data = -2 }
+			control = { province = 164 data = -2 }
+			control = { province = 1833 data = -2 }
+	}
+
+	name = "スターリングラード地域の陥落"
+	desc = "EVT_13119_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13120
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1838 data = -2 }
+			control = { province = 1151 data = -2 }
+			control = { province = 1837 data = -2 }
+	}
+
+	name = "アストラハン地域の陥落"
+	desc = "EVT_13120_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13121
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 270 data = -2 }
+			control = { province = 257 data = -2 }
+			control = { province = 256 data = -2 }
+			control = { province = 1842 data = -2 }
+			control = { province = 1846 data = -2 }
+			control = { province = 162 data = -2 }
+			control = { province = 1843 data = -2 }
+			control = { province = 255 data = -2 }
+	}
+
+	name = "クラスノダール地域の陥落"
+	desc = "EVT_13121_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13122
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1845 data = -2 }
+			control = { province = 1848 data = -2 }
+			control = { province = 1844 data = -2 }
+			control = { province = 1849 data = -2 }
+			control = { province = 1149 data = -2 }
+			control = { province = 1850 data = -2 }
+			control = { province = 1847 data = -2 }
+	}
+
+	name = "ジョージア地域の陥落"
+	desc = "EVT_13122_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13123
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1857 data = -2 }
+			control = { province = 1907 data = -2 }
+			control = { province = 1858 data = -2 }
+			control = { province = 1856 data = -2 }
+			control = { province = 2470 data = -2 }
+	}
+
+	name = "ジョージア地域の陥落"
+	desc = "EVT_13123_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13124
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 134 data = -2 }
+			control = { province = 135 data = -2 }
+			control = { province = 143 data = -2 }
+	}
+
+	name = "ラップランド地域の陥落"
+	desc = "EVT_13124_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13125
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 183 data = -2 }
+			control = { province = 150 data = -2 }
+			control = { province = 184 data = -2 }
+			control = { province = 151 data = -2 }
+			control = { province = 146 data = -2 }
+			control = { province = 152 data = -2 }
+	}
+
+	name = "カレリア地域の陥落"
+	desc = "EVT_13125_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13126
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 185 data = -2 }
+			control = { province = 172 data = -2 }
+			control = { province = 2488 data = -2 }
+			control = { province = 173 data = -2 }
+	}
+
+	name = "ゴーリキ地域の陥落"
+	desc = "EVT_13126_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13127
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 145 data = -2 }
+			control = { province = 123 data = -2 }
+			control = { province = 187 data = -2 }
+			control = { province = 189 data = -2 }
+			control = { province = 186 data = -2 }
+			control = { province = 188 data = -2 }
+	}
+
+	name = "レニングラード地域の陥落"
+	desc = "EVT_13127_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13128
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 287 data = -2 }
+			control = { province = 289 data = -2 }
+			control = { province = 288 data = -2 }
+			control = { province = 190 data = -2 }
+			control = { province = 191 data = -2 }
+			control = { province = 200 data = -2 }
+	}
+
+	name = "ノヴゴロド地域の陥落"
+	desc = "EVT_13128_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13129
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 192 data = -2 }
+			control = { province = 201 data = -2 }
+			control = { province = 216 data = -2 }
+			control = { province = 1564 data = -2 }
+	}
+
+	name = "プスコフ地域の陥落"
+	desc = "EVT_13129_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13130
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 219 data = -2 }
+			control = { province = 217 data = -2 }
+			control = { province = 218 data = -2 }
+			control = { province = 1153 data = -2 }
+			control = { province = 1874 data = -2 }
+	}
+
+	name = "スモンレスク地域の陥落"
+	desc = "EVT_13130_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13131
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 215 data = -2 }
+			control = { province = 286 data = -2 }
+			control = { province = 285 data = -2 }
+			control = { province = 182 data = -2 }
+	}
+
+	name = "ヴェリキエルキ地域の陥落"
+	desc = "EVT_13131_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13132
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 174 data = -2 }
+			control = { province = 1155 data = -2 }
+			control = { province = 176 data = -2 }
+			control = { province = 175 data = -2 }
+			control = { province = 180 data = -2 }
+			control = { province = 94 data = -2 }
+			control = { province = 2240 data = -2 }
+	}
+
+	name = "モスクワ地域の陥落"
+	desc = "EVT_13132_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13133
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 212 data = -2 }
+			control = { province = 272 data = -2 }
+			control = { province = 273 data = -2 }
+			control = { province = 225 data = -2 }
+			control = { province = 1566 data = -2 }
+			control = { province = 221 data = -2 }
+	}
+
+	name = "ミンスク地域の陥落"
+	desc = "EVT_13133_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+
+event = {
+	id = 13134
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 220 data = -2 }
+			control = { province = 275 data = -2 }
+			control = { province = 1597 data = -2 }
+			control = { province = 277 data = -2 }
+			control = { province = 274 data = -2 }
+			control = { province = 241 data = -2 }
+	}
+
+	name = "ロガチュフ地域の陥落"
+	desc = "EVT_13134_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13135
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 181 data = -2 }
+			control = { province = 276 data = -2 }
+			control = { province = 278 data = -2 }
+			control = { province = 283 data = -2 }
+			control = { province = 1596 data = -2 }
+			control = { province = 1598 data = -2 }
+			control = { province = 279 data = -2 }
+	}
+
+	name = "リャザン地域の陥落"
+	desc = "EVT_13135_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13136
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 226 data = -2 }
+			control = { province = 240 data = -2 }
+			control = { province = 227 data = -2 }
+			control = { province = 228 data = -2 }
+			control = { province = 238 data = -2 }
+			control = { province = 237 data = -2 }
+			control = { province = 239 data = -2 }
+			control = { province = 245 data = -2 }
+	}
+
+	name = "キエフ地域の陥落"
+	desc = "EVT_13136_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13137
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 242 data = -2 }
+			control = { province = 244 data = -2 }
+			control = { province = 243 data = -2 }
+			control = { province = 247 data = -2 }
+			control = { province = 261 data = -2 }
+			control = { province = 262 data = -2 }
+			control = { province = 282 data = -2 }
+			control = { province = 263 data = -2 }
+	}
+
+	name = "クルスク地域の陥落"
+	desc = "EVT_13137_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13138
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 266 data = -2 }
+			control = { province = 248 data = -2 }
+			control = { province = 260 data = -2 }
+			control = { province = 259 data = -2 }
+	}
+
+	name = "ハリコフ地域の陥落"
+	desc = "EVT_13138_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13139
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 246 data = -2 }
+			control = { province = 1152 data = -2 }
+			control = { province = 258 data = -2 }
+			control = { province = 249 data = -2 }
+			control = { province = 250 data = -2 }
+			control = { province = 235 data = -2 }
+			control = { province = 236 data = -2 }
+	}
+
+	name = "ドンプロペトロフシク地域の陥落"
+	desc = "EVT_13139_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13140
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 251 data = -2 }
+			control = { province = 1827 data = -2 }
+			control = { province = 252 data = -2 }
+			control = { province = 253 data = -2 }
+			control = { province = 155 data = -2 }
+			control = { province = 254 data = -2 }
+	}
+
+	name = "クリム地域の陥落"
+	desc = "EVT_13140_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13141
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 234 data = -2 }
+			control = { province = 1154 data = -2 }
+			control = { province = 1565 data = -2 }
+			control = { province = 233 data = -2 }
+	}
+
+	name = "オデッサ地域の陥落"
+	desc = "EVT_13141_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13142
+	random = no
+	country = SOV
+	trigger = {
+			control = { province = 1571 data = -2 }
+			control = { province = 232 data = -2 }
+			control = { province = 231 data = -2 }
+			control = { province = 161 data = -2 }
+			control = { province = 267 data = -2 }
+	}
+
+	name = "トランスコスリア地域の陥落"
+	desc = "EVT_13142_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13143
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 148 data = -2 }
+			control = { province = 139 data = -2 }
+			control = { province = 144 data = -2 }
+			control = { province = 149 data = -2 }
+	}
+
+	name = "フィンランド中部の陥落"
+	desc = "EVT_13143_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13144
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 142 data = -2 }
+			control = { province = 141 data = -2 }
+			control = { province = 140 data = -2 }
+	}
+
+	name = "フィンランド南部の陥落"
+	desc = "EVT_13144_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13145
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 138 data = -2 }
+			control = { province = 137 data = -2 }
+			control = { province = 147 data = -2 }
+			control = { province = 136 data = -2 }
+	}
+
+	name = "オステルボッテン中部の陥落"
+	desc = "EVT_13145_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13146
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 133 data = -2 }
+			control = { province = 132 data = -2 }
+			control = { province = 130 data = -2 }
+			control = { province = 131 data = -2 }
+	}
+
+	name = "ラップランド地域の陥落"
+	desc = "EVT_13146_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13147
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 128 data = -2 }
+			control = { province = 125 data = -2 }
+	}
+
+	name = "ノルウェー北部の陥落"
+	desc = "EVT_13147_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13148
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 124 data = -2 }
+			control = { province = 118 data = -2 }
+	}
+
+	name = "ノルウェー中部の陥落"
+	desc = "EVT_13148_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13149
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 111 data = -2 }
+			control = { province = 116 data = -2 }
+			control = { province = 117 data = -2 }
+			control = { province = 110 data = -2 }
+	}
+
+	name = "ノルウェー中南部の陥落"
+	desc = "EVT_13149_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13150
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 129 data = -2 }
+			control = { province = 109 data = -2 }
+			control = { province = 108 data = -2 }
+			control = { province = 114 data = -2 }
+			control = { province = 112 data = -2 }
+			control = { province = 107 data = -2 }
+			control = { province = 104 data = -2 }
+	}
+
+	name = "フィンランド南部の陥落"
+	desc = "EVT_13150_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13151
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 126 data = -2 }
+			control = { province = 127 data = -2 }
+			control = { province = 121 data = -2 }
+	}
+
+	name = "イューヴレノルランド地域の陥落"
+	desc = "EVT_13151_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13152
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 119 data = -2 }
+			control = { province = 115 data = -2 }
+			control = { province = 113 data = -2 }
+	}
+
+	name = "ネーデル・ノルランド地域の陥落"
+	desc = "EVT_13152_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13153
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 101 data = -2 }
+			control = { province = 100 data = -2 }
+	}
+
+	name = "イョーストラスヴェアランド地域の陥落"
+	desc = "EVT_13153_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13154
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 105 data = -2 }
+			control = { province = 106 data = -2 }
+	}
+
+	name = "ヴェストラスヴェアランド地域の陥落"
+	desc = "EVT_13154_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13155
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 97 data = -2 }
+			control = { province = 99 data = -2 }
+			control = { province = 98 data = -2 }
+			control = { province = 93 data = -2 }
+	}
+
+	name = "イェータランド地域の陥落"
+	desc = "EVT_13155_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13156
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 193 data = -2 }
+			control = { province = 194 data = -2 }
+			control = { province = 196 data = -2 }
+			control = { province = 199 data = -2 }
+			control = { province = 1886 data = -2 }
+	}
+
+	name = "エストニア地域の陥落"
+	desc = "EVT_13156_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13157
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 202 data = -2 }
+			control = { province = 198 data = -2 }
+			control = { province = 197 data = -2 }
+	}
+
+	name = "ラトヴィア地域の陥落"
+	desc = "EVT_13157_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13158
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 213 data = -2 }
+			control = { province = 95 data = -2 }
+			control = { province = 214 data = -2 }
+			control = { province = 203 data = -2 }
+			control = { province = 577 data = -2 }
+			control = { province = 207 data = -2 }
+			control = { province = 511 data = -2 }
+			control = { province = 509 data = -2 }
+	}
+
+	name = "リトアニア地域の陥落"
+	desc = "EVT_13158_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13159
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 204 data = -2 }
+			control = { province = 205 data = -2 }
+			control = { province = 206 data = -2 }
+			control = { province = 2606 data = -2 }
+	}
+
+	name = "メーメル地域の陥落"
+	desc = "EVT_13159_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13160
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 209 data = -2 }
+			control = { province = 210 data = -2 }
+			control = { province = 102 data = -2 }
+	}
+
+	name = "グラドノ地域の陥落"
+	desc = "EVT_13160_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13161
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 562 data = -2 }
+			control = { province = 503 data = -2 }
+			control = { province = 506 data = -2 }
+			control = { province = 1885 data = -2 }
+			control = { province = 502 data = -2 }
+	}
+
+	name = "ブレストリトフスク地域の陥落"
+	desc = "EVT_13161_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13162
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 223 data = -2 }
+			control = { province = 510 data = -2 }
+			control = { province = 1810 data = -2 }
+			control = { province = 304 data = -2 }
+			control = { province = 303 data = -2 }
+			control = { province = 307 data = -2 }
+			control = { province = 305 data = -2 }
+	}
+
+	name = "プロイセン東部の陥落"
+	desc = "EVT_13162_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13163
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 505 data = -2 }
+			control = { province = 1875 data = -2 }
+			control = { province = 508 data = -2 }
+			control = { province = 504 data = -2 }
+			control = { province = 1876 data = -2 }
+			control = { province = 485 data = -2 }
+			control = { province = 484 data = -2 }
+			control = { province = 487 data = -2 }
+	}
+
+	name = "ワルシャワ地域の陥落"
+	desc = "EVT_13163_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13164
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 1884 data = -2 }
+			control = { province = 501 data = -2 }
+			control = { province = 229 data = -2 }
+			control = { province = 500 data = -2 }
+			control = { province = 507 data = -2 }
+	}
+
+	name = "リボフ地域の陥落"
+	desc = "EVT_13164_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13165
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 1173 data = -2 }
+			control = { province = 1401 data = -2 }
+			control = { province = 433 data = -2 }
+			control = { province = 230 data = -2 }
+			control = { province = 434 data = -2 }
+			control = { province = 2605 data = -2 }
+			control = { province = 435 data = -2 }
+	}
+
+	name = "ベッサラビア地域の陥落"
+	desc = "EVT_13165_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13166
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 480 data = -2 }
+			control = { province = 486 data = -2 }
+			control = { province = 479 data = -2 }
+			control = { province = 489 data = -2 }
+			control = { province = 488 data = -2 }
+	}
+
+	name = "クラクフ地域の陥落"
+	desc = "EVT_13166_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13167
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 478 data = -2 }
+			control = { province = 476 data = -2 }
+			control = { province = 1889 data = -2 }
+			control = { province = 477 data = -2 }
+			control = { province = 490 data = -2 }
+			control = { province = 1887 data = -2 }
+			control = { province = 499 data = -2 }
+	}
+
+	name = "スロヴァキア地域の陥落"
+	desc = "EVT_13167_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13168
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 2447 data = -2 }
+			control = { province = 224 data = -2 }
+			control = { province = 458 data = -2 }
+			control = { province = 456 data = -2 }
+			control = { province = 457 data = -2 }
+	}
+
+	name = "ハンガリー西部の陥落"
+	desc = "EVT_13168_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13169
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 491 data = -2 }
+			control = { province = 497 data = -2 }
+			control = { province = 1890 data = -2 }
+			control = { province = 492 data = -2 }
+	}
+
+	name = "ハンガリー東部の陥落"
+	desc = "EVT_13169_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13170
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 496 data = -2 }
+			control = { province = 498 data = -2 }
+			control = { province = 428 data = -2 }
+			control = { province = 1449 data = -2 }
+			control = { province = 427 data = -2 }
+			control = { province = 1403 data = -2 }
+			control = { province = 1899 data = -2 }
+			control = { province = 430 data = -2 }
+	}
+
+	name = "トランシルバニア地域の陥落"
+	desc = "EVT_13170_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13171
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 1402 data = -2 }
+			control = { province = 429 data = -2 }
+			control = { province = 2604 data = -2 }
+			control = { province = 2449 data = -2 }
+			control = { province = 436 data = -2 }
+			control = { province = 432 data = -2 }
+			control = { province = 431 data = -2 }
+	}
+
+	name = "ルーマニア北部の陥落"
+	desc = "EVT_13171_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13172
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 495 data = -2 }
+			control = { province = 2602 data = -2 }
+			control = { province = 2603 data = -2 }
+			control = { province = 426 data = -2 }
+			control = { province = 425 data = -2 }
+			control = { province = 424 data = -2 }
+			control = { province = 2450 data = -2 }
+			control = { province = 423 data = -2 }
+	}
+
+	name = "ルーマニア南部の陥落"
+	desc = "EVT_13172_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13173
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 419 data = -2 }
+			control = { province = 417 data = -2 }
+			control = { province = 416 data = -2 }
+			control = { province = 2323 data = -2 }
+			control = { province = 421 data = -2 }
+			control = { province = 420 data = -2 }
+			control = { province = 1911 data = -2 }
+			control = { province = 2324 data = -2 }
+			control = { province = 422 data = -2 }
+	}
+
+	name = "ブルガリア地域の陥落"
+	desc = "EVT_13173_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13174
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 2321 data = -2 }
+			control = { province = 410 data = -2 }
+			control = { province = 411 data = -2 }
+			control = { province = 412 data = -2 }
+			control = { province = 2319 data = -2 }
+			control = { province = 392 data = -2 }
+			control = { province = 402 data = -2 }
+	}
+
+	name = "トラキア地域の陥落"
+	desc = "EVT_13174_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13175
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 403 data = -2 }
+			control = { province = 401 data = -2 }
+			control = { province = 395 data = -2 }
+			control = { province = 394 data = -2 }
+	}
+
+	name = "アッチカ地域の陥落"
+	desc = "EVT_13175_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13176
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 664 data = -2 }
+			control = { province = 391 data = -2 }
+			control = { province = 390 data = -2 }
+			control = { province = 665 data = -2 }
+	}
+
+	name = "アルバニア地域の陥落"
+	desc = "EVT_13176_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13177
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 414 data = -2 }
+			control = { province = 413 data = -2 }
+			control = { province = 1169 data = -2 }
+			control = { province = 415 data = -2 }
+			control = { province = 1168 data = -2 }
+			control = { province = 451 data = -2 }
+			control = { province = 1896 data = -2 }
+			control = { province = 1894 data = -2 }
+			control = { province = 389 data = -2 }
+	}
+
+	name = "セルビア南部の陥落"
+	desc = "EVT_13177_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13178
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 1057 data = -2 }
+			control = { province = 453 data = -2 }
+			control = { province = 452 data = -2 }
+			control = { province = 1895 data = -2 }
+			control = { province = 494 data = -2 }
+			control = { province = 1897 data = -2 }
+			control = { province = 493 data = -2 }
+			control = { province = 454 data = -2 }
+	}
+
+	name = "セルビア中部の陥落"
+	desc = "EVT_13178_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13179
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 386 data = -2 }
+			control = { province = 385 data = -2 }
+			control = { province = 387 data = -2 }
+			control = { province = 1891 data = -2 }
+			control = { province = 1892 data = -2 }
+	}
+
+	name = "ボスニア地域の陥落"
+	desc = "EVT_13179_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13180
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 383 data = -2 }
+			control = { province = 382 data = -2 }
+			control = { province = 455 data = -2 }
+			control = { province = 459 data = -2 }
+			control = { province = 380 data = -2 }
+			control = { province = 291 data = -2 }
+			control = { province = 384 data = -2 }
+			control = { province = 381 data = -2 }
+			control = { province = 1893 data = -2 }
+	}
+
+	name = "クロアチア地域の陥落"
+	desc = "EVT_13180_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13181
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 1779 data = -2 }
+			control = { province = 1810 data = -2 }
+			control = { province = 302 data = -2 }
+			control = { province = 308 data = -2 }
+			control = { province = 546 data = -2 }
+			control = { province = 300 data = -2 }
+			control = { province = 299 data = -2 }
+			control = { province = 297 data = -2 }
+			control = { province = 298 data = -2 }
+	}
+
+	name = "ブランデンブルク地域の陥落"
+	desc = "EVT_13181_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13182
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 309 data = -2 }
+			control = { province = 310 data = -2 }
+			control = { province = 311 data = -2 }
+	}
+
+	name = "ザクセン地域の陥落"
+	desc = "EVT_13182_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13183
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 1400 data = -2 }
+			control = { province = 482 data = -2 }
+			control = { province = 473 data = -2 }
+			control = { province = 1623 data = -2 }
+			control = { province = 1595 data = -2 }
+	}
+
+	name = "シレジア地域の陥落"
+	desc = "EVT_13183_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13184
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 466 data = -2 }
+			control = { province = 53 data = -2 }
+			control = { province = 470 data = -2 }
+			control = { province = 471 data = -2 }
+			control = { province = 469 data = -2 }
+			control = { province = 1888 data = -2 }
+			control = { province = 468 data = -2 }
+			control = { province = 472 data = -2 }
+			control = { province = 474 data = -2 }
+			control = { province = 475 data = -2 }
+			control = { province = 467 data = -2 }
+	}
+
+	name = "ボヘミア地域の陥落"
+	desc = "EVT_13184_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13185
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 464 data = -2 }
+			control = { province = 2329 data = -2 }
+			control = { province = 463 data = -2 }
+			control = { province = 2328 data = -2 }
+			control = { province = 465 data = -2 }
+			control = { province = 2327 data = -2 }
+			control = { province = 462 data = -2 }
+			control = { province = 460 data = -2 }
+			control = { province = 461 data = -2 }
+	}
+
+	name = "オーストリア地域の陥落"
+	desc = "EVT_13185_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13186
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 294 data = -2 }
+			control = { province = 292 data = -2 }
+			control = { province = 92 data = -2 }
+			control = { province = 120 data = -2 }
+			control = { province = 122 data = -2 }
+			control = { province = 91 data = -2 }
+			control = { province = 293 data = -2 }
+	}
+
+	name = "デンマーク地域の陥落"
+	desc = "EVT_13186_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13187
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 90 data = -2 }
+			control = { province = 89 data = -2 }
+			control = { province = 88 data = -2 }
+			control = { province = 296 data = -2 }
+			control = { province = 301 data = -2 }
+	}
+
+	name = "メクレンブルク地域の陥落"
+	desc = "EVT_13187_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13188
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 87 data = -2 }
+			control = { province = 86 data = -2 }
+			control = { province = 80 data = -2 }
+			control = { province = 81 data = -2 }
+	}
+
+	name = "ハノーファ地域の陥落"
+	desc = "EVT_13188_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13189
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 78 data = -2 }
+			control = { province = 79 data = -2 }
+			control = { province = 77 data = -2 }
+			control = { province = 1019 data = -2 }
+			control = { province = 47 data = -2 }
+			control = { province = 46 data = -2 }
+			control = { province = 49 data = -2 }
+			control = { province = 48 data = -2 }
+			control = { province = 1082 data = -2 }
+	}
+
+	name = "オランダ地域の陥落"
+	desc = "EVT_13189_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13190
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 50 data = -2 }
+			control = { province = 45 data = -2 }
+			control = { province = 51 data = -2 }
+			control = { province = 52 data = -2 }
+	}
+
+	name = "フランドル地域の陥落"
+	desc = "EVT_13190_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13191
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 69 data = -2 }
+			control = { province = 65 data = -2 }
+			control = { province = 70 data = -2 }
+			control = { province = 68 data = -2 }
+			control = { province = 71 data = -2 }
+	}
+
+	name = "ワロニア地域の陥落"
+	desc = "EVT_13191_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13192
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 66 data = -2 }
+			control = { province = 75 data = -2 }
+			control = { province = 1018 data = -2 }
+			control = { province = 76 data = -2 }
+			control = { province = 67 data = -2 }
+			control = { province = 1405 data = -2 }
+			control = { province = 1016 data = -2 }
+			control = { province = 74 data = -2 }
+			control = { province = 1015 data = -2 }
+	}
+
+	name = "ヴェストファーレン地域の陥落"
+	desc = "EVT_13192_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13193
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 72 data = -2 }
+			control = { province = 73 data = -2 }
+			control = { province = 1022 data = -2 }
+			control = { province = 316 data = -2 }
+	}
+
+	name = "ロレーヌ・アルザス地域の陥落"
+	desc = "EVT_13193_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13194
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 84 data = -2 }
+			control = { province = 82 data = -2 }
+			control = { province = 313 data = -2 }
+			control = { province = 547 data = -2 }
+			control = { province = 970 data = -2 }
+	}
+
+	name = "ヘッセン地域の陥落"
+	desc = "EVT_13194_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13195
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 989 data = -2 }
+			control = { province = 1014 data = -2 }
+			control = { province = 314 data = -2 }
+			control = { province = 315 data = -2 }
+	}
+
+	name = "バーデンウェルテンベルク地域の陥落"
+	desc = "EVT_13195_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13196
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 83 data = -2 }
+			control = { province = 312 data = -2 }
+			control = { province = 375 data = -2 }
+			control = { province = 85 data = -2 }
+			control = { province = 376 data = -2 }
+			control = { province = 374 data = -2 }
+	}
+
+	name = "ババリア地域の陥落"
+	desc = "EVT_13196_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13197
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 377 data = -2 }
+			control = { province = 373 data = -2 }
+			control = { province = 1408 data = -2 }
+			control = { province = 371 data = -2 }
+	}
+
+	name = "チロル地域の陥落"
+	desc = "EVT_13197_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13198
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 2325 data = -2 }
+			control = { province = 2326 data = -2 }
+			control = { province = 666 data = -2 }
+			control = { province = 668 data = -2 }
+			control = { province = 378 data = -2 }
+	}
+
+	name = "ヴェネチア地域の陥落"
+	desc = "EVT_13198_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13199
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 533 data = -2 }
+			control = { province = 372 data = -2 }
+			control = { province = 532 data = -2 }
+			control = { province = 530 data = -2 }
+	}
+
+	name = "スイス地域の陥落"
+	desc = "EVT_13199_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13200
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 531 data = -2 }
+			control = { province = 368 data = -2 }
+			control = { province = 370 data = -2 }
+			control = { province = 379 data = -2 }
+	}
+
+	name = "イタリア北部の陥落"
+	desc = "EVT_13200_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13201
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 369 data = -2 }
+			control = { province = 512 data = -2 }
+			control = { province = 513 data = -2 }
+			control = { province = 514 data = -2 }
+	}
+
+	name = "アペニノ地域の陥落"
+	desc = "EVT_13201_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13202
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 542 data = -2 }
+			control = { province = 516 data = -2 }
+			control = { province = 515 data = -2 }
+			control = { province = 518 data = -2 }
+			control = { province = 519 data = -2 }
+			control = { province = 543 data = -2 }
+			control = { province = 517 data = -2 }
+	}
+
+	name = "イタリア中部の陥落"
+	desc = "EVT_13202_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13203
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 521 data = -2 }
+			control = { province = 520 data = -2 }
+			control = { province = 523 data = -2 }
+			control = { province = 522 data = -2 }
+			control = { province = 524 data = -2 }
+	}
+
+	name = "イタリア南部の陥落"
+	desc = "EVT_13203_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13204
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 43 data = -2 }
+			control = { province = 44 data = -2 }
+			control = { province = 18 data = -2 }
+			control = { province = 42 data = -2 }
+	}
+
+	name = "バ・ド・カレー地域の陥落"
+	desc = "EVT_13204_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13205
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 55 data = -2 }
+			control = { province = 64 data = -2 }
+			control = { province = 841 data = -2 }
+			control = { province = 317 data = -2 }
+	}
+
+	name = "シトセンパニュ地域の陥落"
+	desc = "EVT_13205_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13206
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 41 data = -2 }
+			control = { province = 2555 data = -2 }
+			control = { province = 39 data = -2 }
+			control = { province = 40 data = -2 }
+			control = { province = 37 data = -2 }
+			control = { province = 38 data = -2 }
+	}
+
+	name = "ノルマンディ地域の陥落"
+	desc = "EVT_13206_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13207
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 54 data = -2 }
+			control = { province = 56 data = -2 }
+			control = { province = 63 data = -2 }
+			control = { province = 62 data = -2 }
+	}
+
+	name = "トロワ地域の陥落"
+	desc = "EVT_13207_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13208
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 318 data = -2 }
+			control = { province = 2514 data = -2 }
+			control = { province = 2557 data = -2 }
+			control = { province = 1643 data = -2 }
+			control = { province = 1676 data = -2 }
+	}
+
+	name = "ブルゴーニュ地域の陥落"
+	desc = "EVT_13208_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13209
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 2509 data = -2 }
+			control = { province = 527 data = -2 }
+			control = { province = 529 data = -2 }
+			control = { province = 528 data = -2 }
+			control = { province = 364 data = -2 }
+			control = { province = 365 data = -2 }
+			control = { province = 366 data = -2 }
+	}
+
+	name = "プロバンス地域の陥落"
+	desc = "EVT_13209_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13210
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 32 data = -2 }
+			control = { province = 34 data = -2 }
+			control = { province = 33 data = -2 }
+			control = { province = 35 data = -2 }
+	}
+
+	name = "ブリタニー地域の陥落"
+	desc = "EVT_13210_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13211
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 36 data = -2 }
+			control = { province = 57 data = -2 }
+			control = { province = 61 data = -2 }
+			control = { province = 58 data = -2 }
+			control = { province = 60 data = -2 }
+	}
+
+	name = "ロアール地域の陥落"
+	desc = "EVT_13211_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13212
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 320 data = -2 }
+			control = { province = 321 data = -2 }
+			control = { province = 322 data = -2 }
+			control = { province = 324 data = -2 }
+			control = { province = 361 data = -2 }
+			control = { province = 360 data = -2 }
+			control = { province = 319 data = -2 }
+	}
+
+	name = "リムーザン地域の陥落"
+	desc = "EVT_13212_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13213
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 363 data = -2 }
+			control = { province = 324 data = -2 }
+			control = { province = 362 data = -2 }
+			control = { province = 358 data = -2 }
+			control = { province = 328 data = -2 }
+	}
+
+	name = "ピレネー地域の陥落"
+	desc = "EVT_13213_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13214
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 323 data = -2 }
+			control = { province = 59 data = -2 }
+			control = { province = 325 data = -2 }
+			control = { province = 326 data = -2 }
+			control = { province = 327 data = -2 }
+			control = { province = 2242 data = -2 }
+	}
+
+	name = "アキテーヌ地域の陥落"
+	desc = "EVT_13214_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13215
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 536 data = -2 }
+			control = { province = 357 data = -2 }
+			control = { province = 537 data = -2 }
+			control = { province = 356 data = -2 }
+			control = { province = 329 data = -2 }
+	}
+
+	name = "カタルーニャ地域の陥落"
+	desc = "EVT_13215_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13216
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 2244 data = -2 }
+			control = { province = 2243 data = -2 }
+			control = { province = 331 data = -2 }
+			control = { province = 1726 data = -2 }
+			control = { province = 332 data = -2 }
+	}
+
+	name = "アキテーヌ地域の陥落"
+	desc = "EVT_13216_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13217
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 334 data = -2 }
+			control = { province = 1537 data = -2 }
+			control = { province = 1532 data = -2 }
+			control = { province = 333 data = -2 }
+			control = { province = 339 data = -2 }
+			control = { province = 962 data = -2 }
+			control = { province = 961 data = -2 }
+	}
+
+	name = "スペイン地域の陥落"
+	desc = "EVT_13217_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13218
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 330 data = -2 }
+			control = { province = 340 data = -2 }
+			control = { province = 1734 data = -2 }
+			control = { province = 1531 data = -2 }
+			control = { province = 1162 data = -2 }
+			control = { province = 341 data = -2 }
+			control = { province = 342 data = -2 }
+	}
+
+	name = "スペイン中部の陥落"
+	desc = "EVT_13218_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13219
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 355 data = -2 }
+			control = { province = 354 data = -2 }
+			control = { province = 1714 data = -2 }
+			control = { province = 352 data = -2 }
+	}
+
+	name = "レバント地域の陥落"
+	desc = "EVT_13219_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13220
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 1161 data = -2 }
+			control = { province = 353 data = -2 }
+			control = { province = 351 data = -2 }
+			control = { province = 350 data = -2 }
+	}
+
+	name = "アンダルシア東部の陥落"
+	desc = "EVT_13220_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13221
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 338 data = -2 }
+			control = { province = 343 data = -2 }
+			control = { province = 346 data = -2 }
+			control = { province = 347 data = -2 }
+			control = { province = 1157 data = -2 }
+			control = { province = 349 data = -2 }
+			control = { province = 348 data = -2 }
+	}
+
+	name = "アンダルシア西部の陥落"
+	desc = "EVT_13221_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13222
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 335 data = -2 }
+			control = { province = 337 data = -2 }
+			control = { province = 965 data = -2 }
+			control = { province = 336 data = -2 }
+			control = { province = 344 data = -2 }
+			control = { province = 1163 data = -2 }
+			control = { province = 345 data = -2 }
+			control = { province = 1563 data = -2 }
+	}
+
+	name = "ポルトガル地域の陥落"
+	desc = "EVT_13222_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13223
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 21 data = -2 }
+			control = { province = 20 data = -2 }
+			control = { province = 19 data = -2 }
+			control = { province = 17 data = -2 }
+	}
+
+	name = "イングランド東部の陥落"
+	desc = "EVT_13223_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13224
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 1160 data = -2 }
+			control = { province = 23 data = -2 }
+			control = { province = 22 data = -2 }
+			control = { province = 14 data = -2 }
+			control = { province = 15 data = -2 }
+			control = { province = 1409 data = -2 }
+	}
+
+	name = "イングランド西部の陥落"
+	desc = "EVT_13224_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13225
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 16 data = -2 }
+			control = { province = 1164 data = -2 }
+			control = { province = 11 data = -2 }
+			control = { province = 13 data = -2 }
+			control = { province = 12 data = -2 }
+			control = { province = 2245 data = -2 }
+			control = { province = 10 data = -2 }
+	}
+
+	name = "イングランド北部の陥落"
+	desc = "EVT_13225_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13226
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 9 data = -2 }
+			control = { province = 8 data = -2 }
+			control = { province = 1166 data = -2 }
+	}
+
+	name = "スコットランド南部の陥落"
+	desc = "EVT_13226_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13227
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 7 data = -2 }
+			control = { province = 6 data = -2 }
+			control = { province = 5 data = -2 }
+			control = { province = 3 data = -2 }
+	}
+
+	name = "スコットランド北部の陥落"
+	desc = "EVT_13227_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13228
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 28 data = -2 }
+			control = { province = 29 data = -2 }
+	}
+
+	name = "北アイルランドの陥落"
+	desc = "EVT_13228_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13229
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 27 data = -2 }
+			control = { province = 26 data = -2 }
+			control = { province = 30 data = -2 }
+			control = { province = 24 data = -2 }
+			control = { province = 25 data = -2 }
+	}
+
+	name = "エール地域の陥落"
+	desc = "EVT_13229_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13230
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 1 data = -2 }
+	}
+
+	name = "アイスランド地域の陥落"
+	desc = "EVT_13230_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13231
+	random = no
+	country = U02
+	trigger = {
+			control = { province = 800 data = -2 }
+	}
+
+	name = "グリーンランド地域の陥落"
+	desc = "EVT_13231_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13232
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1484 data = -2 }
+			control = { province = 1486 data = -2 }
+			control = { province = 1493 data = -2 }
+			control = { province = 1492 data = -2 }
+	}
+
+	name = "アフガニスタン地域の陥落"
+	desc = "EVT_13232_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13233
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1500 data = -2 }
+			control = { province = 1495 data = -2 }
+			control = { province = 1496 data = -2 }
+			control = { province = 1497 data = -2 }
+	}
+
+	name = "ペルシア東部の陥落"
+	desc = "EVT_13233_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13234
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1826 data = -2 }
+			control = { province = 1501 data = -2 }
+			control = { province = 1825 data = -2 }
+			control = { province = 1498 data = -2 }
+			control = { province = 1499 data = -2 }
+	}
+
+	name = "ペルシア南部の陥落"
+	desc = "EVT_13234_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13235
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1503 data = -2 }
+			control = { province = 1502 data = -2 }
+			control = { province = 1787 data = -2 }
+			control = { province = 1859 data = -2 }
+			control = { province = 1788 data = -2 }
+			control = { province = 1789 data = -2 }
+	}
+
+	name = "ペルシア北部の陥落"
+	desc = "EVT_13235_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13236
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1852 data = -2 }
+			control = { province = 1851 data = -2 }
+			control = { province = 1853 data = -2 }
+			control = { province = 1854 data = -2 }
+	}
+
+	name = "アナトリア東部の陥落"
+	desc = "EVT_13236_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13237
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 446 data = -2 }
+			control = { province = 450 data = -2 }
+			control = { province = 449 data = -2 }
+			control = { province = 447 data = -2 }
+	}
+
+	name = "アナトリア北部沿岸地域の陥落"
+	desc = "EVT_13237_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13238
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 440 data = -2 }
+			control = { province = 441 data = -2 }
+			control = { province = 448 data = -2 }
+			control = { province = 1158 data = -2 }
+			control = { province = 442 data = -2 }
+	}
+
+	name = "トルコ中部の陥落"
+	desc = "EVT_13238_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13239
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 2322 data = -2 }
+			control = { province = 409 data = -2 }
+			control = { province = 439 data = -2 }
+			control = { province = 408 data = -2 }
+			control = { province = 437 data = -2 }
+	}
+
+	name = "ホスポラス地域の陥落"
+	desc = "EVT_13239_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13240
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 438 data = -2 }
+			control = { province = 443 data = -2 }
+			control = { province = 445 data = -2 }
+			control = { province = 1855 data = -2 }
+			control = { province = 1159 data = -2 }
+	}
+
+	name = "アナトリア南部沿岸地域の陥落"
+	desc = "EVT_13240_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13241
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 2019 data = -2 }
+			control = { province = 1861 data = -2 }
+			control = { province = 1862 data = -2 }
+			control = { province = 1863 data = -2 }
+			control = { province = 1792 data = -2 }
+			control = { province = 1793 data = -2 }
+			control = { province = 1794 data = -2 }
+			control = { province = 1795 data = -2 }
+	}
+
+	name = "レバノン・シリア地域の陥落"
+	desc = "EVT_13241_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13242
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 710 data = -2 }
+			control = { province = 2496 data = -2 }
+			control = { province = 1864 data = -2 }
+			control = { province = 1865 data = -2 }
+			control = { province = 1860 data = -2 }
+			control = { province = 1866 data = -2 }
+			control = { province = 1790 data = -2 }
+			control = { province = 1824 data = -2 }
+			control = { province = 1823 data = -2 }
+			control = { province = 1806 data = -2 }
+			control = { province = 1791 data = -2 }
+	}
+
+	name = "イラク地域の陥落"
+	desc = "EVT_13242_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13243
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1822 data = -2 }
+			control = { province = 1821 data = -2 }
+			control = { province = 1906 data = -2 }
+			control = { province = 700 data = -2 }
+			control = { province = 1504 data = -2 }
+			control = { province = 2460 data = -2 }
+	}
+
+	name = "ペルシア湾沿岸地域の陥落"
+	desc = "EVT_13243_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13244
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1819 data = -2 }
+			control = { province = 1814 data = -2 }
+			control = { province = 1813 data = -2 }
+	}
+
+	name = "イエメン地域の陥落"
+	desc = "EVT_13244_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13245
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1818 data = -2 }
+			control = { province = 1807 data = -2 }
+			control = { province = 1805 data = -2 }
+			control = { province = 1808 data = -2 }
+	}
+
+	name = "アラビア地域の陥落"
+	desc = "EVT_13245_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13246
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1812 data = -2 }
+			control = { province = 1809 data = -2 }
+			control = { province = 1804 data = -2 }
+	}
+
+	name = "ヒジャーズ地域の陥落"
+	desc = "EVT_13246_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13247
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 407 data = -2 }
+			control = { province = 1882 data = -2 }
+			control = { province = 1796 data = -2 }
+			control = { province = 1803 data = -2 }
+			control = { province = 1802 data = -2 }
+	}
+
+	name = "トランスヨルダン地域の陥落"
+	desc = "EVT_13247_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}
+
+event = {
+	id = 13248
+	random = no
+	country = U03
+	trigger = {
+			control = { province = 1881 data = -2 }
+			control = { province = 404 data = -2 }
+			control = { province = 1797 data = -2 }
+			control = { province = 1798 data = -2 }
+			control = { province = 406 data = -2 }
+	}
+
+	name = "パレスチナ地域の陥落"
+	desc = "EVT_13248_DESC"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 3
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんということだ……"
+		command = { type = manpowerpool value = -50 }
+
+	}
+}

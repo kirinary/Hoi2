@@ -1,0 +1,900 @@
+##############################################################
+##
+## 反人類戦線イベント(5701~5800)
+##
+##############################################################
+##############################################################アフリカ
+## id = 5701	エチオピア･エリトリア国境紛争(U01)
+## id = 5702	和平仲介交渉(U06)
+## id = 5703	難民大量発生(U04)
+## id = 5704	難民大量発生(U06)
+## id = 5705	国連軍基地襲撃(U06)
+## id = 5706	国連安全保障理事会決議1312(U06)
+## id = 5707	国際連合エチオピア・エリトリア派遣団への参加(USA)
+## id = 5708	国際連合エチオピア・エリトリア派遣団への参加(U01)
+## id = 5709	国際連合エチオピア・エリトリア派遣団への参加(U02)
+## id = 5710	国際連合エチオピア・エリトリア派遣団への参加(U04)
+## id = 5711	イサイアス・アフェウェルキ捕縛作戦(USA)
+## id = 5712	反人類勢力掃討作戦(USA)
+## id = 5713	反人類勢力掃討作戦(U01)
+## id = 5714    反人類勢力掃討作戦(U02)
+## id = 5715    フセイン･アイディード捕縛作戦(USA)
+## id = 5716    国連安全保障理事会決議1313(U06)
+## id = 5717    国際連合ソマリア平和維持軍への参加(USA)
+## id = 5718    国際連合ソマリア平和維持軍への参加(U01)
+## id = 5719    国際連合ソマリア平和維持軍への参加(U02)
+## id = 5720    国際連合ソマリア平和維持軍への参加(U04)
+## id = 5721    イスラム法廷連合との和平交渉(U01)
+## id = 5722    アル・シャバブの崩壊(U01)
+##############################################################フィリピン
+## id = 5723    反人類勢力との抗争(U04)
+## id = 5724    アメリカ陸軍特殊部隊群派遣要請(U04)
+## id = 5725    アメリカ陸軍特殊部隊群派遣要請(USA)
+## id = 5726    第510統合任務部隊派遣(U04)
+## id = 5727    アブ･サヤフ掃討作戦(U04)
+## id = 5728    新人民軍掃討作戦(U04)
+## id = 5729    モロ･イスラム解放戦線掃討作戦(U04)
+## id = 5730    ジェマ・イスラミア掃討作戦(U04)
+## id = 5731    アブ･サヤフ壊滅(U04)
+## id = 5732    新人民軍壊滅(U04)
+## id = 5733    モロ･イスラム解放戦線壊滅(U04)
+## id = 5734    ジェマ・イスラミア壊滅(U04)
+#####################################################################
+
+event = {
+	id = 5701
+	random = no
+        country = U01
+	trigger = {
+                     control = { province = 901 data = U01 }
+       }
+	name = "エチオピア･エリトリア国境紛争"
+	desc = "EVT_5701_DESC"
+	style = 0
+
+	date = { day = 0 month = 4 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ・・・"
+                command = { type = construct which = infrastructure where = 1046 value = -10 }
+                command = { type = construct which = ic where = 1046 value = -4 }
+                command = { type = construct which = infrastructure where = 1033 value = -10 }
+                command = { type = construct which = infrastructure where = 1038 value = -10 }
+                command = { type = construct which = infrastructure where = 1039 value = -10 }
+                command = { type = construct which = infrastructure where = 1048 value = -10 }
+                command = { type = province_revoltrisk which = 1033 value = 40 }
+                command = { type = province_revoltrisk which = 1038 value = 40 }
+                command = { type = province_revoltrisk which = 1039 value = 40 }
+                command = { type = province_revoltrisk which = 1046 value = 40 }
+                command = { type = province_revoltrisk which = 1048 value = 40 }
+ }
+}
+
+
+event = {
+	id = 5702
+	random = no
+        country = U06
+	trigger = {
+                   event = 5701
+       }
+	name = "和平仲介交渉"
+	desc = "EVT_5702_DESC"
+	style = 0
+
+	date = { day = 5 month = 5 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "紛争を止めなければ"
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5703
+	random = no
+        country = U04
+	trigger = {
+                   event = 5701
+       }
+	name = "難民大量発生"
+	desc = "EVT_5703_DESC"
+	style = 0
+
+	date = { day = 15 month = 5 year = 1998 }
+	offset = 10
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんということだ・・・"
+                command = { type = manpowerpool value = 50 }
+ }
+}
+
+
+event = {
+	id = 5704
+	random = no
+        country = U06
+	trigger = {
+                   event = 5701
+       }
+	name = "難民大量発生"
+	desc = "EVT_5703_DESC"
+	style = 0
+
+	date = { day = 15 month = 5 year = 1998 }
+	offset = 10
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんということだ・・・"
+                command = { type = manpowerpool value = 50 }
+ }
+}
+
+
+event = {
+	id = 5705
+	random = no
+        country = U06
+	trigger = {
+                   event = 5704
+       }
+	name = "国連軍基地襲撃"
+	desc = "EVT_5705_DESC"
+	style = 0
+
+	date = { day = 22 month = 7 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんということだ・・・"
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5706
+	random = no
+        country = U06
+	trigger = {
+                   event = 5705
+       }
+	name = "国連安全保障理事会決議1312"
+	desc = "EVT_5706_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "紛争の解決を目指そう"
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5707
+	random = no
+        country = USA
+	trigger = {
+                   event = 5706
+       }
+	name = "国際連合エチオピア・エリトリア派遣団への参加"
+	desc = "EVT_5707_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "参加する"
+                command = { type = supplies value = -1000 }
+ }
+}
+
+
+event = {
+	id = 5708
+	random = no
+        country = U01
+	trigger = {
+                   event = 5706
+       }
+	name = "国際連合エチオピア・エリトリア派遣団への参加"
+	desc = "EVT_5707_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "参加する"
+                ai_chance = 90
+                command = { type = supplies value = -1000 }
+ }
+        action_b = {
+		name = "その余裕はない"
+                ai_chance = 10
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5709
+	random = no
+        country = U02
+	trigger = {
+                   event = 5706
+       }
+	name = "国際連合エチオピア・エリトリア派遣団への参加"
+	desc = "EVT_5707_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "参加する"
+                ai_chance = 90
+                command = { type = supplies value = -1000 }
+ }
+        action_b = {
+		name = "その余裕はない"
+                ai_chance = 10
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5710
+	random = no
+        country = U04
+	trigger = {
+                   event = 5706
+       }
+	name = "国際連合エチオピア・エリトリア派遣団への参加"
+	desc = "EVT_5707_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "参加する"
+                ai_chance = 90
+                command = { type = supplies value = -1000 }
+ }
+        action_b = {
+		name = "その余裕はない"
+                ai_chance = 10
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5711
+	random = no
+        country = USA
+	trigger = {
+                   event = 5707
+       }
+	name = "イサイアス・アフェウェルキ捕縛作戦"
+	desc = "EVT_5711_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+                command = { type = supplies value = -1000 }
+                command = { type = dissent value = -5 }
+ }
+}
+
+
+event = {
+	id = 5712
+	random = no
+        country = USA
+	trigger = {
+                   event = 5711
+       }
+	name = "反人類勢力掃討作戦"
+	desc = "EVT_5712_DESC"
+	style = 0
+
+	date = { day = 13 month = 9 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦を実行する"
+                command = { type = supplies value = -1000 }
+                command = { type = add_corps which = エチオピア派遣部隊 value = land where = 1039 }
+                command = { type = add_division which = "エチオピア派遣治安維持部隊" value = garrison when = 2 }
+ }
+}
+
+
+event = {
+	id = 5713
+	random = no
+        country = U01
+	trigger = {
+                   event = 5711
+       }
+	name = "反人類勢力掃討作戦"
+	desc = "EVT_5712_DESC"
+	style = 0
+
+	date = { day = 13 month = 9 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦を実行する"
+                command = { type = supplies value = -1000 }
+                command = { type = add_corps which = エチオピア派遣部隊 value = land where = 1048 }
+                command = { type = add_division which = "エチオピア派遣治安維持部隊" value = garrison when = 2 }
+ }
+}
+
+
+event = {
+	id = 5714
+	random = no
+        country = U02
+	trigger = {
+                   event = 5711
+       }
+	name = "反人類勢力掃討作戦"
+	desc = "EVT_5712_DESC"
+	style = 0
+
+	date = { day = 13 month = 9 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦を実行する"
+                command = { type = supplies value = -1000 }
+                command = { type = add_corps which = エチオピア派遣部隊 value = land where = 1037 }
+                command = { type = add_division which = "エチオピア派遣治安維持部隊" value = garrison when = 2 }
+ }
+}
+
+
+event = {
+	id = 5715
+	random = no
+        country = USA
+	trigger = {
+                   event = 5712
+       }
+	name = "フセイン･アイディード捕縛作戦"
+	desc = "EVT_5715_DESC"
+	style = 0
+
+	date = { day = 15 month = 2 year = 1999 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+                command = { type = supplies value = -1000 }
+                command = { type = dissent value = -5 }
+ }
+}
+
+
+event = {
+	id = 5716
+	random = no
+        country = U06
+	trigger = {
+                   event = 5715
+       }
+	name = "国連安全保障理事会決議1313"
+	desc = "EVT_5716_DESC"
+	style = 0
+
+	date = { day = 26 month = 5 year = 1999 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "紛争の解決を目指そう"
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5717
+	random = no
+        country = USA
+	trigger = {
+                   event = 5716
+       }
+	name = "国際連合ソマリア平和維持軍への参加"
+	desc = "EVT_5717_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "参加する"
+                command = { type = supplies value = -1000 }
+ }
+}
+
+
+event = {
+	id = 5718
+	random = no
+        country = U01
+	trigger = {
+                   event = 5716
+       }
+	name = "国際連合ソマリア平和維持軍への参加"
+	desc = "EVT_5717_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "参加する"
+                ai_chance = 90
+                command = { type = supplies value = -1000 }
+ }
+        action_b = {
+		name = "その余裕はない"
+                ai_chance = 10
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5719
+	random = no
+        country = U02
+	trigger = {
+                   event = 5716
+       }
+	name = "国際連合ソマリア平和維持軍への参加"
+	desc = "EVT_5717_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "参加する"
+                ai_chance = 90
+                command = { type = supplies value = -1000 }
+ }
+        action_b = {
+		name = "その余裕はない"
+                ai_chance = 10
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5720
+	random = no
+        country = U04
+	trigger = {
+                   event = 5716
+       }
+	name = "国際連合ソマリア平和維持軍への参加"
+	desc = "EVT_5717_DESC"
+	style = 0
+
+	date = { day = 11 month = 8 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "参加する"
+                ai_chance = 90
+                command = { type = supplies value = -1000 }
+ }
+        action_b = {
+		name = "その余裕はない"
+                ai_chance = 10
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5721
+	random = no
+        country = U01
+	trigger = {
+                   event = 5718
+       }
+	name = "イスラム法廷連合との和平交渉"
+	desc = "EVT_5721_DESC"
+	style = 0
+
+	date = { day = 1 month = 5 year = 2000 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "和平交渉を開始する"
+                ai_chance = 70
+                command = { type = province_revoltrisk which = 1033 value = -10 }
+                command = { type = province_revoltrisk which = 1038 value = -10 }
+                command = { type = province_revoltrisk which = 1039 value = -10 }
+                command = { type = province_revoltrisk which = 1046 value = -10 }
+                command = { type = province_revoltrisk which = 1048 value = -10 }
+                command = { type = dissent value = 1 }
+ }
+        action_b = {
+		name = "奴らを叩き潰せ！"
+                ai_chance = 30
+                command = { type = dissent value = -2 }
+ }
+}
+
+
+event = {
+	id = 5722
+	random = no
+        country = U01
+	trigger = {
+                   event = 5721
+       }
+	name = "アル・シャバブの崩壊"
+	desc = "EVT_5722_DESC"
+	style = 0
+
+	date = { day = 1 month = 8 year = 2000 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+                ai_chance = 70
+                command = { type = province_revoltrisk which = 1033 value = -10 }
+                command = { type = province_revoltrisk which = 1038 value = -10 }
+                command = { type = province_revoltrisk which = 1039 value = -10 }
+                command = { type = province_revoltrisk which = 1046 value = -10 }
+                command = { type = province_revoltrisk which = 1048 value = -10 }
+                command = { type = dissent value = -10 }
+ }
+}
+
+
+event = {
+	id = 5723
+	random = no
+        country = U04
+	trigger = {
+                     control = { province = 901 data = U01 }
+       }
+	name = "反人類勢力との抗争"
+	desc = "EVT_5723_DESC"
+	style = 0
+
+	date = { day = 1 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "どうにかしなければ・・・"
+                command = { type = province_revoltrisk which = 1748 value = 30 }
+                command = { type = province_revoltrisk which = 1749 value = 30 }
+                command = { type = province_revoltrisk which = 1750 value = 30 }
+                command = { type = province_revoltrisk which = 1737 value = 10 }
+                command = { type = province_revoltrisk which = 1744 value = 10 }
+ }
+}
+
+
+event = {
+	id = 5724
+	random = no
+        country = U04
+	trigger = {
+                    event = 5723
+       }
+	name = "アメリカ陸軍特殊部隊群派遣要請"
+	desc = "EVT_5724_DESC"
+	style = 0
+
+	date = { day = 25 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "派遣を要請する"
+                command = { type = trigger which = 5725 }
+ }
+}
+
+
+event = {
+	id = 5725
+	random = no
+        country = USA
+	trigger = {
+                    event = 5724
+       }
+	name = "アメリカ陸軍特殊部隊群派遣要請"
+	desc = "EVT_5725_DESC"
+	style = 0
+
+	date = { day = 25 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "派遣する"
+                ai_chance = 70
+                command = { type = setflag which = TSF510 }
+ }
+        action_b = {
+		name = "そんな余裕はない"
+                ai_chance = 30
+                command = { }
+ }
+}
+
+
+event = {
+	id = 5726
+	random = no
+        country = U04
+	trigger = {
+                    flag = TSF510
+       }
+	name = "第510統合任務部隊派遣"
+	desc = "EVT_5726_DESC"
+	style = 0
+
+	date = { day = 25 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+                command = { type = province_revoltrisk which = 1748 value = -10 }
+                command = { type = province_revoltrisk which = 1749 value = -10 }
+                command = { type = province_revoltrisk which = 1750 value = -10 }
+ }
+}
+
+
+event = {
+	id = 5727
+	random = no
+        country = U04
+	trigger = {
+                   event = 5723
+                   random = 20
+       }
+	name = "アブ･サヤフ掃討作戦"
+	desc = "EVT_5727_DESC"
+	style = 0
+
+	date = { day = 25 month = 5 year = 1998 }
+	offset = 15
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦を遂行せよ"
+                command = { type = supplies value = -1000 }
+ }
+}
+
+
+event = {
+	id = 5728
+	random = no
+        country = U04
+	trigger = {
+                   event = 5723
+                   random = 20
+       }
+	name = "新人民軍掃討作戦"
+	desc = "EVT_5728_DESC"
+	style = 0
+
+	date = { day = 25 month = 6 year = 1999 }
+	offset = 15
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦を遂行せよ"
+                command = { type = supplies value = -1000 }
+ }
+}
+
+
+event = {
+	id = 5729
+	random = no
+        country = U04
+	trigger = {
+                   event = 5723
+                   random = 20
+       }
+	name = "モロ･イスラム解放戦線掃討作戦"
+	desc = "EVT_5729_DESC"
+	style = 0
+
+	date = { day = 25 month = 0 year = 2000 }
+	offset = 15
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦を遂行せよ"
+                command = { type = supplies value = -1000 }
+ }
+}
+
+
+event = {
+	id = 5730
+	random = no
+        country = U04
+	trigger = {
+                   event = 5723
+                   random = 20
+       }
+	name = "ジェマ・イスラミア掃討作戦"
+	desc = "EVT_5730_DESC"
+	style = 0
+
+	date = { day = 25 month = 0 year = 2000 }
+	offset = 15
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦を遂行せよ"
+                command = { type = supplies value = -1000 }
+ }
+}
+
+
+event = {
+	id = 5731
+	random = no
+        country = U04
+	trigger = {
+                   event = 5727
+                   random = 20
+       }
+	name = "アブ･サヤフ壊滅"
+	desc = "EVT_5731_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2000 }
+	offset = 15
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+                command = { type = province_revoltrisk which = 1748 value = -5 }
+                command = { type = province_revoltrisk which = 1749 value = -5 }
+                command = { type = province_revoltrisk which = 1750 value = -5 }
+                command = { type = province_revoltrisk which = 1737 value = -1 }
+                command = { type = province_revoltrisk which = 1744 value = -1 }
+                command = { type = dissent value = -3 }
+ }
+}
+
+
+event = {
+	id = 5732
+	random = no
+        country = U04
+	trigger = {
+                   event = 5728
+                   random = 20
+       }
+	name = "新人民軍壊滅"
+	desc = "EVT_5732_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2000 }
+	offset = 15
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+                command = { type = province_revoltrisk which = 1748 value = -5 }
+                command = { type = province_revoltrisk which = 1749 value = -5 }
+                command = { type = province_revoltrisk which = 1750 value = -5 }
+                command = { type = province_revoltrisk which = 1737 value = -1 }
+                command = { type = province_revoltrisk which = 1744 value = -1 }
+                command = { type = dissent value = -3 }
+ }
+}
+
+
+event = {
+	id = 5733
+	random = no
+        country = U04
+	trigger = {
+                   event = 5729
+                   random = 20
+       }
+	name = "モロ･イスラム解放戦線壊滅"
+	desc = "EVT_5733_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2000 }
+	offset = 15
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+                command = { type = province_revoltrisk which = 1748 value = -5 }
+                command = { type = province_revoltrisk which = 1749 value = -5 }
+                command = { type = province_revoltrisk which = 1750 value = -5 }
+                command = { type = province_revoltrisk which = 1737 value = -1 }
+                command = { type = province_revoltrisk which = 1744 value = -1 }
+                command = { type = dissent value = -3 }
+ }
+}
+
+
+event = {
+	id = 5734
+	random = no
+        country = U04
+	trigger = {
+                   event = 5730
+                   random = 20
+       }
+	name = "ジェマ・イスラミア壊滅"
+	desc = "EVT_5734_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 2000 }
+	offset = 15
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "大変結構！"
+                command = { type = province_revoltrisk which = 1748 value = -5 }
+                command = { type = province_revoltrisk which = 1749 value = -5 }
+                command = { type = province_revoltrisk which = 1750 value = -5 }
+                command = { type = province_revoltrisk which = 1737 value = -1 }
+                command = { type = province_revoltrisk which = 1744 value = -1 }
+                command = { type = dissent value = -3 }
+ }
+}

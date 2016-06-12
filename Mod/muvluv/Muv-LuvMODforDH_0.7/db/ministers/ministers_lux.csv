@@ -1,0 +1,12 @@
+LUX;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+66001;Head of State;ジャン;70;ML;Benevolent Gentleman;High;M66001;x
+66002;Head of Government;ピエール・ヴェルナー;70;ML;Silent Workhorse;High;M66002;x
+66003;Foreign Minister;ガストン・トルン;70;ML;Apologetic Clerk;High;M66003;x
+66004;Minister of Armament;ピエール・ヴェルナー;70;ML;laissez-faire capitalist;High;M66002;x
+66005;Minister of Security;ユージェーヌ・シャウス;70;ML;Man of the People;High;M66005;x
+66006;Head of Military Intelligence;ユージェーヌ・シャウス;70;ML;Judiciary Specialist;High;M66005;x
+66007;Chief of Staff;ピエール・ダウフェンバッハ;70;ML;School of Defence;High;M66007;x
+66008;Chief of Army;ピエール・ダウフェンバッハ;70;ML;Static Defence Doctrine;High;M66007;x
+66009;Chief of Navy;海軍司令官;70;ML;Open Seas Doctrine;High;M66009;x
+66010;Chief of Air Force;空軍司令官;70;ML;Army Aviation Doctrine;High;M66010;x

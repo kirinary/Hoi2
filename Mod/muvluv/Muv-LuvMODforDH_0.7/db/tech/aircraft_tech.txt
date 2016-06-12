@@ -1,0 +1,2449 @@
+technology =
+{ id          = 4
+  category    = aircraft
+  name        = TECH_AIRCRAFT_NAME # Localized name
+  desc        = TECH_AIRCRAFT_DESC # Localized description
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_1
+    position = { x = 7 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_2
+    position = { x = 93 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_3
+    position = { x = 179 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_5
+    position = { x = 450 y = 15 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_6
+    position = { x = 351 y = 37 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_7
+    position = { x = 437 y = 37 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_8
+    position = { x = 523 y = 37 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_9
+    position = { x = 265 y = 37 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_10
+    position = { x = 7 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_11
+    position = { x = 93 y = 222 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_12
+    position = { x = 179 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_13
+    position = { x = 265 y = 204 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_14
+    position = { x = 351 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_15
+    position = { x = 437 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_16
+    position = { x = 523 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_AIRCRAFT_4
+    position = { x = 280 y = 222 }
+  }
+  # ëΩópìrêÌì¨ã@áTå^
+  application =
+  { id        = 4010
+    name      = TECH_APP_AIRCRAFT_1_NAME
+    desc      = TECH_APP_AIRCRAFT_1_DESC
+    position  = { x = 0 y = 21 }
+    year      = 1945
+    component = { id = 4011 name = TECH_CMP_AIRCRAFT_1_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4012 name = TECH_CMP_AIRCRAFT_1_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4013 name = TECH_CMP_AIRCRAFT_1_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4014 name = TECH_CMP_AIRCRAFT_1_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4015 name = TECH_CMP_AIRCRAFT_1_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = multi_role }
+      command = { type = new_model which = multi_role value = 0 }
+    }
+  }
+  # ëΩópìrêÌì¨ã@áUå^
+  application =
+  { id        = 4020
+    name      = TECH_APP_AIRCRAFT_2_NAME
+    desc      = TECH_APP_AIRCRAFT_2_DESC
+    position  = { x = 0 y = 37 }
+    year      = 1973
+    component = { id = 4021 name = TECH_CMP_AIRCRAFT_2_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4022 name = TECH_CMP_AIRCRAFT_2_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4023 name = TECH_CMP_AIRCRAFT_2_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4024 name = TECH_CMP_AIRCRAFT_2_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4025 name = TECH_CMP_AIRCRAFT_2_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4010 }
+    effects =
+    { command = { type = new_model which = multi_role value = 1 }
+      command = { type = scrap_model which = multi_role value = 0 }
+    }
+  }
+  # ëΩópìrêÌì¨ã@áVå^
+  application =
+  { id        = 4030
+    name      = TECH_APP_AIRCRAFT_3_NAME
+    desc      = TECH_APP_AIRCRAFT_3_DESC
+    position  = { x = 0 y = 53 }
+    year      = 1979
+    component = { id = 4031 name = TECH_CMP_AIRCRAFT_3_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4032 name = TECH_CMP_AIRCRAFT_3_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4033 name = TECH_CMP_AIRCRAFT_3_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4034 name = TECH_CMP_AIRCRAFT_3_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4035 name = TECH_CMP_AIRCRAFT_3_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4020 }
+    effects =
+    { command = { type = new_model which = multi_role value = 2 }
+      command = { type = scrap_model which = multi_role value = 1 }
+    }
+  }
+  # ëΩópìrêÌì¨ã@áWå^
+  application =
+  { id        = 4040
+    name      = TECH_APP_AIRCRAFT_4_NAME
+    desc      = TECH_APP_AIRCRAFT_4_DESC
+    position  = { x = 0 y = 69 }
+    year      = 1984
+    component = { id = 4041 name = TECH_CMP_AIRCRAFT_4_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4042 name = TECH_CMP_AIRCRAFT_4_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4043 name = TECH_CMP_AIRCRAFT_4_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4044 name = TECH_CMP_AIRCRAFT_4_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4045 name = TECH_CMP_AIRCRAFT_4_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4030 }
+    effects =
+    { command = { type = new_model which = multi_role value = 3 }
+      command = { type = scrap_model which = multi_role value = 2 }
+    }
+  }
+  # ëΩópìrêÌì¨ã@áXå^
+  application =
+  { id        = 4050
+    name      = TECH_APP_AIRCRAFT_5_NAME
+    desc      = TECH_APP_AIRCRAFT_5_DESC
+    position  = { x = 0 y = 85 }
+    year      = 1990
+    component = { id = 4051 name = TECH_CMP_AIRCRAFT_5_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4052 name = TECH_CMP_AIRCRAFT_5_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4053 name = TECH_CMP_AIRCRAFT_5_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4054 name = TECH_CMP_AIRCRAFT_5_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4055 name = TECH_CMP_AIRCRAFT_5_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4040 }
+    effects =
+    { command = { type = new_model which = multi_role value = 4 }
+      command = { type = scrap_model which = multi_role value = 3 }
+    }
+  }
+  # ëΩópìrêÌì¨ã@áYå^
+  application =
+  { id        = 4060
+    name      = TECH_APP_AIRCRAFT_6_NAME
+    desc      = TECH_APP_AIRCRAFT_6_DESC
+    position  = { x = 0 y = 101 }
+    year      = 1998
+    component = { id = 4061 name = TECH_CMP_AIRCRAFT_6_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4062 name = TECH_CMP_AIRCRAFT_6_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4063 name = TECH_CMP_AIRCRAFT_6_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4064 name = TECH_CMP_AIRCRAFT_6_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4065 name = TECH_CMP_AIRCRAFT_6_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4050 }
+    effects =
+    { command = { type = new_model which = multi_role value = 5 }
+      command = { type = scrap_model which = multi_role value = 4 }
+    }
+  }
+  # ëΩópìrêÌì¨ã@áZå^
+  application =
+  { id        = 4070
+    name      = TECH_APP_AIRCRAFT_7_NAME
+    desc      = TECH_APP_AIRCRAFT_7_DESC
+    position  = { x = 0 y = 117 }
+    year      = 2009
+    component = { id = 4071 name = TECH_CMP_AIRCRAFT_7_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4072 name = TECH_CMP_AIRCRAFT_7_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4073 name = TECH_CMP_AIRCRAFT_7_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4074 name = TECH_CMP_AIRCRAFT_7_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4075 name = TECH_CMP_AIRCRAFT_7_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4060 }
+    effects =
+    { command = { type = new_model which = multi_role value = 6 }
+      command = { type = scrap_model which = multi_role value = 5 }
+    }
+  }
+  # ëΩópìrêÌì¨ã@á[å^
+  application =
+  { id        = 4080
+    name      = TECH_APP_AIRCRAFT_8_NAME
+    desc      = TECH_APP_AIRCRAFT_8_DESC
+    position  = { x = 0 y = 133 }
+    year      = 2018
+    component = { id = 4081 name = TECH_CMP_AIRCRAFT_8_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4082 name = TECH_CMP_AIRCRAFT_8_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4083 name = TECH_CMP_AIRCRAFT_8_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4084 name = TECH_CMP_AIRCRAFT_8_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4085 name = TECH_CMP_AIRCRAFT_8_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4070 }
+    effects =
+    { command = { type = new_model which = multi_role value = 7 }
+      command = { type = scrap_model which = multi_role value = 6 }
+    }
+  }
+  # ëΩópìrêÌì¨ã@á\å^
+  application =
+  { id        = 4090
+    name      = TECH_APP_AIRCRAFT_9_NAME
+    desc      = TECH_APP_AIRCRAFT_9_DESC
+    position  = { x = 0 y = 149 }
+    year      = 2026
+    component = { id = 4091 name = TECH_CMP_AIRCRAFT_9_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4092 name = TECH_CMP_AIRCRAFT_9_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4093 name = TECH_CMP_AIRCRAFT_9_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4094 name = TECH_CMP_AIRCRAFT_9_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4095 name = TECH_CMP_AIRCRAFT_9_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4080 }
+    effects =
+    { command = { type = new_model which = multi_role value = 8 }
+      command = { type = scrap_model which = multi_role value = 7 }
+    }
+  }
+  # ëΩópìrêÌì¨ã@á]å^
+  application =
+  { id        = 4100
+    name      = TECH_APP_AIRCRAFT_10_NAME
+    desc      = TECH_APP_AIRCRAFT_10_DESC
+    position  = { x = 0 y = 165 }
+    year      = 2035
+    component = { id = 4101 name = TECH_CMP_AIRCRAFT_10_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4102 name = TECH_CMP_AIRCRAFT_10_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4103 name = TECH_CMP_AIRCRAFT_10_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4104 name = TECH_CMP_AIRCRAFT_10_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4105 name = TECH_CMP_AIRCRAFT_10_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4090 }
+    effects =
+    { command = { type = new_model which = multi_role value = 9 }
+      command = { type = scrap_model which = multi_role value = 8 }
+    }
+  }
+  # óvåÇêÌì¨ã@áTå^
+  application =
+  { id        = 4110
+    name      = TECH_APP_AIRCRAFT_11_NAME
+    desc      = TECH_APP_AIRCRAFT_11_DESC
+    position  = { x = 86 y = 21 }
+    year      = 1945
+    component = { id = 4111 name = TECH_CMP_AIRCRAFT_11_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4112 name = TECH_CMP_AIRCRAFT_11_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4113 name = TECH_CMP_AIRCRAFT_11_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4114 name = TECH_CMP_AIRCRAFT_11_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4115 name = TECH_CMP_AIRCRAFT_11_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = interceptor }
+      command = { type = new_model which = interceptor value = 0 }
+    }
+  }
+  # óvåÇêÌì¨ã@áUå^
+  application =
+  { id        = 4120
+    name      = TECH_APP_AIRCRAFT_12_NAME
+    desc      = TECH_APP_AIRCRAFT_12_DESC
+    position  = { x = 86 y = 37 }
+    year      = 1973
+    component = { id = 4121 name = TECH_CMP_AIRCRAFT_12_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4122 name = TECH_CMP_AIRCRAFT_12_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4123 name = TECH_CMP_AIRCRAFT_12_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4124 name = TECH_CMP_AIRCRAFT_12_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4125 name = TECH_CMP_AIRCRAFT_12_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4110 }
+    effects =
+    { command = { type = new_model which = interceptor value = 1 }
+      command = { type = scrap_model which = interceptor value = 0 }
+    }
+  }
+  # óvåÇêÌì¨ã@áVå^
+  application =
+  { id        = 4130
+    name      = TECH_APP_AIRCRAFT_13_NAME
+    desc      = TECH_APP_AIRCRAFT_13_DESC
+    position  = { x = 86 y = 53 }
+    year      = 1979
+    component = { id = 4131 name = TECH_CMP_AIRCRAFT_13_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4132 name = TECH_CMP_AIRCRAFT_13_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4133 name = TECH_CMP_AIRCRAFT_13_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4134 name = TECH_CMP_AIRCRAFT_13_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4135 name = TECH_CMP_AIRCRAFT_13_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4120 }
+    effects =
+    { command = { type = new_model which = interceptor value = 2 }
+      command = { type = scrap_model which = interceptor value = 1 }
+    }
+  }
+  # óvåÇêÌì¨ã@áWå^
+  application =
+  { id        = 4140
+    name      = TECH_APP_AIRCRAFT_14_NAME
+    desc      = TECH_APP_AIRCRAFT_14_DESC
+    position  = { x = 86 y = 69 }
+    year      = 1984
+    component = { id = 4141 name = TECH_CMP_AIRCRAFT_14_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4142 name = TECH_CMP_AIRCRAFT_14_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4143 name = TECH_CMP_AIRCRAFT_14_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4144 name = TECH_CMP_AIRCRAFT_14_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4145 name = TECH_CMP_AIRCRAFT_14_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4130 }
+    effects =
+    { command = { type = new_model which = interceptor value = 3 }
+      command = { type = scrap_model which = interceptor value = 2 }
+    }
+  }
+  # óvåÇêÌì¨ã@áXå^
+  application =
+  { id        = 4150
+    name      = TECH_APP_AIRCRAFT_15_NAME
+    desc      = TECH_APP_AIRCRAFT_15_DESC
+    position  = { x = 86 y = 85 }
+    year      = 1990
+    component = { id = 4151 name = TECH_CMP_AIRCRAFT_15_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4152 name = TECH_CMP_AIRCRAFT_15_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4153 name = TECH_CMP_AIRCRAFT_15_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4154 name = TECH_CMP_AIRCRAFT_15_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4155 name = TECH_CMP_AIRCRAFT_15_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4140 }
+    effects =
+    { command = { type = new_model which = interceptor value = 4 }
+      command = { type = scrap_model which = interceptor value = 3 }
+    }
+  }
+  # óvåÇêÌì¨ã@áYå^
+  application =
+  { id        = 4160
+    name      = TECH_APP_AIRCRAFT_16_NAME
+    desc      = TECH_APP_AIRCRAFT_16_DESC
+    position  = { x = 86 y = 101 }
+    year      = 1998
+    component = { id = 4161 name = TECH_CMP_AIRCRAFT_16_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4162 name = TECH_CMP_AIRCRAFT_16_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4163 name = TECH_CMP_AIRCRAFT_16_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4164 name = TECH_CMP_AIRCRAFT_16_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4165 name = TECH_CMP_AIRCRAFT_16_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4150 }
+    effects =
+    { command = { type = new_model which = interceptor value = 5 }
+      command = { type = scrap_model which = interceptor value = 4 }
+    }
+  }
+  # óvåÇêÌì¨ã@áZå^
+  application =
+  { id        = 4170
+    name      = TECH_APP_AIRCRAFT_17_NAME
+    desc      = TECH_APP_AIRCRAFT_17_DESC
+    position  = { x = 86 y = 117 }
+    year      = 2009
+    component = { id = 4171 name = TECH_CMP_AIRCRAFT_17_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4172 name = TECH_CMP_AIRCRAFT_17_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4173 name = TECH_CMP_AIRCRAFT_17_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4174 name = TECH_CMP_AIRCRAFT_17_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4175 name = TECH_CMP_AIRCRAFT_17_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4160 }
+    effects =
+    { command = { type = new_model which = interceptor value = 6 }
+      command = { type = scrap_model which = interceptor value = 5 }
+    }
+  }
+  # óvåÇêÌì¨ã@á[å^
+  application =
+  { id        = 4180
+    name      = TECH_APP_AIRCRAFT_18_NAME
+    desc      = TECH_APP_AIRCRAFT_18_DESC
+    position  = { x = 86 y = 133 }
+    year      = 2018
+    component = { id = 4181 name = TECH_CMP_AIRCRAFT_18_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4182 name = TECH_CMP_AIRCRAFT_18_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4183 name = TECH_CMP_AIRCRAFT_18_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4184 name = TECH_CMP_AIRCRAFT_18_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4185 name = TECH_CMP_AIRCRAFT_18_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4170 }
+    effects =
+    { command = { type = new_model which = interceptor value = 7 }
+      command = { type = scrap_model which = interceptor value = 6 }
+    }
+  }
+  # óvåÇêÌì¨ã@á\å^
+  application =
+  { id        = 4190
+    name      = TECH_APP_AIRCRAFT_19_NAME
+    desc      = TECH_APP_AIRCRAFT_19_DESC
+    position  = { x = 86 y = 149 }
+    year      = 2026
+    component = { id = 4191 name = TECH_CMP_AIRCRAFT_19_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4192 name = TECH_CMP_AIRCRAFT_19_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4193 name = TECH_CMP_AIRCRAFT_19_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4194 name = TECH_CMP_AIRCRAFT_19_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4195 name = TECH_CMP_AIRCRAFT_19_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4180 }
+    effects =
+    { command = { type = new_model which = interceptor value = 8 }
+      command = { type = scrap_model which = interceptor value = 7 }
+    }
+  }
+  # óvåÇêÌì¨ã@á]å^
+  application =
+  { id        = 4200
+    name      = TECH_APP_AIRCRAFT_20_NAME
+    desc      = TECH_APP_AIRCRAFT_20_DESC
+    position  = { x = 86 y = 165 }
+    year      = 2035
+    component = { id = 4201 name = TECH_CMP_AIRCRAFT_20_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4202 name = TECH_CMP_AIRCRAFT_20_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4203 name = TECH_CMP_AIRCRAFT_20_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4204 name = TECH_CMP_AIRCRAFT_20_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4205 name = TECH_CMP_AIRCRAFT_20_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4190 }
+    effects =
+    { command = { type = new_model which = interceptor value = 9 }
+      command = { type = scrap_model which = interceptor value = 8 }
+    }
+  }
+  # çUåÇã@áTå^
+  application =
+  { id        = 4210
+    name      = TECH_APP_AIRCRAFT_21_NAME
+    desc      = TECH_APP_AIRCRAFT_21_DESC
+    position  = { x = 172 y = 21 }
+    year      = 1945
+    component = { id = 4211 name = TECH_CMP_AIRCRAFT_21_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4212 name = TECH_CMP_AIRCRAFT_21_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4213 name = TECH_CMP_AIRCRAFT_21_3_NAME type = chemistry difficulty = 8 }
+    component = { id = 4214 name = TECH_CMP_AIRCRAFT_21_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4215 name = TECH_CMP_AIRCRAFT_21_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = naval_bomber }
+      command = { type = new_model which = naval_bomber value = 0 }
+    }
+  }
+  # çUåÇã@áUå^
+  application =
+  { id        = 4220
+    name      = TECH_APP_AIRCRAFT_22_NAME
+    desc      = TECH_APP_AIRCRAFT_22_DESC
+    position  = { x = 172 y = 37 }
+    year      = 1973
+    component = { id = 4221 name = TECH_CMP_AIRCRAFT_22_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4222 name = TECH_CMP_AIRCRAFT_22_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4223 name = TECH_CMP_AIRCRAFT_22_3_NAME type = general_equipment difficulty = 8 }
+    component = { id = 4224 name = TECH_CMP_AIRCRAFT_22_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4225 name = TECH_CMP_AIRCRAFT_22_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4210 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 1 }
+      command = { type = scrap_model which = naval_bomber value = 0 }
+    }
+  }
+  # çUåÇã@áVå^
+  application =
+  { id        = 4230
+    name      = TECH_APP_AIRCRAFT_23_NAME
+    desc      = TECH_APP_AIRCRAFT_23_DESC
+    position  = { x = 172 y = 53 }
+    year      = 1979
+    component = { id = 4231 name = TECH_CMP_AIRCRAFT_23_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4232 name = TECH_CMP_AIRCRAFT_23_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4233 name = TECH_CMP_AIRCRAFT_23_3_NAME type = general_equipment difficulty = 8 }
+    component = { id = 4234 name = TECH_CMP_AIRCRAFT_23_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4235 name = TECH_CMP_AIRCRAFT_23_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4220 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 2 }
+      command = { type = scrap_model which = naval_bomber value = 1 }
+    }
+  }
+  # çUåÇã@áWå^
+  application =
+  { id        = 4240
+    name      = TECH_APP_AIRCRAFT_24_NAME
+    desc      = TECH_APP_AIRCRAFT_24_DESC
+    position  = { x = 172 y = 69 }
+    year      = 1984
+    component = { id = 4241 name = TECH_CMP_AIRCRAFT_24_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4242 name = TECH_CMP_AIRCRAFT_24_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4243 name = TECH_CMP_AIRCRAFT_24_3_NAME type = general_equipment difficulty = 8 }
+    component = { id = 4244 name = TECH_CMP_AIRCRAFT_24_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4245 name = TECH_CMP_AIRCRAFT_24_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4230 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 3 }
+      command = { type = scrap_model which = naval_bomber value = 2 }
+    }
+  }
+  # çUåÇã@áXå^
+  application =
+  { id        = 4250
+    name      = TECH_APP_AIRCRAFT_25_NAME
+    desc      = TECH_APP_AIRCRAFT_25_DESC
+    position  = { x = 172 y = 85 }
+    year      = 1990
+    component = { id = 4251 name = TECH_CMP_AIRCRAFT_25_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4252 name = TECH_CMP_AIRCRAFT_25_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4253 name = TECH_CMP_AIRCRAFT_25_3_NAME type = general_equipment difficulty = 8 }
+    component = { id = 4254 name = TECH_CMP_AIRCRAFT_25_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4255 name = TECH_CMP_AIRCRAFT_25_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4240 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 4 }
+      command = { type = scrap_model which = naval_bomber value = 3 }
+    }
+  }
+  # çUåÇã@áYå^
+  application =
+  { id        = 4260
+    name      = TECH_APP_AIRCRAFT_26_NAME
+    desc      = TECH_APP_AIRCRAFT_26_DESC
+    position  = { x = 172 y = 101 }
+    year      = 1998
+    component = { id = 4261 name = TECH_CMP_AIRCRAFT_26_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4262 name = TECH_CMP_AIRCRAFT_26_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4263 name = TECH_CMP_AIRCRAFT_26_3_NAME type = general_equipment difficulty = 8 }
+    component = { id = 4264 name = TECH_CMP_AIRCRAFT_26_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4265 name = TECH_CMP_AIRCRAFT_26_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4250 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 5 }
+      command = { type = scrap_model which = naval_bomber value = 4 }
+    }
+  }
+  # çUåÇã@áZå^
+  application =
+  { id        = 4270
+    name      = TECH_APP_AIRCRAFT_27_NAME
+    desc      = TECH_APP_AIRCRAFT_27_DESC
+    position  = { x = 172 y = 117 }
+    year      = 2009
+    component = { id = 4271 name = TECH_CMP_AIRCRAFT_27_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4272 name = TECH_CMP_AIRCRAFT_27_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4273 name = TECH_CMP_AIRCRAFT_27_3_NAME type = general_equipment difficulty = 8 }
+    component = { id = 4274 name = TECH_CMP_AIRCRAFT_27_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4275 name = TECH_CMP_AIRCRAFT_27_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4260 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 6 }
+      command = { type = scrap_model which = naval_bomber value = 5 }
+    }
+  }
+  # çUåÇã@á[å^
+  application =
+  { id        = 4280
+    name      = TECH_APP_AIRCRAFT_28_NAME
+    desc      = TECH_APP_AIRCRAFT_28_DESC
+    position  = { x = 172 y = 133 }
+    year      = 2018
+    component = { id = 4281 name = TECH_CMP_AIRCRAFT_28_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4282 name = TECH_CMP_AIRCRAFT_28_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4283 name = TECH_CMP_AIRCRAFT_28_3_NAME type = general_equipment difficulty = 8 }
+    component = { id = 4284 name = TECH_CMP_AIRCRAFT_28_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4285 name = TECH_CMP_AIRCRAFT_28_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4270 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 7 }
+      command = { type = scrap_model which = naval_bomber value = 6 }
+    }
+  }
+  # çUåÇã@á\å^
+  application =
+  { id        = 4290
+    name      = TECH_APP_AIRCRAFT_29_NAME
+    desc      = TECH_APP_AIRCRAFT_29_DESC
+    position  = { x = 172 y = 149 }
+    year      = 2026
+    component = { id = 4291 name = TECH_CMP_AIRCRAFT_29_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4292 name = TECH_CMP_AIRCRAFT_29_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4293 name = TECH_CMP_AIRCRAFT_29_3_NAME type = general_equipment difficulty = 8 }
+    component = { id = 4294 name = TECH_CMP_AIRCRAFT_29_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4295 name = TECH_CMP_AIRCRAFT_29_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4280 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 8 }
+      command = { type = scrap_model which = naval_bomber value = 7 }
+    }
+  }
+  # çUåÇã@á]å^
+  application =
+  { id        = 4300
+    name      = TECH_APP_AIRCRAFT_30_NAME
+    desc      = TECH_APP_AIRCRAFT_30_DESC
+    position  = { x = 172 y = 165 }
+    year      = 2035
+    component = { id = 4301 name = TECH_CMP_AIRCRAFT_30_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4302 name = TECH_CMP_AIRCRAFT_30_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4303 name = TECH_CMP_AIRCRAFT_30_3_NAME type = general_equipment difficulty = 8 }
+    component = { id = 4304 name = TECH_CMP_AIRCRAFT_30_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4305 name = TECH_CMP_AIRCRAFT_30_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4290 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 9 }
+      command = { type = scrap_model which = naval_bomber value = 8 }
+    }
+  }
+  # êÌì¨çUåÇã@áTå^
+  application =
+  { id        = 4310
+    name      = TECH_APP_AIRCRAFT_31_NAME
+    desc      = TECH_APP_AIRCRAFT_31_DESC
+    position  = { x = 258 y = 53 }
+    year      = 1979
+    component = { id = 4311 name = TECH_CMP_AIRCRAFT_31_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4312 name = TECH_CMP_AIRCRAFT_31_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4313 name = TECH_CMP_AIRCRAFT_31_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4314 name = TECH_CMP_AIRCRAFT_31_4_NAME type = artillery difficulty = 8 }
+    component = { id = 4315 name = TECH_CMP_AIRCRAFT_31_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4220 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 11 }
+    }
+  }
+  # êÌì¨çUåÇã@áUå^
+  application =
+  { id        = 4320
+    name      = TECH_APP_AIRCRAFT_32_NAME
+    desc      = TECH_APP_AIRCRAFT_32_DESC
+    position  = { x = 258 y = 69 }
+    year      = 1984
+    component = { id = 4321 name = TECH_CMP_AIRCRAFT_32_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4322 name = TECH_CMP_AIRCRAFT_32_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4323 name = TECH_CMP_AIRCRAFT_32_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4324 name = TECH_CMP_AIRCRAFT_32_4_NAME type = artillery difficulty = 8 }
+    component = { id = 4325 name = TECH_CMP_AIRCRAFT_32_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4310 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 12 }
+      command = { type = scrap_model which = naval_bomber value = 11 }
+    }
+  }
+  # êÌì¨çUåÇã@áVå^
+  application =
+  { id        = 4330
+    name      = TECH_APP_AIRCRAFT_33_NAME
+    desc      = TECH_APP_AIRCRAFT_33_DESC
+    position  = { x = 258 y = 85 }
+    year      = 1990
+    component = { id = 4331 name = TECH_CMP_AIRCRAFT_33_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4332 name = TECH_CMP_AIRCRAFT_33_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4333 name = TECH_CMP_AIRCRAFT_33_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4334 name = TECH_CMP_AIRCRAFT_33_4_NAME type = artillery difficulty = 8 }
+    component = { id = 4335 name = TECH_CMP_AIRCRAFT_33_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4320 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 13 }
+      command = { type = scrap_model which = naval_bomber value = 12 }
+    }
+  }
+  # êÌì¨çUåÇã@áWå^
+  application =
+  { id        = 4340
+    name      = TECH_APP_AIRCRAFT_34_NAME
+    desc      = TECH_APP_AIRCRAFT_34_DESC
+    position  = { x = 258 y = 101 }
+    year      = 1998
+    component = { id = 4341 name = TECH_CMP_AIRCRAFT_34_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4342 name = TECH_CMP_AIRCRAFT_34_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4343 name = TECH_CMP_AIRCRAFT_34_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4344 name = TECH_CMP_AIRCRAFT_34_4_NAME type = artillery difficulty = 8 }
+    component = { id = 4345 name = TECH_CMP_AIRCRAFT_34_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4330 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 14 }
+      command = { type = scrap_model which = naval_bomber value = 13 }
+    }
+  }
+  # êÌì¨çUåÇã@áXå^
+  application =
+  { id        = 4350
+    name      = TECH_APP_AIRCRAFT_35_NAME
+    desc      = TECH_APP_AIRCRAFT_35_DESC
+    position  = { x = 258 y = 117 }
+    year      = 2009
+    component = { id = 4351 name = TECH_CMP_AIRCRAFT_35_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4352 name = TECH_CMP_AIRCRAFT_35_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4353 name = TECH_CMP_AIRCRAFT_35_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4354 name = TECH_CMP_AIRCRAFT_35_4_NAME type = artillery difficulty = 8 }
+    component = { id = 4355 name = TECH_CMP_AIRCRAFT_35_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4340 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 15 }
+      command = { type = scrap_model which = naval_bomber value = 14 }
+    }
+  }
+  # êÌì¨çUåÇã@áYå^
+  application =
+  { id        = 4360
+    name      = TECH_APP_AIRCRAFT_36_NAME
+    desc      = TECH_APP_AIRCRAFT_36_DESC
+    position  = { x = 258 y = 133 }
+    year      = 2018
+    component = { id = 4361 name = TECH_CMP_AIRCRAFT_36_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4362 name = TECH_CMP_AIRCRAFT_36_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4363 name = TECH_CMP_AIRCRAFT_36_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4364 name = TECH_CMP_AIRCRAFT_36_4_NAME type = artillery difficulty = 8 }
+    component = { id = 4365 name = TECH_CMP_AIRCRAFT_36_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4350 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 16 }
+      command = { type = scrap_model which = naval_bomber value = 15 }
+    }
+  }
+  # êÌì¨çUåÇã@áZå^
+  application =
+  { id        = 4370
+    name      = TECH_APP_AIRCRAFT_37_NAME
+    desc      = TECH_APP_AIRCRAFT_37_DESC
+    position  = { x = 258 y = 149 }
+    year      = 2026
+    component = { id = 4371 name = TECH_CMP_AIRCRAFT_37_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4372 name = TECH_CMP_AIRCRAFT_37_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4373 name = TECH_CMP_AIRCRAFT_37_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4374 name = TECH_CMP_AIRCRAFT_37_4_NAME type = artillery difficulty = 8 }
+    component = { id = 4375 name = TECH_CMP_AIRCRAFT_37_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4360 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 17 }
+      command = { type = scrap_model which = naval_bomber value = 16 }
+    }
+  }
+  # êÌì¨çUåÇã@á[å^
+  application =
+  { id        = 4380
+    name      = TECH_APP_AIRCRAFT_38_NAME
+    desc      = TECH_APP_AIRCRAFT_38_DESC
+    position  = { x = 258 y = 165 }
+    year      = 2035
+    component = { id = 4381 name = TECH_CMP_AIRCRAFT_38_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4382 name = TECH_CMP_AIRCRAFT_38_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4383 name = TECH_CMP_AIRCRAFT_38_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4384 name = TECH_CMP_AIRCRAFT_38_4_NAME type = artillery difficulty = 8 }
+    component = { id = 4385 name = TECH_CMP_AIRCRAFT_38_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4370 }
+    effects =
+    { command = { type = new_model which = naval_bomber value = 18 }
+      command = { type = scrap_model which = naval_bomber value = 17 }
+    }
+  }
+  # îÚçsîöíeáTå^
+  application =
+  { id        = 4390
+    name      = TECH_APP_AIRCRAFT_39_NAME
+    desc      = TECH_APP_AIRCRAFT_39_DESC
+    position  = { x = 344 y = 15 }
+    year      = 1945
+    component = { id = 4391 name = TECH_CMP_AIRCRAFT_39_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4392 name = TECH_CMP_AIRCRAFT_39_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4393 name = TECH_CMP_AIRCRAFT_39_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4394 name = TECH_CMP_AIRCRAFT_39_4_NAME type = mechanics difficulty = 8 }
+    component = { id = 4395 name = TECH_CMP_AIRCRAFT_39_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = flying_bomb }
+      command = { type = new_model which = flying_bomb value = 0 }
+    }
+  }
+  # ínëŒínÉ~ÉTÉCÉãáTå^
+  application =
+  { id        = 4400
+    name      = TECH_APP_AIRCRAFT_40_NAME
+    desc      = TECH_APP_AIRCRAFT_40_DESC
+    position  = { x = 344 y = 53 }
+    year      = 1973
+    component = { id = 4401 name = TECH_CMP_AIRCRAFT_40_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4402 name = TECH_CMP_AIRCRAFT_40_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4403 name = TECH_CMP_AIRCRAFT_40_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4404 name = TECH_CMP_AIRCRAFT_40_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4405 name = TECH_CMP_AIRCRAFT_40_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4390 50290 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 1 }
+      command = { type = scrap_model which = flying_bomb value = 0 }
+    }
+  }
+  # ínëŒínÉ~ÉTÉCÉãáUå^
+  application =
+  { id        = 4410
+    name      = TECH_APP_AIRCRAFT_41_NAME
+    desc      = TECH_APP_AIRCRAFT_41_DESC
+    position  = { x = 344 y = 69 }
+    year      = 1978
+    component = { id = 4411 name = TECH_CMP_AIRCRAFT_41_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4412 name = TECH_CMP_AIRCRAFT_41_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4413 name = TECH_CMP_AIRCRAFT_41_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4414 name = TECH_CMP_AIRCRAFT_41_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4415 name = TECH_CMP_AIRCRAFT_41_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4400 50300 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 2 }
+      command = { type = scrap_model which = flying_bomb value = 1 }
+    }
+  }
+  # ínëŒínÉ~ÉTÉCÉãáVå^
+  application =
+  { id        = 4420
+    name      = TECH_APP_AIRCRAFT_42_NAME
+    desc      = TECH_APP_AIRCRAFT_42_DESC
+    position  = { x = 344 y = 85 }
+    year      = 1984
+    component = { id = 4421 name = TECH_CMP_AIRCRAFT_42_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4422 name = TECH_CMP_AIRCRAFT_42_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4423 name = TECH_CMP_AIRCRAFT_42_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4424 name = TECH_CMP_AIRCRAFT_42_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4425 name = TECH_CMP_AIRCRAFT_42_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4410 50310 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 3 }
+      command = { type = scrap_model which = flying_bomb value = 2 }
+    }
+  }
+  # ínëŒínÉ~ÉTÉCÉãáWå^
+  application =
+  { id        = 4430
+    name      = TECH_APP_AIRCRAFT_43_NAME
+    desc      = TECH_APP_AIRCRAFT_43_DESC
+    position  = { x = 344 y = 101 }
+    year      = 1990
+    component = { id = 4431 name = TECH_CMP_AIRCRAFT_43_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4432 name = TECH_CMP_AIRCRAFT_43_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4433 name = TECH_CMP_AIRCRAFT_43_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4434 name = TECH_CMP_AIRCRAFT_43_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4435 name = TECH_CMP_AIRCRAFT_43_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4420 50320 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 4 }
+      command = { type = scrap_model which = flying_bomb value = 3 }
+      command = { type = new_model which = flying_bomb value = 19 }
+    }
+  }
+  # ínëŒínÉ~ÉTÉCÉãáXå^
+  application =
+  { id        = 4440
+    name      = TECH_APP_AIRCRAFT_44_NAME
+    desc      = TECH_APP_AIRCRAFT_44_DESC
+    position  = { x = 344 y = 117 }
+    year      = 1998
+    component = { id = 4441 name = TECH_CMP_AIRCRAFT_44_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4442 name = TECH_CMP_AIRCRAFT_44_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4443 name = TECH_CMP_AIRCRAFT_44_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4444 name = TECH_CMP_AIRCRAFT_44_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4445 name = TECH_CMP_AIRCRAFT_44_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4430 50330 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 5 }
+      command = { type = scrap_model which = flying_bomb value = 4 }
+      command = { type = new_model which = flying_bomb value = 20 }
+      command = { type = scrap_model which = flying_bomb value = 19 }
+    }
+  }
+  # ínëŒínÉ~ÉTÉCÉãáYå^
+  application =
+  { id        = 4450
+    name      = TECH_APP_AIRCRAFT_45_NAME
+    desc      = TECH_APP_AIRCRAFT_45_DESC
+    position  = { x = 344 y = 133 }
+    year      = 2004
+    component = { id = 4451 name = TECH_CMP_AIRCRAFT_45_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4452 name = TECH_CMP_AIRCRAFT_45_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4453 name = TECH_CMP_AIRCRAFT_45_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4454 name = TECH_CMP_AIRCRAFT_45_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4455 name = TECH_CMP_AIRCRAFT_45_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4440 50340 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 6 }
+      command = { type = scrap_model which = flying_bomb value = 5 }
+      command = { type = new_model which = flying_bomb value = 21 }
+      command = { type = scrap_model which = flying_bomb value = 20 }
+    }
+  }
+  # ínëŒínÉ~ÉTÉCÉãáZå^
+  application =
+  { id        = 4460
+    name      = TECH_APP_AIRCRAFT_46_NAME
+    desc      = TECH_APP_AIRCRAFT_46_DESC
+    position  = { x = 344 y = 149 }
+    year      = 2010
+    component = { id = 4461 name = TECH_CMP_AIRCRAFT_46_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4462 name = TECH_CMP_AIRCRAFT_46_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4463 name = TECH_CMP_AIRCRAFT_46_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4464 name = TECH_CMP_AIRCRAFT_46_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4465 name = TECH_CMP_AIRCRAFT_46_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4450 50350 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 7 }
+      command = { type = scrap_model which = flying_bomb value = 6 }
+      command = { type = new_model which = flying_bomb value = 22 }
+      command = { type = scrap_model which = flying_bomb value = 21 }
+    }
+  }
+  # ínëŒínÉ~ÉTÉCÉãá[å^
+  application =
+  { id        = 4470
+    name      = TECH_APP_AIRCRAFT_47_NAME
+    desc      = TECH_APP_AIRCRAFT_47_DESC
+    position  = { x = 344 y = 165 }
+    year      = 2018
+    component = { id = 4471 name = TECH_CMP_AIRCRAFT_47_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4472 name = TECH_CMP_AIRCRAFT_47_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4473 name = TECH_CMP_AIRCRAFT_47_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4474 name = TECH_CMP_AIRCRAFT_47_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4475 name = TECH_CMP_AIRCRAFT_47_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4460 50360 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 8 }
+      command = { type = scrap_model which = flying_bomb value = 7 }
+      command = { type = new_model which = flying_bomb value = 23 }
+      command = { type = scrap_model which = flying_bomb value = 22 }
+    }
+  }
+  # ínëŒäÕÉ~ÉTÉCÉãáTå^
+  application =
+  { id        = 4480
+    name      = TECH_APP_AIRCRAFT_48_NAME
+    desc      = TECH_APP_AIRCRAFT_48_DESC
+    position  = { x = 430 y = 53 }
+    year      = 1973
+    component = { id = 4481 name = TECH_CMP_AIRCRAFT_48_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4482 name = TECH_CMP_AIRCRAFT_48_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4483 name = TECH_CMP_AIRCRAFT_48_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 4484 name = TECH_CMP_AIRCRAFT_48_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4485 name = TECH_CMP_AIRCRAFT_48_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4390 50290 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 10 }
+      command = { type = scrap_model which = flying_bomb value = 0 }
+    }
+  }
+  # ínëŒäÕÉ~ÉTÉCÉãáUå^
+  application =
+  { id        = 4490
+    name      = TECH_APP_AIRCRAFT_49_NAME
+    desc      = TECH_APP_AIRCRAFT_49_DESC
+    position  = { x = 430 y = 69 }
+    year      = 1978
+    component = { id = 4491 name = TECH_CMP_AIRCRAFT_49_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4492 name = TECH_CMP_AIRCRAFT_49_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4493 name = TECH_CMP_AIRCRAFT_49_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 4494 name = TECH_CMP_AIRCRAFT_49_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4495 name = TECH_CMP_AIRCRAFT_49_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4480 50300 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 11 }
+      command = { type = scrap_model which = flying_bomb value = 10 }
+    }
+  }
+  # ínëŒäÕÉ~ÉTÉCÉãáVå^
+  application =
+  { id        = 4500
+    name      = TECH_APP_AIRCRAFT_50_NAME
+    desc      = TECH_APP_AIRCRAFT_50_DESC
+    position  = { x = 430 y = 85 }
+    year      = 1984
+    component = { id = 4501 name = TECH_CMP_AIRCRAFT_50_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4502 name = TECH_CMP_AIRCRAFT_50_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4503 name = TECH_CMP_AIRCRAFT_50_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 4504 name = TECH_CMP_AIRCRAFT_50_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4505 name = TECH_CMP_AIRCRAFT_50_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4490 50310 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 12 }
+      command = { type = scrap_model which = flying_bomb value = 11 }
+    }
+  }
+  # ínëŒäÕÉ~ÉTÉCÉãáWå^
+  application =
+  { id        = 4510
+    name      = TECH_APP_AIRCRAFT_51_NAME
+    desc      = TECH_APP_AIRCRAFT_51_DESC
+    position  = { x = 430 y = 101 }
+    year      = 1990
+    component = { id = 4511 name = TECH_CMP_AIRCRAFT_51_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4512 name = TECH_CMP_AIRCRAFT_51_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4513 name = TECH_CMP_AIRCRAFT_51_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 4514 name = TECH_CMP_AIRCRAFT_51_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4515 name = TECH_CMP_AIRCRAFT_51_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4500 50320 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 13 }
+      command = { type = scrap_model which = flying_bomb value = 12 }
+    }
+  }
+  # ínëŒäÕÉ~ÉTÉCÉãáXå^
+  application =
+  { id        = 4520
+    name      = TECH_APP_AIRCRAFT_52_NAME
+    desc      = TECH_APP_AIRCRAFT_52_DESC
+    position  = { x = 430 y = 117 }
+    year      = 1998
+    component = { id = 4521 name = TECH_CMP_AIRCRAFT_52_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4522 name = TECH_CMP_AIRCRAFT_52_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4523 name = TECH_CMP_AIRCRAFT_52_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 4524 name = TECH_CMP_AIRCRAFT_52_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4525 name = TECH_CMP_AIRCRAFT_52_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4510 50330 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 14 }
+      command = { type = scrap_model which = flying_bomb value = 13 }
+    }
+  }
+  # ínëŒäÕÉ~ÉTÉCÉãáYå^
+  application =
+  { id        = 4530
+    name      = TECH_APP_AIRCRAFT_53_NAME
+    desc      = TECH_APP_AIRCRAFT_53_DESC
+    position  = { x = 430 y = 133 }
+    year      = 2004
+    component = { id = 4531 name = TECH_CMP_AIRCRAFT_53_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4532 name = TECH_CMP_AIRCRAFT_53_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4533 name = TECH_CMP_AIRCRAFT_53_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 4534 name = TECH_CMP_AIRCRAFT_53_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4535 name = TECH_CMP_AIRCRAFT_53_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4520 50340 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 15 }
+      command = { type = scrap_model which = flying_bomb value = 14 }
+    }
+  }
+  # ínëŒäÕÉ~ÉTÉCÉãáZå^
+  application =
+  { id        = 4540
+    name      = TECH_APP_AIRCRAFT_54_NAME
+    desc      = TECH_APP_AIRCRAFT_54_DESC
+    position  = { x = 430 y = 149 }
+    year      = 2010
+    component = { id = 4541 name = TECH_CMP_AIRCRAFT_54_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4542 name = TECH_CMP_AIRCRAFT_54_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4543 name = TECH_CMP_AIRCRAFT_54_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 4544 name = TECH_CMP_AIRCRAFT_54_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4545 name = TECH_CMP_AIRCRAFT_54_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4530 50350 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 16 }
+      command = { type = scrap_model which = flying_bomb value = 15 }
+    }
+  }
+  # ínëŒäÕÉ~ÉTÉCÉãá[å^
+  application =
+  { id        = 4550
+    name      = TECH_APP_AIRCRAFT_55_NAME
+    desc      = TECH_APP_AIRCRAFT_55_DESC
+    position  = { x = 430 y = 165 }
+    year      = 2018
+    component = { id = 4551 name = TECH_CMP_AIRCRAFT_55_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4552 name = TECH_CMP_AIRCRAFT_55_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4553 name = TECH_CMP_AIRCRAFT_55_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 4554 name = TECH_CMP_AIRCRAFT_55_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4555 name = TECH_CMP_AIRCRAFT_55_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4540 50360 }
+    effects =
+    { command = { type = new_model which = flying_bomb value = 17 }
+      command = { type = scrap_model which = flying_bomb value = 16 }
+    }
+  }
+  # ínëŒãÛÉ~ÉTÉCÉãáTå^
+  application =
+  { id        = 4560
+    name      = TECH_APP_AIRCRAFT_56_NAME
+    desc      = TECH_APP_AIRCRAFT_56_DESC
+    position  = { x = 516 y = 53 }
+    year      = 1973
+    component = { id = 4561 name = TECH_CMP_AIRCRAFT_56_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4562 name = TECH_CMP_AIRCRAFT_56_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4563 name = TECH_CMP_AIRCRAFT_56_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4564 name = TECH_CMP_AIRCRAFT_56_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 4565 name = TECH_CMP_AIRCRAFT_56_5_NAME type = electronics difficulty = 8 }
+    required  = { 4390 50290 }
+    effects =
+    { command = { type = allow_building which = flak }
+      command = { type = AA_batteries value = 5 }
+    }
+  }
+  # ínëŒãÛÉ~ÉTÉCÉãáUå^
+  application =
+  { id        = 4570
+    name      = TECH_APP_AIRCRAFT_57_NAME
+    desc      = TECH_APP_AIRCRAFT_57_DESC
+    position  = { x = 516 y = 69 }
+    year      = 1978
+    component = { id = 4571 name = TECH_CMP_AIRCRAFT_57_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4572 name = TECH_CMP_AIRCRAFT_57_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4573 name = TECH_CMP_AIRCRAFT_57_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4574 name = TECH_CMP_AIRCRAFT_57_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 4575 name = TECH_CMP_AIRCRAFT_57_5_NAME type = electronics difficulty = 8 }
+    required  = { 4560 50300 }
+    effects =
+    { command = { type = AA_batteries value = 5 }
+    }
+  }
+  # ínëŒãÛÉ~ÉTÉCÉãáVå^
+  application =
+  { id        = 4580
+    name      = TECH_APP_AIRCRAFT_58_NAME
+    desc      = TECH_APP_AIRCRAFT_58_DESC
+    position  = { x = 516 y = 85 }
+    year      = 1984
+    component = { id = 4581 name = TECH_CMP_AIRCRAFT_58_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4582 name = TECH_CMP_AIRCRAFT_58_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4583 name = TECH_CMP_AIRCRAFT_58_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4584 name = TECH_CMP_AIRCRAFT_58_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 4585 name = TECH_CMP_AIRCRAFT_58_5_NAME type = electronics difficulty = 8 }
+    required  = { 4570 50310 }
+    effects =
+    { command = { type = AA_batteries value = 5 }
+    }
+  }
+  # ínëŒãÛÉ~ÉTÉCÉãáWå^
+  application =
+  { id        = 4590
+    name      = TECH_APP_AIRCRAFT_59_NAME
+    desc      = TECH_APP_AIRCRAFT_59_DESC
+    position  = { x = 516 y = 101 }
+    year      = 1990
+    component = { id = 4591 name = TECH_CMP_AIRCRAFT_59_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4592 name = TECH_CMP_AIRCRAFT_59_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4593 name = TECH_CMP_AIRCRAFT_59_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4594 name = TECH_CMP_AIRCRAFT_59_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 4595 name = TECH_CMP_AIRCRAFT_59_5_NAME type = electronics difficulty = 8 }
+    required  = { 4580 50320 }
+    effects =
+    { command = { type = AA_batteries value = 5 }
+    }
+  }
+  # ínëŒãÛÉ~ÉTÉCÉãáXå^
+  application =
+  { id        = 4600
+    name      = TECH_APP_AIRCRAFT_60_NAME
+    desc      = TECH_APP_AIRCRAFT_60_DESC
+    position  = { x = 516 y = 117 }
+    year      = 1998
+    component = { id = 4601 name = TECH_CMP_AIRCRAFT_60_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4602 name = TECH_CMP_AIRCRAFT_60_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4603 name = TECH_CMP_AIRCRAFT_60_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4604 name = TECH_CMP_AIRCRAFT_60_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 4605 name = TECH_CMP_AIRCRAFT_60_5_NAME type = electronics difficulty = 8 }
+    required  = { 4590 50330 }
+    effects =
+    { command = { type = AA_batteries value = 5 }
+    }
+  }
+  # ínëŒãÛÉ~ÉTÉCÉãáYå^
+  application =
+  { id        = 4610
+    name      = TECH_APP_AIRCRAFT_61_NAME
+    desc      = TECH_APP_AIRCRAFT_61_DESC
+    position  = { x = 516 y = 133 }
+    year      = 2004
+    component = { id = 4611 name = TECH_CMP_AIRCRAFT_61_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4612 name = TECH_CMP_AIRCRAFT_61_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4613 name = TECH_CMP_AIRCRAFT_61_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4614 name = TECH_CMP_AIRCRAFT_61_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 4615 name = TECH_CMP_AIRCRAFT_61_5_NAME type = electronics difficulty = 8 }
+    required  = { 4600 50340 }
+    effects =
+    { command = { type = AA_batteries value = 5 }
+    }
+  }
+  # ínëŒãÛÉ~ÉTÉCÉãáZå^
+  application =
+  { id        = 4620
+    name      = TECH_APP_AIRCRAFT_62_NAME
+    desc      = TECH_APP_AIRCRAFT_62_DESC
+    position  = { x = 516 y = 149 }
+    year      = 2010
+    component = { id = 4621 name = TECH_CMP_AIRCRAFT_62_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4622 name = TECH_CMP_AIRCRAFT_62_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4623 name = TECH_CMP_AIRCRAFT_62_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4624 name = TECH_CMP_AIRCRAFT_62_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 4625 name = TECH_CMP_AIRCRAFT_62_5_NAME type = electronics difficulty = 8 }
+    required  = { 4610 50350 }
+    effects =
+    { command = { type = AA_batteries value = 10 }
+    }
+  }
+  # ínëŒãÛÉ~ÉTÉCÉãá[å^
+  application =
+  { id        = 4630
+    name      = TECH_APP_AIRCRAFT_63_NAME
+    desc      = TECH_APP_AIRCRAFT_63_DESC
+    position  = { x = 516 y = 165 }
+    year      = 2018
+    component = { id = 4631 name = TECH_CMP_AIRCRAFT_63_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4632 name = TECH_CMP_AIRCRAFT_63_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4633 name = TECH_CMP_AIRCRAFT_63_3_NAME type = electronics difficulty = 8 }
+    component = { id = 4634 name = TECH_CMP_AIRCRAFT_63_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 4635 name = TECH_CMP_AIRCRAFT_63_5_NAME type = electronics difficulty = 8 }
+    required  = { 4620 50360 }
+    effects =
+    { command = { type = AA_batteries value = 10 }
+    }
+  }
+  # êÌèpîöåÇã@áTå^
+  application =
+  { id        = 4640
+    name      = TECH_APP_AIRCRAFT_64_NAME
+    desc      = TECH_APP_AIRCRAFT_64_DESC
+    position  = { x = 0 y = 206 }
+    year      = 1945
+    component = { id = 4641 name = TECH_CMP_AIRCRAFT_64_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4642 name = TECH_CMP_AIRCRAFT_64_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4643 name = TECH_CMP_AIRCRAFT_64_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4644 name = TECH_CMP_AIRCRAFT_64_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4645 name = TECH_CMP_AIRCRAFT_64_5_NAME type = chemistry difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = tactical_bomber }
+      command = { type = new_model which = tactical_bomber value = 0 }
+    }
+  }
+  # êÌèpîöåÇã@áUå^
+  application =
+  { id        = 4650
+    name      = TECH_APP_AIRCRAFT_65_NAME
+    desc      = TECH_APP_AIRCRAFT_65_DESC
+    position  = { x = 0 y = 222 }
+    year      = 1973
+    component = { id = 4651 name = TECH_CMP_AIRCRAFT_65_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4652 name = TECH_CMP_AIRCRAFT_65_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4653 name = TECH_CMP_AIRCRAFT_65_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4654 name = TECH_CMP_AIRCRAFT_65_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4655 name = TECH_CMP_AIRCRAFT_65_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4640 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 1 }
+      command = { type = scrap_model which = tactical_bomber value = 0 }
+    }
+  }
+  # êÌèpîöåÇã@áVå^
+  application =
+  { id        = 4660
+    name      = TECH_APP_AIRCRAFT_66_NAME
+    desc      = TECH_APP_AIRCRAFT_66_DESC
+    position  = { x = 0 y = 238 }
+    year      = 1979
+    component = { id = 4661 name = TECH_CMP_AIRCRAFT_66_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4662 name = TECH_CMP_AIRCRAFT_66_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4663 name = TECH_CMP_AIRCRAFT_66_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4664 name = TECH_CMP_AIRCRAFT_66_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4665 name = TECH_CMP_AIRCRAFT_66_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4650 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 2 }
+      command = { type = scrap_model which = tactical_bomber value = 1 }
+    }
+  }
+  # êÌèpîöåÇã@áWå^
+  application =
+  { id        = 4670
+    name      = TECH_APP_AIRCRAFT_67_NAME
+    desc      = TECH_APP_AIRCRAFT_67_DESC
+    position  = { x = 0 y = 254 }
+    year      = 1984
+    component = { id = 4671 name = TECH_CMP_AIRCRAFT_67_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4672 name = TECH_CMP_AIRCRAFT_67_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4673 name = TECH_CMP_AIRCRAFT_67_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4674 name = TECH_CMP_AIRCRAFT_67_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4675 name = TECH_CMP_AIRCRAFT_67_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4660 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 3 }
+      command = { type = scrap_model which = tactical_bomber value = 2 }
+    }
+  }
+  # êÌèpîöåÇã@áXå^
+  application =
+  { id        = 4680
+    name      = TECH_APP_AIRCRAFT_68_NAME
+    desc      = TECH_APP_AIRCRAFT_68_DESC
+    position  = { x = 0 y = 270 }
+    year      = 1990
+    component = { id = 4681 name = TECH_CMP_AIRCRAFT_68_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4682 name = TECH_CMP_AIRCRAFT_68_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4683 name = TECH_CMP_AIRCRAFT_68_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4684 name = TECH_CMP_AIRCRAFT_68_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4685 name = TECH_CMP_AIRCRAFT_68_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4670 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 4 }
+      command = { type = scrap_model which = tactical_bomber value = 3 }
+    }
+  }
+  # êÌèpîöåÇã@áYå^
+  application =
+  { id        = 4690
+    name      = TECH_APP_AIRCRAFT_69_NAME
+    desc      = TECH_APP_AIRCRAFT_69_DESC
+    position  = { x = 0 y = 286 }
+    year      = 1998
+    component = { id = 4691 name = TECH_CMP_AIRCRAFT_69_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4692 name = TECH_CMP_AIRCRAFT_69_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4693 name = TECH_CMP_AIRCRAFT_69_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4694 name = TECH_CMP_AIRCRAFT_69_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4695 name = TECH_CMP_AIRCRAFT_69_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4680 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 5 }
+      command = { type = scrap_model which = tactical_bomber value = 4 }
+    }
+  }
+  # êÌèpîöåÇã@áZå^
+  application =
+  { id        = 4700
+    name      = TECH_APP_AIRCRAFT_70_NAME
+    desc      = TECH_APP_AIRCRAFT_70_DESC
+    position  = { x = 0 y = 302 }
+    year      = 2009
+    component = { id = 4701 name = TECH_CMP_AIRCRAFT_70_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4702 name = TECH_CMP_AIRCRAFT_70_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4703 name = TECH_CMP_AIRCRAFT_70_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4704 name = TECH_CMP_AIRCRAFT_70_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4705 name = TECH_CMP_AIRCRAFT_70_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4690 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 6 }
+      command = { type = scrap_model which = tactical_bomber value = 5 }
+    }
+  }
+  # êÌèpîöåÇã@á[å^
+  application =
+  { id        = 4710
+    name      = TECH_APP_AIRCRAFT_71_NAME
+    desc      = TECH_APP_AIRCRAFT_71_DESC
+    position  = { x = 0 y = 318 }
+    year      = 2018
+    component = { id = 4711 name = TECH_CMP_AIRCRAFT_71_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4712 name = TECH_CMP_AIRCRAFT_71_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4713 name = TECH_CMP_AIRCRAFT_71_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4714 name = TECH_CMP_AIRCRAFT_71_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4715 name = TECH_CMP_AIRCRAFT_71_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4700 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 7 }
+      command = { type = scrap_model which = tactical_bomber value = 6 }
+    }
+  }
+  # êÌèpîöåÇã@á\å^
+  application =
+  { id        = 4720
+    name      = TECH_APP_AIRCRAFT_72_NAME
+    desc      = TECH_APP_AIRCRAFT_72_DESC
+    position  = { x = 0 y = 334 }
+    year      = 2026
+    component = { id = 4721 name = TECH_CMP_AIRCRAFT_72_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4722 name = TECH_CMP_AIRCRAFT_72_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4723 name = TECH_CMP_AIRCRAFT_72_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4724 name = TECH_CMP_AIRCRAFT_72_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4725 name = TECH_CMP_AIRCRAFT_72_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4710 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 8 }
+      command = { type = scrap_model which = tactical_bomber value = 7 }
+    }
+  }
+  # êÌèpîöåÇã@á]å^
+  application =
+  { id        = 4730
+    name      = TECH_APP_AIRCRAFT_73_NAME
+    desc      = TECH_APP_AIRCRAFT_73_DESC
+    position  = { x = 0 y = 350 }
+    year      = 2035
+    component = { id = 4731 name = TECH_CMP_AIRCRAFT_73_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4732 name = TECH_CMP_AIRCRAFT_73_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4733 name = TECH_CMP_AIRCRAFT_73_3_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4734 name = TECH_CMP_AIRCRAFT_73_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4735 name = TECH_CMP_AIRCRAFT_73_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4720 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 9 }
+      command = { type = scrap_model which = tactical_bomber value = 8 }
+    }
+  }
+  # êÌì¨îöåÇã@áTå^
+  application =
+  { id        = 4740
+    name      = TECH_APP_AIRCRAFT_74_NAME
+    desc      = TECH_APP_AIRCRAFT_74_DESC
+    position  = { x = 86 y = 238 }
+    year      = 1979
+    component = { id = 4741 name = TECH_CMP_AIRCRAFT_74_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4742 name = TECH_CMP_AIRCRAFT_74_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4743 name = TECH_CMP_AIRCRAFT_74_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4744 name = TECH_CMP_AIRCRAFT_74_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4745 name = TECH_CMP_AIRCRAFT_74_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4650 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 11 }
+    }
+  }
+  # êÌì¨îöåÇã@áUå^
+  application =
+  { id        = 4750
+    name      = TECH_APP_AIRCRAFT_75_NAME
+    desc      = TECH_APP_AIRCRAFT_75_DESC
+    position  = { x = 86 y = 254 }
+    year      = 1984
+    component = { id = 4751 name = TECH_CMP_AIRCRAFT_75_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4752 name = TECH_CMP_AIRCRAFT_75_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4753 name = TECH_CMP_AIRCRAFT_75_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4754 name = TECH_CMP_AIRCRAFT_75_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4755 name = TECH_CMP_AIRCRAFT_75_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4740 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 12 }
+      command = { type = scrap_model which = tactical_bomber value = 11 }
+    }
+  }
+  # êÌì¨îöåÇã@áVå^
+  application =
+  { id        = 4760
+    name      = TECH_APP_AIRCRAFT_76_NAME
+    desc      = TECH_APP_AIRCRAFT_76_DESC
+    position  = { x = 86 y = 270 }
+    year      = 1990
+    component = { id = 4761 name = TECH_CMP_AIRCRAFT_76_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4762 name = TECH_CMP_AIRCRAFT_76_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4763 name = TECH_CMP_AIRCRAFT_76_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4764 name = TECH_CMP_AIRCRAFT_76_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4765 name = TECH_CMP_AIRCRAFT_76_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4750 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 13 }
+      command = { type = scrap_model which = tactical_bomber value = 12 }
+    }
+  }
+  # êÌì¨îöåÇã@áWå^
+  application =
+  { id        = 4770
+    name      = TECH_APP_AIRCRAFT_77_NAME
+    desc      = TECH_APP_AIRCRAFT_77_DESC
+    position  = { x = 86 y = 286 }
+    year      = 1998
+    component = { id = 4771 name = TECH_CMP_AIRCRAFT_77_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4772 name = TECH_CMP_AIRCRAFT_77_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4773 name = TECH_CMP_AIRCRAFT_77_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4774 name = TECH_CMP_AIRCRAFT_77_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4775 name = TECH_CMP_AIRCRAFT_77_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4760 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 14 }
+      command = { type = scrap_model which = tactical_bomber value = 13 }
+    }
+  }
+  # êÌì¨îöåÇã@áXå^
+  application =
+  { id        = 4780
+    name      = TECH_APP_AIRCRAFT_78_NAME
+    desc      = TECH_APP_AIRCRAFT_78_DESC
+    position  = { x = 86 y = 302 }
+    year      = 2009
+    component = { id = 4781 name = TECH_CMP_AIRCRAFT_78_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4782 name = TECH_CMP_AIRCRAFT_78_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4783 name = TECH_CMP_AIRCRAFT_78_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4784 name = TECH_CMP_AIRCRAFT_78_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4785 name = TECH_CMP_AIRCRAFT_78_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4770 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 15 }
+      command = { type = scrap_model which = tactical_bomber value = 14 }
+    }
+  }
+  # êÌì¨îöåÇã@áYå^
+  application =
+  { id        = 4790
+    name      = TECH_APP_AIRCRAFT_79_NAME
+    desc      = TECH_APP_AIRCRAFT_79_DESC
+    position  = { x = 86 y = 318 }
+    year      = 2018
+    component = { id = 4791 name = TECH_CMP_AIRCRAFT_79_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4792 name = TECH_CMP_AIRCRAFT_79_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4793 name = TECH_CMP_AIRCRAFT_79_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4794 name = TECH_CMP_AIRCRAFT_79_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4795 name = TECH_CMP_AIRCRAFT_79_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4780 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 16 }
+      command = { type = scrap_model which = tactical_bomber value = 15 }
+    }
+  }
+  # êÌì¨îöåÇã@áZå^
+  application =
+  { id        = 4800
+    name      = TECH_APP_AIRCRAFT_80_NAME
+    desc      = TECH_APP_AIRCRAFT_80_DESC
+    position  = { x = 86 y = 334 }
+    year      = 2026
+    component = { id = 4801 name = TECH_CMP_AIRCRAFT_80_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4802 name = TECH_CMP_AIRCRAFT_80_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4803 name = TECH_CMP_AIRCRAFT_80_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4804 name = TECH_CMP_AIRCRAFT_80_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4805 name = TECH_CMP_AIRCRAFT_80_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4790 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 17 }
+      command = { type = scrap_model which = tactical_bomber value = 16 }
+    }
+  }
+  # êÌì¨îöåÇã@á[å^
+  application =
+  { id        = 4810
+    name      = TECH_APP_AIRCRAFT_81_NAME
+    desc      = TECH_APP_AIRCRAFT_81_DESC
+    position  = { x = 86 y = 350 }
+    year      = 2035
+    component = { id = 4811 name = TECH_CMP_AIRCRAFT_81_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4812 name = TECH_CMP_AIRCRAFT_81_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4813 name = TECH_CMP_AIRCRAFT_81_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4814 name = TECH_CMP_AIRCRAFT_81_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4815 name = TECH_CMP_AIRCRAFT_81_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4800 }
+    effects =
+    { command = { type = new_model which = tactical_bomber value = 18 }
+      command = { type = scrap_model which = tactical_bomber value = 17 }
+    }
+  }
+  # êÌó™îöåÇã@áTå^
+  application =
+  { id        = 4820
+    name      = TECH_APP_AIRCRAFT_82_NAME
+    desc      = TECH_APP_AIRCRAFT_82_DESC
+    position  = { x = 172 y = 206 }
+    year      = 1945
+    component = { id = 4821 name = TECH_CMP_AIRCRAFT_82_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4822 name = TECH_CMP_AIRCRAFT_82_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4823 name = TECH_CMP_AIRCRAFT_82_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4824 name = TECH_CMP_AIRCRAFT_82_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4825 name = TECH_CMP_AIRCRAFT_82_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = strategic_bomber }
+      command = { type = new_model which = strategic_bomber value = 0 }
+    }
+  }
+  # êÌó™îöåÇã@áUå^
+  application =
+  { id        = 4830
+    name      = TECH_APP_AIRCRAFT_83_NAME
+    desc      = TECH_APP_AIRCRAFT_83_DESC
+    position  = { x = 172 y = 222 }
+    year      = 1973
+    component = { id = 4831 name = TECH_CMP_AIRCRAFT_83_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4832 name = TECH_CMP_AIRCRAFT_83_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4833 name = TECH_CMP_AIRCRAFT_83_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4834 name = TECH_CMP_AIRCRAFT_83_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4835 name = TECH_CMP_AIRCRAFT_83_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4820 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 1 }
+      command = { type = scrap_model which = strategic_bomber value = 0 }
+    }
+  }
+  # êÌó™îöåÇã@áVå^
+  application =
+  { id        = 4840
+    name      = TECH_APP_AIRCRAFT_84_NAME
+    desc      = TECH_APP_AIRCRAFT_84_DESC
+    position  = { x = 172 y = 238 }
+    year      = 1979
+    component = { id = 4841 name = TECH_CMP_AIRCRAFT_84_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4842 name = TECH_CMP_AIRCRAFT_84_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4843 name = TECH_CMP_AIRCRAFT_84_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4844 name = TECH_CMP_AIRCRAFT_84_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4845 name = TECH_CMP_AIRCRAFT_84_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4830 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 2 }
+      command = { type = scrap_model which = strategic_bomber value = 1 }
+    }
+  }
+  # êÌó™îöåÇã@áWå^
+  application =
+  { id        = 4850
+    name      = TECH_APP_AIRCRAFT_85_NAME
+    desc      = TECH_APP_AIRCRAFT_85_DESC
+    position  = { x = 172 y = 254 }
+    year      = 1984
+    component = { id = 4851 name = TECH_CMP_AIRCRAFT_85_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4852 name = TECH_CMP_AIRCRAFT_85_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4853 name = TECH_CMP_AIRCRAFT_85_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4854 name = TECH_CMP_AIRCRAFT_85_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4855 name = TECH_CMP_AIRCRAFT_85_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4840 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 3 }
+      command = { type = scrap_model which = strategic_bomber value = 2 }
+    }
+  }
+  # êÌó™îöåÇã@áXå^
+  application =
+  { id        = 4860
+    name      = TECH_APP_AIRCRAFT_86_NAME
+    desc      = TECH_APP_AIRCRAFT_86_DESC
+    position  = { x = 172 y = 270 }
+    year      = 1990
+    component = { id = 4861 name = TECH_CMP_AIRCRAFT_86_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4862 name = TECH_CMP_AIRCRAFT_86_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4863 name = TECH_CMP_AIRCRAFT_86_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4864 name = TECH_CMP_AIRCRAFT_86_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4865 name = TECH_CMP_AIRCRAFT_86_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4850 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 4 }
+      command = { type = scrap_model which = strategic_bomber value = 3 }
+    }
+  }
+  # êÌó™îöåÇã@áYå^
+  application =
+  { id        = 4870
+    name      = TECH_APP_AIRCRAFT_87_NAME
+    desc      = TECH_APP_AIRCRAFT_87_DESC
+    position  = { x = 172 y = 286 }
+    year      = 1998
+    component = { id = 4871 name = TECH_CMP_AIRCRAFT_87_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4872 name = TECH_CMP_AIRCRAFT_87_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4873 name = TECH_CMP_AIRCRAFT_87_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4874 name = TECH_CMP_AIRCRAFT_87_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4875 name = TECH_CMP_AIRCRAFT_87_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4860 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 5 }
+      command = { type = scrap_model which = strategic_bomber value = 4 }
+    }
+  }
+  # êÌó™îöåÇã@áZå^
+  application =
+  { id        = 4880
+    name      = TECH_APP_AIRCRAFT_88_NAME
+    desc      = TECH_APP_AIRCRAFT_88_DESC
+    position  = { x = 172 y = 302 }
+    year      = 2006
+    component = { id = 4881 name = TECH_CMP_AIRCRAFT_88_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4882 name = TECH_CMP_AIRCRAFT_88_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4883 name = TECH_CMP_AIRCRAFT_88_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4884 name = TECH_CMP_AIRCRAFT_88_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4885 name = TECH_CMP_AIRCRAFT_88_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4870 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 6 }
+      command = { type = scrap_model which = strategic_bomber value = 5 }
+    }
+  }
+  # êÌó™îöåÇã@á[å^
+  application =
+  { id        = 4890
+    name      = TECH_APP_AIRCRAFT_89_NAME
+    desc      = TECH_APP_AIRCRAFT_89_DESC
+    position  = { x = 172 y = 318 }
+    year      = 2018
+    component = { id = 4891 name = TECH_CMP_AIRCRAFT_89_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4892 name = TECH_CMP_AIRCRAFT_89_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4893 name = TECH_CMP_AIRCRAFT_89_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4894 name = TECH_CMP_AIRCRAFT_89_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4895 name = TECH_CMP_AIRCRAFT_89_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4880 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 7 }
+      command = { type = scrap_model which = strategic_bomber value = 6 }
+    }
+  }
+  # êÌó™îöåÇã@á\å^
+  application =
+  { id        = 4900
+    name      = TECH_APP_AIRCRAFT_90_NAME
+    desc      = TECH_APP_AIRCRAFT_90_DESC
+    position  = { x = 172 y = 334 }
+    year      = 2026
+    component = { id = 4901 name = TECH_CMP_AIRCRAFT_90_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4902 name = TECH_CMP_AIRCRAFT_90_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4903 name = TECH_CMP_AIRCRAFT_90_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4904 name = TECH_CMP_AIRCRAFT_90_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4905 name = TECH_CMP_AIRCRAFT_90_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4890 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 8 }
+      command = { type = scrap_model which = strategic_bomber value = 7 }
+    }
+  }
+  # êÌó™îöåÇã@á]å^
+  application =
+  { id        = 4910
+    name      = TECH_APP_AIRCRAFT_91_NAME
+    desc      = TECH_APP_AIRCRAFT_91_DESC
+    position  = { x = 172 y = 350 }
+    year      = 2035
+    component = { id = 4911 name = TECH_CMP_AIRCRAFT_91_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4912 name = TECH_CMP_AIRCRAFT_91_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4913 name = TECH_CMP_AIRCRAFT_91_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4914 name = TECH_CMP_AIRCRAFT_91_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4915 name = TECH_CMP_AIRCRAFT_91_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 4900 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 9 }
+      command = { type = scrap_model which = strategic_bomber value = 8 }
+    }
+  }
+  # êÌèpópêÌó™îöåÇã@áTå^
+  application =
+  { id        = 4920
+    name      = TECH_APP_AIRCRAFT_92_NAME
+    desc      = TECH_APP_AIRCRAFT_92_DESC
+    position  = { x = 258 y = 238 }
+    year      = 1979
+    component = { id = 4921 name = TECH_CMP_AIRCRAFT_92_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4922 name = TECH_CMP_AIRCRAFT_92_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4923 name = TECH_CMP_AIRCRAFT_92_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4924 name = TECH_CMP_AIRCRAFT_92_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4925 name = TECH_CMP_AIRCRAFT_92_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4830 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 11 }
+    }
+  }
+  # êÌèpópêÌó™îöåÇã@áUå^
+  application =
+  { id        = 4930
+    name      = TECH_APP_AIRCRAFT_93_NAME
+    desc      = TECH_APP_AIRCRAFT_93_DESC
+    position  = { x = 258 y = 254 }
+    year      = 1984
+    component = { id = 4931 name = TECH_CMP_AIRCRAFT_93_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4932 name = TECH_CMP_AIRCRAFT_93_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4933 name = TECH_CMP_AIRCRAFT_93_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4934 name = TECH_CMP_AIRCRAFT_93_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4935 name = TECH_CMP_AIRCRAFT_93_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4920 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 12 }
+      command = { type = scrap_model which = strategic_bomber value = 11 }
+    }
+  }
+  # êÌèpópêÌó™îöåÇã@áVå^
+  application =
+  { id        = 4940
+    name      = TECH_APP_AIRCRAFT_94_NAME
+    desc      = TECH_APP_AIRCRAFT_94_DESC
+    position  = { x = 258 y = 270 }
+    year      = 1990
+    component = { id = 4941 name = TECH_CMP_AIRCRAFT_94_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4942 name = TECH_CMP_AIRCRAFT_94_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4943 name = TECH_CMP_AIRCRAFT_94_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4944 name = TECH_CMP_AIRCRAFT_94_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4945 name = TECH_CMP_AIRCRAFT_94_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4930 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 13 }
+      command = { type = scrap_model which = strategic_bomber value = 12 }
+    }
+  }
+  # êÌèpópêÌó™îöåÇã@áWå^
+  application =
+  { id        = 4950
+    name      = TECH_APP_AIRCRAFT_95_NAME
+    desc      = TECH_APP_AIRCRAFT_95_DESC
+    position  = { x = 258 y = 286 }
+    year      = 1998
+    component = { id = 4951 name = TECH_CMP_AIRCRAFT_95_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4952 name = TECH_CMP_AIRCRAFT_95_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4953 name = TECH_CMP_AIRCRAFT_95_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4954 name = TECH_CMP_AIRCRAFT_95_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4955 name = TECH_CMP_AIRCRAFT_95_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4940 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 14 }
+      command = { type = scrap_model which = strategic_bomber value = 13 }
+    }
+  }
+  # êÌèpópêÌó™îöåÇã@áXå^
+  application =
+  { id        = 4960
+    name      = TECH_APP_AIRCRAFT_96_NAME
+    desc      = TECH_APP_AIRCRAFT_96_DESC
+    position  = { x = 258 y = 302 }
+    year      = 2009
+    component = { id = 4961 name = TECH_CMP_AIRCRAFT_96_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4962 name = TECH_CMP_AIRCRAFT_96_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4963 name = TECH_CMP_AIRCRAFT_96_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4964 name = TECH_CMP_AIRCRAFT_96_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4965 name = TECH_CMP_AIRCRAFT_96_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4950 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 15 }
+      command = { type = scrap_model which = strategic_bomber value = 14 }
+    }
+  }
+  # êÌèpópêÌó™îöåÇã@áYå^
+  application =
+  { id        = 4970
+    name      = TECH_APP_AIRCRAFT_97_NAME
+    desc      = TECH_APP_AIRCRAFT_97_DESC
+    position  = { x = 258 y = 318 }
+    year      = 2018
+    component = { id = 4971 name = TECH_CMP_AIRCRAFT_97_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4972 name = TECH_CMP_AIRCRAFT_97_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4973 name = TECH_CMP_AIRCRAFT_97_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4974 name = TECH_CMP_AIRCRAFT_97_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4975 name = TECH_CMP_AIRCRAFT_97_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4960 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 16 }
+      command = { type = scrap_model which = strategic_bomber value = 15 }
+    }
+  }
+  # êÌèpópêÌó™îöåÇã@áZå^
+  application =
+  { id        = 4980
+    name      = TECH_APP_AIRCRAFT_98_NAME
+    desc      = TECH_APP_AIRCRAFT_98_DESC
+    position  = { x = 258 y = 334 }
+    year      = 2026
+    component = { id = 4981 name = TECH_CMP_AIRCRAFT_98_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4982 name = TECH_CMP_AIRCRAFT_98_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4983 name = TECH_CMP_AIRCRAFT_98_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4984 name = TECH_CMP_AIRCRAFT_98_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4985 name = TECH_CMP_AIRCRAFT_98_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4970 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 17 }
+      command = { type = scrap_model which = strategic_bomber value = 16 }
+    }
+  }
+  # êÌèpópêÌó™îöåÇã@á[å^
+  application =
+  { id        = 4990
+    name      = TECH_APP_AIRCRAFT_99_NAME
+    desc      = TECH_APP_AIRCRAFT_99_DESC
+    position  = { x = 258 y = 350 }
+    year      = 2035
+    component = { id = 4991 name = TECH_CMP_AIRCRAFT_99_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 4992 name = TECH_CMP_AIRCRAFT_99_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 4993 name = TECH_CMP_AIRCRAFT_99_3_NAME type = artillery difficulty = 8 }
+    component = { id = 4994 name = TECH_CMP_AIRCRAFT_99_4_NAME type = electronics difficulty = 8 }
+    component = { id = 4995 name = TECH_CMP_AIRCRAFT_99_5_NAME type = chemistry difficulty = 8 }
+    required  = { 4980 }
+    effects =
+    { command = { type = new_model which = strategic_bomber value = 18 }
+      command = { type = scrap_model which = strategic_bomber value = 17 }
+    }
+  }
+  # êÌì¨ÉwÉäáTå^
+  application =
+  { id        = 40000
+    name      = TECH_APP_AIRCRAFT_400_NAME
+    desc      = TECH_APP_AIRCRAFT_400_DESC
+    position  = { x = 344 y = 206 }
+    year      = 1945
+    component = { id = 40001 name = TECH_CMP_AIRCRAFT_400_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40002 name = TECH_CMP_AIRCRAFT_400_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40003 name = TECH_CMP_AIRCRAFT_400_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40004 name = TECH_CMP_AIRCRAFT_400_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40005 name = TECH_CMP_AIRCRAFT_400_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = cas }
+      command = { type = new_model which = cas value = 0 }
+    }
+  }
+  # êÌì¨ÉwÉäáUå^
+  application =
+  { id        = 40010
+    name      = TECH_APP_AIRCRAFT_401_NAME
+    desc      = TECH_APP_AIRCRAFT_401_DESC
+    position  = { x = 344 y = 222 }
+    year      = 1973
+    component = { id = 40011 name = TECH_CMP_AIRCRAFT_401_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40012 name = TECH_CMP_AIRCRAFT_401_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40013 name = TECH_CMP_AIRCRAFT_401_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40014 name = TECH_CMP_AIRCRAFT_401_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40015 name = TECH_CMP_AIRCRAFT_401_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40000 }
+    effects =
+    { command = { type = new_model which = cas value = 1 }
+      command = { type = scrap_model which = cas value = 0 }
+    }
+  }
+  # êÌì¨ÉwÉäáVå^
+  application =
+  { id        = 40020
+    name      = TECH_APP_AIRCRAFT_402_NAME
+    desc      = TECH_APP_AIRCRAFT_402_DESC
+    position  = { x = 344 y = 238 }
+    year      = 1979
+    component = { id = 40021 name = TECH_CMP_AIRCRAFT_402_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40022 name = TECH_CMP_AIRCRAFT_402_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40023 name = TECH_CMP_AIRCRAFT_402_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40024 name = TECH_CMP_AIRCRAFT_402_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40025 name = TECH_CMP_AIRCRAFT_402_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40010 }
+    effects =
+    { command = { type = new_model which = cas value = 2 }
+      command = { type = scrap_model which = cas value = 1 }
+    }
+  }
+  # êÌì¨ÉwÉäáWå^
+  application =
+  { id        = 40030
+    name      = TECH_APP_AIRCRAFT_403_NAME
+    desc      = TECH_APP_AIRCRAFT_403_DESC
+    position  = { x = 344 y = 254 }
+    year      = 1984
+    component = { id = 40031 name = TECH_CMP_AIRCRAFT_403_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40032 name = TECH_CMP_AIRCRAFT_403_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40033 name = TECH_CMP_AIRCRAFT_403_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40034 name = TECH_CMP_AIRCRAFT_403_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40035 name = TECH_CMP_AIRCRAFT_403_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40020 }
+    effects =
+    { command = { type = new_model which = cas value = 3 }
+      command = { type = scrap_model which = cas value = 2 }
+    }
+  }
+  # êÌì¨ÉwÉäáXå^
+  application =
+  { id        = 40040
+    name      = TECH_APP_AIRCRAFT_404_NAME
+    desc      = TECH_APP_AIRCRAFT_404_DESC
+    position  = { x = 344 y = 270 }
+    year      = 1990
+    component = { id = 40041 name = TECH_CMP_AIRCRAFT_404_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40042 name = TECH_CMP_AIRCRAFT_404_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40043 name = TECH_CMP_AIRCRAFT_404_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40044 name = TECH_CMP_AIRCRAFT_404_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40045 name = TECH_CMP_AIRCRAFT_404_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40030 }
+    effects =
+    { command = { type = new_model which = cas value = 4 }
+      command = { type = scrap_model which = cas value = 3 }
+    }
+  }
+  # êÌì¨ÉwÉäáYå^
+  application =
+  { id        = 40050
+    name      = TECH_APP_AIRCRAFT_405_NAME
+    desc      = TECH_APP_AIRCRAFT_405_DESC
+    position  = { x = 344 y = 286 }
+    year      = 1998
+    component = { id = 40051 name = TECH_CMP_AIRCRAFT_405_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40052 name = TECH_CMP_AIRCRAFT_405_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40053 name = TECH_CMP_AIRCRAFT_405_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40054 name = TECH_CMP_AIRCRAFT_405_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40055 name = TECH_CMP_AIRCRAFT_405_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40040 }
+    effects =
+    { command = { type = new_model which = cas value = 5 }
+      command = { type = scrap_model which = cas value = 4 }
+    }
+  }
+  # êÌì¨ÉwÉäáZå^
+  application =
+  { id        = 40060
+    name      = TECH_APP_AIRCRAFT_406_NAME
+    desc      = TECH_APP_AIRCRAFT_406_DESC
+    position  = { x = 344 y = 302 }
+    year      = 2009
+    component = { id = 40061 name = TECH_CMP_AIRCRAFT_406_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40062 name = TECH_CMP_AIRCRAFT_406_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40063 name = TECH_CMP_AIRCRAFT_406_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40064 name = TECH_CMP_AIRCRAFT_406_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40065 name = TECH_CMP_AIRCRAFT_406_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40050 }
+    effects =
+    { command = { type = new_model which = cas value = 6 }
+      command = { type = scrap_model which = cas value = 5 }
+    }
+  }
+  # êÌì¨ÉwÉäá[å^
+  application =
+  { id        = 40070
+    name      = TECH_APP_AIRCRAFT_407_NAME
+    desc      = TECH_APP_AIRCRAFT_407_DESC
+    position  = { x = 344 y = 318 }
+    year      = 2018
+    component = { id = 40071 name = TECH_CMP_AIRCRAFT_407_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40072 name = TECH_CMP_AIRCRAFT_407_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40073 name = TECH_CMP_AIRCRAFT_407_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40074 name = TECH_CMP_AIRCRAFT_407_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40075 name = TECH_CMP_AIRCRAFT_407_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40060 }
+    effects =
+    { command = { type = new_model which = cas value = 7 }
+      command = { type = scrap_model which = cas value = 6 }
+    }
+  }
+  # êÌì¨ÉwÉäá\å^
+  application =
+  { id        = 40080
+    name      = TECH_APP_AIRCRAFT_408_NAME
+    desc      = TECH_APP_AIRCRAFT_408_DESC
+    position  = { x = 344 y = 334 }
+    year      = 2026
+    component = { id = 40081 name = TECH_CMP_AIRCRAFT_408_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40082 name = TECH_CMP_AIRCRAFT_408_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40083 name = TECH_CMP_AIRCRAFT_408_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40084 name = TECH_CMP_AIRCRAFT_408_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40085 name = TECH_CMP_AIRCRAFT_408_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40070 }
+    effects =
+    { command = { type = new_model which = cas value = 8 }
+      command = { type = scrap_model which = cas value = 7 }
+    }
+  }
+  # êÌì¨ÉwÉäá]å^
+  application =
+  { id        = 40090
+    name      = TECH_APP_AIRCRAFT_409_NAME
+    desc      = TECH_APP_AIRCRAFT_409_DESC
+    position  = { x = 344 y = 350 }
+    year      = 2035
+    component = { id = 40091 name = TECH_CMP_AIRCRAFT_409_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40092 name = TECH_CMP_AIRCRAFT_409_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40093 name = TECH_CMP_AIRCRAFT_409_3_NAME type = electronics difficulty = 8 }
+    component = { id = 40094 name = TECH_CMP_AIRCRAFT_409_4_NAME type = chemistry difficulty = 8 }
+    component = { id = 40095 name = TECH_CMP_AIRCRAFT_409_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40080 }
+    effects =
+    { command = { type = new_model which = cas value = 9 }
+      command = { type = scrap_model which = cas value = 8 }
+    }
+  }
+  # óAëóã@áTå^
+  application =
+  { id        = 40100
+    name      = TECH_APP_AIRCRAFT_410_NAME
+    desc      = TECH_APP_AIRCRAFT_410_DESC
+    position  = { x = 430 y = 206 }
+    year      = 1945
+    component = { id = 40101 name = TECH_CMP_AIRCRAFT_410_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40102 name = TECH_CMP_AIRCRAFT_410_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40103 name = TECH_CMP_AIRCRAFT_410_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40104 name = TECH_CMP_AIRCRAFT_410_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40105 name = TECH_CMP_AIRCRAFT_410_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = transport_plane }
+      command = { type = new_model which = transport_plane value = 0 }
+    }
+  }
+  # óAëóã@áUå^
+  application =
+  { id        = 40110
+    name      = TECH_APP_AIRCRAFT_411_NAME
+    desc      = TECH_APP_AIRCRAFT_411_DESC
+    position  = { x = 430 y = 222 }
+    year      = 1973
+    component = { id = 40111 name = TECH_CMP_AIRCRAFT_411_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40112 name = TECH_CMP_AIRCRAFT_411_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40113 name = TECH_CMP_AIRCRAFT_411_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40114 name = TECH_CMP_AIRCRAFT_411_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40115 name = TECH_CMP_AIRCRAFT_411_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40100 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 1 }
+      command = { type = scrap_model which = transport_plane value = 0 }
+    }
+  }
+  # óAëóã@áVå^
+  application =
+  { id        = 40120
+    name      = TECH_APP_AIRCRAFT_412_NAME
+    desc      = TECH_APP_AIRCRAFT_412_DESC
+    position  = { x = 430 y = 238 }
+    year      = 1979
+    component = { id = 40121 name = TECH_CMP_AIRCRAFT_412_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40122 name = TECH_CMP_AIRCRAFT_412_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40123 name = TECH_CMP_AIRCRAFT_412_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40124 name = TECH_CMP_AIRCRAFT_412_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40125 name = TECH_CMP_AIRCRAFT_412_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40110 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 2 }
+      command = { type = scrap_model which = transport_plane value = 1 }
+    }
+  }
+  # óAëóã@áWå^
+  application =
+  { id        = 40130
+    name      = TECH_APP_AIRCRAFT_413_NAME
+    desc      = TECH_APP_AIRCRAFT_413_DESC
+    position  = { x = 430 y = 254 }
+    year      = 1984
+    component = { id = 40131 name = TECH_CMP_AIRCRAFT_413_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40132 name = TECH_CMP_AIRCRAFT_413_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40133 name = TECH_CMP_AIRCRAFT_413_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40134 name = TECH_CMP_AIRCRAFT_413_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40135 name = TECH_CMP_AIRCRAFT_413_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40120 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 3 }
+      command = { type = scrap_model which = transport_plane value = 2 }
+    }
+  }
+  # óAëóã@áXå^
+  application =
+  { id        = 40140
+    name      = TECH_APP_AIRCRAFT_414_NAME
+    desc      = TECH_APP_AIRCRAFT_414_DESC
+    position  = { x = 430 y = 270 }
+    year      = 1990
+    component = { id = 40141 name = TECH_CMP_AIRCRAFT_414_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40142 name = TECH_CMP_AIRCRAFT_414_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40143 name = TECH_CMP_AIRCRAFT_414_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40144 name = TECH_CMP_AIRCRAFT_414_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40145 name = TECH_CMP_AIRCRAFT_414_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40130 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 4 }
+      command = { type = scrap_model which = transport_plane value = 3 }
+    }
+  }
+  # óAëóã@áYå^
+  application =
+  { id        = 40150
+    name      = TECH_APP_AIRCRAFT_415_NAME
+    desc      = TECH_APP_AIRCRAFT_415_DESC
+    position  = { x = 430 y = 286 }
+    year      = 1998
+    component = { id = 40151 name = TECH_CMP_AIRCRAFT_415_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40152 name = TECH_CMP_AIRCRAFT_415_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40153 name = TECH_CMP_AIRCRAFT_415_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40154 name = TECH_CMP_AIRCRAFT_415_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40155 name = TECH_CMP_AIRCRAFT_415_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40140 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 5 }
+      command = { type = scrap_model which = transport_plane value = 4 }
+    }
+  }
+  # óAëóã@áZå^
+  application =
+  { id        = 40160
+    name      = TECH_APP_AIRCRAFT_416_NAME
+    desc      = TECH_APP_AIRCRAFT_416_DESC
+    position  = { x = 430 y = 302 }
+    year      = 2009
+    component = { id = 40161 name = TECH_CMP_AIRCRAFT_416_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40162 name = TECH_CMP_AIRCRAFT_416_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40163 name = TECH_CMP_AIRCRAFT_416_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40164 name = TECH_CMP_AIRCRAFT_416_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40165 name = TECH_CMP_AIRCRAFT_416_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40150 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 6 }
+      command = { type = scrap_model which = transport_plane value = 5 }
+    }
+  }
+  # óAëóã@á[å^
+  application =
+  { id        = 40170
+    name      = TECH_APP_AIRCRAFT_417_NAME
+    desc      = TECH_APP_AIRCRAFT_417_DESC
+    position  = { x = 430 y = 318 }
+    year      = 2018
+    component = { id = 40171 name = TECH_CMP_AIRCRAFT_417_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40172 name = TECH_CMP_AIRCRAFT_417_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40173 name = TECH_CMP_AIRCRAFT_417_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40174 name = TECH_CMP_AIRCRAFT_417_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40175 name = TECH_CMP_AIRCRAFT_417_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40160 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 7 }
+      command = { type = scrap_model which = transport_plane value = 6 }
+    }
+  }
+  # óAëóã@á\å^
+  application =
+  { id        = 40180
+    name      = TECH_APP_AIRCRAFT_418_NAME
+    desc      = TECH_APP_AIRCRAFT_418_DESC
+    position  = { x = 430 y = 334 }
+    year      = 2026
+    component = { id = 40181 name = TECH_CMP_AIRCRAFT_418_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40182 name = TECH_CMP_AIRCRAFT_418_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40183 name = TECH_CMP_AIRCRAFT_418_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40184 name = TECH_CMP_AIRCRAFT_418_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40185 name = TECH_CMP_AIRCRAFT_418_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40170 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 8 }
+      command = { type = scrap_model which = transport_plane value = 7 }
+    }
+  }
+  # óAëóã@á]å^
+  application =
+  { id        = 40190
+    name      = TECH_APP_AIRCRAFT_419_NAME
+    desc      = TECH_APP_AIRCRAFT_419_DESC
+    position  = { x = 430 y = 350 }
+    year      = 2035
+    component = { id = 40191 name = TECH_CMP_AIRCRAFT_419_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40192 name = TECH_CMP_AIRCRAFT_419_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40193 name = TECH_CMP_AIRCRAFT_419_3_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40194 name = TECH_CMP_AIRCRAFT_419_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40195 name = TECH_CMP_AIRCRAFT_419_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40180 }
+    effects =
+    { command = { type = new_model which = transport_plane value = 9 }
+      command = { type = scrap_model which = transport_plane value = 8 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@áTå^
+  application =
+  { id        = 40200
+    name      = TECH_APP_AIRCRAFT_420_NAME
+    desc      = TECH_APP_AIRCRAFT_420_DESC
+    position  = { x = 516 y = 206 }
+    year      = 1945
+    component = { id = 40201 name = TECH_CMP_AIRCRAFT_420_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40202 name = TECH_CMP_AIRCRAFT_420_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40203 name = TECH_CMP_AIRCRAFT_420_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40204 name = TECH_CMP_AIRCRAFT_420_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40205 name = TECH_CMP_AIRCRAFT_420_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = cag }
+      command = { type = activate_unit_type which = cavalry_brigade }
+      command = { type = activate_unit_type which = naval_improved_hull_s }
+      command = { type = new_model which = cag value = 0 }
+      command = { type = new_model which = cavalry_brigade value = 0 }
+      command = { type = new_model which = naval_improved_hull_s value = 0 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@áUå^
+  application =
+  { id        = 40210
+    name      = TECH_APP_AIRCRAFT_421_NAME
+    desc      = TECH_APP_AIRCRAFT_421_DESC
+    position  = { x = 516 y = 222 }
+    year      = 1973
+    component = { id = 40211 name = TECH_CMP_AIRCRAFT_421_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40212 name = TECH_CMP_AIRCRAFT_421_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40213 name = TECH_CMP_AIRCRAFT_421_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40214 name = TECH_CMP_AIRCRAFT_421_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40215 name = TECH_CMP_AIRCRAFT_421_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40200 }
+    effects =
+    { command = { type = new_model which = cag value = 1 }
+      command = { type = scrap_model which = cag value = 0 }
+      command = { type = new_model which = cavalry_brigade value = 1 }
+      command = { type = scrap_model which = cavalry_brigade value = 0 }
+      command = { type = new_model which = naval_improved_hull_s value = 1 }
+      command = { type = scrap_model which = naval_improved_hull_s value = 0 }
+      command = { type = activate_unit_type which = mechanized }
+      command = { type = new_model which = mechanized value = 11 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@áVå^
+  application =
+  { id        = 40220
+    name      = TECH_APP_AIRCRAFT_422_NAME
+    desc      = TECH_APP_AIRCRAFT_422_DESC
+    position  = { x = 516 y = 238 }
+    year      = 1979
+    component = { id = 40221 name = TECH_CMP_AIRCRAFT_422_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40222 name = TECH_CMP_AIRCRAFT_422_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40223 name = TECH_CMP_AIRCRAFT_422_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40224 name = TECH_CMP_AIRCRAFT_422_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40225 name = TECH_CMP_AIRCRAFT_422_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40210 }
+    effects =
+    { command = { type = new_model which = cag value = 2 }
+      command = { type = scrap_model which = cag value = 1 }
+      command = { type = new_model which = cavalry_brigade value = 2 }
+      command = { type = scrap_model which = cavalry_brigade value = 1 }
+      command = { type = new_model which = naval_improved_hull_s value = 2 }
+      command = { type = scrap_model which = naval_improved_hull_s value = 1 }
+      command = { type = new_model which = mechanized value = 12 }
+      command = { type = scrap_model which = mechanized value = 11 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@áWå^
+  application =
+  { id        = 40230
+    name      = TECH_APP_AIRCRAFT_423_NAME
+    desc      = TECH_APP_AIRCRAFT_423_DESC
+    position  = { x = 516 y = 254 }
+    year      = 1984
+    component = { id = 40231 name = TECH_CMP_AIRCRAFT_423_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40232 name = TECH_CMP_AIRCRAFT_423_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40233 name = TECH_CMP_AIRCRAFT_423_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40234 name = TECH_CMP_AIRCRAFT_423_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40235 name = TECH_CMP_AIRCRAFT_423_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40220 }
+    effects =
+    { command = { type = new_model which = cag value = 3 }
+      command = { type = scrap_model which = cag value = 2 }
+      command = { type = new_model which = cavalry_brigade value = 3 }
+      command = { type = scrap_model which = cavalry_brigade value = 2 }
+      command = { type = new_model which = naval_improved_hull_s value = 3 }
+      command = { type = scrap_model which = naval_improved_hull_s value = 2 }
+      command = { type = new_model which = mechanized value = 13 }
+      command = { type = scrap_model which = mechanized value = 12 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@áXå^
+  application =
+  { id        = 40240
+    name      = TECH_APP_AIRCRAFT_424_NAME
+    desc      = TECH_APP_AIRCRAFT_424_DESC
+    position  = { x = 516 y = 270 }
+    year      = 1990
+    component = { id = 40241 name = TECH_CMP_AIRCRAFT_424_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40242 name = TECH_CMP_AIRCRAFT_424_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40243 name = TECH_CMP_AIRCRAFT_424_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40244 name = TECH_CMP_AIRCRAFT_424_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40245 name = TECH_CMP_AIRCRAFT_424_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40230 }
+    effects =
+    { command = { type = new_model which = cag value = 4 }
+      command = { type = scrap_model which = cag value = 3 }
+      command = { type = new_model which = cavalry_brigade value = 4 }
+      command = { type = scrap_model which = cavalry_brigade value = 3 }
+      command = { type = new_model which = naval_improved_hull_s value = 4 }
+      command = { type = scrap_model which = naval_improved_hull_s value = 3 }
+      command = { type = new_model which = mechanized value = 14 }
+      command = { type = scrap_model which = mechanized value = 13 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@áYå^
+  application =
+  { id        = 40250
+    name      = TECH_APP_AIRCRAFT_425_NAME
+    desc      = TECH_APP_AIRCRAFT_425_DESC
+    position  = { x = 516 y = 286 }
+    year      = 1998
+    component = { id = 40251 name = TECH_CMP_AIRCRAFT_425_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40252 name = TECH_CMP_AIRCRAFT_425_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40253 name = TECH_CMP_AIRCRAFT_425_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40254 name = TECH_CMP_AIRCRAFT_425_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40255 name = TECH_CMP_AIRCRAFT_425_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40240 }
+    effects =
+    { command = { type = new_model which = cag value = 5 }
+      command = { type = scrap_model which = cag value = 4 }
+      command = { type = new_model which = cavalry_brigade value = 5 }
+      command = { type = scrap_model which = cavalry_brigade value = 4 }
+      command = { type = new_model which = naval_improved_hull_s value = 5 }
+      command = { type = scrap_model which = naval_improved_hull_s value = 4 }
+      command = { type = new_model which = mechanized value = 15 }
+      command = { type = scrap_model which = mechanized value = 14 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@áZå^
+  application =
+  { id        = 40260
+    name      = TECH_APP_AIRCRAFT_426_NAME
+    desc      = TECH_APP_AIRCRAFT_426_DESC
+    position  = { x = 516 y = 302 }
+    year      = 2009
+    component = { id = 40261 name = TECH_CMP_AIRCRAFT_426_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40262 name = TECH_CMP_AIRCRAFT_426_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40263 name = TECH_CMP_AIRCRAFT_426_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40264 name = TECH_CMP_AIRCRAFT_426_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40265 name = TECH_CMP_AIRCRAFT_426_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40250 }
+    effects =
+    { command = { type = new_model which = cag value = 6 }
+      command = { type = scrap_model which = cag value = 5 }
+      command = { type = new_model which = cavalry_brigade value = 6 }
+      command = { type = scrap_model which = cavalry_brigade value = 5 }
+      command = { type = new_model which = naval_improved_hull_s value = 6 }
+      command = { type = scrap_model which = naval_improved_hull_s value = 5 }
+      command = { type = new_model which = mechanized value = 16 }
+      command = { type = scrap_model which = mechanized value = 15 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@á[å^
+  application =
+  { id        = 40270
+    name      = TECH_APP_AIRCRAFT_427_NAME
+    desc      = TECH_APP_AIRCRAFT_427_DESC
+    position  = { x = 516 y = 318 }
+    year      = 2018
+    component = { id = 40271 name = TECH_CMP_AIRCRAFT_427_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40272 name = TECH_CMP_AIRCRAFT_427_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40273 name = TECH_CMP_AIRCRAFT_427_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40274 name = TECH_CMP_AIRCRAFT_427_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40275 name = TECH_CMP_AIRCRAFT_427_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40260 }
+    effects =
+    { command = { type = new_model which = cag value = 7 }
+      command = { type = scrap_model which = cag value = 6 }
+      command = { type = new_model which = cavalry_brigade value = 7 }
+      command = { type = scrap_model which = cavalry_brigade value = 6 }
+      command = { type = new_model which = naval_improved_hull_s value = 7 }
+      command = { type = scrap_model which = naval_improved_hull_s value = 6 }
+      command = { type = new_model which = mechanized value = 17 }
+      command = { type = scrap_model which = mechanized value = 16 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@á\å^
+  application =
+  { id        = 40280
+    name      = TECH_APP_AIRCRAFT_428_NAME
+    desc      = TECH_APP_AIRCRAFT_428_DESC
+    position  = { x = 516 y = 334 }
+    year      = 2026
+    component = { id = 40281 name = TECH_CMP_AIRCRAFT_428_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40282 name = TECH_CMP_AIRCRAFT_428_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40283 name = TECH_CMP_AIRCRAFT_428_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40284 name = TECH_CMP_AIRCRAFT_428_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40285 name = TECH_CMP_AIRCRAFT_428_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40270 }
+    effects =
+    { command = { type = new_model which = cag value = 8 }
+      command = { type = scrap_model which = cag value = 7 }
+      command = { type = new_model which = cavalry_brigade value = 8 }
+      command = { type = scrap_model which = cavalry_brigade value = 7 }
+      command = { type = new_model which = naval_improved_hull_s value = 8 }
+      command = { type = scrap_model which = naval_improved_hull_s value = 7 }
+      command = { type = new_model which = mechanized value = 18 }
+      command = { type = scrap_model which = mechanized value = 17 }
+    }
+  }
+  # ãÛïÍäÕç⁄ã@á]å^
+  application =
+  { id        = 40290
+    name      = TECH_APP_AIRCRAFT_429_NAME
+    desc      = TECH_APP_AIRCRAFT_429_DESC
+    position  = { x = 516 y = 350 }
+    year      = 2035
+    component = { id = 40291 name = TECH_CMP_AIRCRAFT_429_1_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 40292 name = TECH_CMP_AIRCRAFT_429_2_NAME type = aeronautics difficulty = 8 }
+    component = { id = 40293 name = TECH_CMP_AIRCRAFT_429_3_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 40294 name = TECH_CMP_AIRCRAFT_429_4_NAME type = electronics difficulty = 8 }
+    component = { id = 40295 name = TECH_CMP_AIRCRAFT_429_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 40280 }
+    effects =
+    { command = { type = new_model which = cag value = 9 }
+      command = { type = scrap_model which = cag value = 8 }
+      command = { type = new_model which = cavalry_brigade value = 9 }
+      command = { type = scrap_model which = cavalry_brigade value = 8 }
+      command = { type = new_model which = naval_improved_hull_s value = 9 }
+      command = { type = scrap_model which = naval_improved_hull_s value = 8 }
+      command = { type = new_model which = mechanized value = 19 }
+      command = { type = scrap_model which = mechanized value = 18 }
+    }
+  }
+}

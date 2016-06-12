@@ -1,0 +1,228 @@
+#11Å`50
+event = {
+	id = 11
+	random = no 
+	country = U06
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = U06_1973.ai }
+	}
+}
+
+event = {
+	id = 12
+	random = no 
+	country = USA
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = USA_1973.ai }
+	}
+}
+
+event = {
+	id = 13
+	random = no 
+	country = JAP
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = JAP_1973.ai }
+	}
+}
+
+event = {
+	id = 14
+	random = no 
+	country = ENG
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = ENG_1973.ai }
+	}
+}
+
+event = {
+	id = 15
+	random = no 
+	country = FRA
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = FRA_1973.ai }
+	}
+}
+
+event = {
+	id = 16
+	random = no 
+	country = DFR
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = DFR_1973.ai }
+	}
+}
+
+event = {
+	id = 17
+	random = no 
+	country = DDR
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = DDR_1973.ai }
+	}
+}
+
+event = {
+	id = 18
+	random = no 
+	country = POL
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = POL_1973.ai }
+	}
+}
+
+event = {
+	id = 19
+	random = no 
+	country = CZE
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = CZE_1973.ai }
+	}
+}
+
+event = {
+	id = 20
+	random = no 
+	country = BUL
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = BUL_1973.ai }
+	}
+}
+
+event = {
+	id = 21
+	random = no 
+	country = ROM
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = ROM_1973.ai }
+	}
+}
+
+event = {
+	id = 22
+	random = no 
+	country = SOV
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = SOV_1973.ai }
+	}
+}

@@ -1,0 +1,114 @@
+
+########################################
+#####ëïçbãÏíÄäÕ#####
+########################################
+# 0
+model =
+{ cost                = 15
+  buildtime           = 230
+  defaultorganisation = 30
+  morale              = 30
+  manpower            = 5
+  maxspeed            = 2400
+  surfacedefence      = 20000
+  airdefence          = 20
+  airattack           = 5
+  strategicattack     = 40
+  softattack          = 30
+  hardattack          = 30
+  navalattack         = 30
+  range               = 36000
+  supplyconsumption   = 10.0
+  fuelconsumption     = 50.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  #equipment = { manpower = 4000 ROCKET_INTERCEPTORS = 50 }
+}
+# 1
+model =
+{ cost                = 15
+  buildtime           = 230
+  defaultorganisation = 30
+  morale              = 30
+  manpower            = 5
+  maxspeed            = 2400
+  surfacedefence      = 20000
+  airdefence          = 20
+  airattack           = 5
+  strategicattack     = 45
+  softattack          = 35
+  hardattack          = 35
+  navalattack         = 35
+  range               = 36000
+  supplyconsumption   = 10.0
+  fuelconsumption     = 50.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  #equipment = { manpower = 4000 ROCKET_INTERCEPTORS = 50 }
+}
+# 2
+model =
+{ cost                = 15
+  buildtime           = 230
+  defaultorganisation = 30
+  morale              = 30
+  manpower            = 5
+  maxspeed            = 2400
+  surfacedefence      = 20000
+  airdefence          = 20
+  airattack           = 5
+  strategicattack     = 50
+  softattack          = 40
+  hardattack          = 40
+  navalattack         = 40
+  range               = 36000
+  supplyconsumption   = 10.0
+  fuelconsumption     = 50.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  #equipment = { manpower = 4000 ROCKET_INTERCEPTORS = 50 }
+}
+# 3
+model =
+{ cost                = 15
+  buildtime           = 230
+  defaultorganisation = 30
+  morale              = 30
+  manpower            = 5
+  maxspeed            = 2400
+  surfacedefence      = 20000
+  airdefence          = 20
+  airattack           = 5
+  strategicattack     = 55
+  softattack          = 45
+  hardattack          = 45
+  navalattack         = 45
+  range               = 36000
+  supplyconsumption   = 10.0
+  fuelconsumption     = 50.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  #equipment = { manpower = 4000 ROCKET_INTERCEPTORS = 50 }
+}
+# 4
+model =
+{ cost                = 15
+  buildtime           = 230
+  defaultorganisation = 30
+  morale              = 30
+  manpower            = 5
+  maxspeed            = 2400
+  surfacedefence      = 20000
+  airdefence          = 20
+  airattack           = 5
+  strategicattack     = 60
+  softattack          = 50
+  hardattack          = 50
+  navalattack         = 50
+  range               = 36000
+  supplyconsumption   = 10.0
+  fuelconsumption     = 50.0
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  #equipment = { manpower = 4000 ROCKET_INTERCEPTORS = 50 }
+}

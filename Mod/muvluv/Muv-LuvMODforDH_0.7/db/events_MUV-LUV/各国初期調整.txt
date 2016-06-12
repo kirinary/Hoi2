@@ -1,0 +1,49 @@
+##############################################################
+##
+## 各国初期調整イベント(1901~2000)
+##
+##############################################################
+##
+## 1990年
+## id = 1901	初期調整(欧州連合)
+## id = 1902	初期調整(ソ連)
+## id = 1903	初期調整(中東連合)
+## id = 1904	初期調整(統一中華)
+## id = 1905	初期調整(インド)
+## id = 1906	
+## id = 1907	
+## id = 1908	
+## id = 1909	
+## id = 1910	
+##
+##############################################################
+
+event = {
+	id = 1901
+	random = no
+	country = U02
+	trigger = {
+			ai = no
+	}
+
+	name = "首都の変更"
+	desc = "EVT_1901_DESC"
+	picture = "earth"
+
+	date = { day = 0 month = 0 year = 1973 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ベルファスト"
+		command = { type = capital which = 28 }
+	}
+	action_b = {
+		name = "ロンドン"
+		command = { type = capital which = 19 }
+	}
+	action_c = {
+		name = "グラスゴー"
+		command = { type = capital which = 8 }
+	}
+}

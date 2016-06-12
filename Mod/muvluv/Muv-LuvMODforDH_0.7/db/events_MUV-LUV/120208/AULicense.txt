@@ -1,0 +1,210 @@
+event = {
+	id = 43001
+	random = no
+	country = U02
+	trigger = {
+               and = {
+         technology = 2110#第三世代戦術機I型
+         technology = 2410#第三世代戦術機･改修Ⅰ型
+                     }
+	}
+
+	name = "アフリカ連合への売り込み"
+	desc = "1980年よりECTSF(European Combat Tactical Surface Fighter)計画の名称の元で開発が始まったユーロファイターとフランスのダッスオー社がECTSF計画から撤退し、ミラージュ2000の後継機として開発したラファールのどちらをアフリカ連合が求めている第3世代機のライセンス生産機として認めるか大論争が起こっている。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "両機どちらをアフリカ連合に採用するか否かを問おう"
+		command = { type = trigger which = 43002 } 
+ }
+}
+
+
+event = {
+	id = 43002
+	random = no
+	country = U01
+	trigger = {
+	}
+
+	name = "ユーロファイターとラファール"
+	desc = "EUから提案されたユーロファイターとラファール、どちらを正式採用し、ライセンス生産するべきだろうか。この一連の流れは大量の資金が動くため、今後は大きな騒乱が起こるだろう。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "正式機としてどちらを採用するべきだろうか"
+		command = { type = trigger which = 43003 } 
+ }
+}
+
+
+
+event = {
+	id = 43003
+	random = no
+	country = U02
+	trigger = {
+	}
+
+	name = "正式採用争奪合戦"
+	desc = "イギリスとドイツを主要国として開発されたユーロファイター･タイフーンとフランスが開発したラファールのアフリカ連合での正式採用を奪い合う大騒乱が起きた。これは英独とフランスの威信をかけた争いでもある。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "ほどほどにしてほしいものだ"
+		command = { type = trigger which = 43004 value = 10 } 
+ }
+}
+
+
+event = {
+	id = 43004
+	random = no
+	country = U01
+	trigger = {
+	}
+
+	name = "ドッグファイト騒ぎ"
+	desc = "性能比較のためにアフリカ連合の実験施設に持ち込まれたタイフーンとラファールの両パイロットがある騒動を起こした。持ち込まれた機体同士でドッグファイトを繰り広げたのである。この戦いは途中で静止しようと介入したアフリカ連合のF4-ファントムを半壊させ、基地からの強制停止信号で両機体の動力を停止させるまで続いた。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "ひどい話だ"
+		command = { type = trigger which = 43005 value = 10 } 
+ }
+}
+
+
+event = {
+	id = 43005
+	random = no
+	country = U01
+	trigger = {
+	}
+
+	name = "タイフーンとラファールの性能比較"
+	desc = "正式化競争が続いているタイフーンとラファールだが、肝心の性能については第3世代機として申し分ない強力な能力を有している。ラファールはフランスがECTSFから撤退し開発した機体のため、タイフーンと類似している点が非常に多い。ラファールの最大の利点はフランスの政策によりタイフーンより安価に生産できることである。一方タイフーンはラファールをある程度上回った性能を保持している。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "どちらを選択すべきか・・・"
+		command = { type = trigger which = 43006 value = 5 } 
+ }
+}
+
+
+event = {
+	id = 43006
+	random = no
+	country = U01
+	trigger = {
+	}
+
+	name = "ダッスオーの工作"
+	desc = "正式化競争が続いているタイフーンとラファールだが、先日我が国の軍幹部数人にダッスオーの役員が極秘に接触してきた。彼らから土産としてケーキを渡された軍幹部であったが、その中には大量の札束が詰まっていた。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "そういうことか"
+		command = { type = trigger which = 43007 value = 5 } 
+                command = { type = money value = 100 }
+ }
+}
+
+
+event = {
+	id = 43007
+	random = no
+	country = U01
+	trigger = {
+	}
+
+	name = "正式採用会議"
+	desc = "EF-2000 タイフーン Typhoonとラファール Rafaleのどちらを正式機として採用するかの会議が行われた。これは我が国の今後の国防体制にとって非常に重要な意味を持つ。" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "EF-200 タイフーンを採用する"
+                ai_chance = 10
+		command = { type = trigger which = 43008 } 
+ } 
+        action_b = {
+                name = "ラファールを採用する"
+                ai_chance = 90
+                command = { type = trigger which = 43009 }
+ }
+}
+
+
+event = {
+	id = 43008
+	random = no
+	country = U01
+	trigger = {
+	}
+
+	name = "ユーロファイター正式採用"
+	desc = "ユーロファイターが我が国の主力戦術機として採用された！" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = new_model which = paratrooper value = 31 }#タイフーン
+                command = { type = money value = -300 }
+ }
+}
+
+
+event = {
+	id = 43009
+	random = no
+	country = U01
+	trigger = {
+	}
+
+	name = "ラファール正式採用"
+	desc = "ラファールが我が国の主力戦術機として採用された！" 
+	style = 0
+
+	date = { day = 14 month = 4 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+	
+        action_a = {
+		name = "大変結構！"
+		command = { type = new_model which = paratrooper value = 32 }#ラファール
+                command = { type = money value = -300 }
+ }
+}

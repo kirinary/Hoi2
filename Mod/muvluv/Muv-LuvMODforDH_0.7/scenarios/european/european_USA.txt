@@ -1,0 +1,191 @@
+##############################################################
+##
+## ‰¢B‘åíƒCƒxƒ“ƒg_ƒAƒƒŠƒJ(23401~23500)
+##
+##############################################################
+##
+## id = 23415   ípŠj–O˜aUŒ‚
+## id = 23416   ípŠj“Š“ü
+## id = 23417   ípŠj•”•ª“I“Š“ü
+## id = 23418   EU‚Ì‹‘â
+##############################################################
+
+event = {
+	id = 23415
+	random = no
+	country = USA
+	trigger = {
+                control = { province = 300 data = -2 }
+                control = { province = 88 data = -2 }#ƒnƒ“ƒuƒ‹ƒN
+	}
+
+	name = "ípŠj–O˜aUŒ‚"
+	desc = "EVT_23415_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ípŠj“Š“ü‚ğ’ñˆÄ‚·‚é"
+                ai_chance = 80
+		command = { type = trigger which = 23132 }
+	}
+	action_b = {
+		name = "ƒhƒCƒc‚Å‚à‚¤ˆê“xŠj‚ğg‚¤‚í‚¯‚É‚Í‚¢‚©‚È‚¢"
+                ai_chance = 20
+		command = { type = sleepevent which = 23132 }
+	}
+}
+
+event = {
+	id = 23416
+	random = no
+	country = USA
+	trigger = {
+                event = 23132
+	}
+
+	name = "ípŠj“Š“ü"
+	desc = "EVT_23416_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "BETA‚Él—Ş‚Ì—Í‚ğv‚¢’m‚ç‚·‚Ì‚¾"
+		command = { type = trigger which = 23133 }
+		command = { type = sleepevent which = 23134 }
+		command = { type = sleepevent which = 23135 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+	}
+}
+
+event = {
+	id = 23417
+	random = no
+	country = USA
+	trigger = {
+                event = 23132
+	}
+
+	name = "ípŠj•”•ª“I“Š“ü"
+	desc = "EVT_23417_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "BETA‚Él—Ş‚Ì—Í‚ğv‚¢’m‚ç‚·‚Ì‚¾"
+		command = { type = trigger which = 23134 }
+		command = { type = sleepevent which = 23133 }
+		command = { type = sleepevent which = 23135 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+	}
+}
+
+event = {
+	id = 23418
+	random = no
+	country = USA
+	trigger = {
+                event = 23132
+	}
+
+	name = "ƒhƒCƒc‚Ì‹‘â"
+	desc = "EVT_23418_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ƒhƒCƒc‚È‚Ç‚É\‚¤‚È"
+                ai_chance = 10
+		command = { type = trigger which = 23135 }
+		command = { type = sleepevent which = 23133 }
+		command = { type = sleepevent which = 23134 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+	}
+	action_b = {
+		name = "~‚Ş‚ğ“¾‚Ü‚¢"
+                ai_chance = 90
+		command = { type = sleepevent which = 23133 }
+		command = { type = sleepevent which = 23134 }
+		command = { type = sleepevent which = 23135 }
+	}
+}

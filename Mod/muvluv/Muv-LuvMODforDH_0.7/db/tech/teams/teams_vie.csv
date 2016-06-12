@@ -1,0 +1,29 @@
+VIE;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+14325;エア・ベトナム;T_VIE_Air_Viet_Nam;2;1930;2100;aeronautics;technical_efficiency;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14303;エア・ベトナム;T_VIE_Air_Viet_Nam;3;1950;2100;aeronautics;technical_efficiency;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14304;アンハオ製紙工場;T_VIE_Nha_Trang_Maritime_Academy;4;1961;2100;chemistry;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14305;バーソン造船所;T_VIE_Ba_Son_Shipyard;2;1930;2100;naval_engineering;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14306;バーソン造船所;T_VIE_Ba_Son_Shipyard2;4;1954;2100;technical_efficiency;naval_engineering;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14307;カンティエン発電所;T_VIE_Cam_Tiem_Power_Plant;1;1930;2100;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14328;カンティエン発電所;T_VIE_Cam_Tiem_Power_Plant;3;1946;2100;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14304;ダラット士官学校;T_VIE_Da_Lat_Military_Academy;3;1930;2100;centralized_execution;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14309;デイヴィッド・ リリエンソール;T_VIE_David_Lilienthal;6;1963;2100;management;mathematics;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14310;ドー・カオ・チ;T_VIE_Do_Cao_Tri;3;1955;2100;small_unit_tactics;combined_arms_focus;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14311;ホー・タン・クエン;T_VIE_Ho_Tan_Quyen;5;1955;2100;seamanship;naval_training;small_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14312;インドシナ銀行;T_VIE_Indochina_Bank;1;1930;2100;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14313;インドシナ大学;T_VIE_Indochina_University;1;1930;2100;management;chemistry;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14308;インドシナ大学;T_VIE_Indochina_University;2;1946;2100;management;chemistry;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14314;インドシナ鉄道会社;T_VIE_Indochine_Raiload_Company;1;1930;2100;mechanics;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14311;インドシナ鉄道会社;T_VIE_Indochine_Raiload_Company;3;1946;2100;mechanics;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14315;米軍事援助顧問団;T_VIE_MAAG_Viet_Nam;4;1950;2100;artillery;training;general_equipment;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14316;鉱業農園産業工場;T_VIE_Mining_and_Plantation_Industry_Facility;1;1930;2100;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14327;鉱業農園産業工場;T_VIE_Mining_and_Plantation_Industry_Facility;3;1946;2100;industrial_engineering;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14317;グエン・バン・ヒン;T_VIE_Nguyen_Van_Hinh;2;1936;2100;decentralized_execution;piloting;fighter_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14303;ニャチャン水産大学;T_VIE_Nha_Trang_Maritime_Academy;2;1930;2100;small_taskforce_tactics;naval_engineering;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14318;ニャチャン水産大学;T_VIE_Nha_Trang_Maritime_Academy;4;1952;2100;small_taskforce_tactics;naval_engineering;naval_training;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14319;南ベトナム海軍;T_VIE_Republic_of_Vietnam_Navy_Forces;4;1952;2100;small_taskforce_tactics;centralized_execution;naval_engineering;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14320;サイゴン大学;T_VIE_The_University_of_Saigon;4;1957;2100;management;chemistry;electronics;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14321;トゥドック軍事大学;T_VIE_Thu_Duc_Military_Academy;3;1955;2100;combined_arms_focus;centralized_execution;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14326;ベトナム国立銀行;T_VIE_Viet_Nam_National_Bank;4;1955;2100;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14327;ベトナム国立士官学校;T_VIE_Viet_Nam_National_Military_Academy;4;1955;2100;small_unit_tactics;piloting;training;naval_training;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14328;ヴー・コック・トゥック;T_VIE_Vu_Quoc_Thuc;4;1956;2100;management;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

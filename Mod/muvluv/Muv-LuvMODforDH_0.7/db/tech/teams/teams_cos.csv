@@ -1,0 +1,9 @@
+COS;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+5900;ベルナド・アルファロ・サゴ;T_COS_Bernado_Alfaro_Sagot;2;1930;2100;electronics;mathematics;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5901;コスタリカ石油;T5900;2;1930;2100;chemistry;industrial_engineering;management;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5902;IDC;T5901;3;1930;2100;general_equipment;mechanics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5903;ミナス・ドーロ・デ・CDC;T5902;3;1930;2100;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5904;国防省;T5903;4;1930;2100;centralized_execution;combined_arms_focus;individual_courage;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5905;警備隊;T5905;4;1949;2100;decentralized_execution;individual_courage;piloting;small_unit_tactics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5906;ユナイテッド・フルーツ社;T5209;2;1930;2100;chemistry;management;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5907;コスタリカ大学;T_COS_Universidad_de_Costa_Rica;2;1930;2100;chemistry;management;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

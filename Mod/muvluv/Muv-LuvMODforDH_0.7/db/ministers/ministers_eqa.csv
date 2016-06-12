@@ -1,0 +1,12 @@
+EQA;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+535001;Head of State;マリアン・ングアビ;70;LE;Resigned Generalissimo;High;M536001;x
+535002;Head of Government;マリアン・ングアビ;70;LE;Old General;High;M535001;x
+535003;Foreign Minister;アンリ・ロペ;70;LE;Biased Intellectual;High;M535003;x
+535004;Minister of Armament;ジャスティン・レクンズ;70;LE;Resource Industrialist;High;M535004;x
+535005;Minister of Security;アレクサンドレ・デンゲ・アティキ;70;LE;Man of the People;High;M535005;x
+535006;Head of Military Intelligence;ピエール・ンゼ;70;LE;Political Specialist;High;M535006;x
+535007;Chief of Staff;ジョアキム・ヨンビ＝オパンゴ;70;LE;School of Fire Support;High;M535007;x
+535008;Chief of Army;ジョアキム・ヨンビ＝オパンゴ;70;LE;Static Defence Doctrine;High;M535007;x
+535009;Chief of Navy;海軍司令官;70;LE;Open Seas Doctrine;High;M535009;x
+535010;Chief of Air Force;空軍司令官;70;LE;Air Superiority Doctrine;High;M535010;x

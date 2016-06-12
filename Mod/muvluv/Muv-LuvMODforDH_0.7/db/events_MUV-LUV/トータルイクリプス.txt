@@ -1,0 +1,890 @@
+##############################################################
+##
+## トータルイクリプス(36501~366000)
+##
+##############################################################
+##
+## id = 36501	ユーコン基地拡張完了(U06)
+## id = 36502	フェニックス構想(USA)
+## id = 36503	XFJ計画(JAP)
+## id = 36504	XFJ計画(USA)
+## id = 36505	XFJ計画-承認-(JAP)
+## id = 36506	XFJ計画-否決-(JAP)
+## id = 36507	XFJ計画始動(JAP)
+## id = 36508	プロミネンス計画-カムチャッカ遠征-(SOV)
+## id = 36509	プロミネンス計画-カムチャッカ遠征-(JAP)
+## id = 36510   プロミネンス計画-カムチャッカ遠征-(U01)
+## id = 36511	プロミネンス計画-カムチャッカ遠征-(U02)
+## id = 36512	プロミネンス計画-カムチャッカ遠征-(U03)
+## id = 36513	プロミネンス計画-カムチャッカ遠征-(U04)
+## id = 36514	プロミネンス計画-カムチャッカ遠征-(U05)
+## id = 36515	プロミネンス計画-カムチャッカ遠征-(U06)
+## id = 36516	試製99型電磁投射砲(JAP)
+## id = 36517	試製99型電磁投射砲(SOV)
+## id = 36518	不知火･弐型ロールアウト(JAP)
+## id = 36519	ユーコン基地テロ事件(SOV)
+## id = 36520	ユーコン基地テロ事件(JAP)
+## id = 36521	ユーコン基地テロ事件(U01)
+## id = 36522   ユーコン基地テロ事件(U02)
+## id = 36523	ユーコン基地テロ事件(U03)
+## id = 36524	ユーコン基地テロ事件(U04)
+## id = 36525	ユーコン基地テロ事件(U05)
+## id = 36526	ユーコン基地テロ事件(U06)
+## id = 36527	ユーコン基地テロ事件(USA)
+## id = 36528	チャリオット作戦(USA)
+## id = 36529	チャリオット作戦(USA)
+## id = 36530	チャリオット作戦(SOV)
+## id = 36531	チャリオット作戦(006)
+##
+##############################################################
+event = {
+	id = 36501
+	random = no
+        country = U06
+	trigger = {
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地拡張完了"
+	desc = "EVT_36501_DESC"
+	style = 0
+
+	date = { day = 2 month = 9 year = 1998 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "すばらしい！"
+                command = { type = setflag which = YukonBase }
+ }
+}
+
+event = {
+	id = 36502
+	random = no
+        country = USA
+	trigger = {
+                    event = 36501
+       }
+
+	name = "フェニックス構想"
+	desc = "EVT_36502_DESC"
+	style = 0
+
+	date = { day = 15 month = 10 year = 1999 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "プロジェクトを始動する"
+                ai_chance = 100
+                command = { type = money value = -500 }
+                command = { type = setflag which = phoenix }
+ }
+        action_b = {
+		name = "こんなことをする必要は無い"
+                ai_chance = 0
+                command = { }
+ }
+}
+
+event = {
+	id = 36503
+	random = no
+        country = JAP
+	trigger = {
+                    event = 36501
+                    control = { province = 2615 data = -3 }#京都
+       }
+
+	name = "XFJ計画"
+	desc = "EVT_36503_DESC"
+	style = 0
+
+	date = { day = 7 month = 8 year = 2000 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "計画を承認する"
+                ai_chance = 95
+                command = { type = setflag which = XFJ }
+ }
+        action_b = {
+		name = "計画を否決する"
+                ai_chance = 5
+                command = { }
+ }
+}
+
+event = {
+	id = 36504
+	random = no
+        country = USA
+	trigger = {
+                    flag = XFJ
+       }
+
+	name = "XFJ計画"
+	desc = "EVT_36504_DESC"
+	style = 0
+
+	date = { day = 7 month = 8 year = 2000 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "計画を承認する"
+                ai_chance = 95
+                command = { type = setflag which = XFJ2 }
+ }
+        action_b = {
+		name = "計画を否決する"
+                ai_chance = 5
+                command = { type = setflag which = XFJ3 }
+ }
+}
+
+event = {
+	id = 36505
+	random = no
+        country = JAP
+	trigger = {
+                    flag = XFJ2
+       }
+
+	name = "XFJ計画-承認-"
+	desc = "EVT_36505_DESC"
+	style = 0
+
+	date = { day = 7 month = 8 year = 2000 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "素晴らしい！"
+                command = { type = money value = -500 }
+                command = { type = setflag which = XFJ4 }
+ }
+}
+
+event = {
+	id = 36506
+	random = no
+        country = JAP
+	trigger = {
+                    flag = XFJ3
+       }
+
+	name = "XFJ計画-否決-"
+	desc = "EVT_36506_DESC"
+	style = 0
+
+	date = { day = 7 month = 8 year = 2000 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36507
+	random = no
+        country = JAP
+	trigger = {
+                    flag = XFJ4
+       }
+
+	name = "XFJ計画始動"
+	desc = "EVT_36507_DESC"
+	style = 0
+
+	date = { day = 20 month = 4 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "素晴らしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36508
+	random = no
+        country = SOV
+	trigger = {
+                    flag = YukonBase
+                    control = { province = 1170 data = SOV }#カムチャッカ
+       }
+
+	name = "プロミネンス計画-カムチャッカ遠征-"
+	desc = "EVT_36508_DESC"
+	style = 0
+
+	date = { day = 10 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "遠征を実施する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36509
+	random = no
+        country = JAP
+	trigger = {
+                    event = 36507
+                    flag = YukonBase
+                    control = { province = 1170 data = SOV }#カムチャッカ
+       }
+
+	name = "プロミネンス計画-カムチャッカ遠征-"
+	desc = "EVT_36508_DESC"
+	style = 0
+
+	date = { day = 10 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "遠征を実施する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36510
+	random = no
+        country = U01
+	trigger = {
+                    flag = YukonBase
+                    control = { province = 1170 data = SOV }#カムチャッカ
+       }
+
+	name = "プロミネンス計画-カムチャッカ遠征-"
+	desc = "EVT_36508_DESC"
+	style = 0
+
+	date = { day = 10 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "遠征を実施する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36511
+	random = no
+        country = U02
+	trigger = {
+                    flag = YukonBase
+                    control = { province = 1170 data = SOV }#カムチャッカ
+       }
+
+	name = "プロミネンス計画-カムチャッカ遠征-"
+	desc = "EVT_36508_DESC"
+	style = 0
+
+	date = { day = 10 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "遠征を実施する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36512
+	random = no
+        country = U03
+	trigger = {
+                    flag = YukonBase
+                    control = { province = 1170 data = SOV }#カムチャッカ
+       }
+
+	name = "プロミネンス計画-カムチャッカ遠征-"
+	desc = "EVT_36508_DESC"
+	style = 0
+
+	date = { day = 10 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "遠征を実施する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36513
+	random = no
+        country = U04
+	trigger = {
+                    flag = YukonBase
+                    control = { province = 1170 data = SOV }#カムチャッカ
+       }
+
+	name = "プロミネンス計画-カムチャッカ遠征-"
+	desc = "EVT_36508_DESC"
+	style = 0
+
+	date = { day = 10 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "遠征を実施する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36514
+	random = no
+        country = U05
+	trigger = {
+                    flag = YukonBase
+                    control = { province = 1170 data = SOV }#カムチャッカ
+       }
+
+	name = "プロミネンス計画-カムチャッカ遠征-"
+	desc = "EVT_36508_DESC"
+	style = 0
+
+	date = { day = 10 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "遠征を実施する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36515
+	random = no
+        country = U06
+	trigger = {
+                    flag = YukonBase
+                    control = { province = 1170 data = SOV }#カムチャッカ
+       }
+
+	name = "プロミネンス計画-カムチャッカ遠征-"
+	desc = "EVT_36508_DESC"
+	style = 0
+
+	date = { day = 10 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "遠征を実施する"
+                command = { }
+ }
+}
+
+event = {
+	id = 36516
+	random = no
+        country = JAP
+	trigger = {
+                    event = 36509
+       }
+
+	name = "試製99型電磁投射砲"
+	desc = "EVT_36516_DESC"
+	style = 0
+
+	date = { day = 13 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36517
+	random = no
+        country = SOV
+	trigger = {
+                    division_exists = { type = 19501 id = 3118 }
+                    event = 36508
+       }
+
+	name = "試製99型電磁投射砲"
+	desc = "EVT_36517_DESC"
+	style = 0
+
+	date = { day = 13 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { type = remove_division which = 19501 value = 3118 }
+ }
+}
+
+event = {
+	id = 36518
+	random = no
+        country = JAP
+	trigger = {
+                    event = 36509
+       }
+
+	name = "不知火･弐型ロールアウト"
+	desc = "EVT_36518_DESC"
+	style = 0
+
+	date = { day = 27 month = 7 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "すばらしい！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36519
+	random = no
+        country = SOV
+	trigger = {
+                    event = 36517
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地テロ事件"
+	desc = "EVT_36519_DESC"
+	style = 0
+
+	date = { day = 27 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36520
+	random = no
+        country = JAP
+	trigger = {
+                    event = 36518
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地テロ事件"
+	desc = "EVT_36519_DESC"
+	style = 0
+
+	date = { day = 27 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36521
+	random = no
+        country = U01
+	trigger = {
+                    event = 36517
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地テロ事件"
+	desc = "EVT_36519_DESC"
+	style = 0
+
+	date = { day = 27 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36522
+	random = no
+        country = U02
+	trigger = {
+                    event = 36517
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地テロ事件"
+	desc = "EVT_36519_DESC"
+	style = 0
+
+	date = { day = 27 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36523
+	random = no
+        country = U03
+	trigger = {
+                    event = 36517
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地テロ事件"
+	desc = "EVT_36519_DESC"
+	style = 0
+
+	date = { day = 27 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36524
+	random = no
+        country = U04
+	trigger = {
+                    event = 36517
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地テロ事件"
+	desc = "EVT_36519_DESC"
+	style = 0
+
+	date = { day = 27 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36525
+	random = no
+        country = U05
+	trigger = {
+                    event = 36517
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地テロ事件"
+	desc = "EVT_36519_DESC"
+	style = 0
+
+	date = { day = 27 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36526
+	random = no
+        country = U06
+	trigger = {
+                    event = 36517
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地テロ事件"
+	desc = "EVT_36519_DESC"
+	style = 0
+
+	date = { day = 27 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36527
+	random = no
+        country = USA
+	trigger = {
+                    event = 36517
+                    control = { province = 2661 data = -3 }
+       }
+
+	name = "ユーコン基地テロ事件"
+	desc = "EVT_36519_DESC"
+	style = 0
+
+	date = { day = 27 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+                command = { }
+ }
+}
+
+event = {
+	id = 36528
+	random = no
+        country = USA
+	trigger = {
+                    control = { province = 2642 data = -2 }
+                    control = { province = 2644 data = -2 }
+       }
+
+	name = "チャリオット作戦"
+	desc = "EVT_36528_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1992 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "作戦を実行する"
+                ai_chance = 75
+                command = { type = setflag which = OperationChariot }
+ }
+        action_b = {
+		name = "このような非人道的行為は行えない！"
+                ai_chance = 25
+                command = { }
+ }
+}
+
+event = {
+	id = 36529
+	random = no
+        country = USA
+	trigger = {
+                    flag = OperationChariot
+       }
+
+	name = "チャリオット作戦"
+	desc = "EVT_36529_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1992 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "勝つためだ"
+		command = { type = dissent value = 20 }
+                command = { type = manpowerpool value = -100 }
+		command = { type = construct which = infrastructure where = 548 value = -200 }
+		command = { type = construct which = infrastructure where = 549 value = -200 }
+		command = { type = construct which = infrastructure where = 553 value = -200 }
+		command = { type = construct which = infrastructure where = 2643 value = -200 }
+		command = { type = construct which = infrastructure where = 2644 value = -200 }
+		command = { type = construct which = infrastructure where = 2645 value = -200 }
+		command = { type = construct which = ic where = 548 value = -30 }
+		command = { type = construct which = ic where = 549 value = -30 }
+		command = { type = construct which = ic where = 553 value = -30 }
+		command = { type = construct which = ic where = 2643 value = -30 }
+		command = { type = construct which = ic where = 2644 value = -30 }
+		command = { type = construct which = ic where = 2645 value = -30 }
+		command = { type = construct which = coastal_fort where = 548 value = -10 }
+		command = { type = construct which = coastal_fort where = 549 value = -10 }
+		command = { type = construct which = coastal_fort where = 553 value = -10 }
+		command = { type = construct which = coastal_fort where = 2643 value = -10 }
+		command = { type = construct which = coastal_fort where = 2644 value = -10 }
+		command = { type = construct which = coastal_fort where = 2645 value = -10 }
+		command = { type = construct which = land_fort where = 548 value = -10 }
+		command = { type = construct which = land_fort where = 549 value = -10 }
+		command = { type = construct which = land_fort where = 553 value = -10 }
+		command = { type = construct which = land_fort where = 2643 value = -10 }
+		command = { type = construct which = land_fort where = 2644 value = -10 }
+		command = { type = construct which = land_fort where = 2645 value = -10 }
+		command = { type = construct which = flak where = 548 value = -10 }
+		command = { type = construct which = flak where = 549 value = -10 }
+		command = { type = construct which = flak where = 553 value = -10 }
+		command = { type = construct which = flak where = 2643 value = -10 }
+		command = { type = construct which = flak where = 2644 value = -10 }
+		command = { type = construct which = flak where = 2645 value = -10 }
+		command = { type = construct which = air_base where = 548 value = -10 }
+		command = { type = construct which = air_base where = 549 value = -10 }
+		command = { type = construct which = air_base where = 553 value = -10 }
+		command = { type = construct which = air_base where = 2643 value = -10 }
+		command = { type = construct which = air_base where = 2644 value = -10 }
+		command = { type = construct which = air_base where = 2645 value = -10 }
+		command = { type = construct which = naval_base where = 548 value = -10 }
+		command = { type = construct which = naval_base where = 549 value = -10 }
+		command = { type = construct which = naval_base where = 553 value = -10 }
+		command = { type = construct which = naval_base where = 2643 value = -10 }
+		command = { type = construct which = naval_base where = 2644 value = -10 }
+		command = { type = construct which = naval_base where = 2645 value = -10 }
+		command = { type = construct which = radar_station where = 548 value = -10 }
+		command = { type = construct which = radar_station where = 549 value = -10 }
+		command = { type = construct which = radar_station where = 553 value = -10 }
+		command = { type = construct which = radar_station where = 2643 value = -10 }
+		command = { type = construct which = radar_station where = 2644 value = -10 }
+		command = { type = construct which = radar_station where = 2645 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 548 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 549 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 553 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 2643 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 2644 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 2645 value = -10 }
+		command = { type = construct which = rocket_test where = 548 value = -10 }
+		command = { type = construct which = rocket_test where = 549 value = -10 }
+		command = { type = construct which = rocket_test where = 553 value = -10 }
+		command = { type = construct which = rocket_test where = 2643 value = -10 }
+		command = { type = construct which = rocket_test where = 2644 value = -10 }
+		command = { type = construct which = rocket_test where = 2645 value = -10 }
+ }
+}
+
+event = {
+	id = 36530
+	random = no
+        country = SOV
+	trigger = {
+                    flag = OperationChariot
+       }
+
+	name = "チャリオット作戦"
+	desc = "EVT_36530_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1992 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+		command = { type = dissent value = 50 }
+                command = { type = manpowerpool value = -500 }
+		command = { type = construct which = infrastructure where = 550 value = -200 }
+		command = { type = construct which = infrastructure where = 908 value = -200 }
+		command = { type = construct which = infrastructure where = 1399 value = -200 }
+		command = { type = construct which = infrastructure where = 2641 value = -200 }
+		command = { type = construct which = infrastructure where = 2642 value = -200 }
+		command = { type = construct which = ic where = 550 value = -30 }
+		command = { type = construct which = ic where = 908 value = -50 }
+		command = { type = construct which = ic where = 1399 value = -30 }
+		command = { type = construct which = ic where = 2641 value = -30 }
+		command = { type = construct which = ic where = 2642 value = -30 }
+		command = { type = construct which = coastal_fort where = 550 value = -10 }
+		command = { type = construct which = coastal_fort where = 908 value = -10 }
+		command = { type = construct which = coastal_fort where = 1399 value = -10 }
+		command = { type = construct which = coastal_fort where = 2641 value = -10 }
+		command = { type = construct which = coastal_fort where = 2642 value = -10 }
+		command = { type = construct which = land_fort where = 550 value = -10 }
+		command = { type = construct which = land_fort where = 908 value = -10 }
+		command = { type = construct which = land_fort where = 1399 value = -10 }
+		command = { type = construct which = land_fort where = 2641 value = -10 }
+		command = { type = construct which = land_fort where = 2642 value = -10 }
+		command = { type = construct which = flak where = 550 value = -10 }
+		command = { type = construct which = flak where = 908 value = -10 }
+		command = { type = construct which = flak where = 1399 value = -10 }
+		command = { type = construct which = flak where = 2641 value = -10 }
+		command = { type = construct which = flak where = 2642 value = -10 }
+		command = { type = construct which = air_base where = 550 value = -10 }
+		command = { type = construct which = air_base where = 908 value = -10 }
+		command = { type = construct which = air_base where = 1399 value = -10 }
+		command = { type = construct which = air_base where = 2641 value = -10 }
+		command = { type = construct which = air_base where = 2642 value = -10 }
+		command = { type = construct which = naval_base where = 550 value = -10 }
+		command = { type = construct which = naval_base where = 908 value = -10 }
+		command = { type = construct which = naval_base where = 1399 value = -10 }
+		command = { type = construct which = naval_base where = 2641 value = -10 }
+		command = { type = construct which = naval_base where = 2642 value = -10 }
+		command = { type = construct which = radar_station where = 550 value = -10 }
+		command = { type = construct which = radar_station where = 908 value = -10 }
+		command = { type = construct which = radar_station where = 1399 value = -10 }
+		command = { type = construct which = radar_station where = 2641 value = -10 }
+		command = { type = construct which = radar_station where = 2642 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 550 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 908 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 1399 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 2641 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 2642 value = -10 }
+		command = { type = construct which = rocket_test where = 550 value = -10 }
+		command = { type = construct which = rocket_test where = 908 value = -10 }
+		command = { type = construct which = rocket_test where = 1399 value = -10 }
+		command = { type = construct which = rocket_test where = 2641 value = -10 }
+		command = { type = construct which = rocket_test where = 2642 value = -10 }
+ }
+}
+
+event = {
+	id = 36531
+	random = no
+        country = U06
+	trigger = {
+                    flag = OperationChariot
+       }
+
+	name = "チャリオット作戦"
+	desc = "EVT_36531_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1992 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "なんてことだ！"
+		command = { type = dissent value = 20 }
+                command = { type = manpowerpool value = -50 }
+		command = { type = construct which = infrastructure where = 2661 value = -200 }
+		command = { type = construct which = ic where = 2661 value = -30 }
+		command = { type = construct which = coastal_fort where = 2661 value = -10 }
+		command = { type = construct which = land_fort where = 2661 value = -10 }
+		command = { type = construct which = flak where = 2661 value = -10 }
+		command = { type = construct which = air_base where = 2661 value = -10 }
+		command = { type = construct which = naval_base where = 2661 value = -10 }
+		command = { type = construct which = radar_station where = 2661 value = -10 }
+		command = { type = construct which = nuclear_reactor where = 2661 value = -10 }
+		command = { type = construct which = rocket_test where = 2661 value = -10 }
+ }
+}

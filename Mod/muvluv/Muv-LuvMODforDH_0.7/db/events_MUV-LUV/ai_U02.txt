@@ -1,0 +1,109 @@
+event = {
+	id = 60001
+	random = no 
+	country = U02
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = U02_1998L.ai }
+	}
+}
+
+event = {
+	id = 60002
+	random = no 
+	country = U02
+	trigger = {
+		ai = yes
+                event = 60001
+            OR = {
+                   event = 70114
+                   event = 50114
+                  }
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = ai which = switch/U02_Counterattack.ai }
+	}
+}
+
+##とりあえず停止中##
+event = {
+	id = 60003
+	random = no 
+	country = U02
+	trigger = {
+                random = 8
+		ai = yes
+                event = 60002
+                control = { province = 39 data = U23 }
+	}
+	name = "メロヴィング作戦"
+	style = 0	
+	
+	date = { day = 1 month = january year = 2100 }
+	offset = 20
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = add_corps value = land where = 39 } #カーン
+		command = { type = add_division value = hq when = 3 where = artillery } 
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_corps value = land where = 39 } #カーン
+		command = { type = add_division value = hq when = 3 where = artillery } 
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = paratrooper when = 10 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+		command = { type = add_division value = marine when = 4 where = artillery }
+                command = { type = trigger which = 60004 }
+	}
+}
+
+event = {
+	id = 60004
+	random = no 
+	country = U23
+	trigger = {
+		ai = yes
+                event = 60003
+	}
+	name = "メロヴィング作戦"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = remove_division which = 15001 value = 5913 }
+		command = { type = remove_division which = 15001 value = 5914 }
+		command = { type = remove_division which = 15001 value = 5915 }
+	}
+}

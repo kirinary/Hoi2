@@ -1,0 +1,15 @@
+SIA;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+9100;バンコク工廠;T13;4;1930;2100;mechanics;artillery;training;general_equipment;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9101;バンコク造船所;T6;3;1930;2100;naval_engineering;technical_efficiency;naval_artillery;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9102;タイ銀行;T9111;2;1943;2100;industrial_engineering;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9103;ルアン・カユソンクラム;T9102;4;1942;2100;bomber_tactics;piloting;aircraft_testing;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9104;ルワン・ピブーンソンクラーム;T9100;3;1930;2100;individual_courage;infantry_focus;centralized_execution;small_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9105;ルアン・シントゥソンクラムチャイ;T9103;2;1930;2100;fighter_tactics;piloting;aircraft_testing;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9106;海軍元帥;T9101;3;1930;2100;small_taskforce_tactics;naval_training;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9107;ピン・チュンハワン;T_SIA_Phin_Choonhavan;3;1933;2100;infantry_focus;training;individual_courage;large_unit_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9108;プラヤー・ウィチャンウォラジャク;T_SIA_Phraya_Wichanworajak;3;1934;2100;small_taskforce_tactics;seamanship;decentralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9109;王立航空局;T6401;4;1930;2100;aeronautics;artillery;mechanics;electronics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9110;サリット・タナラット;T9110;4;1957;2100;individual_courage;infantry_focus;centralized_execution;small_unit_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9111;サイアムセメント;T10504;5;1930;2100;industrial_engineering;chemistry;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9112;サイアム・エレクトリシティ株式会社;T2704;5;1930;2100;industrial_engineering;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9113;タマサート大学;T9109;3;1930;2100;mechanics;chemistry;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

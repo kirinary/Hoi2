@@ -1,0 +1,255 @@
+##############################################################
+##
+## â¢èBëÂêÌÉCÉxÉìÉg_ÉhÉCÉcòAñMã§òaçë(23101~23200)
+##
+##############################################################
+##
+## id = 23110   ãΩìyñhâqåRìÆàı
+## id = 23132   êÌèpäjñOòaçUåÇ
+## id = 23133   êÌèpäjìäì¸
+## id = 23134   êÌèpäjïîï™ìIìäì¸
+## id = 23135   êÌèpäjìäì¸-ÉAÉÅÉäÉJÇÃã≠çs-
+##
+##############################################################
+
+event = {
+	id = 23110
+	random = no
+        country = DFR
+	trigger = {
+                    or = {
+                   control = { province = 301 data = -2 }
+                   control = { province = 309 data = -2 }
+                   control = { province = 546 data = -2 }
+                          }
+       }
+	name = "ãΩìyñhâqåRìÆàı"
+	desc = "EVT_23110_DESC"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1980 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ìÆàıÇ∑ÇÈ"
+                ai_chance = 100
+                command = { type = supplies value = -5000 }
+		command = { type = manpowerpool value = -100 }
+                ####ëÊ51ó∑íc
+		command = { type = activate_division which = 25001 value = 5001 where = 90 when = 1 }
+		command = { type = activate_division which = 25001 value = 5002 where = 90 when = 1 }
+		command = { type = activate_division which = 25001 value = 5003 where = 90 when = 1 }
+		command = { type = activate_division which = 25001 value = 5004 where = 90 when = 1 }
+                ####ëÊ61ó∑íc
+		command = { type = activate_division which = 25001 value = 5005 where = 89 when = 1 }
+		command = { type = activate_division which = 25001 value = 5006 where = 89 when = 1 }
+		command = { type = activate_division which = 25001 value = 5007 where = 89 when = 1 }
+                ####ëÊ52ó∑íc
+		command = { type = activate_division which = 25001 value = 5008 where = 86 when = 1 }
+		command = { type = activate_division which = 25001 value = 5009 where = 86 when = 1 }
+		command = { type = activate_division which = 25001 value = 5010 where = 86 when = 1 }
+		command = { type = activate_division which = 25001 value = 5011 where = 86 when = 1 }
+                ####ëÊ62ó∑íc
+		command = { type = activate_division which = 25001 value = 5012 where = 82 when = 1 }
+		command = { type = activate_division which = 25001 value = 5013 where = 82 when = 1 }
+		command = { type = activate_division which = 25001 value = 5014 where = 82 when = 1 }
+                ####ëÊ53ó∑íc
+		command = { type = activate_division which = 25001 value = 5015 where = 76 when = 1 }
+		command = { type = activate_division which = 25001 value = 5016 where = 76 when = 1 }
+		command = { type = activate_division which = 25001 value = 5017 where = 76 when = 1 }
+		command = { type = activate_division which = 25001 value = 5018 where = 76 when = 1 }
+                ####ëÊ63ó∑íc
+		command = { type = activate_division which = 25001 value = 5019 where = 313 when = 1 }
+		command = { type = activate_division which = 25001 value = 5020 where = 313 when = 1 }
+		command = { type = activate_division which = 25001 value = 5021 where = 313 when = 1 }
+                ####ëÊ54ó∑íc
+		command = { type = activate_division which = 25001 value = 5022 where = 1015 when = 1 }
+		command = { type = activate_division which = 25001 value = 5023 where = 1015 when = 1 }
+		command = { type = activate_division which = 25001 value = 5024 where = 1015 when = 1 }
+		command = { type = activate_division which = 25001 value = 5025 where = 1015 when = 1 }
+                ####ëÊ64ó∑íc
+		command = { type = activate_division which = 25001 value = 5026 where = 989 when = 1 }
+		command = { type = activate_division which = 25001 value = 5027 where = 989 when = 1 }
+		command = { type = activate_division which = 25001 value = 5028 where = 989 when = 1 }
+                ####ëÊ55ó∑íc
+		command = { type = activate_division which = 25001 value = 5029 where = 314 when = 1 }
+		command = { type = activate_division which = 25001 value = 5030 where = 314 when = 1 }
+		command = { type = activate_division which = 25001 value = 5031 where = 314 when = 1 }
+		command = { type = activate_division which = 25001 value = 5032 where = 314 when = 1 }
+                ####ëÊ65ó∑íc
+		command = { type = activate_division which = 25001 value = 5033 where = 374 when = 1 }
+		command = { type = activate_division which = 25001 value = 5034 where = 374 when = 1 }
+		command = { type = activate_division which = 25001 value = 5035 where = 374 when = 1 }
+                ####ëÊ56ó∑íc
+		command = { type = activate_division which = 25001 value = 5036 where = 376 when = 1 }
+		command = { type = activate_division which = 25001 value = 5037 where = 376 when = 1 }
+		command = { type = activate_division which = 25001 value = 5038 where = 376 when = 1 }
+		command = { type = activate_division which = 25001 value = 5039 where = 376 when = 1 }
+                ####ëÊ66ó∑íc
+		command = { type = activate_division which = 25001 value = 5040 where = 312 when = 1 }
+		command = { type = activate_division which = 25001 value = 5041 where = 312 when = 1 }
+		command = { type = activate_division which = 25001 value = 5042 where = 312 when = 1 }
+ }
+        action_b = {
+		name = "ÇªÇÃïKóvÇÕñ≥Ç¢"
+                ai_chance = 0
+ }
+}
+
+event = {
+	id = 23132
+	random = no
+	country = DFR
+	trigger = {
+                event = 23415
+	}
+
+	name = "êÌèpäjñOòaçUåÇ"
+	desc = "EVT_23132_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ëÂó ìäì¸Ç…ìØà”Ç∑ÇÈ"
+                ai_chance = 20
+		command = { type = trigger which = 23416 }
+		command = { type = sleepevent which = 23417 }
+		command = { type = sleepevent which = 23418 }
+	}
+	action_b = {
+		name = "ïîï™ìIìäì¸Ç…ÇÕìØà”Ç∑ÇÈ"
+                ai_chance = 20
+		command = { type = trigger which = 23417 }
+		command = { type = sleepevent which = 23416 }
+		command = { type = sleepevent which = 23418 }
+	}
+	action_b = {
+		name = "äjÇÇ‡Ç§àÍìxÉhÉCÉcÇ≈égÇ§ÇÌÇØÇ…ÇÕÇ¢Ç©Ç»Ç¢ÅI"
+                ai_chance = 60
+		command = { type = trigger which = 23418 }
+		command = { type = sleepevent which = 23416 }
+		command = { type = sleepevent which = 23417 }
+	}
+}
+
+event = {
+	id = 23133
+	random = no
+	country = DFR
+	trigger = {
+                event = 23416
+	}
+
+	name = "êÌèpäjìäì¸"
+	desc = "EVT_23133_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "BETAÇ…êlóﬁÇÃóÕÇévÇ¢ímÇÁÇ∑ÇÃÇæ"
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+	}
+}
+
+event = {
+	id = 23134
+	random = no
+	country = DFR
+	trigger = {
+                event = 23416
+	}
+
+	name = "êÌèpäjïîï™ìIìäì¸"
+	desc = "EVT_23134_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "BETAÇ…êlóﬁÇÃóÕÇévÇ¢ímÇÁÇ∑ÇÃÇæ"
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+	}
+}
+
+event = {
+	id = 23135
+	random = no
+	country = DFR
+	trigger = {
+                event = 23416
+	}
+
+	name = "êÌèpäjìäì¸-ÉAÉÅÉäÉJÇÃã≠çs-"
+	desc = "EVT_23135_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ïÖÇÍÉAÉÅåˆÇ«Ç‡ÇﬂÅI"
+                command = { type = relation which = USA value = -100 }
+	}
+}

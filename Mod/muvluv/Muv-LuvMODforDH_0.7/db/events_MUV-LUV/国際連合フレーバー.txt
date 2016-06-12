@@ -1,0 +1,100 @@
+##############################################################
+##
+## 国際連合フレーバーイベント(19001~20000)
+##
+##############################################################
+## 
+## id = 30001	国連事務総長の外交
+## id = 30002	避退国国民の移住
+## id = 30003
+## id = 30004
+## id = 30005
+## id = 30006
+## id = 30007
+## id = 30008
+## id = 30009
+## id = 30010
+## id = 30011
+## id = 30012
+## id = 30013
+## id = 30014
+## id = 30015
+## id = 30016
+## id = 30017
+## id = 30018
+## id = 30019
+## id = 30020
+## id = 30021
+## id = 30022
+## id = 30023
+## id = 30024
+## id = 30025
+## id = 30026
+## id = 30027
+## id = 30028
+## id = 30029
+## id = 30030
+## id = 30031
+## id = 30032
+## id = 30033
+## id = 30034
+## id = 30035
+## id = 30036
+## id = 30037
+## id = 30038
+## id = 30039
+## id = 30040
+## id = 30041
+## id = 30042
+## id = 30043
+## id = 30044
+## id = 30045
+## id = 30046
+## id = 30047
+## id = 30048
+## id = 30049
+## id = 30050
+##
+##############################################################
+
+event = {
+	id = 30001
+	random = yes
+	country = U06
+	trigger = {
+	}
+
+	name = "国連事務総長の外交"
+	desc = "国連事務総長が各国を訪問し、関係の改善を求めて会議をいくつも行った。"
+	style = 0
+
+	action_a = {
+		name = "全ては下等生物どもに勝利するために！"
+                command = { type = relation which = JAP value = 10 }
+                command = { type = relation which = USA value = 10 }
+                command = { type = relation which = SOV value = 10 }
+                command = { type = relation which = U02 value = 10 }
+                command = { type = relation which = U06 value = 10 }
+                command = { type = relation which = U04 value = 10 }
+                command = { type = relation which = U05 value = 10 }
+                command = { type = relation which = U01 value = 10 }
+                command = { type = relation which = U03 value = 10 }
+ 	}
+}
+
+event = {
+	id = 30002
+	random = yes
+	country = U06
+	trigger = {
+	}
+
+	name = "避退国国民の移住"
+	desc = "領土を失った国々（避退国）国民の移住はBETAによってユーラシアの大半が失われたため急務となっている。"
+	style = 0
+
+	action_a = {
+		name = "全ての国民を戦場へ！"
+                command = { type = manpowerpool value = 30 }
+ 	}
+}

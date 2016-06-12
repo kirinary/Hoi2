@@ -1,0 +1,7 @@
+1、「Muv-LuvMODforDH」「画像」「研究画像1」「研究画像2」をMODWikiマブラヴMODのページからダウンロードする
+
+2、「Muv-LuvMODforDH」フォルダの中に「画像」「研究画像1」「研究画像2」の中身をコピーする
+
+3、「Muv-LuvMODforDH」フォルダをDHフォルダ直下にある「Mods」フォルダに入れる
+
+4、DarkestHourLauncherを起動し、"Load a mod"から「Muv-LuvMODforDH」を選択する

@@ -1,0 +1,12 @@
+DEN;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+16001;Head of State;マルグレーテ2世;70;SD;Popular Figurehead;High;M16001;x
+16002;Head of Government;アンケル・ヨルゲンセン;70;SD;Ambitious Union Boss;High;M16002;x
+16003;Foreign Minister;クヌート・ボルゲ・アンデルセン;70;SL;Ideological Crusader;Medium;M16003;x
+16004;Minister of Armament;アンデルス・アンデルセン;70;SL;laissez-faire capitalist;High;M16004;x
+16005;Minister of Security;エゴン・イェンセン;70;SD;Silent Lawyer;High;M16005;x
+16006;Head of Military Intelligence;トーマス・アーレンキール;70;SL;Dismal Enigma;High;M16006;x
+16007;Chief of Staff;オットー・ブリクセンクローネ＝モラー;70;SL;School of Defence;Medium;M16007;x
+16008;Chief of Army;エリク・ウィット;70;SD;Static Defence Doctrine;High;M16008;x
+16009;Chief of Navy;ニールス・F・ランゲ;70;SD;Indirect Approach Doctrine;High;M16009;x
+16010;Chief of Air Force;J・ブロデルセン;70;SD;Army Aviation Doctrine;Very High;M16010;x

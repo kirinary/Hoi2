@@ -1,0 +1,136 @@
+U06;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+9005000;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005001;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005002;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Army Aviation Doctrine;Very High;UN50005;x
+9005003;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005004;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005005;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005006;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Vertical Envelopment Doctrine;Very High;UN50005;x
+9005007;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Carpet Bombing Doctrine;Very High;UN50005;x
+9005008;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005009;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005010;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Carpet Bombing Doctrine;Very High;UN50005;x
+9005011;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Carpet Bombing Doctrine;Very High;UN50005;x
+9005012;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005013;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005014;Chief of Air Force;“‡q‹ó‰F’ˆŒRQ–d•”;36;SC;Air Superiority Doctrine;Very High;UN50005;x
+9005016;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Armoured Spearhead Doctrine;Very High;UN50005;x
+9005017;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Decisive Battle Doctrine;Very High;UN50005;x
+9005018;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Armoured Spearhead Doctrine;Very High;UN50005;x
+9005019;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Armoured Spearhead Doctrine;Very High;UN50005;x
+9005020;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Static Defence Doctrine;Very High;UN50005;x
+9005021;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Guns and Butter Doctrine;Very High;UN50005;x
+9005022;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Static Defence Doctrine;Very High;UN50005;x
+9005023;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Armoured Spearhead Doctrine;Very High;UN50005;x
+9005024;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Armoured Spearhead Doctrine;Very High;UN50005;x
+9005025;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Static Defence Doctrine;Very High;UN50005;x
+9005026;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Armoured Spearhead Doctrine;Very High;UN50005;x
+9005027;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Elastic Defence Doctrine;Very High;UN50005;x
+9005028;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Guns and Butter Doctrine;Very High;UN50005;x
+9005029;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Guns and Butter Doctrine;Very High;UN50005;x
+9005030;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Decisive Battle Doctrine;Very High;UN50005;x
+9005031;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Armoured Spearhead Doctrine;Very High;UN50005;x
+9005032;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Guns and Butter Doctrine;Very High;UN50005;x
+9005033;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Guns and Butter Doctrine;Very High;UN50005;x
+9005034;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Armoured Spearhead Doctrine;Very High;UN50005;x
+9005035;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Static Defence Doctrine;Very High;UN50005;x
+9005036;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Guns and Butter Doctrine;Very High;UN50005;x
+9005037;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Elastic Defence Doctrine;Very High;UN50005;x
+9005038;Chief of Army;“‡—¤ŒRQ–d•”;36;SC;Armoured Spearhead Doctrine;Very High;UN50005;x
+9005039;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Power Projection Doctrine;Very High;UN50005;x
+9005040;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Decisive Naval Battle Doctrine;Very High;UN50005;x
+9005041;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Indirect Approach Doctrine;Very High;UN50005;x
+9005042;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Open Seas Doctrine;Very High;UN50005;x
+9005043;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Power Projection Doctrine;Very High;UN50005;x
+9005044;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Power Projection Doctrine;Very High;UN50005;x
+9005045;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Decisive Naval Battle Doctrine;Very High;UN50005;x
+9005046;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Indirect Approach Doctrine;Very High;UN50005;x
+9005047;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Decisive Naval Battle Doctrine;Very High;UN50005;x
+9005048;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Decisive Naval Battle Doctrine;Very High;UN50005;x
+9005049;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Base Control Doctrine;Very High;UN50005;x
+9005050;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Decisive Naval Battle Doctrine;Very High;UN50005;x
+9005051;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Power Projection Doctrine;Very High;UN50005;x
+9005052;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Power Projection Doctrine;Very High;UN50005;x
+9005053;Chief of Navy;“‡ŠCŒRQ–d•”;36;SC;Decisive Naval Battle Doctrine;Very High;UN50005;x
+9005054;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Manoeuvre;Very High;UN50004;x
+9005055;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Fire Support;Very High;UN50004;x
+9005056;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Manoeuvre;Very High;UN50004;x
+9005057;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Fire Support;Very High;UN50004;x
+9005058;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Manoeuvre;Very High;UN50004;x
+9005059;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Defence;Very High;UN50004;x
+9005060;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Defence;Very High;UN50004;x
+9005061;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Manoeuvre;Very High;UN50004;x
+9005062;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Manoeuvre;Very High;UN50004;x
+9005063;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Manoeuvre;Very High;UN50004;x
+9005064;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Mass Combat;Very High;UN50004;x
+9005065;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Fire Support;Very High;UN50004;x
+9005066;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Defence;Very High;UN50004;x
+9005067;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Fire Support;Very High;UN50004;x
+9005068;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Manoeuvre;Very High;UN50004;x
+9005069;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Defence;Very High;UN50004;x
+9005070;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Mass Combat;Very High;UN50004;x
+9005071;Chief of Staff;‘Û˜A‡ˆÀ‘S•Ûá—–‰ï;36;SC;School of Psychology;Very High;UN50004;x
+9005072;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Iron Fisted Brute;Very High;UN50007;x
+9005073;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Iron Fisted Brute;Very High;UN50007;x
+9005074;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Ideological Crusader;Very High;UN50007;x
+9005075;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Biased Intellectual;Very High;UN50007;x
+9005076;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Biased Intellectual;Very High;UN50007;x
+9005077;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Ideological Crusader;Very High;UN50007;x
+9005078;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Great Compromiser;Very High;UN50007;x
+9005079;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Apologetic Clerk;Very High;UN50007;x
+9005080;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Apologetic Clerk;Very High;UN50007;x
+9005081;Foreign Minister;‘Û˜A‡ŠO–±‹Ç;36;SC;Great Compromiser;Very High;UN50007;x
+9005082;Head of Government;‘Û˜A‡––±‘’·;36;SC;Flamboyant Tough Guy;Very High;UN50002;x
+9005083;Head of Government;‘Û˜A‡––±‘’·;36;SC;Silent Workhorse;Very High;UN50002;x
+9005084;Head of Government;‘Û˜A‡––±‘’·;36;SC;Naive Optimist;Very High;UN50002;x
+9005085;Head of Government;‘Û˜A‡––±‘’·;36;SC;Naive Optimist;Very High;UN50002;x
+9005086;Head of Government;‘Û˜A‡––±‘’·;36;SC;Backroom Backstabber;Very High;UN50002;x
+9005087;Head of Government;‘Û˜A‡––±‘’·;36;SC;Happy Amateur;Very High;UN50002;x
+9005088;Head of Government;‘Û˜A‡––±‘’·;36;SC;Old Admiral;Very High;UN50002;x
+9005089;Head of Government;‘Û˜A‡––±‘’·;36;SC;Corporate Suit;Very High;UN50002;x
+9005090;Head of Government;‘Û˜A‡––±‘’·;36;SC;Flamboyant Tough Guy;Very High;UN50002;x
+9005091;Head of Government;‘Û˜A‡––±‘’·;36;SC;Old General;Very High;UN50002;x
+9005092;Head of Government;‘Û˜A‡––±‘’·;36;SC;Old General;Very High;UN50002;x
+9005093;Head of Government;‘Û˜A‡––±‘’·;36;SC;Backroom Backstabber;Very High;UN50002;x
+9005094;Head of Government;‘Û˜A‡––±‘’·;36;SC;Silent Workhorse;Very High;UN50002;x
+9005095;Head of Military Intelligence;‘Û˜A‡î•ñ‹Ç;36;SC;Dismal Enigma;Very High;UN50008;x
+9005096;Head of Military Intelligence;‘Û˜A‡î•ñ‹Ç;36;SC;Logistics Specialist;Very High;UN50008;x
+9005097;Head of Military Intelligence;‘Û˜A‡î•ñ‹Ç;36;SC;Dismal Enigma;Very High;UN50008;x
+9005098;Head of Military Intelligence;‘Û˜A‡î•ñ‹Ç;36;SC;Technical Specialist;Very High;UN50008;x
+9005099;Head of Military Intelligence;‘Û˜A‡î•ñ‹Ç;36;SC;Political Specialist;Very High;UN50008;x
+9005100;Head of Military Intelligence;‘Û˜A‡î•ñ‹Ç;36;SC;Logistics Specialist;Very High;UN50008;x
+9005101;Head of Military Intelligence;‘Û˜A‡î•ñ‹Ç;36;SC;Logistics Specialist;Very High;UN50008;x
+9005102;Head of Military Intelligence;‘Û˜A‡î•ñ‹Ç;36;SC;Dismal Enigma;Very High;UN50008;x
+9005103;Head of State;‘Û˜A‡‘‰ï;36;SC;Stern Imperialist;Very High;UN50003;x
+9005104;Head of State;‘Û˜A‡‘‰ï;36;SC;Stern Imperialist;Very High;UN50003;x
+9005105;Head of State;‘Û˜A‡‘‰ï;36;SC;Powerhungry Demagogue;Very High;UN50003;x
+9005106;Head of State;‘Û˜A‡‘‰ï;36;SC;Benevolent Gentleman;Very High;UN50003;x
+9005107;Head of State;‘Û˜A‡‘‰ï;36;SC;Barking Buffoon;Very High;UN50003;x
+9005108;Head of State;‘Û˜A‡‘‰ï;36;SC;Weary Stiffneck;Very High;UN50003;x
+9005109;Head of State;‘Û˜A‡‘‰ï;36;SC;Resigned Generalissimo;Very High;UN50003;x
+9005110;Head of State;‘Û˜A‡‘‰ï;36;SC;Popular Figurehead;Very High;UN50003;x
+9005111;Head of State;‘Û˜A‡‘‰ï;36;SC;Autocratic Charmer;Very High;UN50003;x
+9005112;Head of State;‘Û˜A‡‘‰ï;36;SC;Autocratic Charmer;Very High;UN50003;x
+9005113;Head of State;‘Û˜A‡‘‰ï;36;SC;Stern Imperialist;Very High;UN50003;x
+9005114;Head of State;‘Û˜A‡‘‰ï;36;SC;Resigned Generalissimo;Very High;UN50003;x
+9005115;Head of State;‘Û˜A‡‘‰ï;36;SC;Popular Figurehead;Very High;UN50003;x
+9005116;Minister of Armament;‘Û˜A‡ŒoÏĞ‰ï—–‰ï;36;SC;Administrative Genius;Very High;UN50009;x
+9005117;Minister of Armament;‘Û˜A‡ŒoÏĞ‰ï—–‰ï;36;SC;Administrative Genius;Very High;UN50009;x
+9005118;Minister of Armament;‘Û˜A‡ŒoÏĞ‰ï—–‰ï;36;SC;Infantry Proponent;Very High;UN50009;x
+9005119;Minister of Armament;‘Û˜A‡ŒoÏĞ‰ï—–‰ï;36;SC;Infantry Proponent;Very High;UN50009;x
+9005120;Minister of Armament;‘Û˜A‡ŒoÏĞ‰ï—–‰ï;36;SC;laissez-faire capitalist;Very High;UN50009;x
+9005121;Minister of Armament;‘Û˜A‡ŒoÏĞ‰ï—–‰ï;36;SC;Infantry Proponent;Very High;UN50009;x
+9005122;Minister of Armament;‘Û˜A‡ŒoÏĞ‰ï—–‰ï;36;SC;Resource Industrialist;Very High;UN50009;x
+9005123;Minister of Armament;‘Û˜A‡ŒoÏĞ‰ï—–‰ï;36;SC;Resource Industrialist;Very High;UN50009;x
+9005124;Minister of Armament;‘Û˜A‡ŒoÏĞ‰ï—–‰ï;36;SC;Resource Industrialist;Very High;UN50009;x
+9005125;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Man of the People;Very High;UN50006;x
+9005126;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Prince of Terror;Very High;UN50006;x
+9005127;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Man of the People;Very High;UN50006;x
+9005128;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Man of the People;Very High;UN50006;x
+9005129;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Prince of Terror;Very High;UN50006;x
+9005130;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Crime Fighter;Very High;UN50006;x
+9005131;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Crime Fighter;Very High;UN50006;x
+9005132;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Prince of Terror;Very High;UN50006;x
+9005133;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Prince of Terror;Very High;UN50006;x
+9005134;Minister of Security;‘Û˜A‡––±‹Ç;36;SC;Man of the People;Very High;UN50006;x

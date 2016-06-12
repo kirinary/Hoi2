@@ -1,0 +1,12 @@
+SCH;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+17001;Head of State;ネロ・セリオ;70;ML;Die-hard Reformer;High;M17001;x
+17002;Head of Government;ネロ・セリオ;70;ML;Industrial Prime;High;M17001;x
+17003;Foreign Minister;ピエール・グラーバー;70;SL;Great Compromiser;High;M17003;x
+17004;Minister of Armament;ネロ・セリオ;70;ML;Resource Industrialist;High;M17001;x
+17005;Minister of Security;クルト・フルグラー;70;ML;Crime Fighter;High;M17005;x
+17006;Head of Military Intelligence;カール・ヴェイデンマン;70;ML;Logistics Specialist;High;M17006;x
+17007;Chief of Staff;ルドルフ・グネーギ;70;SC;School of Defence;High;M17007;x
+17008;Chief of Army;ヨハン・ヤコブ・フィッシャー;70;ML;Guns and Butter Doctrine;High;M17008;x
+17009;Chief of Navy;船舶部隊司令官;70;ML;Base Control Doctrine;High;M17009;x
+17010;Chief of Air Force;シュトゥーダー・オイゲン;70;ML;Air Superiority Doctrine;High;M17010;x

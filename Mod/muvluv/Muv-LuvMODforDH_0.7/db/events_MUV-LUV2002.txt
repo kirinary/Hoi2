@@ -1,0 +1,59 @@
+## 全シナリオ共通イベント
+event = "db\events_MUV-LUV\秘密兵器.txt"
+event = "db\events_MUV-LUV\シナリオ初期調整.txt"
+event = "db\events_MUV-LUV\ランダムイベント.txt"
+event = "db\events_MUV-LUV\各国特殊ユニット生産.txt"
+event = "db\events_MUV-LUV\技術効果.txt"
+event = "db\events_MUV-LUV\予算会議.txt"
+
+
+## BETA大戦シナリオ共通イベント
+event = "db\events_MUV-LUV\BETA関連.txt"
+event = "db\events_MUV-LUV\BETA補充.txt"
+event = "db\events_MUV-LUV\BETA-ハイヴ陥落.txt"
+event = "db\events_MUV-LUV\BETA-ハイヴ建設.txt"
+event = "db\events_MUV-LUV\BETA_強襲.txt"
+event = "db\events_MUV-LUV\各国国際立場変更.txt"
+event = "db\events_MUV-LUV\各国初期調整.txt"
+#event = "db\events_MUV-LUV\新規国家成立.txt"
+#event = "db\events_MUV-LUV\地域壊滅.txt"
+#event = "db\events_MUV-LUV\地域陥落.txt"
+
+
+## 各国フレーバーイベント
+# 主要国
+event = "db\events_MUV-LUV\アフリカ連合フレーバー.txt"
+event = "db\events_MUV-LUV\日本帝国フレーバー.txt"
+event = "db\events_MUV-LUV\アメリカフレーバー.txt"
+event = "db\events_MUV-LUV\ソ連フレーバー1998.txt"
+event = "db\events_MUV-LUV\欧州連合フレーバー.txt"
+event = "db\events_MUV-LUV\統一中華フレーバー.txt"
+event = "db\events_MUV-LUV\国際連合フレーバー.txt"
+# その他
+event = "db\events_MUV-LUV\大東亜連合フレーバー.txt"
+event = "db\events_MUV-LUV\オーストラリアフレーバー.txt"
+event = "db\events_MUV-LUV\中東連合フレーバー.txt"
+event = "db\events_MUV-LUV\中米連合フレーバー.txt"
+event = "db\events_MUV-LUV\南米連合フレーバー.txt"
+
+## 2002年GCイベント
+event = "db\events_MUV-LUV\2002GC.txt"
+event = "db\events_MUV-LUV\Hive_flag2002.txt"
+event = "db\events_MUV-LUV\ai_U02.txt"
+event = "db\events_MUV-LUV\ai_U04.txt"
+event = "db\events_MUV-LUV\ai_U05.txt"
+event = "db\events_MUV-LUV\ai_U06.txt"
+event = "db\events_MUV-LUV\ai_USA.txt"
+event = "db\events_MUV-LUV\BETARestriction.txt"
+event = "db\events_MUV-LUV\BETAproduction.txt"
+
+
+
+
+
+
+
+
+
+
+

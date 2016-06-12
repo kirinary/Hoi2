@@ -1,0 +1,38 @@
+event = {
+	id = 70001
+	random = no 
+	country = U12
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 1
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = setflag which = Kashgar_Hive }
+		command = { type = setflag which = Mashhad_Hive }
+		command = { type = setflag which = Uralsk_Hive }
+		command = { type = setflag which = Velsk_Hive }
+		command = { type = setflag which = Minsk_Hive }
+		command = { type = setflag which = Ekibastuz_Hive }
+		command = { type = setflag which = Surgut_Hive }
+		command = { type = setflag which = Rovaniemi_Hive }
+		command = { type = setflag which = Anbar_Hive }
+		command = { type = setflag which = Noginsk_Hive }
+		command = { type = setflag which = Budapest_Hive }
+		command = { type = setflag which = Lyon_Hiv }
+		command = { type = setflag which = Bhopal_Hive }
+		command = { type = setflag which = Dunhuang_Hive }
+		command = { type = setflag which = Krasnoyarsk_Hive }
+		command = { type = setflag which = Chongqing_Hive }
+		command = { type = setflag which = Mandalay_Hive }
+		command = { type = setflag which = Ulanbator_Hive }
+		command = { type = setflag which = Blagoveshchensk_Hive }
+		command = { type = setflag which = Cheorwon_Hive }
+		command = { type = setflag which = mabikireturn }#U02ä‘à¯Ç´çÏêÌópÉtÉâÉO
+	}
+}

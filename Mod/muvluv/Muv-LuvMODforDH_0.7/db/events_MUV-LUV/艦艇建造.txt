@@ -1,0 +1,1228 @@
+##############################################################
+##
+## 艦艇建造関連イベント(5001~5100)
+##
+##############################################################
+#############################################################ソ連
+## id = 5001	海軍整備計画(SOV)
+## id = 5002	バクー売却(SOV)
+## id = 5003	バクー購入(U04)
+## id = 5004	キエフ級改装戦術機母艦(SOV)
+## id = 5005	キエフ就役(SOV)
+## id = 5006	ミンスク就役(SOV)
+## id = 5007	ノヴォシローフスク就役(SOV)
+## id = 5008	バクー就役(SOV)
+## id = 5009	アドミラル･クズネツォフ級改装戦術機母艦(SOV)
+## id = 5010	ヴァリャーグ売却(SOV)
+## id = 5011	ヴァリャーグ購入(U05)
+## id = 5012	アドミラル･クズネツォフ就役(SOV)
+## id = 5013	ヴァリャーグ就役(SOV)
+## id = 5014    キーロフ級ミサイル巡洋艦(SOV)
+## id = 5015    ロシア就役(SOV)
+## id = 5016    ジュダーノフ就役(SOV)
+## id = 5017    スヴェルドロフ就役(SOV)
+## id = 5018    ジェレスニャコフ就役(SOV)
+## id = 5019    イワン･ロゴフ級揚陸艦(SOV)
+## id = 5020    イワン･ロゴフ就役(SOV)
+## id = 5021    アレクサンドル･ニコラーエフ就役(SOV)
+## id = 5022    ミトロファン･モスカレンコ就役(SOV)
+#############################################################大東亜連合
+## id = 5023	機動部隊整備計画(U04)
+## id = 5024	ヴィクラント改装計画(U04)
+## id = 5025	ヴィクラマーディティヤ改装(U04)
+## id = 5026	ヴィクラント就役(U04)
+## id = 5027	ヴィクラマーディティヤ就役(U04)
+## id = 5028	オリバー・ハザード・ペリー級(U04)
+## id = 5029	オリバー・ハザード・ペリー級(USA)
+## id = 5030	オリバー・ハザード・ペリー級の購入(U04)
+#############################################################日本帝国
+## id = 5031	戦術機母艦配備計画(JAP)
+## id = 5032	米国への打診(JAP)
+## id = 5033	戦術機母艦供与(USA)
+## id = 5034	戦術機母艦供与-許諾-(JAP)
+## id = 5035	戦術機母艦供与-拒否-(JAP)
+## id = 5036	戦術機母艦の選択(JAP)
+## id = 5037	戦術機母艦供与-フォレスタル級-(USA)
+## id = 5038	戦術機母艦供与-キティホーク級-(USA)
+## id = 5039	供与承諾-フォレスタル級-(JAP)
+## id = 5040	供与承諾-キティフォーク級-(JAP)
+## id = 5041	供与拒否-フォレスタル級-(JAP)
+## id = 5042	供与拒否-キティフォーク級-(JAP)
+## id = 5043	伊吹就役(JAP)
+## id = 5044	赤城就役(JAP)
+#############################################################欧州連合
+## id = 5045	リリー･マルレーン改修(U02)
+#############################################################アメリカ合衆国
+## id = 5046	ハリー･S･トルーマン就役(USA)
+#############################################################統一中華戦線
+## id = 5047	遼寧就役(USA)
+###############################################################
+
+event = {
+	id = 5001
+	random = no
+	country = SOV
+	trigger = {
+                  supplies = 3000
+	}
+
+	name = "海軍整備計画"
+	desc = "EVT_5001_DESC"
+
+	date = { day = 5 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を承認する"
+		command = { type = industrial_modifier which = total value = -11 }
+		command = { type = money value = -800 }
+		command = { type = supplies value = -3000 }
+                command = { type = local_setflag which = SovNavy }
+	}
+}
+
+event = {
+	id = 5002
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = SovNavy
+	}
+
+	name = "バクー売却"
+	desc = "EVT_5002_DESC"
+
+	date = { day = 29 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "売却する"
+                ai_chance = 80
+		command = { type = industrial_modifier which = total value = 1 }
+		command = { type = money value = 150 }
+		command = { type = setflag which = INSVik }
+	}
+	action_b = {
+		name = "ありえん！"
+                ai_chance = 20
+		command = { }
+	}
+}
+
+event = {
+	id = 5003
+	random = no
+	country = U04
+	trigger = {
+                  flag = INSVik
+	}
+
+	name = "バクー購入"
+	desc = "EVT_5003_DESC"
+
+	date = { day = 29 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                ai_chance = 80
+		command = { type = industrial_modifier which = total value = -1 }
+		command = { type = money value = -150 }
+		command = { type = supplies value = -1000 }
+	}
+}
+
+
+event = {
+	id = 5004
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = SovNavy
+	}
+
+	name = "キエフ級改装戦術機母艦"
+	desc = "EVT_5004_DESC"
+
+	date = { day = 16 month = 4 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を継続する"
+                ai_chance = 80
+                command = { type = local_setflag which = CVKiev }
+	}
+	action_b = {
+		name = "そんな余裕はない"
+                ai_chance = 20
+		command = { type = industrial_modifier which = total value = 3 }
+	}
+}
+
+
+event = {
+	id = 5005
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CVKiev
+	}
+
+	name = "キエフ就役"
+	desc = "EVT_5005_DESC"
+
+	date = { day = 12 month = 8 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+		command = { type = activate_division which = 19511 value = 5819 where = 908 when = 1 }
+	}
+}
+
+
+event = {
+	id = 5006
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CVKiev
+	}
+
+	name = "ミンスク就役"
+	desc = "EVT_5006_DESC"
+
+	date = { day = 22 month = 10 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+		command = { type = activate_division which = 19511 value = 5820 where = 908 when = 1 }
+	}
+}
+
+
+event = {
+	id = 5007
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CVKiev
+	}
+
+	name = "ノヴォシローフスク就役"
+	desc = "EVT_5007_DESC"
+
+	date = { day = 26 month = 11 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+		command = { type = activate_division which = 19511 value = 5821 where = 908 when = 1 }
+	}
+}
+
+
+event = {
+	id = 5008
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CVKiev
+                 NOT = {
+                      event = 5003
+                        }
+	}
+
+	name = "バクー就役"
+	desc = "EVT_5008_DESC"
+
+	date = { day = 7 month = 3 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+		command = { type = activate_division which = 19511 value = 5822 where = 908 when = 1 }
+	}
+}
+
+
+event = {
+	id = 5009
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = SovNavy
+	}
+
+	name = "アドミラル･クズネツォフ級改装戦術機母艦"
+	desc = "EVT_5009_DESC"
+
+	date = { day = 6 month = 6 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を継続する"
+                ai_chance = 80
+                command = { type = local_setflag which = CVAdm }
+	}
+	action_b = {
+		name = "そんな余裕はない"
+                ai_chance = 20
+		command = { type = industrial_modifier which = total value = 2 }
+	}
+}
+
+
+event = {
+	id = 5010
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = SovNavy
+	}
+
+	name = "ヴァリャーグ売却"
+	desc = "EVT_5012_DESC"
+
+	date = { day = 27 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "売却する"
+                ai_chance = 80
+		command = { type = industrial_modifier which = total value = 1 }
+		command = { type = money value = 150 }
+		command = { type = setflag which = Ba }
+	}
+	action_b = {
+		name = "ありえん！"
+                ai_chance = 20
+		command = { }
+	}
+}
+
+event = {
+	id = 5011
+	random = no
+	country = U05
+	trigger = {
+                  flag = Ba
+	}
+
+	name = "ヴァリャーグ購入"
+	desc = "EVT_5011_DESC"
+
+	date = { day = 27 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                ai_chance = 80
+		command = { type = industrial_modifier which = total value = -1 }
+		command = { type = money value = -150 }
+		command = { type = supplies value = -1000 }
+	}
+}
+
+
+event = {
+	id = 5012
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CVAdm
+	}
+
+	name = "アドミラル･クズネツォフ就役"
+	desc = "EVT_5012_DESC"
+
+	date = { day = 7 month = 6 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+		command = { type = activate_division which = 19511 value = 5823 where = 908 when = 1 }
+	}
+}
+
+
+event = {
+	id = 5013
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CVAdm
+                 NOT = {
+                      event = 5011
+                        }
+	}
+
+	name = "ヴャリャーグ就役"
+	desc = "EVT_5013_DESC"
+
+	date = { day = 19 month = 10 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+		command = { type = activate_division which = 19511 value = 5824 where = 908 when = 1 }
+	}
+}
+
+
+event = {
+	id = 5014
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = SovNavy
+	}
+
+	name = "キーロフ級ミサイル巡洋艦"
+	desc = "EVT_5014_DESC"
+
+	date = { day = 2 month = 1 year = 2000 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を継続する"
+                ai_chance = 80
+                command = { type = local_setflag which = CGK }
+	}
+	action_b = {
+		name = "そんな余裕はない"
+                ai_chance = 20
+		command = { type = industrial_modifier which = total value = 4 }
+	}
+}
+
+
+event = {
+	id = 5015
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CGK
+	}
+
+	name = "ロシア就役"
+	desc = "EVT_5015_DESC"
+
+	date = { day = 7 month = 6 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+                command = { type = add_division which = ロシア value = heavy_cruiser when = 4 }
+	}
+}
+
+
+event = {
+	id = 5016
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CGK
+	}
+
+	name = "ジュダーノフ就役"
+	desc = "EVT_5016_DESC"
+
+	date = { day = 17 month = 9 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+                command = { type = add_division which = ジュダーノフ value = heavy_cruiser when = 4 }
+	}
+}
+
+
+
+event = {
+	id = 5017
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CGK
+	}
+
+	name = "スヴェルドロフ就役"
+	desc = "EVT_5017_DESC"
+
+	date = { day = 13 month = 0 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+                command = { type = add_division which = スヴェルドロフ value = heavy_cruiser when = 4 }
+	}
+}
+
+
+event = {
+	id = 5018
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = CGK
+	}
+
+	name = "ジェレスニャコフ就役"
+	desc = "EVT_5018_DESC"
+
+	date = { day = 13 month = 0 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+                command = { type = add_division which = ジェレスニャコフ value = heavy_cruiser when = 4 }
+	}
+}
+
+
+
+event = {
+	id = 5019
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = SovNavy
+	}
+
+	name = "イワン･ロゴフ級揚陸艦"
+	desc = "EVT_5019_DESC"
+
+	date = { day = 9 month = 3 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を継続する"
+                ai_chance = 80
+                command = { type = local_setflag which = LSI }
+	}
+	action_b = {
+		name = "そんな余裕はない"
+                ai_chance = 20
+		command = { type = industrial_modifier which = total value = 3 }
+	}
+}
+
+
+event = {
+	id = 5020
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = LSI
+	}
+
+	name = "イワン･ロゴフ就役"
+	desc = "EVT_5020_DESC"
+
+	date = { day = 13 month = 0 year = 2001 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+                command = { type = add_division which = イワン･ロゴフ value = transport when = 4 }
+	}
+}
+
+
+event = {
+	id = 5021
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = LSI
+	}
+
+	name = "アレンサンドル･ニコラーエフ就役"
+	desc = "EVT_5021_DESC"
+
+	date = { day = 3 month = 5 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+                command = { type = add_division which = アレクサンドル･ニコラーエフ value = transport when = 4 }
+	}
+}
+
+
+event = {
+	id = 5022
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = LSI
+	}
+
+	name = "ミトロファン･モスカレンコ就役"
+	desc = "EVT_5022_DESC"
+
+	date = { day = 23 month = 11 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 1 }
+                command = { type = add_division which = ミトロファン･モスカレンコ value = transport when = 4 }
+	}
+}
+
+
+event = {
+	id = 5023
+	random = no
+	country = U04
+	trigger = {
+                  supplies = 3000
+	}
+
+	name = "機動部隊整備計画"
+	desc = "EVT_5023_DESC"
+
+	date = { day = 5 month = 2 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を承認する"
+		command = { type = money value = -800 }
+		command = { type = supplies value = -3000 }
+                command = { type = local_setflag which = U04Navy }
+	}
+}
+
+
+event = {
+	id = 5024
+	random = no
+	country = U04
+	trigger = {
+                  local_flag = U04Navy
+	}
+
+	name = "ヴィクラント改装計画"
+	desc = "EVT_5024_DESC"
+
+	date = { day = 5 month = 6 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を承認する"
+                ai_chance = 80
+		command = { type = industrial_modifier which = total value = -4 }
+		command = { type = money value = -400 }
+		command = { type = supplies value = -3000 }
+                command = { type = local_setflag which = vikrant }
+	}
+	action_b = {
+		name = "ヴィクラントはスクラップだ"
+                ai_chance = 20
+		command = { type = supplies value = 3000 }
+	}
+}
+
+
+event = {
+	id = 5025
+	random = no
+	country = U04
+	trigger = {
+                  local_flag = U04Navy
+                  event = 5003
+	}
+
+	name = "ヴィクラマーディティヤ改装計画"
+	desc = "EVT_5025_DESC"
+
+	date = { day = 5 month = 7 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を承認する"
+                ai_chance = 80
+		command = { type = industrial_modifier which = total value = -4 }
+		command = { type = money value = -400 }
+		command = { type = supplies value = -2000 }
+                command = { type = local_setflag which = vikrama }
+	}
+	action_b = {
+		name = "バクーはスクラップだ"
+                ai_chance = 20
+		command = { type = supplies value = 3000 }
+	}
+}
+
+
+event = {
+	id = 5026
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = vikrant
+	}
+
+	name = "ヴィクラント就役"
+	desc = "EVT_5026_DESC"
+
+	date = { day = 7 month = 7 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 4 }
+		command = { type = activate_division which = 27002 value = 4257 where = 1353 when = 1 }
+	}
+}
+
+
+event = {
+	id = 5027
+	random = no
+	country = SOV
+	trigger = {
+                  local_flag = vikrama
+	}
+
+	name = "ヴィクラマーディティヤ就役"
+	desc = "EVT_5026_DESC"
+
+	date = { day = 7 month = 10 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = industrial_modifier which = total value = 4 }
+		command = { type = activate_division which = 27002 value = 4258 where = 1353 when = 1 }
+	}
+}
+
+
+event = {
+	id = 5028
+	random = no
+	country = U04
+	trigger = {
+                  local_flag = U04Navy
+	}
+
+	name = "オリバー・ハザード・ペリー級"
+	desc = "EVT_5028_DESC"
+
+	date = { day = 9 month = 4 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "購入を打診する"
+                ai_chance = 80
+                command = { type = setflag which = OHP }
+	}
+	action_b = {
+		name = "その必要は無い"
+                ai_chance = 20
+		command = { }
+	}
+}
+
+
+event = {
+	id = 5029
+	random = no
+	country = USA
+	trigger = {
+                  flag = OHP
+	}
+
+	name = "オリバー・ハザード・ペリー級"
+	desc = "EVT_5029_DESC"
+
+	date = { day = 9 month = 4 year = 1999 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "供与を許可する"
+                ai_chance = 80
+		command = { type = setflag which = OHP2 }
+		command = { type = money value = 200 }
+	}
+	action_b = {
+		name = "供与を拒否する"
+                ai_chance = 20
+		command = { }
+	}
+}
+
+
+event = {
+	id = 5030
+	random = no
+	country = U04
+	trigger = {
+                  flag = OHP2
+	}
+
+	name = "オリバー・ハザード・ペリー級購入"
+	desc = "EVT_5030_DESC"
+
+	date = { day = 9 month = 4 year = 1999 }
+	offset = 10
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = money value = -200 }
+                command = { type = add_division which = ナレースワン value = destroyer when = 2 }
+                command = { type = add_division which = タクシン value = destroyer when = 2 }
+	}
+}
+
+
+event = {
+	id = 5031
+	random = no
+	country = JAP
+	trigger = {
+                  supplies = 3000
+	}
+
+	name = "戦術機母艦配備計画"
+	desc = "EVT_5031_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "計画を承認する"
+                ai_chance = 90
+		command = { type = money value = -800 }
+		command = { type = supplies value = -3000 }
+                command = { type = setflag which = JCV }
+	}
+	action_b = {
+		name = "そんな余裕は無い"
+                ai_chance = 10
+                command = { }
+	}
+}
+
+
+event = {
+	id = 5032
+	random = no
+	country = JAP
+	trigger = {
+                  flag = JCV
+	}
+
+	name = "米国への打診"
+	desc = "EVT_5032_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 10
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "打診する"
+                command = { type = trigger which = 5033 }
+		command = { type = money value = -100 }
+	}
+}
+
+
+event = {
+	id = 5033
+	random = no
+	country = USA
+	trigger = {
+                  event = 5032
+	}
+
+	name = "戦術機母艦供与"
+	desc = "EVT_5033_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "許諾する"
+                ai_chance = 80
+                command = { type = setflag which = JCV2 }
+                command = { type = relation which = JAP value = 30 }
+	}
+	action_b = {
+		name = "拒否する"
+                ai_chance = 20
+                command = { type = setflag which = JCV3 }
+	}
+}
+
+
+event = {
+	id = 5034
+	random = no
+	country = JAP
+	trigger = {
+                  flag = JCV2
+	}
+
+	name = "戦術機母艦供与-許諾-"
+	desc = "EVT_5034_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = setflag which = JCV4 }
+	}
+}
+
+
+event = {
+	id = 5035
+	random = no
+	country = JAP
+	trigger = {
+                  flag = JCV3
+	}
+
+	name = "戦術機母艦供与-拒否-"
+	desc = "EVT_5035_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんてことだ・・・"
+                command = { }
+	}
+}
+
+
+event = {
+	id = 5036
+	random = no
+	country = JAP
+	trigger = {
+                  flag = JCV4
+	}
+
+	name = "戦術機母艦の選択"
+	desc = "EVT_5036_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 20
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "フォレスタル級インディペンデンス"
+                ai_chance = 40
+                command = { type = setflag which = JCVF }
+	}
+	action_b = {
+		name = "キティホーク級アメリカ"
+                ai_chance = 60
+                command = { type = setflag which = JCVK }
+	}
+}
+
+
+event = {
+	id = 5037
+	random = no
+	country = USA
+	trigger = {
+                  flag = JCVF
+	}
+
+	name = "戦術機母艦供与-フォレスタル級-"
+	desc = "EVT_5037_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "許可する"
+                command = { type = setflag which = JCVF2 }
+		command = { type = money value = 600 }
+                command = { type = relation which = JAP value = 30 }
+	}
+	action_b = {
+		name = "拒否する"
+                command = { type = setflag which = JCVF3 }
+	}
+}
+
+
+event = {
+	id = 5038
+	random = no
+	country = USA
+	trigger = {
+                  flag = JCVK
+	}
+
+	name = "戦術機母艦供与-キティホーク級-"
+	desc = "EVT_5038_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "許可する"
+                command = { type = setflag which = JCVK2 }
+		command = { type = money value = 800 }
+                command = { type = relation which = JAP value = 30 }
+	}
+	action_b = {
+		name = "拒否する"
+                command = { type = setflag which = JCVK3 }
+	}
+}
+
+
+event = {
+	id = 5039
+	random = no
+	country = JAP
+	trigger = {
+                  flag = JCVF2
+	}
+
+	name = "供与承諾-フォレスタル級-"
+	desc = "EVT_5039_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = money value = -600 }
+	}
+}
+
+
+event = {
+	id = 5040
+	random = no
+	country = JAP
+	trigger = {
+                  flag = JCVK2
+	}
+
+	name = "供与承諾-キティフォーク級-"
+	desc = "EVT_5040_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "大変結構！"
+		command = { type = money value = -800 }
+	}
+}
+
+
+event = {
+	id = 5041
+	random = no
+	country = JAP
+	trigger = {
+                  flag = JCVF3
+	}
+
+	name = "供与拒否-フォレスタル級-"
+	desc = "EVT_5041_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんてことだ・・・"
+		command = { }
+	}
+}
+
+
+event = {
+	id = 5042
+	random = no
+	country = JAP
+	trigger = {
+                  flag = JCVK3
+	}
+
+	name = "供与拒否-キティホーク級-"
+	desc = "EVT_5042_DESC"
+
+	date = { day = 6 month = 2 year = 2002 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "なんてことだ・・・"
+		command = { }
+	}
+}
+
+
+event = {
+	id = 5043
+	random = no
+	country = JAP
+	trigger = {
+                  event = 5039
+	}
+
+	name = "伊吹就役"
+	desc = "EVT_5043_DESC"
+
+	date = { day = 7 month = 2 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = activate_division which = 10002 value = 3063 where = 2623 when = 1 }
+	}
+}
+
+
+event = {
+	id = 5044
+	random = no
+	country = JAP
+	trigger = {
+                  event = 5040
+	}
+
+	name = "赤城就役"
+	desc = "EVT_5044_DESC"
+
+	date = { day = 7 month = 2 year = 2003 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい"
+		command = { type = activate_division which = 10002 value = 3064 where = 2623 when = 1 }
+	}
+}
+
+event = {
+	id = 5045
+	random = no
+	country = U02
+	trigger = {
+                  supplies = 3000
+	}
+
+	name = "リリー･マルレーン改修"
+	desc = "EVT_5045_DESC"
+
+	date = { day = 7 month = 4 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい!"
+		command = { type = activate_division which = 25002 value = 5034 where = 20 when = 1 }
+	}
+}
+
+event = {
+	id = 5046
+	random = no
+	country = USA
+	trigger = {
+                  supplies = 3000
+	}
+
+	name = "ハリー･S･トルーマン就役"
+	desc = "EVT_5046_DESC"
+
+	date = { day = 24 month = 6 year = 1998 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい!"
+		command = { type = activate_division which = 23002 value = 5916 where = 608 when = 1 }
+	}
+}
+
+event = {
+	id = 5047
+	random = no
+	country = U05
+	trigger = {
+                  event = 5011
+	}
+
+	name = "遼寧就役"
+	desc = "EVT_5047_DESC"
+
+	date = { day = 3 month = 9 year = 2004 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "すばらしい!"
+		command = { type = activate_division which = 26502 value = 3780 where = 2638 when = 1 }
+	}
+}

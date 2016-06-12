@@ -1,0 +1,13 @@
+# Rail Artillery
+model = {
+	cost 				= 5
+	buildtime	 		= 180
+	manpower 		= 4
+	defensiveness 		= 0
+	maxspeed 			= -3
+	softattack			= 3
+	hardattack			= 1
+	supplyconsumption 	= 1.4
+	upgrade_time_factor = 0.5
+	upgrade_cost_factor = 1.0
+}

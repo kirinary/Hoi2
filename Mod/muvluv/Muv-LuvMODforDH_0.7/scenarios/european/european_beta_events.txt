@@ -1,0 +1,1870 @@
+##############################################################
+##
+## 欧州大戦イベント_BETA(23501~23600)
+##
+##############################################################
+##
+## id = 23501   初期調整(U12)
+## id = 23502	初期調整(U16)
+## id = 23503	初期調整(U19)
+## id = 23504	イギリス本土上陸(U12)
+## id = 23505	ブダペストハイヴ建設(U12)
+## id = 23506   ブダペストハイヴ建設(U22)
+## id = 23507	リヨンハイヴ建設(U12)
+## id = 23508	リヨンハイヴ建設(U23)
+## id = 23509   ミンスクハイヴフェイズ4
+## id = 23510   ミンスクハイヴフェイズ5
+## id = 23511   ロヴァニエミハイヴフェイズ4
+## id = 23512   ロヴァニエミハイヴフェイズ5
+## id = 23513   ブダペストハイヴフェイズ2
+## id = 23514   ブダペストハイヴフェイズ3
+## id = 23515   ブダペストハイヴフェイズ4
+## id = 23516   ブダペストハイヴフェイズ5
+## id = 23517   リヨンハイヴフェイズ2
+## id = 23518   リヨンハイヴフェイズ3
+## id = 23519   リヨンハイヴフェイズ4
+## id = 23520   リヨンハイヴフェイズ5
+## id = 23521   AI_EVENT(U12) #BETA生産イベント
+## id = 23522   AI_EVENT(U12) #BETA生産イベント1987年
+## id = 23523   AI_EVENT(U12) #1987年能力調整
+## id = 23524   AI_EVENT(U12) #BETA生産イベント1990年
+## id = 23525   AI_EVENT(U12) #1990年能力調整
+## id = 23526   AI_EVENT(U12) #BETA生産イベント欧州大陸制圧時
+## id = 23527   AI_EVENT(U22) #欧州大陸制圧時
+## id = 23528   AI_EVENT(U22) #BETA生産イベント(停止中)
+## id = 23529   AI_EVENT(U23) #BETA生産イベント(停止中)
+## id = 23530
+## id = 23531
+## id = 23532
+## id = 23533
+## id = 23534
+## id = 23535
+## id = 23536
+## id = 23537
+## id = 23538
+## id = 23539
+## id = 23540
+## id = 23541
+## id = 23542
+## id = 23543
+## id = 23544
+## id = 23545
+## id = 23546
+## id = 23547
+## id = 23548
+## id = 23549
+## id = 23550
+##
+##############################################################
+
+event = {
+	id = 23501
+	random = no 
+	country = U12
+	trigger = {
+                ai = yes
+	}
+	name = "初期調整"
+	desc = "初期調整"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+                command = { type = ground_def_eff value = 0.2 when = 0 }
+                command = { type = surprise which = land value = -30 }
+                command = { type = morale which = land value = -50 }
+                command = { type = toughness which = land value = -40 }
+                command = { type = defensiveness which = land value = -40 }
+                command = { type = soft_attack which = land value = -10 }
+                command = { type = hard_attack which = land value = -10 }
+		command = { type = setflag which = Kashgar_Hive }
+		command = { type = setflag which = Minsk_Hive }
+		command = { type = setflag which = Rovaniemi_Hive }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = now where = relative value = -100000 }
+                command = { type = build_time which = infantry when = now where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 23502
+	random = no 
+	country = U16
+	trigger = {
+                ai = yes
+	}
+	name = "初期調整"
+	desc = "初期調整"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+                #command = { type = ground_def_eff value = 0.2 }
+		command = { type = local_setflag which = Phase_3 }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = now where = relative value = -100000 }
+                command = { type = build_time which = infantry when = now where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 23503
+	random = no 
+	country = U19
+	trigger = {
+                ai = yes
+	}
+	name = "初期調整"
+	desc = "初期調整"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+                #command = { type = ground_def_eff value = 0.2 }
+		command = { type = local_setflag which = Phase_3 }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                #command = { type = deactivate_unit_type which = infantry }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = now where = relative value = -100000 }
+                command = { type = build_time which = infantry when = now where = relative value = 100000 }
+	}
+}
+
+event = {
+	id = 23504
+	random = no 
+	country = U12
+	trigger = {
+                control = { province = 38 data = -3 }
+                #event = 23014
+	}
+	name = "イギリス本土上陸"
+	desc = "イギリス上陸"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+		# 要塞級(2)
+		command = { type = add_corps value = land where = 20 }
+		command = { type = add_division value = hq when = 33 where = light_armor_brigade }
+		command = { type = add_division value = hq when = 33 where = light_armor_brigade }
+		#command = { type = add_division value = hq when = 33 where = light_armor_brigade }
+		#command = { type = add_division value = hq when = 33 where = light_armor_brigade }
+		#command = { type = add_division value = hq when = 33 where = light_armor_brigade }
+                # 要撃級(5)
+		#command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		#command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		#command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		#command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		#command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade  }
+		# 突撃級(5)
+		#command = { type = add_division value = marine when = 33 where = heavy_armor }
+		#command = { type = add_division value = marine when = 33 where = heavy_armor }
+		#command = { type = add_division value = marine when = 33 where = heavy_armor }
+		#command = { type = add_division value = marine when = 33 where = heavy_armor }
+		#command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		# 重光線級(3)
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		#command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		#command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		#command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		#command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		#command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		#command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		#command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = free_supplies value = 1000 }
+                command = { type = supplies value = 50000 where = 20 }
+                command = { type = oilpool value = 50000 where = 20 }
+                #command = { type = trigger which = 23112 }
+                #command = { type = trigger which = 23308 }
+                #command = { type = trigger which = 23408 }
+	}
+}
+
+
+event = {
+	id = 23505
+	random = no
+	country = U12
+	trigger = {
+                ai = yes
+		control = { province = 457 data = -1 }
+		random = 5
+		NOT = {
+			exists = U22
+		}
+	}
+
+	name = "ブダペストハイヴの建設"
+	desc = "EVT_37010_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 10
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = independence which = U22 value = 1 when = 0 }
+		command = { type = construct which = infrastructure where = 457 value = 2 }
+		command = { type = construct which = ic where = 457 value = 10 }
+		command = { type = construct which = coastal_fort where = 457 value = 10 }
+		#command = { type = construct which = land_fort where = 457 value = 10 }
+		command = { type = construct which = flak where = 457 value = 10 }
+		command = { type = construct which = air_base where = 457 value = 10 }
+		command = { type = construct which = naval_base where = 457 value = 10 }
+		command = { type = construct which = radar_station where = 457 value = 10 }
+                command = { type = secedeprovince which = U22 value = 457 }
+                command = { type = alliance which = U22 }
+                command = { type = trigger which = 23506 }
+	}
+}
+
+event = {
+	id = 23506
+	random = no
+	country = U22
+	trigger = {
+		event = 23505
+	}
+
+	name = "ブタペストハイヴの建設"
+	desc = "ブタペストハイヴが完成した。"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "建築終了"
+		command = { type = setflag which = Budapest_Hive }
+		command = { type = local_setflag which = Phase_1 }
+		command = { type = add_corps value = land where = 457 }
+		command = { type = add_division which = "ブタペストハイヴ" value = garrison when = 11 } # ハイヴユニット
+		command = { type = add_division which = 門級 value = garrison when = 33 } # 門級
+		command = { type = free_oil value = 500 }
+		command = { type = free_metal value = 500 }
+                command = { type = free_energy value = 800 }
+                command = { type = free_ic value = 300 }
+                command = { type = free_rare_materials value = 500 }
+                command = { type = free_supplies value = 500 }
+                command = { type = free_manpower value = 9 }
+                command = { type = extra_tc value = 9999 }
+                command = { type = alliance which = U12 }
+                command = { type = alliance which = U16 }
+                command = { type = alliance which = U19 }
+                command = { type = alliance which = U23 }
+		command = { type = ai which = european_U22.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = now where = relative value = -100000 }
+                command = { type = build_time which = infantry when = now where = relative value = 100000 }
+      command = { type = activate_unit_type which = infantry }
+      command = { type = activate_unit_type which = bergsjaeger }
+      command = { type = activate_unit_type which = hq }
+      command = { type = activate_unit_type which = paratrooper }
+      command = { type = activate_unit_type which = motorized }
+      command = { type = activate_unit_type which = light_armor_brigade }
+      command = { type = activate_unit_type which = heavy_armor }
+      command = { type = activate_unit_type which = super_heavy_armor }
+      command = { type = new_model which = motorized value = 33 }
+      command = { type = scrap_model which = motorized value = 0 }
+      command = { type = activate_unit_type which = garrison }
+      command = { type = new_model which = garrison value = 33 }
+      command = { type = scrap_model which = garrison value = 0 }
+      command = { type = new_model which = infantry value = 33 }
+      command = { type = scrap_model which = infantry value = 0 }
+      command = { type = new_model which = paratrooper value = 33 }
+      command = { type = scrap_model which = paratrooper value = 0 }
+      command = { type = new_model which = bergsjaeger value = 33 }
+      command = { type = scrap_model which = bergsjaeger value = 0 }
+      command = { type = new_model which = hq value = 33 }
+      command = { type = scrap_model which = hq value = 0 }
+      command = { type = activate_unit_type which = militia }
+      command = { type = scrap_model which = militia value = 0 }
+      command = { type = new_model which = militia value = 6 }
+      command = { type = assault value = 20 }
+      command = { type = encirclement value = 20 }
+      command = { type = breakthrough value = 20 }
+      command = { type = blizzard_attack which = infantry value = 30 }
+      command = { type = blizzard_defense which = infantry value = 30 }
+      command = { type = blizzard_move which = infantry value = 30 }
+      command = { type = frozen_attack which = infantry value = 30 }
+      command = { type = frozen_defense which = infantry value = 30 }
+      command = { type = frozen_move which = infantry value = 30 }
+      command = { type = snow_attack which = infantry value = 30 }
+      command = { type = snow_defense which = infantry value = 30 }
+      command = { type = snow_move which = infantry value = 30 }
+      command = { type = blizzard_attack which = cavalry value = 30 }
+      command = { type = blizzard_defense which = cavalry value = 30 }
+      command = { type = blizzard_move which = cavalry value = 30 }
+      command = { type = frozen_attack which = cavalry value = 30 }
+      command = { type = frozen_defense which = cavalry value = 30 }
+      command = { type = frozen_move which = cavalry value = 30 }
+      command = { type = snow_attack which = cavalry value = 30 }
+      command = { type = snow_defense which = cavalry value = 30 }
+      command = { type = snow_move which = cavalry value = 30 }
+      command = { type = blizzard_attack which = motorized value = 30 }
+      command = { type = blizzard_defense which = motorized value = 30 }
+      command = { type = blizzard_move which = motorized value = 30 }
+      command = { type = frozen_attack which = motorized value = 30 }
+      command = { type = frozen_defense which = motorized value = 30 }
+      command = { type = frozen_move which = motorized value = 30 }
+      command = { type = snow_attack which = motorized value = 30 }
+      command = { type = snow_defense which = motorized value = 30 }
+      command = { type = snow_move which = motorized value = 30 }
+      command = { type = blizzard_attack which = mechanized value = 30 }
+      command = { type = blizzard_defense which = mechanized value = 30 }
+      command = { type = blizzard_move which = mechanized value = 30 }
+      command = { type = frozen_attack which = mechanized value = 30 }
+      command = { type = frozen_defense which = mechanized value = 30 }
+      command = { type = frozen_move which = mechanized value = 30 }
+      command = { type = snow_attack which = mechanized value = 30 }
+      command = { type = snow_defense which = mechanized value = 30 }
+      command = { type = snow_move which = mechanized value = 30 }
+      command = { type = blizzard_attack which = light_armor value = 30 }
+      command = { type = blizzard_defense which = light_armor value = 30 }
+      command = { type = blizzard_move which = light_armor value = 30 }
+      command = { type = frozen_attack which = light_armor value = 30 }
+      command = { type = frozen_defense which = light_armor value = 30 }
+      command = { type = frozen_move which = light_armor value = 30 }
+      command = { type = snow_attack which = light_armor value = 30 }
+      command = { type = snow_defense which = light_armor value = 30 }
+      command = { type = snow_move which = light_armor value = 30 }
+      command = { type = blizzard_attack which = armor value = 30 }
+      command = { type = blizzard_defense which = armor value = 30 }
+      command = { type = blizzard_move which = armor value = 30 }
+      command = { type = frozen_attack which = armor value = 30 }
+      command = { type = frozen_defense which = armor value = 30 }
+      command = { type = frozen_move which = armor value = 30 }
+      command = { type = snow_attack which = armor value = 30 }
+      command = { type = snow_defense which = armor value = 30 }
+      command = { type = snow_move which = armor value = 30 }
+      command = { type = blizzard_attack which = bergsjaeger value = 30 }
+      command = { type = blizzard_defense which = bergsjaeger value = 30 }
+      command = { type = blizzard_move which = bergsjaeger value = 30 }
+      command = { type = frozen_attack which = bergsjaeger value = 30 }
+      command = { type = frozen_defense which = bergsjaeger value = 30 }
+      command = { type = frozen_move which = bergsjaeger value = 30 }
+      command = { type = snow_attack which = bergsjaeger value = 30 }
+      command = { type = snow_defense which = bergsjaeger value = 30 }
+      command = { type = snow_move which = bergsjaeger value = 30 }
+      command = { type = blizzard_attack which = garrison value = 30 }
+      command = { type = blizzard_defense which = garrison value = 30 }
+      command = { type = blizzard_move which = garrison value = 30 }
+      command = { type = frozen_attack which = garrison value = 30 }
+      command = { type = frozen_defense which = garrison value = 30 }
+      command = { type = frozen_move which = garrison value = 30 }
+      command = { type = snow_attack which = garrison value = 30 }
+      command = { type = snow_defense which = garrison value = 30 }
+      command = { type = snow_move which = garrison value = 30 }
+      command = { type = blizzard_attack which = hq value = 30 }
+      command = { type = blizzard_defense which = hq value = 30 }
+      command = { type = blizzard_move which = hq value = 30 }
+      command = { type = frozen_attack which = hq value = 30 }
+      command = { type = frozen_defense which = hq value = 30 }
+      command = { type = frozen_move which = hq value = 30 }
+      command = { type = snow_attack which = hq value = 30 }
+      command = { type = snow_defense which = hq value = 30 }
+      command = { type = snow_move which = hq value = 30 }
+      command = { type = blizzard_attack which = marine value = 30 }
+      command = { type = blizzard_defense which = marine value = 30 }
+      command = { type = blizzard_move which = marine value = 30 }
+      command = { type = frozen_attack which = marine value = 30 }
+      command = { type = frozen_defense which = marine value = 30 }
+      command = { type = frozen_move which = marine value = 30 }
+      command = { type = snow_attack which = marine value = 30 }
+      command = { type = snow_defense which = marine value = 30 }
+      command = { type = snow_move which = marine value = 30 }
+      command = { type = blizzard_attack which = militia value = 30 }
+      command = { type = blizzard_defense which = militia value = 30 }
+      command = { type = blizzard_move which = militia value = 30 }
+      command = { type = frozen_attack which = militia value = 30 }
+      command = { type = frozen_defense which = militia value = 30 }
+      command = { type = frozen_move which = militia value = 30 }
+      command = { type = snow_attack which = militia value = 30 }
+      command = { type = snow_defense which = militia value = 30 }
+      command = { type = snow_move which = militia value = 30 }
+      command = { type = blizzard_attack which = paratrooper value = 30 }
+      command = { type = blizzard_defense which = paratrooper value = 30 }
+      command = { type = blizzard_move which = paratrooper value = 30 }
+      command = { type = frozen_attack which = paratrooper value = 30 }
+      command = { type = frozen_defense which = paratrooper value = 30 }
+      command = { type = frozen_move which = paratrooper value = 30 }
+      command = { type = snow_attack which = paratrooper value = 30 }
+      command = { type = snow_defense which = paratrooper value = 30 }
+      command = { type = snow_move which = paratrooper value = 30 }
+      command = { type = JUNGLE_attack which = infantry value = 30 }
+      command = { type = JUNGLE_defense which = infantry value = 30 }
+      command = { type = JUNGLE_move which = infantry value = 30 }
+      command = { type = JUNGLE_attack which = cavalry value = 30 }
+      command = { type = JUNGLE_defense which = cavalry value = 30 }
+      command = { type = JUNGLE_move which = cavalry value = 30 }
+      command = { type = JUNGLE_attack which = motorized value = 30 }
+      command = { type = JUNGLE_defense which = motorized value = 30 }
+      command = { type = JUNGLE_move which = motorized value = 30 }
+      command = { type = JUNGLE_attack which = mechanized value = 30 }
+      command = { type = JUNGLE_defense which = mechanized value = 30 }
+      command = { type = JUNGLE_move which = mechanized value = 30 }
+      command = { type = JUNGLE_attack which = light_armor value = 30 }
+      command = { type = JUNGLE_defense which = light_armor value = 30 }
+      command = { type = JUNGLE_move which = light_armor value = 30 }
+      command = { type = JUNGLE_attack which = armor value = 30 }
+      command = { type = JUNGLE_defense which = armor value = 30 }
+      command = { type = JUNGLE_move which = armor value = 30 }
+      command = { type = JUNGLE_attack which = bergsjaeger value = 30 }
+      command = { type = JUNGLE_defense which = bergsjaeger value = 30 }
+      command = { type = JUNGLE_move which = bergsjaeger value = 30 }
+      command = { type = JUNGLE_attack which = garrison value = 30 }
+      command = { type = JUNGLE_defense which = garrison value = 30 }
+      command = { type = JUNGLE_move which = garrison value = 30 }
+      command = { type = JUNGLE_attack which = hq value = 30 }
+      command = { type = JUNGLE_defense which = hq value = 30 }
+      command = { type = JUNGLE_move which = hq value = 30 }
+      command = { type = JUNGLE_attack which = marine value = 30 }
+      command = { type = JUNGLE_defense which = marine value = 30 }
+      command = { type = JUNGLE_move which = marine value = 30 }
+      command = { type = JUNGLE_attack which = militia value = 30 }
+      command = { type = JUNGLE_defense which = militia value = 30 }
+      command = { type = JUNGLE_move which = militia value = 30 }
+      command = { type = JUNGLE_attack which = paratrooper value = 30 }
+      command = { type = JUNGLE_defense which = paratrooper value = 30 }
+      command = { type = JUNGLE_move which = paratrooper value = 30 }
+      command = { type = STORM_attack which = infantry value = 30 }
+      command = { type = STORM_defense which = infantry value = 30 }
+      command = { type = STORM_move which = infantry value = 30 }
+      command = { type = STORM_attack which = cavalry value = 30 }
+      command = { type = STORM_defense which = cavalry value = 30 }
+      command = { type = STORM_move which = cavalry value = 30 }
+      command = { type = STORM_attack which = motorized value = 30 }
+      command = { type = STORM_defense which = motorized value = 30 }
+      command = { type = STORM_move which = motorized value = 30 }
+      command = { type = STORM_attack which = mechanized value = 30 }
+      command = { type = STORM_defense which = mechanized value = 30 }
+      command = { type = STORM_move which = mechanized value = 30 }
+      command = { type = STORM_attack which = light_armor value = 30 }
+      command = { type = STORM_defense which = light_armor value = 30 }
+      command = { type = STORM_move which = light_armor value = 30 }
+      command = { type = STORM_attack which = armor value = 30 }
+      command = { type = STORM_defense which = armor value = 30 }
+      command = { type = STORM_move which = armor value = 30 }
+      command = { type = STORM_attack which = bergsjaeger value = 30 }
+      command = { type = STORM_defense which = bergsjaeger value = 30 }
+      command = { type = STORM_move which = bergsjaeger value = 30 }
+      command = { type = STORM_attack which = garrison value = 30 }
+      command = { type = STORM_defense which = garrison value = 30 }
+      command = { type = STORM_move which = garrison value = 30 }
+      command = { type = STORM_attack which = hq value = 30 }
+      command = { type = STORM_defense which = hq value = 30 }
+      command = { type = STORM_move which = hq value = 30 }
+      command = { type = STORM_attack which = marine value = 30 }
+      command = { type = STORM_defense which = marine value = 30 }
+      command = { type = STORM_move which = marine value = 30 }
+      command = { type = STORM_attack which = militia value = 30 }
+      command = { type = STORM_defense which = militia value = 30 }
+      command = { type = STORM_move which = militia value = 30 }
+      command = { type = STORM_attack which = paratrooper value = 30 }
+      command = { type = STORM_defense which = paratrooper value = 30 }
+      command = { type = STORM_move which = paratrooper value = 30 }
+      command = { type = SWAMP_attack which = infantry value = 30 }
+      command = { type = SWAMP_defense which = infantry value = 30 }
+      command = { type = SWAMP_move which = infantry value = 30 }
+      command = { type = SWAMP_attack which = cavalry value = 30 }
+      command = { type = SWAMP_defense which = cavalry value = 30 }
+      command = { type = SWAMP_move which = cavalry value = 30 }
+      command = { type = SWAMP_attack which = motorized value = 30 }
+      command = { type = SWAMP_defense which = motorized value = 30 }
+      command = { type = SWAMP_move which = motorized value = 30 }
+      command = { type = SWAMP_attack which = mechanized value = 30 }
+      command = { type = SWAMP_defense which = mechanized value = 30 }
+      command = { type = SWAMP_move which = mechanized value = 30 }
+      command = { type = SWAMP_attack which = light_armor value = 30 }
+      command = { type = SWAMP_defense which = light_armor value = 30 }
+      command = { type = SWAMP_move which = light_armor value = 30 }
+      command = { type = SWAMP_attack which = armor value = 30 }
+      command = { type = SWAMP_defense which = armor value = 30 }
+      command = { type = SWAMP_move which = armor value = 30 }
+      command = { type = SWAMP_attack which = bergsjaeger value = 30 }
+      command = { type = SWAMP_defense which = bergsjaeger value = 30 }
+      command = { type = SWAMP_move which = bergsjaeger value = 30 }
+      command = { type = SWAMP_attack which = garrison value = 30 }
+      command = { type = SWAMP_defense which = garrison value = 30 }
+      command = { type = SWAMP_move which = garrison value = 30 }
+      command = { type = SWAMP_attack which = hq value = 30 }
+      command = { type = SWAMP_defense which = hq value = 30 }
+      command = { type = SWAMP_move which = hq value = 30 }
+      command = { type = SWAMP_attack which = marine value = 30 }
+      command = { type = SWAMP_defense which = marine value = 30 }
+      command = { type = SWAMP_move which = marine value = 30 }
+      command = { type = SWAMP_attack which = militia value = 30 }
+      command = { type = SWAMP_defense which = militia value = 30 }
+      command = { type = SWAMP_move which = militia value = 30 }
+      command = { type = SWAMP_attack which = paratrooper value = 30 }
+      command = { type = SWAMP_defense which = paratrooper value = 30 }
+      command = { type = SWAMP_move which = paratrooper value = 30 }
+      command = { type = Hill_attack which = infantry value = 30 }
+      command = { type = Hill_defense which = infantry value = 30 }
+      command = { type = Hill_move which = infantry value = 30 }
+      command = { type = mountain_attack which = infantry value = 30 }
+      command = { type = mountain_defense which = infantry value = 30 }
+      command = { type = mountain_move which = infantry value = 30 }
+      command = { type = Hill_attack which = cavalry value = 30 }
+      command = { type = Hill_defense which = cavalry value = 30 }
+      command = { type = Hill_move which = cavalry value = 30 }
+      command = { type = mountain_attack which = cavalry value = 30 }
+      command = { type = mountain_defense which = cavalry value = 30 }
+      command = { type = mountain_move which = cavalry value = 30 }
+      command = { type = Hill_attack which = motorized value = 30 }
+      command = { type = Hill_defense which = motorized value = 30 }
+      command = { type = Hill_move which = motorized value = 30 }
+      command = { type = mountain_attack which = motorized value = 30 }
+      command = { type = mountain_defense which = motorized value = 30 }
+      command = { type = mountain_move which = motorized value = 30 }
+      command = { type = Hill_attack which = mechanized value = 30 }
+      command = { type = Hill_defense which = mechanized value = 30 }
+      command = { type = Hill_move which = mechanized value = 30 }
+      command = { type = mountain_attack which = mechanized value = 30 }
+      command = { type = mountain_defense which = mechanized value = 30 }
+      command = { type = mountain_move which = mechanized value = 30 }
+      command = { type = Hill_attack which = light_armor value = 30 }
+      command = { type = Hill_defense which = light_armor value = 30 }
+      command = { type = Hill_move which = light_armor value = 30 }
+      command = { type = mountain_attack which = light_armor value = 30 }
+      command = { type = mountain_defense which = light_armor value = 30 }
+      command = { type = mountain_move which = light_armor value = 30 }
+      command = { type = Hill_attack which = armor value = 30 }
+      command = { type = Hill_defense which = armor value = 30 }
+      command = { type = Hill_move which = armor value = 30 }
+      command = { type = mountain_attack which = armor value = 30 }
+      command = { type = mountain_defense which = armor value = 30 }
+      command = { type = mountain_move which = armor value = 30 }
+      command = { type = Hill_attack which = bergsjaeger value = 30 }
+      command = { type = Hill_defense which = bergsjaeger value = 30 }
+      command = { type = Hill_move which = bergsjaeger value = 30 }
+      command = { type = mountain_attack which = bergsjaeger value = 30 }
+      command = { type = mountain_defense which = bergsjaeger value = 30 }
+      command = { type = mountain_move which = bergsjaeger value = 30 }
+      command = { type = Hill_attack which = garrison value = 30 }
+      command = { type = Hill_defense which = garrison value = 30 }
+      command = { type = Hill_move which = garrison value = 30 }
+      command = { type = mountain_attack which = garrison value = 30 }
+      command = { type = mountain_defense which = garrison value = 30 }
+      command = { type = mountain_move which = garrison value = 30 }
+      command = { type = Hill_attack which = hq value = 30 }
+      command = { type = Hill_defense which = hq value = 30 }
+      command = { type = Hill_move which = hq value = 30 }
+      command = { type = mountain_attack which = hq value = 30 }
+      command = { type = mountain_defense which = hq value = 30 }
+      command = { type = mountain_move which = hq value = 30 }
+      command = { type = Hill_attack which = marine value = 30 }
+      command = { type = Hill_defense which = marine value = 30 }
+      command = { type = Hill_move which = marine value = 30 }
+      command = { type = mountain_attack which = marine value = 30 }
+      command = { type = mountain_defense which = marine value = 30 }
+      command = { type = mountain_move which = marine value = 30 }
+      command = { type = Hill_attack which = militia value = 30 }
+      command = { type = Hill_defense which = militia value = 30 }
+      command = { type = Hill_move which = militia value = 30 }
+      command = { type = mountain_attack which = militia value = 30 }
+      command = { type = mountain_defense which = militia value = 30 }
+      command = { type = mountain_move which = militia value = 30 }
+      command = { type = Hill_attack which = paratrooper value = 30 }
+      command = { type = Hill_defense which = paratrooper value = 30 }
+      command = { type = Hill_move which = paratrooper value = 30 }
+      command = { type = mountain_attack which = paratrooper value = 30 }
+      command = { type = mountain_defense which = paratrooper value = 30 }
+      command = { type = mountain_move which = paratrooper value = 30 }
+      command = { type = night_attack which = infantry value = 30 }
+      command = { type = night_attack which = cavalry value = 30 }
+      command = { type = night_attack which = motorized value = 30 }
+      command = { type = night_attack which = mechanized value = 30 }
+      command = { type = night_attack which = light_armor value = 30 }
+      command = { type = night_attack which = armor value = 30 }
+      command = { type = night_attack which = paratrooper value = 30 }
+      command = { type = night_attack which = marine value = 30 }
+      command = { type = night_attack which = bergsjaeger value = 30 }
+      command = { type = night_attack which = garrison value = 30 }
+      command = { type = night_attack which = hq value = 30 }
+      command = { type = night_attack which = militia value = 30 }
+      command = { type = night_attack which = battleship value = 30 }
+      command = { type = night_attack which = light_cruiser value = 30 }
+      command = { type = night_attack which = heavy_cruiser value = 30 }
+      command = { type = night_attack which = battlecruiser value = 30 }
+      command = { type = night_attack which = destroyer value = 30 }
+      command = { type = night_attack which = carrier value = 30 }
+      command = { type = night_attack which = escort_carrier value = 30 }
+      command = { type = night_attack which = submarine value = 30 }
+      command = { type = night_attack which = nuclear_submarine value = 30 }
+      command = { type = night_attack which = transport value = 30 }
+      command = { type = night_attack which = multi_role value = 30 }
+      command = { type = night_attack which = interceptor value = 30 }
+      command = { type = night_attack which = strategic_bomber value = 30 }
+      command = { type = night_attack which = tactical_bomber value = 30 }
+      command = { type = night_attack which = naval_bomber value = 30 }
+      command = { type = night_attack which = cas value = 30 }
+      command = { type = night_attack which = transport_plane value = 30 }
+      command = { type = night_attack which = flying_bomb value = 30 }
+      command = { type = night_attack which = flying_rocket value = 30 }
+      command = { type = night_defense which = infantry value = 30 }
+      command = { type = night_defense which = cavalry value = 30 }
+      command = { type = night_defense which = motorized value = 30 }
+      command = { type = night_defense which = mechanized value = 30 }
+      command = { type = night_defense which = light_armor value = 30 }
+      command = { type = night_defense which = armor value = 30 }
+      command = { type = night_defense which = paratrooper value = 30 }
+      command = { type = night_defense which = marine value = 30 }
+      command = { type = night_defense which = bergsjaeger value = 30 }
+      command = { type = night_defense which = garrison value = 30 }
+      command = { type = night_defense which = hq value = 30 }
+      command = { type = night_defense which = militia value = 30 }
+      command = { type = night_defense which = battleship value = 30 }
+      command = { type = night_defense which = light_cruiser value = 30 }
+      command = { type = night_defense which = heavy_cruiser value = 30 }
+      command = { type = night_defense which = battlecruiser value = 30 }
+      command = { type = night_defense which = destroyer value = 30 }
+      command = { type = night_defense which = carrier value = 30 }
+      command = { type = night_defense which = escort_carrier value = 30 }
+      command = { type = night_defense which = submarine value = 30 }
+      command = { type = night_defense which = nuclear_submarine value = 30 }
+      command = { type = night_defense which = transport value = 30 }
+      command = { type = night_defense which = multi_role value = 30 }
+      command = { type = night_defense which = interceptor value = 30 }
+      command = { type = night_defense which = strategic_bomber value = 30 }
+      command = { type = night_defense which = tactical_bomber value = 30 }
+      command = { type = night_defense which = naval_bomber value = 30 }
+      command = { type = night_defense which = cas value = 30 }
+      command = { type = night_defense which = transport_plane value = 30 }
+      command = { type = night_defense which = flying_bomb value = 30 }
+      command = { type = night_defense which = flying_rocket value = 30 }
+      command = { type = night_move which = infantry value = 10 }
+      command = { type = night_move which = cavalry value = 10 }
+      command = { type = night_move which = motorized value = 10 }
+      command = { type = night_move which = mechanized value = 10 }
+      command = { type = night_move which = light_armor value = 10 }
+      command = { type = night_move which = armor value = 10 }
+      command = { type = night_move which = paratrooper value = 10 }
+      command = { type = night_move which = marine value = 10 }
+      command = { type = night_move which = bergsjaeger value = 10 }
+      command = { type = night_move which = garrison value = 10 }
+      command = { type = night_move which = hq value = 10 }
+      command = { type = night_move which = militia value = 10 }
+      command = { type = night_move which = battleship value = 10 }
+      command = { type = night_move which = light_cruiser value = 10 }
+      command = { type = night_move which = heavy_cruiser value = 10 }
+      command = { type = night_move which = battlecruiser value = 10 }
+      command = { type = night_move which = destroyer value = 10 }
+      command = { type = night_move which = carrier value = 10 }
+      command = { type = night_move which = escort_carrier value = 10 }
+      command = { type = night_move which = submarine value = 10 }
+      command = { type = night_move which = nuclear_submarine value = 10 }
+      command = { type = night_move which = transport value = 10 }
+      command = { type = night_move which = multi_role value = 10 }
+      command = { type = night_move which = interceptor value = 10 }
+      command = { type = night_move which = strategic_bomber value = 10 }
+      command = { type = night_move which = tactical_bomber value = 10 }
+      command = { type = night_move which = naval_bomber value = 10 }
+      command = { type = night_move which = cas value = 10 }
+      command = { type = night_move which = transport_plane value = 10 }
+      command = { type = night_move which = flying_bomb value = 10 }
+      command = { type = night_move which = flying_rocket value = 10 }
+	}
+}
+
+event = {
+	id = 23507
+	random = no
+	country = U12
+	trigger = {
+                ai = yes
+		control = { province = 529 data = -1 }
+		random = 5
+		NOT = {
+			exists = U23
+		}
+	}
+
+	name = "リヨンハイヴの建設"
+	desc = "EVT_37011_DESC"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 10
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "大変結構！"
+                command = { type = independence which = U23 value = 1 when = 0 }
+		command = { type = construct which = infrastructure where = 529 value = 2 }
+		command = { type = construct which = ic where = 529 value = 10 }
+		command = { type = construct which = coastal_fort where = 529 value = 10 }
+		#command = { type = construct which = land_fort where = 529 value = 10 }
+		command = { type = construct which = flak where = 529 value = 10 }
+		command = { type = construct which = air_base where = 529 value = 10 }
+		command = { type = construct which = naval_base where = 529 value = 10 }
+		command = { type = construct which = radar_station where = 529 value = 10 }
+                command = { type = secedeprovince which = U23 value = 529 }
+                command = { type = alliance which = U23 }
+                command = { type = trigger which = 23508 }
+	}
+}
+
+event = {
+	id = 23508
+	random = no
+	country = U23
+	trigger = {
+		event = 23507
+	}
+
+	name = "リヨンハイヴの建設"
+	desc = "リヨンハイヴが完成した。"
+
+	date = { day = 14 month = 2 year = 1900 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3001 }
+
+	action_a = {
+		name = "建築終了"
+		command = { type = setflag which = Lyon_Hive }
+		command = { type = local_setflag which = Phase_1 }
+		command = { type = add_corps value = land where = 529 }
+		command = { type = add_division which = "リヨンハイヴ" value = garrison when = 11 } # ハイヴユニット
+		command = { type = add_division which = 門級 value = garrison when = 33 } # 門級
+		command = { type = free_oil value = 500 }
+		command = { type = free_metal value = 500 }
+                command = { type = free_energy value = 800 }
+                command = { type = free_ic value = 300 }
+                command = { type = free_rare_materials value = 500 }
+                command = { type = free_supplies value = 500 }
+                command = { type = free_manpower value = 9 }
+                command = { type = extra_tc value = 9999 }
+                command = { type = alliance which = U12 }
+                command = { type = alliance which = U16 }
+                command = { type = alliance which = U19 }
+                command = { type = alliance which = U22 }
+		command = { type = ai which = european_U23.ai }
+                command = { type = deactivate_unit_type which = armor }
+                command = { type = deactivate_unit_type which = light_armor }
+                command = { type = deactivate_unit_type which = bergsjaeger } 
+                command = { type = deactivate_unit_type which = cavalry }
+                command = { type = deactivate_unit_type which = garrison }
+                command = { type = deactivate_unit_type which = hq }
+                command = { type = deactivate_unit_type which = marine }
+                command = { type = deactivate_unit_type which = mechanized }
+                command = { type = deactivate_unit_type which = militia }
+                command = { type = deactivate_unit_type which = motorized }
+                command = { type = deactivate_unit_type which = paratrooper }
+                command = { type = build_cost which = infantry when = now where = relative value = -100000 }
+                command = { type = build_time which = infantry when = now where = relative value = 100000 }
+      command = { type = activate_unit_type which = infantry }
+      command = { type = activate_unit_type which = bergsjaeger }
+      command = { type = activate_unit_type which = hq }
+      command = { type = activate_unit_type which = paratrooper }
+      command = { type = activate_unit_type which = motorized }
+      command = { type = activate_unit_type which = light_armor_brigade }
+      command = { type = activate_unit_type which = heavy_armor }
+      command = { type = activate_unit_type which = super_heavy_armor }
+      command = { type = new_model which = motorized value = 33 }
+      command = { type = scrap_model which = motorized value = 0 }
+      command = { type = activate_unit_type which = garrison }
+      command = { type = new_model which = garrison value = 33 }
+      command = { type = scrap_model which = garrison value = 0 }
+      command = { type = new_model which = infantry value = 33 }
+      command = { type = scrap_model which = infantry value = 0 }
+      command = { type = new_model which = paratrooper value = 33 }
+      command = { type = scrap_model which = paratrooper value = 0 }
+      command = { type = new_model which = bergsjaeger value = 33 }
+      command = { type = scrap_model which = bergsjaeger value = 0 }
+      command = { type = new_model which = hq value = 33 }
+      command = { type = scrap_model which = hq value = 0 }
+      command = { type = activate_unit_type which = militia }
+      command = { type = scrap_model which = militia value = 0 }
+      command = { type = new_model which = militia value = 6 }
+      command = { type = assault value = 20 }
+      command = { type = encirclement value = 20 }
+      command = { type = breakthrough value = 20 }
+      command = { type = blizzard_attack which = infantry value = 30 }
+      command = { type = blizzard_defense which = infantry value = 30 }
+      command = { type = blizzard_move which = infantry value = 30 }
+      command = { type = frozen_attack which = infantry value = 30 }
+      command = { type = frozen_defense which = infantry value = 30 }
+      command = { type = frozen_move which = infantry value = 30 }
+      command = { type = snow_attack which = infantry value = 30 }
+      command = { type = snow_defense which = infantry value = 30 }
+      command = { type = snow_move which = infantry value = 30 }
+      command = { type = blizzard_attack which = cavalry value = 30 }
+      command = { type = blizzard_defense which = cavalry value = 30 }
+      command = { type = blizzard_move which = cavalry value = 30 }
+      command = { type = frozen_attack which = cavalry value = 30 }
+      command = { type = frozen_defense which = cavalry value = 30 }
+      command = { type = frozen_move which = cavalry value = 30 }
+      command = { type = snow_attack which = cavalry value = 30 }
+      command = { type = snow_defense which = cavalry value = 30 }
+      command = { type = snow_move which = cavalry value = 30 }
+      command = { type = blizzard_attack which = motorized value = 30 }
+      command = { type = blizzard_defense which = motorized value = 30 }
+      command = { type = blizzard_move which = motorized value = 30 }
+      command = { type = frozen_attack which = motorized value = 30 }
+      command = { type = frozen_defense which = motorized value = 30 }
+      command = { type = frozen_move which = motorized value = 30 }
+      command = { type = snow_attack which = motorized value = 30 }
+      command = { type = snow_defense which = motorized value = 30 }
+      command = { type = snow_move which = motorized value = 30 }
+      command = { type = blizzard_attack which = mechanized value = 30 }
+      command = { type = blizzard_defense which = mechanized value = 30 }
+      command = { type = blizzard_move which = mechanized value = 30 }
+      command = { type = frozen_attack which = mechanized value = 30 }
+      command = { type = frozen_defense which = mechanized value = 30 }
+      command = { type = frozen_move which = mechanized value = 30 }
+      command = { type = snow_attack which = mechanized value = 30 }
+      command = { type = snow_defense which = mechanized value = 30 }
+      command = { type = snow_move which = mechanized value = 30 }
+      command = { type = blizzard_attack which = light_armor value = 30 }
+      command = { type = blizzard_defense which = light_armor value = 30 }
+      command = { type = blizzard_move which = light_armor value = 30 }
+      command = { type = frozen_attack which = light_armor value = 30 }
+      command = { type = frozen_defense which = light_armor value = 30 }
+      command = { type = frozen_move which = light_armor value = 30 }
+      command = { type = snow_attack which = light_armor value = 30 }
+      command = { type = snow_defense which = light_armor value = 30 }
+      command = { type = snow_move which = light_armor value = 30 }
+      command = { type = blizzard_attack which = armor value = 30 }
+      command = { type = blizzard_defense which = armor value = 30 }
+      command = { type = blizzard_move which = armor value = 30 }
+      command = { type = frozen_attack which = armor value = 30 }
+      command = { type = frozen_defense which = armor value = 30 }
+      command = { type = frozen_move which = armor value = 30 }
+      command = { type = snow_attack which = armor value = 30 }
+      command = { type = snow_defense which = armor value = 30 }
+      command = { type = snow_move which = armor value = 30 }
+      command = { type = blizzard_attack which = bergsjaeger value = 30 }
+      command = { type = blizzard_defense which = bergsjaeger value = 30 }
+      command = { type = blizzard_move which = bergsjaeger value = 30 }
+      command = { type = frozen_attack which = bergsjaeger value = 30 }
+      command = { type = frozen_defense which = bergsjaeger value = 30 }
+      command = { type = frozen_move which = bergsjaeger value = 30 }
+      command = { type = snow_attack which = bergsjaeger value = 30 }
+      command = { type = snow_defense which = bergsjaeger value = 30 }
+      command = { type = snow_move which = bergsjaeger value = 30 }
+      command = { type = blizzard_attack which = garrison value = 30 }
+      command = { type = blizzard_defense which = garrison value = 30 }
+      command = { type = blizzard_move which = garrison value = 30 }
+      command = { type = frozen_attack which = garrison value = 30 }
+      command = { type = frozen_defense which = garrison value = 30 }
+      command = { type = frozen_move which = garrison value = 30 }
+      command = { type = snow_attack which = garrison value = 30 }
+      command = { type = snow_defense which = garrison value = 30 }
+      command = { type = snow_move which = garrison value = 30 }
+      command = { type = blizzard_attack which = hq value = 30 }
+      command = { type = blizzard_defense which = hq value = 30 }
+      command = { type = blizzard_move which = hq value = 30 }
+      command = { type = frozen_attack which = hq value = 30 }
+      command = { type = frozen_defense which = hq value = 30 }
+      command = { type = frozen_move which = hq value = 30 }
+      command = { type = snow_attack which = hq value = 30 }
+      command = { type = snow_defense which = hq value = 30 }
+      command = { type = snow_move which = hq value = 30 }
+      command = { type = blizzard_attack which = marine value = 30 }
+      command = { type = blizzard_defense which = marine value = 30 }
+      command = { type = blizzard_move which = marine value = 30 }
+      command = { type = frozen_attack which = marine value = 30 }
+      command = { type = frozen_defense which = marine value = 30 }
+      command = { type = frozen_move which = marine value = 30 }
+      command = { type = snow_attack which = marine value = 30 }
+      command = { type = snow_defense which = marine value = 30 }
+      command = { type = snow_move which = marine value = 30 }
+      command = { type = blizzard_attack which = militia value = 30 }
+      command = { type = blizzard_defense which = militia value = 30 }
+      command = { type = blizzard_move which = militia value = 30 }
+      command = { type = frozen_attack which = militia value = 30 }
+      command = { type = frozen_defense which = militia value = 30 }
+      command = { type = frozen_move which = militia value = 30 }
+      command = { type = snow_attack which = militia value = 30 }
+      command = { type = snow_defense which = militia value = 30 }
+      command = { type = snow_move which = militia value = 30 }
+      command = { type = blizzard_attack which = paratrooper value = 30 }
+      command = { type = blizzard_defense which = paratrooper value = 30 }
+      command = { type = blizzard_move which = paratrooper value = 30 }
+      command = { type = frozen_attack which = paratrooper value = 30 }
+      command = { type = frozen_defense which = paratrooper value = 30 }
+      command = { type = frozen_move which = paratrooper value = 30 }
+      command = { type = snow_attack which = paratrooper value = 30 }
+      command = { type = snow_defense which = paratrooper value = 30 }
+      command = { type = snow_move which = paratrooper value = 30 }
+      command = { type = JUNGLE_attack which = infantry value = 30 }
+      command = { type = JUNGLE_defense which = infantry value = 30 }
+      command = { type = JUNGLE_move which = infantry value = 30 }
+      command = { type = JUNGLE_attack which = cavalry value = 30 }
+      command = { type = JUNGLE_defense which = cavalry value = 30 }
+      command = { type = JUNGLE_move which = cavalry value = 30 }
+      command = { type = JUNGLE_attack which = motorized value = 30 }
+      command = { type = JUNGLE_defense which = motorized value = 30 }
+      command = { type = JUNGLE_move which = motorized value = 30 }
+      command = { type = JUNGLE_attack which = mechanized value = 30 }
+      command = { type = JUNGLE_defense which = mechanized value = 30 }
+      command = { type = JUNGLE_move which = mechanized value = 30 }
+      command = { type = JUNGLE_attack which = light_armor value = 30 }
+      command = { type = JUNGLE_defense which = light_armor value = 30 }
+      command = { type = JUNGLE_move which = light_armor value = 30 }
+      command = { type = JUNGLE_attack which = armor value = 30 }
+      command = { type = JUNGLE_defense which = armor value = 30 }
+      command = { type = JUNGLE_move which = armor value = 30 }
+      command = { type = JUNGLE_attack which = bergsjaeger value = 30 }
+      command = { type = JUNGLE_defense which = bergsjaeger value = 30 }
+      command = { type = JUNGLE_move which = bergsjaeger value = 30 }
+      command = { type = JUNGLE_attack which = garrison value = 30 }
+      command = { type = JUNGLE_defense which = garrison value = 30 }
+      command = { type = JUNGLE_move which = garrison value = 30 }
+      command = { type = JUNGLE_attack which = hq value = 30 }
+      command = { type = JUNGLE_defense which = hq value = 30 }
+      command = { type = JUNGLE_move which = hq value = 30 }
+      command = { type = JUNGLE_attack which = marine value = 30 }
+      command = { type = JUNGLE_defense which = marine value = 30 }
+      command = { type = JUNGLE_move which = marine value = 30 }
+      command = { type = JUNGLE_attack which = militia value = 30 }
+      command = { type = JUNGLE_defense which = militia value = 30 }
+      command = { type = JUNGLE_move which = militia value = 30 }
+      command = { type = JUNGLE_attack which = paratrooper value = 30 }
+      command = { type = JUNGLE_defense which = paratrooper value = 30 }
+      command = { type = JUNGLE_move which = paratrooper value = 30 }
+      command = { type = STORM_attack which = infantry value = 30 }
+      command = { type = STORM_defense which = infantry value = 30 }
+      command = { type = STORM_move which = infantry value = 30 }
+      command = { type = STORM_attack which = cavalry value = 30 }
+      command = { type = STORM_defense which = cavalry value = 30 }
+      command = { type = STORM_move which = cavalry value = 30 }
+      command = { type = STORM_attack which = motorized value = 30 }
+      command = { type = STORM_defense which = motorized value = 30 }
+      command = { type = STORM_move which = motorized value = 30 }
+      command = { type = STORM_attack which = mechanized value = 30 }
+      command = { type = STORM_defense which = mechanized value = 30 }
+      command = { type = STORM_move which = mechanized value = 30 }
+      command = { type = STORM_attack which = light_armor value = 30 }
+      command = { type = STORM_defense which = light_armor value = 30 }
+      command = { type = STORM_move which = light_armor value = 30 }
+      command = { type = STORM_attack which = armor value = 30 }
+      command = { type = STORM_defense which = armor value = 30 }
+      command = { type = STORM_move which = armor value = 30 }
+      command = { type = STORM_attack which = bergsjaeger value = 30 }
+      command = { type = STORM_defense which = bergsjaeger value = 30 }
+      command = { type = STORM_move which = bergsjaeger value = 30 }
+      command = { type = STORM_attack which = garrison value = 30 }
+      command = { type = STORM_defense which = garrison value = 30 }
+      command = { type = STORM_move which = garrison value = 30 }
+      command = { type = STORM_attack which = hq value = 30 }
+      command = { type = STORM_defense which = hq value = 30 }
+      command = { type = STORM_move which = hq value = 30 }
+      command = { type = STORM_attack which = marine value = 30 }
+      command = { type = STORM_defense which = marine value = 30 }
+      command = { type = STORM_move which = marine value = 30 }
+      command = { type = STORM_attack which = militia value = 30 }
+      command = { type = STORM_defense which = militia value = 30 }
+      command = { type = STORM_move which = militia value = 30 }
+      command = { type = STORM_attack which = paratrooper value = 30 }
+      command = { type = STORM_defense which = paratrooper value = 30 }
+      command = { type = STORM_move which = paratrooper value = 30 }
+      command = { type = SWAMP_attack which = infantry value = 30 }
+      command = { type = SWAMP_defense which = infantry value = 30 }
+      command = { type = SWAMP_move which = infantry value = 30 }
+      command = { type = SWAMP_attack which = cavalry value = 30 }
+      command = { type = SWAMP_defense which = cavalry value = 30 }
+      command = { type = SWAMP_move which = cavalry value = 30 }
+      command = { type = SWAMP_attack which = motorized value = 30 }
+      command = { type = SWAMP_defense which = motorized value = 30 }
+      command = { type = SWAMP_move which = motorized value = 30 }
+      command = { type = SWAMP_attack which = mechanized value = 30 }
+      command = { type = SWAMP_defense which = mechanized value = 30 }
+      command = { type = SWAMP_move which = mechanized value = 30 }
+      command = { type = SWAMP_attack which = light_armor value = 30 }
+      command = { type = SWAMP_defense which = light_armor value = 30 }
+      command = { type = SWAMP_move which = light_armor value = 30 }
+      command = { type = SWAMP_attack which = armor value = 30 }
+      command = { type = SWAMP_defense which = armor value = 30 }
+      command = { type = SWAMP_move which = armor value = 30 }
+      command = { type = SWAMP_attack which = bergsjaeger value = 30 }
+      command = { type = SWAMP_defense which = bergsjaeger value = 30 }
+      command = { type = SWAMP_move which = bergsjaeger value = 30 }
+      command = { type = SWAMP_attack which = garrison value = 30 }
+      command = { type = SWAMP_defense which = garrison value = 30 }
+      command = { type = SWAMP_move which = garrison value = 30 }
+      command = { type = SWAMP_attack which = hq value = 30 }
+      command = { type = SWAMP_defense which = hq value = 30 }
+      command = { type = SWAMP_move which = hq value = 30 }
+      command = { type = SWAMP_attack which = marine value = 30 }
+      command = { type = SWAMP_defense which = marine value = 30 }
+      command = { type = SWAMP_move which = marine value = 30 }
+      command = { type = SWAMP_attack which = militia value = 30 }
+      command = { type = SWAMP_defense which = militia value = 30 }
+      command = { type = SWAMP_move which = militia value = 30 }
+      command = { type = SWAMP_attack which = paratrooper value = 30 }
+      command = { type = SWAMP_defense which = paratrooper value = 30 }
+      command = { type = SWAMP_move which = paratrooper value = 30 }
+      command = { type = Hill_attack which = infantry value = 30 }
+      command = { type = Hill_defense which = infantry value = 30 }
+      command = { type = Hill_move which = infantry value = 30 }
+      command = { type = mountain_attack which = infantry value = 30 }
+      command = { type = mountain_defense which = infantry value = 30 }
+      command = { type = mountain_move which = infantry value = 30 }
+      command = { type = Hill_attack which = cavalry value = 30 }
+      command = { type = Hill_defense which = cavalry value = 30 }
+      command = { type = Hill_move which = cavalry value = 30 }
+      command = { type = mountain_attack which = cavalry value = 30 }
+      command = { type = mountain_defense which = cavalry value = 30 }
+      command = { type = mountain_move which = cavalry value = 30 }
+      command = { type = Hill_attack which = motorized value = 30 }
+      command = { type = Hill_defense which = motorized value = 30 }
+      command = { type = Hill_move which = motorized value = 30 }
+      command = { type = mountain_attack which = motorized value = 30 }
+      command = { type = mountain_defense which = motorized value = 30 }
+      command = { type = mountain_move which = motorized value = 30 }
+      command = { type = Hill_attack which = mechanized value = 30 }
+      command = { type = Hill_defense which = mechanized value = 30 }
+      command = { type = Hill_move which = mechanized value = 30 }
+      command = { type = mountain_attack which = mechanized value = 30 }
+      command = { type = mountain_defense which = mechanized value = 30 }
+      command = { type = mountain_move which = mechanized value = 30 }
+      command = { type = Hill_attack which = light_armor value = 30 }
+      command = { type = Hill_defense which = light_armor value = 30 }
+      command = { type = Hill_move which = light_armor value = 30 }
+      command = { type = mountain_attack which = light_armor value = 30 }
+      command = { type = mountain_defense which = light_armor value = 30 }
+      command = { type = mountain_move which = light_armor value = 30 }
+      command = { type = Hill_attack which = armor value = 30 }
+      command = { type = Hill_defense which = armor value = 30 }
+      command = { type = Hill_move which = armor value = 30 }
+      command = { type = mountain_attack which = armor value = 30 }
+      command = { type = mountain_defense which = armor value = 30 }
+      command = { type = mountain_move which = armor value = 30 }
+      command = { type = Hill_attack which = bergsjaeger value = 30 }
+      command = { type = Hill_defense which = bergsjaeger value = 30 }
+      command = { type = Hill_move which = bergsjaeger value = 30 }
+      command = { type = mountain_attack which = bergsjaeger value = 30 }
+      command = { type = mountain_defense which = bergsjaeger value = 30 }
+      command = { type = mountain_move which = bergsjaeger value = 30 }
+      command = { type = Hill_attack which = garrison value = 30 }
+      command = { type = Hill_defense which = garrison value = 30 }
+      command = { type = Hill_move which = garrison value = 30 }
+      command = { type = mountain_attack which = garrison value = 30 }
+      command = { type = mountain_defense which = garrison value = 30 }
+      command = { type = mountain_move which = garrison value = 30 }
+      command = { type = Hill_attack which = hq value = 30 }
+      command = { type = Hill_defense which = hq value = 30 }
+      command = { type = Hill_move which = hq value = 30 }
+      command = { type = mountain_attack which = hq value = 30 }
+      command = { type = mountain_defense which = hq value = 30 }
+      command = { type = mountain_move which = hq value = 30 }
+      command = { type = Hill_attack which = marine value = 30 }
+      command = { type = Hill_defense which = marine value = 30 }
+      command = { type = Hill_move which = marine value = 30 }
+      command = { type = mountain_attack which = marine value = 30 }
+      command = { type = mountain_defense which = marine value = 30 }
+      command = { type = mountain_move which = marine value = 30 }
+      command = { type = Hill_attack which = militia value = 30 }
+      command = { type = Hill_defense which = militia value = 30 }
+      command = { type = Hill_move which = militia value = 30 }
+      command = { type = mountain_attack which = militia value = 30 }
+      command = { type = mountain_defense which = militia value = 30 }
+      command = { type = mountain_move which = militia value = 30 }
+      command = { type = Hill_attack which = paratrooper value = 30 }
+      command = { type = Hill_defense which = paratrooper value = 30 }
+      command = { type = Hill_move which = paratrooper value = 30 }
+      command = { type = mountain_attack which = paratrooper value = 30 }
+      command = { type = mountain_defense which = paratrooper value = 30 }
+      command = { type = mountain_move which = paratrooper value = 30 }
+      command = { type = night_attack which = infantry value = 30 }
+      command = { type = night_attack which = cavalry value = 30 }
+      command = { type = night_attack which = motorized value = 30 }
+      command = { type = night_attack which = mechanized value = 30 }
+      command = { type = night_attack which = light_armor value = 30 }
+      command = { type = night_attack which = armor value = 30 }
+      command = { type = night_attack which = paratrooper value = 30 }
+      command = { type = night_attack which = marine value = 30 }
+      command = { type = night_attack which = bergsjaeger value = 30 }
+      command = { type = night_attack which = garrison value = 30 }
+      command = { type = night_attack which = hq value = 30 }
+      command = { type = night_attack which = militia value = 30 }
+      command = { type = night_attack which = battleship value = 30 }
+      command = { type = night_attack which = light_cruiser value = 30 }
+      command = { type = night_attack which = heavy_cruiser value = 30 }
+      command = { type = night_attack which = battlecruiser value = 30 }
+      command = { type = night_attack which = destroyer value = 30 }
+      command = { type = night_attack which = carrier value = 30 }
+      command = { type = night_attack which = escort_carrier value = 30 }
+      command = { type = night_attack which = submarine value = 30 }
+      command = { type = night_attack which = nuclear_submarine value = 30 }
+      command = { type = night_attack which = transport value = 30 }
+      command = { type = night_attack which = multi_role value = 30 }
+      command = { type = night_attack which = interceptor value = 30 }
+      command = { type = night_attack which = strategic_bomber value = 30 }
+      command = { type = night_attack which = tactical_bomber value = 30 }
+      command = { type = night_attack which = naval_bomber value = 30 }
+      command = { type = night_attack which = cas value = 30 }
+      command = { type = night_attack which = transport_plane value = 30 }
+      command = { type = night_attack which = flying_bomb value = 30 }
+      command = { type = night_attack which = flying_rocket value = 30 }
+      command = { type = night_defense which = infantry value = 30 }
+      command = { type = night_defense which = cavalry value = 30 }
+      command = { type = night_defense which = motorized value = 30 }
+      command = { type = night_defense which = mechanized value = 30 }
+      command = { type = night_defense which = light_armor value = 30 }
+      command = { type = night_defense which = armor value = 30 }
+      command = { type = night_defense which = paratrooper value = 30 }
+      command = { type = night_defense which = marine value = 30 }
+      command = { type = night_defense which = bergsjaeger value = 30 }
+      command = { type = night_defense which = garrison value = 30 }
+      command = { type = night_defense which = hq value = 30 }
+      command = { type = night_defense which = militia value = 30 }
+      command = { type = night_defense which = battleship value = 30 }
+      command = { type = night_defense which = light_cruiser value = 30 }
+      command = { type = night_defense which = heavy_cruiser value = 30 }
+      command = { type = night_defense which = battlecruiser value = 30 }
+      command = { type = night_defense which = destroyer value = 30 }
+      command = { type = night_defense which = carrier value = 30 }
+      command = { type = night_defense which = escort_carrier value = 30 }
+      command = { type = night_defense which = submarine value = 30 }
+      command = { type = night_defense which = nuclear_submarine value = 30 }
+      command = { type = night_defense which = transport value = 30 }
+      command = { type = night_defense which = multi_role value = 30 }
+      command = { type = night_defense which = interceptor value = 30 }
+      command = { type = night_defense which = strategic_bomber value = 30 }
+      command = { type = night_defense which = tactical_bomber value = 30 }
+      command = { type = night_defense which = naval_bomber value = 30 }
+      command = { type = night_defense which = cas value = 30 }
+      command = { type = night_defense which = transport_plane value = 30 }
+      command = { type = night_defense which = flying_bomb value = 30 }
+      command = { type = night_defense which = flying_rocket value = 30 }
+      command = { type = night_move which = infantry value = 10 }
+      command = { type = night_move which = cavalry value = 10 }
+      command = { type = night_move which = motorized value = 10 }
+      command = { type = night_move which = mechanized value = 10 }
+      command = { type = night_move which = light_armor value = 10 }
+      command = { type = night_move which = armor value = 10 }
+      command = { type = night_move which = paratrooper value = 10 }
+      command = { type = night_move which = marine value = 10 }
+      command = { type = night_move which = bergsjaeger value = 10 }
+      command = { type = night_move which = garrison value = 10 }
+      command = { type = night_move which = hq value = 10 }
+      command = { type = night_move which = militia value = 10 }
+      command = { type = night_move which = battleship value = 10 }
+      command = { type = night_move which = light_cruiser value = 10 }
+      command = { type = night_move which = heavy_cruiser value = 10 }
+      command = { type = night_move which = battlecruiser value = 10 }
+      command = { type = night_move which = destroyer value = 10 }
+      command = { type = night_move which = carrier value = 10 }
+      command = { type = night_move which = escort_carrier value = 10 }
+      command = { type = night_move which = submarine value = 10 }
+      command = { type = night_move which = nuclear_submarine value = 10 }
+      command = { type = night_move which = transport value = 10 }
+      command = { type = night_move which = multi_role value = 10 }
+      command = { type = night_move which = interceptor value = 10 }
+      command = { type = night_move which = strategic_bomber value = 10 }
+      command = { type = night_move which = tactical_bomber value = 10 }
+      command = { type = night_move which = naval_bomber value = 10 }
+      command = { type = night_move which = cas value = 10 }
+      command = { type = night_move which = transport_plane value = 10 }
+      command = { type = night_move which = flying_bomb value = 10 }
+      command = { type = night_move which = flying_rocket value = 10 }
+	}
+}
+
+event = {
+	id = 23509
+	random = no
+        country = U16
+	trigger = {
+		 	local_flag = Phase_3
+	}
+
+	name = "ミンスクハイヴフェイズ4"
+	desc = "ミンスクハイヴフェイズ4"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1986 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 23510 value = 1440 }
+                command = { type = new_model which = Garrison value = 14 }
+                command = { type = scrap_model which = Garrison value = 13 }
+		command = { type = local_setflag which = Phase_4 }
+                command = { type = local_clrflag which = Phase_3 }
+ 	 }
+}
+
+event = {
+	id = 23510
+	random = no
+        country = U16
+	trigger = {
+		 	local_flag = Phase_4
+	}
+
+	name = "ミンスクハイヴフェイズ5"
+	desc = "ミンスクハイヴフェイズ5"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 15 }
+                command = { type = scrap_model which = Garrison value = 14 }
+		command = { type = local_setflag which = Phase_5 }
+                command = { type = local_clrflag which = Phase_4 }
+ 	 }
+}
+
+event = {
+	id = 23511
+	random = no
+        country = U19
+	trigger = {
+		 	local_flag = Phase_3
+	}
+
+	name = "ロヴァニエミハイヴフェイズ4"
+	desc = "ロヴァニエミハイヴフェイズ4"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1988 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = trigger which = 23512 value = 1440 }
+                command = { type = new_model which = Garrison value = 14 }
+                command = { type = scrap_model which = Garrison value = 13 }
+		command = { type = local_setflag which = Phase_4 }
+                command = { type = trigger which = 23512 value = 1440 }
+                command = { type = local_clrflag which = Phase_3 }
+ 	 }
+}
+
+event = {
+	id = 23512
+	random = no
+        country = U19
+	trigger = {
+		 	local_flag = Phase_4
+	}
+
+	name = "ロヴァニエミハイヴフェイズ5"
+	desc = "ロヴァニエミハイヴフェイズ5"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1992 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 15 }
+                command = { type = scrap_model which = Garrison value = 14 }
+		command = { type = local_setflag which = Phase_5 }
+                command = { type = local_clrflag which = Phase_4 }
+ 	 }
+}
+
+event = {
+	id = 23513
+	random = no
+        country = U22
+	trigger = {
+		 	local_flag = Phase_1
+	}
+
+	name = "ブダペストハイヴフェイズ2"
+	desc = "ブダペストハイヴフェイズ2"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1986 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 12 }
+                command = { type = scrap_model which = Garrison value = 11 }
+		command = { type = local_setflag which = Phase_2 }
+                command = { type = trigger which = 23514 value = 720 }
+                command = { type = local_clrflag which = Phase_1 }
+ 	 }
+}
+
+event = {
+	id = 23514
+	random = no
+        country = U22
+	trigger = {
+		 	local_flag = Phase_2
+	}
+
+	name = "ブダペストハイヴフェイズ3"
+	desc = "ブダペストハイヴフェイズ3"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1988 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 13 }
+                command = { type = scrap_model which = Garrison value = 12 }
+		command = { type = local_setflag which = Phase_3 }
+                command = { type = trigger which = 23515 value = 1080 }
+                command = { type = local_clrflag which = Phase_2 }
+ 	 }
+}
+
+event = {
+	id = 23515
+	random = no
+        country = U22
+	trigger = {
+		 	local_flag = Phase_3
+	}
+
+	name = "ブダペストハイヴフェイズ4"
+	desc = "ブダペストハイヴフェイズ4"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1991 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 14 }
+                command = { type = scrap_model which = Garrison value = 13 }
+		command = { type = local_setflag which = Phase_4 }
+                command = { type = trigger which = 23516 value = 1800 }
+                command = { type = local_clrflag which = Phase_3 }
+ 	 }
+}
+
+event = {
+	id = 23516
+	random = no
+        country = U22
+	trigger = {
+		 	local_flag = Phase_4
+	}
+
+	name = "ブダペストハイヴフェイズ5"
+	desc = "ブダペストハイヴフェイズ5"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1996 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 15 }
+                command = { type = scrap_model which = Garrison value = 14 }
+		command = { type = local_setflag which = Phase_5 }
+                command = { type = local_clrflag which = Phase_4 }
+ 	 }
+}
+
+event = {
+	id = 23517
+	random = no
+        country = U23
+	trigger = {
+		 	local_flag = Phase_1
+	}
+
+	name = "リヨンハイヴフェイズ2"
+	desc = "リヨンハイヴフェイズ2"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1987 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 12 }
+                command = { type = scrap_model which = Garrison value = 11 }
+		command = { type = local_setflag which = Phase_2 }
+                command = { type = trigger which = 23518 value = 720 }
+                command = { type = local_clrflag which = Phase_1 }
+ 	 }
+}
+
+event = {
+	id = 23518
+	random = no
+        country = U23
+	trigger = {
+		 	local_flag = Phase_2
+	}
+
+	name = "リヨンハイヴフェイズ3"
+	desc = "リヨンハイヴフェイズ3"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1989 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 13 }
+                command = { type = scrap_model which = Garrison value = 12 }
+		command = { type = local_setflag which = Phase_3 }
+                command = { type = trigger which = 23519 value = 1080 }
+                command = { type = local_clrflag which = Phase_2 }
+ 	 }
+}
+
+event = {
+	id = 23519
+	random = no
+        country = U23
+	trigger = {
+		 	local_flag = Phase_3
+	}
+
+	name = "リヨンハイヴフェイズ4"
+	desc = "リヨンハイヴフェイズ4"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1992 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 14 }
+                command = { type = scrap_model which = Garrison value = 13 }
+		command = { type = local_setflag which = Phase_4 }
+                command = { type = trigger which = 23520 value = 1800 }
+                command = { type = local_clrflag which = Phase_3 }
+ 	 }
+}
+
+event = {
+	id = 23520
+	random = no
+        country = U23
+	trigger = {
+		 	local_flag = Phase_4
+	}
+
+	name = "リヨンハイヴフェイズ5"
+	desc = "リヨンハイヴフェイズ5"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1997 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+	action_a = {
+                command = { type = new_model which = Garrison value = 15 }
+                command = { type = scrap_model which = Garrison value = 14 }
+		command = { type = local_setflag which = Phase_5 }
+                command = { type = local_clrflag which = Phase_4 }
+ 	 }
+}
+
+event = {
+	id = 23521
+	random = no
+	country = U12
+        random = 18
+        persistent = yes
+	trigger = {
+                NOT = {
+                       army = 450
+                       }
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 1 month = january year = 1936 }
+	offset = 10
+	deathdate = { day = 29 month = december year = 1987 }
+
+	action_a = {		
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 23522
+	random = no
+	country = U12
+        random = 18
+        persistent = yes
+	trigger = {
+                NOT = {
+                       army = 550
+                       }
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = 0 year = 1987 }
+	offset = 10
+	deathdate = { day = 29 month = december year = 1990 }
+
+	action_a = {		
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 23523
+	random = no
+	country = U12
+        random = no
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = 0 year = 1987 }
+	offset = 10
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                #command = { type = ground_def_eff value = 0.8 }
+		command = { type = sleepevent which = 23521 }
+	}
+}
+
+event = {
+	id = 23524
+	random = no
+	country = U12
+        random = 18
+        persistent = yes
+	trigger = {
+                NOT = {
+                       army = 700
+                       }
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	#date = { day = 0 month = 0 year = 1990 }
+	offset = 10
+	#deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {		
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 23525
+	random = no
+	country = U12
+        random = no
+	trigger = {
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 10
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+                #command = { type = ground_def_eff value = 0.8 }
+		command = { type = sleepevent which = 23522 }
+	}
+}
+
+event = {
+	id = 23526
+	random = no
+	country = U12
+        random = 18
+        persistent = yes
+	trigger = {
+                NOT = {
+                       army = 900
+                       }
+		ai = yes
+                event = 23527
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = 0 year = 1990 }
+	offset = 10
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {		
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+
+event = {
+	id = 23527
+	random = no
+	country = U12
+        random = no
+	trigger = {
+		ai = yes
+                control = { province = 32 data = -3 }
+                control = { province = 35 data = -3 }
+                control = { province = 39 data = -3 }
+                control = { province = 47 data = -3 }
+                control = { province = 51 data = -3 }
+                control = { province = 62 data = -3 }
+                control = { province = 80 data = -3 }
+                control = { province = 300 data = -3 }
+                control = { province = 312 data = -3 }
+                control = { province = 336 data = -3 }
+                control = { province = 341 data = -3 }
+                control = { province = 347 data = -3 }
+                control = { province = 348 data = -3 }
+                control = { province = 354 data = -3 }
+                control = { province = 368 data = -3 }
+                control = { province = 385 data = -3 }
+                control = { province = 401 data = -3 }
+                control = { province = 431 data = -3 }
+                control = { province = 515 data = -3 }
+                control = { province = 521 data = -3 }
+                control = { province = 523 data = -3 }
+                control = { province = 533 data = -3 }
+                control = { province = 666 data = -3 }
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = 0 year = 1985 }
+	offset = 10
+	deathdate = { day = 29 month = december year = 2100 }
+
+	action_a = {
+		command = { type = sleepevent which = 23524 }
+	}
+}
+#停止中
+event = {
+	id = 23528
+	random = no
+	country = U22
+        random = 18
+        persistent = yes
+	trigger = {
+                NOT = {
+                       army = 60
+                       }
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = 0 year = 2983 }
+	offset = 10
+	deathdate = { day = 29 month = december year = 3100 }
+
+	action_a = {		
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}
+#停止中
+event = {
+	id = 23529
+	random = no
+	country = U23
+        random = 18
+        persistent = yes
+	trigger = {
+                NOT = {
+                       army = 60
+                       }
+		ai = yes
+	}
+	name = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = 0 year = 2983 }
+	offset = 10
+	deathdate = { day = 29 month = december year = 3100 }
+
+	action_a = {		
+                command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+		command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
+		command = { type = add_division value = infantry when = 33 where = heavy_armor }
+		command = { type = add_division value = marine when = 33 where = super_heavy_armor } 
+		command = { type = add_division value = marine when = 33 where = light_armor_brigade }
+		command = { type = add_division value = marine when = 33 where = heavy_armor }
+		command = { type = add_division value = bergsjaeger when = 33 where = super_heavy_armor  }
+		command = { type = add_division value = bergsjaeger when = 33 where = light_armor_brigade  }
+		command = { type = add_division value = bergsjaeger when = 33 where = heavy_armor  }
+	}
+}

@@ -1,0 +1,1253 @@
+##############################################################
+##
+## ‰¢B‘åíƒCƒxƒ“ƒg_‰¢B‘dØ’nˆÏˆõ‰ï/‰¢B˜A‡(23801~23900)
+##
+##############################################################
+##
+## id = 23801   ‰¢B‘dØ’nˆÏˆõ‰ï
+## id = 23802   ‰¢B“‡ğ–ñ(U02)
+## id = 23803   ‰¢B“‡ğ–ñ(ALB)
+## id = 23804   ‰¢B“‡ğ–ñ(AUS)
+## id = 23805   ‰¢B“‡ğ–ñ(BEL)
+## id = 23806   ‰¢B“‡ğ–ñ(BUL)
+## id = 23807   ‰¢B“‡ğ–ñ(CZE)
+## id = 23808   ‰¢B“‡ğ–ñ(DDR)
+## id = 23809   ‰¢B“‡ğ–ñ(DFR)
+## id = 23810   ‰¢B“‡ğ–ñ(DEN)
+## id = 23811   ‰¢B“‡ğ–ñ(ENG)
+## id = 23812   ‰¢B“‡ğ–ñ(FRA)
+## id = 23813   ‰¢B“‡ğ–ñ(GRE)
+## id = 23814   ‰¢B“‡ğ–ñ(HOL)
+## id = 23815   ‰¢B“‡ğ–ñ(HUN)
+## id = 23816   ‰¢B“‡ğ–ñ(IRE)
+## id = 23817   ‰¢B“‡ğ–ñ(ITA)
+## id = 23818   ‰¢B“‡ğ–ñ(LUX)
+## id = 23819   ‰¢B“‡ğ–ñ(NOR)
+## id = 23820   ‰¢B“‡ğ–ñ(POR)
+## id = 23821   ‰¢B“‡ğ–ñ(ROM)
+## id = 23822   ‰¢B“‡ğ–ñ(SCH)
+## id = 23823   ‰¢B“‡ğ–ñ(SPA)
+## id = 23824   ‰¢B“‡ğ–ñ(SWE)
+## id = 23825   ‰¢B“‡ğ–ñ(YUG)
+## id = 23826   ‰¢B“‡ğ–ñ”áy(ALB)
+## id = 23827   ‰¢B“‡ğ–ñ”áy(AUS)
+## id = 23828   ‰¢B“‡ğ–ñ”áy(BEL)
+## id = 23829   ‰¢B“‡ğ–ñ”áy(BUL)
+## id = 23830   ‰¢B“‡ğ–ñ”áy(CZE)
+## id = 23831   ‰¢B“‡ğ–ñ”áy(DDR)
+## id = 23832   ‰¢B“‡ğ–ñ”áy(DFR)
+## id = 23833   ‰¢B“‡ğ–ñ”áy(DEN)
+## id = 23834   ‰¢B“‡ğ–ñ”áy(ENG)
+## id = 23835   ‰¢B“‡ğ–ñ”áy(FRA)
+## id = 23836   ‰¢B“‡ğ–ñ”áy(GRE)
+## id = 23837   ‰¢B“‡ğ–ñ”áy(HOL)
+## id = 23838   ‰¢B“‡ğ–ñ”áy(HUN)
+## id = 23839   ‰¢B“‡ğ–ñ”áy(IRE)
+## id = 23840   ‰¢B“‡ğ–ñ”áy(ITA)
+## id = 23841   ‰¢B“‡ğ–ñ”áy(LUX)
+## id = 23842   ‰¢B“‡ğ–ñ”áy(NOR)
+## id = 23843   ‰¢B“‡ğ–ñ”áy(POR)
+## id = 23844   ‰¢B“‡ğ–ñ”áy(ROM)
+## id = 23845   ‰¢B“‡ğ–ñ”áy(SCH)
+## id = 23846   ‰¢B“‡ğ–ñ”áy(SPA)
+## id = 23847   ‰¢B“‡ğ–ñ”áy(SWE)
+## id = 23848   ‰¢B“‡ğ–ñ”áy(YUG)
+## id = 23849   ‰¢B˜A‡–{•”ˆÚ“]
+##
+##############################################################
+event = {
+	id = 23801
+	random = no
+	country = U02
+	trigger = { exists = U12 }
+
+	name = "‰¢B‘dØ’nˆÏˆõ‰ï"
+	desc = "EVT_23801_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ok"
+                command = { type = name where = U02 which = "‰¢B‘dØ’nˆÏˆõ‰ï" }
+    }
+}
+
+event = {
+	id = 23802
+	random = no
+	country = U02
+	trigger = {
+                 control = { province = 300 data = -2 }
+                 control = { province = 75 data = -2 }
+                 control = { province = 56 data = -2 }
+                 control = { province = 469 data = -2 }
+                 control = { province = 463 data = -2 }
+                 control = { province = 417 data = -2 }
+                 control = { province = 424 data = -2 }
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23802_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_Treaty }
+                command = { type = name where = U02 which = "‰¢B˜A‡" }
+		#command = { type = event which = 23849 where = U02 when = 10 }
+    }
+	action_b = {
+		name = "‰Á–¿‘‚ÌåŒ ‚ÍˆÛ‚³‚ê‚È‚¯‚ê‚Î‚È‚ç‚È‚¢"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23803
+	random = no
+	country = ALB
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyALB }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23804
+	random = no
+	country = AUS
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyAUS }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23805
+	random = no
+	country = BEL
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyBEL }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23806
+	random = no
+	country = BUL
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyBUL }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23807
+	random = no
+	country = CZE
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyCZE }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23808
+	random = no
+	country = DDR
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyDDR }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23809
+	random = no
+	country = DFR
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyDFR }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23810
+	random = no
+	country = DEN
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyDEN }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23811
+	random = no
+	country = ENG
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyENG }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23812
+	random = no
+	country = FRA
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyFRA }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23813
+	random = no
+	country = GRE
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyGRE }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23814
+	random = no
+	country = HOL
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyHOL }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23815
+	random = no
+	country = HUN
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyHUN }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23816
+	random = no
+	country = IRE
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyIRE }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23817
+	random = no
+	country = ITA
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyITA }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23818
+	random = no
+	country = LUX
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyLUX }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23819
+	random = no
+	country = NOR
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyNOR }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23820
+	random = no
+	country = POR
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyPOR }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23821
+	random = no
+	country = ROM
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyROM }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23822
+	random = no
+	country = SCH
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatySCH }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23823
+	random = no
+	country = SPA
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatySPA }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23824
+	random = no
+	country = SWE
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatySWE }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23825
+	random = no
+	country = YUG
+	trigger = {
+                 flag = European_Integration_Treaty
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23803_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+                ai_chance = 100
+		command = { type = setflag which = European_Integration_TreatyYUG }
+    }
+	action_b = {
+		name = "‰ä‚ª‘‚ÌåŒ ‚Í”Æ‚³‚¹‚È‚¢I"
+                ai_chance = 0
+		command = { }
+    }
+}
+
+event = {
+	id = 23826
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyALB
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = ALB }
+    }
+}
+
+event = {
+	id = 23827
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyAUS
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = AUS }
+    }
+}
+
+event = {
+	id = 23828
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyBEL
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = BEL }
+    }
+}
+
+event = {
+	id = 23829
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyBUL
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = BUL }
+    }
+}
+
+event = {
+	id = 23830
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyCZE
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = CZE }
+    }
+}
+
+event = {
+	id = 23831
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyDDR
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = DDR }
+    }
+}
+
+event = {
+	id = 23832
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyDFR
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = DFR }
+    }
+}
+
+event = {
+	id = 23833
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyDEN
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = DEN }
+    }
+}
+
+event = {
+	id = 23834
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyENG
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = ENG }
+    }
+}
+
+event = {
+	id = 23835
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyFRA
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = FRA }
+    }
+}
+
+event = {
+	id = 23836
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyGRE
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = GRE }
+    }
+}
+
+event = {
+	id = 23837
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyHOL
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = HOL }
+    }
+}
+
+event = {
+	id = 23838
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyHUN
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = HUN }
+    }
+}
+
+event = {
+	id = 23839
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyIRE
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = IRE }
+    }
+}
+
+event = {
+	id = 23840
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyITA
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = ITA }
+    }
+}
+
+event = {
+	id = 23841
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyLUX
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = LUX }
+    }
+}
+
+event = {
+	id = 23842
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyNOR
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = NOR }
+    }
+}
+
+event = {
+	id = 23843
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyPOR
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = POR }
+    }
+}
+
+event = {
+	id = 23844
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyROM
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = ROM }
+    }
+}
+
+event = {
+	id = 23845
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatySCH
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = SCH }
+    }
+}
+
+event = {
+	id = 23846
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatySPA
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = SPA }
+    }
+}
+
+event = {
+	id = 23847
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatySWE
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = SWE }
+    }
+}
+
+event = {
+	id = 23848
+	random = no
+	country = U02
+	trigger = {
+                 flag = European_Integration_TreatyYUG
+	            }
+
+	name = "‰¢B“‡ğ–ñ"
+	desc = "EVT_23826_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "‰¢B‚Ì‚æ‚èˆê‘w‚Ì“‡‚ğI"
+		command = { type = inherit which = YUG }
+    }
+}
+
+event = {
+	id = 23849
+	random = no
+	country = U02
+	trigger = {
+                  event = 23802
+                  event = 23834
+                  control = { province = 28 data = U02 }
+	            }
+
+	name = "‰¢B˜A‡–{•”ˆÚ“]"
+	desc = "EVT_23849_DESC"
+	style = 0
+	date = { day = 29 month = 11 year = 1901 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "ƒƒ“ƒhƒ“"
+                ai_chance = 0
+		command = { type = capital which = 19 trigger = { control = { province = 19 data = U02 } } }
+    }
+	action_b = {
+		name = "ƒxƒ‹ƒtƒ@ƒXƒg"
+                ai_chance = 100
+		command = { type = capital which = 28 trigger = { control = { province = 28 data = U02 } } }
+    }
+	action_c = {
+		name = "ƒ`ƒ…ƒjƒX"
+                ai_chance = 0
+		command = { type = capital which = 939 trigger = { control = { province = 939 data = U02 } } }
+    }
+	action_d = {
+		name = "ƒ^ƒ“ƒWƒF"
+                ai_chance = 0
+		command = { type = capital which = 2331 trigger = { control = { province = 2331 data = U02 } } }
+    }
+}

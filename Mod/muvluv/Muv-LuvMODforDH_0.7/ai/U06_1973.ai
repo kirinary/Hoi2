@@ -1,0 +1,494 @@
+switch = no                                   
+flags = { }                                    
+claim_acceptance = 0                           
+demand_claims = { }                            
+liberate = { }                             
+resistance = { }                            
+combat = {                                     
+				U12 = 100
+				U13 = 100
+				U14 = 100
+				U15 = 100
+				U16 = 100
+				U17 = 100
+				U18 = 100
+				U19 = 100
+			    U20 = 100
+				U21 = 100
+				U22 = 100
+				U23 = 100
+				U24 = 100
+			    U25 = 100
+				U26 = 100
+				U27 = 100
+				U28 = 100
+				U29 = 100
+				U30 = 100
+				U31 = 100
+			    U32 = 100
+				U33 = 100
+				U34 = 100
+				U35 = 100
+				U36 = 100
+				U37 = 100
+				U38 = 100
+			    U39 = 100
+				U40 = 100
+}
+protect = { 
+				ARG = 100
+				AST = 100
+				BHU = 100
+				BOL = 100
+				BRA = 100
+				BRU = 100
+				BUR = 100
+				CAN = 100
+			    CHL = 100
+				CMB = 100
+				COL = 100
+				COS = 100
+				CUB = 100
+				DOM = 100
+				ECU = 100
+				GUA = 100
+				HAI = 100
+				HON = 100
+				IND = 100
+				INO = 100
+				JAP = 100
+				KOR = 100
+				LAO = 100
+				MEX = 100
+				MLY = 100
+				MON = 100
+				NEP = 100
+				NIC = 100
+				NZL = 100
+				PAK = 100
+				PAN = 100
+				PAR = 100
+				PHI = 100
+				PRU = 100
+				SAF = 100
+				SAL = 100
+				SIA = 100
+				SOV = 100
+				U01 = 100
+				U02 = 100
+				U03 = 100
+				U04 = 100
+				U05 = 100
+				U06 = 100
+				U07 = 100
+				U08 = 100
+				U09 = 100
+				U10 = 100
+				U11 = 100
+				URU = 100
+				USA = 100
+				VEN = 100
+				VIE = 100
+}                                               
+target = {
+          #ソ連
+          2624 = 25
+          2620 = 25
+          2623 = 25
+          2622 = 25
+          901 = 25
+          #それ以外
+          19 = 50
+          20 = 50
+          21 = 50
+          23 = 50
+          525 = 50
+          1646 = 50
+          1738 = 50
+}                                   
+
+                          
+upgrading = 0.2                           
+reinforcement = 0.3                            
+desperation = 0.8                              
+strat_redeploy_threshold = 60                 
+max_redeploying = 0.25                         
+use_offensive_supply = yes                     
+max_fuel_offensive = 100                    
+evac_islands = yes                             
+war = 100 
+neutrality = 0                                 
+max_front_ratio = 4.0                         
+max_front_ratios = { }                        
+exp_force_ratio = 0.75                       
+no_exp_forces_to = { }                        
+max_garrison_prop = 0.3                       
+min_garrison_prop = 0.2                       
+
+construction = { 
+	max_factor = 0.100                         
+	AA_batteries  = no             
+	max_AA_level  = 10                     
+	AA_provs  = {                          
+	} 
+	                           
+	coastal_fort   = yes            
+	max_coastal_level = 10                
+	coastal_fort_provs = {                
+	}  
+	                 
+	radar_station   = no            
+	max_radar  = 10                       
+	radar_provs  = {                       
+	}  
+	                       
+	air_base   = yes               
+	max_air_base  = 10                    
+	air_base_provs  = {                
+	}    
+	                 
+	naval_base   = yes               
+	max_naval_base  = 10                
+	naval_base_provs = {                   
+	} 
+	                    
+	land_fort  = yes      
+	max_land_level  = 10                   
+	fort_borders = {  
+		U12 U13 U14 U15 U16 U17 U18 U19 U20 U21 U22 U23 U24 U25 U26 U27 U28 U29 U30 U31 U32 U33 U34 U35 U36 U37 U38 U39 U40
+	}                         
+	fort_provs  = {                      
+	}
+	           
+	ic_at_war  = 1366                      
+	force_ic_until  = 2035                 
+	ic_end_year  = 2050                    
+	IC_provs  = {                          
+	} 
+	                                         
+	nuclear_reactor = no                 
+	nuclear_reactor_prov = 1366           
+	max_nuclear = 10 
+	                     
+	rocket_test = yes                      
+	rocket_test_prov = 1366               
+	max_rocket = 10                       
+}
+
+garrison = { 
+	defend_overseas_beaches = yes               # 海外にある、海岸が有る州に守備隊を置くか。デフォルトはnoです。
+
+	# -この設定はAIを大きく左右します- 基本的にデフォルトに設定することを勧めます。AIが壊れる恐れ有り！
+	home_multiplier  = 0.5                     # 中核州へ駐屯させる軍の割合。（デフォルト：0.5）
+	overseas_multiplier  = 0.3333              # 海外領土へ駐屯させる軍の割合。（デフォルト：0.3333）
+	home_peace_cap  = 10                       # 平和時に首都に駐屯させる師団の上限
+	war_zone_odds   = 2.0                      # デフォルト2.0にしてください。（2.0 Ｘ 敵師団数の軍を送ろうと努力します）
+	area_multiplier = {                        # 指定した州に優先度を設定します。（中核州の場合は無効）
+	}                      
+
+	# プロヴィンスに対する優先度の指定 
+	beach    = 20                              # 上陸できる砂浜
+	capital   = 10                             # 首都
+	human_border  = 210                        # 人間のプレイヤーとの国境（同盟している場合は無視
+	war_target  = 100                          # 隣国のAIが宣戦を企てて攻撃目標になっている場合
+	reserves  = 20                             # 前線の直ぐ後方の地域に付く優先度ボーナス
+	opposing_alliance = 100                    # 中立国でいることにすべての同盟（連・枢・共）が反対する？
+	claim_threat  = 100                        # 我々が中立の場合、我々に対する誰かの領土要求の通りやすさ
+	unstable_border  = 50                      # 我々が誰かと戦争している場合の、我々に対する誰かの領土要求の通りやすさ？
+	
+        # 特定の国 
+	country_priorities = {
+		U02 = 200
+ 		JAP = 300
+ 		U01 = 100
+ 		U04 = 200
+ 		SOV = 300
+	}
+    # 州の価値に対する総合係数
+    # key_point_prio_mult = X # この値 × 州の価値 ＝ 本当の価値？
+}
+
+front = {
+	river = 1.0                                # 渡河攻撃
+	largefort  = x                             # レベル６以上の要塞に対して。 
+	smallfort = x                           # レベル６以下の要塞に対して
+	occupied = 0.7                             # 敵地の領土に囲まれた孤立した地域
+	owned  = 0.7                               # 自国の領土に囲まれた地域
+
+	strength 	= 1.0
+	organisation 	= 1.0
+	soft_attack 	= 1.0
+	hard_attack 	= 1.0
+	ground_defense 	= 1.0
+	dig_in 	= 1.0                              # Against defender
+
+	# ↓はV1.2の時点で、これらはすべて旧式であって、そしてもう効果を持ちません？
+	frozen_attack  = 0.50                      # 凍土
+	snow_attack  = 0.50                        # 雪
+	blizzard_attack = 0.25                     # 猛吹雪
+	storm_attack  = 0.60                       # 嵐
+	muddy_attack  = 0.75                       # 泥濘
+	jungle_attack  = 0.85                      # ジャングル,密林
+	mountain_attack = 0.60                     # 山岳
+	swamp_attack  = 0.60                       # 沼
+	forest_attack  = 0.85                      # 森林
+	hill_attack  = 0.75                        # 丘
+	urban_attack  = 0.40                       # 市街
+
+	support_defense_prop = X                   # 隣接する州の防衛を支援するために使われるかもしれない前線の州の師団の割合。（デフォルト0.333）
+	recklessness   =  1                        # recklessness -この数値が高い場合、AIの攻撃性が上がります
+
+	## ai,人間に対する行動内容
+	# Even -前線全体に沿って均等に軍隊を配置します。
+	# Reactive - 敵の兵力集結地点に合わせて配置しようと試みます。
+	# Defensive - より多くの兵力を戦略上重要な州におこうとします。（ IC 、勝利ポイント、オイルなど）
+	# Offensive - 敵の弱点により多くの兵力をおきます。
+	# Operational Defensive - 撤退路が少ない場所には、より少ない兵しかおきません。（包囲を避けるため）
+
+	distrib_vs_ai   = even                         # AIに対する行動 [even/reactive/defensive/offensive/op_defensive]
+}
+
+military = {
+	relative_build_scheme  = no             
+	max_batch_peace =  800                 
+	max_batch_war =  500                   
+	max_batch_home_front = 190            
+
+	infantry =  0                           
+	cavalry =  0                            
+	motorized = 0                            
+	mechanized = 1                          
+	light_armor = 1                         
+	armor = 20                              
+	paratrooper = 35                        
+	marine = 10                             
+	bergsjaeger = 20                        
+	garrison = 0                         
+	hq = 3                               
+	militia =  0                          
+
+	escort = 0                          
+	multi_role = 0                          
+	interceptor = 0                       
+	strategic_bomber = 0                   
+	tactical_bomber = 0                    
+	naval_bomber = 0                     
+	cas = 0                                
+	transport_plane = 0                    
+	flying_bomb = 0                       
+	flying_rocket = 0                      
+
+	battleship = 0                        
+	light_cruiser = 0                     
+	heavy_cruiser = 0                       
+	battlecruiser = 0                        
+	destroyer = 0                           
+	carrier = 0                              
+	escort_carrier = 0                   
+	submarine = 0                          
+	nuclear_submarine = 0                   
+	transport = 10
+
+	artillery = 15                            
+	sp_artillery = 1                       
+	rocket_artillery = 0                   
+	sp_rct_artillery = 15                
+	anti_tank = 1                         
+	tank_destroyer = 5                     
+	light_armor_brigade = 0              
+	heavy_armor = 0                      
+	super_heavy_armor = 0                 
+	armored_car = 3                        
+	anti_air = 5                          
+	police = 0                           
+	engineer = 0                        
+
+	cag    = 100                           
+}
+
+air_marshal = {
+	min_mission_strength_org = 0.5          
+	icxdayscostfactor = 10.0               
+	manpowercostfactor = 100.0              
+	destructionriskthreashold = 0.2         
+	airsuperioritydesirability = 10.0      
+	airsuperioritylosstolerance = 1.0        
+
+	groundattacklosstolerance = 1.0
+	groundattackdesirability = 1.0
+	interdictionlosstolerance = 1.5
+	inderdictiondesirability = 1.0
+	logisticalstrikelosstolerance = 4.5
+	logisticalstrikeefficency = 0.01 
+
+	logisticalstrikedesirability = 100000.0
+	runwaycrateringlosstolerance = 1.5
+	runwaycrateringefficency = 0.01
+	runwaycrateringdesirability = 20000.0
+	strategicstriketolerance = 4.5
+	strategicstrikeefficency = 0.01
+	strategicstrikedesirability = 1000000.0
+	installationstriketolerance = 1.5
+	installationstrikeefficency = 0.01
+	installationstrikedesirability = 10.0
+	navalstriketolerance = 1.0
+	navalstrikedesirability = 10.0
+	portstriketolerance = 1.0
+	portstrikedesirability = 9.0↑
+
+taskforcetype = { 
+	name = "Air Superiority"                 
+	desiredratio = 0.400                    
+	rangeweight = 10.000                    
+	airkillpowerweight = 2000.000 
+	hardkillpowerweight = 0.000 
+	softkillpowerweight = 0.000  
+	navalkillpowerweight = 0.000 
+	strategickillpowerweight = 0.000 		
+	transportcapacityweight = -1000000.000 
+	airvulnurabilityweight = -1.000  
+	surfacevulnurabilityweight = 0.000
+	idle = yes 
+	reorganize = yes 
+	air_superiority = yes 
+ 	#Others not supported by the "Air Superiority" default taskforce type
+ 	#interdiction
+ 	#ground_attack
+ 	#logistical_strike
+ 	#runway_cratering
+ 	#strategic_bombardment
+ 	#installation_strike
+ 	#naval_strike
+ 	#port_strike
+ 	#convoy_air_raiding
+ 	#airborne_assault
+ 	#air_supply 	
+	}
+	taskforcetype = { name = "Soft Bombing" desiredratio = 0.200 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = 0.000 softkillpowerweight = 2000.000 navalkillpowerweight = 0.000 strategickillpowerweight = 0.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = 0.000 surfacevulnurabilityweight = -1.000 idle = yes reorganize = yes interdiction = yes ground_attack = yes } 
+	taskforcetype = { name = "Hard Bombing" desiredratio = 0.100 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = 2000.000 softkillpowerweight = 0.000 navalkillpowerweight = 0.000 strategickillpowerweight = 0.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = 0.000 surfacevulnurabilityweight = -1.000 idle = yes reorganize = yes interdiction = yes ground_attack = yes } 
+	taskforcetype = { name = "Strategic Bombing" desiredratio = 0.100 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = 0.000 softkillpowerweight = 0.000 navalkillpowerweight = 0.000 strategickillpowerweight = 2000.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = -0.500 surfacevulnurabilityweight = -0.500 idle = yes reorganize = yes logistical_strike = yes runway_cratering = yes strategic_bombardment = yes installation_strike = yes } 
+	taskforcetype = { name = "Naval Bombing" desiredratio = 0.100 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = 0.000 softkillpowerweight = 0.000 navalkillpowerweight = 2000.000 strategickillpowerweight = 0.000 transportcapacityweight = -1000000.000 airvulnurabilityweight = 0.000 surfacevulnurabilityweight = -1.000 idle = yes reorganize = yes naval_strike = yes port_strike = yes convoy_air_raiding = yes } 
+	taskforcetype = { name = "Airlift" desiredratio = 0.100 rangeweight = 10.000 airkillpowerweight = 0.000 hardkillpowerweight = -2000.000 softkillpowerweight = -2000.000 navalkillpowerweight = 0.000 strategickillpowerweight = -2000.000 transportcapacityweight = 1000000.000 airvulnurabilityweight = -1.000 surfacevulnurabilityweight = 0.000 idle = yes reorganize = yes airborne_assault = yes air_supply = yes } 
+}
+
+leader_ratio = {
+	land_field_marshal = 0.02                  
+	land_general = 0.031                       
+	land_lt_general = 0.41                     
+		
+	sea_grand_admiral = 0.02                    
+	sea_admiral = 0.061                        
+	sea_vice_admiral = 0.401     
+              
+	air_marshal = 0.02                          
+	air_general = 0.091                          
+	air_lt_General = 0.11                        
+}
+
+invasion = {
+	base = 1.0                                 
+	random = 1.0                                  
+	coastal = 1.0                               
+	beach = 1.0                                  
+	distance = 1.0                              
+	max_distance = 20.0                          
+	pocket = 1.0                                 
+	island = 1.0                                
+	enemy = 1.0                                
+	adjacentenemy = 1.0                         
+	air_base = 0.1                               
+	naval_base = 0.1                              
+	air_support = 0.1                            
+	ignore = no	                          
+	redirect = priority/nearest/home
+	target = { 
+          20 = 1000
+          901 = 1000
+                }
+}
+
+admiral = {
+	target = { }
+	core = { }
+	base = { } 
+	ignore = {
+		"northern baltic"
+		"southern baltic"
+	}
+	min_org  = 30%                                 
+	min_dmg  = 30%                                  
+	return_org  = 50%                             
+	return_dmg  = 50%                             
+}
+
+technology = {
+	endgoal = { 
+	}                               
+	preference = { 
+	}                                    
+	ignore = {                                                    
+      6020 6060 60140
+      4010 4110 4210 4640 4820 40000
+      7020
+	}                                             
+	armor = 3.0                                       
+	infantry = 2.5                                    
+	industry = 2.5                                   
+	aircraft = 0.3                                 
+	naval = 0.1                                  
+	land_doctrines = 4.0                              
+	air_doctrines = 0.5                               
+	naval_doctrines = 0.1                           
+	secret_weapons = 1.0                              
+}
+
+trade = {
+	favored = { }                                                          
+	embargo = { }                                                        
+	cancel_deal_threshold = 4.0                     
+	rare_materials 	= -1
+	metal 		= -1 
+	oil 		= -1 
+	supplies 	= -1 
+	money 		= -1 
+
+	
+	
+	
+	
+	
+	
+}
+
+ 
+
+tech_sharing = {                                                   
+	                                                 
+	favored = { 
+		U06 = 100
+	}                                        			           
+	embargo = { 
+		USA JAP U01 U02 U03 U04 U05 U06 U07 U08 U09 U10 INO IND
+	}                                                        		   
+	not = { 
+		7010 7020 7030 7040 7050 7060 7070 7080 7090 7100 7110 7120 7130 7140 7150 7160 7170 7180 7190 7200 7210 7220 7230 7240 7250 7260 7270 7280
+		7290 7300 7310 7320 7330 7340 7350 7360 7370 7380 7390 7400 7410 7420 7430 7440 7450 7460 7470 7480 7490 7500 7510 7520 7530 7540 7550 7560
+		7570 7580 7590 7600 7610 7620 7630 7640 7650 7660 7670 7680 7690 7700 7710 7720 7730 7740 7750 7760 7770 7780 7790 7800 7810 7820 7830 7840
+		7850 7860 7870 7880 7890 7900 7910 7920 7930 7940
+	}                                                     		   
+	prioritized = { }                                                              
+} 
+
+ferocity = yes
+
+spyprefs = {
+	percentage_on_spies = 0.2                        
+	percentage_foreign_mission = 0.7                
+	spyprefsdata = 
+	{
+		NumberOfSpies = 10                        
+		counter_espionage = 10                   
+		country = JAP
+	}
+
+}

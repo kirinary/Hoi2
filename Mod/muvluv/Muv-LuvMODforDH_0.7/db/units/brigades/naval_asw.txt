@@ -1,0 +1,207 @@
+# 0 - ASW Suite 0
+model = {
+	cost 				= 1.5
+	buildtime			= 85
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 4
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 3
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.1
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+# 1 - ASW Suite 1
+
+model = {
+	cost 				= 2
+	buildtime			= 90
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 5
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 5
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.1
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+# 2 - ASW Suite 2
+model = {
+	cost 				= 2.4
+	buildtime			= 95
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 6
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 7
+	airattack			= 0
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.15
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+# 3 - ASW Suite 3
+model = {
+	cost 				= 2.5
+	buildtime			= 105
+	manpower 			= 0.1
+	surfacedetectioncapability	= 1
+	airdetectioncapability		= 1
+	subdetectioncapability		= 7
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 7
+	airattack			= 1
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.15
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+# 4 - ASW Suite 4
+model = {
+	cost 				= 2.5
+	buildtime			= 110
+	manpower 			= 0.1
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	subdetectioncapability		= 7
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 8
+	airattack			= 1
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.2
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+#5 - ASW Suite 5
+model = {
+	cost 				= 2.5
+	buildtime			= 110
+	manpower 			= 0.1
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	subdetectioncapability		= 7
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 9
+	airattack			= 2
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.25
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+#6 - ASW Suite 6
+model = {
+	cost 				= 2.5
+	buildtime			= 110
+	manpower 			= 0.1
+	surfacedetectioncapability	= 2
+	airdetectioncapability		= 1
+	subdetectioncapability		= 7
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 10
+	airattack			= 3
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.3
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+#7 - ASW Suite 7
+model = {
+	cost 				= 2.5
+	buildtime			= 110
+	manpower 			= 0.1
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	subdetectioncapability		= 7
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 11
+	airattack			= 4
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.35
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+#8 - ASW Suite 8
+model = {
+	cost 				= 2.5
+	buildtime			= 110
+	manpower 			= 0.1
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	subdetectioncapability		= 8
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 12
+	airattack			= 4
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.35
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+
+#9 - ASW Suite 9
+model = {
+	cost 				= 2.5
+	buildtime			= 110
+	manpower 			= 0.1
+	surfacedetectioncapability	= 3
+	airdetectioncapability		= 1
+	subdetectioncapability		= 9
+	airdefence			= 0
+	seaattack			= 0
+	convoyattack			= 0
+	subattack			= 13
+	airattack			= 4
+	shorebombardment		= 0
+	distance			= 0
+	supplyconsumption 		= 0.35
+	fuelconsumption			= 0
+	upgrade_time_factor 		= 0.5
+	upgrade_cost_factor 		= 1.0
+}
+########################################
+

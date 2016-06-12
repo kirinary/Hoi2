@@ -1,0 +1,98 @@
+##############################################################
+##
+## オルタネイティヴ計画(36001~361000)
+##
+##############################################################
+##
+## id = 36001	オルタネイティヴ計画3
+## id = 36002	オルタネイティヴ計画3-経過報告_1974-
+## id = 36003	オルタネイティヴ計画3-経過報告_1975-
+## id = 36004	オルタネイティヴ計画3-経過報告_1976-
+## id = 36005	オルタネイティヴ計画3-経過報告_1977-
+## id = 36006	オルタネイティヴ計画3-経過報告_1978-
+## id = 36007	オルタネイティヴ計画3-経過報告_1979-
+## id = 36008	オルタネイティヴ計画3-経過報告_1980-
+## id = 36009	オルタネイティヴ計画3-経過報告_1981-
+## id = 36010	オルタネイティヴ計画3-経過報告_1982-
+## id = 36011	オルタネイティヴ計画3-経過報告_1983-
+## id = 36012	オルタネイティヴ計画3-経過報告_1984-
+## id = 36013	オルタネイティヴ計画3-経過報告_1985-
+## id = 36014	オルタネイティヴ計画3-経過報告_1986-
+## id = 36015	オルタネイティヴ計画3-経過報告_1987-
+## id = 36016	オルタネイティヴ計画3-経過報告_1988-
+## id = 36017	オルタネイティヴ計画3-経過報告_1989-
+## id = 36018	オルタネイティヴ計画3-経過報告_1990-
+## id = 36019	オルタネイティヴ計画3-経過報告_1991-
+## id = 36020	オルタネイティヴ計画3-経過報告_1992-
+## id = 36021	オルタネイティヴ計画3-経過報告_1993-
+## id = 36022	オルタネイティヴ計画3-経過報告_1994-
+## id = 36023	オルタネイティヴ計画3-計画終了-
+## id = 36024	オルタネイティヴ計画4
+## id = 36025	オルタネイティヴ計画4-経過報告_1996-
+## id = 36026	オルタネイティヴ計画4-経過報告_1997-
+## id = 36027	オルタネイティヴ計画4-経過報告_1998-
+## id = 36028	オルタネイティヴ計画4-経過報告_1999-
+## id = 36029	オルタネイティヴ計画4-経過報告_2000-
+## id = 36030	オルタネイティヴ計画4-計画失効1-
+## id = 36031	オルタネイティヴ計画4-計画順調-
+## id = 36032	オルタネイティヴ計画5-計画失敗2-
+## id = 36033	オルタネイティヴ計画5-計画終了-
+## id = 36034	オルタネイティヴ計画5
+## id = 36035	オルタネイティヴ計画5-経過報告_1996-
+## id = 36036	オルタネイティヴ計画5-経過報告_1997-
+## id = 36037	オルタネイティヴ計画5-経過報告_1998-
+## id = 36038	オルタネイティヴ計画5-経過報告_1999-
+## id = 36039	オルタネイティヴ計画5-経過報告_2000-
+## id = 36040	オルタネイティヴ計画5-計画終了-
+## id = 36041	
+## id = 36042	
+## id = 36043	
+## id = 36044	
+## id = 36045	
+## id = 36046	
+## id = 36047	
+## id = 36048	
+## id = 36049	
+## id = 36050	
+##
+##############################################################
+
+
+event = {
+	id = 36051
+	random = no
+	country = JAP
+	trigger = {
+	}
+
+	name = "test"
+	desc = "EVT_5504_DESC"
+
+	date = { day = 12 month = 5 year = 2500 }
+	offset = 1
+	deathdate = { day = 29 month = 11 year = 3000 }
+
+	action_a = {
+		name = "実行する"
+		command = { type = add_division value = flying_rocket when = 6 }
+		command = { type = add_division value = flying_rocket when = 6 }
+		command = { type = add_division value = flying_rocket when = 6 }
+		command = { type = add_division value = flying_rocket when = 6 }
+		command = { type = add_division value = flying_rocket when = 6 }
+		command = { type = add_division value = flying_rocket when = 6 }
+		command = { type = add_division value = flying_rocket when = 6 }
+		command = { type = add_division value = flying_rocket when = 6 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+		command = { type = add_division value = d_rsv_33 when = 1 }
+	}
+}

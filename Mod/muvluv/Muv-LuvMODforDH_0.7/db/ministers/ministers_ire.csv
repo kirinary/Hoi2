@@ -1,0 +1,178 @@
+IRE;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+25001;Head of State;エイモン・デ・ヴァレラ;70;ML;Pig-headed Isolationist;Medium;M25001;x
+25002;Head of Government;ジャック・リンチ;70;ML;Negative Prime;High;M25002;x
+25003;Foreign Minister;ブライアン・レニハン;70;ML;Ideological Crusader;High;M25003;x
+25004;Minister of Armament;ジョージ・コリー;70;ML;Administrative Genius;High;M25004;x
+25005;Minister of Security;デズモンド・オマリー;70;ML;Crime Fighter;High;M25005;x
+25006;Head of Military Intelligence;ジェリー・クロニン;36;ML;Industrial Specialist;High;M25006;x
+25007;Chief of Staff;トーマス・オカロル;70;ML;School of Defence;High;M25007;x
+25008;Chief of Army;トーマス・オカロル;70;ML;Elastic Defence Doctrine;High;M25007;x
+25009;Chief of Navy;ペーター・カバナー;70;ML;Open Seas Doctrine;High;M25009;x
+25010;Chief of Air Force;ポール・フライ;70;ML;Air Superiority Doctrine;High;M25010;x
+25011;Head of State;アースキン・チルダース;70;ML;Popular Gentleman;High;M25011;x
+25012;Head of State;トーマス・オイギンス;70;SC;Benevolent Gentleman;High;M25012;x
+25013;Head of State;カハル・オドーリー;74;SC;Die-hard Reformer;High;M25013;x
+25014;Head of State;パトリック・ヒラリー;74;ML;Pig-headed Isolationist;High;M25014;x
+25015;Head of State;メアリー・ロビンソン;90;SD;Die-hard Reformer;High;M25015;x
+25016;Head of State;オースティン・カリー;90;SC;Weary Stiffneck;High;M25016;x
+25017;Head of State;ブライアン・レニハン;90;ML;Stern Imperialist;High;M25003;x
+25018;Head of State;メアリー・マッカリース;97;ML;Insignificant Layman;High;M25018;x
+25019;Head of State;メアリー・バノッティ;97;SC;Insignificant Layman;High;M25019;x
+25020;Head of State;ダナ・ローズマリー・スカロン;97;SD;Insignificant Layman;High;M25020;x
+25021;Head of State;マイケル・ヒギンズ;99;SD;Die-hard Reformer;High;M25021;x
+25022;Head of State;ショーン・ギャラガー;99;ML;Popular Figurehead;High;M25022;x
+25023;Head of State;マーティン・マクギネス;99;SL;Stern Imperialist;High;M25023;x
+25024;Head of State;マイケル・オリオーダン;70;LE;Die-hard Reformer;High;M25024;x
+25025;Head of State;ジェイムズ・ステュワート;80;LE;Barking Buffoon;High;M25025;x
+25026;Head of State;ユージン・マッカータン;99;LE;Pig-headed Isolationist;High;M25026;x
+25027;Head of State;オリヴァー・J・フラナガン;70;PA;Die-hard Reformer;High;M25027;x
+25028;Head of State;チャールズ・フラナガン;87;PA;Die-hard Reformer;High;M25028;x
+25029;Head of Government;リーアム・コスグレイヴ;70;SC;Flamboyant Tough Guy;High;M25029;x
+25030;Head of Government;ブレンダン・コリシュ;70;SD;Naive Optimist;High;M25030;x
+25031;Head of Government;チャールズ・ホーヒー;79;ML;Naive Optimist;High;M25031;x
+25032;Head of Government;ギャレット・フィッツジェラルド;81;SC;Happy Amateur;High;M25032;x
+25033;Head of Government;フランク・クルスキー;81;SD;Ambitious Union Boss;High;M25033;x
+25034;Head of Government;マイケル・オレアリー;82;SD;Scientist Prime;High;M25034;x
+25035;Head of Government;ディック・スプリング;82;SD;Silent Workhorse;High;M25035;x
+25036;Head of Government;デズモンド・オマリー;87;ML;Ideological Prime;High;M25005;x
+25037;Head of Government;アラン・デュークス;89;SC;Industrial Prime;High;M25037;x
+25038;Head of Government;アルバート・レイノルズ;92;ML;Flamboyant Tough Guy;High;M25038;x
+25039;Head of Government;ジョン・ブルートン;92;SC;Ideological Prime;High;M25039;x
+25040;Head of Government;バーティ・アハーン;97;ML;Builder Bridges;High;M25040;x
+25041;Head of Government;マイケル・ヌーナン;99;SC;Silent Workhorse;High;M25041;x
+25042;Head of Government;ルアイリ・クイン;99;SD;Flamboyant Tough Guy;High;M25042;x
+25043;Head of Government;エンダ・ケニー;99;SC;Industrial Prime;High;M25043;x
+25044;Head of Government;パット・ラッディット;99;SD;Scientist Prime;High;M25044;x
+25045;Head of Government;ブライアン・カウエン;99;ML;Naive Optimist;High;M25045;x
+25046;Head of Government;ミヒェール・マーティン;99;SC;Silent Workhorse;High;M25046;x
+25047;Head of Government;イーモン・ギルモア;99;SD;Flamboyant Tough Guy;High;M25047;x
+25048;Head of Government;ベティ・シンクレア;70;LE;Ambitious Union Boss;High;M25048;x
+25049;Head of Government;アンディ・バー;70;LE;Ambitious Union Boss;High;M25049;x
+25050;Head of Government;マイケル・オリオーダン;83;LE;Flamboyant Tough Guy;High;M25024;x
+25051;Head of Government;ユージン・マッカータン;89;LE;Silent Workhorse;High;M25026;x
+25052;Head of Government;ジェイムズ・ステュワート;99;LE;Happy Amateur;High;M25025;x
+25053;Head of Government;リンダ・ウォーカー;99;LE;Political Protege;High;M25053;x
+25054;Head of Government;ゲアロイド・オクネアガーン;70;FA;Naive Optimist;High;M25054;x
+25055;Head of Government;チャールズ・フラナガン;90;PA;Silent Workhorse;High;M25028;x
+25056;Foreign Minister;ギャレット・フィッツジェラルド;70;SC;Great Compromiser;High;M25032;x
+25057;Foreign Minister;マイケル・オケネディ;70;ML;Biased Intellectual;High;M25057;x
+25058;Foreign Minister;ジョン・モーリス・ケリー;81;SC;Great Compromiser;High;M25058;x
+25059;Foreign Minister;ジェームズ・ドゥージ;81;SC;Ideological Crusader;High;M25059;x
+25060;Foreign Minister;ジェリー・コリンズ;81;ML;Ideological Crusader;High;M25060;x
+25061;Foreign Minister;ペーター・バリー;82;SC;Apologetic Clerk;High;M25061;x
+25062;Foreign Minister;デヴィッド・アンドリューズ;92;ML;Biased Intellectual;High;M25062;x
+25063;Foreign Minister;ディック・スプリング;70;SD;Great Compromiser;High;M25035;x
+25064;Foreign Minister;アルバート・レイノルズ;92;ML;Ideological Crusader;High;M25038;x
+25065;Foreign Minister;レイ・バーク;94;ML;The Cloak N Dagger Schemer;High;M25065;x
+25066;Foreign Minister;ブライアン・カウエン;99;ML;Biased Intellectual;High;M25045;x
+25067;Foreign Minister;ダーモット・アハーン;99;ML;Ideological Crusader;High;M25067;x
+25068;Foreign Minister;ミヒェール・マーティン;99;SC;Great Compromiser;High;M25046;x
+25069;Foreign Minister;イーモン・ギルモア;99;SD;The Cloak N Dagger Schemer;High;M25047;x
+25070;Foreign Minister;オリヴァー・J・フラナガン;70;PA;Biased Intellectual;High;M25040;x
+25071;Foreign Minister;フェイ・テイラー;70;FA;Iron Fisted Brute;High;M25071;x
+25072;Foreign Minister;ブレンダン・コリシュ;70;SD;Biased Intellectual;High;M25030;x
+25073;Foreign Minister;デニス・ラーキン;70;LE;Iron Fisted Brute;High;M25073;x
+25074;Foreign Minister;ユージン・マッカータン;70;LE;Ideological Crusader;High;M25026;x
+25075;Minister of Armament;リッチー・ライアン;70;SC;laissez-faire capitalist;High;M25075;x
+25076;Minister of Armament;マイケル・オケネディ;79;ML;Resource Industrialist;High;M25057;x
+25077;Minister of Armament;ユージン・フィッツジェラルド;80;ML;Air to Ground Proponent;High;M25077;x
+25078;Minister of Armament;ジョン・ブルートン;80;SC;Resource Industrialist;High;M25039;x
+25079;Minister of Armament;レイ・マクシャリー;80;ML;laissez-faire capitalist;High;M25079;x
+25080;Minister of Armament;アラン・デュークス;82;SC;Theoretical Scientist;High;M25037;x
+25081;Minister of Armament;アルバート・レイノルズ;88;ML;Administrative Genius;High;M25038;x
+25082;Minister of Armament;バーティ・アハーン;90;ML;Corrupt Kleptocrat;High;M25040;x
+25083;Minister of Armament;ルアイリ・クイン;94;SD;Theoretical Scientist;High;M25042;x
+25084;Minister of Armament;チャールズ・マックレーヴィー;97;ML;Administrative Genius;High;M25084;x
+25085;Minister of Armament;ブライアン・レニハン Jr.;99;ML;Resource Industrialist;High;M25085;x
+25086;Minister of Armament;マイケル・ヌーナン;99;SC;laissez-faire capitalist;High;M25041;x
+25087;Minister of Armament;ジェームズ・タリー;70;SD;Resource Industrialist;High;M25087;x
+25088;Minister of Armament;オリヴァー・J・フラナガン;70;PA;Infantry Proponent;High;M25027;x
+25089;Minister of Armament;デニス・ラーキン;70;LE;Resource Industrialist;High;M25073;x
+25090;Minister of Armament;マイケル・オリオーダン;70;LE;Military Entrepreneur;High;M25024;x
+25091;Minister of Armament;アリス・グレン;70;PA;laissez-faire capitalist;High;M25091;x
+25092;Foreign Minister;ジャスティン・バレット;90;FA;Biased Intellectual;High;M25092;x
+25093;Minister of Armament;アンディ・バー;70;LE;Battle Fleet Proponent;High;M25049;x
+25094;Minister of Security;パトリック・クーニー;70;SC;Silent Lawyer;High;M25094;x
+25095;Minister of Security;ジェリー・コリンズ;77;ML;Compassionate Gentleman;High;M25060;x
+25096;Minister of Security;ジム・ミッチェル;80;SC;Man of the People;High;M25096;x
+25097;Minister of Security;ショーン・ドハーティ;42;SD;Silent Lawyer;High;M25097;x
+25098;Minister of Security;アラン・デュークス;86;SC;Compassionate Gentleman;High;M25037;x
+25099;Minister of Security;レイ・バーク;89;ML;Efficient Sociopath;High;M25065;x
+25100;Minister of Security;パドレイグ・フリン;92;ML;Compassionate Gentleman;High;M25100;x
+25101;Minister of Security;マーレ・ジョーヒガン＝クイン;93;ML;Man of the People;High;M25101;x
+25102;Minister of Security;ノラ・オーウェン;94;SC;Crime Fighter;High;M25102;x
+25103;Minister of Security;ジョン・オドノヒュー;94;ML;Silent Lawyer;High;M25103;x
+25104;Minister of Security;マイケル・マクドウェル;99;ML;Crime Fighter;High;M25104;x
+25105;Minister of Security;ブライアン・レニハン Jr.;99;ML;Man of the People;High;M25085;x
+25106;Minister of Security;ダーモット・アハーン;99;ML;Silent Lawyer;High;M25067;x
+25107;Minister of Security;ブレンダン・スミス;99;ML;Compassionate Gentleman;High;M25107;x
+25108;Minister of Security;アラン・シャター;99;SC;Crime Fighter;High;M25108;x
+25109;Minister of Security;バリー・デズモンド;70;SD;Man of the People;High;M25109;x
+25110;Minister of Security;ベティ・シンクレア;70;LE;Back Stabber;High;M25048;x
+25111;Minister of Security;ジェイムズ・ステュワート;80;LE;Efficient Sociopath;High;M25025;x
+25112;Minister of Security;ゲアロイド・オクネアガーン;70;FA;Prince of Terror;High;M25054;x
+25113;Minister of Security;ジャスティン・バレット;90;FA;Efficient Sociopath;High;M25092;x
+25114;Head of Military Intelligence;パディ・ドネガン;70;SC;Industrial Specialist;High;M25114;x
+25115;Head of Military Intelligence;オリヴァー・J・フラナガン;70;PA;Political Specialist;Medium;M25027;x
+25116;Head of Military Intelligence;ボビー・モロイ;77;ML;Industrial Specialist;High;M25116;x
+25117;Head of Military Intelligence;パドレイグ・フォークナー;79;ML;Technical Specialist;High;M25117;x
+25118;Head of Military Intelligence;シルベスター・バレット;80;ML;Logistics Specialist;High;M25118;x
+25119;Head of Military Intelligence;ジェームズ・タリー;70;SD;Industrial Specialist;High;M25087;x
+25120;Head of Military Intelligence;パディ・パワー;82;ML;Technical Specialist;High;M25120;x
+25121;Head of Military Intelligence;パトリック・クーニー;82;SC;Political Specialist;High;M25094;x
+25122;Head of Military Intelligence;パディ・オトゥール;86;SC;Industrial Specialist;High;M25122;x
+25123;Head of Military Intelligence;マイケル・J・ヌーナン;87;ML;Industrial Specialist;High;M25123;x
+25124;Head of Military Intelligence;ブライアン・レニハン;90;ML;Political Specialist;High;M25003;x
+25125;Head of Military Intelligence;ブレンダン・ダリー;91;ML;Naval Intelligence Specialist;High;M25125;x
+25126;Head of Military Intelligence;ビンセント・ブレイディ;91;ML;Technical Specialist;High;M25126;x
+25127;Head of Military Intelligence;ジョン・パトリック・ウィルソン;92;ML;Technical Specialist;High;M25127;x
+25128;Head of Military Intelligence;デヴィッド・アンドリューズ;92;ML;Dismal Enigma;Medium;M25062;x
+25129;Head of Military Intelligence;ヒュー・カブニー;94;SC;Technical Specialist;High;M25129;x
+25130;Head of Military Intelligence;ショーン・バレット;95;SC;Logistics Specialist;High;M25130;x
+25131;Head of Military Intelligence;マイケル・スミス;97;ML;Industrial Specialist;High;M25131;x
+25132;Head of Military Intelligence;ウィリー・オデア;99;ML;Logistics Specialist;High;M25132;x
+25133;Head of Military Intelligence;トニー・キリーン;99;ML;Industrial Specialist;High;M25133;x
+25134;Head of Military Intelligence;エイモン・オクイヴ;99;ML;Technical Specialist;High;M25134;x
+25135;Head of Military Intelligence;アラン・シャター;99;SC;Political Specialist;High;M25108;x
+25136;Head of Military Intelligence;ベティ・シンクレア;70;LE;Technical Specialist;High;M25048;x
+25137;Head of Military Intelligence;アンディ・バー;70;LE;Naval Intelligence Specialist;High;M25049;x
+25138;Head of Military Intelligence;アリス・グレン;70;PA;Political Specialist;High;M25091;x
+25139;Chief of Staff;カール・オサリバン;70;SC;School of Manoeuvre;High;M25139;x
+25140;Chief of Staff;ルイス・ホーガン;80;SC;School of Psychology;High;M25140;x
+25141;Chief of Staff;ジェラルド・オサリバン;84;SC;School of Defence;High;M25141;x
+25142;Chief of Staff;テッド・オニール;86;SC;School of Fire Support;High;M25142;x
+25143;Chief of Staff;ジェームズ・パーカー;89;SC;School of Mass Combat;High;M25143;x
+25144;Chief of Staff;ノエル・バーギン;92;SC;School of Psychology;High;M25144;x
+25145;Chief of Staff;ジェラルド・マクマホン;95;SC;School of Manoeuvre;High;M25145;x
+25146;Chief of Staff;デビッド・ステープルトン;98;SC;School of Fire Support;High;M25146;x
+25147;Chief of Staff;コルム・マンガン;99;SC;School of Mass Combat;High;M25147;x
+25148;Chief of Staff;ジェームズ・スリーナン;99;SC;School of Psychology;High;M25148;x
+25149;Chief of Staff;ダーモット・アーリー;99;SC;School of Defence;High;M25149;x
+25150;Chief of Staff;ショーン・マッキャン;99;SC;School of Mass Combat;High;M25150;x
+25151;Chief of Staff;パディ・オダイレ;70;LE;School of Psychology;High;M25151;x
+25152;Chief of Staff;マイケル・オリオーダン;70;LE;School of Fire Support;High;M25024;x
+25153;Minister of Armament;マイケル・オリオーダン;70;LE;Infantry Proponent;High;M25024;x
+25154;Chief of Army;カール・オサリバン;70;SC;Armoured Spearhead Doctrine;High;M25139;x
+25155;Chief of Army;ルイス・ホーガン;80;SC;Guns and Butter Doctrine;High;M25140;x
+25156;Chief of Army;ジェラルド・オサリバン;84;SC;Static Defence Doctrine;High;M25141;x
+25157;Chief of Army;テッド・オニール;86;SC;Elastic Defence Doctrine;High;M25142;x
+25158;Chief of Army;ジェームズ・パーカー;89;SC;Decisive Battle Doctrine;High;M25143;x
+25159;Chief of Army;ノエル・バーギン;92;SC;Elastic Defence Doctrine;High;M25144;x
+25160;Chief of Army;ジェラルド・マクマホン;95;SC;Armoured Spearhead Doctrine;High;M25145;x
+25161;Chief of Army;デビッド・ステープルトン;98;SC;Guns and Butter Doctrine;High;M25146;x
+25162;Chief of Army;コルム・マンガン;99;SC;Static Defence Doctrine;High;M25147;x
+25163;Chief of Army;ジェームズ・スリーナン;99;SC;Static Defence Doctrine;High;M25148;x
+25164;Chief of Army;ダーモット・アーリー;99;SC;Elastic Defence Doctrine;High;M25149;x
+25165;Chief of Army;ショーン・マッキャン;99;SC;Guns and Butter Doctrine;High;M25150;x
+25166;Chief of Army;パディ・オダイレ;70;LE;Elastic Defence Doctrine;High;M25151;x
+25167;Chief of Army;マイケル・オリオーダン;70;LE;Decisive Battle Doctrine;High;M25024;x
+25168;Chief of Navy;L・S・モロニー;70;SC;Open Seas Doctrine;High;M25168;x
+25169;Chief of Navy;W・J・ブレット;86;SC;Decisive Naval Battle Doctrine;High;M25169;x
+25170;Chief of Navy;ジョー・ダーシー;90;SC;Open Seas Doctrine;High;M25170;x
+25171;Chief of Navy;ジョン・J・カバナー;99;SC;Power Projection Doctrine;High;M25171;x
+25172;Chief of Navy;マーク・メレット;99;SC;Base Control Doctrine;High;M25172;x
+25173;Chief of Navy;アンディ・バー;70;LE;Decisive Naval Battle Doctrine;High;M25049;x
+25174;Chief of Air Force;ラルフ・ジェームズ;70;SC;Army Aviation Doctrine;High;M25174;x
+25175;Chief of Air Force;ジョン・J・カバナー;70;SC;Naval Aviation Doctrine;High;M25171;x
+25176;Chief of Air Force;マイケル・オリオーダン;70;LE;Vertical Envelopment Doctrine;High;M25024;x

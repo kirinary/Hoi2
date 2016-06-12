@@ -1,0 +1,74 @@
+NIC;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+48001;Head of State;ファン・バウティスタ・サカサ;36;SC;Benevolent Gentleman;High;M48001;x
+48002;Head of Government;フリアン・イリアス・ナバロ;36;SC;Happy Amateur;High;M48002;x
+48003;Foreign Minister;レオナルド・アルゲリョ・バレット;36;SC;Iron Fisted Brute;High;M48003;x
+48004;Minister of Armament;アナスタシオ・ソモサ・ガルシア;36;SC;Corrupt Kleptocrat;Very High;M48004;x
+48005;Minister of Security;アルカシオ・トレリェス・メンドーサ;36;ML;Crooked Kleptocrat;Very High;M48005;x
+48006;Head of Military Intelligence;レオナルド・アルゲリョ・バレット;36;SC;Technical Specialist;Medium;M48003;x
+48007;Chief of Staff;アナスタシオ・ソモサ・ガルシア;36;SC;School of Defence;Very High;M48004;x
+48008;Chief of Army;アウグスト・カラバル・アントニオ;36;SC;Elastic Defence Doctrine;Medium;M48008;x
+48009;Chief of Navy;グスタボ・フロレス・メンディエンタ;36;SC;Base Control Doctrine;Very High;M48009;x
+48010;Chief of Air Force;ギリェルモ・リバス・クアドラ;36;SC;Naval Aviation Doctrine;Medium;M48010;x
+48031;Head of State;フリアン・イリアス・ナバロ;36;SC;Insignificant Layman;High;M48002;x
+48032;Head of State;カルロス・ブレネス・ハルキン;36;PA;Autocratic Charmer;High;M48032;x
+48033;Head of State;アナスタシオ・G・ソモサ;37;SC;Resigned Generalissimo;High;M48004;x
+48034;Head of State;ベンハミン・ラカヨ・サカサ;47;SC;Popular Figurehead;High;M48034;x
+48035;Head of State;ビクトル・ラモン・イ・レイエス;47;PA;Pig-headed Isolationist;High;M48035;x
+48036;Head of Government;レオン・カブラレス;36;SC;Happy Amateur;High;M48011;x
+48037;Head of Government;アナスタシオ・G・ソモサ;36;PA;Flamboyant Tough Guy;High;M48004;x
+48038;Head of Government;ビセンテ・モラレス;37;SC;Naive Optimist;High;M48038;x
+48039;Head of Government;カルロス・A・ビリャヌエバ;39;SC;Political Protege;High;M48039;x
+48040;Head of Government;アルカシオ・トレリェス・メンドーサ;41;SC;Corporate Suit;High;M48005;x
+48041;Head of Government;カルロス・ブレネス・ハルキン;44;SC;Silent Workhorse;High;M48032;x
+48042;Head of Government;ギリェルモ・クアドラ;47;SC;Ambitious Union Boss;High;M48012;x
+48043;Foreign Minister;ダリオ・ダリオ・イ・デバイレ;36;SC;General Staffer;High;M48043;x
+48044;Foreign Minister;マヌエル・コロデロ・レイエス;37;SC;Great Compromiser;High;M48044;x
+48045;Foreign Minister;マリアーノ・アルゲリョ・バルガス;39;SC;Biased Intellectual;High;M48045;x
+48046;Foreign Minister;ビクトル・ラモン・イ・レイエス;44;PA;General Staffer;Very High;M48035;x
+48047;Foreign Minister;シルビオ・アルゲリョ・カルデナル;47;SC;Great Compromiser;Very High;M48047;x
+48048;Foreign Minister;アナスタシオ・G・ソモサ;47;PA;The Cloak N Dagger Schemer;High;M48004;x
+48049;Minister of Armament;ニコラス・フアレス・セフド;36;SC;Air to Ground Proponent;Very High;M48049;x
+48050;Minister of Armament;トマス・フランシスコ・メディナ;36;PA;Corrupt Kleptocrat;Medium;M48050;x
+48051;Minister of Armament;カルロス・ブレネス・ハルキン;37;SC;laissez-faire capitalist;High;M48032;x
+48052;Minister of Armament;サルバドル・ブエンロストリ・カルデナス;39;SC;Air Superiority Proponent;High;M48052;x
+48053;Minister of Armament;レオナルド・アルゲリョ・バレット;41;SC;Infantry Proponent;High;M48003;x
+48054;Minister of Armament;ベンハミン・ラカヨ・サカサ;43;SC;Administrative Genius;Medium;M48034;x
+48055;Minister of Armament;ベンハミン・カサル・コーエン;44;SC;Military Entrepreneur;High;M48055;x
+48056;Minister of Armament;ファン・エストラダ・アヤラ;47;SC;Air to Ground Proponent;High;M48056;x
+48057;Minister of Armament;ホセ・クレモン・サカサ;47;PA;Tank Proponent;Low;M48057;x
+48058;Minister of Security;アナスタシオ・G・ソモサ;36;SC;Efficient Sociopath;Low;M48004;x
+48059;Minister of Security;ビクトル・ラモン・イ・レイエス;39;SC;Prince of Terror;Very High;M48035;x
+48060;Minister of Security;レオン・カブラレス;41;SC;Back Stabber;Medium;M48011;x
+48061;Minister of Security;グスタボ・パボン・オチョア;44;PA;Silent Lawyer;Medium;M48061;x
+48062;Minister of Security;ニコラス・エデン・ヒメネス;47;SC;Compassionate Gentleman;Medium;M48062;x
+48064;Head of Military Intelligence;フランシスコ・エストラサ;36;PA;Industrial Specialist;Medium;M48064;x
+48065;Head of Military Intelligence;レオナルド・アルゲリョ・ビンセス;37;SC;Dismal Enigma;Medium;M48065;x
+48066;Head of Military Intelligence;ビクトル・ラモン・イ・レイエス;41;SC;Technical Specialist;Very High;M48035;x
+48067;Head of Military Intelligence;ホセ・ルイス・パボン・ビナレス;44;SC;Logistics Specialist;Medium;M48067;x
+48068;Head of Military Intelligence;ファン・パブロ・エスケラ;47;SC;Dismal Enigma;Medium;M48026;x
+48069;Head of Military Intelligence;ホセ・クレモン・サカサ;47;PA;Dismal Enigma;Low;M48057;x
+48071;Chief of Staff;アウグスト・カラバル・アントニオ;36;PA;School of Fire Support;Low;M48008;x
+48072;Chief of Staff;マヌエル・ロケ・ガルシア;47;SC;School of Manoeuvre;Low;M48072;x
+48074;Chief of Army;アナスタシオ・G・ソモサ;37;SC;Static Defence Doctrine;Very High;M48004;x
+48075;Chief of Army;ビクトル・ラモン・イ・レイエス;41;SC;Decisive Battle Doctrine;Very High;M48035;x
+48076;Chief of Army;マヌエル・コロベル・キルシュ;44;PA;Armoured Spearhead Doctrine;Medium;M48028;x
+48077;Chief of Army;マヌエル・ロケ・ガルシア;47;SC;Guns and Butter Doctrine;Low;M48072;x
+48079;Chief of Navy;ノエル・エスト・ニノ・ミランダ;44;SC;Open Seas Doctrine;Very High;M48029;x
+48082;Chief of Air Force;ホエル・ガルシア・サルダナ;44;SC;Army Aviation Doctrine;Medium;M48030;x
+48084;Head of State;レオナルド・アルゲリョ・バレット;47;SC;Die-hard Reformer;High;M48003;x
+48085;Head of Government;アナスタシオ・G・ソモサ;47;PA;Old General;High;M48004;x
+48011;Head of State;レオン・カブラレス;36;SL;Insignificant Layman;High;M48011;x
+48012;Head of Government;ギリェルモ・クアドラ;36;SD;Ambitious Union Boss;High;M48012;x
+48013;Foreign Minister;レオン・カブラレス;36;SL;Biased Intellectual;High;M48011;x
+48015;Minister of Security;ギリェルモ・クアドラ;36;SD;Crime Fighter;High;M48012;x
+48021;Head of State;ルイス・カルデナル;36;LE;Weary Stiffneck;High;M48021;x
+48022;Head of Government;ルイス・カルデナル;36;LE;Flamboyant Tough Guy;High;M48021;x
+48023;Foreign Minister;ルイス・カルデナル;36;LE;Ideological Crusader;Very High;M48021;x
+48024;Minister of Armament;テオフィロ・S・グラリェス;36;ST;Strategic Air Proponent;Medium;M48024;x
+48025;Minister of Security;ファン・Y・マスケス;36;LE;Efficient Sociopath;Medium;M48025;x
+48026;Head of Military Intelligence;ファン・パブロ・エスケラ;36;LWR;Dismal Enigma;Medium;M48026;x
+48027;Chief of Staff;ファン・パブロ・エスケラ;36;LWR;School of Psychology;Medium;M48026;x
+48028;Chief of Army;マヌエル・コロベル・キルシュ;36;LWR;Static Defence Doctrine;Medium;M48028;x
+48029;Chief of Navy;ノエル・エスト・ニノ・ミランダ;36;LWR;Open Seas Doctrine;Very High;M48029;x
+48030;Chief of Air Force;ホエル・ガルシア・サルダナ;36;LWR;Army Aviation Doctrine;Medium;M48030;x

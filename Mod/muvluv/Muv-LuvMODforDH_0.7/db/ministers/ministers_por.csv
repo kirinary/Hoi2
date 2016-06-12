@@ -1,0 +1,12 @@
+POR;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+9001;Head of State;アメリコ・トマス;58;PA;Popular Figurehead;High;M9001;x
+9002;Head of Government;マルセロ・カエターノ;68;PA;Flamboyant Tough Guy;High;M9002;x
+9003;Foreign Minister;ルイ・パトリシオ;70;PA;Biased Intellectual;High;M9003;x
+9004;Minister of Armament;マヌエル・コッタ・ディアス;72;PA;Economist Minister;High;M9004;x
+9005;Minister of Security;アントニオ・ゴンサルベス・ラパゾテ;67;PA;Silent Lawyer;High;M9005;x
+9006;Head of Military Intelligence;マリア・ジュリオ・デ・アルメイダ・コスタ;70;PA;Judiciary Specialist;High;M9006;x
+9007;Chief of Staff;フランシスコ・ダ・コスタ・ゴメス;70;PA;School of Defence;High;M9007;x
+9008;Chief of Army;ホラシオ・デ・サ・ヴィアナ・レベロ;70;PA;Guns and Butter Doctrine;High;M9008;x
+9009;Chief of Navy;マヌエル・ペレイラ・クレスポ;70;PA;Open Seas Doctrine;High;M9009;x
+9010;Chief of Air Force;ジョゼ・ペレイラ・ド・ナスシメント;70;PA;Army Aviation Doctrine;High;M9010;x

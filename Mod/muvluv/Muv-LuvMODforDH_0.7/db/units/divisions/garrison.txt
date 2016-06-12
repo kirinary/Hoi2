@@ -1,0 +1,960 @@
+allowed_brigades = artillery
+allowed_brigades = anti_tank
+allowed_brigades = anti_air
+allowed_brigades = rocket_artillery
+allowed_brigades = sp_artillery
+allowed_brigades = sp_rct_artillery
+allowed_brigades = tank_destroyer
+allowed_brigades = light_armor_brigade
+allowed_brigades = heavy_armor
+allowed_brigades = super_heavy_armor
+allowed_brigades = armored_car
+allowed_brigades = engineer
+allowed_brigades = police
+allowed_brigades = medium_armor
+allowed_brigades = floatplane
+allowed_brigades = light_cag
+allowed_brigades = amph_armor
+allowed_brigades = glider_armor
+# 0 - Basic Garrison Division (1918)
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 3 # was 10
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 15
+  toughness           = 20
+  softness            = 50
+  suppression         = 10
+  airdefence          = 1
+  softattack          = 1
+  hardattack          = 1
+  airattack           = 1
+  transportweight     = 10
+  supplyconsumption   = 0.5
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ cost                = 3
+  buildtime           = 60
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 15
+  toughness           = 20
+  softness            = 50
+  suppression         = 10
+  airdefence          = 5
+  softattack          = 1
+  hardattack          = 1
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 0.5
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  manpower            = 3
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 2 - Advanced Garrison Division (1943)
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 5 # was 10
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 15
+  softness            = 50
+  suppression         = 10
+  airdefence          = 5
+  softattack          = 1
+  hardattack          = 3
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 0.5
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  maxspeed            = 1
+  toughness           = 20
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 3 - Modern Garrison Division (1946)
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 3
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 20
+  toughness           = 25
+  softness            = 50
+  suppression         = 15
+  airdefence          = 5
+  softattack          = 1
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 0.5
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  hardattack          = 3
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 3 - Modern Garrison Division (1946)
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 3
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 20
+  toughness           = 25
+  softness            = 50
+  suppression         = 15
+  airdefence          = 5
+  softattack          = 2
+  hardattack          = 5
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 0 - Basic Garrison Division (1918)
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 5 # was 10
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 20
+  toughness           = 25
+  softness            = 50
+  suppression         = 15
+  airdefence          = 5
+  softattack          = 2
+  hardattack          = 5
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 0.5
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 5 # was 10
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  toughness           = 30
+  softness            = 50
+  suppression         = 15
+  airdefence          = 5
+  softattack          = 2
+  hardattack          = 5
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 0.5
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  defensiveness       = 25
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 2 - Advanced Garrison Division (1943)
+model =
+{ cost                = 3
+  buildtime           = 60
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 25
+  toughness           = 30
+  softness            = 50
+  suppression         = 15
+  airdefence          = 5
+  softattack          = 2
+  hardattack          = 5
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 0.5
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  manpower            = 3
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 3 - Modern Garrison Division (1946)
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 25
+  toughness           = 30
+  softness            = 50
+  airdefence          = 5
+  softattack          = 2
+  hardattack          = 5
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  suppression         = 20
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 3 - Modern Garrison Division (1946)
+model =
+{ cost                = 3
+  buildtime           = 60
+  manpower            = 3
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 30
+  toughness           = 35
+  softness            = 50
+  suppression         = 20
+  airdefence          = 5
+  softattack          = 2
+  hardattack          = 5
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 1.0
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 HALFTRACKS = 40 }
+}
+# 0 - Basic Garrison Division (1918)
+model =
+{ cost                = 5
+  buildtime           = 60
+  manpower            = 8 # was 10
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 10
+  toughness           = 2
+  softness            = 100
+  suppression         = 6
+  airdefence          = 3
+  softattack          = 5
+  hardattack          = 1
+  airattack           = 1
+  transportweight     = 10
+  supplyconsumption   = 0.5
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 1.0
+  upgrade_cost_factor = 1.0
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 1000
+  toughness           = 1000
+  softness            = 50
+  airdefence          = 100
+  softattack          = 1000
+  hardattack          = 2000
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  equipment = { heavy_artillery = 100000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 1500
+  toughness           = 1500
+  softness            = 50
+  airdefence          = 100
+  softattack          = 1200
+  hardattack          = 2200
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  equipment = { heavy_artillery = 150000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 2000
+  toughness           = 2000
+  softness            = 50
+  airdefence          = 100
+  softattack          = 1400
+  hardattack          = 2400
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  equipment = { heavy_artillery = 200000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 2500
+  toughness           = 2500
+  softness            = 50
+  airdefence          = 100
+  softattack          = 1600
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  hardattack          = 2600
+  equipment = { heavy_artillery = 250000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 3000
+  toughness           = 3000
+  softness            = 50
+  airdefence          = 100
+  softattack          = 1800
+  hardattack          = 2800
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  equipment = { heavy_artillery = 300000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 3500
+  toughness           = 3500
+  softness            = 50
+  airdefence          = 100
+  softattack          = 2000
+  hardattack          = 3000
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  equipment = { heavy_artillery = 400000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 4000
+  toughness           = 4000
+  softness            = 50
+  airdefence          = 100
+  softattack          = 2200
+  hardattack          = 3200
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  equipment = { heavy_artillery = 450000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 4500
+  toughness           = 4500
+  softness            = 50
+  airdefence          = 100
+  softattack          = 2400
+  hardattack          = 3400
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  equipment = { heavy_artillery = 500000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 5000
+  toughness           = 5000
+  softness            = 50
+  airdefence          = 100
+  softattack          = 2600
+  hardattack          = 3600
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  equipment = { heavy_artillery = 550000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ manpower            = 100 # was 10
+  maxspeed            = 1
+  defaultorganisation = 200
+  morale              = 300
+  defensiveness       = 6000
+  toughness           = 6000
+  softness            = 50
+  airdefence          = 100
+  softattack          = 3000
+  hardattack          = 4000
+  transportweight     = 1
+  supplyconsumption   = 1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  buildtime           = 720
+  suppression         = 100
+  airattack           = 99999999999999999
+  cost                = 30
+  equipment = { heavy_artillery = 600000 }
+}
+# 1 - Improved Garrison Division (1939)
+model =
+{ cost                = 5
+  buildtime           = 60
+  manpower            = 8 # was 10
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 15
+  toughness           = 7
+  softness            = 95
+  suppression         = 8
+  airdefence          = 4
+  softattack          = 12
+  hardattack          = 2
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 0.6
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# 機動トーチカⅠ
+model =
+{ cost                = 10
+  buildtime           = 210
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 5
+  hardattack          = 10
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 機動トーチカⅡ
+model =
+{ cost                = 10
+  buildtime           = 210
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 15
+  hardattack          = 20
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 機動トーチカⅢ
+model =
+{ cost                = 11
+  buildtime           = 230
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 19
+  hardattack          = 25
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 機動トーチカⅣ
+model =
+{ cost                = 12
+  buildtime           = 240
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 24
+  hardattack          = 30
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 機動トーチカⅤ
+model =
+{ cost                = 12
+  buildtime           = 240
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 26
+  hardattack          = 32
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 機動トーチカⅥ
+model =
+{ cost                = 13
+  buildtime           = 250
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 28
+  hardattack          = 34
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 機動トーチカⅦ
+model =
+{ cost                = 13
+  buildtime           = 250
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 30
+  hardattack          = 36
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 機動トーチカⅧ
+model =
+{ cost                = 15
+  buildtime           = 260
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 32
+  hardattack          = 38
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 機動トーチカⅨ
+model =
+{ cost                = 16
+  buildtime           = 260
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 34
+  hardattack          = 40
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 機動トーチカⅩ
+model =
+{ cost                = 17
+  buildtime           = 260
+  manpower            = 5
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 50
+  toughness           = 50
+  softness            = 30
+  suppression         = 3
+  airdefence          = 3
+  softattack          = 39
+  hardattack          = 45
+  airattack           = 3
+  transportweight     = 10
+  supplyconsumption   = 1.4
+  fuelconsumption     = 0
+  speed_cap_art       = 10
+  speed_cap_eng       = 10
+  speed_cap_at        = 10
+  speed_cap_aa        = 10
+  upgrade_time_factor = 4.0
+  upgrade_cost_factor = 1.0
+  equipment = { manpower = 4000 TRUCKS = 40 ARTILLERY = 20 }
+}
+# 2 - Advanced Garrison Division (1943)
+model =
+{ cost                = 5
+  buildtime           = 60
+  manpower            = 8 # was 10
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 25
+  toughness           = 12
+  softness            = 85
+  suppression         = 10
+  airdefence          = 6
+  softattack          = 16
+  hardattack          = 5
+  airattack           = 4
+  transportweight     = 10
+  supplyconsumption   = 0.7
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+}
+# 3 - Modern Garrison Division (1946)
+model =
+{ cost                = 15
+  buildtime           = 120
+  manpower            = 20
+  maxspeed            = 5
+  defaultorganisation = 150
+  morale              = 150
+  defensiveness       = 100
+  toughness           = 100
+  softness            = 50
+  suppression         = 15
+  airdefence          = 100
+  softattack          = 1
+  hardattack          = 1
+  airattack           = 0
+  transportweight     = 0.1
+  supplyconsumption   = 0.1
+  fuelconsumption     = 0
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { heavy_artillery = 1 }
+}
+# 3 - Modern Garrison Division (1946)
+model =
+{ cost                = 5
+  buildtime           = 60
+  manpower            = 8
+  maxspeed            = 1
+  defaultorganisation = 30
+  morale              = 30
+  defensiveness       = 35
+  toughness           = 12
+  softness            = 80
+  suppression         = 12
+  airdefence          = 6
+  softattack          = 20
+  hardattack          = 6
+  airattack           = 5
+  transportweight     = 10
+  supplyconsumption   = 0.9
+  fuelconsumption     = 0.2
+  speed_cap_art       = 3
+  speed_cap_eng       = 3
+  speed_cap_at        = 3
+  speed_cap_aa        = 3
+  upgrade_time_factor = 0.5
+  upgrade_cost_factor = 1.0
+  equipment = { heavy_artillery = 1 }
+}

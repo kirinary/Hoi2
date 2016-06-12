@@ -1,0 +1,3113 @@
+technology =
+{ id          = 3
+  category    = naval
+  name        = TECH_NAVAL_NAME # Localized name
+  desc        = TECH_NAVAL_DESC # Localized description
+  label =
+  { tag      = TECH_CAT_NAVAL_1
+    position = { x = 7 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_2
+    position = { x = 93 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_3
+    position = { x = 179 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_4
+    position = { x = 265 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_5
+    position = { x = 351 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_6
+    position = { x = 437 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_7
+    position = { x = 523 y = 5 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_8
+    position = { x = 7 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_9
+    position = { x = 93 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_10
+    position = { x = 265 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_11
+    position = { x = 265 y = 270 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_12
+    position = { x = 179 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_15
+    position = { x = 351 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_16
+    position = { x = 437 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_17
+    position = { x = 523 y = 190 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_21
+    position = { x = 351 y = 352 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_22
+    position = { x = 437 y = 352 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_23
+    position = { x = 523 y = 352 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_13
+    position = { x = 351 y = 425 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_14
+    position = { x = 437 y = 425 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_24
+    position = { x = 523 y = 425 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_18
+    position = { x = 24 y = 375 }
+  }
+  label =
+  { tag      = TECH_CAT_NAVAL_19
+    position = { x = 188 y = 375 }
+  }
+  # É~ÉTÉCÉãí¯áTå^
+  application =
+  { id        = 3010
+    name      = TECH_APP_NAVAL_1_NAME
+    desc      = TECH_APP_NAVAL_1_DESC
+    position  = { x = 0 y = 21 }
+    year      = 1945
+    # Great War Destroyer Hull
+    component = { id = 3011 name = TECH_CMP_NAVAL_1_1_NAME type = naval_engineering difficulty = 8 }
+    # Great War Destroyer Propulsion
+    component = { id = 3012 name = TECH_CMP_NAVAL_1_2_NAME type = technical_efficiency difficulty = 8 }
+    # Naval Gun 100+mm
+    component = { id = 3013 name = TECH_CMP_NAVAL_1_3_NAME type = naval_artillery difficulty = 8 }
+    # Great War ASW Equipment
+    component = { id = 3014 name = TECH_CMP_NAVAL_1_4_NAME type = electronics difficulty = 8 }
+    # Great War Destroyer Prototype Testing
+    component = { id = 3015 name = TECH_CMP_NAVAL_1_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = light_cruiser }
+      command = { type = new_model which = light_cruiser value = 0 }
+    }
+  }
+  # É~ÉTÉCÉãí¯áUå^
+  application =
+  { id        = 3020
+    name      = TECH_APP_NAVAL_2_NAME
+    desc      = TECH_APP_NAVAL_2_DESC
+    position  = { x = 0 y = 37 }
+    year      = 1973
+    component = { id = 3021 name = TECH_CMP_NAVAL_2_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3022 name = TECH_CMP_NAVAL_2_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3023 name = TECH_CMP_NAVAL_2_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3024 name = TECH_CMP_NAVAL_2_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3025 name = TECH_CMP_NAVAL_2_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3010 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 1 }
+      command = { type = scrap_model which = light_cruiser value = 0 }
+    }
+  }
+  # É~ÉTÉCÉãí¯áVå^
+  application =
+  { id        = 3030
+    name      = TECH_APP_NAVAL_3_NAME
+    desc      = TECH_APP_NAVAL_3_DESC
+    position  = { x = 0 y = 53 }
+    year      = 1979
+    component = { id = 3031 name = TECH_CMP_NAVAL_3_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3032 name = TECH_CMP_NAVAL_3_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3033 name = TECH_CMP_NAVAL_3_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3034 name = TECH_CMP_NAVAL_3_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3035 name = TECH_CMP_NAVAL_3_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3020 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 2 }
+      command = { type = scrap_model which = light_cruiser value = 1 }
+    }
+  }
+  # É~ÉTÉCÉãí¯áWå^
+  application =
+  { id        = 3040
+    name      = TECH_APP_NAVAL_4_NAME
+    desc      = TECH_APP_NAVAL_4_DESC
+    position  = { x = 0 y = 69 }
+    year      = 1984
+    component = { id = 3041 name = TECH_CMP_NAVAL_4_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3042 name = TECH_CMP_NAVAL_4_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3043 name = TECH_CMP_NAVAL_4_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3044 name = TECH_CMP_NAVAL_4_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3045 name = TECH_CMP_NAVAL_4_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3030 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 3 }
+      command = { type = scrap_model which = light_cruiser value = 2 }
+    }
+  }
+  # É~ÉTÉCÉãí¯áXå^
+  application =
+  { id        = 3050
+    name      = TECH_APP_NAVAL_5_NAME
+    desc      = TECH_APP_NAVAL_5_DESC
+    position  = { x = 0 y = 85 }
+    year      = 1990
+    component = { id = 3051 name = TECH_CMP_NAVAL_5_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3052 name = TECH_CMP_NAVAL_5_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3053 name = TECH_CMP_NAVAL_5_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3054 name = TECH_CMP_NAVAL_5_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3055 name = TECH_CMP_NAVAL_5_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3040 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 4 }
+      command = { type = scrap_model which = light_cruiser value = 3 }
+    }
+  }
+  # É~ÉTÉCÉãí¯áYå^
+  application =
+  { id        = 3060
+    name      = TECH_APP_NAVAL_6_NAME
+    desc      = TECH_APP_NAVAL_6_DESC
+    position  = { x = 0 y = 101 }
+    year      = 1998
+    component = { id = 3061 name = TECH_CMP_NAVAL_6_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3062 name = TECH_CMP_NAVAL_6_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3063 name = TECH_CMP_NAVAL_6_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3064 name = TECH_CMP_NAVAL_6_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3065 name = TECH_CMP_NAVAL_6_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3050 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 5 }
+      command = { type = scrap_model which = light_cruiser value = 4 }
+    }
+  }
+  # É~ÉTÉCÉãí¯áZå^
+  application =
+  { id        = 3070
+    name      = TECH_APP_NAVAL_7_NAME
+    desc      = TECH_APP_NAVAL_7_DESC
+    position  = { x = 0 y = 117 }
+    year      = 2009
+    component = { id = 3071 name = TECH_CMP_NAVAL_7_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3072 name = TECH_CMP_NAVAL_7_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3073 name = TECH_CMP_NAVAL_7_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3074 name = TECH_CMP_NAVAL_7_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3075 name = TECH_CMP_NAVAL_7_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3060 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 6 }
+      command = { type = scrap_model which = light_cruiser value = 5 }
+    }
+  }
+  # É~ÉTÉCÉãí¯á[å^
+  application =
+  { id        = 3080
+    name      = TECH_APP_NAVAL_8_NAME
+    desc      = TECH_APP_NAVAL_8_DESC
+    position  = { x = 0 y = 133 }
+    year      = 2018
+    component = { id = 3081 name = TECH_CMP_NAVAL_8_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3082 name = TECH_CMP_NAVAL_8_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3083 name = TECH_CMP_NAVAL_8_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3084 name = TECH_CMP_NAVAL_8_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3085 name = TECH_CMP_NAVAL_8_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3070 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 7 }
+      command = { type = scrap_model which = light_cruiser value = 6 }
+    }
+  }
+  # É~ÉTÉCÉãí¯á\å^
+  application =
+  { id        = 3090
+    name      = TECH_APP_NAVAL_9_NAME
+    desc      = TECH_APP_NAVAL_9_DESC
+    position  = { x = 0 y = 149 }
+    year      = 2026
+    component = { id = 3091 name = TECH_CMP_NAVAL_9_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3092 name = TECH_CMP_NAVAL_9_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3093 name = TECH_CMP_NAVAL_9_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3094 name = TECH_CMP_NAVAL_9_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3095 name = TECH_CMP_NAVAL_9_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3080 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 8 }
+      command = { type = scrap_model which = light_cruiser value = 7 }
+    }
+  }
+  # É~ÉTÉCÉãí¯á]å^
+  application =
+  { id        = 3100
+    name      = TECH_APP_NAVAL_10_NAME
+    desc      = TECH_APP_NAVAL_10_DESC
+    position  = { x = 0 y = 165 }
+    year      = 2035
+    component = { id = 3101 name = TECH_CMP_NAVAL_10_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3102 name = TECH_CMP_NAVAL_10_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3103 name = TECH_CMP_NAVAL_10_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3104 name = TECH_CMP_NAVAL_10_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3105 name = TECH_CMP_NAVAL_10_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3090 }
+    effects =
+    { command = { type = new_model which = light_cruiser value = 9 }
+      command = { type = scrap_model which = light_cruiser value = 8 }
+    }
+  }
+  # ãÏíÄäÕáTå^
+  application =
+  { id        = 3110
+    name      = TECH_APP_NAVAL_11_NAME
+    desc      = TECH_APP_NAVAL_11_DESC
+    position  = { x = 86 y = 21 }
+    year      = 1945
+    component = { id = 3111 name = TECH_CMP_NAVAL_11_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3112 name = TECH_CMP_NAVAL_11_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3113 name = TECH_CMP_NAVAL_11_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3114 name = TECH_CMP_NAVAL_11_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3115 name = TECH_CMP_NAVAL_11_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = destroyer }
+      command = { type = new_model which = destroyer value = 0 }
+      command = { type = allow_convoy_escorts }
+    }
+  }
+  # ãÏíÄäÕáUå^
+  application =
+  { id        = 3120
+    name      = TECH_APP_NAVAL_12_NAME
+    desc      = TECH_APP_NAVAL_12_DESC
+    position  = { x = 86 y = 37 }
+    year      = 1973
+    component = { id = 3121 name = TECH_CMP_NAVAL_12_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3122 name = TECH_CMP_NAVAL_12_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3123 name = TECH_CMP_NAVAL_12_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3124 name = TECH_CMP_NAVAL_12_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3125 name = TECH_CMP_NAVAL_12_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3110 }
+    effects =
+    { command = { type = new_model which = destroyer value = 1 }
+      command = { type = scrap_model which = destroyer value = 0 }
+    }
+  }
+  # ãÏíÄäÕáVå^
+  application =
+  { id        = 3130
+    name      = TECH_APP_NAVAL_13_NAME
+    desc      = TECH_APP_NAVAL_13_DESC
+    position  = { x = 86 y = 53 }
+    year      = 1979
+    component = { id = 3131 name = TECH_CMP_NAVAL_13_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3132 name = TECH_CMP_NAVAL_13_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3133 name = TECH_CMP_NAVAL_13_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3134 name = TECH_CMP_NAVAL_13_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3135 name = TECH_CMP_NAVAL_13_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3120 }
+    effects =
+    { command = { type = new_model which = destroyer value = 2 }
+      command = { type = scrap_model which = destroyer value = 1 }
+    }
+  }
+  # ãÏíÄäÕáWå^
+  application =
+  { id        = 3140
+    name      = TECH_APP_NAVAL_14_NAME
+    desc      = TECH_APP_NAVAL_14_DESC
+    position  = { x = 86 y = 69 }
+    year      = 1984
+    component = { id = 3141 name = TECH_CMP_NAVAL_14_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3142 name = TECH_CMP_NAVAL_14_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3143 name = TECH_CMP_NAVAL_14_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3144 name = TECH_CMP_NAVAL_14_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3145 name = TECH_CMP_NAVAL_14_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3130 }
+    effects =
+    { command = { type = new_model which = destroyer value = 3 }
+      command = { type = scrap_model which = destroyer value = 2 }
+    }
+  }
+  # ãÏíÄäÕáXå^
+  application =
+  { id        = 3150
+    name      = TECH_APP_NAVAL_15_NAME
+    desc      = TECH_APP_NAVAL_15_DESC
+    position  = { x = 86 y = 85 }
+    year      = 1990
+    component = { id = 3151 name = TECH_CMP_NAVAL_15_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3152 name = TECH_CMP_NAVAL_15_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3153 name = TECH_CMP_NAVAL_15_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3154 name = TECH_CMP_NAVAL_15_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3155 name = TECH_CMP_NAVAL_15_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3140 }
+    effects =
+    { command = { type = new_model which = destroyer value = 4 }
+      command = { type = scrap_model which = destroyer value = 3 }
+    }
+  }
+  # ãÏíÄäÕáYå^
+  application =
+  { id        = 3160
+    name      = TECH_APP_NAVAL_16_NAME
+    desc      = TECH_APP_NAVAL_16_DESC
+    position  = { x = 86 y = 101 }
+    year      = 1998
+    component = { id = 3161 name = TECH_CMP_NAVAL_16_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3162 name = TECH_CMP_NAVAL_16_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3163 name = TECH_CMP_NAVAL_16_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3164 name = TECH_CMP_NAVAL_16_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3165 name = TECH_CMP_NAVAL_16_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3150 }
+    effects =
+    { command = { type = new_model which = destroyer value = 5 }
+      command = { type = scrap_model which = destroyer value = 4 }
+    }
+  }
+  # ãÏíÄäÕáZå^
+  application =
+  { id        = 3170
+    name      = TECH_APP_NAVAL_17_NAME
+    desc      = TECH_APP_NAVAL_17_DESC
+    position  = { x = 86 y = 117 }
+    year      = 2009
+    component = { id = 3171 name = TECH_CMP_NAVAL_17_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3172 name = TECH_CMP_NAVAL_17_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3173 name = TECH_CMP_NAVAL_17_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3174 name = TECH_CMP_NAVAL_17_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3175 name = TECH_CMP_NAVAL_17_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3160 }
+    effects =
+    { command = { type = new_model which = destroyer value = 6 }
+      command = { type = scrap_model which = destroyer value = 5 }
+    }
+  }
+  # ãÏíÄäÕá[å^
+  application =
+  { id        = 3180
+    name      = TECH_APP_NAVAL_18_NAME
+    desc      = TECH_APP_NAVAL_18_DESC
+    position  = { x = 86 y = 133 }
+    year      = 2018
+    component = { id = 3181 name = TECH_CMP_NAVAL_18_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3182 name = TECH_CMP_NAVAL_18_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3183 name = TECH_CMP_NAVAL_18_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3184 name = TECH_CMP_NAVAL_18_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3185 name = TECH_CMP_NAVAL_18_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3170 }
+    effects =
+    { command = { type = new_model which = destroyer value = 7 }
+      command = { type = scrap_model which = destroyer value = 6 }
+    }
+  }
+  # ãÏíÄäÕá\å^
+  application =
+  { id        = 3190
+    name      = TECH_APP_NAVAL_19_NAME
+    desc      = TECH_APP_NAVAL_19_DESC
+    position  = { x = 86 y = 149 }
+    year      = 2026
+    component = { id = 3191 name = TECH_CMP_NAVAL_19_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3192 name = TECH_CMP_NAVAL_19_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3193 name = TECH_CMP_NAVAL_19_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3194 name = TECH_CMP_NAVAL_19_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3195 name = TECH_CMP_NAVAL_19_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3180 }
+    effects =
+    { command = { type = new_model which = destroyer value = 8 }
+      command = { type = scrap_model which = destroyer value = 7 }
+    }
+  }
+  # ãÏíÄäÕá]å^
+  application =
+  { id        = 3200
+    name      = TECH_APP_NAVAL_20_NAME
+    desc      = TECH_APP_NAVAL_20_DESC
+    position  = { x = 86 y = 165 }
+    year      = 2035
+    component = { id = 3201 name = TECH_CMP_NAVAL_20_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3202 name = TECH_CMP_NAVAL_20_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3203 name = TECH_CMP_NAVAL_20_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3204 name = TECH_CMP_NAVAL_20_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3205 name = TECH_CMP_NAVAL_20_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3190 }
+    effects =
+    { command = { type = new_model which = destroyer value = 9 }
+      command = { type = scrap_model which = destroyer value = 8 }
+    }
+  }
+  # èÑómäÕáTå^
+  application =
+  { id        = 3210
+    name      = TECH_APP_NAVAL_21_NAME
+    desc      = TECH_APP_NAVAL_21_DESC
+    position  = { x = 172 y = 21 }
+    year      = 1945
+    component = { id = 3211 name = TECH_CMP_NAVAL_21_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3212 name = TECH_CMP_NAVAL_21_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3213 name = TECH_CMP_NAVAL_21_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3214 name = TECH_CMP_NAVAL_21_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3215 name = TECH_CMP_NAVAL_21_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = heavy_cruiser }
+      command = { type = new_model which = heavy_cruiser value = 1 }
+    }
+  }
+  # èÑómäÕáUå^
+  application =
+  { id        = 3220
+    name      = TECH_APP_NAVAL_22_NAME
+    desc      = TECH_APP_NAVAL_22_DESC
+    position  = { x = 172 y = 37 }
+    year      = 1973
+    component = { id = 3221 name = TECH_CMP_NAVAL_22_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3222 name = TECH_CMP_NAVAL_22_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3223 name = TECH_CMP_NAVAL_22_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3224 name = TECH_CMP_NAVAL_22_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3225 name = TECH_CMP_NAVAL_22_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3210 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 1 }
+      command = { type = scrap_model which = heavy_cruiser value = 0 }
+    }
+  }
+  # èÑómäÕáVå^
+  application =
+  { id        = 3230
+    name      = TECH_APP_NAVAL_23_NAME
+    desc      = TECH_APP_NAVAL_23_DESC
+    position  = { x = 172 y = 53 }
+    year      = 1979
+    component = { id = 3231 name = TECH_CMP_NAVAL_23_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3232 name = TECH_CMP_NAVAL_23_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3233 name = TECH_CMP_NAVAL_23_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3234 name = TECH_CMP_NAVAL_23_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3235 name = TECH_CMP_NAVAL_23_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3220 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 2 }
+      command = { type = scrap_model which = heavy_cruiser value = 1 }
+    }
+  }
+  # èÑómäÕáWå^
+  application =
+  { id        = 3240
+    name      = TECH_APP_NAVAL_24_NAME
+    desc      = TECH_APP_NAVAL_24_DESC
+    position  = { x = 172 y = 69 }
+    year      = 1984
+    component = { id = 3241 name = TECH_CMP_NAVAL_24_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3242 name = TECH_CMP_NAVAL_24_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3243 name = TECH_CMP_NAVAL_24_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3244 name = TECH_CMP_NAVAL_24_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3245 name = TECH_CMP_NAVAL_24_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3230 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 3 }
+      command = { type = scrap_model which = heavy_cruiser value = 2 }
+    }
+  }
+  # èÑómäÕáXå^
+  application =
+  { id        = 3250
+    name      = TECH_APP_NAVAL_25_NAME
+    desc      = TECH_APP_NAVAL_25_DESC
+    position  = { x = 172 y = 85 }
+    year      = 1990
+    component = { id = 3251 name = TECH_CMP_NAVAL_25_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3252 name = TECH_CMP_NAVAL_25_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3253 name = TECH_CMP_NAVAL_25_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3254 name = TECH_CMP_NAVAL_25_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3255 name = TECH_CMP_NAVAL_25_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3240 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 4 }
+      command = { type = scrap_model which = heavy_cruiser value = 3 }
+    }
+  }
+  # èÑómäÕáYå^
+  application =
+  { id        = 3260
+    name      = TECH_APP_NAVAL_26_NAME
+    desc      = TECH_APP_NAVAL_26_DESC
+    position  = { x = 172 y = 101 }
+    year      = 1998
+    component = { id = 3261 name = TECH_CMP_NAVAL_26_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3262 name = TECH_CMP_NAVAL_26_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3263 name = TECH_CMP_NAVAL_26_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3264 name = TECH_CMP_NAVAL_26_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3265 name = TECH_CMP_NAVAL_26_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3250 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 5 }
+      command = { type = scrap_model which = heavy_cruiser value = 4 }
+    }
+  }
+  # èÑómäÕáZå^
+  application =
+  { id        = 3270
+    name      = TECH_APP_NAVAL_27_NAME
+    desc      = TECH_APP_NAVAL_27_DESC
+    position  = { x = 172 y = 117 }
+    year      = 2009
+    component = { id = 3271 name = TECH_CMP_NAVAL_27_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3272 name = TECH_CMP_NAVAL_27_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3273 name = TECH_CMP_NAVAL_27_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3274 name = TECH_CMP_NAVAL_27_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3275 name = TECH_CMP_NAVAL_27_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3260 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 6 }
+      command = { type = scrap_model which = heavy_cruiser value = 5 }
+    }
+  }
+  # èÑómäÕá[å^
+  application =
+  { id        = 3280
+    name      = TECH_APP_NAVAL_28_NAME
+    desc      = TECH_APP_NAVAL_28_DESC
+    position  = { x = 172 y = 133 }
+    year      = 2018
+    component = { id = 3281 name = TECH_CMP_NAVAL_28_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3282 name = TECH_CMP_NAVAL_28_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3283 name = TECH_CMP_NAVAL_28_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3284 name = TECH_CMP_NAVAL_28_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3285 name = TECH_CMP_NAVAL_28_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3270 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 7 }
+      command = { type = scrap_model which = heavy_cruiser value = 6 }
+    }
+  }
+  # èÑómäÕá\å^
+  application =
+  { id        = 3290
+    name      = TECH_APP_NAVAL_29_NAME
+    desc      = TECH_APP_NAVAL_29_DESC
+    position  = { x = 172 y = 149 }
+    year      = 2026
+    component = { id = 3291 name = TECH_CMP_NAVAL_29_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3292 name = TECH_CMP_NAVAL_29_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3293 name = TECH_CMP_NAVAL_29_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3294 name = TECH_CMP_NAVAL_29_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3295 name = TECH_CMP_NAVAL_29_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3280 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 8 }
+      command = { type = scrap_model which = heavy_cruiser value = 7 }
+    }
+  }
+  # èÑómäÕá]å^
+  application =
+  { id        = 3300
+    name      = TECH_APP_NAVAL_30_NAME
+    desc      = TECH_APP_NAVAL_30_DESC
+    position  = { x = 172 y = 165 }
+    year      = 2035
+    component = { id = 3301 name = TECH_CMP_NAVAL_30_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3302 name = TECH_CMP_NAVAL_30_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3303 name = TECH_CMP_NAVAL_30_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3304 name = TECH_CMP_NAVAL_30_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3305 name = TECH_CMP_NAVAL_30_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3290 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 9 }
+      command = { type = scrap_model which = heavy_cruiser value = 8 }
+    }
+  }
+  # êÌäÕáTå^
+  application =
+  { id        = 3310
+    name      = TECH_APP_NAVAL_31_NAME
+    desc      = TECH_APP_NAVAL_31_DESC
+    position  = { x = 258 y = 21 }
+    year      = 1945
+    component = { id = 3311 name = TECH_CMP_NAVAL_31_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3312 name = TECH_CMP_NAVAL_31_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3313 name = TECH_CMP_NAVAL_31_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3314 name = TECH_CMP_NAVAL_31_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3315 name = TECH_CMP_NAVAL_31_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = battleship }
+      command = { type = new_model which = battleship value = 1 }
+    }
+  }
+  # êÌäÕáUå^
+  application =
+  { id        = 3320
+    name      = TECH_APP_NAVAL_32_NAME
+    desc      = TECH_APP_NAVAL_32_DESC
+    position  = { x = 258 y = 37 }
+    year      = 1973
+    component = { id = 3321 name = TECH_CMP_NAVAL_32_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3322 name = TECH_CMP_NAVAL_32_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3323 name = TECH_CMP_NAVAL_32_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3324 name = TECH_CMP_NAVAL_32_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3325 name = TECH_CMP_NAVAL_32_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3310 }
+    effects =
+    { command = { type = new_model which = battleship value = 1 }
+      command = { type = scrap_model which = battleship value = 0 }
+    }
+  }
+  # êÌäÕáVå^
+  application =
+  { id        = 3330
+    name      = TECH_APP_NAVAL_33_NAME
+    desc      = TECH_APP_NAVAL_33_DESC
+    position  = { x = 258 y = 53 }
+    year      = 1979
+    component = { id = 3331 name = TECH_CMP_NAVAL_33_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3332 name = TECH_CMP_NAVAL_33_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3333 name = TECH_CMP_NAVAL_33_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3334 name = TECH_CMP_NAVAL_33_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3335 name = TECH_CMP_NAVAL_33_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3320 }
+    effects =
+    { command = { type = new_model which = battleship value = 2 }
+      command = { type = scrap_model which = battleship value = 1 }
+    }
+  }
+  # êÌäÕáWå^
+  application =
+  { id        = 3340
+    name      = TECH_APP_NAVAL_34_NAME
+    desc      = TECH_APP_NAVAL_34_DESC
+    position  = { x = 258 y = 69 }
+    year      = 1984
+    component = { id = 3341 name = TECH_CMP_NAVAL_34_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3342 name = TECH_CMP_NAVAL_34_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3343 name = TECH_CMP_NAVAL_34_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3344 name = TECH_CMP_NAVAL_34_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3345 name = TECH_CMP_NAVAL_34_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3330 }
+    effects =
+    { command = { type = new_model which = battleship value = 3 }
+      command = { type = scrap_model which = battleship value = 2 }
+    }
+  }
+  # êÌäÕáXå^
+  application =
+  { id        = 3350
+    name      = TECH_APP_NAVAL_35_NAME
+    desc      = TECH_APP_NAVAL_35_DESC
+    position  = { x = 258 y = 85 }
+    year      = 1990
+    component = { id = 3351 name = TECH_CMP_NAVAL_35_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3352 name = TECH_CMP_NAVAL_35_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3353 name = TECH_CMP_NAVAL_35_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3354 name = TECH_CMP_NAVAL_35_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3355 name = TECH_CMP_NAVAL_35_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3340 }
+    effects =
+    { command = { type = new_model which = battleship value = 4 }
+      command = { type = scrap_model which = battleship value = 3 }
+    }
+  }
+  # êÌäÕáYå^
+  application =
+  { id        = 3360
+    name      = TECH_APP_NAVAL_36_NAME
+    desc      = TECH_APP_NAVAL_36_DESC
+    position  = { x = 258 y = 101 }
+    year      = 1998
+    component = { id = 3361 name = TECH_CMP_NAVAL_36_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3362 name = TECH_CMP_NAVAL_36_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3363 name = TECH_CMP_NAVAL_36_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3364 name = TECH_CMP_NAVAL_36_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3365 name = TECH_CMP_NAVAL_36_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3350 }
+    effects =
+    { command = { type = new_model which = battleship value = 5 }
+      command = { type = scrap_model which = battleship value = 4 }
+    }
+  }
+  # êÌäÕáZå^
+  application =
+  { id        = 3370
+    name      = TECH_APP_NAVAL_37_NAME
+    desc      = TECH_APP_NAVAL_37_DESC
+    position  = { x = 258 y = 117 }
+    year      = 2009
+    component = { id = 3371 name = TECH_CMP_NAVAL_37_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3372 name = TECH_CMP_NAVAL_37_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3373 name = TECH_CMP_NAVAL_37_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3374 name = TECH_CMP_NAVAL_37_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3375 name = TECH_CMP_NAVAL_37_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3360 }
+    effects =
+    { command = { type = new_model which = battleship value = 6 }
+      command = { type = scrap_model which = battleship value = 5 }
+    }
+  }
+  # êÌäÕá[å^
+  application =
+  { id        = 3380
+    name      = TECH_APP_NAVAL_38_NAME
+    desc      = TECH_APP_NAVAL_38_DESC
+    position  = { x = 258 y = 133 }
+    year      = 2018
+    component = { id = 3381 name = TECH_CMP_NAVAL_38_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3382 name = TECH_CMP_NAVAL_38_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3383 name = TECH_CMP_NAVAL_38_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3384 name = TECH_CMP_NAVAL_38_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3385 name = TECH_CMP_NAVAL_38_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3370 }
+    effects =
+    { command = { type = new_model which = battleship value = 7 }
+      command = { type = scrap_model which = battleship value = 6 }
+    }
+  }
+  # êÌäÕá\å^
+  application =
+  { id        = 3390
+    name      = TECH_APP_NAVAL_39_NAME
+    desc      = TECH_APP_NAVAL_39_DESC
+    position  = { x = 258 y = 149 }
+    year      = 2026
+    component = { id = 3391 name = TECH_CMP_NAVAL_39_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3392 name = TECH_CMP_NAVAL_39_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3393 name = TECH_CMP_NAVAL_39_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3394 name = TECH_CMP_NAVAL_39_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3395 name = TECH_CMP_NAVAL_39_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3380 }
+    effects =
+    { command = { type = new_model which = battleship value = 8 }
+      command = { type = scrap_model which = battleship value = 7 }
+    }
+  }
+  # êÌäÕá]å^
+  application =
+  { id        = 3400
+    name      = TECH_APP_NAVAL_40_NAME
+    desc      = TECH_APP_NAVAL_40_DESC
+    position  = { x = 258 y = 165 }
+    year      = 2035
+    component = { id = 3401 name = TECH_CMP_NAVAL_40_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3402 name = TECH_CMP_NAVAL_40_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3403 name = TECH_CMP_NAVAL_40_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3404 name = TECH_CMP_NAVAL_40_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3405 name = TECH_CMP_NAVAL_40_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3390 }
+    effects =
+    { command = { type = new_model which = battleship value = 9 }
+      command = { type = scrap_model which = battleship value = 8 }
+    }
+  }
+  # í¥ëÂå^êÌäÕáTå^
+  application =
+  { id        = 3410
+    name      = TECH_APP_NAVAL_41_NAME
+    desc      = TECH_APP_NAVAL_41_DESC
+    position  = { x = 344 y = 21 }
+    year      = 1990
+    component = { id = 3411 name = TECH_CMP_NAVAL_41_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3412 name = TECH_CMP_NAVAL_41_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3413 name = TECH_CMP_NAVAL_41_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3414 name = TECH_CMP_NAVAL_41_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3415 name = TECH_CMP_NAVAL_41_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3350 }
+    effects =
+    { command = { type = new_model which = battleship value = 10 }
+    }
+  }
+  # í¥ëÂå^êÌäÕáUå^
+  application =
+  { id        = 3420
+    name      = TECH_APP_NAVAL_42_NAME
+    desc      = TECH_APP_NAVAL_42_DESC
+    position  = { x = 344 y = 37 }
+    year      = 1998
+    component = { id = 3421 name = TECH_CMP_NAVAL_42_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3422 name = TECH_CMP_NAVAL_42_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3423 name = TECH_CMP_NAVAL_42_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3424 name = TECH_CMP_NAVAL_42_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3425 name = TECH_CMP_NAVAL_42_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3410 }
+    effects =
+    { command = { type = new_model which = battleship value = 11 }
+      command = { type = scrap_model which = battleship value = 10 }
+    }
+  }
+  # í¥ëÂå^êÌäÕáVå^
+  application =
+  { id        = 3430
+    name      = TECH_APP_NAVAL_43_NAME
+    desc      = TECH_APP_NAVAL_43_DESC
+    position  = { x = 344 y = 53 }
+    year      = 2009
+    component = { id = 3431 name = TECH_CMP_NAVAL_43_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3432 name = TECH_CMP_NAVAL_43_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3433 name = TECH_CMP_NAVAL_43_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3434 name = TECH_CMP_NAVAL_43_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3435 name = TECH_CMP_NAVAL_43_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3420 }
+    effects =
+    { command = { type = new_model which = battleship value = 12 }
+      command = { type = scrap_model which = battleship value = 11 }
+    }
+  }
+  # í¥ëÂå^êÌäÕáWå^
+  application =
+  { id        = 3440
+    name      = TECH_APP_NAVAL_44_NAME
+    desc      = TECH_APP_NAVAL_44_DESC
+    position  = { x = 344 y = 69 }
+    year      = 2018
+    component = { id = 3441 name = TECH_CMP_NAVAL_44_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3442 name = TECH_CMP_NAVAL_44_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3443 name = TECH_CMP_NAVAL_44_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3444 name = TECH_CMP_NAVAL_44_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3445 name = TECH_CMP_NAVAL_44_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3430 }
+    effects =
+    { command = { type = new_model which = battleship value = 13 }
+      command = { type = scrap_model which = battleship value = 12 }
+    }
+  }
+  # í¥ëÂå^êÌäÕáXå^
+  application =
+  { id        = 3450
+    name      = TECH_APP_NAVAL_45_NAME
+    desc      = TECH_APP_NAVAL_45_DESC
+    position  = { x = 344 y = 85 }
+    year      = 2024
+    component = { id = 3451 name = TECH_CMP_NAVAL_45_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3452 name = TECH_CMP_NAVAL_45_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3453 name = TECH_CMP_NAVAL_45_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3454 name = TECH_CMP_NAVAL_45_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3455 name = TECH_CMP_NAVAL_45_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3440 }
+    effects =
+    { command = { type = new_model which = battleship value = 14 }
+      command = { type = scrap_model which = battleship value = 13 }
+    }
+  }
+  # èÑómå^êˆêÖäÕáTå^
+  application =
+  { id        = 3460
+    name      = TECH_APP_NAVAL_46_NAME
+    desc      = TECH_APP_NAVAL_46_DESC
+    position  = { x = 430 y = 21 }
+    year      = 1945
+    component = { id = 3461 name = TECH_CMP_NAVAL_46_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3462 name = TECH_CMP_NAVAL_46_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3463 name = TECH_CMP_NAVAL_46_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3464 name = TECH_CMP_NAVAL_46_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3465 name = TECH_CMP_NAVAL_46_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = submarine }
+    command = { type = new_model which = submarine value = 0 }
+    }
+  }
+  # èÑómå^êˆêÖäÕáUå^
+  application =
+  { id        = 3470
+    name      = TECH_APP_NAVAL_47_NAME
+    desc      = TECH_APP_NAVAL_47_DESC
+    position  = { x = 430 y = 37 }
+    year      = 1973
+    component = { id = 3471 name = TECH_CMP_NAVAL_47_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3472 name = TECH_CMP_NAVAL_47_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3473 name = TECH_CMP_NAVAL_47_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3474 name = TECH_CMP_NAVAL_47_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3475 name = TECH_CMP_NAVAL_47_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3460 }
+    effects =
+    { command = { type = new_model which = submarine value = 1 }
+      command = { type = scrap_model which = submarine value = 0 }
+    }
+  }
+  # èÑómå^êˆêÖäÕáVå^
+  application =
+  { id        = 3480
+    name      = TECH_APP_NAVAL_48_NAME
+    desc      = TECH_APP_NAVAL_48_DESC
+    position  = { x = 430 y = 53 }
+    year      = 1979
+    component = { id = 3481 name = TECH_CMP_NAVAL_48_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3482 name = TECH_CMP_NAVAL_48_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3483 name = TECH_CMP_NAVAL_48_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3484 name = TECH_CMP_NAVAL_48_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3485 name = TECH_CMP_NAVAL_48_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3470 }
+    effects =
+    { command = { type = new_model which = submarine value = 2 }
+      command = { type = scrap_model which = submarine value = 1 }
+    }
+  }
+  # èÑómå^êˆêÖäÕáWå^
+  application =
+  { id        = 3490
+    name      = TECH_APP_NAVAL_49_NAME
+    desc      = TECH_APP_NAVAL_49_DESC
+    position  = { x = 430 y = 69 }
+    year      = 1984
+    component = { id = 3491 name = TECH_CMP_NAVAL_49_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3492 name = TECH_CMP_NAVAL_49_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3493 name = TECH_CMP_NAVAL_49_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3494 name = TECH_CMP_NAVAL_49_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3495 name = TECH_CMP_NAVAL_49_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3480 }
+    effects =
+    { command = { type = new_model which = submarine value = 3 }
+      command = { type = scrap_model which = submarine value = 2 }
+    }
+  }
+  # èÑómå^êˆêÖäÕáXå^
+  application =
+  { id        = 3500
+    name      = TECH_APP_NAVAL_50_NAME
+    desc      = TECH_APP_NAVAL_50_DESC
+    position  = { x = 430 y = 85 }
+    year      = 1990
+    component = { id = 3501 name = TECH_CMP_NAVAL_50_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3502 name = TECH_CMP_NAVAL_50_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3503 name = TECH_CMP_NAVAL_50_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3504 name = TECH_CMP_NAVAL_50_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3505 name = TECH_CMP_NAVAL_50_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3490 }
+    effects =
+    { command = { type = new_model which = submarine value = 4 }
+      command = { type = scrap_model which = submarine value = 3 }
+    }
+  }
+  # èÑómå^êˆêÖäÕáYå^
+  application =
+  { id        = 3510
+    name      = TECH_APP_NAVAL_51_NAME
+    desc      = TECH_APP_NAVAL_51_DESC
+    position  = { x = 430 y = 101 }
+    year      = 1998
+    component = { id = 3511 name = TECH_CMP_NAVAL_51_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3512 name = TECH_CMP_NAVAL_51_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3513 name = TECH_CMP_NAVAL_51_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3514 name = TECH_CMP_NAVAL_51_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3515 name = TECH_CMP_NAVAL_51_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3500 }
+    effects =
+    { command = { type = new_model which = submarine value = 5 }
+      command = { type = scrap_model which = submarine value = 4 }
+    }
+  }
+  # èÑómå^êˆêÖäÕáZå^
+  application =
+  { id        = 3520
+    name      = TECH_APP_NAVAL_52_NAME
+    desc      = TECH_APP_NAVAL_52_DESC
+    position  = { x = 430 y = 117 }
+    year      = 2009
+    component = { id = 3521 name = TECH_CMP_NAVAL_52_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3522 name = TECH_CMP_NAVAL_52_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3523 name = TECH_CMP_NAVAL_52_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3524 name = TECH_CMP_NAVAL_52_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3525 name = TECH_CMP_NAVAL_52_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3510 }
+    effects =
+    { command = { type = new_model which = submarine value = 6 }
+      command = { type = scrap_model which = submarine value = 5 }
+    }
+  }
+  # èÑómå^êˆêÖäÕá[å^
+  application =
+  { id        = 3530
+    name      = TECH_APP_NAVAL_53_NAME
+    desc      = TECH_APP_NAVAL_53_DESC
+    position  = { x = 430 y = 133 }
+    year      = 2018
+    component = { id = 3531 name = TECH_CMP_NAVAL_53_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3532 name = TECH_CMP_NAVAL_53_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3533 name = TECH_CMP_NAVAL_53_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3534 name = TECH_CMP_NAVAL_53_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3535 name = TECH_CMP_NAVAL_53_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3520 }
+    effects =
+    { command = { type = new_model which = submarine value = 7 }
+      command = { type = scrap_model which = submarine value = 6 }
+    }
+  }
+  # èÑómå^êˆêÖäÕá\å^
+  application =
+  { id        = 3540
+    name      = TECH_APP_NAVAL_54_NAME
+    desc      = TECH_APP_NAVAL_54_DESC
+    position  = { x = 430 y = 149 }
+    year      = 2026
+    component = { id = 3541 name = TECH_CMP_NAVAL_54_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3542 name = TECH_CMP_NAVAL_54_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3543 name = TECH_CMP_NAVAL_54_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3544 name = TECH_CMP_NAVAL_54_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3545 name = TECH_CMP_NAVAL_54_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3530 }
+    effects =
+    { command = { type = new_model which = submarine value = 8 }
+      command = { type = scrap_model which = submarine value = 7 }
+    }
+  }
+  # èÑómå^êˆêÖäÕá]å^
+  application =
+  { id        = 3550
+    name      = TECH_APP_NAVAL_55_NAME
+    desc      = TECH_APP_NAVAL_55_DESC
+    position  = { x = 430 y = 165 }
+    year      = 2035
+    component = { id = 3551 name = TECH_CMP_NAVAL_55_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3552 name = TECH_CMP_NAVAL_55_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3553 name = TECH_CMP_NAVAL_55_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3554 name = TECH_CMP_NAVAL_55_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3555 name = TECH_CMP_NAVAL_55_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3540 }
+    effects =
+    { command = { type = new_model which = submarine value = 9 }
+      command = { type = scrap_model which = submarine value = 8 }
+    }
+  }
+  # çUåÇå^êˆêÖäÕáTå^
+  application =
+  { id        = 3560
+    name      = TECH_APP_NAVAL_56_NAME
+    desc      = TECH_APP_NAVAL_56_DESC
+    position  = { x = 516 y = 21 }
+    year      = 1973
+    component = { id = 3561 name = TECH_CMP_NAVAL_56_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3562 name = TECH_CMP_NAVAL_56_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3563 name = TECH_CMP_NAVAL_56_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3564 name = TECH_CMP_NAVAL_56_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3565 name = TECH_CMP_NAVAL_56_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3500 }
+    effects =
+    { command = { type = new_model which = submarine value = 10 }
+    }
+  }
+  # çUåÇå^êˆêÖäÕáUå^
+  application =
+  { id        = 3570
+    name      = TECH_APP_NAVAL_57_NAME
+    desc      = TECH_APP_NAVAL_57_DESC
+    position  = { x = 516 y = 37 }
+    year      = 1988
+    component = { id = 3571 name = TECH_CMP_NAVAL_57_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3572 name = TECH_CMP_NAVAL_57_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3573 name = TECH_CMP_NAVAL_57_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3574 name = TECH_CMP_NAVAL_57_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3575 name = TECH_CMP_NAVAL_57_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3560 }
+    effects =
+    { command = { type = new_model which = submarine value = 11 }
+      command = { type = scrap_model which = submarine value = 10 }
+    }
+  }
+  # çUåÇå^êˆêÖäÕáVå^
+  application =
+  { id        = 3580
+    name      = TECH_APP_NAVAL_58_NAME
+    desc      = TECH_APP_NAVAL_58_DESC
+    position  = { x = 516 y = 53 }
+    year      = 1996
+    component = { id = 3581 name = TECH_CMP_NAVAL_58_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3582 name = TECH_CMP_NAVAL_58_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3583 name = TECH_CMP_NAVAL_58_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3584 name = TECH_CMP_NAVAL_58_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3585 name = TECH_CMP_NAVAL_58_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3570 }
+    effects =
+    { command = { type = new_model which = submarine value = 12 }
+      command = { type = scrap_model which = submarine value = 11 }
+    }
+  }
+  # çUåÇå^êˆêÖäÕáWå^
+  application =
+  { id        = 3590
+    name      = TECH_APP_NAVAL_59_NAME
+    desc      = TECH_APP_NAVAL_59_DESC
+    position  = { x = 516 y = 69 }
+    year      = 2006
+    component = { id = 3591 name = TECH_CMP_NAVAL_59_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3592 name = TECH_CMP_NAVAL_59_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3593 name = TECH_CMP_NAVAL_59_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3594 name = TECH_CMP_NAVAL_59_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3595 name = TECH_CMP_NAVAL_59_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3580 }
+    effects =
+    { command = { type = new_model which = submarine value = 13 }
+      command = { type = scrap_model which = submarine value = 12 }
+    }
+  }
+  # çUåÇå^êˆêÖäÕáXå^
+  application =
+  { id        = 3600
+    name      = TECH_APP_NAVAL_60_NAME
+    desc      = TECH_APP_NAVAL_60_DESC
+    position  = { x = 516 y = 85 }
+    year      = 2015
+    component = { id = 3601 name = TECH_CMP_NAVAL_60_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3602 name = TECH_CMP_NAVAL_60_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3603 name = TECH_CMP_NAVAL_60_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3604 name = TECH_CMP_NAVAL_60_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3605 name = TECH_CMP_NAVAL_60_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3590 }
+    effects =
+    { command = { type = new_model which = submarine value = 14 }
+      command = { type = scrap_model which = submarine value = 13 }
+    }
+  }
+  # ÉwÉäãÛïÍáTå^
+  application =
+  { id        = 3610
+    name      = TECH_APP_NAVAL_61_NAME
+    desc      = TECH_APP_NAVAL_61_DESC
+    position  = { x = 0 y = 206 }
+    year      = 1945
+    component = { id = 3611 name = TECH_CMP_NAVAL_61_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3612 name = TECH_CMP_NAVAL_61_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3613 name = TECH_CMP_NAVAL_61_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3614 name = TECH_CMP_NAVAL_61_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3615 name = TECH_CMP_NAVAL_61_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = escort_carrier }
+      command = { type = new_model which = escort_carrier value = 0 }
+    }
+  }
+  # ÉwÉäãÛïÍáUå^
+  application =
+  { id        = 3620
+    name      = TECH_APP_NAVAL_62_NAME
+    desc      = TECH_APP_NAVAL_62_DESC
+    position  = { x = 0 y = 222 }
+    year      = 1973
+    component = { id = 3621 name = TECH_CMP_NAVAL_62_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3622 name = TECH_CMP_NAVAL_62_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3623 name = TECH_CMP_NAVAL_62_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3624 name = TECH_CMP_NAVAL_62_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3625 name = TECH_CMP_NAVAL_62_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3610 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 1 }
+      command = { type = scrap_model which = escort_carrier value = 0 }
+    }
+  }
+  # ÉwÉäãÛïÍáVå^
+  application =
+  { id        = 3630
+    name      = TECH_APP_NAVAL_63_NAME
+    desc      = TECH_APP_NAVAL_63_DESC
+    position  = { x = 0 y = 238 }
+    year      = 1978
+    component = { id = 3631 name = TECH_CMP_NAVAL_63_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3632 name = TECH_CMP_NAVAL_63_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3633 name = TECH_CMP_NAVAL_63_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3634 name = TECH_CMP_NAVAL_63_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3635 name = TECH_CMP_NAVAL_63_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3620 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 2 }
+      command = { type = scrap_model which = escort_carrier value = 1 }
+    }
+  }
+  # ÉwÉäãÛïÍáWå^
+  application =
+  { id        = 3640
+    name      = TECH_APP_NAVAL_64_NAME
+    desc      = TECH_APP_NAVAL_64_DESC
+    position  = { x = 0 y = 254 }
+    year      = 1984
+    component = { id = 3641 name = TECH_CMP_NAVAL_64_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3642 name = TECH_CMP_NAVAL_64_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3643 name = TECH_CMP_NAVAL_64_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3644 name = TECH_CMP_NAVAL_64_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3645 name = TECH_CMP_NAVAL_64_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3630 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 3 }
+      command = { type = scrap_model which = escort_carrier value = 2 }
+    }
+  }
+  # ÉwÉäãÛïÍáXå^
+  application =
+  { id        = 3650
+    name      = TECH_APP_NAVAL_65_NAME
+    desc      = TECH_APP_NAVAL_65_DESC
+    position  = { x = 0 y = 270 }
+    year      = 1990
+    component = { id = 3651 name = TECH_CMP_NAVAL_65_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3652 name = TECH_CMP_NAVAL_65_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3653 name = TECH_CMP_NAVAL_65_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3654 name = TECH_CMP_NAVAL_65_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3655 name = TECH_CMP_NAVAL_65_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3640 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 4 }
+      command = { type = scrap_model which = escort_carrier value = 3 }
+    }
+  }
+  # ÉwÉäãÛïÍáYå^
+  application =
+  { id        = 3660
+    name      = TECH_APP_NAVAL_66_NAME
+    desc      = TECH_APP_NAVAL_66_DESC
+    position  = { x = 0 y = 286 }
+    year      = 1998
+    component = { id = 3661 name = TECH_CMP_NAVAL_66_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3662 name = TECH_CMP_NAVAL_66_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3663 name = TECH_CMP_NAVAL_66_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3664 name = TECH_CMP_NAVAL_66_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3665 name = TECH_CMP_NAVAL_66_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3650 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 5 }
+      command = { type = scrap_model which = escort_carrier value = 4 }
+    }
+  }
+  # ÉwÉäãÛïÍáZå^
+  application =
+  { id        = 3670
+    name      = TECH_APP_NAVAL_67_NAME
+    desc      = TECH_APP_NAVAL_67_DESC
+    position  = { x = 0 y = 302 }
+    year      = 2009
+    component = { id = 3671 name = TECH_CMP_NAVAL_67_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3672 name = TECH_CMP_NAVAL_67_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3673 name = TECH_CMP_NAVAL_67_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3674 name = TECH_CMP_NAVAL_67_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3675 name = TECH_CMP_NAVAL_67_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3660 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 6 }
+      command = { type = scrap_model which = escort_carrier value = 5 }
+    }
+  }
+  # ÉwÉäãÛïÍá[å^
+  application =
+  { id        = 3680
+    name      = TECH_APP_NAVAL_68_NAME
+    desc      = TECH_APP_NAVAL_68_DESC
+    position  = { x = 0 y = 318 }
+    year      = 2018
+    component = { id = 3681 name = TECH_CMP_NAVAL_68_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3682 name = TECH_CMP_NAVAL_68_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3683 name = TECH_CMP_NAVAL_68_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3684 name = TECH_CMP_NAVAL_68_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3685 name = TECH_CMP_NAVAL_68_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3670 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 7 }
+      command = { type = scrap_model which = escort_carrier value = 6 }
+    }
+  }
+  # ÉwÉäãÛïÍá\å^
+  application =
+  { id        = 3690
+    name      = TECH_APP_NAVAL_69_NAME
+    desc      = TECH_APP_NAVAL_69_DESC
+    position  = { x = 0 y = 334 }
+    year      = 2026
+    component = { id = 3691 name = TECH_CMP_NAVAL_69_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3692 name = TECH_CMP_NAVAL_69_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3693 name = TECH_CMP_NAVAL_69_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3694 name = TECH_CMP_NAVAL_69_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3695 name = TECH_CMP_NAVAL_69_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3680 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 8 }
+      command = { type = scrap_model which = escort_carrier value = 7 }
+    }
+  }
+  # ÉwÉäãÛïÍá]å^
+  application =
+  { id        = 3700
+    name      = TECH_APP_NAVAL_70_NAME
+    desc      = TECH_APP_NAVAL_70_DESC
+    position  = { x = 0 y = 350 }
+    year      = 2035
+    component = { id = 3701 name = TECH_CMP_NAVAL_70_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3702 name = TECH_CMP_NAVAL_70_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3703 name = TECH_CMP_NAVAL_70_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3704 name = TECH_CMP_NAVAL_70_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3705 name = TECH_CMP_NAVAL_70_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3690 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 9 }
+      command = { type = scrap_model which = escort_carrier value = 8 }
+    }
+  }
+  # çqãÛïÍäÕáTå^
+  application =
+  { id        = 3710
+    name      = TECH_APP_NAVAL_71_NAME
+    desc      = TECH_APP_NAVAL_71_DESC
+    position  = { x = 86 y = 206 }
+    year      = 1945
+    component = { id = 3711 name = TECH_CMP_NAVAL_71_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3712 name = TECH_CMP_NAVAL_71_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3713 name = TECH_CMP_NAVAL_71_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3714 name = TECH_CMP_NAVAL_71_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3715 name = TECH_CMP_NAVAL_71_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = carrier }
+      command = { type = new_model which = carrier value = 0 }
+    }
+  }
+  # çqãÛïÍäÕáUå^
+  application =
+  { id        = 3720
+    name      = TECH_APP_NAVAL_72_NAME
+    desc      = TECH_APP_NAVAL_72_DESC
+    position  = { x = 86 y = 222 }
+    year      = 1973
+    component = { id = 3721 name = TECH_CMP_NAVAL_72_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3722 name = TECH_CMP_NAVAL_72_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3723 name = TECH_CMP_NAVAL_72_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3724 name = TECH_CMP_NAVAL_72_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3725 name = TECH_CMP_NAVAL_72_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3710 }
+    effects =
+    { command = { type = new_model which = carrier value = 1 }
+      command = { type = scrap_model which = carrier value = 0 }
+    }
+  }
+  # çqãÛïÍäÕáVå^
+  application =
+  { id        = 3730
+    name      = TECH_APP_NAVAL_73_NAME
+    desc      = TECH_APP_NAVAL_73_DESC
+    position  = { x = 86 y = 238 }
+    year      = 1978
+    component = { id = 3731 name = TECH_CMP_NAVAL_73_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3732 name = TECH_CMP_NAVAL_73_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3733 name = TECH_CMP_NAVAL_73_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3734 name = TECH_CMP_NAVAL_73_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3735 name = TECH_CMP_NAVAL_73_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3720 }
+    effects =
+    { command = { type = new_model which = carrier value = 2 }
+      command = { type = scrap_model which = carrier value = 1 }
+    }
+  }
+  # çqãÛïÍäÕáWå^
+  application =
+  { id        = 3740
+    name      = TECH_APP_NAVAL_74_NAME
+    desc      = TECH_APP_NAVAL_74_DESC
+    position  = { x = 86 y = 254 }
+    year      = 1984
+    component = { id = 3741 name = TECH_CMP_NAVAL_74_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3742 name = TECH_CMP_NAVAL_74_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3743 name = TECH_CMP_NAVAL_74_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3744 name = TECH_CMP_NAVAL_74_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3745 name = TECH_CMP_NAVAL_74_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3730 }
+    effects =
+    { command = { type = new_model which = carrier value = 3 }
+      command = { type = scrap_model which = carrier value = 2 }
+    }
+  }
+  # çqãÛïÍäÕáXå^
+  application =
+  { id        = 3750
+    name      = TECH_APP_NAVAL_75_NAME
+    desc      = TECH_APP_NAVAL_75_DESC
+    position  = { x = 86 y = 270 }
+    year      = 1990
+    component = { id = 3751 name = TECH_CMP_NAVAL_75_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3752 name = TECH_CMP_NAVAL_75_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3753 name = TECH_CMP_NAVAL_75_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3754 name = TECH_CMP_NAVAL_75_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3755 name = TECH_CMP_NAVAL_75_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3740 }
+    effects =
+    { command = { type = new_model which = carrier value = 4 }
+      command = { type = scrap_model which = carrier value = 3 }
+    }
+  }
+  # çqãÛïÍäÕáYå^
+  application =
+  { id        = 3760
+    name      = TECH_APP_NAVAL_76_NAME
+    desc      = TECH_APP_NAVAL_76_DESC
+    position  = { x = 86 y = 286 }
+    year      = 1998
+    component = { id = 3761 name = TECH_CMP_NAVAL_76_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3762 name = TECH_CMP_NAVAL_76_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3763 name = TECH_CMP_NAVAL_76_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3764 name = TECH_CMP_NAVAL_76_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3765 name = TECH_CMP_NAVAL_76_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3750 }
+    effects =
+    { command = { type = new_model which = carrier value = 5 }
+      command = { type = scrap_model which = carrier value = 4 }
+    }
+  }
+  # çqãÛïÍäÕáZå^
+  application =
+  { id        = 3770
+    name      = TECH_APP_NAVAL_77_NAME
+    desc      = TECH_APP_NAVAL_77_DESC
+    position  = { x = 86 y = 302 }
+    year      = 2009
+    component = { id = 3771 name = TECH_CMP_NAVAL_77_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3772 name = TECH_CMP_NAVAL_77_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3773 name = TECH_CMP_NAVAL_77_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3774 name = TECH_CMP_NAVAL_77_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3775 name = TECH_CMP_NAVAL_77_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3760 }
+    effects =
+    { command = { type = new_model which = carrier value = 6 }
+      command = { type = scrap_model which = carrier value = 5 }
+    }
+  }
+  # çqãÛïÍäÕá[å^
+  application =
+  { id        = 3780
+    name      = TECH_APP_NAVAL_78_NAME
+    desc      = TECH_APP_NAVAL_78_DESC
+    position  = { x = 86 y = 318 }
+    year      = 2018
+    component = { id = 3781 name = TECH_CMP_NAVAL_78_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3782 name = TECH_CMP_NAVAL_78_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3783 name = TECH_CMP_NAVAL_78_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3784 name = TECH_CMP_NAVAL_78_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3785 name = TECH_CMP_NAVAL_78_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3770 }
+    effects =
+    { command = { type = new_model which = carrier value = 7 }
+      command = { type = scrap_model which = carrier value = 6 }
+    }
+  }
+  # çqãÛïÍäÕá\å^
+  application =
+  { id        = 3790
+    name      = TECH_APP_NAVAL_79_NAME
+    desc      = TECH_APP_NAVAL_79_DESC
+    position  = { x = 86 y = 334 }
+    year      = 2026
+    component = { id = 3791 name = TECH_CMP_NAVAL_79_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3792 name = TECH_CMP_NAVAL_79_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3793 name = TECH_CMP_NAVAL_79_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3794 name = TECH_CMP_NAVAL_79_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3795 name = TECH_CMP_NAVAL_79_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3780 }
+    effects =
+    { command = { type = new_model which = carrier value = 8 }
+      command = { type = scrap_model which = carrier value = 7 }
+    }
+  }
+  # çqãÛïÍäÕá]å^
+  application =
+  { id        = 3800
+    name      = TECH_APP_NAVAL_80_NAME
+    desc      = TECH_APP_NAVAL_80_DESC
+    position  = { x = 86 y = 350 }
+    year      = 2035
+    component = { id = 3801 name = TECH_CMP_NAVAL_80_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3802 name = TECH_CMP_NAVAL_80_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3803 name = TECH_CMP_NAVAL_80_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3804 name = TECH_CMP_NAVAL_80_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3805 name = TECH_CMP_NAVAL_80_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3790 }
+    effects =
+    { command = { type = new_model which = carrier value = 9 }
+      command = { type = scrap_model which = carrier value = 8 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕáTå^
+  application =
+  { id        = 3810
+    name      = TECH_APP_NAVAL_81_NAME
+    desc      = TECH_APP_NAVAL_81_DESC
+    position  = { x = 172 y = 206 }
+    year      = 1978
+    component = { id = 3811 name = TECH_CMP_NAVAL_81_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3812 name = TECH_CMP_NAVAL_81_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3813 name = TECH_CMP_NAVAL_81_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3814 name = TECH_CMP_NAVAL_81_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3815 name = TECH_CMP_NAVAL_81_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = battlecruiser }
+      command = { type = new_model which = battlecruiser value = 0 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕáUå^
+  application =
+  { id        = 3820
+    name      = TECH_APP_NAVAL_82_NAME
+    desc      = TECH_APP_NAVAL_82_DESC
+    position  = { x = 172 y = 222 }
+    year      = 1982
+    component = { id = 3821 name = TECH_CMP_NAVAL_82_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3822 name = TECH_CMP_NAVAL_82_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3823 name = TECH_CMP_NAVAL_82_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3824 name = TECH_CMP_NAVAL_82_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3825 name = TECH_CMP_NAVAL_82_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3810 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 1 }
+      command = { type = scrap_model which = battlecruiser value = 0 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕáVå^
+  application =
+  { id        = 3830
+    name      = TECH_APP_NAVAL_83_NAME
+    desc      = TECH_APP_NAVAL_83_DESC
+    position  = { x = 172 y = 238 }
+    year      = 1986
+    component = { id = 3831 name = TECH_CMP_NAVAL_83_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3832 name = TECH_CMP_NAVAL_83_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3833 name = TECH_CMP_NAVAL_83_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3834 name = TECH_CMP_NAVAL_83_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3835 name = TECH_CMP_NAVAL_83_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3820 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 2 }
+      command = { type = scrap_model which = battlecruiser value = 1 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕáWå^
+  application =
+  { id        = 3840
+    name      = TECH_APP_NAVAL_84_NAME
+    desc      = TECH_APP_NAVAL_84_DESC
+    position  = { x = 172 y = 254 }
+    year      = 1990
+    component = { id = 3841 name = TECH_CMP_NAVAL_84_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3842 name = TECH_CMP_NAVAL_84_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3843 name = TECH_CMP_NAVAL_84_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3844 name = TECH_CMP_NAVAL_84_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3845 name = TECH_CMP_NAVAL_84_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3830 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 3 }
+      command = { type = scrap_model which = battlecruiser value = 2 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕáXå^
+  application =
+  { id        = 3850
+    name      = TECH_APP_NAVAL_85_NAME
+    desc      = TECH_APP_NAVAL_85_DESC
+    position  = { x = 172 y = 270 }
+    year      = 1994
+    component = { id = 3851 name = TECH_CMP_NAVAL_85_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3852 name = TECH_CMP_NAVAL_85_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3853 name = TECH_CMP_NAVAL_85_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3854 name = TECH_CMP_NAVAL_85_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3855 name = TECH_CMP_NAVAL_85_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3840 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 4 }
+      command = { type = scrap_model which = battlecruiser value = 3 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕáYå^
+  application =
+  { id        = 3860
+    name      = TECH_APP_NAVAL_86_NAME
+    desc      = TECH_APP_NAVAL_86_DESC
+    position  = { x = 172 y = 286 }
+    year      = 1998
+    component = { id = 3861 name = TECH_CMP_NAVAL_86_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3862 name = TECH_CMP_NAVAL_86_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3863 name = TECH_CMP_NAVAL_86_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3864 name = TECH_CMP_NAVAL_86_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3865 name = TECH_CMP_NAVAL_86_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3850 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 5 }
+      command = { type = scrap_model which = battlecruiser value = 4 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕáZå^
+  application =
+  { id        = 3870
+    name      = TECH_APP_NAVAL_87_NAME
+    desc      = TECH_APP_NAVAL_87_DESC
+    position  = { x = 172 y = 302 }
+    year      = 2009
+    component = { id = 3871 name = TECH_CMP_NAVAL_87_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3872 name = TECH_CMP_NAVAL_87_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3873 name = TECH_CMP_NAVAL_87_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3874 name = TECH_CMP_NAVAL_87_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3875 name = TECH_CMP_NAVAL_87_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3860 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 6 }
+      command = { type = scrap_model which = battlecruiser value = 5 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕá[å^
+  application =
+  { id        = 3880
+    name      = TECH_APP_NAVAL_88_NAME
+    desc      = TECH_APP_NAVAL_88_DESC
+    position  = { x = 172 y = 318 }
+    year      = 2018
+    component = { id = 3881 name = TECH_CMP_NAVAL_88_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3882 name = TECH_CMP_NAVAL_88_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3883 name = TECH_CMP_NAVAL_88_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3884 name = TECH_CMP_NAVAL_88_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3885 name = TECH_CMP_NAVAL_88_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3870 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 7 }
+      command = { type = scrap_model which = battlecruiser value = 6 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕá\å^
+  application =
+  { id        = 3890
+    name      = TECH_APP_NAVAL_89_NAME
+    desc      = TECH_APP_NAVAL_89_DESC
+    position  = { x = 172 y = 334 }
+    year      = 2026
+    component = { id = 3891 name = TECH_CMP_NAVAL_89_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3892 name = TECH_CMP_NAVAL_89_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3893 name = TECH_CMP_NAVAL_89_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3894 name = TECH_CMP_NAVAL_89_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3895 name = TECH_CMP_NAVAL_89_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3880 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 8 }
+      command = { type = scrap_model which = battlecruiser value = 7 }
+    }
+  }
+  # ÉçÉPÉbÉgñCäÕá]å^
+  application =
+  { id        = 3900
+    name      = TECH_APP_NAVAL_90_NAME
+    desc      = TECH_APP_NAVAL_90_DESC
+    position  = { x = 172 y = 350 }
+    year      = 2035
+    component = { id = 3901 name = TECH_CMP_NAVAL_90_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3902 name = TECH_CMP_NAVAL_90_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3903 name = TECH_CMP_NAVAL_90_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3904 name = TECH_CMP_NAVAL_90_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3905 name = TECH_CMP_NAVAL_90_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3890 }
+    effects =
+    { command = { type = new_model which = battlecruiser value = 9 }
+      command = { type = scrap_model which = battlecruiser value = 8 }
+    }
+  }
+  # óAëóäÕáTå^
+  application =
+  { id        = 3910
+    name      = TECH_APP_NAVAL_91_NAME
+    desc      = TECH_APP_NAVAL_91_DESC
+    position  = { x = 258 y = 206 }
+    year      = 1945
+    component = { id = 3911 name = TECH_CMP_NAVAL_91_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3912 name = TECH_CMP_NAVAL_91_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3913 name = TECH_CMP_NAVAL_91_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3914 name = TECH_CMP_NAVAL_91_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3915 name = TECH_CMP_NAVAL_91_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = transport }
+      command = { type = new_model which = transport value = 0 }
+    }
+  }
+  # óAëóäÕáUå^
+  application =
+  { id        = 3920
+    name      = TECH_APP_NAVAL_92_NAME
+    desc      = TECH_APP_NAVAL_92_DESC
+    position  = { x = 258 y = 222 }
+    year      = 1973
+    component = { id = 3921 name = TECH_CMP_NAVAL_92_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3922 name = TECH_CMP_NAVAL_92_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3923 name = TECH_CMP_NAVAL_92_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3924 name = TECH_CMP_NAVAL_92_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3925 name = TECH_CMP_NAVAL_92_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3910 }
+    effects =
+    { command = { type = new_model which = transport value = 1 }
+      command = { type = scrap_model which = transport value = 0 }
+    }
+  }
+  # óAëóäÕáVå^
+  application =
+  { id        = 3930
+    name      = TECH_APP_NAVAL_93_NAME
+    desc      = TECH_APP_NAVAL_93_DESC
+    position  = { x = 258 y = 238 }
+    year      = 1984
+    component = { id = 3931 name = TECH_CMP_NAVAL_93_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3932 name = TECH_CMP_NAVAL_93_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3933 name = TECH_CMP_NAVAL_93_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3934 name = TECH_CMP_NAVAL_93_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3935 name = TECH_CMP_NAVAL_93_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3920 }
+    effects =
+    { command = { type = new_model which = transport value = 2 }
+      command = { type = scrap_model which = transport value = 1 }
+    }
+  }
+  # ógó§äÕáTå^
+  application =
+  { id        = 3940
+    name      = TECH_APP_NAVAL_94_NAME
+    desc      = TECH_APP_NAVAL_94_DESC
+    position  = { x = 258 y = 286 }
+    year      = 1973
+    component = { id = 3941 name = TECH_CMP_NAVAL_94_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3942 name = TECH_CMP_NAVAL_94_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3943 name = TECH_CMP_NAVAL_94_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3944 name = TECH_CMP_NAVAL_94_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3945 name = TECH_CMP_NAVAL_94_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3920 }
+    effects =
+    { command = { type = new_model which = transport value = 3 }
+    }
+  }
+  # ógó§äÕáUå^
+  application =
+  { id        = 3950
+    name      = TECH_APP_NAVAL_95_NAME
+    desc      = TECH_APP_NAVAL_95_DESC
+    position  = { x = 258 y = 302 }
+    year      = 1982
+    component = { id = 3951 name = TECH_CMP_NAVAL_95_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3952 name = TECH_CMP_NAVAL_95_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3953 name = TECH_CMP_NAVAL_95_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3954 name = TECH_CMP_NAVAL_95_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3955 name = TECH_CMP_NAVAL_95_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3940 }
+    effects =
+    { command = { type = new_model which = transport value = 4 }
+      command = { type = scrap_model which = transport value = 3 }
+    }
+  }
+  # ógó§äÕáVå^
+  application =
+  { id        = 3960
+    name      = TECH_APP_NAVAL_96_NAME
+    desc      = TECH_APP_NAVAL_96_DESC
+    position  = { x = 258 y = 318 }
+    year      = 1990
+    component = { id = 3961 name = TECH_CMP_NAVAL_96_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3962 name = TECH_CMP_NAVAL_96_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3963 name = TECH_CMP_NAVAL_96_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3964 name = TECH_CMP_NAVAL_96_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3965 name = TECH_CMP_NAVAL_96_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3950 }
+    effects =
+    { command = { type = new_model which = transport value = 5 }
+      command = { type = scrap_model which = transport value = 4 }
+    }
+  }
+  # ógó§äÕáWå^
+  application =
+  { id        = 3970
+    name      = TECH_APP_NAVAL_97_NAME
+    desc      = TECH_APP_NAVAL_97_DESC
+    position  = { x = 258 y = 334 }
+    year      = 1998
+    component = { id = 3971 name = TECH_CMP_NAVAL_97_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3972 name = TECH_CMP_NAVAL_97_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3973 name = TECH_CMP_NAVAL_97_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3974 name = TECH_CMP_NAVAL_97_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3975 name = TECH_CMP_NAVAL_97_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3960 }
+    effects =
+    { command = { type = new_model which = transport value = 6 }
+      command = { type = scrap_model which = transport value = 5 }
+    }
+  }
+  # ógó§äÕáXå^
+  application =
+  { id        = 3980
+    name      = TECH_APP_NAVAL_98_NAME
+    desc      = TECH_APP_NAVAL_98_DESC
+    position  = { x = 258 y = 350 }
+    year      = 2004
+    component = { id = 3981 name = TECH_CMP_NAVAL_98_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3982 name = TECH_CMP_NAVAL_98_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3983 name = TECH_CMP_NAVAL_98_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3984 name = TECH_CMP_NAVAL_98_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3985 name = TECH_CMP_NAVAL_98_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3970 }
+    effects =
+    { command = { type = new_model which = transport value = 7 }
+      command = { type = scrap_model which = transport value = 6 }
+    }
+  }
+  # É~ÉTÉCÉããÏíÄäÕáTå^
+  application =
+  { id        = 3990
+    name      = TECH_APP_NAVAL_99_NAME
+    desc      = TECH_APP_NAVAL_99_DESC
+    position  = { x = 344 y = 206 }
+    year      = 1989
+    component = { id = 3991 name = TECH_CMP_NAVAL_99_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 3992 name = TECH_CMP_NAVAL_99_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 3993 name = TECH_CMP_NAVAL_99_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 3994 name = TECH_CMP_NAVAL_99_4_NAME type = electronics difficulty = 8 }
+    component = { id = 3995 name = TECH_CMP_NAVAL_99_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7080 }
+    effects =
+    { command = { type = new_model which = destroyer value = 13 }
+    }
+  }
+  # É~ÉTÉCÉããÏíÄäÕáUå^
+  application =
+  { id        = 30000
+    name      = TECH_APP_NAVAL_300_NAME
+    desc      = TECH_APP_NAVAL_300_DESC
+    position  = { x = 344 y = 222 }
+    year      = 1995
+    component = { id = 30001 name = TECH_CMP_NAVAL_300_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30002 name = TECH_CMP_NAVAL_300_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30003 name = TECH_CMP_NAVAL_300_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30004 name = TECH_CMP_NAVAL_300_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30005 name = TECH_CMP_NAVAL_300_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 3990 }
+    effects =
+    { command = { type = new_model which = destroyer value = 14 }
+      command = { type = scrap_model which = destroyer value = 13 }
+    }
+  }
+  # É~ÉTÉCÉããÏíÄäÕáVå^
+  application =
+  { id        = 30010
+    name      = TECH_APP_NAVAL_301_NAME
+    desc      = TECH_APP_NAVAL_301_DESC
+    position  = { x = 344 y = 238 }
+    year      = 2006
+    component = { id = 30011 name = TECH_CMP_NAVAL_301_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30012 name = TECH_CMP_NAVAL_301_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30013 name = TECH_CMP_NAVAL_301_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30014 name = TECH_CMP_NAVAL_301_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30015 name = TECH_CMP_NAVAL_301_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30000 7090 }
+    effects =
+    { command = { type = new_model which = destroyer value = 15 }
+      command = { type = scrap_model which = destroyer value = 14 }
+    }
+  }
+  # É~ÉTÉCÉããÏíÄäÕáWå^
+  application =
+  { id        = 30020
+    name      = TECH_APP_NAVAL_302_NAME
+    desc      = TECH_APP_NAVAL_302_DESC
+    position  = { x = 344 y = 254 }
+    year      = 2018
+    component = { id = 30021 name = TECH_CMP_NAVAL_302_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30022 name = TECH_CMP_NAVAL_302_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30023 name = TECH_CMP_NAVAL_302_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30024 name = TECH_CMP_NAVAL_302_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30025 name = TECH_CMP_NAVAL_302_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30010 }
+    effects =
+    { command = { type = new_model which = destroyer value = 16 }
+      command = { type = scrap_model which = destroyer value = 15 }
+    }
+  }
+  # É~ÉTÉCÉããÏíÄäÕáXå^
+  application =
+  { id        = 30030
+    name      = TECH_APP_NAVAL_303_NAME
+    desc      = TECH_APP_NAVAL_303_DESC
+    position  = { x = 344 y = 270 }
+    year      = 2031
+    component = { id = 30031 name = TECH_CMP_NAVAL_303_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30032 name = TECH_CMP_NAVAL_303_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30033 name = TECH_CMP_NAVAL_303_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30034 name = TECH_CMP_NAVAL_303_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30035 name = TECH_CMP_NAVAL_303_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30020 7100 }
+    effects =
+    { command = { type = new_model which = destroyer value = 17 }
+      command = { type = scrap_model which = destroyer value = 16 }
+    }
+  }
+  # É~ÉTÉCÉãèÑómäÕáTå^
+  application =
+  { id        = 30040
+    name      = TECH_APP_NAVAL_304_NAME
+    desc      = TECH_APP_NAVAL_304_DESC
+    position  = { x = 430 y = 206 }
+    year      = 1989
+    component = { id = 30041 name = TECH_CMP_NAVAL_304_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30042 name = TECH_CMP_NAVAL_304_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30043 name = TECH_CMP_NAVAL_304_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30044 name = TECH_CMP_NAVAL_304_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30045 name = TECH_CMP_NAVAL_304_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7080 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 13 }
+    }
+  }
+  # É~ÉTÉCÉãèÑómäÕáUå^
+  application =
+  { id        = 30050
+    name      = TECH_APP_NAVAL_305_NAME
+    desc      = TECH_APP_NAVAL_305_DESC
+    position  = { x = 430 y = 222 }
+    year      = 1995
+    component = { id = 30051 name = TECH_CMP_NAVAL_305_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30052 name = TECH_CMP_NAVAL_305_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30053 name = TECH_CMP_NAVAL_305_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30054 name = TECH_CMP_NAVAL_305_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30055 name = TECH_CMP_NAVAL_305_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30040 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 14 }
+      command = { type = scrap_model which = heavy_cruiser value = 13 }
+    }
+  }
+  # É~ÉTÉCÉãèÑómäÕáVå^
+  application =
+  { id        = 30060
+    name      = TECH_APP_NAVAL_306_NAME
+    desc      = TECH_APP_NAVAL_306_DESC
+    position  = { x = 430 y = 238 }
+    year      = 2006
+    component = { id = 30061 name = TECH_CMP_NAVAL_306_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30062 name = TECH_CMP_NAVAL_306_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30063 name = TECH_CMP_NAVAL_306_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30064 name = TECH_CMP_NAVAL_306_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30065 name = TECH_CMP_NAVAL_306_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30050 7090 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 15 }
+      command = { type = scrap_model which = heavy_cruiser value = 14 }
+    }
+  }
+  # É~ÉTÉCÉãèÑómäÕáWå^
+  application =
+  { id        = 30070
+    name      = TECH_APP_NAVAL_307_NAME
+    desc      = TECH_APP_NAVAL_307_DESC
+    position  = { x = 430 y = 254 }
+    year      = 2018
+    component = { id = 30071 name = TECH_CMP_NAVAL_307_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30072 name = TECH_CMP_NAVAL_307_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30073 name = TECH_CMP_NAVAL_307_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30074 name = TECH_CMP_NAVAL_307_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30075 name = TECH_CMP_NAVAL_307_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30060 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 16 }
+      command = { type = scrap_model which = heavy_cruiser value = 15 }
+    }
+  }
+  # É~ÉTÉCÉãèÑómäÕáXå^
+  application =
+  { id        = 30080
+    name      = TECH_APP_NAVAL_308_NAME
+    desc      = TECH_APP_NAVAL_308_DESC
+    position  = { x = 430 y = 270 }
+    year      = 2031
+    component = { id = 30081 name = TECH_CMP_NAVAL_308_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30082 name = TECH_CMP_NAVAL_308_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30083 name = TECH_CMP_NAVAL_308_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30084 name = TECH_CMP_NAVAL_308_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30085 name = TECH_CMP_NAVAL_308_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30070 7100 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 17 }
+      command = { type = scrap_model which = heavy_cruiser value = 16 }
+    }
+  }
+  # É~ÉTÉCÉãêÌäÕáTå^
+  application =
+  { id        = 30090
+    name      = TECH_APP_NAVAL_309_NAME
+    desc      = TECH_APP_NAVAL_309_DESC
+    position  = { x = 516 y = 206 }
+    year      = 1989
+    component = { id = 30091 name = TECH_CMP_NAVAL_309_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30092 name = TECH_CMP_NAVAL_309_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30093 name = TECH_CMP_NAVAL_309_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30094 name = TECH_CMP_NAVAL_309_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30095 name = TECH_CMP_NAVAL_309_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7080 }
+    effects =
+    { command = { type = new_model which = battleship value = 15 }
+    }
+  }
+  # É~ÉTÉCÉãêÌäÕáUå^
+  application =
+  { id        = 30100
+    name      = TECH_APP_NAVAL_310_NAME
+    desc      = TECH_APP_NAVAL_310_DESC
+    position  = { x = 516 y = 222 }
+    year      = 1995
+    component = { id = 30101 name = TECH_CMP_NAVAL_310_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30102 name = TECH_CMP_NAVAL_310_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30103 name = TECH_CMP_NAVAL_310_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30104 name = TECH_CMP_NAVAL_310_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30105 name = TECH_CMP_NAVAL_310_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30090 }
+    effects =
+    { command = { type = new_model which = battleship value = 11 }
+      command = { type = scrap_model which = battleship value = 10 }
+    }
+  }
+  # É~ÉTÉCÉãêÌäÕáVå^
+  application =
+  { id        = 30110
+    name      = TECH_APP_NAVAL_311_NAME
+    desc      = TECH_APP_NAVAL_311_DESC
+    position  = { x = 516 y = 238 }
+    year      = 2006
+    component = { id = 30111 name = TECH_CMP_NAVAL_311_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30112 name = TECH_CMP_NAVAL_311_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30113 name = TECH_CMP_NAVAL_311_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30114 name = TECH_CMP_NAVAL_311_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30115 name = TECH_CMP_NAVAL_311_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30100 7090 }
+    effects =
+    { command = { type = new_model which = battleship value = 12 }
+      command = { type = scrap_model which = battleship value = 11 }
+    }
+  }
+  # É~ÉTÉCÉãêÌäÕáWå^
+  application =
+  { id        = 30120
+    name      = TECH_APP_NAVAL_312_NAME
+    desc      = TECH_APP_NAVAL_312_DESC
+    position  = { x = 516 y = 254 }
+    year      = 2018
+    component = { id = 30121 name = TECH_CMP_NAVAL_312_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30122 name = TECH_CMP_NAVAL_312_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30123 name = TECH_CMP_NAVAL_312_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30124 name = TECH_CMP_NAVAL_312_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30125 name = TECH_CMP_NAVAL_312_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30110 }
+    effects =
+    { command = { type = new_model which = battleship value = 13 }
+      command = { type = scrap_model which = battleship value = 12 }
+    }
+  }
+  # É~ÉTÉCÉãêÌäÕáXå^
+  application =
+  { id        = 30130
+    name      = TECH_APP_NAVAL_313_NAME
+    desc      = TECH_APP_NAVAL_313_DESC
+    position  = { x = 516 y = 270 }
+    year      = 2031
+    component = { id = 30131 name = TECH_CMP_NAVAL_313_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30132 name = TECH_CMP_NAVAL_313_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30133 name = TECH_CMP_NAVAL_313_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30134 name = TECH_CMP_NAVAL_313_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30135 name = TECH_CMP_NAVAL_313_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30120 7100 }
+    effects =
+    { command = { type = new_model which = battleship value = 19 }
+      command = { type = scrap_model which = battleship value = 18 }
+    }
+  }
+  # å¥éqóÕÉ~ÉTÉCÉããÏíÄäÕáTå^
+  application =
+  { id        = 30140
+    name      = TECH_APP_NAVAL_314_NAME
+    desc      = TECH_APP_NAVAL_314_DESC
+    position  = { x = 344 y = 295 }
+    year      = 1989
+    component = { id = 30141 name = TECH_CMP_NAVAL_314_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30142 name = TECH_CMP_NAVAL_314_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30143 name = TECH_CMP_NAVAL_314_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30144 name = TECH_CMP_NAVAL_314_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30145 name = TECH_CMP_NAVAL_314_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7610 }
+    effects =
+    { command = { type = new_model which = destroyer value = 18 }
+    }
+  }
+  # å¥éqóÕÉ~ÉTÉCÉããÏíÄäÕáUå^
+  application =
+  { id        = 30150
+    name      = TECH_APP_NAVAL_315_NAME
+    desc      = TECH_APP_NAVAL_315_DESC
+    position  = { x = 344 y = 311 }
+    year      = 2005
+    component = { id = 30151 name = TECH_CMP_NAVAL_315_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30152 name = TECH_CMP_NAVAL_315_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30153 name = TECH_CMP_NAVAL_315_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30154 name = TECH_CMP_NAVAL_315_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30155 name = TECH_CMP_NAVAL_315_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30140 7090 }
+    effects =
+    { command = { type = new_model which = destroyer value = 19 }
+      command = { type = scrap_model which = destroyer value = 18 }
+    }
+  }
+  # å¥éqóÕÉ~ÉTÉCÉããÏíÄäÕáVå^
+  application =
+  { id        = 30160
+    name      = TECH_APP_NAVAL_316_NAME
+    desc      = TECH_APP_NAVAL_316_DESC
+    position  = { x = 344 y = 327 }
+    year      = 2018
+    component = { id = 30161 name = TECH_CMP_NAVAL_316_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30162 name = TECH_CMP_NAVAL_316_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30163 name = TECH_CMP_NAVAL_316_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30164 name = TECH_CMP_NAVAL_316_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30165 name = TECH_CMP_NAVAL_316_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30150 }
+    effects =
+    { command = { type = new_model which = destroyer value = 20 }
+      command = { type = scrap_model which = destroyer value = 19 }
+    }
+  }
+  # å¥éqóÕãÏíÄäÕáTå^
+  application =
+  { id        = 30170
+    name      = TECH_APP_NAVAL_317_NAME
+    desc      = TECH_APP_NAVAL_317_DESC
+    position  = { x = 344 y = 368 }
+    year      = 1989
+    component = { id = 30171 name = TECH_CMP_NAVAL_317_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30172 name = TECH_CMP_NAVAL_317_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30173 name = TECH_CMP_NAVAL_317_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30174 name = TECH_CMP_NAVAL_317_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30175 name = TECH_CMP_NAVAL_317_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7610 }
+    effects =
+    { command = { type = new_model which = destroyer value = 10 }
+    }
+  }
+  # å¥éqóÕãÏíÄäÕáUå^
+  application =
+  { id        = 30180
+    name      = TECH_APP_NAVAL_318_NAME
+    desc      = TECH_APP_NAVAL_318_DESC
+    position  = { x = 344 y = 384 }
+    year      = 2005
+    component = { id = 30181 name = TECH_CMP_NAVAL_318_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30182 name = TECH_CMP_NAVAL_318_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30183 name = TECH_CMP_NAVAL_318_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30184 name = TECH_CMP_NAVAL_318_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30185 name = TECH_CMP_NAVAL_318_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30170 }
+    effects =
+    { command = { type = new_model which = destroyer value = 11 }
+      command = { type = scrap_model which = destroyer value = 10 }
+    }
+  }
+  # å¥éqóÕãÏíÄäÕáVå^
+  application =
+  { id        = 30190
+    name      = TECH_APP_NAVAL_319_NAME
+    desc      = TECH_APP_NAVAL_319_DESC
+    position  = { x = 344 y = 400 }
+    year      = 2018
+    component = { id = 30191 name = TECH_CMP_NAVAL_319_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30192 name = TECH_CMP_NAVAL_319_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30193 name = TECH_CMP_NAVAL_319_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30194 name = TECH_CMP_NAVAL_319_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30195 name = TECH_CMP_NAVAL_319_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30180 7100 }
+    effects =
+    { command = { type = new_model which = destroyer value = 12 }
+      command = { type = scrap_model which = destroyer value = 11 }
+    }
+  }
+  # å¥éqóÕÉ~ÉTÉCÉãèÑómäÕáTå^
+  application =
+  { id        = 30200
+    name      = TECH_APP_NAVAL_320_NAME
+    desc      = TECH_APP_NAVAL_320_DESC
+    position  = { x = 430 y = 295 }
+    year      = 1989
+    component = { id = 30201 name = TECH_CMP_NAVAL_320_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30202 name = TECH_CMP_NAVAL_320_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30203 name = TECH_CMP_NAVAL_320_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30204 name = TECH_CMP_NAVAL_320_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30205 name = TECH_CMP_NAVAL_320_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7610 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 18 }
+    }
+  }
+  # å¥éqóÕÉ~ÉTÉCÉãèÑómäÕáUå^
+  application =
+  { id        = 30210
+    name      = TECH_APP_NAVAL_321_NAME
+    desc      = TECH_APP_NAVAL_321_DESC
+    position  = { x = 430 y = 311 }
+    year      = 2005
+    component = { id = 30211 name = TECH_CMP_NAVAL_321_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30212 name = TECH_CMP_NAVAL_321_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30213 name = TECH_CMP_NAVAL_321_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30214 name = TECH_CMP_NAVAL_321_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30215 name = TECH_CMP_NAVAL_321_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30200 7090 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 19 }
+      command = { type = scrap_model which = heavy_cruiser value = 18 }
+    }
+  }
+  # å¥éqóÕÉ~ÉTÉCÉãèÑómäÕáVå^
+  application =
+  { id        = 30220
+    name      = TECH_APP_NAVAL_322_NAME
+    desc      = TECH_APP_NAVAL_322_DESC
+    position  = { x = 430 y = 327 }
+    year      = 2018
+    component = { id = 30221 name = TECH_CMP_NAVAL_322_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30222 name = TECH_CMP_NAVAL_322_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30223 name = TECH_CMP_NAVAL_322_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30224 name = TECH_CMP_NAVAL_322_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30225 name = TECH_CMP_NAVAL_322_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30210 7100 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 20 }
+      command = { type = scrap_model which = heavy_cruiser value = 19 }
+    }
+  }
+  # å¥éqóÕèÑómäÕáTå^
+  application =
+  { id        = 30230
+    name      = TECH_APP_NAVAL_323_NAME
+    desc      = TECH_APP_NAVAL_323_DESC
+    position  = { x = 430 y = 368 }
+    year      = 1989
+    component = { id = 30231 name = TECH_CMP_NAVAL_323_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30232 name = TECH_CMP_NAVAL_323_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30233 name = TECH_CMP_NAVAL_323_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30234 name = TECH_CMP_NAVAL_323_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30235 name = TECH_CMP_NAVAL_323_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7610 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 10 }
+    }
+  }
+  # å¥éqóÕèÑómäÕáUå^
+  application =
+  { id        = 30240
+    name      = TECH_APP_NAVAL_324_NAME
+    desc      = TECH_APP_NAVAL_324_DESC
+    position  = { x = 430 y = 384 }
+    year      = 2005
+    component = { id = 30241 name = TECH_CMP_NAVAL_324_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30242 name = TECH_CMP_NAVAL_324_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30243 name = TECH_CMP_NAVAL_324_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30244 name = TECH_CMP_NAVAL_324_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30245 name = TECH_CMP_NAVAL_324_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30230 7090 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 11 }
+      command = { type = scrap_model which = heavy_cruiser value = 10 }
+    }
+  }
+  # å¥éqóÕèÑómäÕáVå^
+  application =
+  { id        = 30250
+    name      = TECH_APP_NAVAL_325_NAME
+    desc      = TECH_APP_NAVAL_325_DESC
+    position  = { x = 430 y = 400 }
+    year      = 2018
+    component = { id = 30251 name = TECH_CMP_NAVAL_325_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30252 name = TECH_CMP_NAVAL_325_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30253 name = TECH_CMP_NAVAL_325_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30254 name = TECH_CMP_NAVAL_325_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30255 name = TECH_CMP_NAVAL_325_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30240 7100 }
+    effects =
+    { command = { type = new_model which = heavy_cruiser value = 12 }
+      command = { type = scrap_model which = heavy_cruiser value = 11 }
+    }
+  }
+  # å¥éqóÕÉ~ÉTÉCÉãêÌäÕáTå^
+  application =
+  { id        = 30260
+    name      = TECH_APP_NAVAL_326_NAME
+    desc      = TECH_APP_NAVAL_326_DESC
+    position  = { x = 516 y = 295 }
+    year      = 1989
+    component = { id = 30261 name = TECH_CMP_NAVAL_326_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30262 name = TECH_CMP_NAVAL_326_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30263 name = TECH_CMP_NAVAL_326_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30264 name = TECH_CMP_NAVAL_326_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30265 name = TECH_CMP_NAVAL_326_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7610 }
+    effects =
+    { command = { type = new_model which = battleship value = 20 }
+    }
+  }
+  # å¥éqóÕÉ~ÉTÉCÉãêÌäÕáUå^
+  application =
+  { id        = 30270
+    name      = TECH_APP_NAVAL_327_NAME
+    desc      = TECH_APP_NAVAL_327_DESC
+    position  = { x = 516 y = 311 }
+    year      = 2005
+    component = { id = 30271 name = TECH_CMP_NAVAL_327_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30272 name = TECH_CMP_NAVAL_327_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30273 name = TECH_CMP_NAVAL_327_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30274 name = TECH_CMP_NAVAL_327_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30275 name = TECH_CMP_NAVAL_327_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30260 7090 }
+    effects =
+    { command = { type = new_model which = battleship value = 21 }
+      command = { type = scrap_model which = battleship value = 20 }
+    }
+  }
+  # å¥éqóÕÉ~ÉTÉCÉãêÌäÕáVå^
+  application =
+  { id        = 30280
+    name      = TECH_APP_NAVAL_328_NAME
+    desc      = TECH_APP_NAVAL_328_DESC
+    position  = { x = 516 y = 327 }
+    year      = 2018
+    component = { id = 30281 name = TECH_CMP_NAVAL_328_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30282 name = TECH_CMP_NAVAL_328_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30283 name = TECH_CMP_NAVAL_328_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30284 name = TECH_CMP_NAVAL_328_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30285 name = TECH_CMP_NAVAL_328_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30270 7100 }
+    effects =
+    { command = { type = new_model which = battleship value = 22 }
+      command = { type = scrap_model which = battleship value = 21 }
+    }
+  }
+  # å¥éqóÕêÌäÕáTå^
+  application =
+  { id        = 30290
+    name      = TECH_APP_NAVAL_329_NAME
+    desc      = TECH_APP_NAVAL_329_DESC
+    position  = { x = 516 y = 368 }
+    year      = 1989
+    component = { id = 30291 name = TECH_CMP_NAVAL_329_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30292 name = TECH_CMP_NAVAL_329_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30293 name = TECH_CMP_NAVAL_329_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30294 name = TECH_CMP_NAVAL_329_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30295 name = TECH_CMP_NAVAL_329_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7610 }
+    effects =
+    { command = { type = new_model which = battleship value = 23 }
+    }
+  }
+  # å¥éqóÕêÌäÕáUå^
+  application =
+  { id        = 30300
+    name      = TECH_APP_NAVAL_330_NAME
+    desc      = TECH_APP_NAVAL_330_DESC
+    position  = { x = 516 y = 384 }
+    year      = 2005
+    component = { id = 30301 name = TECH_CMP_NAVAL_330_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30302 name = TECH_CMP_NAVAL_330_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30303 name = TECH_CMP_NAVAL_330_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30304 name = TECH_CMP_NAVAL_330_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30305 name = TECH_CMP_NAVAL_330_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30290 }
+    effects =
+    { command = { type = new_model which = battleship value = 24 }
+      command = { type = scrap_model which = battleship value = 23 }
+    }
+  }
+  # å¥éqóÕêÌäÕáVå^
+  application =
+  { id        = 30310
+    name      = TECH_APP_NAVAL_331_NAME
+    desc      = TECH_APP_NAVAL_331_DESC
+    position  = { x = 516 y = 400 }
+    year      = 2018
+    component = { id = 30311 name = TECH_CMP_NAVAL_331_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30312 name = TECH_CMP_NAVAL_331_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30313 name = TECH_CMP_NAVAL_331_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30314 name = TECH_CMP_NAVAL_331_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30315 name = TECH_CMP_NAVAL_331_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30300 }
+    effects =
+    { command = { type = new_model which = battleship value = 25 }
+      command = { type = scrap_model which = battleship value = 24 }
+    }
+  }
+  # å¥éqóÕêˆêÖäÕáTå^
+  application =
+  { id        = 30320
+    name      = TECH_APP_NAVAL_332_NAME
+    desc      = TECH_APP_NAVAL_332_DESC
+    position  = { x = 344 y = 441 }
+    picture = "noimage"
+    year      = 1989
+    component = { id = 30321 name = TECH_CMP_NAVAL_332_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30322 name = TECH_CMP_NAVAL_332_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30323 name = TECH_CMP_NAVAL_332_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30324 name = TECH_CMP_NAVAL_332_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30325 name = TECH_CMP_NAVAL_332_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7610 }
+    effects =
+    { command = { type = activate_unit_type which = nuclear_submarine }
+      command = { type = new_model which = nuclear_submarine value = 0 }
+    }
+  }
+  # å¥éqóÕêˆêÖäÕáUå^
+  application =
+  { id        = 30330
+    name      = TECH_APP_NAVAL_333_NAME
+    desc      = TECH_APP_NAVAL_333_DESC
+    position  = { x = 344 y = 457 }
+    picture = "noimage"
+    year      = 2005
+    component = { id = 30331 name = TECH_CMP_NAVAL_333_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30332 name = TECH_CMP_NAVAL_333_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30333 name = TECH_CMP_NAVAL_333_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30334 name = TECH_CMP_NAVAL_333_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30335 name = TECH_CMP_NAVAL_333_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30320 }
+    effects =
+    { command = { type = new_model which = nuclear_submarine value = 1 }
+      command = { type = scrap_model which = nuclear_submarine value = 0 }
+    }
+  }
+  # å¥éqóÕêˆêÖäÕáVå^
+  application =
+  { id        = 30340
+    name      = TECH_APP_NAVAL_334_NAME
+    desc      = TECH_APP_NAVAL_334_DESC
+    position  = { x = 344 y = 473 }
+    picture = "noimage"
+    year      = 2018
+    component = { id = 30341 name = TECH_CMP_NAVAL_334_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30342 name = TECH_CMP_NAVAL_334_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30343 name = TECH_CMP_NAVAL_334_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30344 name = TECH_CMP_NAVAL_334_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30345 name = TECH_CMP_NAVAL_334_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30330 }
+    effects =
+    { command = { type = new_model which = nuclear_submarine value = 2 }
+      command = { type = scrap_model which = nuclear_submarine value = 1 }
+    }
+  }
+  # å¥éqóÕÉwÉäãÛïÍáTå^
+  application =
+  { id        = 30350
+    name      = TECH_APP_NAVAL_335_NAME
+    desc      = TECH_APP_NAVAL_335_DESC
+    position  = { x = 430 y = 441 }
+    year      = 1989
+    component = { id = 30351 name = TECH_CMP_NAVAL_335_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30352 name = TECH_CMP_NAVAL_335_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30353 name = TECH_CMP_NAVAL_335_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30354 name = TECH_CMP_NAVAL_335_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30355 name = TECH_CMP_NAVAL_335_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7610 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 10 }
+    }
+  }
+  # å¥éqóÕÉwÉäãÛïÍáUå^
+  application =
+  { id        = 30360
+    name      = TECH_APP_NAVAL_336_NAME
+    desc      = TECH_APP_NAVAL_336_DESC
+    position  = { x = 430 y = 457 }
+    year      = 2005
+    component = { id = 30361 name = TECH_CMP_NAVAL_336_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30362 name = TECH_CMP_NAVAL_336_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30363 name = TECH_CMP_NAVAL_336_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30364 name = TECH_CMP_NAVAL_336_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30365 name = TECH_CMP_NAVAL_336_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30350 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 11 }
+      command = { type = scrap_model which = escort_carrier value = 10 }
+    }
+  }
+  # å¥éqóÕÉwÉäãÛïÍáVå^
+  application =
+  { id        = 30370
+    name      = TECH_APP_NAVAL_337_NAME
+    desc      = TECH_APP_NAVAL_337_DESC
+    position  = { x = 430 y = 473 }
+    year      = 2018
+    component = { id = 30371 name = TECH_CMP_NAVAL_337_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30372 name = TECH_CMP_NAVAL_337_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30373 name = TECH_CMP_NAVAL_337_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30374 name = TECH_CMP_NAVAL_337_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30375 name = TECH_CMP_NAVAL_337_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30360 }
+    effects =
+    { command = { type = new_model which = escort_carrier value = 12 }
+      command = { type = scrap_model which = escort_carrier value = 11 }
+    }
+  }
+  # å¥éqóÕãÛïÍáTå^
+  application =
+  { id        = 30380
+    name      = TECH_APP_NAVAL_338_NAME
+    desc      = TECH_APP_NAVAL_338_DESC
+    position  = { x = 516 y = 441 }
+    year      = 1958
+    component = { id = 30381 name = TECH_CMP_NAVAL_338_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30382 name = TECH_CMP_NAVAL_338_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30383 name = TECH_CMP_NAVAL_338_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30384 name = TECH_CMP_NAVAL_338_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30385 name = TECH_CMP_NAVAL_338_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7610 }
+    effects =
+    { command = { type = new_model which = carrier value = 10 }
+    }
+  }
+  # å¥éqóÕãÛïÍáUå^
+  application =
+  { id        = 30390
+    name      = TECH_APP_NAVAL_339_NAME
+    desc      = TECH_APP_NAVAL_339_DESC
+    position  = { x = 516 y = 457 }
+    year      = 1968
+    component = { id = 30391 name = TECH_CMP_NAVAL_339_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30392 name = TECH_CMP_NAVAL_339_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30393 name = TECH_CMP_NAVAL_339_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30394 name = TECH_CMP_NAVAL_339_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30395 name = TECH_CMP_NAVAL_339_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30380 }
+    effects =
+    { command = { type = new_model which = carrier value = 11 }
+      command = { type = scrap_model which = carrier value = 10 }
+    }
+  }
+  # å¥éqóÕãÛïÍáVå^
+  application =
+  { id        = 30400
+    name      = TECH_APP_NAVAL_340_NAME
+    desc      = TECH_APP_NAVAL_340_DESC
+    position  = { x = 516 y = 473 }
+    year      = 2009
+    component = { id = 30401 name = TECH_CMP_NAVAL_340_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30402 name = TECH_CMP_NAVAL_340_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30403 name = TECH_CMP_NAVAL_340_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30404 name = TECH_CMP_NAVAL_340_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30405 name = TECH_CMP_NAVAL_340_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30390 }
+    effects =
+    { command = { type = new_model which = carrier value = 12 }
+      command = { type = scrap_model which = carrier value = 11 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïáTå^
+  application =
+  { id        = 30410
+    name      = TECH_APP_NAVAL_341_NAME
+    desc      = TECH_APP_NAVAL_341_DESC
+    position  = { x = 0 y = 391 }
+    picture = "noimage"
+    year      = 1945
+    component = { id = 30411 name = TECH_CMP_NAVAL_341_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30412 name = TECH_CMP_NAVAL_341_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30413 name = TECH_CMP_NAVAL_341_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30414 name = TECH_CMP_NAVAL_341_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30415 name = TECH_CMP_NAVAL_341_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = naval_asw }
+      command = { type = activate_unit_type which = naval_anti_air_s }
+      command = { type = activate_unit_type which = naval_radar_s }
+      command = { type = activate_unit_type which = naval_fire_controll_s }
+      command = { type = activate_unit_type which = naval_anti_air_l }
+      command = { type = new_model which = naval_asw value = 0 }
+      command = { type = new_model which = naval_anti_air_s value = 0 }
+      command = { type = new_model which = naval_radar_s value = 0 }
+      command = { type = new_model which = naval_fire_controll_s value = 0 }
+      command = { type = new_model which = naval_anti_air_l value = 0 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïáUå^
+  application =
+  { id        = 30420
+    name      = TECH_APP_NAVAL_342_NAME
+    desc      = TECH_APP_NAVAL_342_DESC
+    position  = { x = 0 y = 407 }
+    picture = "noimage"
+    year      = 1973
+    component = { id = 30421 name = TECH_CMP_NAVAL_342_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30422 name = TECH_CMP_NAVAL_342_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30423 name = TECH_CMP_NAVAL_342_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30424 name = TECH_CMP_NAVAL_342_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30425 name = TECH_CMP_NAVAL_342_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30410 }
+    effects =
+    { command = { type = new_model which = naval_asw value = 1 }
+      command = { type = new_model which = naval_anti_air_s value = 1 }
+      command = { type = new_model which = naval_radar_s value = 1 }
+      command = { type = new_model which = naval_fire_controll_s value = 1 }
+      command = { type = new_model which = naval_anti_air_l value = 1 }
+      command = { type = scrap_model which = naval_asw value = 0 }
+      command = { type = scrap_model which = naval_anti_air_s value = 0 }
+      command = { type = scrap_model which = naval_radar_s value = 0 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 0 }
+      command = { type = scrap_model which = naval_anti_air_l value = 0 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïáVå^
+  application =
+  { id        = 30430
+    name      = TECH_APP_NAVAL_343_NAME
+    desc      = TECH_APP_NAVAL_343_DESC
+    position  = { x = 0 y = 423 }
+    picture = "noimage"
+    year      = 1978
+    component = { id = 30431 name = TECH_CMP_NAVAL_343_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30432 name = TECH_CMP_NAVAL_343_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30433 name = TECH_CMP_NAVAL_343_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30434 name = TECH_CMP_NAVAL_343_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30435 name = TECH_CMP_NAVAL_343_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30420 }
+    effects =
+    { command = { type = new_model which = naval_asw value = 2 }
+      command = { type = new_model which = naval_anti_air_s value = 2 }
+      command = { type = new_model which = naval_radar_s value = 2 }
+      command = { type = new_model which = naval_fire_controll_s value = 2 }
+      command = { type = new_model which = naval_anti_air_l value = 2 }
+      command = { type = scrap_model which = naval_asw value = 1 }
+      command = { type = scrap_model which = naval_anti_air_s value = 1 }
+      command = { type = scrap_model which = naval_radar_s value = 1 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 1 }
+      command = { type = scrap_model which = naval_anti_air_l value = 1 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïáWå^
+  application =
+  { id        = 30440
+    name      = TECH_APP_NAVAL_344_NAME
+    desc      = TECH_APP_NAVAL_344_DESC
+    position  = { x = 0 y = 439 }
+    picture = "noimage"
+    year      = 1984
+    component = { id = 30441 name = TECH_CMP_NAVAL_344_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30442 name = TECH_CMP_NAVAL_344_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30443 name = TECH_CMP_NAVAL_344_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30444 name = TECH_CMP_NAVAL_344_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30445 name = TECH_CMP_NAVAL_344_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30430 }
+    effects =
+    { command = { type = new_model which = naval_asw value = 3 }
+      command = { type = new_model which = naval_anti_air_s value = 3 }
+      command = { type = new_model which = naval_radar_s value = 3 }
+      command = { type = new_model which = naval_fire_controll_s value = 3 }
+      command = { type = new_model which = naval_anti_air_l value = 3 }
+      command = { type = scrap_model which = naval_asw value = 2 }
+      command = { type = scrap_model which = naval_anti_air_s value = 2 }
+      command = { type = scrap_model which = naval_radar_s value = 2 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 2 }
+      command = { type = scrap_model which = naval_anti_air_l value = 2 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïáXå^
+  application =
+  { id        = 30450
+    name      = TECH_APP_NAVAL_345_NAME
+    desc      = TECH_APP_NAVAL_345_DESC
+    position  = { x = 0 y = 455 }
+    picture = "noimage"
+    year      = 1990
+    component = { id = 30451 name = TECH_CMP_NAVAL_345_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30452 name = TECH_CMP_NAVAL_345_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30453 name = TECH_CMP_NAVAL_345_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30454 name = TECH_CMP_NAVAL_345_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30455 name = TECH_CMP_NAVAL_345_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30440 }
+    effects =
+    { command = { type = new_model which = naval_asw value = 4 }
+      command = { type = new_model which = naval_anti_air_s value = 4 }
+      command = { type = new_model which = naval_radar_s value = 4 }
+      command = { type = new_model which = naval_fire_controll_s value = 4 }
+      command = { type = new_model which = naval_anti_air_l value = 4 }
+      command = { type = scrap_model which = naval_asw value = 3 }
+      command = { type = scrap_model which = naval_anti_air_s value = 3 }
+      command = { type = scrap_model which = naval_radar_s value = 3 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 3 }
+      command = { type = scrap_model which = naval_anti_air_l value = 3 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïáYå^
+  application =
+  { id        = 30460
+    name      = TECH_APP_NAVAL_346_NAME
+    desc      = TECH_APP_NAVAL_346_DESC
+    position  = { x = 86 y = 391 }
+    picture = "noimage"
+    year      = 1998
+    component = { id = 30461 name = TECH_CMP_NAVAL_346_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30462 name = TECH_CMP_NAVAL_346_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30463 name = TECH_CMP_NAVAL_346_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30464 name = TECH_CMP_NAVAL_346_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30465 name = TECH_CMP_NAVAL_346_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30450 }
+    effects =
+    { command = { type = new_model which = naval_asw value = 5 }
+      command = { type = new_model which = naval_anti_air_s value = 5 }
+      command = { type = new_model which = naval_radar_s value = 5 }
+      command = { type = new_model which = naval_fire_controll_s value = 5 }
+      command = { type = new_model which = naval_anti_air_l value = 5 }
+      command = { type = scrap_model which = naval_asw value = 4 }
+      command = { type = scrap_model which = naval_anti_air_s value = 4 }
+      command = { type = scrap_model which = naval_radar_s value = 4 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 4 }
+      command = { type = scrap_model which = naval_anti_air_l value = 4 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïáZå^
+  application =
+  { id        = 30470
+    name      = TECH_APP_NAVAL_347_NAME
+    desc      = TECH_APP_NAVAL_347_DESC
+    position  = { x = 86 y = 407 }
+    picture = "noimage"
+    year      = 2009
+    component = { id = 30471 name = TECH_CMP_NAVAL_347_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30472 name = TECH_CMP_NAVAL_347_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30473 name = TECH_CMP_NAVAL_347_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30474 name = TECH_CMP_NAVAL_347_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30475 name = TECH_CMP_NAVAL_347_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30460 }
+    effects =
+    { command = { type = new_model which = naval_asw value = 6 }
+      command = { type = new_model which = naval_anti_air_s value = 6 }
+      command = { type = new_model which = naval_radar_s value = 6 }
+      command = { type = new_model which = naval_fire_controll_s value = 6 }
+      command = { type = new_model which = naval_anti_air_l value = 6 }
+      command = { type = scrap_model which = naval_asw value = 5 }
+      command = { type = scrap_model which = naval_anti_air_s value = 5 }
+      command = { type = scrap_model which = naval_radar_s value = 5 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 5 }
+      command = { type = scrap_model which = naval_anti_air_l value = 5 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïá[å^
+  application =
+  { id        = 30480
+    name      = TECH_APP_NAVAL_348_NAME
+    desc      = TECH_APP_NAVAL_348_DESC
+    position  = { x = 86 y = 423 }
+    picture = "noimage"
+    year      = 2018
+    component = { id = 30481 name = TECH_CMP_NAVAL_348_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30482 name = TECH_CMP_NAVAL_348_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30483 name = TECH_CMP_NAVAL_348_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30484 name = TECH_CMP_NAVAL_348_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30485 name = TECH_CMP_NAVAL_348_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30470 }
+    effects =
+    { command = { type = new_model which = naval_asw value = 7 }
+      command = { type = new_model which = naval_anti_air_s value = 7 }
+      command = { type = new_model which = naval_radar_s value = 7 }
+      command = { type = new_model which = naval_fire_controll_s value = 7 }
+      command = { type = new_model which = naval_anti_air_l value = 7 }
+      command = { type = scrap_model which = naval_asw value = 6 }
+      command = { type = scrap_model which = naval_anti_air_s value = 6 }
+      command = { type = scrap_model which = naval_radar_s value = 6 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 6 }
+      command = { type = scrap_model which = naval_anti_air_l value = 6 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïá\å^
+  application =
+  { id        = 30490
+    name      = TECH_APP_NAVAL_349_NAME
+    desc      = TECH_APP_NAVAL_349_DESC
+    position  = { x = 86 y = 439 }
+    picture = "noimage"
+    year      = 2026
+    component = { id = 30491 name = TECH_CMP_NAVAL_349_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30492 name = TECH_CMP_NAVAL_349_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30493 name = TECH_CMP_NAVAL_349_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30494 name = TECH_CMP_NAVAL_349_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30495 name = TECH_CMP_NAVAL_349_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30480 }
+    effects =
+    { command = { type = new_model which = naval_asw value = 8 }
+      command = { type = new_model which = naval_anti_air_s value = 8 }
+      command = { type = new_model which = naval_radar_s value = 8 }
+      command = { type = new_model which = naval_fire_controll_s value = 8 }
+      command = { type = new_model which = naval_anti_air_l value = 8 }
+      command = { type = scrap_model which = naval_asw value = 7 }
+      command = { type = scrap_model which = naval_anti_air_s value = 7 }
+      command = { type = scrap_model which = naval_radar_s value = 7 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 7 }
+      command = { type = scrap_model which = naval_anti_air_l value = 7 }
+    }
+  }
+  # ëççáäÕí¯ï∫ëïá]å^
+  application =
+  { id        = 30500
+    name      = TECH_APP_NAVAL_350_NAME
+    desc      = TECH_APP_NAVAL_350_DESC
+    position  = { x = 86 y = 455 }
+    picture = "noimage"
+    year      = 2035
+    component = { id = 30501 name = TECH_CMP_NAVAL_350_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30502 name = TECH_CMP_NAVAL_350_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30503 name = TECH_CMP_NAVAL_350_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30504 name = TECH_CMP_NAVAL_350_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30505 name = TECH_CMP_NAVAL_350_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30490 }
+    effects =
+    { command = { type = new_model which = naval_asw value = 9 }
+      command = { type = new_model which = naval_anti_air_s value = 9 }
+      command = { type = new_model which = naval_radar_s value = 9 }
+      command = { type = new_model which = naval_fire_controll_s value = 9 }
+      command = { type = new_model which = naval_anti_air_l value = 9 }
+      command = { type = scrap_model which = naval_asw value = 8 }
+      command = { type = scrap_model which = naval_anti_air_s value = 8 }
+      command = { type = scrap_model which = naval_radar_s value = 8 }
+      command = { type = scrap_model which = naval_fire_controll_s value = 8 }
+      command = { type = scrap_model which = naval_anti_air_l value = 8 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄáTå^
+  application =
+  { id        = 30510
+    name      = TECH_APP_NAVAL_351_NAME
+    desc      = TECH_APP_NAVAL_351_DESC
+    position  = { x = 172 y = 391 }
+    picture = "noimage"
+    year      = 1945
+    component = { id = 30511 name = TECH_CMP_NAVAL_351_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30512 name = TECH_CMP_NAVAL_351_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30513 name = TECH_CMP_NAVAL_351_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30514 name = TECH_CMP_NAVAL_351_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30515 name = TECH_CMP_NAVAL_351_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 7010 }
+    effects =
+    { command = { type = activate_unit_type which = naval_fire_controll_l }
+      command = { type = activate_unit_type which = naval_improved_hull_l }
+      command = { type = activate_unit_type which = naval_torpedoes_l }
+      command = { type = new_model which = naval_fire_controll_l value = 0 }
+      command = { type = new_model which = naval_improved_hull_l value = 0 }
+      command = { type = new_model which = naval_torpedoes_l value = 0 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄáUå^
+  application =
+  { id        = 30520
+    name      = TECH_APP_NAVAL_352_NAME
+    desc      = TECH_APP_NAVAL_352_DESC
+    position  = { x = 172 y = 407 }
+    picture = "noimage"
+    year      = 1973
+    component = { id = 30521 name = TECH_CMP_NAVAL_352_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30522 name = TECH_CMP_NAVAL_352_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30523 name = TECH_CMP_NAVAL_352_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30524 name = TECH_CMP_NAVAL_352_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30525 name = TECH_CMP_NAVAL_352_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30510 }
+    effects =
+    { command = { type = new_model which = naval_fire_controll_l value = 1 }
+      command = { type = new_model which = naval_improved_hull_l value = 1 }
+      command = { type = new_model which = naval_torpedoes_l value = 1 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 0 }
+      command = { type = scrap_model which = naval_improved_hull_l value = 0 }
+      command = { type = scrap_model which = naval_torpedoes_l value = 0 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄáVå^
+  application =
+  { id        = 30530
+    name      = TECH_APP_NAVAL_353_NAME
+    desc      = TECH_APP_NAVAL_353_DESC
+    position  = { x = 172 y = 423 }
+    picture = "noimage"
+    year      = 1978
+    component = { id = 30531 name = TECH_CMP_NAVAL_353_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30532 name = TECH_CMP_NAVAL_353_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30533 name = TECH_CMP_NAVAL_353_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30534 name = TECH_CMP_NAVAL_353_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30535 name = TECH_CMP_NAVAL_353_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30520 }
+    effects =
+    { command = { type = new_model which = naval_fire_controll_l value = 2 }
+      command = { type = new_model which = naval_improved_hull_l value = 2 }
+      command = { type = new_model which = naval_torpedoes_l value = 2 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 1 }
+      command = { type = scrap_model which = naval_improved_hull_l value = 1 }
+      command = { type = scrap_model which = naval_torpedoes_l value = 1 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄáWå^
+  application =
+  { id        = 30540
+    name      = TECH_APP_NAVAL_354_NAME
+    desc      = TECH_APP_NAVAL_354_DESC
+    position  = { x = 172 y = 439 }
+    picture = "noimage"
+    year      = 1984
+    component = { id = 30541 name = TECH_CMP_NAVAL_354_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30542 name = TECH_CMP_NAVAL_354_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30543 name = TECH_CMP_NAVAL_354_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30544 name = TECH_CMP_NAVAL_354_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30545 name = TECH_CMP_NAVAL_354_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30530 }
+    effects =
+    { command = { type = new_model which = naval_fire_controll_l value = 3 }
+      command = { type = new_model which = naval_improved_hull_l value = 3 }
+      command = { type = new_model which = naval_torpedoes_l value = 3 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 2 }
+      command = { type = scrap_model which = naval_improved_hull_l value = 2 }
+      command = { type = scrap_model which = naval_torpedoes_l value = 2 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄáXå^
+  application =
+  { id        = 30550
+    name      = TECH_APP_NAVAL_355_NAME
+    desc      = TECH_APP_NAVAL_355_DESC
+    position  = { x = 172 y = 455 }
+    picture = "noimage"
+    year      = 1990
+    component = { id = 30551 name = TECH_CMP_NAVAL_355_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30552 name = TECH_CMP_NAVAL_355_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30553 name = TECH_CMP_NAVAL_355_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30554 name = TECH_CMP_NAVAL_355_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30555 name = TECH_CMP_NAVAL_355_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30540 }
+    effects =
+    { command = { type = new_model which = naval_fire_controll_l value = 4 }
+      command = { type = new_model which = naval_improved_hull_l value = 4 }
+      command = { type = new_model which = naval_torpedoes_l value = 4 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 3 }
+      command = { type = scrap_model which = naval_improved_hull_l value = 3 }
+      command = { type = scrap_model which = naval_torpedoes_l value = 3 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄáYå^
+  application =
+  { id        = 30560
+    name      = TECH_APP_NAVAL_356_NAME
+    desc      = TECH_APP_NAVAL_356_DESC
+    position  = { x = 258 y = 391 }
+    picture = "noimage"
+    year      = 1998
+    component = { id = 30561 name = TECH_CMP_NAVAL_356_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30562 name = TECH_CMP_NAVAL_356_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30563 name = TECH_CMP_NAVAL_356_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30564 name = TECH_CMP_NAVAL_356_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30565 name = TECH_CMP_NAVAL_356_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30550 }
+    effects =
+    { command = { type = new_model which = naval_fire_controll_l value = 5 }
+      command = { type = new_model which = naval_improved_hull_l value = 5 }
+      command = { type = new_model which = naval_torpedoes_l value = 5 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 4 }
+      command = { type = scrap_model which = naval_improved_hull_l value = 4 }
+      command = { type = scrap_model which = naval_torpedoes_l value = 4 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄáZå^
+  application =
+  { id        = 30570
+    name      = TECH_APP_NAVAL_357_NAME
+    desc      = TECH_APP_NAVAL_357_DESC
+    position  = { x = 258 y = 407 }
+    picture = "noimage"
+    year      = 2009
+    component = { id = 30571 name = TECH_CMP_NAVAL_357_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30572 name = TECH_CMP_NAVAL_357_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30573 name = TECH_CMP_NAVAL_357_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30574 name = TECH_CMP_NAVAL_357_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30575 name = TECH_CMP_NAVAL_357_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30560 }
+    effects =
+    { command = { type = new_model which = naval_fire_controll_l value = 6 }
+      command = { type = new_model which = naval_improved_hull_l value = 6 }
+      command = { type = new_model which = naval_torpedoes_l value = 6 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 5 }
+      command = { type = scrap_model which = naval_improved_hull_l value = 5 }
+      command = { type = scrap_model which = naval_torpedoes_l value = 5 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄá[å^
+  application =
+  { id        = 30580
+    name      = TECH_APP_NAVAL_358_NAME
+    desc      = TECH_APP_NAVAL_358_DESC
+    position  = { x = 258 y = 423 }
+    picture = "noimage"
+    year      = 2018
+    component = { id = 30581 name = TECH_CMP_NAVAL_358_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30582 name = TECH_CMP_NAVAL_358_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30583 name = TECH_CMP_NAVAL_358_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30584 name = TECH_CMP_NAVAL_358_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30585 name = TECH_CMP_NAVAL_358_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30570 }
+    effects =
+    { command = { type = new_model which = naval_fire_controll_l value = 7 }
+      command = { type = new_model which = naval_improved_hull_l value = 7 }
+      command = { type = new_model which = naval_torpedoes_l value = 7 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 6 }
+      command = { type = scrap_model which = naval_improved_hull_l value = 6 }
+      command = { type = scrap_model which = naval_torpedoes_l value = 6 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄá\å^
+  application =
+  { id        = 30590
+    name      = TECH_APP_NAVAL_359_NAME
+    desc      = TECH_APP_NAVAL_359_DESC
+    position  = { x = 258 y = 439 }
+    picture = "noimage"
+    year      = 2026
+    component = { id = 30591 name = TECH_CMP_NAVAL_359_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30592 name = TECH_CMP_NAVAL_359_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30593 name = TECH_CMP_NAVAL_359_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30594 name = TECH_CMP_NAVAL_359_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30595 name = TECH_CMP_NAVAL_359_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30580 }
+    effects =
+    { command = { type = new_model which = naval_fire_controll_l value = 8 }
+      command = { type = new_model which = naval_improved_hull_l value = 8 }
+      command = { type = new_model which = naval_torpedoes_l value = 8 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 7 }
+      command = { type = scrap_model which = naval_improved_hull_l value = 7 }
+      command = { type = scrap_model which = naval_torpedoes_l value = 7 }
+    }
+  }
+  # ëççáäÕí¯ÉVÉXÉeÉÄá]å^
+  application =
+  { id        = 30600
+    name      = TECH_APP_NAVAL_360_NAME
+    desc      = TECH_APP_NAVAL_360_DESC
+    position  = { x = 258 y = 455 }
+    picture = "noimage"
+    year      = 2035
+    component = { id = 30601 name = TECH_CMP_NAVAL_360_1_NAME type = naval_engineering difficulty = 8 }
+    component = { id = 30602 name = TECH_CMP_NAVAL_360_2_NAME type = technical_efficiency difficulty = 8 }
+    component = { id = 30603 name = TECH_CMP_NAVAL_360_3_NAME type = naval_artillery difficulty = 8 }
+    component = { id = 30604 name = TECH_CMP_NAVAL_360_4_NAME type = electronics difficulty = 8 }
+    component = { id = 30605 name = TECH_CMP_NAVAL_360_5_NAME type = technical_efficiency difficulty = 8 }
+    required  = { 30590 }
+    effects =
+    { command = { type = new_model which = naval_fire_controll_l value = 9 }
+      command = { type = new_model which = naval_improved_hull_l value = 9 }
+      command = { type = new_model which = naval_torpedoes_l value = 9 }
+      command = { type = scrap_model which = naval_fire_controll_l value = 8 }
+      command = { type = scrap_model which = naval_improved_hull_l value = 8 }
+      command = { type = scrap_model which = naval_torpedoes_l value = 8 }
+    }
+  }
+}

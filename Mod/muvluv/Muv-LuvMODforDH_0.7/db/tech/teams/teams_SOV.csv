@@ -1,0 +1,27 @@
+SOV;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+3700;第61コムーナ・ニコライエフ造船所;T3700;4;1930;2110;naval_engineering;electronics;naval_artillery;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3701;バリカダ工場設計局;T3701;5;1930;2110;artillery;mechanics;general_equipment;training;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3702;ハリコフ工場設計局;T3702;8;1930;2110;mechanics;artillery;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3703;RNII;T3703;5;1930;2110;rocketry;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3704;グラビン設計局;T3708;5;1930;2110;mechanics;artillery;technical_efficiency;chemistry;general_equipment;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3705;イリューシン設計局;T3709;6;1930;2110;aeronautics;electronics;technical_efficiency;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3706;キーロフ工場設計局;T3710;7;1930;2110;mechanics;artillery;technical_efficiency;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3707;ネフスコイエ設計局;T3711;4;1930;2110;naval_engineering;technical_efficiency;naval_artillery;general_equipment;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3708;ニジニ・タギル工場;T3712;6;1930;2110;mechanics;chemistry;technical_efficiency;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3709;STZ工場設計局;T3713;5;1930;2110;mechanics;general_equipment;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3710;ツポレフ設計局;T3714;5;1930;2110;aeronautics;electronics;chemistry;rocketry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3711;ヤコヴレフ設計事務所;T3718;8;1930;2110;aeronautics;technical_efficiency;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3712;ソビエト航空宇宙開発局;T3720;8;1930;2110;rocketry;aeronautics;electronics;chemistry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3713;ミコヤム・グルビッチ設計局;T_sov_mikoyan-gurevichdb;8;1930;2110;mechanics;artillery;electronics;aeronautics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3714;ミハエル・カラシニコフ;karasi;7;1930;2110;artillery;mechanics;training;general_equipment;electronics;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3715;スフォーニ設計局;asuho;8;1930;2110;mechanics;technical_efficiency;artillery;electronics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3716;ソビエト科学アカデミー;akademi;8;1930;2110;industrial_engineering;electronics;chemistry;mathematics;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3717;ソビエト海洋工学中央設計局;T_SOV_RubinCentralDB;6;1930;2110;electronics;naval_artillery;naval_engineering;nuclear_engineering;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3718;カルトセフ・ヴェネジクトフ設計局;T_SOV_Kartsev-VenediktoDB;8;1930;2110;artillery;electronics;management;chemistry;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3719;ソビエト海軍;T3715;7;1930;2110;large_taskforce_tactics;naval_artillery;small_taskforce_tactics;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3720;ソビエト地上軍;T3721;8;1930;2110;centralized_execution;combined_arms_focus;large_unit_tactics;training;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3721;ソビエト宇宙軍;T3717;7;1930;2110;aircraft_testing;bomber_tactics;combined_arms_focus;decentralized_execution;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3722;精密機械コンピュータ工学研究所;T_SOV_IPMCE;7;1930;2110;electronics;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3723;イリューシン設計局;T3709;6;1930;2110;aeronautics;chemistry;electronics;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3724;イジェフスク造兵廠;T_SOV_IzhevskOrdnancePlant;7;1930;2110;artillery;general_equipment;mechanics;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3725;シベリア鉄道;T_SOV_TransSiberianRailroad;6;1930;2110;industrial_engineering;management;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

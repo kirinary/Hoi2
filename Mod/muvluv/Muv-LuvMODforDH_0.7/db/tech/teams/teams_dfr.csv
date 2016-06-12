@@ -1,0 +1,28 @@
+DFR;Name;Pic Name;Skill;Start Year;End Year;Speciality1;Speciality2;Speciality3;Speciality4;Speciality5;Speciality6;Speciality7;Speciality8;Speciality9;Speciality10;Speciality11;Speciality12;Speciality13;Speciality14;Speciality15;Speciality16;Speciality17;Speciality18;Speciality19;Speciality20;Speciality21;Speciality22;Speciality23;Speciality24;Speciality25;Speciality26;Speciality27;Speciality28;Speciality29;Speciality30;Speciality31;Speciality32;x
+1;連邦軍指揮幕僚大学校;AkBw;8;1000;2999;combined_arms_focus;infantry_focus;individual_courage;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+2;クラウス･マッファイ;T6220;9;1000;2999;mechanics;artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+3;ラインメタル;T6244;9;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+4;ポルシェ;T6203;7;1000;2999;mechanics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+5;ヘレンケラー＆コッホ;T6221;9;1000;2999;general_equipment;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+6;EADSドイツ;T6224;7;1000;2999;aeronautics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+7;ユーロコプターグループ;Eurocopter;7;1000;2999;technical_efficiency;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+8;シーメンス;T6210;9;1000;2999;industrial_engineering;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+9;ボッシュ;T6218;7;1000;2999;industrial_engineering;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+10;ユーリヒ統合研究機構;Julichrc;8;1000;2999;electronics;rocketry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+11;EADSエレクトロニクス;eadselectronics;8;1000;2999;chemistry;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+12;BND;BNDger;8;1000;2999;mathematics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+13;LFK;lfkger;7;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+14;DIEHL;T6242;7;1000;2999;management;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+15;マックス･プランク研究所;T6211;8;1000;2999;nuclear_engineering;nuclear_physics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+16;ドイツ連邦陸軍;T6229;8;1000;2999;training;large_unit_tactics;small_unit_tactics;large_unit_focus;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+17;参謀本部;ger command staff;8;1000;2999;training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+18;統合支援軍;Joint Support Service;8;1000;2999;centralized_execution;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+19;ドイツ連邦空軍;T6232;8;1000;2999;fighter_tactics;bomber_tactics;piloting;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+20;ブローム･ウント･フォス;T6235;7;1000;2999;small_taskforce_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+21;ブレーメン造船所;T6236;7;1000;2999;small_taskforce_tactics;naval_artillery;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+22;ノルトゼーヴェルケ;Nordsee;6;1000;2999;small_taskforce_tactics;naval_artillery;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+23;ホヴァルツヴェルケ＝ドイツ造船;T6239;7;1000;2999;small_taskforce_tactics;naval_artillery;submarine_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+24;ドイツ連邦海軍;T6231;7;1000;2999;large_taskforce_tactics;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+25;海軍航空隊;gernavair;5;1000;2999;aircraft_testing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+26;潜水艦訓練センター;gersubmarine;9;1000;2999;seamanship;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+27;海軍補給司令部;gernavlog;7;1000;2999;naval_training;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x

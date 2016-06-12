@@ -1,0 +1,396 @@
+##############################################################
+##
+## â¢èBëÂêÌÉCÉxÉìÉg_AI(23501~23600)
+##
+##############################################################
+##
+## id = 23001   U12
+## id = 23002	U16
+## id = 23003	U19
+## id = 23004	ENG
+## id = 23005	DDR
+## id = 23006   DFR
+## id = 23007	FRA
+## id = 23008	ITA
+## id = 23009   USA
+## id = 23010   U06
+## id = 23011   êºë§îƒóp
+## id = 23012   ìåë§îƒóp
+## id = 23013   AIÉÜÉjÉbÉgîƒóp
+## id = 23014   âpñ{ìyè„ó§AIóp
+##
+##############################################################
+
+event = {
+	id = 23001
+	random = no 
+	country = U12
+	trigger = {
+                ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+		command = { type = ai which = european_U12.ai }
+	}
+}
+event = {
+	id = 23002
+	random = no 
+	country = U16
+	trigger = {
+                ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+		command = { type = ai which = european_U12.ai }
+	}
+}
+
+event = {
+	id = 23003
+	random = no 
+	country = U19
+	trigger = {
+                ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+		command = { type = ai which = european_U12.ai }
+	}
+}
+
+event = {
+	id = 23004
+	random = no 
+	country = ENG
+	trigger = {
+                ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+		command = { type = ai which = ENG_1973.ai }
+	}
+}
+
+event = {
+	id = 23009
+	random = no 
+	country = USA
+	trigger = {
+                ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+		command = { type = ai which = USA_1973.ai }
+	}
+}
+
+event = {
+	id = 23010
+	random = no 
+	country = U06
+	trigger = {
+                ai = yes
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+		command = { type = ai which = U06_1973.ai }
+	}
+}
+
+
+event = {
+	id = 23011
+	random = no
+        tag = { USA ENG FRA DFR ITA SPA HOL DEN NOR BEL POR LUX TUR GRE SWE }
+	trigger = {
+                  #ai = yes
+                  not = { local_flag = capitalist }
+       }
+       persistent = yes
+
+	name = "ëcçëñhâqêÌëà"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1980 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = local_setflag which = capitalist }
+                command = { type = morale which = land value = 30 }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+ }
+}
+
+
+event = {
+	id = 23012
+	random = no
+        tag = { DDR BUL HUN ROM CZE YUG }
+	trigger = {
+                  #ai = yes
+                  not = { local_flag = communist }
+       }
+       persistent = yes
+
+	name = "ëcçëñhâqêÌëà"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1980 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = local_setflag which = communist }
+                command = { type = morale which = land value = 30 }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+ }
+}
+
+
+event = {
+	id = 23013
+	random = no
+        tag = { USA ENG FRA DFR ITA SPA HOL DEN NOR BEL POR LUX TUR GRE DDR BUL HUN ROM CZE YUG SWE }
+	trigger = {
+                  ai = yes
+                  lost_national = { value = 10 }
+                  not = { local_flag = Mobilization }
+       }
+       persistent = yes
+
+	name = "ãŸã}ìÆàı"
+	desc = "AI_EVENT"
+	style = 0
+
+	date = { day = 0 month = 0 year = 1980 }
+	offset = 1
+	deathdate = { hour = 0 day = 29 month = 11 year = 2100 }
+	
+        action_a = {
+		name = "ok"
+		command = { type = local_setflag which = Mobilization }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+ }
+}
+
+event = {
+	id = 23014
+	random = no 
+        tag = { ENG U02 }
+	trigger = {
+                ai = yes
+                event = 23504
+	}
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+	style = 0	
+	
+	date = { day = 0 month = january year = 1980 }
+	offset = 1
+	deathdate = { day = 0 month = 3 year = 1998 }
+
+	action_a = {
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_division value = flying_bomb when = 26 }
+                command = { type = add_corps value = land where = 19 }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = hq when = 2 }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = paratrooper when = 5 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+		command = { type = add_division value = armor when = 2 where = artillery }
+	}
+}

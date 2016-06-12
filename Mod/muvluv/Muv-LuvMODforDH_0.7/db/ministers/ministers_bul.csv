@@ -1,0 +1,45 @@
+BUL;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+19001;Head of State;トドル・ジフコフ;70;ST;Stern Imperialist;High;M19001;x
+19002;Head of Government;スタンコ・トドロフ;70;ST;Ambitious Union Boss;High;M19002;x
+19003;Foreign Minister;ペトゥル・ムラデノフ;70;ST;Ideological Crusader;High;M19003;x
+19004;Minister of Armament;ディミタール・ポポフ;70;ST;laissez-faire capitalist;High;M19004;x
+19005;Minister of Security;アンゲル・ツァネフ;70;ST;Crime Fighter;High;M19005;x
+19006;Head of Military Intelligence;ヴァシル・ジクロフ;70;ST;Logistics Specialist;High;M19006;x
+19007;Chief of Staff;ドブリ・ジュロフ;70;ST;School of Mass Combat;High;M19007;x
+19008;Chief of Army;アタナス・セメルジエフ;70;ST;Decisive Battle Doctrine;High;M19008;x
+19009;Chief of Navy;ヴァシル・ヤナキエフ;70;ST;Open Seas Doctrine;High;M19009;x
+19010;Chief of Air Force;フリスト・ドブレル;70;ST;Air Superiority Doctrine;High;M19010;x
+19011;Head of State;ペトゥル・ムラデノフ;89;ST;Benevolent Gentleman;High;M19003;x
+19012;Head of State;ペトゥル・ムラデノフ;90;SD;Benevolent Gentleman;High;M19003;x
+19013;Head of State;スタンコ・トドロフ;90;SD;Acting Head;High;M19002;x
+19014;Head of State;ニコライ・トドロフ;90;SD;Acting Head;High;M19014;x
+19015;Head of State;ジェリュ・ジェレフ;90;SC;Popular Gentleman;High;M19015;x
+19016;Head of State;ペトゥル・ストヤノフ;96;SC;Popular Figurehead;High;M19016;x
+19017;Head of State;ゲオルギ・パルヴァノフ;2001;SD;Die-hard Reformer;High;M19017;x
+19018;Head of State;ロセン・プレヴネリエフ;2011;SC;Benevolent Gentleman;High;M19018;x
+19019;Head of State;ヴェルコ・ヴァルカノフ;92;SD;Weary Stiffneck;High;M19019;x
+19020;Head of State;イヴァン・マラゾフ;96;SD;Artist;High;M19020;x
+19021;Head of State;ヴォレン・シデロフ;2005;FA;Powerhungry Demagogue;High;M19021;x
+19022;Head of State;イヴァイロ・カルフィン;2011;SD;Pig-headed Isolationist;High;M19022;x
+19023;Head of State;シメオン2世;70;PA;Benevolent Gentleman;High;M19023;x
+19024;Head of Government;グリーシャ・フィリポフ;81;ST;Industrial Prime;High;M19024;x
+19025;Head of Government;ゲオルギ・アタナソフ;86;ST;Naive Optimist;High;M19025;x
+19026;Head of Government;アンドレイ・ルカホフ;90;ST;Silent Workhorse;High;M19026;x
+19027;Head of Government;アンドレイ・ルカホフ;90;SD;Silent Workhorse;High;M19026;x
+19028;Head of Government;ディミトル・ポポフ;90;SC;Silent Workhorse;High;M19028;x
+19029;Head of Government;フィリプ・ディミトロフ;91;SC;Ambitious Union Boss;High;M19029;x
+19030;Head of Government;リュベン・ベロフ;92;SC;Industrial Prime;High;M19030;x
+19031;Head of Government;レナタ・インジョヴァ;94;SC;Industrial Prime;High;M19031;x
+19032;Head of Government;ジャン・ヴィデノフ;94;SD;Diplomatic Person;High;M19032;x
+19033;Head of Government;ステファン・ソフィヤンスキ;97;SC;Happy Amateur;High;M19033;x
+19034;Head of Government;イヴァン・コストフ;97;SC;Naive Optimist;High;M19034;x
+19035;Head of Government;シメオン・サクスコブルクゴツキ;2001;ML;Industrial Prime;High;M19023;x
+19036;Head of Government;セルゲイ・スタニシェフ;2005;SD;Diplomatic Person;High;M19036;x
+19037;Head of Government;ボイコ・ボリソフ;2009;SC;Naive Optimist;High;M19037;x
+19038;Head of Government;マリン・ライコフ;2013;SC;Diplomatic Person;High;M19038;x
+19039;Head of Government;プラメン・オレシャルスキ;2013;SD;Industrial Prime;High;M19039;x
+19040;Head of Government;ジェリュ・ジェレフ;90;SC;Silent Workhorse;High;M19015;x
+19041;Head of Government;アレクサンドル・リロフ;90;SD;Naive Optimist;High;M19041;x
+19042;Head of Government;ゲオルギ・パルヴァノフ;97;SD;Scientist Prime;High;M19017;x
+19043;Head of Government;ヴォレン・シデロフ;2005;FA;Flamboyant Tough Guy;High;M19043;x

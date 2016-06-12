@@ -1,0 +1,78 @@
+MON;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+94001;Head of State;ソノミン・ルフサン;70;LE;Popular Figurehead;High;M94001;x
+94002;Head of Government;ユムジャーギィン・ツェデンバル;70;LE;Flamboyant Tough Guy;High;M94002;x
+94003;Foreign Minister;マンガリン・ドゥゲルスレン;70;LE;Great Compromiser;High;M94002;x
+94004;Minister of Armament;ドゥマーギーン・ソドノム;70;LE;Resource Industrialist;High;M94004;x
+94005;Minister of Security;シャラビン・ゴンガードルジ;70;LE;Man of the People;High;M94005;x
+94006;Head of Military Intelligence;ユムジャーギィン・ツェデンバル;70;LE;Political Specialist;High;M94006;x
+94007;Chief of Staff;ブトチン・ツォグ;70;LE;School of Manoeuvre;High;M94007;x
+94008;Chief of Army;ブトチン・ツォグ;70;LE;Armoured Spearhead Doctrine;High;M94007;x
+94009;Chief of Navy;ブトチン・ツォグ;70;LE;Base Control Doctrine;High;M94009;x
+94010;Chief of Air Force;ジェクテルデミット・グラグチャ;70;LE;Air Superiority Doctrine;High;M94010;x
+94011;Head of State;ユムジャーギィン・ツェデンバル;74;LE;Resigned Generalissimo;High;M94002;x
+94012;Head of State;ニャミン・ジャグバラル;84;LE;Acting Head;High;M94012;x
+94013;Head of State;ジャムビィン・バトムンフ;84;LE;Autocratic Charmer;High;M94013;x
+94014;Head of State;ポンサルマーギーン・オチルバト;90;SD;Benevolent Gentleman;High;M94014;x
+94015;Head of State;ポンサルマーギーン・オチルバト;93;ML;Benevolent Gentleman;High;M94014;x
+94016;Head of State;ナツァギーン・バガバンディ;97;SD;Die-hard Reformer;High;M94016;x
+94017;Head of State;ナンバリーン・エンフバヤル;99;SD;Benevolent Gentleman;High;M94017;x
+94018;Head of State;ツァヒアギーン・エルベグドルジ;99;ML;Die-hard Reformer;High;M94018;x
+94019;Head of State;ロドンギン・ツデフ;93;SD;Pig-headed Isolationist;High;M94019;x
+94020;Head of State;ラドナースンベレリン・ゴンチグドルジ;99;ML;Popular Figurehead;High;M94020;x
+94021;Head of State;メンダサイハン・エンフサイハン;99;ML;Popular Gentleman;High;M94021;x
+94022;Head of State;バドマーニャンブーギイン・バトエルデネ;99;SD;Weary Stiffneck;High;M94022;x
+94023;Head of Government;ジャムビィン・バトムンフ;74;LE;Flamboyant Tough Guy;High;M94013;x
+94024;Head of Government;ドゥマーギーン・ソドノム;84;LE;Silent Workhorse;High;M94004;x
+94025;Head of Government;シャラビン・ゴンガードルジ;90;SD;Naive Optimist;High;M94005;x
+94026;Head of Government;ダジン・ビャンバスレン;90;SD;Silent Workhorse;High;M94026;x
+94027;Head of Government;ポンツァギーン・ジャスライ;92;SD;Industrial Prime;High;M94027;x
+94028;Head of Government;メンダサイハン・エンフサイハン;96;ML;Ambitious Union Boss;High;M94021;x
+94029;Head of Government;ツァヒアギーン・エルベグドルジ;98;ML;Flamboyant Tough Guy;High;M94018;x
+94030;Head of Government;ジャンラブ・ナランツァツラルト;98;ML;Scientist Prime;High;M94030;x
+94031;Head of Government;ニャムオソリン・トゥヤ;99;ML;Silent Workhorse;High;M94031;x
+94032;Head of Government;リンチンニャミン・アマルジャルガル;99;ML;Industrial Prime;High;M94032;x
+94033;Head of Government;ナンバリーン・エンフバヤル;99;SD;Naive Optimist;High;M94017;x
+94034;Head of Government;ミェーゴンボ・エンフボルド;99;SD;Silent Workhorse;High;M94034;x
+94035;Head of Government;サンジャーギーン・バヤル;99;SD;Silent Workhorse;High;M94035;x
+94036;Head of Government;スフバータル・バトボルド;99;SD;Industrial Prime;High;M94036;x
+94037;Head of Government;ノロブ・アルタンホヤグ;99;ML;Ambitious Union Boss;High;M94037;x
+94038;Foreign Minister;ツェレンピリン・ゴンボスレン;88;LE;Biased Intellectual;High;M94038;x
+94039;Foreign Minister;ツェレンピリン・ゴンボスレン;90;SD;Biased Intellectual;High;M94038;x
+94040;Foreign Minister;メンダサイハン・エンフサイハン;96;ML;Ideological Crusader;High;M94021;x
+94041;Foreign Minister;シュヘル・アルタンゲレル;97;ML;Great Compromiser;High;M94041;x
+94042;Foreign Minister;リンチンニャミン・アマルジャルガル;98;ML;Apologetic Clerk;High;M94032;x
+94043;Foreign Minister;ニャムオソリン・トゥヤ;98;ML;Great Compromiser;High;M94031;x
+94044;Foreign Minister;ルフサンギン・エルデネチュルン;99;SD;The Cloak N Dagger Schemer;High;M94044;x
+94045;Foreign Minister;ツェンディン・ムンフオルギル;99;ML;Great Compromiser;High;M94045;x
+94046;Foreign Minister;ニャマー・エンフボルド;99;SD;Iron Fisted Brute;High;M94046;x
+94047;Foreign Minister;サンジャースレンギーン・オユーン;99;SD;Great Compromiser;High;M94047;x
+94048;Foreign Minister;スフバータル・バトボルド;99;SD;Ideological Crusader;High;M94036;x
+94049;Foreign Minister;ゴンボジャブ・ザンダンシャタル;99;SD;Biased Intellectual;High;M94049;x
+94050;Foreign Minister;ルフサンバンダン・ボルド;99;ML;Ideological Crusader;High;M94050;x
+94051;Minister of Armament;ドゥマーギーン・ソドノム;90;SD;Resource Industrialist;High;M94004;x
+94052;Minister of Armament;ノロブ・アルタンホヤグ;96;ML;Theoretical Scientist;High;M94037;x
+94053;Minister of Armament;ハルジューギン・ナランフー;99;SD;laissez-faire capitalist;High;M94053;x
+94054;Minister of Armament;ポンツァギーン・ジャスライ;76;LE;Economist Minister;High;M94027;x
+94055;Minister of Armament;ポンツァギーン・ジャスライ;90;SD;Economist Minister;High;M94027;x
+94056;Minister of Armament;メンダサイハン・エンフサイハン;96;ML;Economist Minister;High;M94021;x
+94057;Minister of Security;ダンディニ・デンベレル;90;SD;Crime Fighter;High;M94057;x
+94058;Minister of Security;ナンバリーン・エンフバヤル;99;SD;Compassionate Gentleman;High;M94017;x
+94059;Minister of Security;エンドンギン・オトゴンバヤル;99;SD;Man of the People;High;M94059;x
+94060;Minister of Security;メンダサイハン・エンフサイハン;96;ML;Compassionate Gentleman;High;M94021;x
+94061;Head of Military Intelligence;ダワーギーン・バトバヤル;99;ML;Dismal Enigma;High;M94061;x
+94062;Head of Military Intelligence;ポンツァギーン・ジャスライ;76;LE;Industrial Specialist;High;M94027;x
+94063;Head of Military Intelligence;ポンツァギーン・ジャスライ;90;SD;Industrial Specialist;High;M94027;x
+94064;Head of Military Intelligence;メンダサイハン・エンフサイハン;96;ML;Political Specialist;High;M94021;x
+94065;Head of Military Intelligence;スフバータル・バトボルド;99;SD;Industrial Specialist;High;M94036;x
+94066;Head of Government;サンジャースレンギーン・ゾリク;90;SD;Ambitious Union Boss;High;M94054;x
+94067;Chief of Staff;ツェベグスレン・トゴー;90;SL;School of Fire Support;High;M94067;x
+94068;Chief of Staff;ニャンバジャフ・ツェレンデジド;90;SL;School of Mass Combat;High;M94068;x
+94069;Chief of Staff;ビャンバスレン・バヤルマグナイ;90;SL;School of Defence;High;M94069;x
+94070;Chief of Army;ツェベグスレン・トゴー;90;SL;Decisive Battle Doctrine;High;M94067;x
+94071;Chief of Army;ニャンバジャフ・ツェレンデジド;90;SL;Guns and Butter Doctrine;High;M94068;x
+94072;Chief of Army;ビャンバスレン・バヤルマグナイ;90;SL;Elastic Defence Doctrine;High;M94069;x
+94073;Chief of Navy;ツェベグスレン・トゴー;90;SL;Decisive Naval Battle Doctrine;High;M94067;x
+94074;Chief of Navy;ニャンバジャフ・ツェレンデジド;90;SL;Base Control Doctrine;High;M94068;x
+94075;Chief of Navy;ビャンバスレン・バヤルマグナイ;90;SL;Open Seas Doctrine;High;M94069;x
+94076;Chief of Air Force;ジェクテルデミット・グラグチャ;90;SD;Air Superiority Doctrine;High;M94010;x

@@ -1,0 +1,12 @@
+ECU;Ruling Cabinet - Start;Name;Pool;Ideology;Personality;Loyalty;Picturename;x
+;Replacements;;;;;;;x
+40001;Head of State;ƒMƒŠƒFƒ‹ƒ‚EƒƒhƒŠƒQƒXEƒ‰ƒ‰;70;PA;Resigned Generalissimo;High;M40001;x
+40002;Head of Government;ƒMƒŠƒFƒ‹ƒ‚EƒƒhƒŠƒQƒXEƒ‰ƒ‰;70;PA;Old General;High;M40001;x
+40003;Foreign Minister;ƒAƒ“ƒgƒjƒIEƒzƒZEƒ‹ƒVƒIEƒpƒŒƒfƒX;70;PA;Biased Intellectual;High;M40003;x
+40004;Minister of Armament;à–±‘åb;70;PA;laissez-faire capitalist;High;M40004;x
+40005;Minister of Security;“à–±‘åb;70;PA;Crime Fighter;High;M40005;x
+40006;Head of Military Intelligence;‘‰ÆŒx@’¡’·Š¯;70;PA;Logistics Specialist;High;M40006;x
+40007;Chief of Staff;ŒRÅ‚i—ßŠ¯;70;PA;School of Defence;High;M40007;x
+40008;Chief of Army;—¤ŒRi—ßŠ¯;70;PA;Decisive Battle Doctrine;High;M40008;x
+40009;Chief of Navy;ŠCŒRi—ßŠ¯;70;PA;Open Seas Doctrine;High;M40009;x
+40010;Chief of Air Force;‹óŒRi—ßŠ¯;70;PA;Army Aviation Doctrine;High;M40010;x
