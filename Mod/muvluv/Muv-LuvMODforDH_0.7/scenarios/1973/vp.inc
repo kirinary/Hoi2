@@ -35,7 +35,7 @@ province = { id = 113 points = 1 } # イェヴレ
 province = { id = 120 points = 1 } # オーフス
 province = { id = 125 points = 5 } # トロムソ
 province = { id = 133 points = 5 } # ムルマンスク
-province = { id = 136 points = 5 } # カヤーニ
+province = { id = 130 points = 5 } # ロヴァニエミ
 province = { id = 138 points = 1 } # ヴァーサ
 province = { id = 141 points = 1 } # トゥルク
 province = { id = 142 points = 3 } # ヘルシンキ
@@ -378,7 +378,7 @@ province = { id = 1515 points = 1 } # マドゥライ
 province = { id = 1517 points = 1 } # コロンボ
 province = { id = 1522 points = 1 } # ヤクーツク
 province = { id = 1523 points = 1 } # 北樺太
-province = { id = 1525 points = 1 } # ブラゴヴェシチェンスク
+province = { id = 1525 points = 1 } # ブラゴエスチェンスク
 province = { id = 1537 points = 3 } # ビーゴ
 province = { id = 1543 points = 1 } # ノヴォシビルスク
 province = { id = 1551 points = 5 } # エキバストス

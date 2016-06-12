@@ -393,11 +393,11 @@ event = {
 	country = -1
 	trigger = {
                 alliance = { country = U12 }
-		control = { province = 136 data = -1 }
+		control = { province = 130 data = -1 }
 		random = 5
 		NOT = {
 			exists = U19
-		        control = { province = 136 data = -2 }
+		        control = { province = 130 data = -2 }
 		}
 	}
 
@@ -411,17 +411,17 @@ event = {
 	action_a = {
 		name = "大変結構！"
                 command = { type = independence which = U19 value = 1 when = 0 }
-		command = { type = construct which = infrastructure where = 136 value = 2 }
-		command = { type = construct which = ic where = 136 value = 10 }
-		command = { type = construct which = coastal_fort where = 136 value = 10 }
-		#command = { type = construct which = land_fort where = 136 value = 10 }
-		command = { type = construct which = flak where = 136 value = 10 }
-		command = { type = construct which = air_base where = 136 value = 10 }
-		command = { type = construct which = naval_base where = 136 value = 10 }
-		command = { type = construct which = radar_station where = 136 value = 10 }
-		#command = { type = construct which = nuclear_reactor where = 136 value = 10 }
-		command = { type = construct which = rocket_test where = 136 value = 10 }
-                command = { type = secedeprovince which = U19 value = 136 }
+		command = { type = construct which = infrastructure where = 130 value = 2 }
+		command = { type = construct which = ic where = 130 value = 10 }
+		command = { type = construct which = coastal_fort where = 130 value = 10 }
+		#command = { type = construct which = land_fort where = 130 value = 10 }
+		command = { type = construct which = flak where = 130 value = 10 }
+		command = { type = construct which = air_base where = 130 value = 10 }
+		command = { type = construct which = naval_base where = 130 value = 10 }
+		command = { type = construct which = radar_station where = 130 value = 10 }
+		#command = { type = construct which = nuclear_reactor where = 130 value = 10 }
+		command = { type = construct which = rocket_test where = 130 value = 10 }
+                command = { type = secedeprovince which = U19 value = 130 }
                 command = { type = alliance which = U19 }
                 command = { type = trigger which = 37076 }
 	}
@@ -5984,7 +5984,7 @@ event = {
 		name = "建築終了"
 		command = { type = setflag which = Rovaniemi_Hive }
 		command = { type = local_setflag which = Phase_1 }
-		command = { type = add_corps value = land where = 136 }
+		command = { type = add_corps value = land where = 130 }
 		command = { type = add_division which = "ロヴァニエミハイヴ" value = garrison when = 11 } # ハイヴユニット
 		command = { type = add_division which = 門級 value = garrison when = 33 } # 門級
 		command = { type = free_oil value = 500 }

@@ -581,8 +581,8 @@ country =
   landunit =
   { id       = { type = 23001 id = 5481 }
     name     = "â¢èBîhå≠åRéióﬂïî"
-    location = 130
-    home     = 130
+    location = 127
+    home     = 127
     #mission  = { type = none target = 130 missionscope = 0 percentage = 0.0000 night = yes day = yes }
     division =
     { id            = { type = 23001 id = 5483 }
@@ -659,8 +659,8 @@ country =
   landunit =
   { id       = { type = 23001 id = 5494 }
     name     = "ëÊ28åRíc"
-    location = 130
-    home     = 130
+    location = 127
+    home     = 127
     #mission  = { type = none target = 130 missionscope = 0 percentage = 0.0000 night = yes day = yes }
     division =
     { id            = { type = 23001 id = 5496 }

@@ -533,8 +533,8 @@ free                = { energy = 150 metal = 100 rare_materials = 100 oil = 100 
   landunit =
   { id       = { type = 27001 id = 6382 }
     name     = "‘æ11ŒR’c"
-    location = 130
-    home     = 130
+    location = 127
+    home     = 127
     #mission  = { type = none target = 130 missionscope = 0 percentage = 0.0000 night = yes day = yes }
     division =
     { id            = { type = 27001 id = 6384 }
@@ -597,8 +597,8 @@ free                = { energy = 150 metal = 100 rare_materials = 100 oil = 100 
   landunit =
   { id       = { type = 27001 id = 6392 }
     name     = "‘æ13ŒR’c"
-    location = 130
-    home     = 130
+    location = 127
+    home     = 127
     #mission  = { type = none target = 130 missionscope = 0 percentage = 0.0000 night = yes day = yes }
     division =
     { id            = { type = 27001 id = 6394 }

@@ -222,7 +222,7 @@ province =
 province =
 { id       = 1525
   air_base = { size = 8 current_size = 8 }
-}            # ブラゴヴェシチェンスク
+}            # ブラゴエスチェンスク
 province =
 { id       = 1527
   air_base = { size = 8 current_size = 8 }

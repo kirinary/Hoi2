@@ -692,7 +692,7 @@ event = {
 	trigger = {
                 flag = Blagoveshchensk_Hive
                 technology = 7010
-			control = { province  = 1528 data = -1 }
+			control = { province  = 1525 data = -1 }
 	}
 
 	name = "ブラゴエスチェンスクハイヴの陥落"
@@ -706,16 +706,16 @@ event = {
 		name = "大変結構！"
                 command = { type = dissent value = -10 }
                 command = { type = supplies value = 5000 }
-		command = { type = construct which = infrastructure where = 1528 value = -100 }
-		command = { type = construct which = ic where = 1528 value = -10 }
-		command = { type = construct which = coastal_fort where = 1528 value = -10 }
-		command = { type = construct which = land_fort where = 1528 value = -10 }
-		command = { type = construct which = flak where = 1528 value = -10 }
-		command = { type = construct which = air_base where = 1528 value = -10 }
-		command = { type = construct which = naval_base where = 1528 value = -10 }
-		command = { type = construct which = radar_station where = 1528 value = -10 }
-		#command = { type = construct which = nuclear_reactor where = 1528 value = -10 }
-		command = { type = construct which = rocket_test where = 1528 value = -10 }
+		command = { type = construct which = infrastructure where = 1525 value = -100 }
+		command = { type = construct which = ic where = 1525 value = -10 }
+		command = { type = construct which = coastal_fort where = 1525 value = -10 }
+		command = { type = construct which = land_fort where = 1525 value = -10 }
+		command = { type = construct which = flak where = 1525 value = -10 }
+		command = { type = construct which = air_base where = 1525 value = -10 }
+		command = { type = construct which = naval_base where = 1525 value = -10 }
+		command = { type = construct which = radar_station where = 1525 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1525 value = -10 }
+		command = { type = construct which = rocket_test where = 1525 value = -10 }
                 command = { type = clrflag which = Blagoveshchensk_Hive }
 	}
 }

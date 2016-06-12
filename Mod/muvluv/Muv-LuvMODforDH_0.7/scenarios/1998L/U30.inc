@@ -10,7 +10,7 @@ province =
   rocket_test     = 10
   infra           = 2.0
   anti_air        = 10
-}                   # ブラゴヴェシチェンスク
+}                   # ブラゴエスチェンスク
 
 #####################
 # Country main data #

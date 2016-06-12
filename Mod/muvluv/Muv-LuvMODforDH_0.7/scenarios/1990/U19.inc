@@ -3,7 +3,7 @@
 # Country definition for U19 #
 ##############################
 
-province = { id = 136 air_base = 10 radar_station = 10  rocket_test = 10 infra = 2.0  anti_air = 10 } # カヤーニ
+province = { id = 130 air_base = 10 radar_station = 10  rocket_test = 10 infra = 2.0  anti_air = 10 } # ロヴァニエミ
 
 #####################
 # Country main data #
@@ -18,7 +18,7 @@ country =
   oil                 = 900000
   supplies            = 900000
   money               = 900000
-  capital             = 136
+  capital             = 130
   transports          = 9999
   escorts             = 9999
   extra_tc            = 9999
@@ -31,9 +31,9 @@ country =
     defense_lobby     = 10
     interventionism   = 10
   }
-  nationalprovinces   = { 136 }
-  ownedprovinces      = { 136 }
-  controlledprovinces = { 136 137 138 139 140 141 142 143 144 145 146 147 148 149 }
+  nationalprovinces   = { 130 }
+  ownedprovinces      = { 130 }
+  controlledprovinces = { 130 136 137 138 139 140 141 142 143 144 145 146 147 148 149 }
   techapps            = { 7020 }
   free                = { energy = 1000 manpower = 9 metal = 1000 rare_materials = 1000 oil = 1000 money = 1000 ic = 300 supplies = 1000 }
   landunit =
@@ -381,7 +381,7 @@ country =
   landunit =
   { id       = { type = 15351 id = 5207 }
     name     = "第7軍団"
-    location = 136
+    location = 130
     division =
     { id            = { type = 15351 id = 5209 }
       name          = "第4BETA群"
@@ -481,7 +481,7 @@ country =
   landunit =
   { id       = { type = 15351 id = 1 }
     name     = "ロヴァニエミハイヴ"
-    location = 136
+    location = 130
     division =
     { type   = garrison
       model  = 12
