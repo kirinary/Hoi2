@@ -341,16 +341,16 @@ event = {
 
 	action_a = {
 		name = "AI_EVENT"
-		command = { type = construct which = infrastructure where = 136 value = 200 }
-		command = { type = construct which = ic where = 136 value = 10 }
-		command = { type = construct which = coastal_fort where = 136 value = 10 }
-		command = { type = construct which = land_fort where = 136 value = 10 }
-		command = { type = construct which = flak where = 136 value = 10 }
-		command = { type = construct which = air_base where = 136 value = 10 }
-		command = { type = construct which = naval_base where = 136 value = 10 }
-		command = { type = construct which = radar_station where = 136 value = 10 }
-		command = { type = construct which = nuclear_reactor where = 136 value = 10 }
-		command = { type = construct which = rocket_test where = 136 value = 10 }
+		command = { type = construct which = infrastructure where = 130 value = 200 }
+		command = { type = construct which = ic where = 130 value = 10 }
+		command = { type = construct which = coastal_fort where = 130 value = 10 }
+		command = { type = construct which = land_fort where = 130 value = 10 }
+		command = { type = construct which = flak where = 130 value = 10 }
+		command = { type = construct which = air_base where = 130 value = 10 }
+		command = { type = construct which = naval_base where = 130 value = 10 }
+		command = { type = construct which = radar_station where = 130 value = 10 }
+		command = { type = construct which = nuclear_reactor where = 130 value = 10 }
+		command = { type = construct which = rocket_test where = 130 value = 10 }
 	}
 }
 
@@ -651,15 +651,15 @@ event = {
 
 	action_a = {
 		name = "AI_EVENT"
-		command = { type = construct which = infrastructure where = 1528 value = 200 }
-		command = { type = construct which = ic where = 1528 value = 10 }
-		command = { type = construct which = coastal_fort where = 1528 value = 10 }
-		command = { type = construct which = land_fort where = 1528 value = 10 }
-		command = { type = construct which = flak where = 1528 value = 10 }
-		command = { type = construct which = air_base where = 1528 value = 10 }
-		command = { type = construct which = naval_base where = 1528 value = 10 }
-		command = { type = construct which = radar_station where = 1528 value = 10 }
-		command = { type = construct which = nuclear_reactor where = 1528 value = 10 }
-		command = { type = construct which = rocket_test where = 1528 value = 10 }
+		command = { type = construct which = infrastructure where = 1525 value = 200 }
+		command = { type = construct which = ic where = 1525 value = 10 }
+		command = { type = construct which = coastal_fort where = 1525 value = 10 }
+		command = { type = construct which = land_fort where = 1525 value = 10 }
+		command = { type = construct which = flak where = 1525 value = 10 }
+		command = { type = construct which = air_base where = 1525 value = 10 }
+		command = { type = construct which = naval_base where = 1525 value = 10 }
+		command = { type = construct which = radar_station where = 1525 value = 10 }
+		command = { type = construct which = nuclear_reactor where = 1525 value = 10 }
+		command = { type = construct which = rocket_test where = 1525 value = 10 }
 	}
 }
