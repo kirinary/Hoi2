@@ -1,24 +1,24 @@
 
 ##############################
-# Country definition for U26 #
+# Country definition for U36 #
 ##############################
 
 province =
-{ id              = 1562
+{ id              = 2651
   air_base        = 10
   radar_station   = 10
   
   rocket_test     = 10
   infra           = 2.0
   anti_air        = 10
-}                   # クラスノヤルスク
+}                   # エヴェンスク
 
 #####################
 # Country main data #
 #####################
 
 country =
-{ tag                 = U26
+{ tag                 = U36
   manpower            = 50
   energy              = 100
   metal               = 50
@@ -26,7 +26,7 @@ country =
   oil                 = 50
   supplies            = 200
   money               = 100
-  capital             = 1562
+  capital             = 2651
   transports          = 9999
   escorts             = 9999
   extra_tc            = 9999
@@ -39,20 +39,20 @@ country =
     defense_lobby     = 10
     interventionism   = 10
   }
-  ownedprovinces      = { 1562 }
-  controlledprovinces = { 1560 1562 1417 1418 1535 1538 1547 1561 1384 1412 1413 1414 1415 1416 1520 2660 }
-  nationalprovinces   = { 1562 }
+  ownedprovinces      = { 2651 }
+  controlledprovinces = { 1167 2647 2649 2650 2651 2652 2653 2654  }
+  nationalprovinces   = { 2651 }
   techapps            = { 7020 }
   free                = { energy = 1000 manpower = 9 metal = 1000 rare_materials = 1000 oil = 1000 money = 1000 ic = 300 supplies = 1000 }
   landunit =
   { id       = { type = 16051 id = 1 }
-    name     = "クラスノヤルスクハイヴ"
-    location = 1562
+    name     = "エヴェンスクハイヴ"
+    location = 2651
     division =
     { type   = garrison
       model  = 14
       id     = { type = 16054 id = 2 }
-      name   = "クラスノヤルスクハイヴ"
+      name   = "エヴェンスクハイヴ"
       locked = yes
     }
     division =

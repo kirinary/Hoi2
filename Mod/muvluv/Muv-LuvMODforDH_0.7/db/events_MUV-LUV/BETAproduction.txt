@@ -6,7 +6,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -50,7 +50,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -94,7 +94,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -138,7 +138,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -182,7 +182,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -226,7 +226,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -270,7 +270,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -490,7 +490,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 50
+                       army = 80
                        }
 		ai = yes
                 #technology = 7020
@@ -534,7 +534,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 50
+                       army = 80
                        }
 		ai = yes
                 #technology = 7020
@@ -666,7 +666,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -710,7 +710,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 200
+                       army = 250
                        }
 		ai = yes
                 #technology = 7020
@@ -754,7 +754,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
                 #technology = 7020
@@ -841,16 +841,16 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 20
+                       army = 100
                        }
 		ai = yes
 	}
 	name = "AI_EVENT"
 	style = 0	
 	
-	#date = { day = 1 month = january year = 1936 }
+	date = { day = 1 month = january year = 1936 }
 	offset = 5
-	#deathdate = { day = 29 month = december year = 2100 }
+	deathdate = { day = 29 month = december year = 2100 }
 
 	action_a = {		
                 command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
@@ -885,16 +885,16 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 20
+                       army = 100
                        }
 		ai = yes
 	}
 	name = "AI_EVENT"
 	style = 0	
 	
-	#date = { day = 1 month = january year = 1936 }
+	date = { day = 1 month = january year = 1936 }
 	offset = 5
-	#deathdate = { day = 29 month = december year = 2100 }
+	deathdate = { day = 29 month = december year = 2100 }
 
 	action_a = {		
                 command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
@@ -924,20 +924,21 @@ event = {
 	id = 61022
 	
 	country = U36
-        random = 11
+        random = 26
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 20
+                       army = 350
                        }
 		ai = yes
+                #technology = 7020
 	}
 	name = "AI_EVENT"
 	style = 0	
 	
-	#date = { day = 1 month = january year = 1936 }
+	date = { day = 1 month = january year = 1936 }
 	offset = 5
-	#deathdate = { day = 29 month = december year = 2100 }
+	deathdate = { day = 29 month = december year = 2100 }
 
 	action_a = {		
                 command = { type = add_division value = hq when = 33 where = super_heavy_armor } 
@@ -1057,7 +1058,7 @@ event = {
         persistent = yes
 	trigger = {
                 NOT = {
-                       army = 60
+                       army = 100
                        }
 		ai = yes
 	}

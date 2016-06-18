@@ -243,9 +243,9 @@ U25 = { # BETA |“ÖàŠ|
 U26 = { # BETA |ƒNƒ‰ƒXƒmƒ„ƒ‹ƒXƒN|
 	date = { day = 1 month = january year = 1934 }
 	expirydate = { day = 30 month = december year = 2100 }
-	minimum = { 1560 }
-	extra = { 1417 1418 1535 1538 1547 1561 1562 1384 1412 1413 1414 1415 1416 1520 2660 }				  
-	capital = 1560
+	minimum = { 1562 }
+	extra = { 1417 1418 1535 1538 1547 1560 1561 1384 1412 1413 1414 1415 1416 1520 2660 }				  
+	capital = 1562
 }
 
 U27 = { # BETA |dŒc|
@@ -322,23 +322,23 @@ U33 = { # BETA |‰¡•l|
 U34 = { # BETA |ƒIƒŠƒ‡ƒNƒ~ƒ“ƒXƒN|
 	date = { day = 1 month = january year = 1934 }
 	expirydate = { day = 30 month = december year = 2100 }
-	minimum = {  }
+	minimum = { 2660 }
 	extra = {  }				  
 	capital = 2660
 }
 
-U35 = { # BETA |ƒ”ƒFƒ‹ƒzƒ“ƒ„ƒ“ƒXƒN|
+U35 = { # BETA |ƒ”ƒFƒ‹ƒzƒ„ƒ“ƒXƒN |
 	date = { day = 1 month = january year = 1934 }
 	expirydate = { day = 30 month = december year = 2100 }
-	minimum = {  }
+	minimum = { 1524 }
 	extra = {  }				  
-	capital = 2659
+	capital = 1524
 }
 
 U36 = { # BETA |ƒGƒ”ƒFƒ“ƒXƒN|
 	date = { day = 1 month = january year = 1934 }
 	expirydate = { day = 30 month = december year = 2100 }
-	minimum = {  }
+	minimum = { 2651 }
 	extra = {  }				  
 	capital = 2651
 }

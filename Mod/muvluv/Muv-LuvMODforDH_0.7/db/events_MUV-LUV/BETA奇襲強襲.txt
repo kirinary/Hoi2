@@ -573,7 +573,7 @@ event = {
 	random = no
         country = U26
 	trigger = {
-                    land_combat = 1560
+                    land_combat = 1562
        }
 
 	name = "コード991"
@@ -586,7 +586,7 @@ event = {
 	
         action_a = {
 		name = "了解"
-		command = { type = add_corps value = land where = 1560 }
+		command = { type = add_corps value = land where = 1562 }
 		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
 		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
 		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }
@@ -943,7 +943,7 @@ event = {
 	random = no
         country = U35
 	trigger = {
-                    land_combat = 2659
+                    land_combat = 1524
        }
 
 	name = "コード991"
@@ -956,7 +956,7 @@ event = {
 	
         action_a = {
 		name = "了解"
-		command = { type = add_corps value = land where = 2659 }
+		command = { type = add_corps value = land where = 1524 }
 		command = { type = add_division value = hq when = 33 where = super_heavy_armor } # 要塞級
 		command = { type = add_division value = infantry when = 33 where = super_heavy_armor } # 要撃級
 		command = { type = add_division value = infantry when = 33 where = light_armor_brigade }

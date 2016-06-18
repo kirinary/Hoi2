@@ -548,7 +548,7 @@ event = {
 	trigger = {
                 flag = Krasnoyarsk_Hive
                   technology = 7010
-			control = { province  = 1560 data = -1 }
+			control = { province  = 1562 data = -1 }
 	}
 
 	name = "クラスノヤルスクハイヴの陥落"
@@ -562,16 +562,16 @@ event = {
 		name = "大変結構！"
                 command = { type = dissent value = -10 }
                 command = { type = supplies value = 5000 }
-		command = { type = construct which = infrastructure where = 1560 value = -100 }
-		command = { type = construct which = ic where = 1560 value = -10 }
-		command = { type = construct which = coastal_fort where = 1560 value = -10 }
-		command = { type = construct which = land_fort where = 1560 value = -10 }
-		command = { type = construct which = flak where = 1560 value = -10 }
-		command = { type = construct which = air_base where = 1560 value = -10 }
-		command = { type = construct which = naval_base where = 1560 value = -10 }
-		command = { type = construct which = radar_station where = 1560 value = -10 }
-		#command = { type = construct which = nuclear_reactor where = 1560 value = -10 }
-		command = { type = construct which = rocket_test where = 1560 value = -10 }
+		command = { type = construct which = infrastructure where = 1562 value = -100 }
+		command = { type = construct which = ic where = 1562 value = -10 }
+		command = { type = construct which = coastal_fort where = 1562 value = -10 }
+		command = { type = construct which = land_fort where = 1562 value = -10 }
+		command = { type = construct which = flak where = 1562 value = -10 }
+		command = { type = construct which = air_base where = 1562 value = -10 }
+		command = { type = construct which = naval_base where = 1562 value = -10 }
+		command = { type = construct which = radar_station where = 1562 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1562 value = -10 }
+		command = { type = construct which = rocket_test where = 1562 value = -10 }
                 command = { type = clrflag which = Krasnoyarsk_Hive }
 	}
 }
@@ -896,7 +896,7 @@ event = {
 	trigger = {
                 flag = Verkhoyansk_Hive
                 technology = 7010
-			control = { province  = 2659 data = -1 }
+			control = { province  = 1524 data = -1 }
 	}
 
 	name = "ヴェルホヤンスクハイヴの陥落"
@@ -910,16 +910,16 @@ event = {
 		name = "大変結構！"
                 command = { type = dissent value = -10 }
                 command = { type = supplies value = 5000 }
-		command = { type = construct which = infrastructure where = 2659 value = -100 }
-		command = { type = construct which = ic where = 2659 value = -10 }
-		command = { type = construct which = coastal_fort where = 2659 value = -10 }
-		command = { type = construct which = land_fort where = 2659 value = -10 }
-		command = { type = construct which = flak where = 2659 value = -10 }
-		command = { type = construct which = air_base where = 2659 value = -10 }
-		command = { type = construct which = naval_base where = 2659 value = -10 }
-		command = { type = construct which = radar_station where = 2659 value = -10 }
-		#command = { type = construct which = nuclear_reactor where = 2659 value = -10 }
-		command = { type = construct which = rocket_test where = 2659 value = -10 }
+		command = { type = construct which = infrastructure where = 1524 value = -100 }
+		command = { type = construct which = ic where = 1524 value = -10 }
+		command = { type = construct which = coastal_fort where = 1524 value = -10 }
+		command = { type = construct which = land_fort where = 1524 value = -10 }
+		command = { type = construct which = flak where = 1524 value = -10 }
+		command = { type = construct which = air_base where = 1524 value = -10 }
+		command = { type = construct which = naval_base where = 1524 value = -10 }
+		command = { type = construct which = radar_station where = 1524 value = -10 }
+		#command = { type = construct which = nuclear_reactor where = 1524 value = -10 }
+		command = { type = construct which = rocket_test where = 1524 value = -10 }
                 command = { type = clrflag which = Verkhoyansk_Hive }
 	}
 }

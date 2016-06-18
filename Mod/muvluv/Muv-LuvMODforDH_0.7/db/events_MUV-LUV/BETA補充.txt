@@ -27,7 +27,7 @@
 ## id = 1421	ハイヴ_回復(佐渡島)
 ## id = 1422	ハイヴ_回復(横浜)
 ## id = 1423	ハイヴ_回復(オリョクミンスク)
-## id = 1424	ハイヴ_回復(ヴェルオヤンスク)
+## id = 1424	ハイヴ_回復(ヴェルホヤンスク)
 ## id = 1425	ハイヴ_回復(エヴェンスク)
 ## 欧州
 ## id = 1426	ハイヴ_回復(ロンドン)
@@ -527,16 +527,16 @@ event = {
 
 	action_a = {
 		name = "AI_EVENT"
-		command = { type = construct which = infrastructure where = 1560 value = 200 }
-		command = { type = construct which = ic where = 1560 value = 10 }
-		command = { type = construct which = coastal_fort where = 1560 value = 10 }
-		command = { type = construct which = land_fort where = 1560 value = 10 }
-		command = { type = construct which = flak where = 1560 value = 10 }
-		command = { type = construct which = air_base where = 1560 value = 10 }
-		command = { type = construct which = naval_base where = 1560 value = 10 }
-		command = { type = construct which = radar_station where = 1560 value = 10 }
-		command = { type = construct which = nuclear_reactor where = 1560 value = 10 }
-		command = { type = construct which = rocket_test where = 1560 value = 10 }
+		command = { type = construct which = infrastructure where = 1562 value = 200 }
+		command = { type = construct which = ic where = 1562 value = 10 }
+		command = { type = construct which = coastal_fort where = 1562 value = 10 }
+		command = { type = construct which = land_fort where = 1562 value = 10 }
+		command = { type = construct which = flak where = 1562 value = 10 }
+		command = { type = construct which = air_base where = 1562 value = 10 }
+		command = { type = construct which = naval_base where = 1562 value = 10 }
+		command = { type = construct which = radar_station where = 1562 value = 10 }
+		command = { type = construct which = nuclear_reactor where = 1562 value = 10 }
+		command = { type = construct which = rocket_test where = 1562 value = 10 }
 	}
 }
 
@@ -661,5 +661,98 @@ event = {
 		command = { type = construct which = radar_station where = 1525 value = 10 }
 		command = { type = construct which = nuclear_reactor where = 1525 value = 10 }
 		command = { type = construct which = rocket_test where = 1525 value = 10 }
+	}
+}
+
+event = {
+	id = 1423
+	random = no
+	country = U34
+	trigger = {
+			ai = yes
+			technology = 7020
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 1 month = 0 year = 1973 }
+	offset = 30
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+	action_a = {
+		name = "AI_EVENT"
+		command = { type = construct which = infrastructure where = 2660 value = 200 }
+		command = { type = construct which = ic where = 2660 value = 10 }
+		command = { type = construct which = coastal_fort where = 2660 value = 10 }
+		command = { type = construct which = land_fort where = 2660 value = 10 }
+		command = { type = construct which = flak where = 2660 value = 10 }
+		command = { type = construct which = air_base where = 2660 value = 10 }
+		command = { type = construct which = naval_base where = 2660 value = 10 }
+		command = { type = construct which = radar_station where = 2660 value = 10 }
+		command = { type = construct which = nuclear_reactor where = 2660 value = 10 }
+		command = { type = construct which = rocket_test where = 2660 value = 10 }
+	}
+}
+
+event = {
+	id = 1424
+	random = no
+	country = U35
+	trigger = {
+			ai = yes
+			technology = 7020
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 1 month = 0 year = 1973 }
+	offset = 30
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+	action_a = {
+		name = "AI_EVENT"
+		command = { type = construct which = infrastructure where = 1524 value = 200 }
+		command = { type = construct which = ic where = 1524 value = 10 }
+		command = { type = construct which = coastal_fort where = 1524 value = 10 }
+		command = { type = construct which = land_fort where = 1524 value = 10 }
+		command = { type = construct which = flak where = 1524 value = 10 }
+		command = { type = construct which = air_base where = 1524 value = 10 }
+		command = { type = construct which = naval_base where = 1524 value = 10 }
+		command = { type = construct which = radar_station where = 1524 value = 10 }
+		command = { type = construct which = nuclear_reactor where = 1524 value = 10 }
+		command = { type = construct which = rocket_test where = 1524 value = 10 }
+	}
+}
+
+event = {
+	id = 1425
+	random = no
+	country = U36
+	trigger = {
+			ai = yes
+			technology = 7020
+	}
+
+	name = "AI_EVENT"
+	desc = "AI_EVENT"
+
+	date = { day = 1 month = 0 year = 1973 }
+	offset = 30
+	deathdate = { day = 29 month = 11 year = 2100 }
+
+	action_a = {
+		name = "AI_EVENT"
+		command = { type = construct which = infrastructure where = 2651 value = 200 }
+		command = { type = construct which = ic where = 2651 value = 10 }
+		command = { type = construct which = coastal_fort where = 2651 value = 10 }
+		command = { type = construct which = land_fort where = 2651 value = 10 }
+		command = { type = construct which = flak where = 2651 value = 10 }
+		command = { type = construct which = air_base where = 2651 value = 10 }
+		command = { type = construct which = naval_base where = 2651 value = 10 }
+		command = { type = construct which = radar_station where = 2651 value = 10 }
+		command = { type = construct which = nuclear_reactor where = 2651 value = 10 }
+		command = { type = construct which = rocket_test where = 2651 value = 10 }
 	}
 }

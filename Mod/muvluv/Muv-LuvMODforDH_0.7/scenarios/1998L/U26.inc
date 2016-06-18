@@ -4,7 +4,7 @@
 ##############################
 
 province =
-{ id              = 1560
+{ id              = 1562
   air_base        = 10
   radar_station   = 10
   
@@ -26,7 +26,7 @@ country =
   oil                 = 50
   supplies            = 200
   money               = 100
-  capital             = 1560
+  capital             = 1562
   transports          = 9999
   escorts             = 9999
   extra_tc            = 9999
@@ -39,15 +39,15 @@ country =
     defense_lobby     = 10
     interventionism   = 10
   }
-  nationalprovinces   = { 1560 }
-  ownedprovinces      = { 1560 }
-  controlledprovinces = { 1560 1417 1418 1535 1538 1547 1561 1562 1384 1412 1413 1414 1415 1416 1520 2660 }
+  nationalprovinces   = { 1562 }
+  ownedprovinces      = { 1562 }
+  controlledprovinces = { 1560 1562 1417 1418 1535 1538 1547 1561 1384 1412 1413 1414 1415 1416 1520 2660 }
   techapps            = { 7020 }
   free                = { energy = 1000 manpower = 9 metal = 1000 rare_materials = 1000 oil = 1000 money = 1000 ic = 300 supplies = 1000 }
   landunit =
   { id       = { type = 16051 id = 1 }
     name     = "クラスノヤルスクハイヴ"
-    location = 1560
+    location = 1562
     division =
     { type   = garrison
       model  = 14

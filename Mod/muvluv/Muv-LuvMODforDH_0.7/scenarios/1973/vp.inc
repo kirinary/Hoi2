@@ -378,6 +378,7 @@ province = { id = 1515 points = 1 } # マドゥライ
 province = { id = 1517 points = 1 } # コロンボ
 province = { id = 1522 points = 1 } # ヤクーツク
 province = { id = 1523 points = 1 } # 北樺太
+province = { id = 1524 points = 3 } # ヴェルホヤンスク
 province = { id = 1525 points = 1 } # ブラゴエスチェンスク
 province = { id = 1537 points = 3 } # ビーゴ
 province = { id = 1543 points = 1 } # ノヴォシビルスク
@@ -402,6 +403,7 @@ province = { id = 1640 points = 2 } # マカッサル
 province = { id = 1644 points = 1 } # クチン
 province = { id = 1646 points = 3 } # バンダルスリブガワン
 province = { id = 1649 points = 2 } # バリクパパン
+province = { id = 1662 points = 5 } # クラスノヤルスク
 province = { id = 1665 points = 2 } # ホランディア
 province = { id = 1666 points = 1 } # ラエ
 province = { id = 1670 points = 1 } # ココポ
